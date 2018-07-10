@@ -1,15 +1,14 @@
 module.exports = {
   siteMetadata: {
-    title: 'CivicActions | Open and Agile Digital Government Services',
+    title: 'Gatsby Default Starter',
   },
   plugins: [
-    `gatsby-plugin-react-helmet`,
-    `gatsby-plugin-sass`,
+    'gatsby-plugin-react-helmet',
     {
       resolve: `gatsby-source-filesystem`,
       options: {
-        path: `${__dirname}/src/pages`,
-        name: 'posts',
+        path: `${__dirname}/src/content`,
+        name: 'case-studies',
       }
     },
     `gatsby-transformer-remark`
