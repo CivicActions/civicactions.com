@@ -6,11 +6,14 @@
   "dependencies": {
     "gatsby": "next",
     "gatsby-plugin-react-helmet": "next",
+    "gatsby-plugin-sass": "^2.0.0-alpha.9",
     "gatsby-source-filesystem": "^1.5.39",
     "gatsby-transformer-remark": "^1.7.44",
+    "node-sass": "^4.9.2",
     "react": "^16.4.1",
     "react-dom": "^16.4.1",
-    "react-helmet": "^5.2.0"
+    "react-helmet": "^5.2.0",
+    "uswds": "^1.6.6"
   },
   "keywords": [
     "gatsby"
