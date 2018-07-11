@@ -1,10 +1,10 @@
 import React from 'react'
-import Link from 'gatsby-link'
+import { Link } from 'gatsby'
 
 const Header = ({ siteTitle }) => (
   <div
     style={{
-      background: '#db1b3b',
+      background: 'rebeccapurple',
       marginBottom: '1.45rem',
     }}
   >

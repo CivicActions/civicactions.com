@@ -6,45 +6,51 @@
 
 const path = require('path');
 
-exports.createPages = ({boundActionCreators, graphql}) => {
-  const {createPage} = boundActionCreators;
+exports.createPages = ({ boundActionCreators, graphql }) => {
+  const { createPage } = boundActionCreators;
 
-  const postTemplate = path.resolve('src/templates/posts.js');
-  const studyTemplate = path.resolve('src/templates/case-study.js');
 
-  return graphql(`{
-    allMarkdownRemark {
-      edges {
-        node {
-          html
-          id
-          frontmatter {
-            path
-            title
-            post_type
+
+  const caseStudyTemplate = path.resolve(`src/templates/caseStudyTemplate.js`);
+  const teamMemberTemplate = path.resolve(`src/templates/teamMemberTemplate.js`);
+
+  return graphql(`
+    {
+      allMarkdownRemark {
+        edges {
+          node {
+            frontmatter {
+              path
+              type
+              title
+              name
+              role
+            }
           }
         }
       }
     }
-  }`)
-    .then(res => {
-      if(res.errors) {
-        return Promise.reject(res.errors);
+  `).then(
+    result => {
+      if (result.errors) {
+        return Promise.reject(result.errors)
       }
 
-      res.data.allMarkdownRemark.edges.forEach(({node}) => {
+      result.data.allMarkdownRemark.edges.forEach(({ node }) => {
 
-        if (node.frontmatter.post_type == 'case-study') {
+        if (node.frontmatter.type === 'team') {
           createPage ({
             path: node.frontmatter.path,
-            component: studyTemplate
+            component: teamMemberTemplate,
+            context: {}
           })
         } else {
           createPage ({
             path: node.frontmatter.path,
-            component: postTemplate
+            component: caseStudyTemplate
           })
         }
-      } )
-    })
+      })
+    }
+  )
 }
