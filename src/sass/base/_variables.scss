@@ -9,25 +9,35 @@
 // own partials, then @import '{path/to/uswds/}core/variables'.
 
 // Typography
+// Function for stripping units from values. Used to set line-heights.
+@function strip-unit($number) {
+  @return $number / ($number * 0 + 1);
+}
 // Removing the !default from $em-base so we are not inheriting that
 // value from Bourbon.
-$em-base:             10px;
-$base-font-size:      1.7rem !default;
-$small-font-size:     1.4rem !default;
-$lead-font-size:      2rem !default;
+$rem-baseline: 10px;
+$line-height: rem(24px);
+
+
+
+$em-base:             16px;
+$base-font-size:      rem(17px) !default;
+$small-font-size:     rem(15px) !default;
+$lead-font-size:      rem(22px) !default;
 $title-font-size:     5.2rem !default;
-$h1-font-size:        4rem !default;
-$h2-font-size:        3rem !default;
-$h3-font-size:        2rem !default;
-$h4-font-size:        1.7rem !default;
-$h5-font-size:        1.5rem !default;
-$h6-font-size:        1.3rem !default;
-$base-line-height:    1.5 !default;
+$stats-font-size:     rem(75px) !default;
+$h1-font-size:        rem(48px) !default;
+$h2-font-size:        rem(44px) !default;
+$h3-font-size:        rem(30px) !default;
+$h4-font-size:        rem(24px) !default;
+$h5-font-size:        $base-font-size !default;
+$h6-font-size:        rem(13px) !default;
+$base-line-height:    strip-unit($line-height) !default;
 $heading-line-height: 1.3 !default;
 $lead-line-height:    1.7 !default;
 
-$font-sans:           'Ubuntu', Helvetica !default;
-$font-serif:          'Lato', Georgia !default;
+$font-sans:           'Lato', Helvetica !default; // used in Headings
+$font-serif:          'Ubuntu', Georgia !default; // used in Body text
 
 // TODO these should be called font-weight-${}
 $font-normal:         400 !default;
