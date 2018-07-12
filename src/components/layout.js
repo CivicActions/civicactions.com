@@ -27,8 +27,8 @@ const Layout = ({ children, data }) => (
           ]}
         />
         <Header siteTitle={data.site.siteMetadata.title} />
-        <main class = "usa-grid">
-          <div class = "usa-width-one-whole">
+        <main className = "usa-grid">
+          <div className = "usa-width-one-whole">
             {children}
            </div>
         </main>
