@@ -12,6 +12,18 @@ module.exports = {
         name: 'case-studies',
       }
     },
-    `gatsby-transformer-remark`
+    `gatsby-transformer-remark`,
+    {
+      resolve: `gatsby-source-medium`,
+      options: {
+        username: `civicactions`,
+      },
+    },
+    {
+      resolve: `gatsby-source-medium`,
+      options: {
+        username: `dkan-blog`,
+      },
+    },
   ],
 }
