@@ -1,7 +1,9 @@
 // Template for displaying individual team-member content
 
 import React from 'react';
+import Helmet from 'react-helmet'
 import { graphql } from 'gatsby';
+import Header from './../components/header'
 
 export default function Template({data}) {
   const{ markdownRemark } = data;
@@ -9,14 +11,23 @@ export default function Template({data}) {
 
   return (
     <div>
-      <h1>{ frontmatter.name }</h1>
-      <h3>This is the team member template. </h3>
+      { /* Helmet is used to set page title and meta.
+           Details here: https://github.com/nfl/react-helmet */
+      }
+      <Helmet
+        title= {`CivicActions | ${frontmatter.name}`}
+        meta={[
+                { name: 'description', content: 'Sample' },
+                { name: 'keywords', content: 'sample, something' },
+              ]}
+      />
+      <Header siteTitle = {frontmatter.name} />
       <p dangerouslySetInnerHTML = {{ __html: html}} />
     </div>
   );
 };
 
-// Query case study content
+// Query for case study content. This rarely needs to be changed
 export const teamQuery = graphql `
   query TeamByPath($path: String!) {
     markdownRemark(frontmatter: { path: { eq: $path } } ) {
