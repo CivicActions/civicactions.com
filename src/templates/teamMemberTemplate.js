@@ -3,7 +3,7 @@
 import React from 'react';
 import Helmet from 'react-helmet'
 import { graphql } from 'gatsby';
-import Header from './../components/Header'
+import Header from './../components/header/Header'
 
 export default function Template({data}) {
   const{ markdownRemark } = data;
