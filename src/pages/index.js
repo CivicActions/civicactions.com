@@ -6,6 +6,10 @@ import { graphql } from 'gatsby'
 import Layout from '../components/layout'
 import MediumPostList from '../components/medium-components/mediumPostList';
 
+// Host Google Fonts locally
+require('typeface-ubuntu');
+require('typeface-lato');
+
 const IndexPage = ({data}) => {
 
   const { allMediumPost } = data;

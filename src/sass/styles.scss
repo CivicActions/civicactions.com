@@ -1,3 +1,7 @@
 // USWDS Stylesheets
+
+//https://github.com/pierreburel/sass-rem
+@import "../../node_modules/sass-rem/rem";
+
 @import "base/variables";
 @import '../../node_modules/uswds/src/stylesheets/uswds';
