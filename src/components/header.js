@@ -1,13 +1,12 @@
 import React from 'react'
-import { Link } from 'gatsby'
+
+import Logo from './atoms/logo/Logo';
 
 const Header = ({ siteTitle }) => (
-  <header>
+  <header class = "section header__main">
     <div className = "usa-grid">
-      <h1 className = "usa-width-one-whole">
-        <Link to="/">
-          {siteTitle}
-        </Link>
+      <h1 className = "usa-width-one-third">
+        <Logo siteTitle = { siteTitle } />
       </h1>
     </div>
   </header>

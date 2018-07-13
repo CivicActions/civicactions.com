@@ -1,0 +1,13 @@
+.header__main {
+  background-color: $color-secondary;
+}
+
+.logo {
+  &__image {
+    max-width: 150px;
+
+    @include media($medium-screen) {
+      max-width: 200px;
+    }
+  }
+}
