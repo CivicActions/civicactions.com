@@ -11,10 +11,10 @@ const Logo = ({siteTitle}) => {
   return(
     <Link to="/" className = "logo">
       <img src= { logo }
-           srcset= { srcset }
+           srcSet= { srcset }
            alt= { siteTitle }
            retina_logo_url= { logo2x }
-           class="logo__image"
+           className="logo__image"
       />
     </Link>
   );
