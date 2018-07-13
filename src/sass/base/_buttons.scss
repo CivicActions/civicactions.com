@@ -37,7 +37,7 @@ button,
   @include font-smoothing;
   @include margin(0.5em 0.5em 0.5em null);
   appearance: none;
-  background-color: $color-secondary;
+  background-color: $color-primary;
   border: 0;
   border-radius: $button-border-radius;
   color: $color-white;
@@ -51,7 +51,7 @@ button,
   text-align: center;
   text-decoration: none;
   width: 100%;
-  box-shadow: $drop-shadow $color-secondary-darkest;
+  box-shadow: $drop-shadow $color-primary-darkest;
 
   @include media($small-screen) {
     width: auto;
@@ -59,7 +59,7 @@ button,
 
   &:hover,
   &.usa-button-hover {
-    background-color: $color-secondary-darkest;
+    background-color: $color-primary-darkest;
     border-bottom: 0;
     color: $color-white;
     text-decoration: none;
@@ -74,7 +74,7 @@ button,
   &:focus,
   &.usa-focus {
     outline: none;
-    box-shadow: $drop-shadow $color-secondary-darkest, $outline;
+    box-shadow: $drop-shadow $color-primary-darkest, $outline;
   }
 
   &.usa-button-primary-alt {
@@ -95,21 +95,21 @@ button,
 
   &.usa-button-secondary {
     background-color: $color-white;
-    box-shadow: $drop-shadow $color-secondary;
-    border: 2px solid $color-secondary;
-    color: $color-secondary;
+    box-shadow: $drop-shadow $color-primary;
+    border: 2px solid $color-primary;
+    color: $color-primary;
 
     &:hover,
     &.usa-button-hover {
-      box-shadow: $drop-shadow $color-secondary-darkest;
-      color: $color-secondary-darkest;
-      background-color: $color-secondary-extralight;
+      box-shadow: $drop-shadow $color-primary-darkest;
+      color: $color-primary-darkest;
+      background-color: $color-primary-extralight;
     }
 
     &:focus,
     &.usa-focus {
-      box-shadow: $drop-shadow $color-secondary-darkest, $outline;
-      color: $color-secondary-darkest;
+      box-shadow: $drop-shadow $color-primary-darkest, $outline;
+      color: $color-primary-darkest;
       outline: none;
 
     }
@@ -117,8 +117,8 @@ button,
     &:active,
     &.usa-button-active {
       color: $white;
-      background-color: $color-secondary-darkest;
-      border-color: $color-secondary-darkest;
+      background-color: $color-primary-darkest;
+      border-color: $color-primary-darkest;
       box-shadow: none;
 
       > a {
@@ -127,10 +127,10 @@ button,
     }
 
     > a {
-      color: $color-secondary;
+      color: $color-primary;
 
       &:hover {
-        color: $color-secondary-darkest;
+        color: $color-primary-darkest;
       }
     }
   }
@@ -169,16 +169,16 @@ button,
   }
 
   &.usa-button-red {
-    background-color: $color-primary;
+    background-color: $color-secondary;
 
     &:hover,
     &.usa-button-hover {
-      background-color: $color-primary-darker;
+      background-color: $color-secondary-darkest;
     }
 
     &:active,
     &.usa-button-active {
-      background-color: $color-primary-darkest;
+      background-color: $color-secondary-darkest;
     }
   }
 

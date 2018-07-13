@@ -53,9 +53,11 @@ $white: #fff;
 $black: #000;
 
 // Functional colors
-$color-primary:              $red !default;
-$color-primary-darker:       darken($red, 5%);
+$color-primary:              $teal !default;
+$color-primary-darker:       darken($color-primary, 5%);
 $color-primary-darkest:      darken($color-primary, 10%) !default;
+$color-primary-extralight:   lighten($color-primary, 65%) !default;
+
 
 $color-primary-alt:          $coral !default;
 $color-primary-alt-dark:     darken($color-primary-alt, 5%) !default;
@@ -63,12 +65,11 @@ $color-primary-alt-darkest:  darken($color-primary-alt, 10%) !default
 $color-primary-alt-light:    lighten($color-primary-alt, 5%) !default;
 $color-primary-alt-lightest: lighten($color-primary-alt, 10%) !default;
 
-$color-secondary:            $teal !default;
+$color-secondary:            $red !default;
 $color-secondary-dark:       darken($color-secondary, 5%) !default;
 $color-secondary-darkest:    darken($color-secondary, 10%) !default;
 $color-secondary-light:      lighten($color-secondary, 5%) !default;
 $color-secondary-lightest:   lighten($color-secondary, 10%) !default;
-$color-secondary-extralight: lighten($color-secondary, 65%) !default;
 
 $color-base:                 $navy !default;
 $color-focus:                $neutral !default;
