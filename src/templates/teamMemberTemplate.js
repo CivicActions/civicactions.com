@@ -3,7 +3,7 @@
 import React from 'react';
 import Helmet from 'react-helmet'
 import { graphql } from 'gatsby';
-import Header from './../components/header'
+import Header from './../components/Header'
 
 export default function Template({data}) {
   const{ markdownRemark } = data;
@@ -21,7 +21,7 @@ export default function Template({data}) {
                 { name: 'keywords', content: 'sample, something' },
               ]}
       />
-      <Header siteTitle = {frontmatter.name} />
+      <Header siteTitle = "CivicActions" />
       <p dangerouslySetInnerHTML = {{ __html: html}} />
     </div>
   );

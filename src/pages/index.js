@@ -3,7 +3,7 @@ import _ from 'lodash'
 import { Link } from 'gatsby'
 import { graphql } from 'gatsby'
 
-import Layout from '../components/layout'
+import Layout from '../components/Layout'
 import MediumPostList from '../components/medium-components/mediumPostList';
 import Button from '../components/atoms/Buttons'
 
