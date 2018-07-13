@@ -9,7 +9,7 @@ const Button = ({type, button_text, link}) => {
 
   return (
     <button className = { buttonClass }>
-      <a href = { link }>{ button_text } </a>
+      <a alt = { button_text } href = { link }>{ button_text } </a>
     </button>
   );
 
@@ -18,7 +18,7 @@ const Button = ({type, button_text, link}) => {
 export default Button;
 
 Button.propTypes = {
-  type: PropTypes.string,
-  button_text: PropTypes.string,
-  link: PropTypes.string
+  type: PropTypes.string, // can be 'primary', 'secondary' or 'dark'
+  button_text: PropTypes.string, // Text that the button should display
+  link: PropTypes.string // Link for the button text
 };
