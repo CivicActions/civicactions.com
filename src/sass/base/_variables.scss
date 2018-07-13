@@ -44,74 +44,36 @@ $font-normal:         400 !default;
 $font-bold:           700 !default;
 
 // Color
-$color-blue:                 #0071bc !default;
-$color-blue-darker:          #205493 !default;
-$color-blue-darkest:         #112e51 !default;
-
-$color-aqua:                 #02bfe7 !default;
-$color-aqua-dark:            #00a6d2 !default;
-$color-aqua-darkest:         #046b99 !default;
-$color-aqua-light:           #9bdaf1 !default;
-$color-aqua-lightest:        #e1f3f8 !default;
-
-$color-red:                  #e31c3d !default;
-$color-red-dark:             #cd2026 !default;
-$color-red-darkest:          #981b1e !default;
-$color-red-light:            #e59393 !default;
-$color-red-lightest:         #f9dede !default;
-
-$color-white:                #ffffff !default;
-$color-black:                #000000 !default;
-$color-black-light:          #212121 !default;
-
-$color-gray-dark:            #323a45 !default;
-$color-gray:                 #5b616b !default;
-$color-gray-medium:          #757575 !default;
-$color-gray-light:           #aeb0b5 !default;
-$color-gray-lighter:         #d6d7d9 !default;
-$color-gray-lightest:        #f1f1f1 !default;
-
-$color-gray-warm-dark:       #494440 !default;
-$color-gray-warm-light:      #e4e2e0 !default;
-$color-gray-cool-light:      #dce4ef !default;
-
-$color-gold:                 #fdb81e !default;
-$color-gold-light:           #f9c642 !default;
-$color-gold-lighter:         #fad980 !default;
-$color-gold-lightest:        #fff1d2 !default;
-
-$color-green:                #2e8540 !default;
-$color-green-light:          #4aa564 !default;
-$color-green-lighter:        #94bfa2 !default;
-$color-green-lightest:       #e7f4e4 !default;
-
-$color-cool-blue:            #205493 !default;
-$color-cool-blue-light:      #4773aa !default;
-$color-cool-blue-lighter:    #8ba6ca !default;
-$color-cool-blue-lightest:   #dce4ef !default;
-
-$color-purple:               #4c2c92 !default;
+$red: #db1b3b;
+$coral: #ff564a;
+$teal: #097c86;
+$navy: #002f43;
+$neutral: #fff7f6;
+$white: #fff;
+$black: #000;
 
 // Functional colors
-$color-primary:              $color-blue !default;
-$color-primary-darker:       $color-blue-darker !default;
-$color-primary-darkest:      $color-blue-darkest !default;
+$color-primary:              $teal !default;
+$color-primary-darker:       darken($color-primary, 5%);
+$color-primary-darkest:      darken($color-primary, 10%) !default;
+$color-primary-extralight:   lighten($color-primary, 65%) !default;
 
-$color-primary-alt:          $color-aqua !default;
-$color-primary-alt-dark:     $color-aqua-dark !default;
-$color-primary-alt-darkest:  $color-aqua-darkest !default;
-$color-primary-alt-light:    $color-aqua-light !default;
-$color-primary-alt-lightest: $color-aqua-lightest !default;
 
-$color-secondary:            $color-red !default;
-$color-secondary-dark:       $color-red-dark !default;
-$color-secondary-darkest:    $color-red-darkest !default;
-$color-secondary-light:      $color-red-light !default;
-$color-secondary-lightest:   $color-red-lightest !default;
+$color-primary-alt:          $coral !default;
+$color-primary-alt-dark:     darken($color-primary-alt, 5%) !default;
+$color-primary-alt-darkest:  darken($color-primary-alt, 10%) !default
+$color-primary-alt-light:    lighten($color-primary-alt, 5%) !default;
+$color-primary-alt-lightest: lighten($color-primary-alt, 10%) !default;
 
-$color-base:                 $color-black-light !default;
-$color-focus:                $color-gray-light !default;
-$color-visited:              $color-purple !default;
+$color-secondary:            $red !default;
+$color-secondary-dark:       darken($color-secondary, 5%) !default;
+$color-secondary-darkest:    darken($color-secondary, 10%) !default;
+$color-secondary-light:      lighten($color-secondary, 5%) !default;
+$color-secondary-lightest:   lighten($color-secondary, 10%) !default;
+
+$color-base:                 $navy !default;
+$color-focus:                $neutral !default;
+$color-visited:              $teal !default;
 
 $color-shadow:               rgba(#000, 0.3) !default;
 $color-transparent:          rgba(#000, 0) !default;
@@ -152,9 +114,9 @@ $input-max-width:               46rem !default;
 $label-border-radius:           2px !default;
 $checkbox-border-radius:        2px !default;
 $border-radius:                 3px !default;
-$button-border-radius:          5px !default;
+$button-border-radius:          0 !default;
 $box-shadow:                    0 0 2px $color-shadow !default;
-$focus-outline:                 2px dotted $color-gray-light !default;
+$focus-outline:                 2px dotted $neutral !default;
 $focus-spacing:                 3px !default;
 $nav-width:                     951px !default;
 $sidenav-current-border-width:  0.4rem !default; // must be in rem for math

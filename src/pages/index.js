@@ -5,6 +5,7 @@ import { graphql } from 'gatsby'
 
 import Layout from '../components/layout'
 import MediumPostList from '../components/medium-components/mediumPostList';
+import Button from '../components/atoms/Buttons'
 
 // Host Google Fonts locally
 require('typeface-ubuntu');
@@ -29,6 +30,9 @@ const IndexPage = ({data}) => {
       <p>Welcome to your new Gatsby site.</p>
       <p>Now go build something great.</p>
       <Link to = "/page-2/" >Go to page 2</Link>
+      <hr />
+      <Button type = 'secondary' button_text = 'Test button' />
+
 
       { mediumPosts }
     </Layout>
