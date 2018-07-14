@@ -1,0 +1,7 @@
+pipeline:
+  docker:
+    image: plugins/docker
+    registry: gcr.io
+    repo: 898827231945/home
+    dockerfile: Dockerfile
+    tags: latest
