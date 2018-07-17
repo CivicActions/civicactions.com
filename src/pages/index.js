@@ -3,7 +3,7 @@ import _ from 'lodash'
 import { Link } from 'gatsby'
 import { graphql } from 'gatsby'
 
-import Layout from '../components/layout'
+import Layout from '../components/Layout'
 import MediumPostList from '../components/medium-components/mediumPostList';
 import Button from '../components/atoms/Buttons'
 
@@ -26,13 +26,11 @@ const IndexPage = ({data}) => {
 
   return (
     <Layout>
-      <h1>Hi people</h1>
-      <p>Welcome to your new Gatsby site.</p>
-      <p>Now go build something great.</p>
+      <h1>Hello world</h1>
+
       <Link to = "/page-2/" >Go to page 2</Link>
       <hr />
       <Button type = 'secondary' button_text = 'Test button' />
-
 
       { mediumPosts }
     </Layout>

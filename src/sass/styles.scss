@@ -7,3 +7,6 @@
 @import '../../node_modules/uswds/src/stylesheets/uswds';
 
 @import "base/base";
+
+// Import components after global imports
+@import "components/components";
