@@ -5,6 +5,7 @@ const Button = ({type, button_text, link}) => {
   const buttonClass =
     (type === 'secondary') ? 'usa-button-secondary':
     (type === 'dark') ? 'usa-button-secondary-inverse':
+    (type === 'hero') ? 'usa-button-navy':
       'usa-button';
 
   return (

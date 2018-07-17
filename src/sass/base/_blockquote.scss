@@ -1,0 +1,51 @@
+.blockquote__wrapper {
+   &.home__content--wrapper {
+     @include flex-item;
+   }
+}
+
+// Home page content section
+.home__content {
+
+  &--text {
+    color: $color-secondary;
+  }
+
+  &--quote {
+    font-size: $lead-font-size;
+    font-style: italic;
+
+    blockquote {
+      margin: 0;
+    }
+
+    cite {
+      font-size: $base-font-size;
+      font-style: normal;
+      color: $color-secondary;
+      font-weight: bold;
+    }
+  }
+
+  @media screen and (min-width: $small-screen) {
+    @include flex-container($justify-content: space-between);
+
+    &--text,
+    &--quote {
+      @include flex-item;
+    }
+
+    &--text {
+      width: 33.33%;
+    }
+
+    &--quote {
+      width: 60%;
+    }
+  }
+
+}
+
+hr {
+  display: none;
+}
