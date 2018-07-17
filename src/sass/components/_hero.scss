@@ -1,0 +1,41 @@
+.hero {
+  color: $white;
+  font-size: $lead-font-size;
+  margin-bottom: 50px;
+
+  &__title {
+    margin-top: 0;
+  }
+
+  button {
+    margin: $line-height auto;
+  }
+
+
+  @include breakpoint($medium-screen) {
+
+
+    &__text,
+    &__image--wrapper {
+      display: inline-block;
+      vertical-align: middle;
+    }
+
+    &__text {
+      width: 35%;
+    }
+
+    &__image--wrapper {
+      width: 60%;
+      padding-left: $gutter;
+
+      .gatsby-image-wrapper {
+        width: 100vw;
+        position: relative;
+        max-width: 760px;
+      }
+    }
+  }
+
+
+}
