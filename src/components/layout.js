@@ -4,7 +4,11 @@ import Helmet from 'react-helmet'
 import { StaticQuery, graphql } from "gatsby"
 
 import Header from './header/Header'
+import Hero from './header/Hero';
+
 import '../sass/styles.scss';
+import header_bg from './header/background_bg-hero.png';
+
 
 const Layout = ({ children, data }) => (
   <StaticQuery
@@ -15,9 +19,29 @@ const Layout = ({ children, data }) => (
             title
           }
         }
+
+      markdownRemark(frontmatter: {path: { eq: "/" }}) {
+      html
+      frontmatter {
+        path
+        title
+        subtitle
+        cta_text
+        cta_link
+        quote
+        banner_image {
+          childImageSharp {
+            resize(width: 980) {
+              src
+            }
+          }
+        }
       }
+    }
+    }
     `}
     render={data => (
+
       <>
         <Helmet
           title={data.site.siteMetadata.title}
@@ -26,9 +50,13 @@ const Layout = ({ children, data }) => (
             { name: 'keywords', content: 'sample, something' },
           ]}
         />
+        <header className = "section header__main"
+              style = {{ backgroundImage: "url(" + header_bg + ")" }}>
         <Header siteTitle={data.site.siteMetadata.title} />
-        <main className = "usa-grid">
-          <div className = "usa-width-one-whole">
+        <Hero info = {data.markdownRemark.frontmatter}/>
+        </header>
+        <main>
+          <div>
             {children}
            </div>
         </main>
