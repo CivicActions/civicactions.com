@@ -3,10 +3,14 @@ import _ from 'lodash'
 import { Link } from 'gatsby'
 import { graphql } from 'gatsby'
 
+//Components
 import Layout from '../components/Layout'
 import MediumPostList from '../components/medium-components/mediumPostList';
+
+// Atoms
 import Button from '../components/atoms/Buttons'
 import Blockquote from '../components/atoms/Blockquote'
+import SectionTitle from '../components/atoms/SectionTitle'
 
 // Host Google Fonts locally
 require('typeface-ubuntu');
@@ -28,12 +32,21 @@ const IndexPage = ({data}) => {
 
   return (
     <Layout>
-      <section className = "home__content usa-grid">
-        { /* The Text and Blockquote content in the Home Content section is pulled from '/content/home.md' */}
+
+      { /* The Home page content and blockquote section.
+           The content in this section is pulled from '/content/home.md' */
+      }
+      <section className = "home__content usa-grid section">
         <h3 className = "home__content--text" dangerouslySetInnerHTML = {{ __html: html}} />
         <Blockquote content = {frontmatter} quote_class = "home__content--quote " />
       </section>
-      <section>{ mediumPosts }</section>
+
+      {/* The Recent Posts from Medium Section.*/}
+      <section className = "section section__recent-posts usa-grid">
+        <SectionTitle title = "See what we've been up to" />
+        { mediumPosts }
+      </section>
+
       <Link to = "/page-2/" >Go to page 2</Link>
     </Layout>
   );

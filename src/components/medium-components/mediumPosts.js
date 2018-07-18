@@ -9,9 +9,9 @@ const MediumPosts = ({data}) => {
     _.map(data, (single) => {
      return _.map(single, (last, index) => {
         return (
-          <ul  key = { index } className = "medium--teaser">
+          <li  key = { index } className = "medium--teaser__item teaser__item">
             <MediumSinglePost key = { index } single = {last.node} />
-          </ul>
+          </li>
         );
       })
     })
