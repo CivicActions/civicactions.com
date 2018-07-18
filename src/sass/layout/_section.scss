@@ -1,0 +1,37 @@
+.section {
+  margin-bottom: $section-margin;
+
+  &__title {
+    color: $color-secondary;
+
+    // Red border above section title
+    &:before {
+      content: "";
+      width: 100px;
+      height: 10px;
+      background-color: $color-secondary;
+      display: block;
+    }
+  }
+
+  //-------------------------------------
+  // RECENT POSTS SECTION IN THE HOMEPAGE
+  //-------------------------------------
+
+  &__recent-posts {
+    @media all and (min-width: $medium-screen) {
+      @include flex-container;
+      justify-content: space-between;
+
+      .section__title {
+        @include flex-item;
+        width: 33.33%;
+      }
+
+      .teaser--wrapper {
+        @include flex-item;
+        width: 60%;
+      }
+    }
+  }
+}

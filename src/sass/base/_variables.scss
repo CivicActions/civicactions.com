@@ -89,6 +89,9 @@ $grid-columns-small: 1 !default;
 $grid-columns-medium: 6 !default;
 $grid-columns-large: 12 !default;
 
+// Extra Layout classes
+$section-margin: rem(50px);
+
 // @media single-keyword helpers
 $small: new-breakpoint(min-width $small-screen $grid-columns-small) !default;
 $medium: new-breakpoint(min-width $medium-screen $grid-columns-medium) !default;
