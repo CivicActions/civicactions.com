@@ -46,8 +46,7 @@ const IndexPage = ({data}) => {
         <SectionTitle title = "See what we've been up to" />
         { mediumPosts }
       </section>
-
-      <Link to = "/page-2/" >Go to page 2</Link>
+      
     </Layout>
   );
 

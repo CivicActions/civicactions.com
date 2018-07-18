@@ -3,6 +3,7 @@
 
   &__title {
     color: $color-secondary;
+    text-transform: capitalize;
 
     // Red border above section title
     &:before {
