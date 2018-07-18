@@ -168,6 +168,41 @@ button,
     }
   }
 
+  &.usa-button-navy {
+    background-color: $navy;
+    box-shadow: $drop-shadow $navy;
+    border: 2px solid $navy;
+    color: $color-primary;
+
+    a,
+    a:visited {
+      color: $white;
+    }
+
+    &:hover,
+    &.usa-button-hover {
+      background-color: darken($navy, 5%);
+      box-shadow: $drop-shadow darken($navy, 5%);
+      border: 2px solid darken($navy, 5%);
+      color: darken($navy, 5%);
+
+      a,
+      a:visited {
+        color: $white;
+      }
+    }
+
+    &:active,
+    &.usa-button-active {
+      background-color: darken($navy, 10%);
+
+      a,
+      a:visited {
+        color: $white;
+      }
+    }
+  }
+
   &.usa-button-red {
     background-color: $color-secondary;
 

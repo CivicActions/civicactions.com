@@ -6,6 +6,7 @@ import { graphql } from 'gatsby'
 import Layout from '../components/Layout'
 import MediumPostList from '../components/medium-components/mediumPostList';
 import Button from '../components/atoms/Buttons'
+import Blockquote from '../components/atoms/Blockquote'
 
 // Host Google Fonts locally
 require('typeface-ubuntu');
@@ -13,8 +14,9 @@ require('typeface-lato');
 
 const IndexPage = ({data}) => {
 
-  const { allMediumPost } = data;
+  const { allMediumPost, markdownRemark } = data;
   const { group } = allMediumPost;
+  const { html, frontmatter } = markdownRemark;
 
   let mediumCaPosts = _.first(group, (edges) => {
      return edges;
@@ -26,13 +28,13 @@ const IndexPage = ({data}) => {
 
   return (
     <Layout>
-      <h1>Hello world</h1>
-
+      <section className = "home__content usa-grid">
+        { /* The Text and Blockquote content in the Home Content section is pulled from '/content/home.md' */}
+        <h3 className = "home__content--text" dangerouslySetInnerHTML = {{ __html: html}} />
+        <Blockquote content = {frontmatter} quote_class = "home__content--quote " />
+      </section>
+      <section>{ mediumPosts }</section>
       <Link to = "/page-2/" >Go to page 2</Link>
-      <hr />
-      <Button type = 'secondary' button_text = 'Test button' />
-
-      { mediumPosts }
     </Layout>
   );
 
@@ -41,8 +43,8 @@ const IndexPage = ({data}) => {
 export default IndexPage
 
 export const mediumQuery = graphql `
-    query mediumPosts {
-    allMediumPost {
+    query mediumPosts($path: String!) {
+    allMediumPost(limit: 3) {
       group(field: homeCollectionId ) {
         edges {
           node {
@@ -50,6 +52,26 @@ export const mediumQuery = graphql `
             title
             createdAt
             uniqueSlug
+          }
+        }
+      }
+    }
+
+     markdownRemark(frontmatter: { path: { eq: $path } } ) {
+      html
+      frontmatter {
+        path
+        title
+        subtitle
+        cta_text
+        cta_link
+        quote
+        quote_source
+        banner_image {
+          childImageSharp {
+            resize(width: 980) {
+              src
+            }
           }
         }
       }

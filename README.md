@@ -5,8 +5,9 @@ CivicActions home site
 For an overview of the project structure please refer to the [Gatsby documentation - Building with Components](https://www.gatsbyjs.org/docs/building-with-components/).
 
 ## Requirements
--- A recent version of [Node.js](https://nodejs.org/en/)
--- Npm: https://www.npmjs.com/get-npm
+* A recent version of [Node.js](https://nodejs.org/en/)
+* Npm: https://www.npmjs.com/get-npm
+* [Yarn](https://yarnpkg.com/lang/en/)
 
 ## Install
 Clone the git repository:
@@ -26,7 +27,7 @@ npm install --global gatsby-cli
 
 And run from your CLI:
 ```sh
-npm install
+yarn
 ```
 
 Fire up the development server:

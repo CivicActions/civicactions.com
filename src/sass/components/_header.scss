@@ -11,3 +11,14 @@
     }
   }
 }
+
+// For a strange bug that hides all processed images.
+.gatsby-image-wrapper {
+  overflow: visible !important;
+
+  img {
+    position: relative !important;
+    top: unset !important;
+    bottom: -25px;
+  }
+}
