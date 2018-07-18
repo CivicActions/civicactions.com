@@ -8,7 +8,11 @@ const MediumPostList = ({ posts }) => {
   // Iterate through the first level of the medium posts objects;
   return (
     _.map(posts, (article, index) => {
-      return <MediumPosts key = {{ index }} data = {{ article }} />
+      return (
+        <ul className = "medium--teasers teaser--wrapper">
+          <MediumPosts key = {{ index }} data = {{ article }} />
+        </ul>
+      )
     })
   )
 

@@ -1,4 +1,5 @@
 import React from 'react';
+import Teaser from '../Teaser';
 
 //This displays a single medium teaser
 export default function MediumSinglePost({single}) {
@@ -8,11 +9,11 @@ export default function MediumSinglePost({single}) {
   let mediumTitle = single.title;
 
   return (
-    <li key = { single.id }>
-      <div className = "medium--teaser__date"> { mediumDate } </div>
-      <h3 className = "medium--teaser__title"> { mediumTitle } </h3>
-      <div className = "medium--teaser__link"> <a href = { mediumLink }>Read More</a> </div>
-    </li>
+      <Teaser
+        teaserDate = { mediumDate }
+        teaserTitle = { mediumTitle }
+        teaserLink = { mediumLink }
+      />
   );
 
 }
