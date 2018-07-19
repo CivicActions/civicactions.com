@@ -1,27 +1,29 @@
 import React from 'react'
-import Img from "gatsby-image";
+import PropTypes from 'prop-types';
 
 import Button from "../atoms/Buttons"
 
-const Hero = (info) => {
-  const title = info.info.title;
-  const subtitle = info.info.subtitle;
-  const image = info.info.banner_image.childImageSharp.resize;
-  const ctaText = info.info.cta_text;
-  const ctaLink = info.info.cta_link;
+const Hero = ({title, subtitle, cta_text, cta_link}) => {
+
+  // The button gets displayed only if the Button text is set.
+  const button = cta_text ? <Button type = 'hero' button_text = { cta_text } link = { cta_link } /> : '';
 
   return(
     <section className = "hero usa-grid">
       <div className = "hero__text">
         <h1 className = "hero__title">{ title }</h1>
         <div className = "hero__intro-text">{ subtitle }</div>
-        <Button type = 'hero' button_text = { ctaText } link = { ctaLink } />
-      </div>
-      <div className = "hero__image--wrapper">
-        <Img sizes = {image} />
+        {button}
       </div>
     </section>
   );
 }
 
 export default Hero;
+
+Hero.propTypes = {
+  title: PropTypes.string, // The Hero title
+  subtitle: PropTypes.string, // The Hero subtitle
+  cta_text: PropTypes.string, // Text that the button should display
+  cta_link: PropTypes.string // Link for the button text
+};

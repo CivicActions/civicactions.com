@@ -3,11 +3,11 @@ import PropTypes from 'prop-types'
 import Helmet from 'react-helmet'
 import { StaticQuery, graphql } from "gatsby"
 
-import Header from './header/Header'
-import Hero from './header/Hero';
+import Header from './../header/Header'
+import HeroHome from './../header/HeroHome';
 
-import '../sass/styles.scss';
-import header_bg from './header/background_bg-hero.png';
+import '../../sass/styles.scss';
+import header_bg from './../header/background_bg-hero.png';
 
 
 const Layout = ({ children, data }) => (
@@ -53,7 +53,7 @@ const Layout = ({ children, data }) => (
         <header className = "section header__main"
               style = {{ backgroundImage: "url(" + header_bg + ")" }}>
         <Header siteTitle={data.site.siteMetadata.title} />
-        <Hero info = {data.markdownRemark.frontmatter}/>
+        <HeroHome info = {data.markdownRemark.frontmatter}/>
         </header>
         <main>
           <div>
