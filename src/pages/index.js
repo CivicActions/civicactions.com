@@ -1,14 +1,12 @@
 import React from 'react'
 import _ from 'lodash'
-import { Link } from 'gatsby'
 import { graphql } from 'gatsby'
 
 //Components
-import Layout from '../components/Layout'
+import HomeLayout from '../components/layouts/HomeLayout'
 import MediumPostList from '../components/medium-components/mediumPostList';
 
 // Atoms
-import Button from '../components/atoms/Buttons'
 import Blockquote from '../components/atoms/Blockquote'
 import SectionTitle from '../components/atoms/SectionTitle'
 
@@ -31,7 +29,7 @@ const IndexPage = ({data}) => {
   });
 
   return (
-    <Layout>
+    <HomeLayout>
 
       { /* The Home page content and blockquote section.
            The content in this section is pulled from '/content/home.md' */
@@ -46,8 +44,8 @@ const IndexPage = ({data}) => {
         <SectionTitle title = "See what we've been up to" />
         { mediumPosts }
       </section>
-      
-    </Layout>
+
+    </HomeLayout>
   );
 
 }
