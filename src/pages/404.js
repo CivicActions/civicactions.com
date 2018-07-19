@@ -1,11 +1,11 @@
 import React from 'react'
-import Layout from '../components/Layout'
+import GeneralLayout from '../components/layouts/GeneralLayout'
 
 const NotFoundPage = () => (
-  <Layout>
+  <GeneralLayout>
     <h1>NOT FOUND</h1>
     <p>You just hit a path that doesn&#39;t exist... the sadness.</p>
-  </Layout>
+  </GeneralLayout>
 )
 
 export default NotFoundPage
