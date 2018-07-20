@@ -1,8 +1,8 @@
 ---
 path: /
 type: home
-title: Home Page Intro Title Changed
-subtitle: Home Page intro text. This can be a longer content block
+title: Home Page Title
+subtitle: Home Page Hero subtitle.
 banner_image: "./beach-boat.jpg"
 cta_text: Learn about our approach
 cta_link: /our-approach

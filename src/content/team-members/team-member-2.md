@@ -1,9 +1,9 @@
 ---
 path: /team/team-member-2
 type: team
-name: Derek Smith
-role: Code ninja
-----------------
+name: Fabrice Coffrini
+role: Wordsmith
+---------------
 
 ## Hello!
 This is the second team member
