@@ -11,11 +11,15 @@ const Careers = ({data}) => {
   console.log(edges);
 
   const jobs = _.map(edges, (job, index) => {
+
+    let url = `http://civicactions.applytojob.com/apply/${job.node.board_code}`;
+
     return (
         <li key = { job.node.id }>
           <h4>{ job.node.title }</h4>
           <p>Location: { job.node.city}, { job.node.state }</p>
           <p>Type: { job.node.type }</p>
+          <a href = {url} > View Details</a>
         </li>
       )
   });
@@ -44,6 +48,7 @@ export const jobsQuery = graphql `
           city,
           state,
           type,
+          board_code
         }
       }
     }
