@@ -63,4 +63,9 @@ git remote add myfork [link used to clone your fork]
 9. Create a PR in the main repo.
 
 ## Deploy
-WIP
+### Deploying the static site in Github pages
+To deploy the current work in the master branch run: 
+```
+npm run deploy
+```
+This will push updated changes to the origin/gh-pages branch which updates the static page.

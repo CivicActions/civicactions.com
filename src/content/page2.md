@@ -1,8 +1,8 @@
 ---
 path: /page-2
 type: general
-title: Second Intro Title
-subtitle: Second Page intro text. This can be a longer content block
+title: Second Page Title
+subtitle: Second Page subtitle
 banner_image: "./beach-boat.jpg"
 cta_text: Learn about our approach
 cta_link: /our-approach
