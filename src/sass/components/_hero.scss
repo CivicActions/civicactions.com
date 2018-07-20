@@ -5,34 +5,39 @@
 
   &__title {
     margin-top: 0;
+    text-align: center;
   }
 
   button {
     margin: $line-height auto;
   }
 
+  //----- Styles for the HeroHome component------
+  &.hero--home {
 
-  @include breakpoint($medium-screen) {
+    .hero__title {text-align: left;}
 
+    @include breakpoint($medium-screen) {
 
-    &__text,
-    &__image--wrapper {
-      display: inline-block;
-      vertical-align: middle;
-    }
+      .hero__text,
+      .hero__image--wrapper {
+        display: inline-block;
+        vertical-align: middle;
+      }
 
-    &__text {
-      width: 35%;
-    }
+      .hero__text {
+        width: 35%;
+      }
 
-    &__image--wrapper {
-      width: 60%;
-      padding-left: $gutter;
+      .hero__image--wrapper {
+        width: 60%;
+        padding-left: $gutter;
 
-      .gatsby-image-wrapper {
-        width: 100vw;
-        position: relative;
-        max-width: 760px;
+        .gatsby-image-wrapper {
+          width: 100vw;
+          position: relative;
+          max-width: 760px;
+        }
       }
     }
   }

@@ -1,8 +1,11 @@
 import React from 'react'
+import { graphql } from 'gatsby'
 
 import Logo from './../atoms/logo/Logo';
 
-const Header = ({ siteTitle }) => {
+const Header = ({ data, siteTitle }) => {
+
+  console.log(data);
 
   return(
     <div className = "usa-grid">
@@ -14,3 +17,13 @@ const Header = ({ siteTitle }) => {
 };
 
 export default Header
+
+export const headerTitleQuery = graphql `
+  query TitleQuery {
+        site {
+          siteMetadata {
+            title
+          }
+        }
+   }
+`

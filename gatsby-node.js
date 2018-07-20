@@ -9,10 +9,9 @@ const path = require('path');
 exports.createPages = ({ boundActionCreators, graphql }) => {
   const { createPage } = boundActionCreators;
 
-
-
   const caseStudyTemplate = path.resolve(`src/templates/caseStudyTemplate.js`);
   const teamMemberTemplate = path.resolve(`src/templates/teamMemberTemplate.js`);
+  const generalTemplate = path.resolve(`src/templates/generalTemplate.js`);
 
   return graphql(`
     {
@@ -38,17 +37,25 @@ exports.createPages = ({ boundActionCreators, graphql }) => {
 
       result.data.allMarkdownRemark.edges.forEach(({ node }) => {
 
-        if (node.frontmatter.type === 'team') {
-          createPage ({
-            path: node.frontmatter.path,
-            component: teamMemberTemplate,
-            context: {}
-          })
-        } else {
-          createPage ({
-            path: node.frontmatter.path,
-            component: caseStudyTemplate
-          })
+        switch(node.frontmatter.type) {
+          case 'team':
+            createPage ({
+              path: node.frontmatter.path,
+              component: teamMemberTemplate,
+              context: {}
+            });
+            break;
+          case 'case-study':
+            createPage ({
+              path: node.frontmatter.path,
+              component: caseStudyTemplate
+            });
+            break;
+          default:
+            createPage ({
+              path: node.frontmatter.path,
+              component: generalTemplate
+            })
         }
       })
     }
