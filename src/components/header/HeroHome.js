@@ -5,7 +5,6 @@ import Button from "../atoms/Buttons"
 
 const HeroHome = ({info}) => {
   const{title, subtitle, banner_image, cta_text, cta_link} = info;
-
   const image = banner_image.childImageSharp.resize;
 
   return(

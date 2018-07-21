@@ -31,7 +31,7 @@ const Layout = ({ children, data }) => (
         quote
         banner_image {
           childImageSharp {
-            resize(width: 980) {
+            resize(width: 1400) {
               src
             }
           }
