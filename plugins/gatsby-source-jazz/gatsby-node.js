@@ -2,13 +2,15 @@ const axios = require('axios');
 const crypto = require('crypto');
 const _ = require(`lodash`);
 
-const API_URI = `https://api.resumatorapi.com/v1/jobs/status/open?apikey=AhfDcT1eXkKTHcHKPEib5KKs1JRxuoD6`;
+require("dotenv").config({
+  path: `.env.${process.env.NODE_ENV}`,
+});
+
+const API_URI = process.env.GATSBY_JAZZ_URL;
 
 exports.sourceNodes = async({ actions }) => {
   const {createNode} = actions;
   const result = await axios.get(API_URI);
-  //const values = _.mapValues(result);
-  console.log(result.data.title);
   let single = result.data;
 
   // A *hacky* way to check for single results from the JazzHR API.

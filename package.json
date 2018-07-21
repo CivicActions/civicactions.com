@@ -6,6 +6,7 @@
   "dependencies": {
     "axios": "^0.18.0",
     "crypto": "^1.0.1",
+    "dotenv": "^6.0.0",
     "gatsby": "next",
     "gatsby-image": "^1.0.54",
     "gatsby-plugin-react-helmet": "next",
