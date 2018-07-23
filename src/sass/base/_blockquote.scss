@@ -28,19 +28,14 @@
   }
 
   @media screen and (min-width: $small-screen) {
-    @include flex-container($justify-content: space-between);
-
-    &--text,
-    &--quote {
-      @include flex-item;
-    }
 
     &--text {
-      width: 33.33%;
+      @include span-columns(4);
     }
 
     &--quote {
-      width: 60%;
+      @include span-columns(7);
+      @include shift(1 of 12);
     }
   }
 
