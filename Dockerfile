@@ -1,7 +1,7 @@
 #
 # Build site
 #
-FROM node:8.11-alpine as app
+FROM node:8.11 as app
 
 WORKDIR /usr/src/app
 COPY . .
