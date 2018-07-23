@@ -29,4 +29,18 @@
   &__link {
     font-weight: bold;
   }
+
+  &__image--wrapper {
+    max-height: 180px;
+    overflow: hidden;
+    margin-bottom: 2rem;
+  }
+
+  &.teaser__halves {
+    margin-bottom: 2rem;
+
+    @media screen and (min-width: $small-screen) {
+      @include span-columns(6);
+    }
+  }
 }

@@ -1,5 +1,4 @@
 import React from 'react'
-import { graphql } from 'gatsby'
 
 import Logo from './../atoms/logo/Logo';
 
@@ -17,13 +16,3 @@ const Header = ({ data, siteTitle }) => {
 };
 
 export default Header
-
-export const headerTitleQuery = graphql `
-  query TitleQuery {
-        site {
-          siteMetadata {
-            title
-          }
-        }
-   }
-`
