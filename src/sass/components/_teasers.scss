@@ -19,9 +19,14 @@
 
   &__date {
     font-size: $small-font-size;
+    font-weight: bold;
   }
 
   &__title {
     font-size: $h4-font-size;
+  }
+
+  &__link {
+    font-weight: bold;
   }
 }

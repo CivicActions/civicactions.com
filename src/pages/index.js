@@ -77,13 +77,6 @@ export const mediumQuery = graphql `
         cta_link
         quote
         quote_source
-        banner_image {
-          childImageSharp {
-            resize(width: 980) {
-              src
-            }
-          }
-        }
       }
     }
   }

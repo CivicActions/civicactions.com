@@ -4,6 +4,9 @@
   "version": "1.0.0",
   "author": "Kyle Mathews <mathews.kyle@gmail.com>",
   "dependencies": {
+    "axios": "^0.18.0",
+    "crypto": "^1.0.1",
+    "dotenv": "^6.0.0",
     "gatsby": "next",
     "gatsby-image": "^1.0.54",
     "gatsby-plugin-react-helmet": "next",
@@ -13,7 +16,6 @@
     "gatsby-remark-images": "^1.5.67",
     "gatsby-source-filesystem": "^1.5.39",
     "gatsby-source-medium": "^1.0.14",
-    "gatsby-source-thirdparty": "^1.0.6",
     "gatsby-transformer-remark": "^1.7.44",
     "gatsby-transformer-sharp": "^1.6.27",
     "gh-pages": "^1.2.0",

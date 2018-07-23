@@ -5,10 +5,8 @@ import { graphql } from "gatsby"
 import GeneralLayout from "./../components/layouts/GeneralLayout"
 
 const Careers = ({data}) => {
-  const{ allThirdPartyJobs } = data;
-  const { edges } = allThirdPartyJobs;
-
-  console.log(edges);
+  const{ allJob } = data;
+  const { edges } = allJob;
 
   const jobs = _.map(edges, (job, index) => {
 
@@ -38,9 +36,10 @@ const Careers = ({data}) => {
 
 export default Careers;
 
+
 export const jobsQuery = graphql `
   query jobsQuery {
-    allThirdPartyJobs {
+     allJob {
       edges {
         node {
           id,
