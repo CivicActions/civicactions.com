@@ -5,6 +5,7 @@ import { graphql } from 'gatsby'
 //Components
 import HomeLayout from '../components/layouts/HomeLayout'
 import MediumPostList from '../components/medium-components/mediumPostList';
+import GovernmentServices from '../components/organisms/GovernmentServices';
 
 // Atoms
 import Blockquote from '../components/atoms/Blockquote'
@@ -44,6 +45,9 @@ const IndexPage = ({data}) => {
         <SectionTitle title = "See what we've been up to" />
         { mediumPosts }
       </section>
+
+      {/*------ Modernizing Government Services Section--------*/}
+      <GovernmentServices />
 
     </HomeLayout>
   );
