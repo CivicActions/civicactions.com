@@ -6,3 +6,8 @@ h5,
 h6 {
   margin-top: 0;
 }
+
+// Typography
+.text-container {
+  @include text-container;
+}
