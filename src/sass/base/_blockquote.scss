@@ -4,6 +4,19 @@
    }
 }
 
+blockquote {
+  font-style: italic;
+  margin: 0;
+  font-size: $lead-font-size;
+}
+
+cite {
+  font-size: $base-font-size;
+  font-style: normal;
+  color: $color-secondary;
+  font-weight: bold;
+}
+
 // Home page content section
 .home__content {
 
@@ -12,19 +25,6 @@
   }
 
   &--quote {
-    font-size: $lead-font-size;
-    font-style: italic;
-
-    blockquote {
-      margin: 0;
-    }
-
-    cite {
-      font-size: $base-font-size;
-      font-style: normal;
-      color: $color-secondary;
-      font-weight: bold;
-    }
   }
 
   @media screen and (min-width: $small-screen) {

@@ -16,12 +16,33 @@
   }
 
   //-------------------------------------
+  // CIVICACTIONS INTRO SECTION IN THE HOMEPAGE
+  //-------------------------------------------
+
+  &__home-intro {
+    &--quote {
+
+    }
+
+    @media screen and (min-width: $small-screen) {
+
+      &--quote {
+        @include span-columns(4);
+      }
+
+      &--text {
+        @include span-columns(7);
+        @include shift(1 of 12);
+      }
+    }
+  }
+
+  //-------------------------------------
   // RECENT POSTS SECTION IN THE HOMEPAGE
   //-------------------------------------
 
   &__recent-posts {
     @media all and (min-width: $medium-screen) {
-
 
       .section__title {
         @include span-columns(4);
