@@ -1,4 +1,5 @@
 import React from "react";
+import Link from "gatsby-link";
 
 const Teaser = ({
   teaserDate,
@@ -29,7 +30,7 @@ const Teaser = ({
       <div className = "teaser__date"> { teaserDate } </div>
       <h3 className =  "teaser__title"> { teaserTitle } </h3>
       <p className = "teaser__text"> { teaserText } </p>
-      <div className = "teaser__link"> <a href = { teaserLink }>Read More</a> </div>
+      <div className = "teaser__link"> <Link to = { teaserLink }>Read More</Link> </div>
     </div>
   );
 };
