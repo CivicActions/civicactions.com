@@ -5,11 +5,16 @@
 
   &__title {
     margin-top: 0;
-    text-align: center;
   }
 
   button {
     margin: $line-height auto;
+  }
+
+  &__text {
+    @include text-container;
+    padding: $section-margin 20px;
+    text-align: center;
   }
 
   //----- Styles for the HeroHome component------

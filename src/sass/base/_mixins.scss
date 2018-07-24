@@ -18,3 +18,10 @@
   align-self: auto;
 }
 
+// Containers
+@mixin text-container {
+  max-width: $text-max-width;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+

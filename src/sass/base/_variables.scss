@@ -108,7 +108,7 @@ $image-path: '#{$asset-path}img' !default;
 $asset-pipeline:      false !default;
 
 // Magic Numbers
-$text-max-width:                66ch !default; // 66 characters per line
+$text-max-width:                60rem !default; //66ch changed to rem widths because ch is not consistent across different font sizes !default; // 66 characters per line
 $lead-max-width:                77rem !default;
 $site-max-width:                1040px !default;
 $site-margins:                  3rem !default;
