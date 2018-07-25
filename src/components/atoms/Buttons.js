@@ -19,7 +19,7 @@ const Button = ({type, button_text, link}) => {
 export default Button;
 
 Button.propTypes = {
-  type: PropTypes.string, // can be 'primary', 'secondary' or 'dark'
+  type: PropTypes.string, // can be 'hero', 'secondary' or 'dark'
   button_text: PropTypes.string, // Text that the button should display
   link: PropTypes.string // Link for the button text
 };

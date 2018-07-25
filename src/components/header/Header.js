@@ -4,8 +4,6 @@ import Logo from './../atoms/logo/Logo';
 
 const Header = ({ data, siteTitle }) => {
 
-  console.log(data);
-
   return(
     <div className = "usa-grid">
       <h1 className = "usa-width-one-third">
