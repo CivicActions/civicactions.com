@@ -52,8 +52,8 @@ const Layout = ({ children, data }) => (
         />
         <header className = "section header__main"
               style = {{ backgroundImage: "url(" + header_bg + ")" }}>
-        <Header siteTitle={data.site.siteMetadata.title} />
-        <HeroHome info = {data.markdownRemark.frontmatter}/>
+          <Header siteTitle={data.site.siteMetadata.title} />
+          <HeroHome info = {data.markdownRemark.frontmatter}/>
         </header>
         <main>
           <div>

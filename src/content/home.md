@@ -3,11 +3,13 @@ path: /
 type: home
 title: Home Page Title
 subtitle: Home Page Hero subtitle.
-banner_image: "./team.jpg"
+banner_image: "team.jpg"
 cta_text: Learn about our approach
 cta_link: /our-approach
-quote: I love digging into the challenges of improving communication and process within organizations doing good.
-quote_source: -- Jeff Maher, Engineer
--------------------------------------
+quote: Our goal is to transform the way governments think about digital service delivery.
+---
 
-We bring culture transformation to the daily work of the government
+We encourage partnership and focus on outcomes. We help organizations accomplish their missions and achieve long-term digital success through:
+* Agile approaches and human-centered design 
+* Culture of openness, learning, and collaboration
+* Modern technologies and continuous improvement

@@ -1,7 +1,61 @@
 .blockquote__wrapper {
+  background: no-repeat left center;
+  background-size: 37px;
+  margin-bottom: $section-margin;
+
+  @media screen and (min-width: $medium-screen) {
+    //@include span-columns(4);
+  }
+
    &.home__content--wrapper {
      @include flex-item;
    }
+}
+
+.blockquote {
+  &__image {
+    text-align: center;
+
+    img {
+      border-radius: 50%;
+    }
+  }
+
+  &__text {
+    margin-left: 10px;
+    display: inline-block;
+    width: calc(100% - 50px);
+
+    cite {
+      text-align: right;
+      display: block;
+
+      &:before {
+        content: "- ";
+      }
+    }
+  }
+
+  &__icon {
+    display: inline-block;
+    width: 37px;
+    margin-top: 1em;
+    vertical-align: top;
+  }
+
+}
+
+blockquote {
+  font-style: italic;
+  margin: 0;
+  font-size: $lead-font-size;
+}
+
+cite {
+  font-size: $base-font-size;
+  font-style: normal;
+  color: $color-secondary;
+  font-weight: bold;
 }
 
 // Home page content section
@@ -9,22 +63,6 @@
 
   &--text {
     color: $color-secondary;
-  }
-
-  &--quote {
-    font-size: $lead-font-size;
-    font-style: italic;
-
-    blockquote {
-      margin: 0;
-    }
-
-    cite {
-      font-size: $base-font-size;
-      font-style: normal;
-      color: $color-secondary;
-      font-weight: bold;
-    }
   }
 
   @media screen and (min-width: $small-screen) {
