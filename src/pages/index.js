@@ -6,9 +6,9 @@ import { graphql } from 'gatsby'
 import HomeLayout from '../components/layouts/HomeLayout'
 import MediumPostList from '../components/medium-components/mediumPostList';
 import GovernmentServices from '../components/organisms/GovernmentServices';
+import HomeTripleQuotes from '../components/organisms/HomeTripleQuotes';
 
 // Atoms
-import Blockquote from '../components/atoms/Blockquote'
 import SectionTitle from '../components/atoms/SectionTitle'
 
 // Host Google Fonts locally
@@ -35,9 +35,9 @@ const IndexPage = ({data}) => {
       { /* The Home page content and blockquote section.
            The content in this section is pulled from '/content/home.md' */
       }
-      <section className = "home__content usa-grid section">
-        <h3 className = "home__content--text" dangerouslySetInnerHTML = {{ __html: html}} />
-        <Blockquote content = {frontmatter} quote_class = "home__content--quote " />
+      <section className = "section__home-intro usa-grid section">
+        <h3 className = "section__home-intro--quote">{ frontmatter.quote} </h3>
+        <div className = "section__home-intro--text" dangerouslySetInnerHTML = {{ __html: html}} />
       </section>
 
       {/* The Recent Posts from Medium Section.*/}
@@ -49,6 +49,8 @@ const IndexPage = ({data}) => {
       {/*------ Modernizing Government Services Section--------*/}
       <GovernmentServices />
 
+      {/*----- Get to Know Us section -------- */}
+      <HomeTripleQuotes />
     </HomeLayout>
   );
 
