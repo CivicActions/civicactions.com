@@ -6,7 +6,7 @@ import { graphql } from 'gatsby'
 import HomeLayout from '../components/layouts/HomeLayout'
 import MediumPostList from '../components/medium-components/mediumPostList';
 import GovernmentServices from '../components/organisms/GovernmentServices';
-import HomeTripleQuotes from '../components/organisms/HomeTripleQuotes';
+import QuoteSlider from '../components/organisms/QuoteSlider';
 
 // Atoms
 import SectionTitle from '../components/atoms/SectionTitle'
@@ -50,7 +50,7 @@ const IndexPage = ({data}) => {
       <GovernmentServices />
 
       {/*----- Get to Know Us section -------- */}
-      <HomeTripleQuotes />
+      <QuoteSlider />
     </HomeLayout>
   );
 

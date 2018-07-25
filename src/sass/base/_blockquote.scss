@@ -4,7 +4,7 @@
   margin-bottom: $section-margin;
 
   @media screen and (min-width: $medium-screen) {
-    @include span-columns(4);
+    //@include span-columns(4);
   }
 
    &.home__content--wrapper {
