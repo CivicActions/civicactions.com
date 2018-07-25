@@ -1,6 +1,8 @@
 import React from 'react'
 import PropTypes from 'prop-types';
 
+import blockquote_bg from './../../files/images/left-quote.svg';
+
 const Blockquote = ({
   quote,
   quote_source,
@@ -12,13 +14,14 @@ const Blockquote = ({
   let image;
 
   if(quote_image) {
-    image = <div class = "blockquote__image"><img src = { quote_image } alt = { quote_source } /></div>
+    image = <div className = "blockquote__image"><img src = { quote_image } alt = { quote_source } /></div>
   }
 
   return (
     <div className = { quoteClass }>
       { image }
-      <blockquote class = "blockquote__text">
+      <img className = "blockquote__icon " src = {blockquote_bg} alt = "blockquote icon" />
+      <blockquote className = "blockquote__text">
         <p>{ quote }</p>
         <cite> { quote_source } </cite>
       </blockquote>
