@@ -14,6 +14,7 @@ RUN VERSION=${version} PLUGINS=${plugins} ENABLE_TELEMETRY=false /bin/sh /usr/bi
 # Build site
 #
 FROM node:8.11 as app
+ARG GATSBY_JAZZ_URL
 
 WORKDIR /usr/src/app
 COPY . .
