@@ -43,7 +43,8 @@
     "deploy": "gatsby build --prefix-paths && gh-pages -d public"
   },
   "devDependencies": {
-    "prettier": "^1.12.0"
+    "prettier": "^1.12.0",
+    "sass-lint": "^1.12.1"
   },
   "repository": {
     "type": "git",
