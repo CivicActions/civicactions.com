@@ -16,13 +16,8 @@ RUN VERSION=${version} PLUGINS=${plugins} ENABLE_TELEMETRY=false /bin/sh /usr/bi
 FROM node:8.11 as app
 
 WORKDIR /usr/src/app
-
-# Copy in NPN manifest files, so we can cache the build step.
-COPY package* yarn* /usr/src/app/
-RUN yarn
-
-# Copy in Gatsby config and source files.
 COPY . .
+RUN yarn
 RUN yarn build
 
 #
