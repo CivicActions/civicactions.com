@@ -1,0 +1,32 @@
+.subfooter-cta {
+  padding: $section-margin 0;
+  border-top: 10px solid $navy;
+
+  &__link {
+    font-size: $h2-font-size;
+    text-decoration: none;
+    font-weight: bold;
+    background: no-repeat right 19px;
+    background-size: 25px;
+    padding-right: 40px;
+  }
+
+}
+
+.section__subfooter {
+  color: $white;
+
+  a {
+    color: $white;
+  }
+
+  &--wrapper {
+    background-color: $color-primary;
+  }
+}
+
+.subfooter {
+  &__col {
+    @include span-columns(6);
+  }
+}

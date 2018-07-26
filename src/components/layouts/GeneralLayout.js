@@ -1,3 +1,5 @@
+// This forms the wrapper (Header + Footer) around general pages.
+
 import React from "react";
 import Helmet from 'react-helmet'
 

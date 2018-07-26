@@ -1,3 +1,5 @@
+// This forms the wrapper (Header + Footer) around the home page
+
 import React from 'react'
 import PropTypes from 'prop-types'
 import Helmet from 'react-helmet'
@@ -5,6 +7,7 @@ import { StaticQuery, graphql } from "gatsby"
 
 import Header from './../header/Header'
 import HeroHome from './../header/HeroHome';
+import SubFooter from './../footer/SubFooter';
 
 import '../../sass/styles.scss';
 import header_bg from './../header/background_bg-hero.png';
@@ -60,6 +63,9 @@ const Layout = ({ children, data }) => (
             {children}
            </div>
         </main>
+        <footer>
+          <SubFooter />
+        </footer>
       </>
     )}
   />
