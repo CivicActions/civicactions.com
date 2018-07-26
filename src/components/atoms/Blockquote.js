@@ -1,7 +1,7 @@
 import React from 'react'
 import PropTypes from 'prop-types';
 
-import blockquote_bg from './../../files/images/left-quote.svg';
+import blockquote_bg from './../../files/icons/left-quote.svg';
 
 const Blockquote = ({
   quote,
