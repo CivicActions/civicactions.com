@@ -1,14 +1,4 @@
 #
-# Build site
-#
-FROM node:8.11 as app
-
-WORKDIR /usr/src/app
-COPY . .
-RUN yarn
-RUN yarn build
-
-#
 # Build web server
 # This is based on https://github.com/abiosoft/caddy-docker/blob/master/Dockerfile
 #
@@ -19,27 +9,38 @@ ARG plugins="realip,expires,prometheus"
 
 RUN VERSION=${version} PLUGINS=${plugins} ENABLE_TELEMETRY=false /bin/sh /usr/bin/builder.sh
 
+
+#
+# Build site
+#
+FROM node:8.11 as app
+
+WORKDIR /usr/src/app
+
+# Copy in NPN manifest files, so we can cache the build step.
+COPY package* yarn* /usr/src/app/
+RUN yarn
+
+# Copy in Gatsby config and source files.
+COPY . .
+RUN yarn build
+
 #
 # Package site into web server
 #
 FROM alpine:3.8
-LABEL maintainer "Abiola Ibrahim <abiola89@gmail.com>"
-
-# Install caddy
-COPY --from=builder /install/caddy /usr/bin/caddy
-
-# Validate install
-RUN /usr/bin/caddy -version
-RUN /usr/bin/caddy -plugins
-
+ENV HOSTNAME 0.0.0.0
 EXPOSE 80 443
 VOLUME /root/.caddy /srv
 WORKDIR /srv
 
-# Install a default configuration file (mainly for debugging - this is overriden on deploy).
+# Install caddy from builder stage.
+COPY --from=builder /install/caddy /usr/bin/caddy
+
+# Install a default configuration file.
 COPY Caddyfile /etc/Caddyfile
 
-# Install application
+# Install application from app stage.
 COPY --from=app /usr/src/app/public /srv
 
 CMD ["caddy", "--conf", "/etc/Caddyfile", "--log", "stdout", "--agree=true"]
