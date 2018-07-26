@@ -8,6 +8,7 @@ import { StaticQuery, graphql } from "gatsby"
 import Header from './../header/Header'
 import HeroHome from './../header/HeroHome';
 import SubFooter from './../footer/SubFooter';
+import Footer from './../footer/Footer';
 
 import '../../sass/styles.scss';
 import header_bg from './../header/background_bg-hero.png';
@@ -20,6 +21,11 @@ const Layout = ({ children, data }) => (
         site {
           siteMetadata {
             title
+            email
+            phone
+            address
+            address_line_2
+            city
           }
         }
 
@@ -63,9 +69,15 @@ const Layout = ({ children, data }) => (
             {children}
            </div>
         </main>
-        <footer>
-          <SubFooter />
-        </footer>
+        <SubFooter />
+
+        <Footer
+          email = { data.site.siteMetadata.email }
+          phone = { data.site.siteMetadata.phone }
+          address = { data.site.siteMetadata.address }
+          address_line_2 = { data.site.siteMetadata.address_line_2 }
+          city = { data.site.siteMetadata.city }
+         />
       </>
     )}
   />
