@@ -1,5 +1,8 @@
 pipeline {
-    agent any
+agent any
+    environment { 
+        GATSBY_JAZZ_URL = credentials('GATSBY_JAZZ_URL') 
+    }
     stages {
         stage('Build pull requests') {
             when { changeRequest() }
