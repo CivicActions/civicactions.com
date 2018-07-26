@@ -1,5 +1,5 @@
-node {
-    checkout scm
+pipeline {
+    agent any
     stages {
         stage('Build pull requests') {
             when { changeRequest() }
