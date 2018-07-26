@@ -1,0 +1,19 @@
+.footer {
+  &__wrapper {
+    background-color: $navy;
+    padding: $section-margin 0;
+    color: $white;
+  }
+
+  a {
+    color: $white;
+  }
+
+  &__address {
+    margin-top: 20px;
+  }
+
+  &__phone {
+    margin-bottom: 20px;
+  }
+}

@@ -1,6 +1,6 @@
 .subfooter-cta {
+  @include top-border-large;
   padding: $section-margin 0;
-  border-top: 10px solid $navy;
 
   &__link {
     font-size: $h2-font-size;

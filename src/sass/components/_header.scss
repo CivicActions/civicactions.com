@@ -1,5 +1,11 @@
-.header__main {
-  background: top center $color-secondary;
+.header{
+  &__main {
+    background: top center $color-secondary;
+  }
+
+  &__inner {
+    @include top-border-large($coral);
+  }
 }
 
 .logo {
