@@ -3,13 +3,9 @@
   background-size: 37px;
   margin-bottom: $section-margin;
 
-  @media screen and (min-width: $medium-screen) {
-    //@include span-columns(4);
+  &.home__content--wrapper {
+    @include flex-item;
   }
-
-   &.home__content--wrapper {
-     @include flex-item;
-   }
 }
 
 .blockquote {
@@ -30,8 +26,8 @@
       text-align: right;
       display: block;
 
-      &:before {
-        content: "- ";
+      &::before {
+        content: '- ';
       }
     }
   }

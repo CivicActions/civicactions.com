@@ -1,3 +1,4 @@
+// sass-lint:disable-all
 // Buttons variables
 
 $button-stroke: inset 0 0 0 2px;
@@ -24,7 +25,7 @@ $outline: -1px 1px 6px 3px $color-primary-alt-lightest;
   }
 }
 
-/* stylelint-disable selector-no-qualifying-type */
+// stylelint-disable selector-no-qualifying-type
 .usa-button,
 .usa-button-primary,
 .usa-button:visited,
