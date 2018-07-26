@@ -6,8 +6,8 @@
     text-transform: capitalize;
 
     // Red border above section title
-    &:before {
-      content: "";
+    &::before {
+      content: '';
       width: 100px;
       height: 10px;
       background-color: $color-secondary;

@@ -3,9 +3,9 @@ import React from "react"
 import Blockquote from "./../atoms/Blockquote";
 import SectionTitle from "./../atoms/SectionTitle";
 
-import image1 from "./127.jpg";
-import image2 from "./128.jpg";
-import image3 from "./129.jpg";
+import image1 from "./../../files/images/127.jpg";
+import image2 from "./../../files/images/128.jpg";
+import image3 from "./../../files/images/129.jpg";
 
 const HomeTripleQuotes = () => (
   <section

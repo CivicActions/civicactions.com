@@ -1,14 +1,21 @@
-.header__main {
-  background: top center $color-secondary;
+// sass-lint:disable no-important
+.header {
+  &__main {
+    background: top center $color-secondary;
+  }
+
+  &__inner {
+    @include top-border-large($coral);
+  }
 }
 
 .logo {
   &__image {
-    max-width: 150px;
-
     @include media($medium-screen) {
       max-width: 200px;
     }
+
+    max-width: 150px;
   }
 }
 

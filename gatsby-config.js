@@ -1,6 +1,11 @@
 module.exports = {
   siteMetadata: {
     title: 'CivicActions | Open and Agile Digital Government Services',
+    email: 'contact@civicactions.com',
+    phone: '(510) 408-7510',
+    address: '2625 Alcatraz Avenue,',
+    address_line_2: 'Suite 320,',
+    city: 'Berkeley, CA 94705'
   },
   pathPrefix: "/civicactions.com",
   plugins: [

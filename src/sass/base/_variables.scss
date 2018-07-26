@@ -76,8 +76,9 @@ $color-base:                 $navy !default;
 $color-focus:                $neutral !default;
 $color-visited:              $teal !default;
 
-$color-shadow:               rgba(#000, 0.3) !default;
-$color-transparent:          rgba(#000, 0) !default;
+$shadow-black: #000;
+$color-shadow:               rgba($shadow-black, .3) !default;
+$color-transparent:          rgba($shadow-black, 0) !default;
 
 // Mobile First Breakpoints
 $small-screen:  481px !default;
@@ -123,13 +124,13 @@ $box-shadow:                    0 0 2px $color-shadow !default;
 $focus-outline:                 2px dotted $neutral !default;
 $focus-spacing:                 3px !default;
 $nav-width:                     951px !default;
-$sidenav-current-border-width:  0.4rem !default; // must be in rem for math
+$sidenav-current-border-width:  .4rem !default; // must be in rem for math
 
 // 44 x 44 pixels hit target following Apple iOS Human Interface
 // Guidelines
 $hit-area: 4.4rem !default;
 
-$spacing-x-small: 0.5rem;
+$spacing-x-small: .5rem;
 $spacing-small: 1rem;
 $spacing-md-small: 1.5rem;
 $spacing-medium: 2rem;

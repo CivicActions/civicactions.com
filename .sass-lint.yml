@@ -1,0 +1,22 @@
+options:
+  formatter: stylish
+  merge-default-rules: true
+
+rules:
+  class-name-format:
+    - 1
+    -
+      convention: hyphenatedbem
+  variable-name-format:
+      - 1
+      -
+        convention: hyphenatedbem
+  no-color-literals: 1
+  property-sort-order: 0
+  # This the unqualified attributes sass-lint rule is wrong, disabling.
+  # Source: https://github.com/CSSLint/csslint/issues/237
+  no-qualifying-elements:
+    - 1
+    - allow-element-with-attribute: true
+  force-attribute-nest:
+    - 0
