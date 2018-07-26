@@ -18,7 +18,7 @@ pipeline {
             steps {
                 script {
                     docker.withRegistry('https://gcr.io', 'internal-it-k8s-gcr') {
-                        def customImage = docker.build("civicactions-internal-it/home:latest", "-t civicactions-internal-it/home:${env.GIT_COMMIT}")
+                        def customImage = docker.build("civicactions-internal-it/home:latest", "-t civicactions-internal-it/home:${env.GIT_COMMIT} .")
                         customImage.push()
                     }
                     slackSend channel: 'grugnog', message: 'Master branch built and image pushed successfully'
