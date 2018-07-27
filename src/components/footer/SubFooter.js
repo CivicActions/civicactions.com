@@ -4,7 +4,7 @@ import SubFooterCta from "./SubFooterCta";
 
 const SubFooter = () => (
   <div className = "section__subfooter--wrapper">
-    <section class = "section__subfooter subfooter usa-grid">
+    <section className = "section__subfooter subfooter usa-grid">
       <div className = "subfooter__col">
         <SubFooterCta
           title = "Like what you see?"
