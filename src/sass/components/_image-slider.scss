@@ -1,0 +1,93 @@
+.section__image-slider {
+  .slick-list {
+
+    @include media($small-screen) {
+      //overflow: visible;
+    }
+
+    @media all and (max-width: 480px) {
+      padding: 0 !important;
+    }
+  }
+
+  .slick-slide {
+    padding: 0;
+
+    @include media($small-screen) {
+      padding: 0 20px;
+    }
+  }
+
+  .slick-dots,
+  .slide__arrows {
+    position: absolute;
+  }
+
+  .slick-dots {
+    display: none !important;
+
+    @include media($small-screen) {
+      right: 145px;
+      display: block !important;
+    }
+  }
+
+  .slide-images {
+    position: relative;
+  }
+}
+
+// Custom pagination styling.
+.slide__custom-dots {
+  display: none;
+
+  .slick-active & {
+    display: block;
+    font-weight: bold;
+  }
+}
+
+// Only display the current slide in small width browsers
+.slide__item {
+  @media all and (max-width: 480px) {
+    width: 100vw;
+    display: none;
+  }
+
+  .slick-current & {
+    @media all and (max-width: 480px) {
+      display: block;
+    }
+  }
+}
+
+// Slides
+.slide {
+  &__caption {
+    width: 90%;
+    max-width: 480px;
+    font-size: $small-font-size;
+    font-style: italic;
+  }
+
+  &__arrows {
+    right: 0;
+
+    @include media($small-screen) {
+      right: 70px;
+    }
+
+    > div {
+      background: no-repeat center $color-primary;
+      padding: 15px;
+      background-size: 17px;
+      display: inline-block;
+
+      &.slide__previous {
+        background-size: 10px;
+      }
+    }
+  }
+
+
+}

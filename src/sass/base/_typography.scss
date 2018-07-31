@@ -11,3 +11,21 @@ h6 {
 .text-container {
   @include text-container;
 }
+
+.visually-hidden {
+  @include visually-hidden-text;
+}
+
+.tags {
+  color: $color-secondary;
+  border: 2px solid $color-secondary;
+  padding: 7px $line-height;
+  margin: 5px;
+  border-radius: 20px;
+  display: inline-block;
+  font-weight: bold;
+
+  &:first-of-type {
+    margin-left: 0
+  }
+}

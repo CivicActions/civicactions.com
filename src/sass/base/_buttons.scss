@@ -51,12 +51,8 @@ button,
   padding: 1rem 2rem;
   text-align: center;
   text-decoration: none;
-  width: 100%;
+  width: auto;
   box-shadow: $drop-shadow $color-primary-darkest;
-
-  @include media($small-screen) {
-    width: auto;
-  }
 
   &:hover,
   &.usa-button-hover {
