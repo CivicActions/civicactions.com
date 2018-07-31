@@ -41,7 +41,7 @@ class ImageSlider extends Component {
 
     let slideImages = this.props.images.map((image, index) => {
       return (
-        <SlideImage key={ index } image={ image.url.childImageSharp.resize.src } alt={ image.alt } caption={ image.caption }/>
+        <SlideImage key={ index } image={ image.url.childImageSharp.resize } alt={ image.alt } caption={ image.caption }/>
       );
     });
 

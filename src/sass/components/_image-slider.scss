@@ -21,14 +21,21 @@
   .slick-dots,
   .slide__arrows {
     position: absolute;
+    bottom: 6px;
+
+    @include media($medium-screen) {
+      bottom: -12px;
+    }
   }
 
   .slick-dots {
     display: none !important;
 
-    @include media($small-screen) {
+
+    @include media($medium-screen) {
       right: 145px;
       display: block !important;
+
     }
   }
 
@@ -40,6 +47,9 @@
 // Custom pagination styling.
 .slide__custom-dots {
   display: none;
+  position: absolute;
+  top: -8px;
+  left: -25px;
 
   .slick-active & {
     display: block;
@@ -64,10 +74,19 @@
 // Slides
 .slide {
   &__caption {
-    width: 90%;
-    max-width: 480px;
+
+    @include media($medium-screen){
+      width: 90%;
+    }
+
+    @include media($small-screen) {
+      width: 80%
+    }
+
+    width: 70%;
     font-size: $small-font-size;
     font-style: italic;
+    margin-top: 25px;
   }
 
   &__arrows {
