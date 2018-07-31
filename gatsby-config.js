@@ -36,6 +36,7 @@ module.exports = {
     `gatsby-remark-copy-linked-files`,
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
+    `gatsby-plugin-remove-trailing-slashes`,
     {
       resolve: `gatsby-remark-images`,
       options: {

@@ -27,7 +27,7 @@ class ImageSlider extends Component {
 
     const settings = {
       customPaging: (i:number) => {
-        return <div class="slide__custom-dots">{i + 1}/{slideCount}</div>
+        return <div className="slide__custom-dots">{i + 1}/{slideCount}</div>
       },
       dots: true,
       infinite: false,
@@ -53,10 +53,10 @@ class ImageSlider extends Component {
           </Slider>
           <div className = "slide__arrows">
             <div style = {{backgroundImage: "url(" + prevArrow + ")" }} className="slide__previous" onClick={this.previous}>
-              <span class = "visually-hidden">Previous</span>
+              <span className = "visually-hidden">Previous</span>
             </div>
             <div style = {{backgroundImage: "url(" + nextArrow + ")" }} className="slide__next" onClick={this.next}>
-              <span class = "visually-hidden">Next</span>
+              <span className = "visually-hidden">Next</span>
             </div>
           </div>
         </div>
