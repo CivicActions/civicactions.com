@@ -1,5 +1,5 @@
 ---
-path: "/case-study/case-study-1"
+path: "/case-study/lincs"
 type:  "case-study"
 title: "Supporting and expanding adult education"
 client_name: "U.S Department of Education"
@@ -32,22 +32,24 @@ images:
   
 ---
 
-#### Streamlined platform for connecting and sharing
+### Approach
+
+##### Streamlined platform for connecting and sharing
 We transitioned the LINCS website hosting to secure Amazon Web Services (AWS) cloud servers, then consolidated the overabundance of outdated websites LINCS had inherited from other departments.
 
-#### Modern design that makes sense
+##### Modern design that makes sense
 We used U.S. Web Design Standards to make the new LINCS sites easy to navigate and mobile friendly. The streamlined design allows educators to quickly find the courses and resources they need.
 
-#### Fast, friendly support
+##### Fast, friendly support
 Our support team provides empathetic and knowledgeable resolution of technical and login issues, often much faster than users expect! Educators feel supported and can get back to work quickly.
 
-#### User feedback guides our work
+##### User feedback guides our work
 We tie the LINCS helpdesk into the agile process through daily communication between support staff and development teams. This ensures that system improvements are based on real user needs.
 
-#### DevOps for efficient code
+##### DevOps for efficient code
 Our build, test, and release practices for LINCS emphasize a DevOps culture of communication and collaboration. We put systems in place for code standardization and stability.
 
-#### Sharing code across agencies
+##### Sharing code across agencies
 We created a GitHub repo to share the code for LINCS courses so other agencies and educators can implement them. We also made over 50 commits on LINCS’ behalf to various projects on Drupal.org.
 
 <blockquote>
@@ -64,15 +66,15 @@ Cras justo odio, dapibus ac facilisis in, egestas eget quam. Fusce dapibus, tell
 
 
 ### Explore
-#### See our work
+##### See our work
 [Literacy Information and Communication System (LINCS)](https://google.com)
 [LINCS Community of Practice](https://link-url.com) 
 [National Literacy Directory](https://link-url.com)
 
-#### Hear from the project team
+##### Hear from the project team
 [LINCS Updates: Internal CivicActions presentation](https://link-url.com)
 
-#### See the courses in GitHub
+##### See the courses in GitHub
 https://github.com/lincs
  
 <figure>
