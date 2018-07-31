@@ -20,12 +20,12 @@ specs: [
 ]
 images:
   - {
-  url: './study-images/LINCS1.jpg', 
+  url: 'study-images/LINCS1.jpg', 
   caption: 'Presenting findings from discovery about LINCS user needs', 
   alt: 'LINCS Home page'
   }
   - {
-  url: './study-images/LINCS2.jpg', 
+  url: 'study-images/LINCS2.jpg', 
   caption: 'Visitors to the LINCS website can quickly find the resources they need', 
   alt: 'CivicActions meets with LINCS team and partners'
   }
