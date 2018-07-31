@@ -1,0 +1,22 @@
+figure {
+  @include flex-container;
+  margin: 0;
+  border-bottom: 1px solid $navy;
+
+  div {
+    @include flex-item;
+    padding: 1rem;
+    text-align: center;
+  }
+
+  header {
+    font-size: $title-font-size;
+    font-weight: bold;
+    color: $teal;
+    font-family: $font-serif;
+  }
+
+  p {
+    font-weight: bold;
+  }
+}

@@ -9,8 +9,9 @@ import Hero from './../header/Hero';
 import SubFooter from './../footer/SubFooter';
 import Footer from './../footer/Footer';
 
+import header_bg from './../header/background_bg-hero.png';
 
-const GeneralLayout = ({siteData, children, pageTitle, heroTitle, heroSubtitle, heroCTAText, heroCTALink}) => (
+const GeneralLayout = ({siteData, children, pageTitle, clientName, heroTitle, heroSubtitle, heroCTAText, heroCTALink}) => (
   <StaticQuery
     query = { graphql`
       query SiteMetaQuery {
@@ -36,13 +37,15 @@ const GeneralLayout = ({siteData, children, pageTitle, heroTitle, heroSubtitle, 
                 { name: 'keywords', content: 'sample, something' },
               ]}
         />
-        <header className = "section header__main">
+        <header className = "section header__main"
+              style = {{ backgroundImage: "url(" + header_bg + ")" }}>
           <Header siteTitle= "CivicActions" />
           <Hero
-            title = { heroTitle}
-            subtitle = { heroSubtitle }
-            cta_text = { heroCTAText }
-            cta_link = { heroCTALink }
+            client_name = { clientName }
+            title       = { heroTitle}
+            subtitle    = { heroSubtitle }
+            cta_text    = { heroCTAText }
+            cta_link    = { heroCTALink }
           />
         </header>
         <main>

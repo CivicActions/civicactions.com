@@ -3,6 +3,13 @@
     background-color: $navy;
     padding: $section-margin 0;
     color: $white;
+    font-size: 15px;
+  }
+
+  .logo {
+    img {
+      max-width: 150px;
+    }
   }
 
   a {

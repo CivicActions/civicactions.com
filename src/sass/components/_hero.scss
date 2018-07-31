@@ -12,9 +12,19 @@
   }
 
   &__text {
-    @include text-container;
-    padding: $section-margin 20px;
+    margin: 0 auto;
+    padding: $section-margin 0;
     text-align: center;
+
+    @include media($medium-screen) {
+      width: 65.88078%;
+      padding: $section-margin 20px;
+    }
+  }
+
+  &__client-name {
+    font-size: $base-font-size;
+    font-weight: bold;
   }
 
   //----- Styles for the HeroHome component------

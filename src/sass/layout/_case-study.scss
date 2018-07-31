@@ -1,0 +1,31 @@
+.study {
+  h3 {
+    font-size: $h5-font-size;
+  }
+
+  &--col {
+    margin-bottom: $lead-font-size;
+  }
+
+  &__project {
+    @include media($medium-screen) {
+      @include span-columns(2);
+    }
+  }
+
+  &__tech-specs {
+    @include media($medium-screen) {
+      @include span-columns(8);
+      @include shift(2);
+
+      ul {
+        column-count: 2;
+        column-gap: 4rem;
+      }
+    }
+  }
+
+  &__project__title {
+    font-size: $lead-font-size;
+  }
+}
