@@ -27,6 +27,7 @@ export default function Template({data}) {
       clientName = { frontmatter.client_name }
       heroCTALink = { frontmatter.website }
       heroCTAText = "Visit Website"
+      heroClass = "case-study-hero"
     >
       <div className = "section__specs section">
         <section className = "usa-grid study">

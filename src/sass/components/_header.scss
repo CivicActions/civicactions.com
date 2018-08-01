@@ -2,6 +2,10 @@
 .header {
   &__main {
     background: top center $color-secondary;
+
+    &.section {
+      margin-bottom: 0;
+    }
   }
 
   &__inner {

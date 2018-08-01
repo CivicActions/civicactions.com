@@ -3,13 +3,13 @@ import PropTypes from 'prop-types';
 
 import Button from "../atoms/Buttons"
 
-const Hero = ({client_name, title, subtitle, cta_text, cta_link}) => {
+const Hero = ({client_name, title, subtitle, cta_text, cta_link, hero_class}) => {
 
   // The button gets displayed only if the Button text is set.
   const button = cta_text ? <Button type = 'hero' button_text = { cta_text } link = { cta_link } /> : '';
 
   return(
-    <section className = "hero usa-grid">
+    <section className = {"hero usa-grid " + hero_class}>
       <div className = "hero__text">
         <div className = "hero__client-name">{ client_name }</div>
         <h1 className = "hero__title">{ title }</h1>

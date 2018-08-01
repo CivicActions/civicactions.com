@@ -3,6 +3,10 @@
   font-size: $lead-font-size;
   margin-bottom: 50px;
 
+  &.case-study-hero {
+    margin-bottom: 0;
+  }
+
   &__title {
     margin-top: 0;
   }
