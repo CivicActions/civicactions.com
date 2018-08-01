@@ -1,0 +1,22 @@
+.teaser--case-study {
+  color: $navy;
+
+ &--wrapper {
+   @include flex-item;
+   display: block;
+   text-decoration: none;
+   width: 30%;
+   margin: 2%;
+ }
+
+  &__text {
+    color: $navy;
+    text-decoration: none;
+    padding: 40px 20px;
+  }
+
+  &__client {
+    font-size: $small-font-size;
+    font-weight: bold;
+  }
+}

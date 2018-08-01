@@ -71,4 +71,12 @@
     background-color: $neutral;
     padding: $section-margin 0;
   }
+
+  //---- CASE STUDY LANDING PAGE
+  &__case-studies {
+    @include media($small-screen) {
+      @include flex-container($flex-wrap: wrap);
+      align-items: baseline;
+    }
+  }
 }
