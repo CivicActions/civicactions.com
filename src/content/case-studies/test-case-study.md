@@ -3,6 +3,7 @@ path: "/case-study/test-case-study"
 type:  "case-study"
 title: "Project title goes here"
 client_name: "Client Name"
+preview_image: LINCS5.jpg
 project: "Project Name"
 website: "https://google.com"
 background_section_title: "The Main Text section"
