@@ -42,12 +42,12 @@ export default function Template({data}) {
       </div>
       <div className = "text-container section">
         <h3>Background</h3>
-        <h4 dangerouslySetInnerHTML = {{ __html: frontmatter.background_section_title}} />
-        <p dangerouslySetInnerHTML = {{ __html: frontmatter.background_section }} />
+        <h4> { frontmatter.background_section_title } </h4>
+        <p>{ frontmatter.background_section } </p>
       </div>
       <ImageSlider images = { images } />
       <div className = "text-container section">
-        <p dangerouslySetInnerHTML = {{ __html: html }} />
+        <div dangerouslySetInnerHTML = {{ __html: html }} />
         { tagsList }
       </div>
 
