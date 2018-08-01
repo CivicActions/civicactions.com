@@ -1,5 +1,6 @@
 figure {
   @include flex-container;
+  padding: $section-margin 0;
   margin: 0;
   border-bottom: 1px solid $navy;
 
