@@ -3,6 +3,7 @@ import _ from 'lodash'
 import { graphql } from "gatsby"
 
 import GeneralLayout from "./../components/layouts/GeneralLayout"
+import Benefits from '../components/organisms/Benefits';
 
 const Careers = ({data}) => {
   const{ allJob } = data;
@@ -30,6 +31,9 @@ const Careers = ({data}) => {
       <ul>
         {jobs}
       </ul>
+
+     <Benefits/>
+
     </GeneralLayout>
   )
 };
