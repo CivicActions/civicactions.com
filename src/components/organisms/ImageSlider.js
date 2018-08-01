@@ -23,46 +23,57 @@ class ImageSlider extends Component {
 
   render() {
     const { images } = this.props;
-    let slideCount = images.length;
+    let settings = '';
+    let slideImages;
 
-    const settings = {
-      customPaging: (i:number) => {
-        return <div className="slide__custom-dots">{i + 1}/{slideCount}</div>
-      },
-      dots: true,
-      infinite: false,
-      speed: 500,
-      slidesToShow: 1,
-      slidesToScroll: 1,
-      arrows: false,
-      centerMode: true,
-      focusOnSelect: true
-    };
 
-    let slideImages = this.props.images.map((image, index) => {
+    if(images !== null) {
+      let slideCount = images.length;
+       settings = {
+        customPaging: (i:number) => {
+          return <div className="slide__custom-dots">{i + 1}/{slideCount}</div>
+        },
+        dots: true,
+        infinite: false,
+        speed: 500,
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        arrows: false,
+        centerMode: true,
+        focusOnSelect: true
+      };
+
+      slideImages = this.props.images.map((image, index) => {
+        return (
+          <SlideImage key={ index } image={ image.url.childImageSharp.resize } alt={ image.alt } caption={ image.caption }/>
+        );
+      });
+
       return (
-        <SlideImage key={ index } image={ image.url.childImageSharp.resize } alt={ image.alt } caption={ image.caption }/>
-      );
-    });
-
-    return (
-      <section className="section section__image-slider usa-grid">
-        <div className="slide-images">
-          <Slider ref={c => (this.slider = c)} {...settings}>
-            { slideImages }
-          </Slider>
-          <div className = "slide__arrows">
-            <div style = {{backgroundImage: "url(" + prevArrow + ")" }} className="slide__previous" onClick={this.previous}>
-              <span className = "visually-hidden">Previous</span>
-            </div>
-            <div style = {{backgroundImage: "url(" + nextArrow + ")" }} className="slide__next" onClick={this.next}>
-              <span className = "visually-hidden">Next</span>
+        <section className="section section__image-slider usa-grid">
+          <div className="slide-images">
+            <Slider ref={c => (this.slider = c)} {...settings}>
+              { slideImages }
+            </Slider>
+            <div className = "slide__arrows">
+              <div style = {{backgroundImage: "url(" + prevArrow + ")" }} className="slide__previous" onClick={this.previous}>
+                <span className = "visually-hidden">Previous</span>
+              </div>
+              <div style = {{backgroundImage: "url(" + nextArrow + ")" }} className="slide__next" onClick={this.next}>
+                <span className = "visually-hidden">Next</span>
+              </div>
             </div>
           </div>
-        </div>
 
-      </section>
-    )
+        </section>
+      )
+    } else {
+      return null;
+    }
+
+
+
+
   }
 }
 
