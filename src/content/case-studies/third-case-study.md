@@ -1,14 +1,14 @@
 ---
-path: "/case-study/lincs"
+path: "/case-study/third-case-study"
 type:  "case-study"
-title: "Supporting and expanding adult education"
-client_name: "U.S Department of Education"
-preview_image: LINCS1.jpg
-project: "LINCS"
+title: "The Third Case Study title"
+client_name: "Client Name"
+preview_image: LINCS4.jpg
+project: "Project Name"
 website: "https://google.com"
-background_section_title: "Multiple, outdated websites"
-background_section: "The Department of Education needed help consolidating and updating the collection of websites for the Literacy and Information Communication System (LINCS), which supports adult education practitioners in their goal of helping adult learners transition to post-secondary education and 21st-century jobs.   LINCS gives educators and learners access to resource libraries, discussion groups, and self-guided courses -- but these were located on various websites that were outdated and confusing to navigate. LINCS needed to be restructured with modern technical architecture into a secure, streamlined platform where education practitioners could enjoy learning and sharing. LINCS users also needed reliable, friendly support to resolve technical and login issues and get back to helping adult learners."
-tags: ["Support", "Drupal", "Quality Assurance"]
+background_section_title: "The Main Text section"
+background_section: "The Department of Education needed help consolidating and updating the collection of websites for the Literacy and Information Communication System (LINCS), which supports adult education practitioners in their goal of helping adult learners transition to post-secondary education and 21st-century jobs.   LINCS gives educators and learners access to resource libraries, discussion groups, and self-guided courses -- but these were located on various websites that were outdated and confusing to navigate. LINCS needed to be restructured with modern technical architecture into a secure, streamlined platform where education practitioners could enjoy learning and sharing."
+tags: ["Random tag"]
 specs: [
 "Drupal 7",
 "JIRA Service Desk",
@@ -19,17 +19,6 @@ specs: [
 "Docker",
 "Ansible"
 ]
-images:
-  - {
-  url: 'LINCS1.jpg', 
-  caption: 'Presenting findings from discovery about LINCS user needs', 
-  alt: 'LINCS Home page'
-  }
-  - {
-  url: 'LINCS2.jpg', 
-  caption: 'Visitors to the LINCS website can quickly find the resources they need', 
-  alt: 'CivicActions meets with LINCS team and partners'
-  }
   
 ---
 
@@ -53,11 +42,6 @@ Our build, test, and release practices for LINCS emphasize a DevOps culture of c
 ##### Sharing code across agencies
 We created a GitHub repo to share the code for LINCS courses so other agencies and educators can implement them. We also made over 50 commits on LINCS’ behalf to various projects on Drupal.org.
 
-<blockquote>
-Cras justo odio, dapibus ac facilisis in, egestas eget quam. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. 
-<cite> Quote Author </cite>
-</blockquote>
-
 ### Impact
 * Learning services are constantly improved through user feedback
 * Friendly helpdesk solves technical problems quickly
@@ -78,13 +62,3 @@ Cras justo odio, dapibus ac facilisis in, egestas eget quam. Fusce dapibus, tell
 ##### See the courses in GitHub
 https://github.com/lincs
  
-<figure>
-  <div> 
-    <header>12,800</header>
-    <p>members in the LINCS community of practice<p>
-  </div>
-  <div> 
-      <header>12</header>
-      <p>minutes average helpdesk ticket resolution time<p>
-  </div>
-</figure>
