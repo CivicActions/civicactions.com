@@ -93,4 +93,16 @@
       }
     }
   }
+
+  // Case study pages
+  &__related-content {
+    background-color: $neutral;
+    position: relative;
+    margin-top: $section-margin;
+
+    section {
+      margin-bottom: 0;
+      padding-top: $line-height;
+    }
+  }
 }
