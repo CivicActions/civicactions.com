@@ -6,11 +6,13 @@ import { graphql } from 'gatsby';
 
 import GeneralLayout from './../components/layouts/GeneralLayout';
 import ImageSlider from './../components/organisms/ImageSlider';
+import RelatedStudies from './../components/RelatedStudies';
 
 export default function Template({data}) {
-  const{ markdownRemark } = data;
+  const{ markdownRemark, allMarkdownRemark } = data;
   const{ frontmatter, html } = markdownRemark;
   const{ specs, tags, images } = frontmatter;
+  const{edges} = allMarkdownRemark;
 
   let specsList = _.map(specs, (spec, index) => {
     return <li className = "study__item" key = { index }> { spec }</li>
@@ -51,6 +53,7 @@ export default function Template({data}) {
         <div dangerouslySetInnerHTML = {{ __html: html }} />
         { tagsList }
       </div>
+      <RelatedStudies posts = { edges } tags = { tags } />
 
     </GeneralLayout>
   );
@@ -84,5 +87,29 @@ export const studyQuery = graphql `
          }
       }
     }
+
+    allMarkdownRemark(
+      filter: {frontmatter: {type: {eq: "case-study"}, path: {ne: $path}}}
+      limit: 3
+    ) {
+    totalCount
+    edges {
+      node {
+        frontmatter {
+          client_name
+          title
+          path
+          tags
+          preview_image {
+            childImageSharp {
+              resize(width: 300, height: 300) {
+                src
+              }
+            }
+          }
+        }
+      }
+    }
+  }
   }
 `;
