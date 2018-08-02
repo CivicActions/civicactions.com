@@ -3,6 +3,7 @@ path: "/case-study/lincs"
 type:  "case-study"
 title: "Supporting and expanding adult education"
 client_name: "U.S Department of Education"
+preview_image: LINCS1.jpg
 project: "LINCS"
 website: "https://google.com"
 background_section_title: "Multiple, outdated websites"
