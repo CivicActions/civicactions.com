@@ -1,8 +1,12 @@
 .icon {
   &paragraphs__group {
     display: grid;
+
+    @media screen and (max-width: $small-screen) {
+      grid-template-columns: repeat(1, 1fr);
+    }
+
     grid-template-columns: repeat(3, 1fr);
-    //padding: 0 $section-margin;
   }
   &paragraph__wrapper {
     text-align: center;
@@ -15,11 +19,5 @@
   }
   &paragraph__text {
     margin-top: 0;
-  }
-}
-
-.section_benefits {
-  &--intro-text {
-    
   }
 }

@@ -86,13 +86,11 @@
 
     &--intro-text {
       font-size: $lead-font-size;
+      max-width: $text-max-width;
 
       p {
         margin-top: 0;
       }
-    }
-
-    @media screen and (min-width: $small-screen) {
     }
   }
 }
