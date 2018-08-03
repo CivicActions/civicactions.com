@@ -19,7 +19,7 @@ const IconParagraph = ({
         <div className = { iconClass }>
             { image }
             <p className = "iconparagraph__heading"> { icon_heading } </p>
-            <p> { icon_text } </p>
+            <p className = "iconparagraph__text"> { icon_text } </p>
         </div>
     )
 

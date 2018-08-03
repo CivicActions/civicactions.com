@@ -1,0 +1,25 @@
+.icon {
+  &paragraphs__group {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    //padding: 0 $section-margin;
+  }
+  &paragraph__wrapper {
+    text-align: center;
+    padding: 0 $section-margin;
+  }
+  &paragraph__heading{
+    font-family: $font-sans;
+    font-weight: 900;
+    margin-bottom: 0;
+  }
+  &paragraph__text {
+    margin-top: 0;
+  }
+}
+
+.section_benefits {
+  &--intro-text {
+    
+  }
+}

@@ -7,6 +7,9 @@ const Benefits = () => (
         className = "section section_benefits usa-grid">
 
         <SectionTitle title = "Benefits"/>
+        <div className = "section__benefits--intro-text">
+        <p>Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Praesent commodo cursus magna, vel scelerisque nisl consectetur et. </p>
+        </div>
         <div
             className = "iconparagraphs__group">
             <IconParagraph
