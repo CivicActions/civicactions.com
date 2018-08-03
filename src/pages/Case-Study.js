@@ -4,6 +4,7 @@ import { graphql } from "gatsby"
 import GeneralLayout from "./../components/layouts/GeneralLayout"
 import CaseStudyTeaser from "./../components/CaseStudyTeaser"
 import CaseStudyTripleQuotes from "./../components/organisms/CaseStudyTripleQuotes";
+import FilteredCaseStudies from "./../components/FilteredCaseStudies";
 
 const CaseStudies = ({data}) => {
   const{allMarkdownRemark} = data;
@@ -24,6 +25,10 @@ const CaseStudies = ({data}) => {
     )
   });
 
+  let relatedTags = ["Drupal", "Devops"];
+
+
+
   return(
     <GeneralLayout
       heroTitle = "Case Studies"
@@ -31,6 +36,9 @@ const CaseStudies = ({data}) => {
     >
       <section className = "section section__case-studies usa-grid">
         { studyTeasers }
+      </section>
+      <section className = "section usa-grid">
+        <FilteredCaseStudies posts = { edges } relatedTags = { relatedTags } />
       </section>
       <CaseStudyTripleQuotes />
     </GeneralLayout>
@@ -50,6 +58,7 @@ export const allCaseStudies = graphql `
           client_name
           title
           path
+          tags
           preview_image {
             childImageSharp {
               resize(width: 300, height: 300) {
