@@ -1,0 +1,31 @@
+pipeline {
+agent any
+    environment { 
+        GATSBY_JAZZ_URL = credentials('GATSBY_JAZZ_URL') 
+    }
+    stages {
+        stage('Build pull requests') {
+            when { changeRequest() }
+            steps {
+                script {
+                    def prImage = docker.build("civicactions-internal-it/home:${env.CHANGE_ID}", "--build-arg GATSBY_JAZZ_URL=${GATSBY_JAZZ_URL} .")
+                    prImage.run('--name="home-${env.CHANGE_ID}" -e HOSTNAME="home-${env.CHANGE_ID}.ci.civicactions.net" "civicactions-internal-it/home:${env.CHANGE_ID}"')
+                    slackSend channel: 'grugnog', message: 'PR Review environment ready at http://home-${env.CHANGE_ID}.ci.civicactions.net/'
+                }
+            }
+        }
+        stage('Build master branch') {
+            when { branch 'docker' }
+            steps {
+                script {
+                    docker.withRegistry('https://gcr.io', 'internal-it-k8s-gcr') {
+                        def latestImage = docker.build("civicactions-internal-it/home", "--build-arg GATSBY_JAZZ_URL=${GATSBY_JAZZ_URL} .")
+                        latestImage.push("latest")
+                        latestImage.push("${env.GIT_COMMIT}")
+                    }
+                    slackSend channel: 'grugnog', message: 'Master branch built and image pushed successfully'
+                }
+            }
+        }
+    }
+}
