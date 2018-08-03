@@ -79,4 +79,18 @@
       align-items: baseline;
     }
   }
+  //-------------------------------------
+  // BENEFITS INTRO SECTION ON THE CAREERS PAGE
+  //-------------------------------------------
+  &__benefits {
+
+    &--intro-text {
+      font-size: $lead-font-size;
+      max-width: $text-max-width;
+
+      p {
+        margin-top: 0;
+      }
+    }
+  }
 }
