@@ -4,6 +4,7 @@ import { graphql } from "gatsby"
 import GeneralLayout from "./../components/layouts/GeneralLayout"
 import CaseStudyTeaser from "./../components/CaseStudyTeaser"
 import CaseStudyTripleQuotes from "./../components/organisms/CaseStudyTripleQuotes";
+import FeaturedClients from "./../components/organisms/FeaturedClients";
 
 const CaseStudies = ({data}) => {
   const{allMarkdownRemark} = data;
@@ -33,6 +34,7 @@ const CaseStudies = ({data}) => {
         { studyTeasers }
       </section>
       <CaseStudyTripleQuotes />
+      <FeaturedClients />
     </GeneralLayout>
   )
 
