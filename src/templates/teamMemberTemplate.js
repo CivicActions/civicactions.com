@@ -65,7 +65,7 @@ export default function Template({data}) {
         />
       </section>
       <section className = "section section__recent-posts usa-grid">
-        <SectionTitle title = "See what we've been up to" />
+        <SectionTitle title = "Authored Articles" />
         { mediumPostsList }
       </section>
 
