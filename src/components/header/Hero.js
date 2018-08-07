@@ -3,17 +3,41 @@ import PropTypes from 'prop-types';
 
 import Button from "../atoms/Buttons"
 
-const Hero = ({client_name, title, subtitle, cta_text, cta_link, hero_class}) => {
+const Hero = ({
+  client_name,
+  title,
+  subtitle,
+  cta_text,
+  cta_link,
+  hero_class,
+  image,
+  location,
+  social
+  }) => {
 
   // The button gets displayed only if the Button text is set.
+  const team_image = image ? <div className = "hero__image"><img src = { image } alt = { client_name } /></div>: '' ;
   const button = cta_text ? <Button type = 'hero' button_text = { cta_text } link = { cta_link } /> : '';
+  const memberLocation = location ? <div className = "hero__location">{ location } </div> : '';
+  let socialLinks;
+  let memberSocial;
+
+  if(social) {
+    socialLinks = social.map((link, index) => {
+      return <a className = "hero__social--link" href = { link.url }> { link.name } </a>
+    });
+    memberSocial = <div className = "hero__social">{ socialLinks } </div>;
+  }
 
   return(
     <section className = {"hero usa-grid " + hero_class}>
+      { team_image }
       <div className = "hero__text">
         <div className = "hero__client-name">{ client_name }</div>
         <h1 className = "hero__title">{ title }</h1>
         <div className = "hero__intro-text">{ subtitle }</div>
+        { memberLocation }
+        { memberSocial }
         {button}
       </div>
     </section>
