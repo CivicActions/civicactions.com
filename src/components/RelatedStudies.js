@@ -16,7 +16,7 @@ const RelatedStudies = ({posts, tags}) => {
 
     let image = preview_image !== null ? preview_image.childImageSharp.resize : null;
     let relatedTags = post.node.frontmatter.tags;
-    // This compares the tags in the current with the tags in the related case studies.
+    // This compares the tags in the current page with the tags in the related case studies.
     // It only returns true if the current and related case studies have any tags in common.
     let isRelated = tags.some(v => relatedTags.includes(v));
 
