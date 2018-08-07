@@ -18,6 +18,161 @@ const FeaturedClients = () => (
                 icon_rollover_text = ""
                 icon_class = ""
             />
+            <RolloverIcon
+                icon = ""
+                icon_rollover_text = ""
+                icon_class = ""
+            />
+            <RolloverIcon
+                icon = ""
+                icon_rollover_text = ""
+                icon_class = ""
+            />
+            <RolloverIcon
+                icon = ""
+                icon_rollover_text = ""
+                icon_class = ""
+            />
+            <RolloverIcon
+                icon = ""
+                icon_rollover_text = ""
+                icon_class = ""
+            />
+            <RolloverIcon
+                icon = ""
+                icon_rollover_text = ""
+                icon_class = ""
+            />
+            <RolloverIcon
+                icon = ""
+                icon_rollover_text = ""
+                icon_class = ""
+            />
+            <RolloverIcon
+                icon = ""
+                icon_rollover_text = ""
+                icon_class = ""
+            />
+            <RolloverIcon
+                icon = ""
+                icon_rollover_text = ""
+                icon_class = ""
+            />
+            <RolloverIcon
+                icon = ""
+                icon_rollover_text = ""
+                icon_class = ""
+            />
+            <RolloverIcon
+                icon = ""
+                icon_rollover_text = ""
+                icon_class = ""
+            />
+            <RolloverIcon
+                icon = ""
+                icon_rollover_text = ""
+                icon_class = ""
+            />
+            <RolloverIcon
+                icon = ""
+                icon_rollover_text = ""
+                icon_class = ""
+            />
+            <RolloverIcon
+                icon = ""
+                icon_rollover_text = ""
+                icon_class = ""
+            />
+            <RolloverIcon
+                icon = ""
+                icon_rollover_text = ""
+                icon_class = ""
+            />
+            <RolloverIcon
+                icon = ""
+                icon_rollover_text = ""
+                icon_class = ""
+            />
+            <RolloverIcon
+                icon = ""
+                icon_rollover_text = ""
+                icon_class = ""
+            />
+            <RolloverIcon
+                icon = ""
+                icon_rollover_text = ""
+                icon_class = ""
+            />
+            <RolloverIcon
+                icon = ""
+                icon_rollover_text = ""
+                icon_class = ""
+            />
+            <RolloverIcon
+                icon = ""
+                icon_rollover_text = ""
+                icon_class = ""
+            />
+            <RolloverIcon
+                icon = ""
+                icon_rollover_text = ""
+                icon_class = ""
+            />
+            <RolloverIcon
+                icon = ""
+                icon_rollover_text = ""
+                icon_class = ""
+            />
+            <RolloverIcon
+                icon = ""
+                icon_rollover_text = ""
+                icon_class = ""
+            />
+            <RolloverIcon
+                icon = ""
+                icon_rollover_text = ""
+                icon_class = ""
+            />
+            <RolloverIcon
+                icon = ""
+                icon_rollover_text = ""
+                icon_class = ""
+            />
+            <RolloverIcon
+                icon = ""
+                icon_rollover_text = ""
+                icon_class = ""
+            />
+            <RolloverIcon
+                icon = ""
+                icon_rollover_text = ""
+                icon_class = ""
+            />
+            <RolloverIcon
+                icon = ""
+                icon_rollover_text = ""
+                icon_class = ""
+            />
+            <RolloverIcon
+                icon = ""
+                icon_rollover_text = ""
+                icon_class = ""
+            />
+            <RolloverIcon
+                icon = ""
+                icon_rollover_text = ""
+                icon_class = ""
+            />
+            <RolloverIcon
+                icon = ""
+                icon_rollover_text = ""
+                icon_class = ""
+            />
+            <RolloverIcon
+                icon = ""
+                icon_rollover_text = ""
+                icon_class = ""
+            />
         </div>
     </section>
 );
