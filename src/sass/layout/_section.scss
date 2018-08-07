@@ -79,6 +79,25 @@
       align-items: baseline;
     }
   }
+
+  //-------------------------------------
+  // FEATURED CLIENTS SECTION ON CASE STUDIES PAGE
+  //-------------------------------------------
+  &__featured_clients {
+    @media all and (min-width: $medium-screen) {
+      &--intro_wrapper {
+        @include span-columns(4);
+      }
+      &--intro-text {
+        font-size: $lead-font-size;
+      }
+      .rollovericon__group {
+        @include span-columns(7);
+        @include shift(1 of 12);
+      }
+    }
+  }
+
   //-------------------------------------
   // BENEFITS INTRO SECTION ON THE CAREERS PAGE
   //-------------------------------------------
@@ -105,4 +124,6 @@
       padding-top: $line-height;
     }
   }
+
+
 }
