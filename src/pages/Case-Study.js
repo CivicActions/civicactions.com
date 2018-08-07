@@ -4,34 +4,31 @@ import { graphql } from "gatsby"
 import GeneralLayout from "./../components/layouts/GeneralLayout"
 import CaseStudyTeaser from "./../components/CaseStudyTeaser"
 import CaseStudyTripleQuotes from "./../components/organisms/CaseStudyTripleQuotes";
+import FilteredCaseStudies from "./../components/FilteredCaseStudies";
 
 const CaseStudies = ({data}) => {
   const{allMarkdownRemark} = data;
   const{edges} = allMarkdownRemark;
 
-  let studyTeasers = edges.map((item, index) => {
-    const { title, client_name, preview_image, path } = item.node.frontmatter;
-    let image = preview_image !== null ? preview_image.childImageSharp.resize : null;
-
-    return (
-      <CaseStudyTeaser
-        title = { title }
-        image = { image }
-        client_name = { client_name }
-        link = { path }
-        key = { index }
-      />
-    )
-  });
+  let allTags = [
+    "All",
+    "UX",
+    "Open Data",
+    "Security and Compliance",
+    "Support",
+    "Drupal",
+    "Devops",
+    "Education Services",
+    "Quality Assurance",
+    "Innovation Lab"
+  ];
 
   return(
     <GeneralLayout
       heroTitle = "Case Studies"
-      heroSubtitle = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean lacinia bibendum nulla sed consectetur. Morbi leo risus, porta ac consectetur ac."
+      heroSubtitle = "We help organizations provide better outcomes for citizens. From all levels of government to NGOs and nonprofits, we understand how to manage the complexities of big projects and partner with clients to create services and software that solve the most important problems."
     >
-      <section className = "section section__case-studies usa-grid">
-        { studyTeasers }
-      </section>
+      <FilteredCaseStudies posts = { edges } allTags = { allTags } />
       <CaseStudyTripleQuotes />
     </GeneralLayout>
   )
@@ -50,6 +47,7 @@ export const allCaseStudies = graphql `
           client_name
           title
           path
+          tags
           preview_image {
             childImageSharp {
               resize(width: 300, height: 300) {
