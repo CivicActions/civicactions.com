@@ -4,6 +4,7 @@ import { graphql } from "gatsby"
 
 import GeneralLayout from "./../components/layouts/GeneralLayout"
 import Benefits from '../components/organisms/Benefits';
+import ImageBand from './../components/organisms/ImageBand'
 
 const Careers = ({data}) => {
   const{ allJob } = data;
@@ -33,6 +34,7 @@ const Careers = ({data}) => {
       </ul>
 
      <Benefits/>
+      <ImageBand />
 
     </GeneralLayout>
   )

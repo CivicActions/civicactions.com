@@ -1,0 +1,8 @@
+.feed__image {
+  @include flex-item;
+  max-width: 200px;
+  height: auto;
+  &--wrapper {
+    @include flex-container;
+  }
+}
