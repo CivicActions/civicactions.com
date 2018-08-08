@@ -1,0 +1,26 @@
+.rollovericon {
+  &__rollover_text {
+    display: none;
+    font-family: $font-sans;
+    font-weight: $font-bold;
+    font-size: $h6-font-size;
+    line-height: 1.31;
+    color: $navy;
+    text-align: center;
+  }
+
+  &__wrapper {
+    height: 67px;
+    width: 67px;
+    display: inline-block;
+    margin: 30px 30px 30px;
+    &:hover {
+      .rollovericon__icon {
+        display: none;
+      }
+      .rollovericon__rollover_text {
+        display: block;
+      }
+    }
+  }
+}

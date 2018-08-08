@@ -20,6 +20,13 @@ module.exports = {
         name: 'case-studies',
       }
     },
+    {
+        resolve: `gatsby-source-filesystem`,
+        options: {
+            path: `${__dirname}/src/files/client-logos`,
+            name: 'client-logos',
+        }
+    },
     `gatsby-transformer-remark`,
     {
       resolve: `gatsby-source-medium`,
