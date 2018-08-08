@@ -61,7 +61,35 @@
         @include shift(1 of 12);
       }
     }
+
+    &__wrapper {
+      background: $neutral;
+    }
   }
+
+  &__team__recent-posts {
+    margin-bottom: 0;
+    padding-bottom: $section-margin;
+    .section__title {
+      margin-top: -$section-margin;
+    }
+    .team__medium-posts {
+      margin-top: -2.5rem;
+      .teaser {
+        &:after {
+          content: '';
+          display: block;
+          border-bottom: 1px solid $navy;
+          padding: $spacing-md-small 0;
+        }
+      }
+      .teaser__date {
+        font-size: $h6-font-size;
+        font-weight: $font-bold;
+      }
+    }
+  }
+
 
   //-------------------------------------
   // TECH SPECS SECTION IN CASE STUDIES
