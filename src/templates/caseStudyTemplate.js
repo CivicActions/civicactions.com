@@ -19,7 +19,7 @@ export default function Template({data}) {
   });
 
   let tagsList = tags.map((tag, index) => {
-    return <span className = "tags" key = { index }>{ tag }</span>
+    return <button className = "tags" key = { index }>{ tag }</button>
   });
 
   return (
@@ -50,7 +50,7 @@ export default function Template({data}) {
       </div>
       <ImageSlider images = { images } />
       <div className = "text-container section">
-        <div dangerouslySetInnerHTML = {{ __html: html }} />
+        <div className = "case-study-text" dangerouslySetInnerHTML = {{ __html: html }} />
         { tagsList }
       </div>
       <RelatedStudies posts = { edges } tags = { tags } />

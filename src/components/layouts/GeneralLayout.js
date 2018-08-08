@@ -20,7 +20,10 @@ const GeneralLayout = ({
   heroSubtitle,
   heroCTAText,
   heroCTALink,
-  heroClass }) => (
+  heroClass,
+  teamImage,
+  location,
+  social }) => (
 
   <StaticQuery
     query = { graphql`
@@ -57,6 +60,9 @@ const GeneralLayout = ({
             cta_text    = { heroCTAText }
             cta_link    = { heroCTALink }
             hero_class  = { heroClass }
+            image       = { teamImage }
+            location    = { location }
+            social      = { social }
           />
         </header>
         <main>

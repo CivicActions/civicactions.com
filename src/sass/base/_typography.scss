@@ -15,18 +15,3 @@ h6 {
 .visually-hidden {
   @include visually-hidden-text;
 }
-
-.tags {
-  color: $color-secondary;
-  border: 2px solid $color-secondary;
-  padding: 7px $line-height;
-  margin: $line-height * 2 5px;
-  border-radius: 20px;
-  display: inline-block;
-  font-weight: bold;
-  font-size: $small-font-size;
-
-  &:first-of-type {
-    margin-left: 0
-  }
-}

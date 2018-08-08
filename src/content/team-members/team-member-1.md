@@ -1,5 +1,5 @@
 ---
-path: /team/team-member-1
+path: '/'
 type: team
 name: Tracey Thompson
 role: Engineer
