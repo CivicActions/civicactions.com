@@ -25,7 +25,12 @@ medium_posts:
   title: A post from Medium,
   date: 07-07-18,
   url: https://medium.com
-  }   
+  }
+  - {
+  title: "Silence Is Not An Option: Helping Doctors Without Borders Speak Up For Vulnerable Humans",
+  date: 07-20-18,
+  url: https://medium.com/civicactions/silence-is-not-an-option-helping-doctors-without-borders-speak-up-for-vulnerable-humans-7bf5940a19cd
+  }
 ---
 
 Kristian loves learning, teaching, and creating things. He often serves as technical lead on agile Drupal projects providing custom module development, large-scale migrations, project planning, and automated testing -- but also applies his extremely diverse skillset to help with DevOps support, front-end design, database modeling, mobile development, and more. He’s a certified Acquia Drupal 8 Back End Specialist and Developer and contributes actively to the Drupal community.  Kristian has a BS in Computer Engineering from Cal Poly State University. He has a collection of over 15 vintage keyboards, has been a creator of guitar stomp pedals, and has co-written songs with Jon Anderson of YES.

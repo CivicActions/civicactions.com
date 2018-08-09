@@ -31,28 +31,29 @@ class QuoteSlider extends Component {
     };
 
     return (
-      <section
-        className = "section section__triple-quotes usa-grid">
-        <SectionTitle title = "Get to know us" />
-        <div
-          className = "blockquotes__list">
-          <Slider {...settings}>
-            <Blockquote
-              quote = "I love the openness, the collaborative atmosphere, the honesty, and the way CivicActions prioritizes the well-being of team members."
-              quote_source = "Iris Ibekwe, Engineer"
-              quote_image = { image1 }
-            />
-            <Blockquote
-              quote = "I love digging into the challenges of improving communication and process within organizations doing good."
-              quote_source = "Jeff Maher, Engineer"
-              quote_image = { image2 }
-            />
-            <Blockquote
-              quote = "Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Duis mollis, est non commodo luctus, nisi erat porttitor ligula.."
-              quote_source = "First Last, Title"
-              quote_image = { image3 }
-            />
-          </Slider>
+      <section className = "section section__triple-quotes">
+        <div className = "usa-grid">
+          <SectionTitle title = "Get to know us" />
+          <div
+            className = "blockquotes__list">
+            <Slider {...settings}>
+              <Blockquote
+                quote = "I love the openness, the collaborative atmosphere, the honesty, and the way CivicActions prioritizes the well-being of team members."
+                quote_source = "Iris Ibekwe, Engineer"
+                quote_image = { image1 }
+              />
+              <Blockquote
+                quote = "I love digging into the challenges of improving communication and process within organizations doing good."
+                quote_source = "Jeff Maher, Engineer"
+                quote_image = { image2 }
+              />
+              <Blockquote
+                quote = "Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Duis mollis, est non commodo luctus, nisi erat porttitor ligula.."
+                quote_source = "First Last, Title"
+                quote_image = { image3 }
+              />
+            </Slider>
+          </div>
         </div>
       </section>
     )
