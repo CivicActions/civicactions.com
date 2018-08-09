@@ -42,8 +42,8 @@ const FeaturedClients = () => (
                         className = "rollovericon__group">
                         <RolloverIcon
                             icon = { data.clientLogo.resolutions }
-                            icon_rollover_text = "California DMV"
-                            icon_class = "icon__cadmv"
+                            icon_rollover_text = ""
+                            icon_class = "icon__featured_clients"
                         />
                     </div>
                 </section>
