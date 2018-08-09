@@ -32,6 +32,8 @@ const RelatedStudies = ({posts, tags}) => {
           key = { index }
         />
       )
+    } else {
+      return null;
     }
   }));
 

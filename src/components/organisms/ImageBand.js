@@ -1,5 +1,4 @@
 import React from "react";
-import Img from "gatsby-image";
 import StackGrid from "react-stack-grid";
 import sizeMe from 'react-sizeme';
 
@@ -28,7 +27,14 @@ const ImageBand = ({size, imageArray}) => {
   }
 
   let imageList = imageArray.map((image, index) => {
-    return <img className = "feed__image" src = {image} key = {index} />
+    //@todo find a more accessible way to get the image alt.
+
+    let imageAlt = `team-image-${ index }`;
+    return <img
+      className = "feed__image"
+      src = { image }
+      alt = { imageAlt }
+      key = { index } />
   });
 
   return (
