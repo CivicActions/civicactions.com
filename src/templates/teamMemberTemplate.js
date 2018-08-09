@@ -51,7 +51,7 @@ export default function Template({data}) {
       social       = { social }
     >
 
-      <section className = " section usa-grid ">
+      <section className = "section usa-grid ">
         <div className = "study__tech-specs ">
           <h3> Specialties </h3>
           <ul>{ specs }</ul>
@@ -64,11 +64,12 @@ export default function Template({data}) {
           quote_source = { name }
         />
       </section>
-      <section className = "section section__recent-posts usa-grid">
-        <SectionTitle title = "Authored Articles" />
-        { mediumPostsList }
-      </section>
-
+      <div className = "section__recent-posts__wrapper">
+          <section className = "section section__team__recent-posts section__recent-posts usa-grid">
+              <SectionTitle title = "Authored Articles" />
+              { mediumPostsList }
+          </section>
+      </div>
 
     </GeneralLayout>
   );
