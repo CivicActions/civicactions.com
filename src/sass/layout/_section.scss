@@ -15,6 +15,10 @@
     }
   }
 
+  &__subtitle {
+    font-size: $lead-font-size;
+  }
+
   //-------------------------------------
   // CIVICACTIONS INTRO SECTION IN THE HOMEPAGE
   //-------------------------------------------
@@ -52,7 +56,7 @@
   &__recent-posts {
     @media all and (min-width: $medium-screen) {
 
-      .section__title {
+      .section__title--wrapper {
         @include span-columns(4);
       }
 
@@ -126,6 +130,9 @@
     margin-bottom: 0;
     padding-bottom: $section-margin;
   }
+}
 
-
+.neutral {
+  background-color: $neutral;
+  padding-bottom: $section-margin;
 }
