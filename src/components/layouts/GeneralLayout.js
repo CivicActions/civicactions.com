@@ -21,9 +21,11 @@ const GeneralLayout = ({
   heroCTAText,
   heroCTALink,
   heroClass,
+  hideSubFooter,
   teamImage,
   location,
-  social }) => (
+  social
+  }) => (
 
   <StaticQuery
     query = { graphql`
@@ -50,6 +52,7 @@ const GeneralLayout = ({
                 { name: 'keywords', content: 'sample, something' },
               ]}
         />
+
         <header className = "section header__main"
               style = {{ backgroundImage: "url(" + header_bg + ")" }}>
           <Header siteTitle= "CivicActions" />
@@ -70,7 +73,10 @@ const GeneralLayout = ({
             {children}
           </div>
         </main>
-        <SubFooter />
+
+        <SubFooter hide = { hideSubFooter } />
+
+
         <Footer
           email = { data.site.siteMetadata.email }
           phone = { data.site.siteMetadata.phone }

@@ -4,6 +4,7 @@ import { graphql } from "gatsby"
 
 import GeneralLayout from "./../components/layouts/GeneralLayout"
 import Benefits from '../components/organisms/Benefits';
+import ImageBand from './../components/organisms/ImageBand'
 
 const Careers = ({data}) => {
   const{ allJob } = data;
@@ -27,12 +28,16 @@ const Careers = ({data}) => {
     <GeneralLayout
       heroTitle = "Careers"
       heroSubtitle = "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+      hideSubFooter =  {true}
     >
       <ul>
         {jobs}
       </ul>
 
      <Benefits/>
+      <section className = "feed__image--wrapper">
+        <ImageBand />
+      </section>
 
     </GeneralLayout>
   )
