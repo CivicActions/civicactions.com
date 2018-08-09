@@ -7,7 +7,7 @@ preview_image: LINCS1.jpg
 project: "DoctorsWithoutBorders.org"
 website: "https://doctorswithoutborders.org/"
 background_section_title: "Outdated website hampering global mission"
-background_section: "Doctors Without Borders (aka Médecins Sans Frontières or MSF) is dedicated to providing independent, politically neutral aid to vulnerable people worldwide. MSF uses its website as a vehicle to raise funds, recruit staff for field operations, and create public awareness of injustices and crimes against humanity.
+background_section: "Doctors Without Borders (aka Médecins Sans Frontières or MSF) is dedicated to providing independent, politically neutral aid to vulnerable people worldwide. MSF uses its website as a vehicle to raise funds, recruit staff for field operations, and [create public awareness](https://doctorswithoutborders.org/who-we-are/principles/bearing-witness) of injustices and crimes against humanity.
 
 The USA section of MSF was struggling to accomplish these goals using an old system that didn’t behave well. Content publishers were frustrated by slow page load speeds, problems with site caching, and restrictive content templates. CivicActions was engaged to upgrade the old Drupal 7 site to Drupal 8 and build a new theme that would match and extend the design system being adopted by all of MSF’s sections around the world."
 tags: ["Drupal", "DevOps", "UX"]
@@ -41,18 +41,18 @@ We streamlined MSF’s content structure, moving from 40+ content types and taxo
 MSF depends on its website to raise awareness about its work and how people can get involved. We incorporated social media widgets and link sharing so folks can spread the word about donation and work opportunities.
 
 ##### Mind-mapping the content workflow
-We used cognitive modeling tools to group content types into categories and visualize how users and content creators would interact with the various media on the website.
+We used [cognitive modeling tools](https://coggle.it/diagram/Wq28jcGZixoKb8bx/t/msf-usa-drupal-8-content-model) to group content types into categories and visualize how users and content creators would interact with the various media on the website.
 
 ##### Agile and sustainable
 We employed Pattern Lab to build a sustainable and agile approach to the componentized front end. This helped keep us light on our feet to incorporate feedback from CMS user testing of the new content model.
 
 ##### Migration tools in Drupal
-As part of the upgrade, our migration team moved thousands of articles and multimedia into the new content model, using the migration tools in Drupal built by CivicActions engineers.
+As part of the upgrade, our migration team moved thousands of articles and multimedia into the new content model, using the [migration tools](https://www.drupal.org/project/migration_tools) in Drupal built by CivicActions engineers.
 
 ##### Sharing media across teams
-We integrated MSF’s global media library so content creators can access the latest from international teams of documentary producers and photojournalists and import it directly into their authoring experience.
+We integrated MSF’s [global media library](https://media.msf.org/) so content creators can access the latest from international teams of documentary producers and photojournalists and import it directly into their authoring experience.
 
-###Partnership for good
+##### Partnership for good
 We built a rewarding relationship with MSF and their enthusiastic team of civic-minded folks. The transparent and mission-oriented culture of the organization allowed us to work effectively and help them succeed.
 
 <blockquote>
@@ -71,7 +71,7 @@ We built a rewarding relationship with MSF and their enthusiastic team of civic-
 
 ### Explore
 ##### See the work
-<doctorswithoutborders.org>
+<https://www.doctorswithoutborders.org>
 
 ##### Related reading
 [Helping Doctors Without Borders Speak Up for Vulnerable Humans](https://medium.com/civicactions/silence-is-not-an-option-helping-doctors-without-borders-speak-up-for-vulnerable-humans-7bf5940a19cd)
