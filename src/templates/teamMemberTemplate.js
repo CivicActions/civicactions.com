@@ -30,11 +30,13 @@ export default function Template({data}) {
   if(medium_posts) {
     mediumPosts = medium_posts.map((post, index) => {
       return (
-        <Teaser
-          teaserDate = { post.date }
-          teaserTitle = { post.title }
-          teaserLink = { post.url }
-        />
+        <li className = "medium--teaser__item teaser__item" key = { index }>
+          <Teaser
+            teaserDate = { post.date }
+            teaserTitle = { post.title }
+            teaserLink = { post.url }
+          />
+        </li>
       );
     });
     mediumPostsList = <ul className = "team__medium-posts medium--teasers teaser--wrapper">{ mediumPosts }</ul>
@@ -64,9 +66,11 @@ export default function Template({data}) {
           quote_source = { name }
         />
       </section>
-      <section className = "section section__recent-posts usa-grid">
-        <SectionTitle title = "Authored Articles" />
-        { mediumPostsList }
+      <section className = "section section__recent-posts team">
+        <div className = "usa-grid">
+          <SectionTitle title = "Authored Articles" />
+          { mediumPostsList }
+        </div>
       </section>
 
 

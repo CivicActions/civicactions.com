@@ -35,15 +35,19 @@ const IndexPage = ({data}) => {
       { /* The Home page content and blockquote section.
            The content in this section is pulled from '/content/home.md' */
       }
-      <section className = "section__home-intro usa-grid section">
-        <h3 className = "section__home-intro--quote">{ frontmatter.quote} </h3>
-        <div className = "section__home-intro--text" dangerouslySetInnerHTML = {{ __html: html}} />
+      <section className = "section__home-intro section">
+        <div className = "usa-grid">
+          <h3 className = "section__home-intro--quote">{ frontmatter.quote} </h3>
+          <div className = "section__home-intro--text" dangerouslySetInnerHTML = {{ __html: html}} />
+        </div>
       </section>
 
       {/* The Recent Posts from Medium Section.*/}
-      <section className = "section section__recent-posts usa-grid">
-        <SectionTitle title = "See what we've been up to" />
-        { mediumPosts }
+      <section className = "section section__recent-posts">
+        <div className = "usa-grid">
+          <SectionTitle title = "See what we've been up to" />
+          { mediumPosts }
+        </div>
       </section>
 
       {/*------ Modernizing Government Services Section--------*/}

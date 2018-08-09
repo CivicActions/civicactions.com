@@ -24,7 +24,7 @@
   margin: 0 auto;
   padding: 0 20px;
 
-  blockquote {
+  p blockquote {
     margin-top: $section-margin;
   }
 
@@ -53,5 +53,10 @@
   overflow: hidden;
   clip: rect(1px 1px 1px 1px); // IE6, IE7
   clip: rect(1px, 1px, 1px, 1px);
+}
+
+@mixin outline {
+  box-shadow: -1px 1px 6px 3px $color-primary-alt-lightest;
+
 }
 
