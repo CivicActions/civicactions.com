@@ -116,16 +116,15 @@
     }
   }
 
-  // Case study pages
+  //------------------------------------------------------------
+  // RELATED CASE STUDIES SECTION ON THE CASE STUDY LANDING PAGE
+  //------------------------------------------------------------
   &__related-content {
     background-color: $neutral;
     position: relative;
     margin-top: $section-margin;
-
-    section {
-      margin-bottom: 0;
-      padding-top: $line-height;
-    }
+    margin-bottom: 0;
+    padding-bottom: $section-margin;
   }
 
 

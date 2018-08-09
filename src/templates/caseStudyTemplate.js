@@ -50,7 +50,7 @@ export default function Template({data}) {
       </div>
       <ImageSlider images = { images } />
       <div className = "text-container section">
-        <div className = "case-study-text" dangerouslySetInnerHTML = {{ __html: html }} />
+        <p className = "case-study-text" dangerouslySetInnerHTML = {{ __html: html }} />
         { tagsList }
       </div>
       <RelatedStudies posts = { edges } tags = { tags } />

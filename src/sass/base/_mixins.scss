@@ -24,8 +24,14 @@
   margin: 0 auto;
   padding: 0 20px;
 
-  p blockquote {
-    margin-top: $section-margin;
+  p {
+    blockquote {
+      margin-top: $section-margin;
+
+      cite {
+        margin-top: 1rem;
+      }
+    }
   }
 
   h3 {
