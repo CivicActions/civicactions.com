@@ -14,19 +14,20 @@ $outline: -1px 1px 6px 3px $color-primary-alt-lightest;
   box-shadow: none;
 
   &:hover {
-    background-color: transparent;
+    background-color: $neutral;
     color: $color-secondary-dark;
     border: 2px solid $color-secondary-dark;
   }
 
   &:focus {
     box-shadow: $outline;
-    color: $white;
-    background-color: $color-secondary;
   }
 
-  &.active {
+  &.active,
+  &:active,
+  &:focus {
     background-color: $color-secondary;
+    color: $white;
   }
 
   &:first-of-type {
