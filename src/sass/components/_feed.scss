@@ -1,8 +1,9 @@
 .feed__image {
-  @include flex-item;
-  max-width: 200px;
-  height: auto;
   &--wrapper {
-    @include flex-container;
+    margin: $section-margin 0;
+  }
+
+  img {
+    width: 300px;
   }
 }

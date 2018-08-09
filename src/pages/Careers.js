@@ -34,7 +34,9 @@ const Careers = ({data}) => {
       </ul>
 
      <Benefits/>
-      <ImageBand />
+      <section className = "feed__image--wrapper">
+        <ImageBand />
+      </section>
 
     </GeneralLayout>
   )
