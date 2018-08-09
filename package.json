@@ -25,6 +25,7 @@
     "react": "^16.4.1",
     "react-dom": "^16.4.1",
     "react-helmet": "^5.2.0",
+    "react-sizeme": "^2.5.2",
     "react-slick": "^0.23.1",
     "react-stack-grid": "^0.7.1",
     "sass-rem": "^2.0.1",
