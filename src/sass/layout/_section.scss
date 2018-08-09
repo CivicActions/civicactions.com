@@ -1,5 +1,5 @@
 .section {
-  margin-bottom: $section-margin;
+  margin-bottom: 100px;
 
   &__title {
     color: $color-secondary;
@@ -61,6 +61,8 @@
         @include shift(1 of 12);
       }
     }
+
+    &.team { background: $neutral; }
   }
 
   //-------------------------------------
@@ -106,6 +108,7 @@
     &--intro-text {
       font-size: $lead-font-size;
       max-width: $text-max-width;
+      margin-bottom: $section-margin;
 
       p {
         margin-top: 0;

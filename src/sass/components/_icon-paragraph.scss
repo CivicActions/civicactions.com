@@ -1,6 +1,7 @@
 .icon {
   &paragraphs__group {
     display: grid;
+    align-items: baseline;
 
     @media screen and (max-width: $small-screen) {
       grid-template-columns: repeat(1, 1fr);
@@ -16,6 +17,7 @@
     font-family: $font-sans;
     font-weight: 900;
     margin-bottom: 0;
+    margin-top: 0;
   }
   &paragraph__text {
     margin-top: 0;

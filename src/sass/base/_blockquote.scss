@@ -2,6 +2,7 @@
   background: no-repeat left center;
   background-size: 37px;
   margin-bottom: $section-margin;
+  margin-top: $section-margin;
 
   &.home__content--wrapper {
     @include flex-item;
@@ -28,7 +29,7 @@
 
   &__icon {
     display: inline-block;
-    margin-top: 1em;
+    //margin-top: 1em;
     vertical-align: top;
   }
 
