@@ -4,7 +4,8 @@ import PropTypes from "prop-types";
 const RolloverIcon = ({
     icon,
     icon_rollover_text,
-    icon_class
+    icon_class,
+    icon_url
     }) => {
 
     let iconClass =  `rollovericon__wrapper ${ icon_class }`;
@@ -14,12 +15,20 @@ const RolloverIcon = ({
         image = <div className = "rollovericon__icon"><img src = { icon } alt = { icon_rollover_text } /></div>
     }
 
-    return (
+    let iconWrapper = icon_url ?
+      <a href = { icon_url }>
         <div className = { iconClass }>
-            { image }
-            <p className = "rollovericon__rollover_text"> { icon_rollover_text } </p>
+          { image }
+          <p className = "rollovericon__rollover_text"> { icon_rollover_text } </p>
         </div>
-    )
+      </a>
+      :
+      <div className = { iconClass }>
+          { image }
+          <p className = "rollovericon__rollover_text"> { icon_rollover_text } </p>
+      </div>;
+
+    return iconWrapper
 
 };
 
