@@ -4,6 +4,7 @@ import { graphql } from "gatsby"
 import GeneralLayout from '../components/layouts/GeneralLayout'
 import SectionTitle from '../components/atoms/SectionTitle'
 import IconParagraphsGroup from '../components/organisms/IconParagraphsGroup'
+import RolloverIconGroup from '../components/organisms/RolloverIconGroup'
 
 const Approach = ({data}) => {
   const{ markdownRemark } = data;
@@ -13,7 +14,10 @@ const Approach = ({data}) => {
     subtitle,
     services_title,
     services_subtitle,
-    services } = frontmatter;
+    services,
+    technologies_title,
+    technologies_subtitle,
+    technologies } = frontmatter;
 
  return(
    <GeneralLayout
@@ -32,6 +36,19 @@ const Approach = ({data}) => {
        <IconParagraphsGroup icons = { services } />
      </section>
 
+     <section
+       className = "section section__featured_clients usa-grid">
+
+       <div className = "section__featured_clients--intro_wrapper">
+         <SectionTitle title = { technologies_title }/>
+         <div className = "section__featured_clients--intro-text">
+           { technologies_subtitle}
+         </div>
+       </div>
+
+       <RolloverIconGroup technologies = { technologies} />
+     </section>
+
    </GeneralLayout>
  );
 
@@ -48,6 +65,8 @@ export const approachQuery = graphql`
       subtitle
       services_title
       services_subtitle
+      technologies_title
+      technologies_subtitle
       services {
         title
         caption
@@ -55,6 +74,13 @@ export const approachQuery = graphql`
         icon {
           publicURL
         }
+      }
+      technologies {
+        icon {
+          publicURL
+        }
+        title
+        url
       }
     }
   }
