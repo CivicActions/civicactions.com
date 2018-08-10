@@ -1,3 +1,5 @@
+const config = require("./data/SiteConfig");
+
 module.exports = {
   siteMetadata: {
     title: 'CivicActions | Open and Agile Digital Government Services',
@@ -52,4 +54,4 @@ module.exports = {
       },
     }
   ],
-}
+};

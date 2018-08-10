@@ -1,5 +1,6 @@
 import React from "react"
 import Link from "gatsby-link";
+import SocialLinks from "./../organisms/SocialLinks";
 
 import Logo from "./../atoms/logo/Logo"
 
@@ -15,10 +16,13 @@ const Footer = ({email, phone, address, address_line_2, city}) => {
           <div className = "footer__phone">{ phone }</div>
           <div>{ address }</div>
           <div> { address_line_2 }</div>
-          <div> { city } </div>
+           <div> { city } </div>
+        </div>
+        <div>
+          <SocialLinks/>
         </div>
       </footer>
     </div>
   )
-}
+};
 export default Footer;
