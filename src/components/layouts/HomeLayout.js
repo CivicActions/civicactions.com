@@ -9,6 +9,8 @@ import Header from './../header/Header'
 import HeroHome from './../header/HeroHome';
 import SubFooter from './../footer/SubFooter';
 import Footer from './../footer/Footer';
+import ExternalLink from './../scripts/ExternalLink';
+
 
 import '../../sass/styles.scss';
 import header_bg from './../header/background_bg-hero.png';
@@ -78,6 +80,8 @@ const Layout = ({ children, data }) => (
           address_line_2 = { data.site.siteMetadata.address_line_2 }
           city = { data.site.siteMetadata.city }
          />
+
+         <ExternalLink/>
       </>
     )}
   />
