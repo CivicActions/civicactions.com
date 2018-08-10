@@ -2,7 +2,6 @@ import React from "react"
 import { graphql } from "gatsby"
 
 import GeneralLayout from "./../components/layouts/GeneralLayout"
-import CaseStudyTeaser from "./../components/CaseStudyTeaser"
 import CaseStudyTripleQuotes from "./../components/organisms/CaseStudyTripleQuotes";
 import FeaturedClients from "./../components/organisms/FeaturedClients";
 import FilteredCaseStudies from "./../components/FilteredCaseStudies";

@@ -32,15 +32,19 @@ const RelatedStudies = ({posts, tags}) => {
           key = { index }
         />
       )
+    } else {
+      return null;
     }
   }));
 
   if(relatedStudiesCounter > 0) {
     return (
       <div className = "section section__related-content">
-        <section className = "usa-grid ">
+        <section className = "usa-grid">
           <SectionTitle title = "Related Case Studies"/>
-          { relatedContent }
+            <div className = "related-content__list">
+              { relatedContent }
+            </div>
         </section>
       </div>);
   } else {

@@ -24,8 +24,14 @@
   margin: 0 auto;
   padding: 0 20px;
 
-  p blockquote {
-    margin-top: $section-margin;
+  p {
+    blockquote {
+      margin-top: $section-margin;
+
+      cite {
+        margin-top: 1rem;
+      }
+    }
   }
 
   h3 {
@@ -57,6 +63,5 @@
 
 @mixin outline {
   box-shadow: -1px 1px 6px 3px $color-primary-alt-lightest;
-
 }
 

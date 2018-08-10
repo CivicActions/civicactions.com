@@ -15,6 +15,11 @@
     }
   }
 
+  &__subtitle {
+    font-size: $lead-font-size;
+    padding-bottom: $section-margin;
+  }
+
   //-------------------------------------
   // CIVICACTIONS INTRO SECTION IN THE HOMEPAGE
   //-------------------------------------------
@@ -52,7 +57,7 @@
   &__recent-posts {
     @media all and (min-width: $medium-screen) {
 
-      .section__title {
+      .section__title--wrapper {
         @include span-columns(4);
       }
 
@@ -116,17 +121,19 @@
     }
   }
 
-  // Case study pages
+  //------------------------------------------------------------
+  // RELATED CASE STUDIES SECTION ON THE CASE STUDY LANDING PAGE
+  //------------------------------------------------------------
   &__related-content {
     background-color: $neutral;
     position: relative;
     margin-top: $section-margin;
-
-    section {
-      margin-bottom: 0;
-      padding-top: $line-height;
-    }
+    margin-bottom: 0;
+    padding-bottom: $section-margin;
   }
+}
 
-
+.neutral {
+  background-color: $neutral;
+  padding-bottom: $section-margin;
 }
