@@ -6,6 +6,7 @@ To add content to this site, you will need:
 
 #### Resources:
 Markdown Editor: https://typora.io/
+Github Md Editor: http://prose.io/
 Markdown Cheatsheet: https://www.markdownguide.org/cheat-sheet/
 
 #### File Structure:
