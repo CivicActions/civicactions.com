@@ -13,14 +13,7 @@
     height: 67px;
     width: 67px;
     display: inline-block;
-    margin: 30px 30px 30px;
-    &:hover {
-      .rollovericon__icon {
-        display: none;
-      }
-      .rollovericon__rollover_text {
-        display: block;
-      }
-    }
+    margin: 15px;
+    vertical-align: top;
   }
 }
