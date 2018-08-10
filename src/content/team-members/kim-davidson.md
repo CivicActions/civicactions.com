@@ -1,6 +1,7 @@
 ---
-path: /team/kim-davidson
+path: /
 type: team
+published: 0
 name: Kim Davidson
 image: 'Kim-Davidson.jpg'
 ---

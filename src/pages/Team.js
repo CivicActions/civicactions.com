@@ -2,6 +2,7 @@ import React from "react"
 //import { graphql } from "gatsby"
 
 import GeneralLayout from "./../components/layouts/GeneralLayout"
+import TeaserGrid from './../components/TeaserGrid';
 import OurPerspectives from '../components/organisms/OurPerspectives';
 import ImageBand from './../components/organisms/ImageBand';
 
@@ -26,27 +27,33 @@ const Team = ({data}) => {
 
 
   const teamTeasers = team.map((item, index) => {
-        const {image, name} = item.node.frontmatter;
-        let memberImage = image ? image.childImageSharp.resize.src: '';
-        // console.log('Member', memberImage);
-        return (<div>{name}</div>);
+      const {image, name, path, published, role} = item.node.frontmatter;
+      return (
+              <TeaserGrid
+                image={image}
+                name={name}
+                link={path}
+                published={published}
+                title={role}
+              />
+      )
     });
 
 
   return(
-    <GeneralLayout
-      heroTitle = "Our Team"
-      heroSubtitle = "We are a fun loving, open hearted group of civic technology professionals committed to making life better for our clients and each other."
-    >
+      <GeneralLayout
+          heroTitle = "Our Team"
+          heroSubtitle = "We are a fun loving, open hearted group of civic technology professionals committed to making life better for our clients and each other."
+      >
+          <section className = "section usa-grid section__teaser-grid">
+              {teamTeasers}
+          </section>
 
-      {teamTeasers}
-      <p />
-
-      <OurPerspectives />
-      <section className = "feed__image--wrapper">
-        <ImageBand imageArray = { imageArray }/>
-      </section>
-    </GeneralLayout>
+              <OurPerspectives />
+              <section className = "feed__image--wrapper">
+                  <ImageBand imageArray = { imageArray }/>
+              </section>
+      </GeneralLayout>
   )
 };
 
@@ -60,12 +67,15 @@ export const t = graphql `
       node {
         frontmatter {
           name
-            image {
+          image {
              	childImageSharp {resize(width:144, height:144) {
              	  src
              	}
             }
           }
+          path
+          published
+          role
         }
       }
     }

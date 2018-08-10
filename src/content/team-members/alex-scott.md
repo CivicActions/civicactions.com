@@ -1,6 +1,7 @@
 ---
-path: /team/alex-scott
+path: /
 type: team
+published: 0
 name: Alex Scott
 image: 'Alex-Scott.jpg'
 ---

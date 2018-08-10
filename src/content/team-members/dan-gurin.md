@@ -1,6 +1,7 @@
 ---
-path: /team/dan-gurin
+path: /
 type: team
+published: 0
 name: Dan Gurin
 image: 'Dan-Gurin.jpg'
 ---
