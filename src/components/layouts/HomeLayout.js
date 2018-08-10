@@ -9,7 +9,6 @@ import Header from './../header/Header'
 import HeroHome from './../header/HeroHome';
 import SubFooter from './../footer/SubFooter';
 import Footer from './../footer/Footer';
-import ExternalLink from './../scripts/ExternalLink';
 
 import '../../sass/styles.scss';
 import header_bg from './../header/background_bg-hero.png';
