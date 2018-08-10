@@ -7,7 +7,6 @@ class SocialLinks extends Component {
 
         return socialLinks.map((link) => (
             <a key = { link.label } href = { link.url } className = { link.iconClassName }>
-                { link.label }
             </a>
         ));
     }

@@ -23,4 +23,29 @@
   &__phone {
     margin-bottom: 20px;
   }
+
+  &__social_links {
+    margin-top: 20px;
+    .social-links {
+      .fa {
+        margin-right: 20px;
+        display: inline-block;
+        &-twitter {
+          &:after {
+            content: url('./../files/icons/social/twitter.svg')
+          }
+        }
+        &-facebook {
+          &:after {
+            content: url('./../files/icons/social/facebook.svg')
+          }
+        }
+        &-linkedin {
+          &:after {
+            content: url('./../files/icons/social/linkedin.svg')
+          }
+        }
+      }
+    }
+  }
 }

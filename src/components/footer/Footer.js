@@ -18,7 +18,7 @@ const Footer = ({email, phone, address, address_line_2, city}) => {
           <div> { address_line_2 }</div>
            <div> { city } </div>
         </div>
-        <div>
+        <div className = "footer__social_links">
           <SocialLinks/>
         </div>
       </footer>
