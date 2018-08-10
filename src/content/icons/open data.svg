@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="64px" height="64px" viewBox="0 0 64 64" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51 (57462) - http://www.bohemiancoding.com/sketch -->
+    <title>icons / service / open data</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <polygon id="path-1" points="0.524280084 0.9981 31 0.9981 31 31.4756 0.524280084 31.4756"></polygon>
+        <polygon id="path-3" points="0 0.0955 57.9047 0.0955 57.9047 57.9995 0 57.9995"></polygon>
+    </defs>
+    <g id="icons-/-service-/-open-data" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group-3" transform="translate(33.000000, -0.998400)">
+            <mask id="mask-2" fill="white">
+                <use xlink:href="#path-1"></use>
+            </mask>
+            <g id="Clip-2"></g>
+            <path d="M3.5713,28.4286 L3.5713,4.1906 C16.6563,4.9636 27.0403,15.3436 27.8093,28.4286 L3.5713,28.4286 Z M2.0483,0.9996 C2.0003,0.9976 1.9523,0.9976 1.9043,0.9996 C1.1193,1.0746 0.5203,1.7346 0.5243,2.5236 L0.5243,29.9526 C0.5243,30.7936 1.2063,31.4756 2.0483,31.4756 L29.4763,31.4756 C30.3183,31.4756 31.0003,30.7936 31.0003,29.9526 C31.0003,13.9806 18.0193,0.9996 2.0483,0.9996 Z" id="Fill-1" fill="#097C86" mask="url(#mask-2)"></path>
+        </g>
+        <g id="Group-6" transform="translate(0.000000, 6.001600)">
+            <mask id="mask-4" fill="white">
+                <use xlink:href="#path-3"></use>
+            </mask>
+            <g id="Clip-5"></g>
+            <path d="M29.0957,54.9995 C14.6917,54.9995 3.0477,43.4085 3.0477,29.0715 C3.0477,15.2565 13.8907,4.0895 27.5637,3.2855 L27.5637,29.0715 C27.5637,29.9135 28.2497,30.5965 29.0957,30.5965 L54.9997,30.5965 C54.1927,44.2065 42.9737,54.9995 29.0957,54.9995 M56.3807,27.5235 L30.4757,27.5235 L30.4757,1.6195 C30.4757,0.7775 29.7937,0.0955 28.9517,0.0955 C12.9807,0.0955 -0.0003,13.0755 -0.0003,29.0475 C-0.0003,45.0195 12.9807,57.9995 28.9517,57.9995 C44.9247,57.9995 57.9047,45.0195 57.9047,29.0475 C57.9047,28.2065 57.2227,27.5235 56.3807,27.5235" id="Fill-4" fill="#002F43" mask="url(#mask-4)"></path>
+        </g>
+    </g>
+</svg>
