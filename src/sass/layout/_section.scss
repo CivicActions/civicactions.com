@@ -137,3 +137,15 @@
   background-color: $neutral;
   padding-bottom: $section-margin;
 }
+
+//------------------------------------------------------------
+// GENERIC TEASER GRID
+//------------------------------------------------------------
+.section__teaser-grid {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-content: space-between;
+  align-items: baseline;
+}

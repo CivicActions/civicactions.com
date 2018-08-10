@@ -27,35 +27,33 @@ const Team = ({data}) => {
 
 
   const teamTeasers = team.map((item, index) => {
-      const {image, name, role} = item.node.frontmatter;
+      const {image, name, path, published, role} = item.node.frontmatter;
       return (
-          <TeaserGrid
-            image={image}
-            name={name}
-            title={role}
-            />
+              <TeaserGrid
+                image={image}
+                name={name}
+                link={path}
+                published={published}
+                title={role}
+              />
       )
-
-
-      // console.log('Member', memberImage);
-       // return (<div>{name}</div>);
     });
 
 
   return(
-    <GeneralLayout
-      heroTitle = "Our Team"
-      heroSubtitle = "We are a fun loving, open hearted group of civic technology professionals committed to making life better for our clients and each other."
-    >
+      <GeneralLayout
+          heroTitle = "Our Team"
+          heroSubtitle = "We are a fun loving, open hearted group of civic technology professionals committed to making life better for our clients and each other."
+      >
+          <section className = "section usa-grid section__teaser-grid">
+              {teamTeasers}
+          </section>
 
-      {teamTeasers}
-      <p />
-
-      <OurPerspectives />
-      <section className = "feed__image--wrapper">
-        <ImageBand imageArray = { imageArray }/>
-      </section>
-    </GeneralLayout>
+              <OurPerspectives />
+              <section className = "feed__image--wrapper">
+                  <ImageBand imageArray = { imageArray }/>
+              </section>
+      </GeneralLayout>
   )
 };
 
@@ -75,7 +73,9 @@ export const t = graphql `
              	}
             }
           }
-          role          
+          path
+          published
+          role
         }
       }
     }

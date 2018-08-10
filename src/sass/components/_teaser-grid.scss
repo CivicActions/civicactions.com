@@ -1,5 +1,4 @@
 .teaser-grid {
-  color: $navy;
   &--wrapper {
     @include flex-item;
     display: block;
@@ -20,24 +19,26 @@
     }
 
     @include media($medium-screen) {
-      width: 10%;
+      width: 12%;
     }
 
-    &__text {
-      color: $navy;
-      text-decoration: none;
-      padding: 40px 20px;
-    }
+  }
+}
 
-    &__name {
-      font-size: $small-font-size;
-      font-weight: bold;
-    }
 
-    &__title {
-      &:hover {
-        text-decoration: underline;
-      }
-    }
+.teaser-grid__text {
+  color: $navy;
+  text-decoration: none;
+  padding: 40px 20px;
+}
+
+.teaser-grid__name {
+  font-size: $small-font-size;
+  font-weight: bold;
+}
+
+.teaser-grid__title {
+  &:hover {
+    text-decoration: underline;
   }
 }

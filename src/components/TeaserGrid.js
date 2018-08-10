@@ -1,17 +1,46 @@
 import React  from "react";
 import Img from "gatsby-image";
+import Link from "gatsby-link";
+import PropTypes from 'prop-types';
 
-const TeaserGrid = ({image, name, title}) => {
+const TeaserGrid = ({image, link, name, published, title}) => {
 
-    let i = image ? image.childImageSharp.resize: null;
-    let previewImage = i ? <div className = "teaser-grid--__image"><Img sizes = { i } /></div> : "NO_IMAGE";
+    const previewImage = image ? <div className = "teaser-grid__image"><Img sizes = {image.childImageSharp.resize} /></div> : null;
 
-    return (<div>
-            <p>{previewImage}</p>
-            <p>{name}</p>
-            <p>{title}</p>
+    return (
+        <div className="teaser-grid--wrapper">
+        <div className = "teaser-grid">
+          { // Just show a link if the element fulfills the right criteria.
+              published && link !== '/' ?
+                  <Link to = { link } title = {`Link to ${name}'s profile page`} >
+                        {previewImage}
+                  </Link>
+                     : previewImage}
+          <div className = "teaser-grid__text">
+            <div className = "teaser-grid__name teaser__link">
+
+              { // Just show a link if the element fulfills the right criteria.
+                  published && link !== '/' ?
+                      <Link to = { link } title = {`Link to ${name}'s profile page`} >
+                            {name}
+                      </Link>
+                      : name}
+
             </div>
-           );
-}
+            <div className = "teaser-grid__title">{ title }</div>
+          </div>
+        </div>
+        </div>
+    );
+};
 
 export default TeaserGrid;
+
+TeaserGrid.propTypes = {
+    image: PropTypes.object,
+    link: PropTypes.string,
+    name: PropTypes.string,
+    title: PropTypes.string,
+    published: PropTypes.boolean
+};
+
