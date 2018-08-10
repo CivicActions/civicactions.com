@@ -86,7 +86,9 @@ const GeneralLayout = ({
           city = { data.site.siteMetadata.city }
         />
 
-        </>
+       <ExternalLink/>
+
+       </>
 
     )}
 
