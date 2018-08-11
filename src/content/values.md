@@ -1,37 +1,37 @@
 ---
 title: Our Values
-path: /values
+path: /
 subtitle: Our values are the mindsets that help us structure our work, define our culture, and achieve our goal of creating digital services that work for everyone.
 thankyou_text: Our human-centric culture has enabled us to build a company that is recognized for putting people first. We are grateful to the people and organizations that have helped us get here.
 quotes_title: From the Team
 quotes: 
   - {
-    image: '',
+    image: './team-members/Kristian-Ducharme.jpg',
     text: 'When you create a space for people to be balanced, it opens up the silos in the mind and allows for more possibility and innovation.',
     author: 'Henry Poole, Co-Founder and CEO'
   }
   - {
-    image: '',
+    image: './team-members/Kristian-Ducharme.jpg',
     text: 'At CivicActions everything is done intentionally and with purpose. We try to bring this authenticity to everyone we work with',
     author: 'Andy Hawks, Engineer'
   }
   - {
-    image: '',
+    image: './team-members/Kristian-Ducharme.jpg',
     text: 'Being part of a diverse company creates freedom for me to feel I can be unique to myself, but also fit in with the team.',
     author: 'Alaine Karoleff, Director of Agile Digital Services'
   }
 thankyou_images:
   - {
-    image: '',
-    text: '',
+    image: './general-images/comparably.png',
+    text: 'Comparably best company culture',
   }
   - {
-    image: '',
-    text: '',
+    image: './general-images/govTech17.png',
+    text: 'Gov tech 2017',
   }
   - {
-    image: '',
-    text: '',
+    image: '././general-images/govTech18.png',
+    text: 'Gov tech 2018',
   }
 ---
 ### Work for the greater good
