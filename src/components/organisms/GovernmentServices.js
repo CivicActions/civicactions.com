@@ -12,7 +12,7 @@ const GovernmentServices = () => (
       <Teaser
         teaserTitle = "Contracting and capabilities"
         teaserImage = { image1 }
-        teaserText = "We've worked for years in the public sector and understand how to meet the needs of today's government."
+        teaserText = "Years of work in the public sector have taught us how to meet the needs of today’s government"
         teaserLink = "/capabilities"
         teaserClass = "teaser__contracting teaser__halves"
       />

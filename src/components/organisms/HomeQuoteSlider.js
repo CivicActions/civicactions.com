@@ -4,11 +4,11 @@ import Slider from "react-slick"
 import Blockquote from "./../atoms/Blockquote";
 import SectionTitle from "./../atoms/SectionTitle";
 
-import image1 from "./../../files/images/127.jpg";
-import image2 from "./../../files/images/128.jpg";
-import image3 from "./../../files/images/129.jpg";
+import image1 from "./../../content/team-members/Karen-Johnson.jpg";
+import image2 from "./../../content/team-members/Steve-Wirt.jpg";
+import image3 from "./../../content/team-members/Steve-Curtis.jpg";
 
-class QuoteSlider extends Component {
+class HomeQuoteSlider extends Component {
 
   render() {
 
@@ -38,18 +38,18 @@ class QuoteSlider extends Component {
             className = "blockquotes__list">
             <Slider {...settings}>
               <Blockquote
-                quote = "I love the openness, the collaborative atmosphere, the honesty, and the way CivicActions prioritizes the well-being of team members."
-                quote_source = "Iris Ibekwe, Engineer"
+                quote = "The emphasis on balance and constant learning make CivicActions an incredibly fun and engaging community."
+                quote_source = "Karen Johnson, Systems Administrator"
                 quote_image = { image1 }
               />
               <Blockquote
-                quote = "I love digging into the challenges of improving communication and process within organizations doing good."
-                quote_source = "Jeff Maher, Engineer"
+                quote = "We build trust by giving clients insight into the people we are, so they relate to us as humans rather than just contractors."
+                quote_source = "Steve Wirt,  Engineer"
                 quote_image = { image2 }
               />
               <Blockquote
-                quote = "Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Duis mollis, est non commodo luctus, nisi erat porttitor ligula.."
-                quote_source = "First Last, Title"
+                quote = "We are each in charge of how we approach our own work, yet we’re accountable to each other. So we have to remain clear, focused, and transparent."
+                quote_source = "Steve Curtis, Project Manager"
                 quote_image = { image3 }
               />
             </Slider>
@@ -61,4 +61,4 @@ class QuoteSlider extends Component {
 
 }
 
-export default QuoteSlider;
+export default HomeQuoteSlider;
