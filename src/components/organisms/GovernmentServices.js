@@ -6,7 +6,7 @@ import Teaser from './../Teaser';
 import SectionTitle from '../atoms/SectionTitle';
 
 const GovernmentServices = () => (
-  <section className = "section section__government-services">
+  <section className = "section section__government-services neutral-hex-bg">
     <div className = "usa-grid">
       <SectionTitle title = "Modernizing Government Services" />
       <Teaser
