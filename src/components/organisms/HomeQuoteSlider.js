@@ -3,6 +3,7 @@ import Slider from "react-slick"
 
 import Blockquote from "./../atoms/Blockquote";
 import SectionTitle from "./../atoms/SectionTitle";
+import Button from "../atoms/Buttons"
 
 import image1 from "./../../content/team-members/Karen-Johnson.jpg";
 import image2 from "./../../content/team-members/Steve-Wirt.jpg";
@@ -53,6 +54,12 @@ class HomeQuoteSlider extends Component {
                 quote_image = { image3 }
               />
             </Slider>
+          </div>
+          <div class = "align-right">
+            <Button
+              button_text = "Meet Our Team"
+              link = "/team"
+            />
           </div>
         </div>
       </section>
