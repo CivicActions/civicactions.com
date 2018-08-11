@@ -1,0 +1,9 @@
+.three-col {
+  @include media($medium-screen) {
+    &--grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      grid-gap: 70px;
+    }
+  }
+}

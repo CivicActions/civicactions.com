@@ -1,5 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
+import { Link } from "gatsby";
 
 const Button = ({type, button_text, link}) => {
   const buttonClass =
@@ -10,7 +11,7 @@ const Button = ({type, button_text, link}) => {
 
   return (
     <button className = { buttonClass }>
-      <a alt = { button_text } href = { link }>{ button_text } </a>
+      <Link alt = { button_text } to = { link }>{ button_text } </Link>
     </button>
   );
 

@@ -6,7 +6,7 @@ import { graphql } from 'gatsby'
 import HomeLayout from '../components/layouts/HomeLayout'
 import MediumPostList from '../components/medium-components/mediumPostList';
 import GovernmentServices from '../components/organisms/GovernmentServices';
-import QuoteSlider from '../components/organisms/QuoteSlider';
+import HomeQuoteSlider from '../components/organisms/HomeQuoteSlider';
 
 // Atoms
 import SectionTitle from '../components/atoms/SectionTitle'
@@ -54,7 +54,7 @@ const IndexPage = ({data}) => {
       <GovernmentServices />
 
       {/*----- Get to Know Us section -------- */}
-      <QuoteSlider />
+      <HomeQuoteSlider />
     </HomeLayout>
   );
 
@@ -63,7 +63,7 @@ const IndexPage = ({data}) => {
 export default IndexPage
 
 export const mediumQuery = graphql `
-    query mediumPosts($path: String!) {
+    query mediumPosts {
     allMediumPost(limit: 3) {
       group(field: homeCollectionId ) {
         edges {
@@ -77,7 +77,7 @@ export const mediumQuery = graphql `
       }
     }
 
-     markdownRemark(frontmatter: { path: { eq: $path } } ) {
+     markdownRemark(frontmatter: { type: { eq: "home" } } ) {
       html
       frontmatter {
         path

@@ -15,7 +15,13 @@
 
     img {
       border-radius: 50%;
+
+      .section__triple-quotes & {
+        max-width: 132px;
+      }
     }
+
+
   }
 
   &__text {
