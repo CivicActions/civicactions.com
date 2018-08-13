@@ -8,6 +8,7 @@ import Header from './../header/Header'
 import Hero from './../header/Hero';
 import SubFooter from './../footer/SubFooter';
 import Footer from './../footer/Footer';
+import config from "../../../data/SiteConfig";
 
 import header_bg from './../header/background_bg-hero.png';
 
@@ -50,6 +51,22 @@ const GeneralLayout = ({
           meta={[
                 { name: 'description', content: 'Sample' },
                 { name: 'keywords', content: 'sample, something' },
+
+                // Social Sharing
+                { name: 'og:site_name', content: data.site.siteMetadata.title },
+                { property: 'og:type', content: 'website'},
+                { property: 'og:url', content: location },
+                { property: 'og:title', content: heroTitle },
+                { property: 'og:description', content: heroSubtitle },
+                { property: 'og:image', content: teamImage },
+                { name: 'twitter:card', content: config.seo.twitterCard },
+                { name: 'twitter:site', content: config.seo.twitterSite },
+                { property: 'fb:app_id', content: config.seo.fbAppId },
+
+                // Contact
+                { property: 'og:email', content: data.site.siteMetadata.email },
+                { property: 'og:phone_number', content: data.site.siteMetadata.phone },
+
               ]}
         />
 

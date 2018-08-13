@@ -15,5 +15,11 @@ module.exports = {
             url: "https://www.linkedin.com/company/civicactions",
             iconClassName: "fa fa-linkedin"
         }
-    ]
+    ],
+    seo: {
+        fbAppId: "",
+        twitterSite: "@civicactions",
+        twitterCard: "summary",
+
+    }
 };
