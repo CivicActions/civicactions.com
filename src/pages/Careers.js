@@ -6,6 +6,8 @@ import SectionTitle from "./../components/atoms/SectionTitle"
 import GeneralLayout from "./../components/layouts/GeneralLayout"
 import Benefits from '../components/organisms/Benefits';
 import ImageBand from './../components/organisms/ImageBand'
+import ImageSlider from './../components/organisms/ImageSlider';
+import GlobalQuoteSlider from './../components/organisms/GlobalQuoteSlider';
 
 // Image band Images
 import image1 from './../files/image-band/IMG_20170919_085448.jpg'
@@ -20,37 +22,65 @@ import image9 from './../files/image-band/IMG_0577.jpg';
 import image10 from './../files/image-band/IMG_20170918_122218.jpg';
 
 const Careers = ({data}) => {
-  const{ allJob } = data;
+  const { allJob, markdownRemark } = data;
+  const { html,frontmatter } = markdownRemark;
+  const {images,
+         quotes,
+         quotes_title,
+         openings_subtitle,
+         openings_title,
+         title,
+         subtitle,
+        } = frontmatter;
   const { edges } = allJob;
   const imageArray = [ image1, image2, image3, image4, image5, image6, image7, image8, image9, image10 ];
 
-
+  
   const jobs = _.map(edges, (job, index) => {
 
     let url = `http://civicactions.applytojob.com/apply/${job.node.board_code}`;
 
     return (
-        <li key = { job.node.id } className = "teaser__item">
-          <h4>{ job.node.title }</h4>
-          <div>Location: { job.node.city}, { job.node.state }</div>
-          <div>Type: { job.node.type }</div>
-          <a href = {url} > View Details</a>
-        </li>
-      )
+      <li key = { job.node.id } className = "teaser__item">
+        <h4>{ job.node.title }</h4>
+        <div>Location: { job.node.city}, { job.node.state }</div>
+        <div>Type: { job.node.type }</div>
+        <a href = {url} > View Details</a>
+      </li>
+    )
   });
 
   return(
     <GeneralLayout
-      heroTitle = "Careers"
-      heroSubtitle = "CivicActions offers a place to learn and grow with a talented group of folks who are passionate about transforming the future of government digital services. Join us!"
+      heroTitle = { title }
+      heroSubtitle = { subtitle } 
       hideSubFooter =  {true}
     >
-     <Benefits/>
+
+      <ImageSlider images = { images } />
+
+      <section className = "section">
+        <div className = "usa-grid">
+          <p className = "text-container" dangerouslySetInnerHTML = {{ __html: html }} />
+        </div>
+      </section>
+
+      <section className = "section section__triple-quotes neutral-hex-bg">
+        <div className = "usa-grid">
+          <SectionTitle title = { quotes_title } />
+          <div className = "blockquotes__list">
+            <GlobalQuoteSlider quotes = {quotes} />
+          </div>
+        </div>
+      </section>
+
+      <Benefits/>
+
       <section className = "section section__recent-posts neutral">
         <div className = "usa-grid">
           <SectionTitle
-            title = "Openings"
-            subtitle = "We actively seek to broaden the diversity of people on our team, and strongly encourage folks from underrepresented groups to apply. We give equal consideration to all qualified applicants."
+            title = {openings_title}
+            subtitle = {openings_subtitle}
           />
           <ul className = "teaser--wrapper">
             {jobs}
@@ -69,18 +99,50 @@ export default Careers;
 
 
 export const jobsQuery = graphql `
-  query jobsQuery {
-     allJob {
-      edges {
-        node {
-          id,
-          title,
-          city,
-          state,
-          type,
-          board_code
+query jobsQuery {
+    markdownRemark(frontmatter: { title: { eq: "Careers" } } ) {
+    html
+    frontmatter {
+        images {
+          caption
+          alt
+          url {
+          childImageSharp {
+            resize(width: 1400, height: 860) {
+              src
+             }
+           }
+         }
+       } 
+        openings_title
+        openings_subtitle
+        title
+        subtitle
+        quotes_title
+        quotes {
+          image {
+            childImageSharp{
+              resize(width: 132, height: 132) {
+                src
+              }
+            }
+          }
+          text
+          author
         }
       }
     }
+  allJob {
+    edges {
+      node {
+        id,
+        title,
+        city,
+        state,
+        type,
+        board_code
+      }
+    }
   }
+}
 `;
