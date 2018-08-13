@@ -3,7 +3,7 @@ path: "/case-study/California DMV"
 type:  "case-study"
 title: "Improving the DMV experience"
 client_name: "California Department of Motor Vehicles"
-preview_image: LINCS1.jpg
+preview_image: DMV_1.jpg
 project: "California DMV"
 website: "https://www.dmv.ca.gov/portal/dmv/detail/forms/dl/dl44"
 background_section_title: "Service design to implement new policies"
@@ -19,16 +19,25 @@ specs: [
 ]
 images:
   - {
-  url: 'LINCS1.jpg', 
-  caption: 'Presenting findings from discovery about LINCS user needs', 
-  alt: 'LINCS Home page'
+  url: 'DMV_1.jpg', 
+  caption: 'Californians can now apply for a driver license online.', 
+  alt: 'Person accessing California DMV via laptop'
   }
   - {
-  url: 'LINCS2.jpg', 
-  caption: 'Visitors to the LINCS website can quickly find the resources they need', 
-  alt: 'CivicActions meets with LINCS team and partners'
+  url: 'DMV_2.jpg', 
+  caption: 'The DMV application is easy to use on a mobile device.', 
+  alt: 'Mobile view of DMV application'
   }
-  
+  - {
+  url: 'DMV_3.jpg', 
+  caption: 'Field testing the paper prototype of the new DMV forms.', 
+  alt: 'Field testing the paper prototype'
+  }
+   - {
+  url: 'DMV_4.jpg', 
+  caption: 'Discussing the organizational structure of DMV and other project stakeholders.', 
+  alt: 'Discussing organizational structure'
+  }
 ---
 
 ### Approach
