@@ -6,7 +6,11 @@ class SocialLinks extends Component {
         const socialLinks = config.socialLinks;
 
         return socialLinks.map((link) => (
-            <a key = { link.label } href = { link.url } className = { link.iconClassName }>
+            <a key = { link.label }
+               href = { link.url }
+               target = "_blank"
+               rel = "external noopener noreferrer"
+               className = { link.iconClassName }>
             </a>
         ));
     }
