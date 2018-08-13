@@ -21,10 +21,10 @@ import image10 from './../files/image-band/IMG_20170918_122841.jpg';
 
 const Team = ({data}) => {
 
-    const{ allMarkdownRemark } = data;
-    const team = allMarkdownRemark.edges;
-    const imageArray = [ image1, image2, image3, image4, image5, image6, image7, image8, image9, image10 ];
-
+  const{ markdownRemark, allMarkdownRemark } = data;
+  const team = allMarkdownRemark.edges;
+  const imageArray = [ image1, image2, image3, image4, image5, image6, image7, image8, image9, image10 ];
+  const {title, subtitle} = markdownRemark.frontmatter;
 
   const teamTeasers = team.map((item, index) => {
       const {image, name, path, published, role} = item.node.frontmatter;
@@ -42,8 +42,8 @@ const Team = ({data}) => {
 
   return(
       <GeneralLayout
-          heroTitle = "Our Team"
-          heroSubtitle = "We are a fun loving, open hearted group of civic technology professionals committed to making life better for our clients and each other."
+          heroTitle = {title}
+          heroSubtitle = {subtitle}
       >
           <section className = "section usa-grid section__teaser-grid">
               {teamTeasers}
@@ -62,6 +62,12 @@ export default Team;
 
 export const t = graphql `
  {
+   markdownRemark(frontmatter: { title: { eq: "Our Team" } } ) {
+     frontmatter {
+       subtitle
+       title
+     }
+  }
   allMarkdownRemark(filter: {frontmatter: {type: {eq: "team"}}}) {
     edges {
       node {
@@ -76,6 +82,7 @@ export const t = graphql `
           path
           published
           role
+          title
         }
       }
     }
