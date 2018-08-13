@@ -21,10 +21,10 @@ import image10 from './../files/image-band/IMG_20170918_122841.jpg';
 
 const Team = ({data}) => {
 
-    const{ allMarkdownRemark } = data;
-    const team = allMarkdownRemark.edges;
-    const imageArray = [ image1, image2, image3, image4, image5, image6, image7, image8, image9, image10 ];
-
+  const{ markdownRemark, allMarkdownRemark } = data;
+  const team = allMarkdownRemark.edges;
+  const imageArray = [ image1, image2, image3, image4, image5, image6, image7, image8, image9, image10 ];
+  const {title, subtitle} = markdownRemark.frontmatter;
 
   const teamTeasers = team.map((item, index) => {
       const {image, name, path, published, role} = item.node.frontmatter;
