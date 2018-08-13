@@ -6,6 +6,7 @@ import SectionTitle from "./../components/atoms/SectionTitle"
 import GeneralLayout from "./../components/layouts/GeneralLayout"
 import Benefits from '../components/organisms/Benefits';
 import ImageBand from './../components/organisms/ImageBand'
+import ImageSlider from './../components/organisms/ImageSlider';
 import GlobalQuoteSlider from './../components/organisms/GlobalQuoteSlider';
 
 // Image band Images
@@ -23,7 +24,14 @@ import image10 from './../files/image-band/IMG_20170918_122218.jpg';
 const Careers = ({data}) => {
   const { allJob, markdownRemark } = data;
   const { html,frontmatter } = markdownRemark;
-  const {openings_subtitle, openings_title, title, subtitle, quotes, quotes_title } = frontmatter;
+  const {images,
+         quotes,
+         quotes_title,
+         openings_subtitle,
+         openings_title,
+         title,
+         subtitle,
+        } = frontmatter;
   const { edges } = allJob;
   const imageArray = [ image1, image2, image3, image4, image5, image6, image7, image8, image9, image10 ];
 
@@ -48,6 +56,8 @@ const Careers = ({data}) => {
       heroSubtitle = { subtitle } 
       hideSubFooter =  {true}
     >
+
+      <ImageSlider images = { images } />
 
       <section className = "section">
         <div className = "usa-grid">
@@ -93,6 +103,17 @@ query jobsQuery {
     markdownRemark(frontmatter: { title: { eq: "Careers" } } ) {
     html
     frontmatter {
+        images {
+          caption
+          alt
+          url {
+          childImageSharp {
+            resize(width: 1400, height: 860) {
+              src
+             }
+           }
+         }
+       } 
         openings_title
         openings_subtitle
         title

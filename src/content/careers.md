@@ -3,7 +3,12 @@ path: /
 type: page
 title: "Careers"
 subtitle: "CivicActions offers a place to learn and grow with a talented group of folks who are passionate about transforming the future of government digital services. Join us!"
-images: []
+images:
+  - {
+  url: 'team.jpg', 
+  caption: 'CivicActions retreat 2017 in Sacramento', 
+  alt: 'CivicActions retreat 2017 in Sacramento'
+  }
 quotes_title: Working at CivicActions
 quotes: 
   - {
