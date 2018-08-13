@@ -91,14 +91,10 @@ It was a pleasure to work with the CivicActions team. Their experience with gove
 <figure>
   <div> 
     <header>805</header>
-    <p>agile user stories
-    created and solved
-<p>
+    <p>agile user stories <br> created and solved <p>
   </div>
   <div> 
       <header>550</header>
-      <p>Behat tests run 
-       with every code push
-<p>
+      <p>Behat tests run <br> with every code push <p>
   </div>
 </figure>
