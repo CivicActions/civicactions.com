@@ -121,6 +121,22 @@
     }
   }
 
+  //-------------------------------------
+  // FEATURES INTRO SECTION ON THE DKAN OPEN DATA PAGE
+  //-------------------------------------------
+  &__features {
+
+    &--intro-text {
+      font-size: $lead-font-size;
+      max-width: $text-max-width;
+      margin-bottom: $section-margin;
+
+      p {
+        margin-top: 0;
+      }
+    }
+  }
+
   //------------------------------------------------------------
   // RELATED CASE STUDIES SECTION ON THE CASE STUDY LANDING PAGE
   //------------------------------------------------------------
