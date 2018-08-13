@@ -1,0 +1,8 @@
+a.external-link {
+  display: inline-block;
+  &:after {
+    content: url('./../files/icons/externalLink.svg');
+    background: $teal;
+    padding: 0.25rem;
+  }
+}
