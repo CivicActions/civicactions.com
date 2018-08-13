@@ -35,17 +35,17 @@ const Careers = ({data}) => {
   const { edges } = allJob;
   const imageArray = [ image1, image2, image3, image4, image5, image6, image7, image8, image9, image10 ];
 
-  
+
   const jobs = _.map(edges, (job, index) => {
 
     let url = `http://civicactions.applytojob.com/apply/${job.node.board_code}`;
 
     return (
       <li key = { job.node.id } className = "teaser__item">
-        <h4>{ job.node.title }</h4>
-        <div>Location: { job.node.city}, { job.node.state }</div>
-        <div>Type: { job.node.type }</div>
-        <a href = {url} > View Details</a>
+        <h4 className =  "teaser__title">{ job.node.title }</h4>
+        <div className = "teaser__text">Location: { job.node.city}, { job.node.state }</div>
+        <div className = "teaser__text">Type: { job.node.type }</div>
+        <div className = "teaser__link"><a href = {url}> View Details</a></div>
       </li>
     )
   });
@@ -53,7 +53,7 @@ const Careers = ({data}) => {
   return(
     <GeneralLayout
       heroTitle = { title }
-      heroSubtitle = { subtitle } 
+      heroSubtitle = { subtitle }
       hideSubFooter =  {true}
     >
 
@@ -113,7 +113,7 @@ query jobsQuery {
              }
            }
          }
-       } 
+       }
         openings_title
         openings_subtitle
         title
