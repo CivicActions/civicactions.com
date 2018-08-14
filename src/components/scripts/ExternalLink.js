@@ -21,9 +21,13 @@ class ExternalLink extends Component {
         return null;
     }
 
+    componentDidMount() {
+        ExternalLink.addExternalClass()
+    }
+
     render() {
         return (
-            ExternalLink.addExternalClass()
+            null
         )
     }
 }
