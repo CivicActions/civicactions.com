@@ -42,6 +42,12 @@ module.exports = {
         username: `dkan-blog`,
       },
     },
+    {
+      resolve: `gatsby-source-medium`,
+      options: {
+        username: `agile-government-leadership`,
+      },
+    },
     `gatsby-remark-copy-linked-files`,
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
