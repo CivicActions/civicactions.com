@@ -34,6 +34,9 @@ images:
 
 ### Approach
 
+##### Using agile to achieve project goals
+Agile processes kept the project on track and on budget. By communicating regularly with stakeholders, we made sure there were no surprises, and could quickly adjust course when needed. Rapid iteration allowed us to test ideas before they were built into the final product.
+
 ##### Integrated tools to reach people world-wide
 We worked with Smithsonian to create a social media strategy and online tools that would allow people all over the world to vote for new 3-D content and participate in discussions taking place at the museum.
 
