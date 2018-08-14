@@ -30,6 +30,7 @@ export default function Template({data}) {
       heroCTALink = { frontmatter.website }
       heroCTAText = "Visit Website"
       heroClass = "case-study-hero"
+      heroIsExternal = { true }
     >
       <div className = "section__specs section">
         <section className = "usa-grid study">

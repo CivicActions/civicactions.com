@@ -9,6 +9,7 @@ const Hero = ({
   subtitle,
   cta_text,
   cta_link,
+  cta_is_external,
   hero_class,
   image,
   location,
@@ -17,7 +18,11 @@ const Hero = ({
 
   // The button gets displayed only if the Button text is set.
   const team_image = image ? <div className = "hero__image"><img src = { image } alt = { client_name } /></div>: '' ;
-  const button = cta_text ? <Button type = 'hero' button_text = { cta_text } link = { cta_link } /> : '';
+  const button = cta_text ? <Button type = 'hero'
+                                    button_text = { cta_text }
+                                    link = { cta_link }
+                                    isExternal = { cta_is_external } /> : '';
+
   const memberLocation = location ? <div className = "hero__location">{ location } </div> : '';
   let socialLinks;
   let memberSocial;
