@@ -63,11 +63,23 @@
 
       .teaser--wrapper {
         @include span-columns(7);
-        @include shift(1 of 12);
+        @include shift(1);
       }
     }
 
     &.team { background: $neutral; }
+
+    &.right-flipped {
+      @media all and (min-width: $medium-screen) {
+        .section__title--wrapper {
+          @include shift(8);
+        }
+
+        .teaser--wrapper {
+          @include shift(-12);
+        }
+      }
+    }
   }
 
   //-------------------------------------
