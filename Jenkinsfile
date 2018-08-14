@@ -30,7 +30,7 @@ pipeline {
     }
     post {
         failure {
-            slackSend channel: 'marketing-home', message: 'Build failed for ${env.CHANGE_URL}'
+            slackSend channel: 'marketing-home', message: 'Build failed for ${env.BUILD_URL}'
         }
     }
 }
