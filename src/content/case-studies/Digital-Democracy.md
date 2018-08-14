@@ -1,5 +1,5 @@
 ---
-path: "/case-study/Digital-Democracy"
+path: "/case-study/digital-democracy"
 type:  "case-study"
 title: "Improving transparency in state government"
 client_name: "California Polytechnic State University"
