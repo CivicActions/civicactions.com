@@ -1,5 +1,5 @@
 ---
-path: "/case-study/California DMV"
+path: "/case-study/california-dmv"
 type:  "case-study"
 title: "Improving the DMV experience"
 client_name: "California Department of Motor Vehicles"
