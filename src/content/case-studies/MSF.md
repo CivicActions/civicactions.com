@@ -3,7 +3,7 @@ path: "/case-study/msf"
 type:  "case-study"
 title: "Speaking up for human rights"
 client_name: "Médecins Sans Frontières USA (MSF)"
-preview_image: LINCS1.jpg
+preview_image: MSF_1.jpg
 project: "DoctorsWithoutBorders.org"
 website: "https://doctorswithoutborders.org/"
 background_section_title: "Outdated website hampering global mission"
@@ -20,16 +20,20 @@ specs: [
 ]
 images:
   - {
-  url: 'LINCS1.jpg', 
-  caption: 'Presenting findings from discovery about LINCS user needs', 
-  alt: 'LINCS Home page'
+  url: 'MSF_1.jpg', 
+  caption: '', 
+  alt: 'Redesigned MSF website on laptop and mobile'
   }
   - {
-  url: 'LINCS2.jpg', 
-  caption: 'Visitors to the LINCS website can quickly find the resources they need', 
-  alt: 'CivicActions meets with LINCS team and partners'
+  url: 'MSF_2.jpg', 
+  caption: '', 
+  alt: ''
   }
-  
+  - {
+  url: 'MSF_3.jpg', 
+  caption: 'Cognitive mapping tools helped us create a content model for MSF.', 
+  alt: 'Mind-map to show content relationships'
+  } 
 ---
 
 ### Approach
