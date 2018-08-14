@@ -1,5 +1,5 @@
 ---
-path: "/case-study/GlobalNET"
+path: "/case-study/globalnet"
 type:  "case-study"
 title: "Empowering international collaboration"
 client_name: "Defense Security Cooperation Agency"
