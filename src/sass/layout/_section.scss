@@ -70,6 +70,9 @@
     &.team { background: $neutral; }
 
     &.right-flipped {
+      @include neutral-hex-bg;
+      margin-bottom: 0;
+
       @media all and (min-width: $medium-screen) {
         .section__title--wrapper {
           @include shift(8);
