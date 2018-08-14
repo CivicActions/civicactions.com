@@ -9,6 +9,7 @@ import Header from './../header/Header'
 import HeroHome from './../header/HeroHome';
 import SubFooter from './../footer/SubFooter';
 import Footer from './../footer/Footer';
+import config from "../../../data/SiteConfig";
 import ExternalLink from './../scripts/ExternalLink';
 
 
@@ -16,7 +17,7 @@ import '../../sass/styles.scss';
 import header_bg from './../header/background_bg-hero.png';
 
 
-const Layout = ({ children, data }) => (
+const Layout = ({ children, data, location }) => (
   <StaticQuery
     query={graphql`
       query SiteTitleQuery {
@@ -57,8 +58,24 @@ const Layout = ({ children, data }) => (
         <Helmet
           title={data.site.siteMetadata.title}
           meta={[
-            { name: 'description', content: 'Sample' },
-            { name: 'keywords', content: 'sample, something' },
+              { name: 'description', content: 'Sample' },
+              { name: 'keywords', content: 'sample, something' },
+
+              // Social Sharing
+              { name: 'og:site_name', content: data.site.siteMetadata.title },
+              { property: 'og:type', content: 'website'},
+              { property: 'og:url', content: location },
+              { property: 'og:title', content: data.site.siteMetadata.title },
+              { property: 'og:description', content: ''},
+              { property: 'og:image', content: header_bg },
+              { name: 'twitter:card', content: config.seo.twitterCard },
+              { name: 'twitter:site', content: config.seo.twitterSite },
+              { property: 'fb:app_id', content: config.seo.fbAppId },
+
+              // Contact
+              { property: 'og:email', content: data.site.siteMetadata.email },
+              { property: 'og:phone_number', content: data.site.siteMetadata.phone },
+
           ]}
         />
         <header className = "section header__main"
