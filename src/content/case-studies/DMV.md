@@ -11,7 +11,7 @@ background_section: "California’s Department of Motor Vehicles (DMV), which se
 "
 tags: ["User Experience"]
 specs: [
-"508 compliance for accessibility,
+"508 compliance for accessibility",
 "Mobile-friendly, responsive design",
 "InVision for prototyping", 
 "Affinity Mapping for grouping insights", 
@@ -33,7 +33,7 @@ images:
   caption: 'Field testing the paper prototype of the new DMV forms.', 
   alt: 'Field testing the paper prototype'
   }
-   - {
+  - {
   url: 'DMV_4.jpg', 
   caption: 'Discussing the organizational structure of DMV and other project stakeholders.', 
   alt: 'Discussing organizational structure'
