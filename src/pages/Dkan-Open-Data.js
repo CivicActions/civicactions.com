@@ -36,7 +36,7 @@ const Dkan = ({data}) => {
        </div>
      </section>
 
-     <section className = "section section_features usa-grid">
+     <section className = "section section_features usa-grid neutral-hex-bg">
        <SectionTitle title = { features_title }/>
      <div className = "section__features--intro-text">DKAN comes out-of-the-box with comprehensive public-facing engagement and administrative site management tools.</div>
        <IconParagraphsGroup icons = { features } />
