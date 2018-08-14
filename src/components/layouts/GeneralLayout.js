@@ -22,6 +22,7 @@ const GeneralLayout = ({
   heroCTAText,
   heroCTALink,
   heroClass,
+  heroIsExternal,
   hideSubFooter,
   teamImage,
   location,
@@ -63,6 +64,7 @@ const GeneralLayout = ({
             subtitle    = { heroSubtitle }
             cta_text    = { heroCTAText }
             cta_link    = { heroCTALink }
+            cta_is_external = { heroIsExternal }
             hero_class  = { heroClass }
             image       = { teamImage }
             location    = { location }
