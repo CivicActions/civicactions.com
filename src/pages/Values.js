@@ -1,4 +1,4 @@
-import React from "React";
+import React from "react";
 import { graphql } from "gatsby";
 
 import GeneralLayout from './../components/layouts/GeneralLayout';
