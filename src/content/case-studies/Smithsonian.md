@@ -1,5 +1,5 @@
 ---
-path: "/case-study/Smithsonian"
+path: "/case-study/smithsonian"
 type:  "case-study"
 title: "Expanding understanding of human evolution"
 client_name: "Smithsonian Museum of Natural History"
