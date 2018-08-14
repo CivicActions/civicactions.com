@@ -10,6 +10,7 @@ import HeroHome from './../header/HeroHome';
 import SubFooter from './../footer/SubFooter';
 import Footer from './../footer/Footer';
 import config from "../../../data/SiteConfig";
+import ExternalLink from './../scripts/ExternalLink';
 
 
 import '../../sass/styles.scss';
@@ -96,6 +97,8 @@ const Layout = ({ children, data, location }) => (
           address_line_2 = { data.site.siteMetadata.address_line_2 }
           city = { data.site.siteMetadata.city }
          />
+
+         <ExternalLink/>
       </>
     )}
   />
