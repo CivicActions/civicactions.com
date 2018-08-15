@@ -39,13 +39,13 @@ images:
 ### Approach
 
 ##### Upgrading with a complex data model
-Digital Democracy has an extremely complex data model containing over 5 million rows of testimonies, media, and other legislative content. Through a comprehensive technical architecture redesign, we streamlined data that was located in both a custom database and Drupal 7 entities.
+Digital Democracy’s team of developers and data analysts maintain all of the video, hearings, transcriptions, and analysis data in their own database schema - spanning over 100 tables and over 20+ million rows.  Through a comprehensive technical architecture redesign, seamless usage of their data by Drupal 8 custom entities treats the data as if it were local. 
 
 ##### Design with users in mind
 User research helped us decide on a modern, responsive design that gives people a flawless experience on any device and can be customized for each new state.
 
 ##### Unlimited growth potential
-The new platform built on Drupal 8 makes real-time data possible, eliminating the previous cumbersome data import process — and the site can now scale to support any number of states.
+The existing platform was a single-state architecture, through a design evaluation process we brought together an expandable, dynamic multi-state solution. The new platform built on Drupal 8 makes real-time data possible, eliminating the previous cumbersome data import process -- and the site can now scale to support any number of states.
 
 ##### DevOps for reliable updates
 We put DevOps processes in place for building, testing, and releasing to make sure the platform could be updated without compromising stability. Digital Democracy development teams can focus on improving the platform rather than managing problems.
