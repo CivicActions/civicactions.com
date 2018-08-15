@@ -1,6 +1,6 @@
 pipeline {
+    agent any
     ansiColor('xterm') {
-        agent any
         environment { 
             GATSBY_JAZZ_URL = credentials('GATSBY_JAZZ_URL') 
         }
