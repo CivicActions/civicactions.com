@@ -30,6 +30,9 @@ EXPOSE 80 443
 VOLUME /root/.caddy /srv
 WORKDIR /srv
 
+# Ensure we have root certs available for caddy.
+RUN apk add --no-cache ca-certificates
+
 # Install caddy from builder stage.
 COPY --from=builder /install/caddy /usr/bin/caddy
 
