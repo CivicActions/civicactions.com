@@ -90,7 +90,7 @@ class Contact extends React.Component {
       >
         <section className = "section section__contact">
           <section className = "usa-grid">
-            <form action="https://formspree.io/iris.ibekwe@civicactions.com"
+            <form action="https://formspree.io/ca-bizdev@civicactions.net"
                   method="POST"
                   className = "text-container"
             >
