@@ -1,0 +1,31 @@
+.press {
+  &__list {
+    list-style: none;
+  }
+
+  &__item {
+    margin-bottom: 50px;
+  }
+
+  &__meta {
+    font-size: $small-font-size;
+    font-weight: bold;
+  }
+
+  &__publication {
+    display: inline-block;
+    margin-right: 5px;
+
+    &::after {
+      content: ':'
+    }
+  }
+
+  &__link {
+    font-weight: bold;
+  }
+}
+
+h3.press__title {
+  margin-top: 0;
+}
