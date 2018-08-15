@@ -2,12 +2,12 @@
 path: "/case-study/msf"
 type:  "case-study"
 title: "Speaking up for human rights"
-client_name: "Médecins Sans Frontières USA (MSF)"
+client_name: "Médecins Sans Frontières USA"
 preview_image: MSF_1.jpg
 project: "DoctorsWithoutBorders.org"
 website: "https://doctorswithoutborders.org/"
 background_section_title: "Outdated website hampering global mission"
-background_section: "Doctors Without Borders (aka Médecins Sans Frontières or MSF) is dedicated to providing independent, politically neutral aid to vulnerable people worldwide. MSF uses its website as a vehicle to raise funds, recruit staff for field operations, and [create public awareness](https://doctorswithoutborders.org/who-we-are/principles/bearing-witness) of injustices and crimes against humanity.
+background_section: "Doctors Without Borders (aka Médecins Sans Frontières or MSF) is dedicated to providing independent, politically neutral aid to vulnerable people worldwide. MSF uses its website as a vehicle to raise funds, recruit staff for field operations, and create public awareness about injustices and crimes against humanity.
 
 The USA section of MSF was struggling to accomplish these goals using an old system that didn’t behave well. Content publishers were frustrated by slow page load speeds, problems with site caching, and restrictive content templates. CivicActions was engaged to upgrade the old Drupal 7 site to Drupal 8 and build a new theme that would match and extend the design system being adopted by all of MSF’s sections around the world."
 tags: ["Drupal", "DevOps", "UX"]
