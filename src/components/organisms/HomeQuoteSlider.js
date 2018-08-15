@@ -5,7 +5,7 @@ import Blockquote from "./../atoms/Blockquote";
 import SectionTitle from "./../atoms/SectionTitle";
 import Button from "../atoms/Buttons"
 
-import image1 from "./../../content/team-members/Karen-Johnson.jpg";
+import image1 from "./../../content/team-members/images/Karen-Johnson.jpg";
 import image2 from "./../../content/team-members/Steve-Wirt.jpg";
 import image3 from "./../../content/team-members/Steve-Curtis.jpg";
 

@@ -3,5 +3,5 @@ path: /
 type: team
 published: 0
 name: Jay Darnell
-image: 'Jay-Darnell.jpg'
+image: 'images/Jay-Darnell.jpg'
 ---

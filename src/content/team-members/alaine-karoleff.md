@@ -3,5 +3,5 @@ path: /
 type: team
 published: 0
 name: Alaine Karoleff
-image: 'Alaine-Karoleff.jpg'
+image: 'images/Alaine-Karoleff.jpg'
 ---

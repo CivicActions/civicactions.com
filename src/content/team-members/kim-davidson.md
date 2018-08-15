@@ -3,5 +3,5 @@ path: /
 type: team
 published: 0
 name: Kim Davidson
-image: 'Kim-Davidson.jpg'
+image: 'images/Kim-Davidson.jpg'
 ---

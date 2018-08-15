@@ -3,5 +3,5 @@ path: /
 type: team
 published: 0
 name: Judy Raiten
-image: 'Judy-Raiten.jpg'
+image: 'images/Judy-Raiten.jpg'
 ---
