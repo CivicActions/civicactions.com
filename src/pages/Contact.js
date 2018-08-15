@@ -8,7 +8,13 @@ class Contact extends React.Component {
       name: '',
       email: '',
       org: '',
-      phone: ''
+      phone: '',
+      touched: {
+        name:  false,
+        org:   false,
+        email: false,
+        phone: false
+      }
     };
   }
 
@@ -21,12 +27,30 @@ class Contact extends React.Component {
   };
 
   handleOrgChange = (event) => {
-    this.setState({ email: event.target.value })
+    this.setState({ org: event.target.value })
   };
 
   handlePhoneChange = (event) => {
-    this.setState({ email: event.target.value })
+    this.setState({ phone: event.target.value })
   };
+
+  handleBlur = (field) => (event) => {
+    this.setState({
+      touched: { ...this.state.touched, [field]: true },
+    });
+  }
+
+  validate = (name, org, email, phone) => {
+    // true means invalid, so our conditions got reversed
+    return {
+      name: name.length === 0,
+      org: org.length === 0,
+      phone: phone.length === 0,
+      email: email.length === 0,
+    };
+  };
+
+
 
   render(){
     const{ name, org, email, phone } = this.state;
@@ -36,7 +60,25 @@ class Contact extends React.Component {
       && email.length > 0
       && phone.length > 0;
 
-    console.log(isEnabled);
+    function validate(name, org, email, phone) {
+      // true means invalid, so our conditions got reversed
+      return {
+        name: name.length === 0,
+        org: org.length === 0,
+        phone: phone.length === 0,
+        email: email.length === 0,
+      };
+    };
+
+    const errors = validate(name, org, email, phone);
+
+    const shouldMarkError = (field) => {
+      const hasError = errors[field];
+      const shouldShow = this.state.touched[field];
+
+      return hasError ? shouldShow : false;
+    };
+
 
     return (
       <GeneralLayout
@@ -50,50 +92,76 @@ class Contact extends React.Component {
                   className = "text-container"
             >
               <div className = "form__field">
-                <label htmlFor ="name">Name </label>
+                <label htmlFor ="name">Name<abbr title = "This field is mandatory">*</abbr></label>
                 <input type="text"
                        id="name"
-                       name="user_name"
+                       name="Name"
                        required aria-required="true"
                        value={this.state.name}
                        onChange={this.handleNameChange}
+                       onBlur={this.handleBlur('name')}
+                       className={shouldMarkError('name') ? "error" : ""}
                 />
               </div>
 
               <div className = "form__field">
-                <label htmlFor ="organization">Organization </label>
-                <input type="text" id="organization" name="organization_name" required aria-required="true"/>
+                <label htmlFor ="organization">Organization<abbr title="This field is mandatory">*</abbr> </label>
+                <input type="text"
+                       id="organization"
+                       name="Organization"
+                       required aria-required="true"
+                       value={this.state.org}
+                       onChange={this.handleOrgChange}
+                       onBlur={this.handleBlur('org')}
+                       className={shouldMarkError('org') ? "error" : ""}
+                />
               </div>
 
               <div className = "form__field">
-                <label htmlFor ="email">Email </label>
-                <input id = "email" type="email" name="_replyto" required aria-required="true" />
+                <label htmlFor ="email">Email<abbr title="This field is mandatory">*</abbr> </label>
+                <input id = "email"
+                       type="email"
+                       name="_replyto"
+                       required aria-required="true"
+                       value={this.state.email}
+                       onChange={this.handleEmailChange}
+                       onBlur={this.handleBlur('email')}
+                       className={shouldMarkError('email') ? "error" : ""}
+                />
               </div>
 
               <div className = "form__field">
-                <label htmlFor ="phone">Phone </label>
-                <input type="tel" id="tel" name="user_phone" required aria-required="true" />
+                <label htmlFor ="phone">Phone<abbr title="This field is mandatory">*</abbr> </label>
+                <input type="tel"
+                       id="tel"
+                       name="User Phone"
+                       required aria-required="true"
+                       value={this.state.phone}
+                       onChange={this.handlePhoneChange}
+                       className={shouldMarkError('phone') ? "error" : ""}
+                />
               </div>
 
               <div className = "form__field">
                 <label htmlFor ="url">Website </label>
-                <input type="url" id="url" name="user_website" />
+                <input type="url" id="url" name="User Website" />
               </div>
 
               <div className = "form__field">
                 <label htmlFor ="purpose">How can we help you? </label>
-                <textarea id="purpose" name="user_purpose"/>
+                <textarea id="purpose" name="How Can We help You"/>
               </div>
 
               <div className = "form__field">
                 <label htmlFor ="url">How did you hear about us? </label>
-                <input type="url" id="url" name="user_website" />
+                <input type="text" id="url" name="How did you hear about us" />
               </div>
+              <input type="text" name="_gotcha" className ="form__gotcha" />
 
               <div className = "form__field form__submit">
-                <button type="submit" value="Send" disabled={!isEnabled} />
+                <button type="submit" value="Send" disabled={!isEnabled} > Submit </button>
               </div>
-              <input type="hidden" name="_next" value="http://localhost:8000/" />
+              <input type="hidden" name="_next" value="http://localhost:8000/thank-you" />
             </form>
           </section>
         </section>
