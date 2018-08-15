@@ -19,6 +19,7 @@ ARG GATSBY_JAZZ_URL
 WORKDIR /usr/src/app
 COPY . .
 RUN yarn
+RUN rm -rf public .cache
 RUN yarn build
 
 #
