@@ -1,6 +1,8 @@
 import React from 'react';
 
 import GeneralLayout from './../components/layouts/GeneralLayout';
+import ReachUs from './../components/organisms/ReachUs';
+import SectionTitle from './../components/atoms/SectionTitle';
 
 import thank_you_image from './../files/images/thanky-you-cat.gif';
 
@@ -17,9 +19,11 @@ const ThankYou = () => {
         </section>
       </section>
 
-      <section className = "section section__contact-options">
+      <section className = "section section__contact-options neutral-hex-bg">
         <section className = "usa-grid">
-          <h2>options</h2>
+          <SectionTitle title = "More Ways to Reach Us" />
+          <div className = "section__benefits--intro-text">Feel free to connect with us about work opportunities, speaking engagements, potential partnerships, or just to say hi.</div>
+          <ReachUs />
         </section>
       </section>
     </GeneralLayout>
