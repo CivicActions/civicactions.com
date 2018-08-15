@@ -30,7 +30,7 @@ images:
   caption: 'Educators participate in discussions using the LINCS community portal.', 
   alt: 'LINCS community portal'
   }
-   - {
+  - {
   url: 'LINCS_3.jpg', 
   caption: 'Talking to the LINCS team about user needs during discovery.', 
   alt: 'CivicActions meets with LINCS team and partners'
