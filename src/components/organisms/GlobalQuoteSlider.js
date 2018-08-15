@@ -2,7 +2,6 @@ import React, { Component } from "react"
 import Slider from "react-slick"
 
 import Blockquote from "./../atoms/Blockquote";
-import SectionTitle from "./../atoms/SectionTitle";
 
 class GlobalQuoteSlider extends Component {
   render() {
