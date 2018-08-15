@@ -12,17 +12,17 @@ images:
 quotes_title: Working at CivicActions
 quotes: 
   - {
-    image: './team-members/Kristian-Ducharme.jpg',
+    image: './team-members/images/Kristian-Ducharme.jpg',
     text: 'CivicActions provides a supportive atmosphere where we are encouraged to stretch and grow beyond our comfort zones.',
     author: 'Jen Harris, User Experience Designer'
   }
   - {
-    image: './team-members/Kristian-Ducharme.jpg',
+    image: './team-members/images/Kristian-Ducharme.jpg',
     text: 'You can carve a path in the company where a true sense of ownership is felt.',
     author: 'Gerardo Gonzalez, Engineer'
   }
   - {
-    image: './team-members/Kristian-Ducharme.jpg',
+    image: './team-members/images/Kristian-Ducharme.jpg',
     text: 'CivicActions fosters an environment where you can really live your truth.',
     author: 'Stefanie Gray, Engineer'
   }
