@@ -26,8 +26,8 @@ images:
   }
   - {
   url: 'MSF_2.jpg', 
-  caption: '', 
-  alt: ''
+  caption: 'Style guides help MSF maintain a consistent structure and create a cohesive user experience.', 
+  alt: 'MSF style guide showing the design system'
   }
   - {
   url: 'MSF_3.jpg', 
