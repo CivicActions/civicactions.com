@@ -3,5 +3,5 @@ path: /
 type: team
 published: 0
 name: Alex Scott
-image: 'Alex-Scott.jpg'
+image: 'images/Alex-Scott.jpg'
 ---

@@ -4,9 +4,9 @@ import Slider from "react-slick"
 import Blockquote from "./../atoms/Blockquote";
 import SectionTitle from "./../atoms/SectionTitle";
 
-import image1 from "./../../content/team-members/Iris-Ibekwe.jpg";
-import image2 from "./../../content/team-members/Jeff-Maher.jpg";
-import image3 from "./../../content/team-members/Kim-Davidson.jpg";
+import image1 from "./../../content/team-members/images/Iris-Ibekwe.jpg";
+import image2 from "./../../content/team-members/images/Jeff-Maher.jpg";
+import image3 from "./../../content/team-members/images/Kim-Davidson.jpg";
 
 class OurPerspectives extends Component {
 

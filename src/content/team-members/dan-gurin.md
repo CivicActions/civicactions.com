@@ -3,5 +3,5 @@ path: /
 type: team
 published: 0
 name: Dan Gurin
-image: 'Dan-Gurin.jpg'
+image: 'images/Dan-Gurin.jpg'
 ---

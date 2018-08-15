@@ -3,5 +3,5 @@ path: /
 type: team
 published: 0
 name: Jen Harris
-image: 'Jen-Harris.jpg'
+image: 'images/Jen-Harris.jpg'
 ---

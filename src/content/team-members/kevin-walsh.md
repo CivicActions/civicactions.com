@@ -3,5 +3,5 @@ path: /
 type: team
 published: 0
 name: Kevin Walsh
-image: 'Kevin-Walsh.jpg'
+image: 'images/Kevin-Walsh.jpg'
 ---

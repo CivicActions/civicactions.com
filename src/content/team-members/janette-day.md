@@ -3,5 +3,5 @@ path: /
 type: team
 published: 0
 name: Janette Day
-image: 'Janette-Day.jpg'
+image: 'images/Janette-Day.jpg'
 ---

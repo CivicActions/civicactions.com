@@ -3,5 +3,5 @@ path: /
 type: team
 published: 0
 name: Luke Fretwell
-image: 'Luke-Fretwell.jpg'
+image: 'images/Luke-Fretwell.jpg'
 ---
