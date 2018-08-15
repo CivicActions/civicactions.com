@@ -33,6 +33,7 @@
 
   //----- Styles for the HeroHome component------
   &.hero--home {
+    position: relative;
 
     .hero__title {text-align: left;}
 
@@ -42,6 +43,14 @@
       .hero__image--wrapper {
         display: inline-block;
         vertical-align: middle;
+
+        img {
+          position: absolute;
+          top: 0;
+          max-width: 787px;
+          width: 100vw;
+          height: auto;
+        }
       }
 
       .hero__text {
