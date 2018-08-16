@@ -3,7 +3,7 @@ path: "/case-study/FCC"
 type:  "case-study"
 title: "Modernizing a legacy federal system"
 client_name: "Federal Communications Commission"
-preview_image: FCC_1.jpg
+preview_image: FCC_preview.jpg
 project: "FCC.gov"
 website: "https://www.FCC.gov"
 background_section_title: "Cumbersome, outdated federal website"
