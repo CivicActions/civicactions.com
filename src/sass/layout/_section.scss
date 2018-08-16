@@ -191,3 +191,16 @@
   align-content: space-between;
   align-items: baseline;
 }
+
+// Add border arond images in the following sections:
+.section {
+  &__image-slider,
+  &__triple-quotes,
+  &__government-services,
+  &__case-studies,
+  &__teaser-grid {
+    img {
+      border: 1px solid $light-gray;
+    }
+  }
+}
