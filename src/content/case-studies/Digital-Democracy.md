@@ -7,10 +7,9 @@ preview_image: DD_1.jpg
 project: "Digital Democracy"
 website: "https://www.digitaldemocracy.org"
 background_section_title: "Transparency needs room to grow"
-background_section: "Digital Democracy was created by California Polytechnic State University to increase transparency in state government by making legislative data available online. People could view records of elected officials and videos of hearings, but inconsistencies made the site difficult to navigate, especially on mobile devices. Cumbersome data processes made real-time updates impossible, and an outdated system prevented the site from scaling.
-
-Digital Democracy needed an upgrade to accommodate real-time data for three additional states. Thousands of records needed to be mapped and made searchable so people could engage accurately with their government. The site would be built as an unbranded base so other advocacy organizations could use it as a tool for their own work.
-"
+background_section: "Digital Democracy was created by California Polytechnic State University to increase transparency in state government by making legislative data available online. People could view records of elected officials and videos of hearings, but inconsistencies made the site difficult to navigate, especially on mobile devices. Cumbersome data processes made real-time updates impossible, and an outdated system prevented the site from scaling."
+background_section_second: "Digital Democracy needed an upgrade to accommodate real-time data for three additional states. Thousands of records needed to be mapped and made searchable so people could engage accurately with their government. The site would be built as an unbranded base so other advocacy organizations could use it as a tool for their own work."
+                           
 tags: ["Drupal", "Open Data", "DevOps", "Quality Assurance"]
 specs: [
 "Upgrade from Drupal 7 to Drupal 8",
