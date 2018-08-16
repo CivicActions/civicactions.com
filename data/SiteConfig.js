@@ -18,7 +18,7 @@ module.exports = {
     ],
     seo: {
         fbAppId: "",
-        twitterSite: "civicactions",
+        twitterSite: "@civicactions",
         twitterCard: "summary",
 
     }
