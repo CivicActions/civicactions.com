@@ -2,16 +2,43 @@
 path: /capabilities
 type: general
 title: Contracting and Capabilities
-subtitle: Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
+subtitle: We understand the complexities of helping public sector agencies procure, develop, and maintain excellent digital services. Learn more about our capabilities and business specs. 
 ----------------------------------------------------------------------------------------------------------------
 
-### A third-level header
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Senectus et netus et malesuada fames ac turpis. Rhoncus urna neque viverra justo nec ultrices dui sapien. Ipsum nunc aliquet bibendum enim facilisis. Interdum velit laoreet id donec. Cursus vitae congue mauris rhoncus aenean vel elit scelerisque. Id faucibus nisl tincidunt eget nullam non nisi. Tellus id interdum velit laoreet id donec ultrices tincidunt arcu. Augue eget arcu dictum varius duis at consectetur lorem. Vitae suscipit tellus mauris a diam maecenas sed enim ut. Vel elit scelerisque mauris pellentesque. Purus ut faucibus pulvinar elementum integer enim. Adipiscing vitae proin sagittis nisl rhoncus. Vitae turpis massa sed elementum tempus egestas sed sed risus. Fermentum odio eu feugiat pretium nibh ipsum consequat nisl. Enim nec dui nunc mattis. Vitae tortor condimentum lacinia quis vel eros donec ac.
+### Leaders in Government Innovation
 
-At volutpat diam ut venenatis tellus in metus. Eu scelerisque felis imperdiet proin fermentum leo vel. Nisl rhoncus mattis rhoncus urna neque viverra. 
+* Named to Government Technology “GovTech 100” list in 2017, 2018 
+* Former U.S. Digital Service (USDS) experience
+* Founders of Agile Government Leadership ([AGL](https://www.agilegovleaders.org/ "Agile Government Leadership"))
+* Maintainers of open source open data platform [DKAN](https://getdkan.org/ "DKAN") 
+* Free and Open Source Software (FOSS) pioneers, leaders, and practitioners
+* Contributors to [industry press](https://www.civicactions.com/press "Press")(FedScoop, StateScoop, FCW, NextGov, Federal Times)
 
-Porttitor rhoncus dolor purus non enim praesent elementum facilisis leo. Sit amet nulla facilisi morbi. Ultrices dui sapien eget mi proin sed libero enim sed. Massa id neque aliquam vestibulum morbi blandit cursus. Nunc sed augue lacus viverra vitae congue eu consequat. Nisl vel pretium lectus quam id. Nibh tortor id aliquet lectus proin nibh. Leo integer malesuada nunc vel risus commodo viverra. Sit amet volutpat consequat mauris. Aliquam purus sit amet luctus venenatis.
+### Core Competencies 
 
-* Sample bullet point
-* A second bullet point
-* Eu scelerisque felis imperdiet proin
+* Drupal 5, 6, 7, 8
+* Free and Open-Source Software (FOSS) Development
+* Open Data Platform Development (including DKAN)
+* DevOps
+* User Support
+* User Experience (UX)
+* Agile Methodologies
+* Security and Compliance
+* Education Services
+* Human-Centered Design
+* Quality Assurance and Testing	
+* Content and Learning Management Systems
+
+### Company Data and Contracting Vehicles 
+
+* DUNS: 022112930
+* CAGE Code: 65FK1
+* NAICS Codes: 519190, 541511, 541512, 541513, 541519
+* Standard Product Code: 80101507
+* GSA Schedule 70 #GS-35F-337BA
+* CMAS
+* UK G Cloud 10
+* Mississippi Agile Vendor Pool
+* California Agile Vendor Pool
+* Certified Small Business (Micro), State of California DGS, No. 2003474
+* Incorporated: 2004 (California) 

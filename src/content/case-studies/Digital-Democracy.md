@@ -19,7 +19,7 @@ specs: [
 "Component based design", 
 "SaaS based frontend theme", 
 "Responsive, mobile-friendly platform", 
-"Jenkins and Docker for automated deploymen",
+"Jenkins and Docker for automated deployment",
 "Amazon AWS production environment"
 ]
 images:
@@ -39,13 +39,13 @@ images:
 ### Approach
 
 ##### Upgrading with a complex data model
-Digital Democracy’s team of developers and data analysts maintain all of the video, hearings, transcriptions, and analysis data in their own database schema - spanning over 100 tables and over 20+ million rows.  Through a comprehensive technical architecture redesign, seamless usage of their data by Drupal 8 custom entities treats the data as if it were local. 
+Digital Democracy’s team of developers and analysts maintain all of the video, hearings, and transcriptions in their own database schema -- spanning over 100 tables and 20+ million rows. We performed a technical architecture redesign which uses Drupal 8 custom entities to treat the data as if it were local. 
 
 ##### Design with users in mind
 User research helped us decide on a modern, responsive design that gives people a flawless experience on any device and can be customized for each new state.
 
 ##### Unlimited growth potential
-The existing platform was a single-state architecture, through a design evaluation process we brought together an expandable, dynamic multi-state solution. The new platform built on Drupal 8 makes real-time data possible, eliminating the previous cumbersome data import process -- and the site can now scale to support any number of states.
+We used a design evaluation process to create an expandable, dynamic solution that makes real-time data possible. The previous cumbersome data import process is eliminated, and the site can now scale to support any number of states.
 
 ##### DevOps for reliable updates
 We put DevOps processes in place for building, testing, and releasing to make sure the platform could be updated without compromising stability. Digital Democracy development teams can focus on improving the platform rather than managing problems.

@@ -1,16 +1,13 @@
 import React from 'react'
-import Img from "gatsby-image";
+
+import home_image from './../../content/home-1400.jpg';
 
 import Button from "../atoms/Buttons"
 
 const HeroHome = ({info}) => {
-  const{title, subtitle, banner_image, cta_text, cta_link} = info;
-  const image = banner_image ? banner_image.childImageSharp.resize: null;
+  const{title, subtitle, cta_text, cta_link} = info;
 
-  let BannerImage = image === null ? '' :
-    <div className = "hero__image--wrapper">
-      <Img sizes = {image} />
-    </div>;
+  let BannerImage = <div className = "hero__image--wrapper"><img src = { home_image } alt = "Digital Services that work for everyone" /></div>;
 
   return(
     <section className = "hero usa-grid hero--home">

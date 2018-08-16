@@ -41,13 +41,6 @@ const Layout = ({ children, data, location }) => (
         cta_text
         cta_link
         quote
-        banner_image {
-          childImageSharp {
-            resize(width: 1400) {
-              src
-            }
-          }
-        }
       }
     }
 
