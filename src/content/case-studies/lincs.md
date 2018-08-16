@@ -4,6 +4,7 @@ type:  "case-study"
 title: "Supporting and expanding adult education"
 client_name: "U.S. Department of Education"
 preview_image: LINCS_preview.jpg
+promoted_to_front_page: yes
 project: "LINCS"
 website: "https://lincs.ed.gov/"
 background_section_title: "Multiple outdated websites"

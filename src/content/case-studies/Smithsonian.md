@@ -4,14 +4,12 @@ type:  "case-study"
 title: "Expanding understanding of human evolution"
 client_name: "Smithsonian Museum of Natural History"
 preview_image: smithsonian_preview.jpg
+promoted_to_front_page: no
 project: "Human Origins"
 website: "http://humanorigins.si.edu/"
 background_section_title: "Important scientific findings to share"
-background_section: "The Smithsonian Museum of Natural History needed a website to showcase its new exhibition of the latest scientific explorations of human origins. These findings have profound implications for our narratives about human origins. Working together with Chedd-Angier-Lewis, CivicActions partnered with Smithsonian to build a site that would engage the public in education and dialogue about what it means to be human.
-
-It was important for the site to be interactive so users could make connections between their experience in the museum and the additional content online. Smithsonian staff would also need to be trained so they could continue to manage the site after the initial launch of the exhibit.
-"
-background_section_second: 
+background_section: "The Smithsonian Museum of Natural History needed a website to showcase its new exhibition of the latest scientific explorations of human origins. These findings have profound implications for our narratives about human origins. Working together with Chedd-Angier-Lewis, CivicActions partnered with Smithsonian to build a site that would engage the public in education and dialogue about what it means to be human."
+background_section_second: "It was important for the site to be interactive so users could make connections between their experience in the museum and the additional content online. Smithsonian staff would also need to be trained so they could continue to manage the site after the initial launch of the exhibit."
 tags: ["Drupal", "Security and Compliance"]
 specs: [
 "Drupal",
