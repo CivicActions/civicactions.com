@@ -60,7 +60,7 @@ features:
   alt: 'Harvest data from other sources for a seamless experience between locally and remotely hosted files'
   }
 ---
-We believe in the power of open data -- standardized, machine-readable, trustworthy, and publicly accessible data that anyone can use and redistribute. When data is open, so are opportunities for creativity, collaboration, and innovation.   
+We believe in the power of open data — standardized, machine-readable, trustworthy, and publicly accessible data that anyone can use and redistribute. When data is open, so are opportunities for creativity, collaboration, and innovation.   
 
 DKAN is a community-driven, Drupal-based open data platform used worldwide by governments of all levels, nonprofits, international organizations, and private companies.  
 
@@ -78,5 +78,5 @@ The original developers of DKAN and its core maintainers work at CivicActions, c
 
 * Federal, state, or local government agencies seeking to share information about education, the environment, health care, transportation, and more
 * Companies looking to share data across their organization
-* Citizens, researchers, students, and journalists who wish to access public data and make use of it
+* Citizens, researchers, students, and journalists who wish to access and utilize public data
 * Non-profits, NGOs, or universities that want to open up their research findings
