@@ -3,7 +3,7 @@ path: "/case-study/globalnet"
 type:  "case-study"
 title: "Empowering international collaboration"
 client_name: "Defense Security Cooperation Agency"
-preview_image: LINCS1.jpg
+preview_image: GlobalNET_1.jpg
 project: "GlobalNET"
 website: "https://globalnetplatform.org/"
 background_section_title: "Outdated technology and complex requirements"
