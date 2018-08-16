@@ -25,22 +25,22 @@ specs: [
 ]
 images:
   - {
-  url: 'globalnet_1.jpg', 
+  url: 'GlobalNET_1.jpg', 
   caption: '', 
   alt: 'Redesigned GlobalNET website'
   }
   - {
-  url: 'globalnet_2.jpg', 
+  url: 'GlobalNET_2.jpg', 
   caption: 'CivicActions with the GlobalNET team in Garmisch, Germany', 
   alt: 'CivicActions and client team in Germany'
   }
   - {
-  url: 'globalnet_3.jpg', 
+  url: 'GlobalNET_3.jpg', 
   caption: 'We created structures to help GlobalNET organizations and groups manage their own content.', 
   alt: 'GlobalNET structure model'
   }
   - {
-  url: 'globalnet_4.jpg', 
+  url: 'GlobalNET_4.jpg', 
   caption: 'CivicActions team members working on a rapid prototyping session for GlobalNET', 
   alt: 'CivicActions team working in DC'
   }
