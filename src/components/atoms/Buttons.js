@@ -27,5 +27,5 @@ Button.propTypes = {
   type: PropTypes.string, // can be 'hero', 'secondary' or 'dark'
   button_text: PropTypes.string, // Text that the button should display
   link: PropTypes.string, // Link for the button text
-  isExternal: PropTypes.boolean
+  isExternal: PropTypes.bool
 };

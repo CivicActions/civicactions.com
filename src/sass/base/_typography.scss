@@ -20,6 +20,11 @@ a {
   }
 }
 
+abbr[title] {
+  border-bottom: 0;
+  text-decoration: none;
+}
+
 // Typography
 .text-container {
   @include text-container;
