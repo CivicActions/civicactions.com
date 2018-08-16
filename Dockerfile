@@ -19,8 +19,8 @@ ARG GATSBY_JAZZ_URL
 WORKDIR /usr/src/app
 COPY . .
 RUN yarn
-RUN yarn build
 # Run build twice to work around sporadic race condition: https://github.com/gatsbyjs/gatsby/issues/4103
+RUN yarn build || true
 RUN yarn build
 
 #
