@@ -63,7 +63,7 @@ By transitioning the site to the Smithsonian Institution’s in-house servers an
 [The Smithsonian Museum of Natural History Human Origins](http://humanorigins.si.edu/)
 
 ##### Join the conversation
-[“What Does it Mean To Be Human?”](http://humanorigins.si.edu/about/become-involved/submit-your-response-what-does-it-mean-be-human)
+[“What Does it Mean To Be Human?”](http://humanorigins.si.edu/about/become-involved/submit-your-response-what-does-it-mean-be-human)  
 [Human Origins on Twitter](https://twitter.com/HumanOrigins)
 
  
