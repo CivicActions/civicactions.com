@@ -25,14 +25,24 @@ specs: [
 ]
 images:
   - {
-  url: 'LINCS1.jpg', 
-  caption: 'Presenting findings from discovery about LINCS user needs', 
-  alt: 'LINCS Home page'
+  url: 'globalnet_1.jpg', 
+  caption: '', 
+  alt: 'Redesigned GlobalNET website'
   }
   - {
-  url: 'LINCS2.jpg', 
-  caption: 'Visitors to the LINCS website can quickly find the resources they need', 
-  alt: 'CivicActions meets with LINCS team and partners'
+  url: 'globalnet_2.jpg', 
+  caption: 'CivicActions with the GlobalNET team in Garmisch, Germany', 
+  alt: 'CivicActions and client team in Germany'
+  }
+  - {
+  url: 'globalnet_3.jpg', 
+  caption: 'We created structures to help GlobalNET organizations and groups manage their own content.', 
+  alt: 'GlobalNET structure model'
+  }
+  - {
+  url: 'globalnet_4.jpg', 
+  caption: 'CivicActions team members working on a rapid prototyping session for GlobalNET', 
+  alt: 'CivicActions team working in DC'
   }
   
 ---
