@@ -81,8 +81,10 @@
 }
 
 .align-right {
-  display: block;
-  text-align: right;
+  @include media($small-screen) {
+    display: block;
+    text-align: right;
+  }
 }
 
 .align-center {
