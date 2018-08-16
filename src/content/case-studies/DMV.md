@@ -3,7 +3,7 @@ path: "/case-study/california-dmv"
 type:  "case-study"
 title: "Improving the DMV experience"
 client_name: "California Department of Motor Vehicles"
-preview_image: DMV_1.jpg
+preview_image: DMV_preview.jpg
 project: "California DMV"
 website: "https://www.dmv.ca.gov/portal/dmv/detail/forms/dl/dl44"
 background_section_title: "Service design to implement new policies"
