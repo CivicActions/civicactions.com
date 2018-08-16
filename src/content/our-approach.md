@@ -2,11 +2,24 @@
 path: /
 type: approach
 title: "Our Approach"
-subtitle: "From the adoption of modern technologies to the seeding of an agile culture that rewards innovation and learning, our approach is intended not only to deliver great services, but to position your agency for continued digital growth."
-services_title: "What We Offer"
+subtitle: "Every project is about humans first — the people and government workers whose daily lives will be affected by the quality of the work we do. We combine this understanding with [our core values](https://www.civicactions.com/values "Values") to inform our approach."
+----------------------------------------------------------------------------------------------------------------
+
+### Partnership
+We assemble a team that pairs our expertise with your knowledge. We agree upon a designated “product owner.” This person acts as the voice of your organization during day-to-day development activities. You help us understand the stakeholder ecosystem and we set you up with the tools and know-how for continued success after our work is done.
+
+### Discovery
+Before building anything new, we learn about the current state of your service or system. Our team engages with your staff and users to develop a shared understanding of the problem we need to solve.
+
+### Iteration
+The product owner manages prioritization, while our technical and design leads oversee the development of prototypes. Throughout the process, we test our work with users to gather feedback and adjust course as needed.
+
+### Reflection
+Our team meets at the end of each iteration to acknowledge successes, identify issues, and discuss ways to improve. We maintain a continuous improvement mindset throughout the engagement.
+
+services_title: "How We Can Help"
 services_subtitle: "Creating useful digital services in the 21st century requires all kinds of skills and technologies. Here are some things we can do to solve your complex challenges and help you gain the competencies for continuing success."
-technologies_title: "Technologies We Love"
-technologies_subtitle: "We’re partial to tools and technologies that promote openness, help people work better together, and provide excellent value."
+
 services:
   - {
   icon: ./icons/ux.svg,
@@ -62,6 +75,10 @@ services:
     caption: 'Doing the things that are new — from Internet of Things to bespoke solutions and beyond.', 
     alt: 'Innovation Lab'
   }
+  technologies_title: "Technologies We Love"
+technologies_subtitle: "We’re partial to tools and technologies that promote openness, help people work better together, and provide excellent value."
+
+  
 technologies:
   - {
   icon: './foss/react.png',
@@ -184,20 +201,5 @@ technologies:
     url:
   }
   
----  
-
-Every project is about humans first —  the citizens and government employees whose daily lives will be affected by the quality of the work we do.   We combine this understanding with [our core values] and these methods:
-
-### Partnership
-We assemble a team that pairs our expertise with your knowledge. We agree upon a designated “product owner.” This person acts as the voice of your organization during day-to-day development activities. [add something about understanding stakeholder ecosystem]
-
-### Discovery
-Before building anything new, we learn about the current state of your service or system. Our team engages with your staff and users to develop a shared understanding of the problem we need to solve.
-
-### Iteration
-The product owner manages prioritization, while our technical and design leads oversee the development of prototypes. Throughout the process, we test our work with users to gather feedback and adjust course as needed. 
-
-### Reflection
-Our team meets at the end of each iteration to acknowledge successes, identify issues, and discuss ways to improve. We maintain a continuous improvement mindset throughout the engagement.
 
 
