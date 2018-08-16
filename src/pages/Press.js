@@ -7,7 +7,6 @@ import PressTeaser from './../components/PressTeaser';
 const Press = ({ data }) => {
   const{ allMarkdownRemark } = data;
   const{ edges } = allMarkdownRemark;
-  //const{ node } = edges;
 
   let pressItems = edges.map((item, index) => {
     const{ node } = item;

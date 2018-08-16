@@ -4,6 +4,7 @@ type:  "case-study"
 title: "Helping Californians make healthy choices for life"
 client_name: "San Francisco Human Services Agency"
 preview_image: EatFresh_preview.jpg
+promoted_to_front_page: no
 project: "EatFresh"
 website: "http://eatfresh.org/"
 background_section_title: "Beyond food stamps"

@@ -4,6 +4,7 @@ type:  "case-study"
 title: "Improving transparency in state government"
 client_name: "California Polytechnic State University"
 preview_image: DD_preview.jpg
+promoted_to_front_page: yes
 project: "Digital Democracy"
 website: "https://www.digitaldemocracy.org"
 background_section_title: "Transparency needs room to grow"
