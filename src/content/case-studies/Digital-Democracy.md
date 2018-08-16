@@ -3,7 +3,7 @@ path: "/case-study/digital-democracy"
 type:  "case-study"
 title: "Improving transparency in state government"
 client_name: "California Polytechnic State University"
-preview_image: DD_1.jpg
+preview_image: DD_preview.jpg
 project: "Digital Democracy"
 website: "https://www.digitaldemocracy.org"
 background_section_title: "Transparency needs room to grow"
