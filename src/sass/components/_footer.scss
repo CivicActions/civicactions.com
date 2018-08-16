@@ -87,6 +87,27 @@
         .usa-footer-primary-link {
           background-image: none;
           padding-left: 0;
+          h4 {
+            display: inline-block;
+          }
+          &:after {
+            float: right;
+            content: "-";
+            color: $white;
+            font-size: $base-font-size;
+            font-weight: $font-bold;
+          }
+        }
+      }
+      ul.hidden {
+        .usa-footer-primary-link {
+          &:after {
+            float: right;
+            content: "+";
+            color: $white;
+            font-size: $base-font-size;
+            font-weight: $font-bold;
+          }
         }
       }
     }

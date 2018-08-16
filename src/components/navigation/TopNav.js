@@ -1,13 +1,22 @@
 import React from "react";
 import Link from "gatsby-link";
 import closeIcon from "./../../files/icons/close-primary.svg"
+import Logo from './../atoms/logo/Logo';
+
 
 const TopNav = ({pages}) => {
     return (
             <nav role = "navigation" className = "usa-nav">
-                <button className = "usa-nav-close">
-                    Menu <img src = { closeIcon } alt = "close menu" />
-                </button>
+                <div className = "usa-grid mobile-nav--logo">
+                    <div className = "mobile-nav--logo-container">
+                        <Logo siteTitle = "CivicActions" />
+                    </div>
+                    <div className = "mobile-nav--close--container">
+                        <button className = "usa-nav-close">
+                            Menu <img src = { closeIcon } alt = "close menu" />
+                        </button>
+                    </div>
+                </div>
                 <ul className ="usa-nav-primary usa-accordion">
                     {/* For looping through pages pulled from the query */}
                     {/*{ pages.edges.map(({ node }) => (*/}

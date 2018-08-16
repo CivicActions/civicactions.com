@@ -3,19 +3,42 @@
     background: transparent;
     padding-top: $spacing-md-small;
   }
-
   @media screen and (max-width: $small-screen) {
     background: $teal;
     border-left: none;
     padding: $spacing-md-small;
+    width: 30rem;
     button.usa-nav-close {
       box-shadow: none;
       color: $white;
-      margin: -1.2rem -0.5rem 1.5rem auto;
+      margin: -5.3rem -0.5rem 1.5rem auto;
       font-weight: $font-bold;
       width: 62px;
     }
+    button.usa-nav-link {
+      font-weight: $font-bold;
+    }
   }
+  .mobile-nav--logo {
+    border-top: 5px solid $coral;
+    margin-top: -14px;
+    width: 100%;
+    display: none;
+    @media screen and (max-width: $small-screen) {
+      display: block;
+    }
+    .logo__image {
+      width: 108px;
+    }
+    .mobile-nav--logo-container, .mobile-nav--close--container{
+      padding-top: $spacing-medium;
+      width: 50%;
+    }
+    .mobile-nav--close--container {
+      float: right;
+    }
+  }
+
   .menu-item {
     border-top: none;
     &:hover {
@@ -69,8 +92,10 @@
       padding-bottom: $spacing-md-small;
       &.usa-current {
         background: $navy;
-        padding-left: 1.5rem;
         font-weight: $font-normal;
+        @include media($nav-width) {
+          padding-left: 1.5rem;
+        }
       }
     }
   }
@@ -82,6 +107,8 @@
   text-transform: none;
   font-size: $base-font-size;
   font-weight: $font-bold;
+  margin-top: -4.25rem;
+  padding-right: $spacing-large;
   &:active, &:focus {
     background: transparent;
     box-shadow: none;
