@@ -33,12 +33,12 @@ images:
   caption: 'We used print campaigns to raise awareness about EatFresh.', 
   alt: 'EatFresh postcard'
   }
-   - {
+  - {
   url: 'EatFresh_3.jpg', 
   caption: 'Mapping stakeholder roles and relationships helped us understand all the goals for the site.', 
   alt: 'EatFresh Stakeholder Roles and Relationships'
   }
-   - {
+  - {
   url: 'EatFresh_4.jpg', 
   caption: 'Models helped us determine how to structure site content.', 
   alt: 'EatFresh content model'

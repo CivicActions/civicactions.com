@@ -35,6 +35,7 @@ images:
   url: 'FCC_3.jpg', 
   caption: 'CivicActions working onsite with the FCC team', 
   alt: 'CivicActions working with FCC team'
+  }
   - {
   url: 'FCC_4.jpg', 
   caption: 'We studied the flow of information within FCC to learn how to create the best content management experience.', 
