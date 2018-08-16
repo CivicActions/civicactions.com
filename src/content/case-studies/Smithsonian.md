@@ -3,7 +3,7 @@ path: "/case-study/smithsonian"
 type:  "case-study"
 title: "Expanding understanding of human evolution"
 client_name: "Smithsonian Museum of Natural History"
-preview_image: LINCS1.jpg
+preview_image: smithsonian_preview.jpg
 project: "Human Origins"
 website: "http://humanorigins.si.edu/"
 background_section_title: "Important scientific findings to share"
