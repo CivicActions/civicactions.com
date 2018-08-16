@@ -11,6 +11,7 @@ background_section: "The Federal Communications Commission (FCC) relies on its w
 
 FCC needed a modern, mobile-responsive site that was both relevant to the public and easier to manage internally. CivicActions was engaged to build the new site within a fixed-scope contract on a tight timeline and budget while also addressing stakeholders priorities as they evolved. 
 "
+background_section_second: 
 tags: ["Drupal", "Security and Compliance", "Quality Assurance", "User Experience"]
 specs: [
 "Migration from Drupal 6 to 7",

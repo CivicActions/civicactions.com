@@ -8,6 +8,7 @@ project: "Project Name"
 website: "https://google.com"
 background_section_title: "The Main Text section"
 background_section: "The Department of Education needed help consolidating and updating the collection of websites for the Literacy and Information Communication System (LINCS), which supports adult education practitioners in their goal of helping adult learners transition to post-secondary education and 21st-century jobs.   LINCS gives educators and learners access to resource libraries, discussion groups, and self-guided courses -- but these were located on various websites that were outdated and confusing to navigate. LINCS needed to be restructured with modern technical architecture into a secure, streamlined platform where education practitioners could enjoy learning and sharing."
+background_section_second: 
 tags: ["Random tag"]
 specs: [
 "Drupal 7",
