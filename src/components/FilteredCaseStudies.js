@@ -29,7 +29,7 @@ class FilteredCaseStudies extends Component {
 
     let studyTeasers = filteredStudies.map((item, index) => {
       const { title, client_name, preview_image, path } = item.node.frontmatter;
-      let image = preview_image !== null ? preview_image.childImageSharp.resize : null;
+      let image = preview_image !== null ? preview_image.childImageSharp.fixed : null;
 
       return (
         <CaseStudyTeaser

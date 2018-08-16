@@ -72,8 +72,6 @@ export default function Template({data}) {
           { mediumPostsList }
         </div>
       </section>
-
-
     </GeneralLayout>
   );
 };
