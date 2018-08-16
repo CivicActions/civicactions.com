@@ -13,8 +13,13 @@ pipeline {
             when { changeRequest() }
             steps {
                 script {
+                    // Remove existing container if it is running.
+                    sh "docker rm -f \"home-${env.CHANGE_ID}\" || true"
+                }
+                script {
+                    // Build new image and start container with the right hostname.
                     def prImage = docker.build("civicactions-internal-it/home:${env.CHANGE_ID}", "--build-arg GATSBY_JAZZ_URL=${GATSBY_JAZZ_URL} .")
-                    prImage.run("--name=\"home-${env.CHANGE_ID}\" -e HOSTNAME=\"home-${env.CHANGE_ID}.ci.civicactions.net\"")
+                    prImage.run("--rm --name=\"home-${env.CHANGE_ID}\" -e HOSTNAME=\"home-${env.CHANGE_ID}.ci.civicactions.net\"")
                     slackSend channel: 'marketing-home', message: "PR Review environment ready at http://home-${env.CHANGE_ID}.ci.civicactions.net/"
                 }
             }
