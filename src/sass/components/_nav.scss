@@ -112,7 +112,11 @@
   font-size: $base-font-size;
   font-weight: $font-bold;
   margin-top: -4.25rem;
-  padding-right: $spacing-large;
+  padding-right: 9rem;
+  background: url("./../files/icons/hamburger-menu.svg");
+  background-repeat: no-repeat;
+  background-position: right 1.5rem top 40%;
+  background-size: 2.5rem;
   &:active, &:focus {
     background: transparent;
     box-shadow: none;

@@ -17,6 +17,7 @@ import '../../sass/styles.scss';
 import header_bg from './../header/background_bg-hero.png';
 
 
+
 const Layout = ({ children, data, location }) => (
   <StaticQuery
     query={graphql`
@@ -86,7 +87,7 @@ const Layout = ({ children, data, location }) => (
             <section className = "usa-nav-container">
                 <div className = "usa-navbar">
                     <Header siteTitle={data.site.siteMetadata.title} />
-                    <button className = "usa-menu-btn">Menu</button>
+                    <button className = "usa-menu-btn"> Menu </button>
                 </div>
                 <TopNav pages = { data.allSitePage } />
             </section>

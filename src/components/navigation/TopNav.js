@@ -1,6 +1,6 @@
 import React from "react";
 import Link from "gatsby-link";
-import closeIcon from "./../../files/icons/close-primary.svg"
+import closeIcon from "./../../files/icons/close-primary.svg";
 import Logo from './../atoms/logo/Logo';
 
 
