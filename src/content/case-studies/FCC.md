@@ -3,8 +3,8 @@ path: "/case-study/FCC"
 type:  "case-study"
 title: "Modernizing a legacy federal system"
 client_name: "Federal Communications Commission"
-preview_image: LINCS1.jpg
-project: "LINCS"
+preview_image: FCC_1.jpg
+project: "FCC.gov"
 website: "https://www.FCC.gov"
 background_section_title: "Cumbersome, outdated federal website"
 background_section: "The Federal Communications Commission (FCC) relies on its website to provide regulatory guidance to millions of visitors each year across various industries. The old, outdated site was hard to navigate for users seeking information and frustrating for stakeholders responsible for content management.
