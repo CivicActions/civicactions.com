@@ -14,7 +14,7 @@ pipeline {
             steps {
                 script {
                     def prImage = docker.build("civicactions-internal-it/home:${env.CHANGE_ID}", "--build-arg GATSBY_JAZZ_URL=${GATSBY_JAZZ_URL} .")
-                    prImage.run("--name=\"home-${env.CHANGE_ID}\" -e HOSTNAME=\"home-${env.CHANGE_ID}.ci.civicactions.net\" \"civicactions-internal-it/home:${env.CHANGE_ID}\"")
+                    prImage.run("--name=\"home-${env.CHANGE_ID}\" -e HOSTNAME=\"home-${env.CHANGE_ID}.ci.civicactions.net\"")
                     slackSend channel: 'marketing-home', message: "PR Review environment ready at http://home-${env.CHANGE_ID}.ci.civicactions.net/"
                 }
             }
@@ -35,7 +35,7 @@ pipeline {
     }
     post {
         failure {
-            slackSend channel: 'marketing-home', message: "Build failed, see build log for details: ${env.BUILD_URL}/console"
+            slackSend channel: 'marketing-home', message: "Build failed, see build log for details: ${env.BUILD_URL}console"
         }
     }
 }
