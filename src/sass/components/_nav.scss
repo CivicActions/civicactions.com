@@ -41,9 +41,10 @@
 
   .menu-item {
     border-top: none;
+    position: relative;
     &:hover {
-      @include top-border-large($teal);
-      margin-top: -10px;
+      //@include top-border-large($teal);
+      //margin-top: -10px;
     }
     button > span, a {
       font-family: $font-serif;
@@ -84,6 +85,9 @@
   .usa-nav-submenu {
     background: $teal;
     padding: 0;
+    @include media($nav-width) {
+      margin-left: $spacing-md-small;
+    }
     a {
       font-family: $font-sans;
       font-size: $small-font-size;
