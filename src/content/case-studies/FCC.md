@@ -22,15 +22,24 @@ specs: [
 ]
 images:
   - {
-  url: 'LINCS1.jpg', 
-  caption: 'Presenting findings from discovery about LINCS user needs', 
-  alt: 'LINCS Home page'
+  url: 'FCC_1.jpg', 
+  caption: '', 
+  alt: 'Redesigned FCC website on laptop'
   }
   - {
-  url: 'LINCS2.jpg', 
-  caption: 'Visitors to the LINCS website can quickly find the resources they need', 
-  alt: 'CivicActions meets with LINCS team and partners'
+  url: 'FCC_2.jpg', 
+  caption: 'FCC services and info are now easily accessible via mobile device.', 
+  alt: 'FCC website on mobile'
   }
+  - {
+  url: 'FCC_3.jpg', 
+  caption: 'CivicActions working onsite with the FCC team', 
+  alt: 'CivicActions working with FCC team'
+  - {
+  url: 'FCC_4.jpg', 
+  caption: 'We studied the flow of information within FCC to learn how to create the best content management experience.', 
+  alt: 'FCC Information Flow Diagram'
+  }  
   
 ---
 
