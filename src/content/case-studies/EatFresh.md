@@ -3,7 +3,7 @@ path: "/case-study/EatFresh"
 type:  "case-study"
 title: "Helping Californians make healthy choices for life"
 client_name: "San Francisco Human Services Agency"
-preview_image: EatFresh_1.jpg
+preview_image: EatFresh_preview.jpg
 project: "EatFresh"
 website: "http://eatfresh.org/"
 background_section_title: "Beyond food stamps"
