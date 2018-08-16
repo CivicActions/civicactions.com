@@ -7,7 +7,6 @@
     background: $teal;
     border-left: none;
     padding: $spacing-md-small;
-    width: 30rem;
     button.usa-nav-close {
       box-shadow: none;
       color: $white;
@@ -17,6 +16,9 @@
     }
     button.usa-nav-link {
       font-weight: $font-bold;
+    }
+    .usa-nav-primary {
+      margin-top: 0;
     }
   }
   .mobile-nav--logo {
