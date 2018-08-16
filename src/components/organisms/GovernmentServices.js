@@ -10,9 +10,9 @@ const GovernmentServices = () => (
     <div className = "usa-grid">
       <SectionTitle title = "Modernizing Government Services" />
       <Teaser
-        teaserTitle = "Contracting and capabilities"
+        teaserTitle = "Contracting and Capabilities"
         teaserImage = { image1 }
-        teaserText = "Years of work in the public sector have taught us how to meet the needs of today’s government"
+        teaserText = "Years of work in the public sector have taught us how to meet the needs of today’s government."
         teaserLink = "/capabilities"
         teaserClass = "teaser__contracting teaser__halves"
       />
