@@ -3,7 +3,7 @@ path: "/case-study/USVA"
 type:  "case-study"
 title: "Sharing data to support veterans"
 client_name: "U.S. Department of Veterans Affairs"
-preview_image: LINCS1.jpg
+preview_image: USVA_preview.jpg
 project: "USVA Open Data"
 website: "https://www.data.va.gov"
 background_section_title: "Veteran data needs improvement"
@@ -21,14 +21,14 @@ specs: [
 ]
 images:
   - {
-  url: 'LINCS1.jpg', 
-  caption: 'Presenting findings from discovery about LINCS user needs', 
-  alt: 'LINCS Home page'
+  url: 'USVA_1.jpg', 
+  caption: '', 
+  alt: 'USVA open data portal on laptop and mobile'
   }
   - {
-  url: 'LINCS2.jpg', 
-  caption: 'Visitors to the LINCS website can quickly find the resources they need', 
-  alt: 'CivicActions meets with LINCS team and partners'
+  url: 'USVA_2.jpg', 
+  caption: '"Data stories" are visualizations to help people understand USVA data', 
+  alt: 'USVA data stories'
   }
   
 ---
