@@ -38,7 +38,7 @@ images:
 ### Approach
 
 ##### Upgrading with a complex data model
-Digital Democracy’s team of developers and analysts maintain all of the video, hearings, and transcriptions in their own database schema -- spanning over 100 tables and 20+ million rows. We performed a technical architecture redesign which uses Drupal 8 custom entities to treat the data as if it were local. 
+Digital Democracy’s team of developers and analysts maintain all of the video, hearings, and transcriptions in their own database schema — spanning over 100 tables and 20+ million rows. We performed a technical architecture redesign which uses Drupal 8 custom entities to treat the data as if it were local. 
 
 ##### Design with users in mind
 User research helped us decide on a modern, responsive design that gives people a flawless experience on any device and can be customized for each new state.
