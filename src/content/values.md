@@ -50,7 +50,7 @@ Contributing to public sector projects comes with an obligation to take responsi
 We communicate honestly and clearly. We actively share our work and insights with each other, with clients, and with our communities so everyone can benefit. We work in the open whenever possible and prioritize open source public licenses over proprietary solutions.
 
 ### Show appreciation
-We communicate honestly and clearly. We actively share our work and insights with each other, with clients, and with our communities so everyone can benefit. We work in the open whenever possible and prioritize open source public licenses over proprietary solutions.
+We are intentional about showing appreciation for each other and for those we serve. By celebrating the talents and efforts of the people around us, we encourage them to learn new things and grow as leaders. We also designate time for ourselves to give back to the various communities we are part of.
 
 ### Maintain balance
 We believe people work more effectively when they feel healthy and balanced. We create a positive work culture by adhering to business practices that support physical and emotional well-being. And we honor the priorities we have set for ourselves in our personal, professional, and spiritual lives. 
