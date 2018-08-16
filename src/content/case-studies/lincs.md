@@ -83,10 +83,10 @@ https://github.com/lincs
 <figure>
   <div> 
     <header>12,800</header>
-    <p>members in the LINCS community of practice<p>
+    <p>members in the LINCS<br>community of practice<p>
   </div>
   <div> 
       <header>12</header>
-      <p>minutes average helpdesk ticket resolution time<p>
+      <p>minutes average helpdesk<br>ticket resolution time<p>
   </div>
 </figure>
