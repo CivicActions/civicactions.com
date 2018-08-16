@@ -1,3 +1,9 @@
 .related-content__list {
-  @include flex-container;
+  display: block;
+
+  @media all and (min-width: 400px) {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 30px;
+  }
 }
