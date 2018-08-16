@@ -3,7 +3,7 @@ path: "/case-study/EatFresh"
 type:  "case-study"
 title: "Helping Californians make healthy choices for life"
 client_name: "San Francisco Human Services Agency"
-preview_image: LINCS1.jpg
+preview_image: EatFresh_1.jpg
 project: "EatFresh"
 website: "http://eatfresh.org/"
 background_section_title: "Beyond food stamps"
@@ -67,7 +67,7 @@ Our team interviewed county-level staff, food bank managers, and potential users
 To help spread awareness about EatFresh, we created a print campaign so people could be informed through postcards, bus posters, and flyers. We targeted our efforts toward the populations that would most benefit from the program.
 
 <blockquote>
-I’ve gotten very positive and impressed feedback since the site’s launch. The CivicActions team members are superstars -- they helped us meet our goals and create a user-friendly community site that will help us keep folks talking about nutrition!
+I’ve gotten very positive and impressed feedback since the site’s launch. The CivicActions team members are superstars — they helped us meet our goals and create a user-friendly community site that will help us keep folks talking about nutrition!
 <cite> Tiana Wertheim,  Senior Analyst, San Francisco Human Services Agency </cite>
 </blockquote>
 
