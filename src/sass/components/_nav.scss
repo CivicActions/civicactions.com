@@ -76,6 +76,17 @@
   }
 }
 
+.usa-menu-btn {
+  box-shadow: none;
+  background: transparent;
+  text-transform: none;
+  font-size: $base-font-size;
+  font-weight: $font-bold;
+  &:active, &:focus {
+    background: transparent;
+    box-shadow: none;
+  }
+}
 .usa-navbar {
   border-bottom: none;
 }
