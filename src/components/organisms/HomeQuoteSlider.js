@@ -55,7 +55,7 @@ class HomeQuoteSlider extends Component {
               />
             </Slider>
           </div>
-          <div class = "align-right">
+          <div className = "align-right">
             <Button
               button_text = "Meet Our Team"
               link = "/team"

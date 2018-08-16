@@ -10,7 +10,9 @@ import SubFooter from './../footer/SubFooter';
 import Footer from './../footer/Footer';
 import config from "../../../data/SiteConfig";
 import ExternalLink from './../scripts/ExternalLink';
+import TopNav from './../navigation/TopNav';
 
+import '../../../node_modules/uswds/dist/js/uswds';
 import header_bg from './../header/background_bg-hero.png';
 
 const GeneralLayout = ({
@@ -43,6 +45,18 @@ const GeneralLayout = ({
             city
           }
         }
+
+       allSitePage {
+        edges {
+          node {
+            path
+            fields {
+              slug
+            }
+          }
+        }
+      }
+
        }
     `}
 
@@ -74,7 +88,13 @@ const GeneralLayout = ({
 
         <header className = "section header__main"
               style = {{ backgroundImage: "url(" + header_bg + ")" }}>
-          <Header siteTitle= "CivicActions" />
+            <section className = "usa-nav-container">
+                <div className = "usa-navbar">
+                    <Header siteTitle= "CivicActions" />
+                    <button className = "usa-menu-btn">Menu</button>
+                </div>
+                <TopNav pages = { data.allSitePage } />
+            </section>
           <Hero
             client_name = { clientName }
             title       = { heroTitle }

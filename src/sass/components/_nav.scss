@@ -1,0 +1,84 @@
+.usa-nav {
+  @include media($nav-width) {
+    background: transparent;
+    padding-top: $spacing-md-small;
+  }
+
+  @media screen and (max-width: $small-screen) {
+    background: $teal;
+    border-left: none;
+    padding: $spacing-md-small;
+    button.usa-nav-close {
+      box-shadow: none;
+      color: $white;
+      margin: -1.2rem -0.5rem 1.5rem auto;
+      font-weight: $font-bold;
+      width: 62px;
+    }
+  }
+  .menu-item {
+    border-top: none;
+    &:hover {
+      @include top-border-large($teal);
+      margin-top: -10px;
+    }
+    button > span, a {
+      font-family: $font-serif;
+      color: $white;
+      font-size: $base-font-size;
+    }
+    button {
+      box-shadow: none;
+      span {
+        display: inline-block;
+      }
+      &[aria-expanded=false] {
+        background: url('./../files/icons/arrow-down.svg');
+        background-repeat: no-repeat;
+        background-position: right 1.5rem top 40%;
+        background-size: 1rem;
+      }
+      &[aria-expanded=true] {
+        background: transparent;
+        span {
+          border-bottom: none;
+        }
+      }
+
+      &:hover {
+        span {
+          border-bottom: none;
+        }
+      }
+    }
+    .external-link {
+      font-weight: $font-normal;
+      @media screen and (max-width: $small-screen) {
+        text-decoration: underline;
+      }
+    }
+  }
+  .usa-nav-submenu {
+    background: $teal;
+    padding: 0;
+    a {
+      font-family: $font-sans;
+      font-size: $small-font-size;
+      text-decoration: underline;
+      padding-top: $spacing-md-small;
+      padding-bottom: $spacing-md-small;
+      &.usa-current {
+        background: $navy;
+        padding-left: 1.5rem;
+        font-weight: $font-normal;
+      }
+    }
+  }
+}
+
+.usa-navbar {
+  border-bottom: none;
+}
+.usa-nav-container {
+  @include top-border-large($coral);
+}
