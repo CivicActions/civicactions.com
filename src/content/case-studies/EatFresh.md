@@ -24,22 +24,22 @@ specs: [
 ]
 images:
   - {
-  url: 'eatfresh_1.jpg', 
+  url: 'EatFresh_1.jpg', 
   caption: 'EatFresh helps Californians make healthy choices on a budget.', 
   alt: 'EatFresh website on tablet'
   }
   - {
-  url: 'eatfresh_2.jpg', 
+  url: 'EatFresh_2.jpg', 
   caption: 'We used print campaigns to raise awareness about EatFresh.', 
   alt: 'EatFresh postcard'
   }
    - {
-  url: 'eatfresh_3.jpg', 
+  url: 'EatFresh_3.jpg', 
   caption: 'Mapping stakeholder roles and relationships helped us understand all the goals for the site.', 
   alt: 'EatFresh Stakeholder Roles and Relationships'
   }
    - {
-  url: 'eatfresh_4.jpg', 
+  url: 'EatFresh_4.jpg', 
   caption: 'Models helped us determine how to structure site content.', 
   alt: 'EatFresh content model'
   }
