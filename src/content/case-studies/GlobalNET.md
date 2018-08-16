@@ -11,6 +11,7 @@ background_section: "The Defense Security Cooperation Agency (DSCA) uses the Glo
 
 GlobalNET needed an update to support new participants, additional features, and a better user experience. Multiple layers of customers and microservices made the project very complex. With over 1,500 content updates to the site per day, the modernization needed to be completed with minimal disruption to thousands of users.
 "
+background_section_second: 
 tags: ["Drupal", "DevOps", "Security & Compliance", "Quality Assurance", "UX", "Support"]
 specs: [
 "Drupal 7, Ilias, EZproxy, Adobe Connect, JIRA",

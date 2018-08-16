@@ -8,6 +8,7 @@ project: "LINCS"
 website: "https://lincs.ed.gov/"
 background_section_title: "Multiple, outdated websites"
 background_section: "The Department of Education needed help consolidating and updating the collection of websites for the Literacy and Information Communication System (LINCS), which supports adult education practitioners in their goal of helping adult learners transition to post-secondary education and 21st-century jobs.   LINCS gives educators and learners access to resource libraries, discussion groups, and self-guided courses -- but these were located on various websites that were outdated and confusing to navigate. LINCS needed to be restructured with modern technical architecture into a secure, streamlined platform where education practitioners could enjoy learning and sharing. LINCS users also needed reliable, friendly support to resolve technical and login issues and get back to helping adult learners."
+background_section_second: 
 tags: ["Support", "Drupal", "Quality Assurance"]
 specs: [
 "Drupal 7",

@@ -48,6 +48,7 @@ export default function Template({data}) {
         <h3>Background</h3>
         <h4> { frontmatter.background_section_title } </h4>
         <p>{ frontmatter.background_section } </p>
+        <p> { frontmatter.background_section_second }  </p>
       </div>
       <ImageSlider images = { images } />
       <div className = "text-container section">
@@ -73,6 +74,7 @@ export const studyQuery = graphql `
         website
         background_section_title
         background_section
+        background_section_second
         tags
         specs
         images {

@@ -11,6 +11,7 @@ background_section: "The Smithsonian Museum of Natural History needed a website 
 
 It was important for the site to be interactive so users could make connections between their experience in the museum and the additional content online. Smithsonian staff would also need to be trained so they could continue to manage the site after the initial launch of the exhibit.
 "
+background_section_second: 
 tags: ["Drupal", "Security and Compliance"]
 specs: [
 "Drupal",

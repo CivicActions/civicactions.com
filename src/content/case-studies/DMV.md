@@ -9,6 +9,7 @@ website: "https://www.dmv.ca.gov/portal/dmv/detail/forms/dl/dl44"
 background_section_title: "Service design to implement new policies"
 background_section: "California’s Department of Motor Vehicles (DMV), which serves 1.8 million people every month, was tasked with implementing a new law that would automatically register people to vote when they got a driver license. Forms needed to be updated to reflect the new policy and the system needed to be modernized to include an online option for license registration. We worked with the DMV to help them figure out how the new software systems would affect business workflows and front-line staff, and how California’s diverse population would understand and respond to the online forms. There was also a need to redesign the opt-out voter registration option in a way that respected sensitivities concerning the many undocumented immigrants in the state. 
 "
+background_section_second: 
 tags: ["User Experience"]
 specs: [
 "508 compliance for accessibility",
