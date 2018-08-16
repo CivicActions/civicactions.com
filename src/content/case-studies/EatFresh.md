@@ -24,14 +24,24 @@ specs: [
 ]
 images:
   - {
-  url: 'LINCS1.jpg', 
-  caption: 'Presenting findings from discovery about LINCS user needs', 
-  alt: 'LINCS Home page'
+  url: 'EatFresh_1.jpg', 
+  caption: 'EatFresh helps Californians make healthy choices on a budget.', 
+  alt: 'EatFresh website on tablet'
   }
   - {
-  url: 'LINCS2.jpg', 
-  caption: 'Visitors to the LINCS website can quickly find the resources they need', 
-  alt: 'CivicActions meets with LINCS team and partners'
+  url: 'EatFresh_2.jpg', 
+  caption: 'We used print campaigns to raise awareness about EatFresh.', 
+  alt: 'EatFresh postcard'
+  }
+   - {
+  url: 'EatFresh_3.jpg', 
+  caption: 'Mapping stakeholder roles and relationships helped us understand all the goals for the site.', 
+  alt: 'EatFresh Stakeholder Roles and Relationships'
+  }
+   - {
+  url: 'EatFresh_4.jpg', 
+  caption: 'Models helped us determine how to structure site content.', 
+  alt: 'EatFresh content model'
   }
   
 ---
