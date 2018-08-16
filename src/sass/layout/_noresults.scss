@@ -1,0 +1,31 @@
+.no-results {
+  margin-bottom: 0;
+
+  .hero__image {
+    img {
+      display: block;
+      margin: 50px auto 0;
+      width: 100%;
+    }
+  }
+
+  .hero__text {
+    text-align: left;
+
+    a {
+      font-weight: bold;
+      color: $white;
+    }
+  }
+
+  @include media($medium-screen) {
+    .hero__text {
+      @include span-columns(8);
+    }
+
+    .hero__image {
+      @include span-columns(4);
+      img { width: 100%; }
+    }
+  }
+}
