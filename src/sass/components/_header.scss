@@ -9,7 +9,7 @@
   }
 
   &__inner {
-    //@include top-border-large($coral);
+    @include top-border-large($coral);
   }
 }
 

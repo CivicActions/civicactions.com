@@ -61,18 +61,3 @@ exports.createPages = ({ boundActionCreators, graphql }) => {
     }
   )
 };
-
-// This is to be able to query page slugs. For creating a dynamic menu in the future
-exports.onCreateNode = ({ node, getNode, boundActionCreators }) => {
-
-    const { createNodeField } = boundActionCreators;
-    if(node.internal.type==='SitePage'){
-        createNodeField({
-            node,
-            name: `slug`,
-            value: node.path,
-        });
-        console.log(node)
-    }
-
-};

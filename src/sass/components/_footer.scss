@@ -1,12 +1,9 @@
 .footer {
   &__wrapper {
     background-color: $navy;
+    padding: $section-margin 0;
     color: $white;
     font-size: 15px;
-    padding: $spacing-medium 0;
-    @media screen and (max-width: $small-screen) {
-      padding: $spacing-large $spacing-medium;
-    }
   }
 
   .logo {
@@ -15,13 +12,8 @@
     }
   }
 
-  a, h4 {
+  a {
     color: $white;
-  }
-
-
-  h4 {
-    font-size: $base-font-size;
   }
 
   &__address {
@@ -51,62 +43,6 @@
         &-linkedin {
           &:after {
             content: url('./../files/icons/social/linkedin.svg')
-          }
-        }
-      }
-    }
-  }
-}
-
-.usa-footer-big {
-  .usa-footer-primary-section {
-    background: transparent;
-    .usa-footer-contact-links {
-      text-align: left;
-      padding-bottom: $spacing-medium;
-    }
-    @include media($nav-width) {
-      .usa-width-one-third {
-        @include span-columns(4);
-      }
-      .usa-width-two-thirds {
-        @include span-columns(8);
-      }
-      .usa-width-one-fourth {
-        @include span-columns(3);
-      }
-    }
-    .usa-footer-secondary-link, .external-link span {
-      text-decoration: underline;
-      padding-top: $spacing-small;
-      padding-bottom: $spacing-small;
-    }
-
-    @media screen and (max-width: $small-screen) {
-      ul {
-        .usa-footer-primary-link {
-          background-image: none;
-          padding-left: 0;
-          h4 {
-            display: inline-block;
-          }
-          &:after {
-            float: right;
-            content: "-";
-            color: $white;
-            font-size: $base-font-size;
-            font-weight: $font-bold;
-          }
-        }
-      }
-      ul.hidden {
-        .usa-footer-primary-link {
-          &:after {
-            float: right;
-            content: "+";
-            color: $white;
-            font-size: $base-font-size;
-            font-weight: $font-bold;
           }
         }
       }
