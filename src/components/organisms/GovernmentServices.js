@@ -1,6 +1,6 @@
 import React from "react";
-import image1 from './../../files/images/lights.jpeg';
-import image2 from './../../files/images/mac.jpg';
+import image1 from './../../files/images/contractingCapabilities.jpg';
+import image2 from './../../files/images/DKANopendata.jpg';
 
 import Teaser from './../Teaser';
 import SectionTitle from '../atoms/SectionTitle';
