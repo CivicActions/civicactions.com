@@ -21,14 +21,19 @@ specs: [
 ]
 images:
   - {
-  url: 'LINCS1.jpg', 
-  caption: 'Presenting findings from discovery about LINCS user needs', 
-  alt: 'LINCS Home page'
+  url: 'smithsonian_1.jpg', 
+  caption: 'Users access the site easily on mobile devices.', 
+  alt: 'Human Origins website on tablet'
   }
   - {
-  url: 'LINCS2.jpg', 
-  caption: 'Visitors to the LINCS website can quickly find the resources they need', 
-  alt: 'CivicActions meets with LINCS team and partners'
+  url: 'smithsonian_2.jpg', 
+  caption: 'Visitors to the exhibition can continue to learn about Human Origins online.', 
+  alt: 'User viewing Human Origins on a tablet'
+  }
+  - {
+  url: 'smithsonian_3.jpg', 
+  caption: 'Users access the site easily on mobile devices.', 
+  alt: 'Human Origins website on tablet'
   }
   
 ---
