@@ -1,5 +1,4 @@
 import React from "react";
-import PropTypes from 'prop-types';
 
 const ThreeColGrid = ({ items }) => {
   const gridItems = items.map((item, index) => {
