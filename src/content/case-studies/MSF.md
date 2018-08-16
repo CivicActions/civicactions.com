@@ -3,7 +3,7 @@ path: "/case-study/msf"
 type:  "case-study"
 title: "Speaking up for human rights"
 client_name: "Médecins Sans Frontières USA"
-preview_image: MSF_1.jpg
+preview_image: MSF_preview.jpg
 project: "DoctorsWithoutBorders.org"
 website: "https://doctorswithoutborders.org/"
 background_section_title: "Outdated website hampering global mission"
@@ -35,6 +35,7 @@ images:
   caption: 'Cognitive mapping tools helped us create a content model for MSF.', 
   alt: 'Mind-map to show content relationships'
   } 
+  
 ---
 
 ### Approach
