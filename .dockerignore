@@ -2,3 +2,6 @@
 *.md
 Dockerfile
 Jenkinsfile
+node_modules
+.cache
+

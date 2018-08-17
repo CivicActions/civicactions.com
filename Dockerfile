@@ -17,8 +17,9 @@ FROM node:8.11 as app
 ARG GATSBY_JAZZ_URL
 
 WORKDIR /usr/src/app
-COPY . .
+COPY package.json yarn.lock ./
 RUN yarn --pure-lockfile
+COPY . .
 RUN yarn build
 
 #
