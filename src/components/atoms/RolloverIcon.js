@@ -12,7 +12,7 @@ const RolloverIcon = ({
     let image;
 
     if(icon) {
-        image = <div className = "rollovericon__icon"><img src = { icon } alt = { icon_rollover_text } /></div>
+        image = <div className = "rollovericon__icon"><Img resolutions={ icon } alt={ icon_rollover_text }/></div>
     }
 
     let iconWrapper = icon_url ?
