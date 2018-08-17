@@ -64,7 +64,7 @@ We believe in the power of open data — standardized, machine-readable, trustwo
 
 DKAN is a community-driven, Drupal-based open data platform used worldwide by governments of all levels, nonprofits, international organizations, and private companies.
 
-The original developers of DKAN and its core maintainers work at CivicActions, continually improving the product according to the needs of the community and the most up to date technology while providing outstanding services to our clients. 
+The original developers of DKAN and its core maintainers work at CivicActions, continually improving the product according to the needs of the community and the most up to date technology while providing outstanding services to our clients.
 
 **CivicActions DKAN services include:**
 
