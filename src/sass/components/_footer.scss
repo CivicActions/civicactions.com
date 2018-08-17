@@ -4,7 +4,7 @@
     color: $white;
     font-size: 15px;
     padding: $spacing-medium 0;
-    @media screen and (max-width: $small-screen) {
+    @media screen and (max-width: $medium-screen) {
       padding: $spacing-large $spacing-medium;
     }
   }
@@ -82,7 +82,7 @@
       padding-bottom: $spacing-small;
     }
 
-    @media screen and (max-width: $small-screen) {
+    @media screen and (max-width: $medium-screen) {
       ul {
         .usa-footer-primary-link {
           background-image: none;
