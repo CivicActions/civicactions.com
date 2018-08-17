@@ -18,10 +18,19 @@ ARG GATSBY_JAZZ_URL
 
 WORKDIR /usr/src/app
 COPY . .
-RUN yarn
-# Run build twice to work around sporadic race condition: https://github.com/gatsbyjs/gatsby/issues/4103
-RUN yarn build || true
+RUN yarn --pure-lockfile
 RUN yarn build
+
+#
+# Compress site files
+#
+FROM alpine:3.8 as appz
+RUN apk add gzip --no-cache && \
+    apk add brotli --no-cache --repository http://dl-3.alpinelinux.org/alpine/edge/testing/ --allow-untrusted
+COPY --from=app /usr/src/app/public /srv
+RUN find /srv -type f -a \( -name '*.html' -o -name '*.css' -o -name '*.js' \
+    -o -name '*.json' -o -name '*.xml' -o -name '*.svg' -o -name '*.txt' \) \
+    -exec brotli --best {} \+ -exec gzip --best -k {} \+
 
 #
 # Package site into web server
@@ -33,8 +42,7 @@ VOLUME /root/.caddy /srv
 WORKDIR /srv
 
 # Ensure we have root certs available for caddy.
-RUN apk add --no-cache ca-certificates
-RUN update-ca-certificates
+RUN apk add --no-cache ca-certificates && update-ca-certificates
 
 # Install caddy from builder stage.
 COPY --from=builder /install/caddy /usr/bin/caddy
@@ -42,7 +50,7 @@ COPY --from=builder /install/caddy /usr/bin/caddy
 # Install a default configuration file.
 COPY Caddyfile /etc/Caddyfile
 
-# Install application from app stage.
-COPY --from=app /usr/src/app/public /srv
+# Install application from appz stage.
+COPY --from=appz /srv /srv
 
 CMD ["caddy", "--conf", "/etc/Caddyfile", "--log", "stdout", "--agree=true"]
