@@ -72,9 +72,9 @@ export const valuesQuery = graphql`
       quotes {
         image {
     childImageSharp{
-            resize(width: 132, height: 132) {
-              src
-            }
+            fixed(width:264, height: 264) {
+              ...GatsbyImageSharpFixed_noBase64
+              }
           }
         }
         text
