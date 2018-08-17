@@ -35,7 +35,6 @@ const Careers = ({data}) => {
   const { edges } = allJob;
   const imageArray = [ image1, image2, image3, image4, image5, image6, image7, image8, image9, image10 ];
 
-
   const jobs = _.map(edges, (job, index) => {
 
     let url = `http://civicactions.applytojob.com/apply/${job.node.board_code}`;
@@ -122,8 +121,8 @@ query jobsQuery {
         quotes {
           image {
             childImageSharp{
-              resize(width: 132, height: 132) {
-                src
+              fixed(width:264, height: 264) {
+              ...GatsbyImageSharpFixed_noBase64
               }
             }
           }
