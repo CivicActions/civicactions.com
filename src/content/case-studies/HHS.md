@@ -1,5 +1,5 @@
 ---
-path: "/case-study/HHS"
+path: "/case-study/hhs"
 type:  "case-study"
 title: "Promoting public health with open data"
 client_name: "U.S. Department of Health and Human Services"
@@ -50,9 +50,6 @@ We meet regularly with HHS staff to answer questions, fine-tune new datasets, fi
 ##### Improving public health through data
 Our partnership with HHS helps the agency share information about the quality of medical care in the United States, databases of the latest medical and scientific research, consumer product data, community health performance information, government spending data, and more.
 
-<blockquote> 
-<cite>  </cite>
-</blockquote>
 
 ### Impact
 * Researchers, developers, and policy makers can use HHS data to improve public health
