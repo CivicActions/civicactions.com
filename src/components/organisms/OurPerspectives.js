@@ -38,17 +38,17 @@ class OurPerspectives extends Component {
           className = "blockquotes__list">
           <Slider {...settings}>
             <Blockquote
-              quote = "I love the openness,.. "
+              quote = "I love the honest, collaborative atmosphere and the way CivicActions prioritizes the well-being of team members."
               quote_source = "Iris Ibekwe, Engineer"
               quote_image = { image1 }
             />
             <Blockquote
-              quote = "I love digging into..."
+              quote = "I enjoy digging into the challenges of improving communication and process within organizations doing good."
               quote_source = "Jeff Maher, Engineer"
               quote_image = { image2 }
             />
             <Blockquote
-              quote = "We constantly figure out how..."
+              quote = "We constantly figure out how to do what needs to be done, so we automatically grow. Then we share our learnings with others."
               quote_source = "Kim Davidson"
               quote_image = { image3 }
             />
