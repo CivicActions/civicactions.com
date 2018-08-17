@@ -1,5 +1,5 @@
 import React from "react"
-//import { graphql } from "gatsby"
+import { graphql } from "gatsby"
 
 import GeneralLayout from "./../components/layouts/GeneralLayout"
 import TeaserGrid from './../components/TeaserGrid';
