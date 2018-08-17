@@ -1,5 +1,5 @@
 ---
-path: "/case-study/FCC"
+path: "/case-study/fcc"
 type:  "case-study"
 title: "Modernizing a legacy federal system"
 client_name: "Federal Communications Commission"

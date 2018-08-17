@@ -1,5 +1,5 @@
 ---
-path: "/case-study/USVA"
+path: "/case-study/usva"
 type:  "case-study"
 title: "Sharing data to support veterans"
 client_name: "U.S. Department of Veterans Affairs"
@@ -53,9 +53,6 @@ USVA was struggling with charts and data stories that were impossible to display
 ##### Keeping good data records
 The USVA data portal houses thousands of datasets. We trained agency staff to use DKAN’s [harvest module](http://dkan.readthedocs.io/en/stable/components/harvest.html) to create accurate records for data that is frequently updated.
 
-<blockquote> 
-<cite>  </cite>
-</blockquote>
 
 ### Impact
 * Researchers, developers, and policy makers can use VA data to improve outcomes for veterans
