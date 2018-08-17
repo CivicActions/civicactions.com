@@ -3,5 +3,5 @@ path: /
 type: team
 published: 0
 name: Sreekar Peddi
-image: 'images/Sreekar-Peddi.jpg'
----
+image: 'images/sreekar-peddi.jpg'
+---------------------------------
