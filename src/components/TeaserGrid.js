@@ -5,7 +5,7 @@ import PropTypes from 'prop-types';
 
 const TeaserGrid = ({image, link, name, published, title}) => {
 
-    const previewImage = image ? <div className = "teaser-grid__image"><Img sizes = {image.childImageSharp.resize} /></div> : null;
+    const previewImage = image ? <div className = "teaser-grid__image"><Img sizes = {image.childImageSharp.fixed} /></div> : null;
 
     return (
         <div className="teaser-grid--wrapper">

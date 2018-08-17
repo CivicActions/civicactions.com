@@ -74,9 +74,10 @@ export const t = graphql `
         frontmatter {
           name
           image {
-             	childImageSharp {resize(width:144, height:144) {
-             	  src
-             	}
+            childImageSharp {
+              fixed(width:600, height: 600) {
+              ...GatsbyImageSharpFixed_noBase64
+              }
             }
           }
           path
