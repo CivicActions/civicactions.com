@@ -9,10 +9,8 @@ import Hero from './../header/Hero';
 import SubFooter from './../footer/SubFooter';
 import Footer from './../footer/Footer';
 import config from "../../../data/SiteConfig";
-import ExternalLink from './../scripts/ExternalLink';
 import TopNav from './../navigation/TopNav';
 
-import '../../../node_modules/uswds/dist/js/uswds';
 import header_bg from './../header/background_bg-hero.png';
 
 
@@ -125,9 +123,6 @@ const GeneralLayout = ({
           address_line_2 = { data.site.siteMetadata.address_line_2 }
           city = { data.site.siteMetadata.city }
         />
-
-       <ExternalLink/>
-
        </>
 
     )}

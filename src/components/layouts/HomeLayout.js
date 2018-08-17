@@ -9,10 +9,7 @@ import HeroHome from './../header/HeroHome';
 import SubFooter from './../footer/SubFooter';
 import Footer from './../footer/Footer';
 import config from "../../../data/SiteConfig";
-import ExternalLink from './../scripts/ExternalLink';
 import TopNav from './../navigation/TopNav';
-
-import '../../../node_modules/uswds/dist/js/uswds';
 import '../../sass/styles.scss';
 import header_bg from './../header/background_bg-hero.png';
 
@@ -81,7 +78,9 @@ const Layout = ({ children, data, location }) => (
               { property: 'og:email', content: data.site.siteMetadata.email },
               { property: 'og:phone_number', content: data.site.siteMetadata.phone },
           ]}
-        />
+
+
+            />
         <header className = "section header__main usa-header usa-header-basic"
               style = {{ backgroundImage: "url(" + header_bg + ")" }}>
             <section className = "usa-nav-container">
@@ -107,8 +106,6 @@ const Layout = ({ children, data, location }) => (
           address_line_2 = { data.site.siteMetadata.address_line_2 }
           city = { data.site.siteMetadata.city }
          />
-
-         <ExternalLink/>
       </>
     )}
   />

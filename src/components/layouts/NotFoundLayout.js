@@ -9,7 +9,6 @@ import Header from './../header/Header'
 import SubFooter from './../footer/SubFooter';
 import Footer from './../footer/Footer';
 import config from "../../../data/SiteConfig";
-import ExternalLink from './../scripts/ExternalLink';
 
 import header_bg from './../header/background_bg-hero.png';
 import hero_image from './../../files/images/404.gif';
@@ -106,9 +105,6 @@ const NotFoundLayout = ({
           address_line_2 = { data.site.siteMetadata.address_line_2 }
           city = { data.site.siteMetadata.city }
         />
-
-       <ExternalLink/>
-
        </>
 
     )}
