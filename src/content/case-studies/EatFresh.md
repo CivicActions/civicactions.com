@@ -73,7 +73,7 @@ I’ve gotten very positive and impressed feedback since the site’s launch. Th
 
 ### Impact
 * Underserved Californians can easily access health advice and quality nutrition information 
-* Resources are better tailored to fit the real-life situations of low-income constituents
+* Resources are tailored to fit real-life situations of low-income constituents
 * Other agencies and community organizations can integrate EatFresh into their programs
 * Audiences are engaged with healthy lifestyle learning on social media
 * Health education resources and community based activities have expanded beyond the website
@@ -82,24 +82,23 @@ I’ve gotten very positive and impressed feedback since the site’s launch. Th
 
 ### Explore
 ##### See our work
-[EatFresh.org: Tasty recipes on your budget](http://eatfresh.org/)
+[EatFresh.org: Tasty recipes on your budget](http://eatfresh.org/)  
 [Video: How to Use EatFresh.org](https://www.youtube.com/watch?time_continue=9&v=fIMymbhXBgk)
 
 ##### See the impact
 [EatFresh Impact Evaluation Results](http://leahspantrysf.org/blog/2014/11/18/eatfreshorg-impact-evaluation-results)
-[EatFresh Stakeholder Roles and Relationships](https://drive.google.com/open?id=1eBPbDzOGkJZfoF9v25Lk4iLI6bkK6aG7)
 
 ##### More on the life of EatFresh since launch
-[About EatFresh](http://leahspantrysf.org/about-eatfresh/)
+[About EatFresh](http://leahspantrysf.org/about-eatfresh/)  
 [EatFresh Overview from SNAP-Ed Toolkit](https://snapedtoolkit.org/interventions/programs/eatfresh/)
  
 <figure>
   <div> 
     <header>102</header>
-    <p>Recipes shared via text message each month<p>
+    <p>Recipes shared via text<br> message each month<p>
   </div>
   <div> 
       <header>15,000</header>
-      <p>Visitors to the site each month<p>
+      <p>Visitors to the<br> site each month<p>
   </div>
 </figure>
