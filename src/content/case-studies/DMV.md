@@ -4,13 +4,12 @@ type:  "case-study"
 title: "Improving the DMV experience"
 client_name: "California Department of Motor Vehicles"
 preview_image: DMV_preview.jpg
-promoted_to_front_page: no
+promoted_to_front_page: yes
 project: "California DMV"
 website: "https://www.dmv.ca.gov/portal/dmv/detail/forms/dl/dl44"
 background_section_title: "Service design to implement new policies"
-background_section: "California’s Department of Motor Vehicles (DMV), which serves 1.8 million people every month, was tasked with implementing a new law that would automatically register people to vote when they got a driver license. Forms needed to be updated to reflect the new policy and the system needed to be modernized to include an online option for license registration. We worked with the DMV to help them figure out how the new software systems would affect business workflows and front-line staff, and how California’s diverse population would understand and respond to the online forms. There was also a need to redesign the opt-out voter registration option in a way that respected sensitivities concerning the many undocumented immigrants in the state. 
-"
-background_section_second: 
+background_section: "California’s Department of Motor Vehicles (DMV), which serves 1.8 million people every month, was tasked with implementing a new law that would automatically register people to vote when they got a driver license. Forms needed to be updated to reflect the new policy and the system needed to be modernized to include an online option for license registration."
+background_section_second: "We worked with the DMV to help them figure out how the new software systems would affect business workflows and front-line staff, and how California’s diverse population would understand and respond to the online forms. There was also a need to redesign the opt-out voter registration option in a way that respected sensitivities concerning the many undocumented immigrants in the state." 
 tags: ["User Experience"]
 specs: [
 "508 compliance for accessibility",
@@ -51,7 +50,7 @@ Before creating anything new, we went on “Service Safaris” where we shadowed
 We built relationships with policy makers and front-line workers so all the silos across DMV could benefit from our research learnings and understand each others’ needs for the new system and operations.
 
 ##### Government forms that make sense
-Using [Plain Language Guidelines](https://www.plainlanguage.gov/), we created online and paper forms that help users understand the questions clearly, and were especially mindful in formulating content to serve non-citizen users.
+We used [Plain Language Guidelines](https://www.plainlanguage.gov/) to create online and paper forms that help users understand the questions clearly, and were especially mindful in formulating content to serve non-citizen users.
 
 ##### Testing solutions with DMV staff
 We created a mock field office at DMV headquarters to replicate an employee’s experience using the new system. DMV staff helped us understand how the technology updates would change their daily jobs.
