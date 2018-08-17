@@ -130,9 +130,12 @@
   @include top-border-large($coral);
 }
 
-.usa-nav-link:hover {
-  span {
-    border-bottom: none;
-    padding-bottom: 0;
+.usa-nav-link {
+  font-weight: $font-bold;
+  &:hover {
+    span {
+      border-bottom: none;
+      padding-bottom: 0;
+    }
   }
 }
