@@ -1,6 +1,6 @@
 import React from "react";
-import image1 from './../../files/images/lights.jpeg';
-import image2 from './../../files/images/mac.jpg';
+import image1 from './../../files/images/contractingCapabilities.jpg';
+import image2 from './../../files/images/DKANopendata.jpg';
 
 import Teaser from './../Teaser';
 import SectionTitle from '../atoms/SectionTitle';
@@ -10,9 +10,9 @@ const GovernmentServices = () => (
     <div className = "usa-grid">
       <SectionTitle title = "Modernizing Government Services" />
       <Teaser
-        teaserTitle = "Contracting and capabilities"
+        teaserTitle = "Contracting and Capabilities"
         teaserImage = { image1 }
-        teaserText = "Years of work in the public sector have taught us how to meet the needs of today’s government"
+        teaserText = "Years of work in the public sector have taught us how to meet the needs of today’s government."
         teaserLink = "/capabilities"
         teaserClass = "teaser__contracting teaser__halves"
       />

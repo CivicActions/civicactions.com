@@ -1,6 +1,6 @@
 import React from 'react'
 
-import home_image from './../../content/home-1400.jpg';
+import home_image from './../../content/homepage.jpg';
 
 import Button from "../atoms/Buttons"
 

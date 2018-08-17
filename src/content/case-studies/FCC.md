@@ -5,6 +5,7 @@ title: "Modernizing a legacy federal system"
 client_name: "Federal Communications Commission"
 preview_image: FCC_preview.jpg
 project: "FCC.gov"
+promoted_to_front_page: no
 website: "https://www.FCC.gov"
 background_section_title: "Cumbersome, outdated federal website"
 background_section: "The Federal Communications Commission (FCC) relies on its website to provide regulatory guidance to millions of visitors each year across various industries. The old, outdated site was hard to navigate for users seeking information and frustrating for stakeholders responsible for content management.
