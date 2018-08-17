@@ -5,9 +5,9 @@ import Blockquote from "./../atoms/Blockquote";
 import SectionTitle from "./../atoms/SectionTitle";
 import Button from "../atoms/Buttons"
 
-import image1 from "./../../content/team-members/images/Karen-Johnson.jpg";
-import image2 from "./../../content/team-members/Steve-Wirt.jpg";
-import image3 from "./../../content/team-members/Steve-Curtis.jpg";
+import image1 from "./../../content/team-members/images/karen-johnson.jpg";
+import image2 from "./../../content/team-members/images/steve-wirt.jpg";
+import image3 from "./../../content/team-members/images/steve-curtis.jpg";
 
 class HomeQuoteSlider extends Component {
 

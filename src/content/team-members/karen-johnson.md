@@ -3,5 +3,5 @@ path: /
 type: team
 published: 0
 name: Karen Johnson
-image: 'images/Karen-Johnson.jpg'
----
+image: 'images/karen-johnson.jpg'
+---------------------------------

@@ -3,5 +3,5 @@ path: /
 type: team
 published: 0
 name: Jacqueline Gu
-image: 'images/Jacqueline-Gu.jpg'
----
+image: 'images/jacqueline-gu.jpg'
+---------------------------------
