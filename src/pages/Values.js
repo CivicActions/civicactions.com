@@ -17,8 +17,6 @@ const Values = ({ data }) => {
     quotes,
     quotes_title } = frontmatter;
 
-  console.log(typeof(thankyou_images));
-
   return(
     <GeneralLayout
       heroTitle = { title }
