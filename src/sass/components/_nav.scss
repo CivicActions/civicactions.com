@@ -78,9 +78,14 @@
       }
     }
     .external-link {
-      font-weight: $font-normal;
       @media screen and (max-width: $small-screen) {
         text-decoration: underline;
+      }
+    }
+    .usa-nav-link:hover {
+      span {
+        border-bottom: none;
+        padding-bottom: 0;
       }
     }
   }
