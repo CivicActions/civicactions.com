@@ -1,5 +1,5 @@
 ---
-path: "/case-study/EatFresh"
+path: "/case-study/eatfresh"
 type:  "case-study"
 title: "Helping Californians make healthy choices for life"
 client_name: "San Francisco Human Services Agency"

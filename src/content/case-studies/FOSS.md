@@ -1,5 +1,5 @@
 ---
-path: "/case-study/FOSS"
+path: "/case-study/foss"
 type:  "case-study"
 title: "Supporting and expanding adult education"
 client_name: "U.S. Department of Education"
