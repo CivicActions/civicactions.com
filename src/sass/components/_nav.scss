@@ -3,7 +3,7 @@
     background: transparent;
     padding-top: $spacing-md-small;
   }
-  @media screen and (max-width: $small-screen) {
+  @media screen and (max-width: $medium-screen) {
     background: $teal;
     border-left: none;
     padding: $spacing-md-small;
@@ -26,7 +26,7 @@
     margin-top: -14px;
     width: 100%;
     display: none;
-    @media screen and (max-width: $small-screen) {
+    @media screen and (max-width: $medium-screen) {
       display: block;
     }
     .logo__image {
@@ -78,8 +78,7 @@
       }
     }
     .external-link {
-      font-weight: $font-normal;
-      @media screen and (max-width: $small-screen) {
+      @media screen and (max-width: $medium-screen) {
         text-decoration: underline;
       }
     }
@@ -129,4 +128,14 @@
 }
 .usa-nav-container {
   @include top-border-large($coral);
+}
+
+.usa-nav-link {
+  font-weight: $font-bold;
+  &:hover {
+    span {
+      border-bottom: none;
+      padding-bottom: 0;
+    }
+  }
 }

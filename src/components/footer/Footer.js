@@ -1,10 +1,9 @@
 import React from "react"
 import Link from "gatsby-link";
 import SocialLinks from "./../organisms/SocialLinks";
-import FooterNav from './../navigation/FooterNav';
-
-
 import Logo from "./../atoms/logo/Logo"
+import USWDS from "./../scripts/USWDS";
+import FooterNav from "./../navigation/FooterNav";
 
 const Footer = ({email, phone, address, address_line_2, city}) => {
   let email_link = `/mailto:${email}`;
@@ -31,6 +30,7 @@ const Footer = ({email, phone, address, address_line_2, city}) => {
           </div>
         </div>
       </footer>
+      <USWDS/>
     </div>
   )
 };
