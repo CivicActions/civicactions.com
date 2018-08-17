@@ -1,13 +1,7 @@
 import React from 'react';
-import {_} from 'lodash';
 import social_block from "../../../data/social-icons";
 
 import IconParagraph from './../atoms/IconParagraph';
-import SectionTitle from './../atoms/SectionTitle';
-
-import icon1 from './../../files/icons/contact/email.svg';
-import icon2 from './../../files/icons/contact/mail.svg'
-import icon3 from './../../files/icons/contact/phone.svg'
 
 const ReachUs = () => {
 

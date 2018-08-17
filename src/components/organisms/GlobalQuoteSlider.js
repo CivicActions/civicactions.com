@@ -27,7 +27,7 @@ class GlobalQuoteSlider extends Component {
 
     let quoteItems = quotes.map((item, index) => {
       let { author, text, image } = item;
-      let quoteImage = image.childImageSharp.resize.src;
+      let quoteImage = image ?  image.childImageSharp.fixed.src: null;
 
       return(
         <Blockquote

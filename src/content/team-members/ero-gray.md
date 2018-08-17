@@ -3,5 +3,5 @@ path: /
 type: team
 published: 0
 name: Ero Gray
-image: 'images/Ero-Gray.jpg'
----
+image: 'images/ero-gray.jpg'
+----------------------------

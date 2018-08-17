@@ -6,17 +6,17 @@ thankyou_text: Our human-centric culture has enabled us to build a company that 
 quotes_title: From the Team
 quotes: 
   - {
-    image: './team-members/images/Henry-Poole.jpg',
+    image: './team-members/images/henry-poole.jpg',
     text: 'When you create a space for people to be balanced, it opens up the silos in the mind and allows for more possibility and innovation.',
     author: 'Henry Poole, Co-Founder and CEO'
   }
   - {
-    image: './team-members/images/Andy-Hawks.jpg',
+    image: './team-members/images/andy-hawks.jpg',
     text: 'At CivicActions everything is done intentionally and with purpose. We try to bring this authenticity to everyone we work with',
     author: 'Andy Hawks, Engineer'
   }
   - {
-    image: './team-members/images/Alaine-Karoleff.jpg',
+    image: './team-members/images/alaine-karoleff.jpg',
     text: 'Being part of a diverse company creates freedom for me to feel I can be unique to myself, but also fit in with the team.',
     author: 'Alaine Karoleff, Director of Agile Digital Services'
   }

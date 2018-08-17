@@ -3,5 +3,5 @@ path: /
 type: team
 published: 0
 name: Aaron Pava
-image: 'images/Aaron-Pava.jpg'
+image: 'images/aaron-pava.jpg'
 ------------------------------
