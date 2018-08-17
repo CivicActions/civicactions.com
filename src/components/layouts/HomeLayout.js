@@ -1,5 +1,4 @@
 // This forms the wrapper (Header + Footer) around the home page
-
 import React from 'react'
 import PropTypes from 'prop-types'
 import Helmet from 'react-helmet'
@@ -13,6 +12,7 @@ import config from "../../../data/SiteConfig";
 import TopNav from './../navigation/TopNav';
 import '../../sass/styles.scss';
 import header_bg from './../header/background_bg-hero.png';
+
 
 
 const Layout = ({ children, data, location }) => (
@@ -41,13 +41,24 @@ const Layout = ({ children, data, location }) => (
         quote
       }
     }
+
+      allSitePage {
+        edges {
+          node {
+            path
+            fields {
+              slug
+            }
+          }
+        }
+      }
     }
     `}
-    render={data => (
+    render={ data => (
 
       <>
         <Helmet
-          title={data.site.siteMetadata.title}
+          title={ data.site.siteMetadata.title }
           meta={[
               { name: 'description', content: 'Sample' },
               { name: 'keywords', content: 'sample, something' },
@@ -66,12 +77,18 @@ const Layout = ({ children, data, location }) => (
               // Contact
               { property: 'og:email', content: data.site.siteMetadata.email },
               { property: 'og:phone_number', content: data.site.siteMetadata.phone },
-
           ]}
-            />
+        />
+
         <header className = "section header__main usa-header usa-header-basic"
               style = {{ backgroundImage: "url(" + header_bg + ")" }}>
-          <Header siteTitle={data.site.siteMetadata.title} />
+            <section className = "usa-nav-container">
+                <div className = "usa-navbar">
+                    <Header siteTitle={data.site.siteMetadata.title} />
+                    <button className = "usa-menu-btn"> Menu </button>
+                </div>
+                <TopNav pages = { data.allSitePage } />
+            </section>
           <HeroHome info = {data.markdownRemark.frontmatter}/>
         </header>
         <main>

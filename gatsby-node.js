@@ -74,7 +74,6 @@ exports.onCreateNode = ({ node, getNode, boundActionCreators }) => {
         });
         console.log(node)
     }
-
 };
 
 // For easier imports
@@ -88,3 +87,4 @@ exports.onCreateWebpackConfig = (
         },
     })
 };
+

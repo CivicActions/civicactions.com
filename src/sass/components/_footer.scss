@@ -15,8 +15,13 @@
     }
   }
 
-  a {
+  a, h4 {
     color: $white;
+  }
+
+
+  h4 {
+    font-size: $base-font-size;
   }
 
   &__address {
@@ -52,6 +57,7 @@
     }
   }
 }
+
 .usa-footer-big {
   .usa-footer-primary-section {
     background: transparent;

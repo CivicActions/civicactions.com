@@ -79,6 +79,7 @@
     }
     .external-link {
       @media screen and (max-width: $medium-screen) {
+      font-weight: $font-normal;
         text-decoration: underline;
       }
     }
