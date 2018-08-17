@@ -103,7 +103,6 @@ export const mediumQuery = graphql `
         cta_text
         cta_link
         quote
-        quote_source
       }
     }
 
