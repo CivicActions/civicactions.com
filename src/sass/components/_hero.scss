@@ -37,7 +37,7 @@
 
     .hero__title {text-align: left;}
 
-    @include breakpoint($medium-screen) {
+    @include media($medium-screen) {
 
       .hero__text,
       .hero__image--wrapper {
