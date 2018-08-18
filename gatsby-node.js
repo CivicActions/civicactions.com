@@ -6,8 +6,8 @@
 
 const path = require('path');
 
-exports.createPages = ({ boundActionCreators, graphql }) => {
-  const { createPage } = boundActionCreators;
+exports.createPages = ({ actions, graphql }) => {
+  const { createPage } = actions;
 
   const caseStudyTemplate = path.resolve(`src/templates/caseStudyTemplate.js`);
   const teamMemberTemplate = path.resolve(`src/templates/teamMemberTemplate.js`);
