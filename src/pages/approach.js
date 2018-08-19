@@ -26,7 +26,7 @@ const Approach = ({data}) => {
      >
      <section className = "section">
        <div className = "usa-grid">
-         <p className = "text-container" dangerouslySetInnerHTML = {{ __html: html }} />
+         <div className = "text-container" dangerouslySetInnerHTML = {{ __html: html }} />
        </div>
      </section>
 
