@@ -65,9 +65,9 @@ Digital Democracy empowers every Californian with unprecedented access to their 
 </blockquote>
 
 ### Impact
-* People can engage with lawmakers and government without attending hearings
-* Legislators are held accountable for their words on record and connections to lobbyist groups
-* Other advocacy groups can use the platform to start their own transparency projects
+* People can engage with government without attending hearings
+* Legislators are held accountable for their words and connections
+* Other groups can use the platform to start their own transparency projects
 * The workings of government are opened to users who might otherwise struggle to stay informed
 * Digital Democracy teams can expand and improve the site with confidence
 * Significant contributions made to Drupal community in building a complex site
