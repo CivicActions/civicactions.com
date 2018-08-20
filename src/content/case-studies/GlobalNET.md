@@ -8,10 +8,9 @@ promoted_to_front_page: yes
 project: "GlobalNET"
 website: "https://globalnetplatform.org/"
 background_section_title: "Outdated technology and complex requirements"
-background_section: "The Defense Security Cooperation Agency (DSCA) uses the GlobalNET platform to facilitate secure collaboration among its partner organizations. GlobalNET’s 76,000 participants are comprised of military, diplomatic, law enforcement, and civilian government personnel throughout the world. They speak many languages and possess varying degrees of technical know-how, so GlobalNET must be accessible and easy to use for everyone -- while meeting the highest standards for security.
+background_section: "The Defense Security Cooperation Agency (DSCA) uses the GlobalNET platform to facilitate secure collaboration among its partner organizations. GlobalNET’s 76,000 participants are comprised of military, diplomatic, law enforcement, and civilian government personnel throughout the world. They speak many languages and possess varying degrees of technical know-how, so GlobalNET must be accessible and easy to use for everyone -- while meeting the highest standards for security."
 background_section_second: "GlobalNET needed an update to support new participants, additional features, and a better user experience. Multiple layers of customers and microservices made the project very complex. With over 1,500 content updates to the site per day, the modernization needed to be completed with minimal disruption to thousands of users."
-"
-background_section_second: 
+
 tags: ["Drupal", "DevOps", "Security & Compliance", "Quality Assurance", "UX", "Support"]
 specs: [
 "Drupal 7, Ilias, EZproxy, Adobe Connect, JIRA",
@@ -81,7 +80,7 @@ It was a pleasure to work with the CivicActions team. Their experience with gove
 
 ### Impact
 * DSCA can accomplish its mission more effectively with a powerful platform
-* GlobalNET members have a better experience for sharing, learning, and working together
+* GlobalNET members have a better experience for working together
 * Partner organizations can use GlobalNET to keep their own communities informed
 * Users can quickly find what they need among the site’s vast resources
 * Participants engage more deeply with course materials and each other
