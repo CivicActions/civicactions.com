@@ -12,7 +12,7 @@ import MediumPostList from '../components/medium-components/mediumPostList'
 const Communities = ({ data }) => {
   const{ markdownRemark, allMediumPost } = data;
   const { frontmatter } = markdownRemark;
-  const { title, subtitle, agile_intro_text, dkan_intro_text,agl_logo, dkan_logo } = frontmatter;
+  const { title, subtitle, agile_intro_text, dkan_title, dkan_intro_text,agl_logo, dkan_logo } = frontmatter;
 
   const { group } = allMediumPost;
 
@@ -70,7 +70,7 @@ const Communities = ({ data }) => {
         <div className = "usa-grid community__wrapper">
           <span className = "community__logo dkan"><Img resolutions = { dkanLogo } /></span>
           <SectionTitle
-            title = "DKAN Open Data Plaform"
+            title = {dkan_title}
             subtitle = { dkan_intro_text }
           />
           { DKANPosts }
@@ -109,6 +109,7 @@ export const communitiesQuery = graphql`
       subtitle
       agile_intro_text
       dkan_intro_text
+      dkan_title
       agl_logo {
         childImageSharp {
           resolutions(width: 67, height: 67) {
