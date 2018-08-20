@@ -11,7 +11,7 @@ const PressTeaser = ({publication, date, title, text, link_text, website}) => (
       <h3 className = "press__title">{ title }</h3>
       <div className = "press__text" dangerouslySetInnerHTML = {{ __html: text }} />
       <div className = "press__link">
-        <span>Full Text: </span><a href = { website }>{ link_text }</a>
+        <span>Full Story: </span><a href = { website }>{ link_text }</a>
       </div>
 
     </div>
