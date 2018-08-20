@@ -108,7 +108,7 @@ query jobsQuery {
           alt
           url {
           childImageSharp {
-            resize(width: 1400, height: 860) {
+            resize(width: 2000, height: 727) {
               src
              }
            }
