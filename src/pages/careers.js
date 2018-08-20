@@ -24,7 +24,9 @@ import image10 from './../files/image-band/IMG_20170918_122218.jpg';
 const Careers = ({data}) => {
   const { allJob, markdownRemark } = data;
   const { html,frontmatter } = markdownRemark;
-  const {images,
+    const {
+        benefits_title,
+        images,
          quotes,
          quotes_title,
          openings_subtitle,
@@ -73,7 +75,7 @@ const Careers = ({data}) => {
         </div>
       </section>
 
-      <Benefits/>
+      <Benefits title={benefits_title} />
 
       <section className = "section section__recent-posts neutral">
         <div className = "usa-grid">
@@ -96,7 +98,6 @@ const Careers = ({data}) => {
 
 export default Careers;
 
-
 export const jobsQuery = graphql `
 query jobsQuery {
     markdownRemark(frontmatter: { title: { eq: "Careers" } } ) {
@@ -113,6 +114,7 @@ query jobsQuery {
            }
          }
        }
+        benefits_title
         openings_title
         openings_subtitle
         title
