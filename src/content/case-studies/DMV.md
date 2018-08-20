@@ -38,11 +38,11 @@ images:
   url: 'DMV_4.jpg', 
   caption: 'Learning about the needs of international users', 
   alt: 'Discussing organizational structure'
-   - {
+  - {
   url: 'DMV_5.jpg', 
   caption: 'Discussing the organizational structure of DMV and other project stakeholders.', 
   alt: 'Talking to users about multilingual functionality'
-   - {
+  - {
   url: 'DMV_6.jpg', 
   caption: 'Discussing the new workflow with DMV staff', 
   alt: 'Discussing the new workflow with DMV staff'
