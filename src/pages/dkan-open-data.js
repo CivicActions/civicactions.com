@@ -53,7 +53,7 @@ export default Dkan;
 
 export const dkanOpenDataQuery = graphql`
   query dkan {
-    markdownRemark(frontmatter: { title: { eq: "Dkan and Open Data" } } ) {
+    markdownRemark(frontmatter: { title: { eq: "DKAN and Open Data" } } ) {
     html
     frontmatter {
       title
