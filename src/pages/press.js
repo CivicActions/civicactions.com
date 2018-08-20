@@ -5,8 +5,11 @@ import GeneralLayout from './../components/layouts/GeneralLayout';
 import PressTeaser from './../components/PressTeaser';
 
 const Press = ({ data }) => {
-  const{ allMarkdownRemark } = data;
+  const{ allMarkdownRemark, markdownRemark } = data;
+
   const{ edges } = allMarkdownRemark;
+  const{ frontmatter} = markdownRemark;
+  const {title, subtitle} = frontmatter;
 
   let pressItems = edges.map((item, index) => {
     const{ node } = item;
@@ -28,8 +31,8 @@ const Press = ({ data }) => {
 
   return (
     <GeneralLayout
-      heroTitle = "Press"
-      heroSubtitle = "CivicActions in the news"
+      heroTitle = {title}
+      heroSubtitle = {subtitle}
     >
       <section className = "section">
        <div className = "usa-grid text-container">
@@ -45,8 +48,14 @@ const Press = ({ data }) => {
 export default Press;
 
 export const pressQuery = graphql `
-  query pressPage {
-    allMarkdownRemark(
+query pressPage {
+  markdownRemark(frontmatter: { title: { eq: "Press" } } ) {
+    frontmatter {
+      title
+      subtitle
+    }
+  }
+  allMarkdownRemark(
     sort: {fields: [frontmatter___date], order: DESC},
     filter: {frontmatter: {type: {eq: "press"}}}) {
     edges {
@@ -62,6 +71,6 @@ export const pressQuery = graphql `
       }
     }
   }
-  }
+}
 `;
 
