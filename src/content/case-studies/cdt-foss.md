@@ -7,13 +7,14 @@ preview_image: FOSS_preview.jpg
 project: "California FOSS Training"
 website: ""
 background_section_title: "New open source policy needs agency buy-in"
-background_section: "this will be some text about FOSS"
+background_section: "California’s Government Operations Agency has released a new policy requiring California governments to prioritize free and open source software (FOSS) for state IT projects. FOSS allows agencies to maintain ownership of their own IT assets, avoiding the costs and pitfalls of vendor lock-in. It also makes government code available for the public to view, reuse, or improve upon."
+background_section_second: "The California Department of Technology (CDT), which partners with state and local agencies in delivering digital services, needed help implementing the new FOSS policy. Internal staff needed training to understand the benefits of FOSS adoption and how it would change their jobs. The agency also needed to build a culture of learning and curiosity that would encourage people to get involved in creating better digital products for California."
 tags: ["Support", "Education Services", "Open Data"]
 specs: [
 "Online training using Zoom",
 "In-person training",
 "Trello for tracking goals",
-"Customized training plan", 
+"Customized training plan for agency", 
 ]
 images:
   - {
@@ -36,48 +37,53 @@ images:
 
 ### Approach
 
-##### The following sections will be updated with FOSS info
-We transitioned the LINCS website hosting to secure Amazon Web Services (AWS) cloud servers, then consolidated the overabundance of outdated websites LINCS had inherited from other departments.
+##### Pioneers in FOSS adoption
+As leaders and practitioners of free and open source software, CivicActions created a training plan to help CDT pioneer the implementation of the new policy. We provided customized in-person and online training to CDT legal, technical, and procurement staff.
 
-##### Modern design that makes sense
-We used [U.S. Web Design Standards](https://designsystem.digital.gov/) to make the new LINCS sites easy to navigate and mobile friendly. The streamlined design allows educators to quickly find the courses and resources they need.
+##### Showing the business value of FOSS
+We helped CDT translate the new policy into value propositions to ensure FOSS was adopted in earnest throughout the organization. We showed how free and open source software can increase IT security and allows agencies to make sure their custom code is providing the best value to the public.
 
-##### Fast, friendly support
-Our support team provides empathetic and knowledgeable resolution of technical and login issues, often much faster than users expect! Educators feel supported and can get back to work quickly.
+##### Making legal advice palatable
+Since FOSS differs from traditional proprietary licensing, we provided training on legal concepts, organizational policies, and compliance strategies. We tailored the training to be useful and understandable to technical and procurement teams, not just legal staff.
 
-##### User feedback guides our work
-We tie the LINCS helpdesk into the agile process through daily communication between support staff and development teams. This ensures that system improvements are based on real user needs.
+##### Open source best practices will inform new guidelines
+We showed CDT how other agencies are successfully using FOSS in the United States and abroad. Building on these best practices, CDT and other agencies can create their own checklists and guidelines for managing FOSS products and contracts going forward.
 
-##### DevOps for efficient code
-Our build, test, and release practices for LINCS emphasize a DevOps culture of communication and collaboration. We put systems in place for code standardization and stability.
+##### Building an open culture
+We helped CDT create a judgment-free environment where legal, technical, and procurement staff can collaborate and see the value of one another’s efforts. A culture of openness and appreciation facilitates faster adoption of new practices and a FOSS philosophy within the organization.
 
-##### Sharing code across agencies
-We created a GitHub repo to share the code for LINCS courses so other agencies and educators can implement them. We also made over [50 commits](https://www.drupal.org/node/2859306/issue-credits) on LINCS’ behalf to various projects on Drupal.org.
+##### Software by the people, for the people
+Free and open source software helps people see what technology the government is using to serve the public -- and how it can be improved. By creating opportunities to contribute to public sector projects, CDT encourages folks to take ownership and work together to build better digital services for California.
+
+##### Open code for stronger communities
+By embracing FOSS at the state level, CDT makes it easier for California counties and cities to reuse code, lower costs, and increase their own engagement with the public. The state can also bring value to communities and create local jobs by allowing developers to work remotely on open source projects.
 
 ### Impact
-* Learning services are constantly improved through user feedback
-* Friendly helpdesk solves technical problems quickly
-* Outdated systems are modernized and consolidated
-* Educators can learn and share more easily with streamlined content
-* Other agencies can benefit from the code we’ve shared
-
+* Agency is prepared to comply with state policy requiring FOSS adoption
+* Staff builds on open source best practices to create their own guidelines
+* CDT saves money by avoiding the recurring costs of vendor lock-in
+* Technical, legal, and procurement staff gain working knowledge of FOSS 
+* Open source technologies created by CDT can be re-used by counties and cities
+* CDT can verify the security and efficacy of its own code
+* California residents benefit from a more transparent, accountable government
 
 ### Explore
-##### Update with FOSS info
-[Literacy Information and Communication System (LINCS)](https://lincs.ed.gov/)  
-[LINCS Community of Practice](https://community.lincs.ed.gov/)  
-[National Literacy Directory](https://lincs.ed.gov/professional-development/resource-collections/profile-986)
+##### Learn about our offering
+[FOSS legal training for agencies](https://drive.google.com/file/d/1fc0a06aGR709VA81Rdb-8E3ElTRpiEBB/view?usp=sharing)  
 
-##### See the courses in GitHub
-https://github.com/lincs
+##### Explore a sample presentation deck
+[FOSS strategies](https://docs.google.com/presentation/d/11cHlKoUl65E5GT-67wqcJIC6stoGJzvPisBAaMglFlQ/edit#slide=id.g3d265708e4_2_11)
+
+##### Discover helpful resources
+[Resources for managing open source projects](https://opentechstrategies.com/#resources)
  
 <figure>
   <div> 
-    <header>12,800</header>
-    <p>members in the LINCS community of practice<p>
+    <header>17</header>
+    <p>high-level CDT execs attended<br>in-person FOSS training<p>
   </div>
   <div> 
-      <header>12</header>
-      <p>minutes average helpdesk ticket resolution time<p>
+      <header>482</header>
+      <p>cities in California that<br>can benefit from FOSS<p>
   </div>
 </figure>
