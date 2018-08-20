@@ -82,8 +82,8 @@ export const studyQuery = graphql `
           alt
           url {
           childImageSharp {
-            resize(width: 1400, height: 860) {
-              src
+            fixed(width:1400, height: 788) {
+                ...GatsbyImageSharpFixed_noBase64
             }
           }
         }
