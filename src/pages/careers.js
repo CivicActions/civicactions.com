@@ -108,9 +108,9 @@ query jobsQuery {
           alt
           url {
           childImageSharp {
-            resize(width: 2000, height: 727) {
-              src
-             }
+            fixed(width:2000, height: 727) {
+                ...GatsbyImageSharpFixed_noBase64
+            }
            }
          }
        }
