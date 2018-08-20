@@ -16,7 +16,7 @@ const Dkan = ({data}) => {
     subtitle
   } = frontmatter;
 
-  
+
  return(
    <GeneralLayout
      heroTitle = { title }
@@ -24,7 +24,7 @@ const Dkan = ({data}) => {
      >
      <section className = "section">
        <div className = "usa-grid">
-         <p className = "text-container" dangerouslySetInnerHTML = {{ __html: html }} />
+         <div className = "text-container" dangerouslySetInnerHTML = {{ __html: html }} />
 
          <div class = "align-center">
            <Button

@@ -30,10 +30,10 @@ const TopNav = ({pages}) => {
                         </button>
                         <ul id = "basic-nav-section-one" className = "usa-nav-submenu" aria-hidden = "true">
                             <li>
-                                <Link to = '/values' activeClassName = "usa-current"> Our Values </Link>
+                                <Link to = '/values/' activeClassName = "usa-current"> Our Values </Link>
                             </li>
                             <li>
-                                <Link to = '/team' activeClassName = "usa-current"> Our People </Link>
+                                <Link to = '/team/' activeClassName = "usa-current"> Our People </Link>
                             </li>
                             <li>
                                 <Link to = '/communities' activeClassName = "usa-current"> Our Community  </Link>

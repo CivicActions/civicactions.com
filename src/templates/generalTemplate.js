@@ -16,7 +16,7 @@ export default function Template({data}) {
         pageTitle = { `CivicActions | ${frontmatter.title}` }
       >
         <div className = "text-container">
-          <p dangerouslySetInnerHTML = {{ __html: html}} />
+          <div dangerouslySetInnerHTML = {{ __html: html}} />
         </div>
     </GeneralLayout>
   );
