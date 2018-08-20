@@ -205,7 +205,7 @@
   &__government-services,
   &__case-studies,
   &__teaser-grid {
-    img {
+    img:not(.blockquote__icon) {
       border: 1px solid $light-gray;
     }
   }
