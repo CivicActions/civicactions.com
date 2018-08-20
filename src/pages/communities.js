@@ -12,7 +12,7 @@ import MediumPostList from '../components/medium-components/mediumPostList'
 const Communities = ({ data }) => {
   const{ markdownRemark, allMediumPost } = data;
   const { frontmatter } = markdownRemark;
-  const { title, subtitle, agile_intro_text, dkan_title, dkan_intro_text,agl_logo, dkan_logo } = frontmatter;
+  const { title, subtitle, agile_intro_text, dkan_title, dkan_button_text, dkan_button_link, dkan_intro_text,agl_logo, dkan_logo } = frontmatter;
 
   const { group } = allMediumPost;
 
@@ -77,8 +77,8 @@ const Communities = ({ data }) => {
         </div>
         <div className = "usa-grid align-right">
           <Button
-            button_text = "Visit DKAN"
-            link = "https://medium.com/dkan-blog"
+            button_text = {dkan_button_text}
+            link = {dkan_button_link}
             isExternal = { true }
           />
         </div>
@@ -108,6 +108,8 @@ export const communitiesQuery = graphql`
       title
       subtitle
       agile_intro_text
+      dkan_button_text
+      dkan_button_link
       dkan_intro_text
       dkan_title
       agl_logo {
