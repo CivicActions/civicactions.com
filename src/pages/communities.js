@@ -12,7 +12,7 @@ import MediumPostList from '../components/medium-components/mediumPostList'
 const Communities = ({ data }) => {
   const{ markdownRemark, allMediumPost } = data;
   const { frontmatter } = markdownRemark;
-  const { title, subtitle, agile_intro_text, dkan_intro_text,agl_logo, dkan_logo } = frontmatter;
+  const { agl_button_text, agl_button_link, title, subtitle, agile_intro_text, dkan_title, dkan_button_text, dkan_button_link, dkan_intro_text,agl_logo, dkan_logo } = frontmatter;
 
   const { group } = allMediumPost;
 
@@ -58,8 +58,8 @@ const Communities = ({ data }) => {
         </div>
         <div className = "usa-grid">
           <Button
-            button_text = "Visit AGL"
-            link = "https://medium.com/agile-government-leadership"
+            button_text = {agl_button_text}
+            link = {agl_button_link}
             isExternal = { true }
           />
         </div>
@@ -70,15 +70,15 @@ const Communities = ({ data }) => {
         <div className = "usa-grid community__wrapper">
           <span className = "community__logo dkan"><Img resolutions = { dkanLogo } /></span>
           <SectionTitle
-            title = "DKAN Open Data Plaform"
+            title = {dkan_title}
             subtitle = { dkan_intro_text }
           />
           { DKANPosts }
         </div>
         <div className = "usa-grid align-right">
           <Button
-            button_text = "Visit DKAN"
-            link = "https://medium.com/dkan-blog"
+            button_text = {dkan_button_text}
+            link = {dkan_button_link}
             isExternal = { true }
           />
         </div>
@@ -105,10 +105,15 @@ export const communitiesQuery = graphql`
 
   markdownRemark(frontmatter: {title :{ eq: "Our Communities"}}) {
     frontmatter {
+      agl_button_text
+      agl_button_link
       title
       subtitle
       agile_intro_text
+      dkan_button_text
+      dkan_button_link
       dkan_intro_text
+      dkan_title
       agl_logo {
         childImageSharp {
           resolutions(width: 67, height: 67) {
