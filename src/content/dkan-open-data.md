@@ -1,7 +1,7 @@
 ---
 path: /
 type: page
-title: "Dkan and Open Data"
+title: "DKAN and Open Data"
 subtitle: 'We use DKAN to help organizations all over the world comply with open data mandates and use their data to demonstrate accomplishments, educate the public, and empower people to improve their communities.'
 features_title: "DKAN Features"
 features:
@@ -60,11 +60,11 @@ features:
   alt: 'Harvest data from other sources for a seamless experience between locally and remotely hosted files'
   }
 ---
-We believe in the power of open data — standardized, machine-readable, trustworthy, and publicly accessible data that anyone can use and redistribute. When data is open, so are opportunities for creativity, collaboration, and innovation.   
+We believe in the power of open data — standardized, machine-readable, trustworthy, and publicly accessible data that anyone can use and redistribute. When data is open, so are opportunities for creativity, collaboration, and innovation.
 
-DKAN is a community-driven, Drupal-based open data platform used worldwide by governments of all levels, nonprofits, international organizations, and private companies.  
+DKAN is a community-driven, Drupal-based open data platform used worldwide by governments of all levels, nonprofits, international organizations, and private companies.
 
-The original developers of DKAN and its core maintainers work at CivicActions, continually improving the product according to the needs of the community and the most up to date technology while providing outstanding services to our clients.   
+The original developers of DKAN and its core maintainers work at CivicActions, continually improving the product according to the needs of the community and the most up to date technology while providing outstanding services to our clients.
 
 **CivicActions DKAN services include:**
 
@@ -79,4 +79,4 @@ The original developers of DKAN and its core maintainers work at CivicActions, c
 * Federal, state, or local government agencies seeking to share information about education, the environment, health care, transportation, and more
 * Companies looking to share data across their organization
 * Citizens, researchers, students, and journalists who wish to access and utilize public data
-* Non-profits, NGOs, or universities that want to open up their research findings
+* Nonprofits, NGOs, or universities that want to open up their research findings
