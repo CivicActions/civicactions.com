@@ -5,6 +5,7 @@
   }
   @media screen and (max-width: $medium-screen) {
     background: $teal;
+    width: 100%;
     border-left: none;
     padding: $spacing-md-small;
     button.usa-nav-close {
@@ -20,6 +21,7 @@
     .usa-nav-primary {
       margin-top: 0;
     }
+
   }
   .mobile-nav--logo {
     border-top: 5px solid $coral;
@@ -66,6 +68,10 @@
       }
       &[aria-expanded=true] {
         background: transparent;
+        background: url('./../files/icons/arrow-down.svg');
+        background-repeat: no-repeat;
+        background-position: right 1.5rem top 40%;
+        background-size: 1rem;
         span {
           border-bottom: none;
         }
@@ -84,7 +90,7 @@
     }
   }
   .usa-nav-submenu {
-    background: $teal;
+    background: $color-primary;
     padding: 0;
     @include media($nav-width) {
       margin-left: $spacing-md-small;
@@ -95,8 +101,11 @@
       text-decoration: underline;
       padding-top: $spacing-md-small;
       padding-bottom: $spacing-md-small;
+      &:hover {
+        background: $color-primary-darkest;
+      }
       &.usa-current {
-        background: $navy;
+        background: $color-primary-darker;
         font-weight: $font-normal;
         @include media($nav-width) {
           padding-left: 1.5rem;
@@ -133,6 +142,7 @@
 .usa-nav-link {
   font-weight: $font-bold;
   &:hover {
+
     span {
       border-bottom: none;
       padding-bottom: 0;

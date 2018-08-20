@@ -6,6 +6,8 @@ class USWDS extends Component {
     }
 
     componentDidMount() {
+        const isMobileDevice = navigator.userAgent.match(/iPad|iPhone|iPod/i) != null;
+
         let anchors = document.querySelectorAll('a:not(.fa):not([href^="/"])');
 
         for (let i = 0; i < anchors.length; i++) {
@@ -14,6 +16,15 @@ class USWDS extends Component {
             }
 
         }
+
+        // if(isMobileDevice) {
+        //     let topLinks = document.querySelectorAll('button.usa-accordion-button');
+        //     for (let j = 0; j < topLinks.length; j++) {
+        //         if(topLinks[j].getAttribute('aria-expanded') !== true) {
+        //             topLinks[j].setAttribute('aria-expanded', true);
+        //         }
+        //     }
+        // }
 
         USWDS.loadUSWDS()
     }
