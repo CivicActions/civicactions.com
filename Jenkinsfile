@@ -19,7 +19,7 @@ pipeline {
                 script {
                     // Build new image and start container with the right hostname.
                     def prImage = docker.build("civicactions-internal-it/home:${env.CHANGE_ID}", "--build-arg GATSBY_JAZZ_URL=${GATSBY_JAZZ_URL} .")
-                    prImage.run("--rm --name=\"home-${env.CHANGE_ID}\" -e HOSTNAME=\"home-${env.CHANGE_ID}.ci.civicactions.net\"")
+                    prImage.run("--rm --name=\"home-${env.CHANGE_ID}\"")
                     slackSend channel: 'marketing-home', message: "PR Review environment ready at http://home-${env.CHANGE_ID}.ci.civicactions.net/"
                 }
             }
