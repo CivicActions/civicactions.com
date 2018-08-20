@@ -87,7 +87,7 @@ export const mediumQuery = graphql `
           node {
             id
             title
-            createdAt
+            createdAt(formatString: "MMMM DD, YYYY")
             uniqueSlug
           }
         }

@@ -44,14 +44,14 @@ class HomeQuoteSlider extends Component {
                 quote_image = { image1 }
               />
               <Blockquote
-                quote = "We build trust by giving clients insight into the people we are, so they relate to us as humans rather than just contractors."
-                quote_source = "Steve Wirt,  Engineer"
-                quote_image = { image2 }
-              />
-              <Blockquote
                 quote = "We are each in charge of how we approach our own work, yet we’re accountable to each other. So we have to remain clear, focused, and transparent."
                 quote_source = "Steve Curtis, Project Manager"
                 quote_image = { image3 }
+              />
+              <Blockquote
+                quote = "We build trust by giving clients insight into the people we are, so they relate to us as humans rather than just contractors."
+                quote_source = "Steve Wirt,  Engineer"
+                quote_image = { image2 }
               />
             </Slider>
           </div>
@@ -65,7 +65,6 @@ class HomeQuoteSlider extends Component {
       </section>
     )
   }
-
 }
 
 export default HomeQuoteSlider;
