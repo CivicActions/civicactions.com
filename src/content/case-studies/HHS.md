@@ -3,13 +3,12 @@ path: "/case-study/hhs"
 type:  "case-study"
 title: "Promoting public health with open data"
 client_name: "U.S. Department of Health and Human Services"
-preview_image: LINCS1.jpg
+preview_image: HHS_preview.jpg
 project: "Healthdata.gov"
 website: "http://www.Healthdata.gov"
 background_section_title: "Public health data needs improvement"
-background_section: "The open data portal for the U.S. Department of Health and Human Services (HHS) serves thousands of active users each week. It is used to meet federal open data requirements and also to help developers, policy makers, and health practitioners improve public health outcomes. The site is powered by DKAN, an open source open data platform used by many governments around the world to publish data.
-
-Healthdata.gov was struggling to reach its full potential. It was overdue for software updates and cluttered with old datasets that contained broken links or missing resources. HHS needed help determining what data was important and developing strategies for keeping data up-to-date and easily accessible. CivicActions, as the maintaining organization for DKAN, stepped in to provide support and partnership to the dedicated HHS open data team."
+background_section: "The open data portal for the U.S. Department of Health and Human Services (HHS) serves thousands of active users each week. It is used to meet federal open data requirements and also to help developers, policy makers, and health practitioners improve public health outcomes. The site is powered by DKAN, an open source open data platform used by many governments around the world to publish data."
+background_section_second: "Healthdata.gov was struggling to reach its full potential. It was overdue for software updates and cluttered with old datasets that contained broken links or missing resources. HHS needed help determining what data was important and developing strategies for keeping data up-to-date and easily accessible. CivicActions, as the maintaining organization for DKAN, stepped in to provide support and partnership to the dedicated HHS open data team."
 tags: ["Open Data", "Drupal", "Support"]
 specs: [
 "Drupal 7",
@@ -21,14 +20,9 @@ specs: [
 ]
 images:
   - {
-  url: 'LINCS1.jpg', 
-  caption: 'Presenting findings from discovery about LINCS user needs', 
-  alt: 'LINCS Home page'
-  }
-  - {
-  url: 'LINCS2.jpg', 
-  caption: 'Visitors to the LINCS website can quickly find the resources they need', 
-  alt: 'CivicActions meets with LINCS team and partners'
+  url: 'HHS_1.jpg', 
+  caption: '', 
+  alt: 'HHS open data portal on laptop and mobile'
   }
   
 ---
@@ -56,8 +50,8 @@ Our partnership with HHS helps the agency share information about the quality of
 * Public health data is more accurate and up-to-date
 * Agency is meeting federal security requirements with updated documentation
 * HHS open data portal is less cluttered and easier to navigate
-* HHS staff are better prepared to identify, upload, and manage the most important data
-* Improvements to the HHS open data platform will benefit other agencies using DKAN
+* HHS staff are better prepared to identify the most important data
+* Improvements to the HHS open data platform will benefit other agencies using DKAN" to "Improvements to the HHS platform will benefit other agencies using DKAN
 
 
 
