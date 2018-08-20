@@ -1,6 +1,7 @@
 ---
-path: /team/jacqueline-gu
+path: /
 type: team
+published: 0
 name: Jacqueline Gu
-image: 'Jacqueline-Gu.jpg'
----
+image: 'images/jacqueline-gu.jpg'
+---------------------------------

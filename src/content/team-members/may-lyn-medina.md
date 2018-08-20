@@ -1,6 +1,7 @@
 ---
-path: /team/may-lyn-medina
+path: /
 type: team
+published: 0
 name: May Lyn Medina
-image: 'May-Lyn-Medina.jpg'
----
+image: 'images/may-lyn-medina.jpg'
+----------------------------------

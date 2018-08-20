@@ -8,8 +8,11 @@ import Header from './../header/Header'
 import Hero from './../header/Hero';
 import SubFooter from './../footer/SubFooter';
 import Footer from './../footer/Footer';
+import config from "../../../data/SiteConfig";
+import TopNav from './../navigation/TopNav';
 
 import header_bg from './../header/background_bg-hero.png';
+
 
 const GeneralLayout = ({
   siteData,
@@ -21,6 +24,7 @@ const GeneralLayout = ({
   heroCTAText,
   heroCTALink,
   heroClass,
+  heroIsExternal,
   hideSubFooter,
   teamImage,
   location,
@@ -40,6 +44,18 @@ const GeneralLayout = ({
             city
           }
         }
+
+       allSitePage {
+        edges {
+          node {
+            path
+            fields {
+              slug
+            }
+          }
+        }
+      }
+
        }
     `}
 
@@ -50,18 +66,41 @@ const GeneralLayout = ({
           meta={[
                 { name: 'description', content: 'Sample' },
                 { name: 'keywords', content: 'sample, something' },
+
+                // Social Sharing
+                { name: 'og:site_name', content: data.site.siteMetadata.title },
+                { property: 'og:type', content: 'website'},
+                { property: 'og:url', content: location },
+                { property: 'og:title', content: heroTitle },
+                { property: 'og:description', content: heroSubtitle },
+                { property: 'og:image', content: teamImage },
+                { name: 'twitter:card', content: config.seo.twitterCard },
+                { name: 'twitter:site', content: config.seo.twitterSite },
+                { property: 'fb:app_id', content: config.seo.fbAppId },
+
+                // Contact
+                { property: 'og:email', content: data.site.siteMetadata.email },
+                { property: 'og:phone_number', content: data.site.siteMetadata.phone },
+
               ]}
         />
 
         <header className = "section header__main"
               style = {{ backgroundImage: "url(" + header_bg + ")" }}>
-          <Header siteTitle= "CivicActions" />
+            <section className = "usa-nav-container">
+                <div className = "usa-navbar">
+                    <Header siteTitle= "CivicActions" />
+                    <button className = "usa-menu-btn">Menu</button>
+                </div>
+                <TopNav pages = { data.allSitePage } />
+            </section>
           <Hero
             client_name = { clientName }
             title       = { heroTitle }
             subtitle    = { heroSubtitle }
             cta_text    = { heroCTAText }
             cta_link    = { heroCTALink }
+            cta_is_external = { heroIsExternal }
             hero_class  = { heroClass }
             image       = { teamImage }
             location    = { location }
@@ -84,7 +123,7 @@ const GeneralLayout = ({
           address_line_2 = { data.site.siteMetadata.address_line_2 }
           city = { data.site.siteMetadata.city }
         />
-        </>
+       </>
 
     )}
 

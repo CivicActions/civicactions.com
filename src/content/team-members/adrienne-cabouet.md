@@ -1,6 +1,7 @@
 ---
-path: /team/adrienne-cabouet
+path: /
 type: team
+published: 0
 name: Adrienne Cabouet
-image: 'Adrienne-Cabouet.jpg'
----
+image: 'images/adrienne-cabouet.jpg'
+------------------------------------

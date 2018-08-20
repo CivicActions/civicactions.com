@@ -1,6 +1,7 @@
 ---
-path: /team/jim-bader
+path: /
 type: team
+published: 0
 name: Jim Bader
-image: 'Jim-Bader.jpg'
----
+image: 'images/jim-bader.jpg'
+-----------------------------

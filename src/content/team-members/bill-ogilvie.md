@@ -1,6 +1,7 @@
 ---
-path: /team/bill-ogilvie
+path: /
 type: team
+published: 0
 name: Bill Ogilvie
-image: 'Bill-Ogilvie.jpg'
----
+image: 'images/bill-ogilvie.jpg'
+--------------------------------

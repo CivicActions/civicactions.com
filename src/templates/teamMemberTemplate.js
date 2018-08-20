@@ -60,7 +60,7 @@ export default function Template({data}) {
         </div>
       </section>
       <section className = "section text-container">
-        <p dangerouslySetInnerHTML = {{ __html: html}} />
+        <div dangerouslySetInnerHTML = {{ __html: html}} />
         <Blockquote
           quote = { quote }
           quote_source = { name }
@@ -72,8 +72,6 @@ export default function Template({data}) {
           { mediumPostsList }
         </div>
       </section>
-
-
     </GeneralLayout>
   );
 };

@@ -1,6 +1,7 @@
 ---
-path: /team/henry-poole
+path: /
 type: team
+published: 0
 name: Henry Poole
-image: 'Henry-Poole.jpg'
----
+image: 'images/henry-poole.jpg'
+-------------------------------

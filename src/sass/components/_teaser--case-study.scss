@@ -2,7 +2,6 @@
   color: $navy;
 
  &--wrapper {
-   @include flex-item;
    display: block;
    text-decoration: none;
    margin: 2% 4% 2% 0;
@@ -15,14 +14,6 @@
    &:last-of-type {
      margin-right: 0;
    }
-
-   @include media($small-screen) {
-     width: 50%;
-   }
-
-   @include media($medium-screen) {
-     width: 30%;
-   }
  }
 
   &__text {
@@ -34,6 +25,7 @@
   &__client {
     font-size: $small-font-size;
     font-weight: bold;
+    display: block;
   }
 
   &__title {
@@ -42,3 +34,4 @@
     }
   }
 }
+

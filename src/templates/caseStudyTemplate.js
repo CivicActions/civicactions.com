@@ -30,6 +30,7 @@ export default function Template({data}) {
       heroCTALink = { frontmatter.website }
       heroCTAText = "Visit Website"
       heroClass = "case-study-hero"
+      heroIsExternal = { true }
     >
       <div className = "section__specs section">
         <section className = "usa-grid study">
@@ -47,6 +48,7 @@ export default function Template({data}) {
         <h3>Background</h3>
         <h4> { frontmatter.background_section_title } </h4>
         <p>{ frontmatter.background_section } </p>
+        <p> { frontmatter.background_section_second }  </p>
       </div>
       <ImageSlider images = { images } />
       <div className = "text-container section">
@@ -72,6 +74,7 @@ export const studyQuery = graphql `
         website
         background_section_title
         background_section
+        background_section_second
         tags
         specs
         images {
@@ -79,8 +82,8 @@ export const studyQuery = graphql `
           alt
           url {
           childImageSharp {
-            resize(width: 1400, height: 860) {
-              src
+            fixed(width:1400, height: 788) {
+                ...GatsbyImageSharpFixed_noBase64
             }
           }
         }

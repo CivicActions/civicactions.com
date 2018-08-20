@@ -1,6 +1,7 @@
 ---
-path: /team/ashish-kumar
+path: /
 type: team
+published: 0
 name: Ashish Kumar
-image: 'Ashish-Kumar.jpg'
----
+image: 'images/ashish-kumar.jpg'
+--------------------------------

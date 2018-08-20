@@ -1,6 +1,7 @@
 ---
-path: /team/eric-napier
+path: /
 type: team
+published: 0
 name: Eric Napier
-image: 'Eric-Napier.jpg'
----
+image: 'images/eric-napier.jpg'
+-------------------------------

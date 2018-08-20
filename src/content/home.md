@@ -1,15 +1,13 @@
 ---
 path: /
 type: home
-title: Home Page Title
-subtitle: Home Page Hero subtitle.
-banner_image: "team.jpg"
-cta_text: Learn about our approach
-cta_link: /our-approach
-quote: Our goal is to transform the way governments think about digital service delivery.
+title: Digital services that work for everyone
+subtitle: We help agencies improve lives through modern software and thoughtful experiences.
+cta_text: Learn How We Do It
+cta_link: /approach
+quote: Our goal is to transform the way governments procure, develop, and deliver digital services.
 ---
-
-We encourage partnership and focus on outcomes. We help organizations accomplish their missions and achieve long-term digital success through:
+We focus on outcomes and help organizations accomplish their missions through:
 * Agile approaches and human-centered design 
 * Culture of openness, learning, and collaboration
 * Modern technologies and continuous improvement

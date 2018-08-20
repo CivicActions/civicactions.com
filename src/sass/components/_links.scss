@@ -1,0 +1,17 @@
+a.external-link {
+  display: inline-block;
+  &:after {
+    margin-left: 5px;
+    content: url('./../files/icons/external-link.svg');
+  }
+  &:hover {
+    &:after {
+      content: url('./../files/icons/external-link-hover.svg');
+    }
+  }
+  &:active {
+    &:after {
+      content: url('./../files/icons/external-link-pressed.svg');
+    }
+  }
+}

@@ -1,6 +1,7 @@
 ---
-path: /team/andy-hawks
+path: /
 type: team
+published: 0
 name: Andy Hawks
-image: 'Andy-Hawks.jpg'
----
+image: 'images/andy-hawks.jpg'
+------------------------------

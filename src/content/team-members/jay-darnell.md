@@ -1,6 +1,7 @@
 ---
-path: /team/jay-darnell
+path: /
 type: team
+published: 0
 name: Jay Darnell
-image: 'Jay-Darnell.jpg'
----
+image: 'images/jay-darnell.jpg'
+-------------------------------

@@ -7,6 +7,24 @@ h6 {
   margin-top: 0;
 }
 
+a {
+  &:focus {
+    box-shadow: none;
+    outline: 1px dotted $neutral;
+
+    main & {
+      @include outline;
+      outline: none;
+
+    }
+  }
+}
+
+abbr[title] {
+  border-bottom: 0;
+  text-decoration: none;
+}
+
 // Typography
 .text-container {
   @include text-container;

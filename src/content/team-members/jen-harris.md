@@ -1,6 +1,7 @@
 ---
-path: /team/jen-harris
+path: /
 type: team
+published: 0
 name: Jen Harris
-image: 'Jen-Harris.jpg'
----
+image: 'images/jen-harris.jpg'
+------------------------------

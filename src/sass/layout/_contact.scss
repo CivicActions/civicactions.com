@@ -1,0 +1,11 @@
+.reach-us--wrapper {
+  @include media($small-screen) {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 10px;
+  }
+
+  @include media($medium-screen) {
+    column-gap: 30px;
+  }
+}

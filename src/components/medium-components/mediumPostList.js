@@ -10,7 +10,7 @@ const MediumPostList = ({ posts }) => {
     _.map(posts, (article, index) => {
 
       return (
-        <ul className = "medium--teasers teaser--wrapper">
+        <ul key = { index } className = "medium--teasers teaser--wrapper">
           <MediumPosts data = {{ article }} />
         </ul>
       )

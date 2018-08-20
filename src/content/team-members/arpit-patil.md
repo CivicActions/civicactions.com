@@ -1,6 +1,7 @@
 ---
-path: /team/arpit-patil
+path: /
 type: team
+published: 0
 name: Arpit Patil
-image: 'Arpit-Patil.jpg'
----
+image: 'images/arpit-patil.jpg'
+-------------------------------

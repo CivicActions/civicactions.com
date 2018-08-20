@@ -6,8 +6,8 @@
 
 const path = require('path');
 
-exports.createPages = ({ boundActionCreators, graphql }) => {
-  const { createPage } = boundActionCreators;
+exports.createPages = ({ actions, graphql }) => {
+  const { createPage } = actions;
 
   const caseStudyTemplate = path.resolve(`src/templates/caseStudyTemplate.js`);
   const teamMemberTemplate = path.resolve(`src/templates/teamMemberTemplate.js`);
@@ -60,4 +60,31 @@ exports.createPages = ({ boundActionCreators, graphql }) => {
       })
     }
   )
+};
+
+// This is to be able to query page slugs. For creating a dynamic menu in the future
+exports.onCreateNode = ({ node, getNode, boundActionCreators }) => {
+
+    const { createNodeField } = boundActionCreators;
+    if(node.internal.type==='SitePage'){
+        createNodeField({
+            node,
+            name: `slug`,
+            value: node.path,
+        });
+        console.log(node)
+    }
+
+};
+
+// For easier imports
+exports.onCreateWebpackConfig = (
+    { stage, actions }
+    ) => {
+
+    actions.setWebpackConfig({
+        resolve: {
+            modules: [path.resolve(__dirname, 'src'), 'node_modules'],
+        },
+    })
 };

@@ -44,25 +44,40 @@ class ImageSlider extends Component {
       };
 
       slideImages = this.props.images.map((image, index) => {
-        return (
-          <SlideImage key={ index } image={ image.url.childImageSharp.resize } alt={ image.alt } caption={ image.caption }/>
-        );
+          if(image.url !== null) {
+              return (
+                  <SlideImage key={ index } image={ image.url.childImageSharp.fixed } alt={ image.alt } caption={ image.caption }/>
+              );
+          } else {
+              return null;
+          }
       });
+
+      let multipleImages =
+        <span>
+          <Slider ref={c => (this.slider = c)} {...settings}>
+            { slideImages }
+          </Slider>
+          <div className = "slide__arrows">
+            <div style = {{backgroundImage: "url(" + prevArrow + ")" }} className="slide__previous" onClick={this.previous}>
+              <span className = "visually-hidden">Previous</span>
+            </div>
+            <div style = {{backgroundImage: "url(" + nextArrow + ")" }} className="slide__next" onClick={this.next}>
+              <span className = "visually-hidden">Next</span>
+            </div>
+          </div>
+        </span>;
+
+      let renderedImages =
+        slideCount === 1 ? slideImages:
+        slideCount > 1   ? multipleImages:
+        null;
+
 
       return (
         <section className="section section__image-slider usa-grid">
           <div className="slide-images">
-            <Slider ref={c => (this.slider = c)} {...settings}>
-              { slideImages }
-            </Slider>
-            <div className = "slide__arrows">
-              <div style = {{backgroundImage: "url(" + prevArrow + ")" }} className="slide__previous" onClick={this.previous}>
-                <span className = "visually-hidden">Previous</span>
-              </div>
-              <div style = {{backgroundImage: "url(" + nextArrow + ")" }} className="slide__next" onClick={this.next}>
-                <span className = "visually-hidden">Next</span>
-              </div>
-            </div>
+            { renderedImages }
           </div>
 
         </section>
@@ -70,9 +85,6 @@ class ImageSlider extends Component {
     } else {
       return null;
     }
-
-
-
 
   }
 }

@@ -1,6 +1,7 @@
 ---
-path: /team/stefanie-gray
+path: /
 type: team
+published: 0
 name: Stefanie Gray
-image: 'Stefanie-Gray.jpg'
----
+image: 'images/stefanie-gray.jpg'
+---------------------------------

@@ -33,23 +33,32 @@
 
   //----- Styles for the HeroHome component------
   &.hero--home {
+    position: relative;
 
     .hero__title {text-align: left;}
 
-    @include breakpoint($medium-screen) {
+    @include media($medium-screen) {
 
       .hero__text,
       .hero__image--wrapper {
         display: inline-block;
         vertical-align: middle;
+
+        img {
+          position: absolute;
+          top: 0;
+          max-width: 787px;
+          width: 100vw;
+          height: auto;
+        }
       }
 
       .hero__text {
-        width: 35%;
+        width: 41%;
       }
 
       .hero__image--wrapper {
-        width: 60%;
+        width: 58%;
         padding-left: $gutter;
 
         .gatsby-image-wrapper {

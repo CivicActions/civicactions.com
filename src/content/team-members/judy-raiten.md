@@ -1,6 +1,7 @@
 ---
-path: /team/judy-raiten
+path: /
 type: team
+published: 0
 name: Judy Raiten
-image: 'Judy-Raiten.jpg'
----
+image: 'images/judy-raiten.jpg'
+-------------------------------

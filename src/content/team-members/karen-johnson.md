@@ -1,6 +1,7 @@
 ---
-path: /team/karen-johnson
+path: /
 type: team
+published: 0
 name: Karen Johnson
-image: 'Karen-Johnson.jpg'
----
+image: 'images/karen-johnson.jpg'
+---------------------------------

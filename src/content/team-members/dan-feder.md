@@ -1,6 +1,7 @@
 ---
-path: /team/dan-feder
+path: /
 type: team
+published: 0
 name: Dan Feder
-image: 'Dan-Feder.jpg'
----
+image: 'images/dan-feder.jpg'
+-----------------------------

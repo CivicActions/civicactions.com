@@ -42,9 +42,9 @@ const FeaturedClients = () => (
 
         <div
             className = "section__featured_clients--intro_wrapper">
-            <SectionTitle title = "Featured Clients"/>
+            <SectionTitle title = "Organizations We Serve"/>
             <div className = "section__featured_clients--intro-text">
-                <p>Donec ullamcorper nulla non metus auctor fringilla.</p>
+                <p>We partner with all levels of government, NGOs, and nonprofits to build a better future.</p>
             </div>
 
         </div>

@@ -15,11 +15,17 @@
     }
   }
 
+  &__subtitle {
+    font-size: $lead-font-size;
+    padding-bottom: $section-margin;
+  }
+
   //-------------------------------------
   // CIVICACTIONS INTRO SECTION IN THE HOMEPAGE
   //-------------------------------------------
 
   &__home-intro {
+    margin-top: 50px;
     &--quote {
       color: $color-secondary;
     }
@@ -52,17 +58,32 @@
   &__recent-posts {
     @media all and (min-width: $medium-screen) {
 
-      .section__title {
+      .section__title--wrapper {
         @include span-columns(4);
       }
 
       .teaser--wrapper {
         @include span-columns(7);
-        @include shift(1 of 12);
+        @include shift(1);
       }
     }
 
     &.team { background: $neutral; }
+
+    &.right-flipped {
+      @include neutral-hex-bg;
+      margin-bottom: 0;
+
+      @media all and (min-width: $medium-screen) {
+        .section__title--wrapper {
+          @include shift(8);
+        }
+
+        .teaser--wrapper {
+          @include shift(-12);
+        }
+      }
+    }
   }
 
   //-------------------------------------
@@ -77,8 +98,13 @@
   //---- CASE STUDY LANDING PAGE
   &__case-studies {
     @include media($small-screen) {
-      @include flex-container($flex-wrap: wrap);
-      align-items: baseline;
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      column-gap: 30px;
+
+      @include media($medium-screen) {
+        grid-template-columns: repeat(3, 1fr);
+      }
     }
   }
 
@@ -116,17 +142,71 @@
     }
   }
 
-  // Case study pages
+  //-------------------------------------
+  // FEATURES INTRO SECTION ON THE DKAN OPEN DATA PAGE
+  //-------------------------------------------
+  &__features {
+
+    &--intro-text {
+      font-size: $lead-font-size;
+      max-width: $text-max-width;
+      margin-bottom: $section-margin;
+
+      p {
+        margin-top: 0;
+      }
+    }
+  }
+
+  //------------------------------------------------------------
+  // RELATED CASE STUDIES SECTION ON THE CASE STUDY LANDING PAGE
+  //------------------------------------------------------------
   &__related-content {
     background-color: $neutral;
     position: relative;
     margin-top: $section-margin;
-
-    section {
-      margin-bottom: 0;
-      padding-top: $line-height;
-    }
+    margin-bottom: 0;
+    padding-bottom: $section-margin;
   }
 
+  //------------------------------------------------------------
+  // CONTACT FORM THANK YOU PAGE
+  //------------------------------------------------------------
+  &__thankyou {
+    text-align: center;
+  }
 
+  &__contact-options {
+    margin-bottom: 0;
+  }
+}
+
+.neutral {
+  background-color: $neutral;
+  padding-bottom: $section-margin;
+}
+
+//------------------------------------------------------------
+// GENERIC TEASER GRID
+//------------------------------------------------------------
+.section__teaser-grid {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-content: space-between;
+  align-items: baseline;
+}
+
+// Add border arond images in the following sections:
+.section {
+  &__image-slider,
+  &__triple-quotes,
+  &__government-services,
+  &__case-studies,
+  &__teaser-grid {
+    img:not(.blockquote__icon) {
+      border: 1px solid $light-gray;
+    }
+  }
 }

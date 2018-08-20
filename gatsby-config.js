@@ -1,3 +1,5 @@
+const config = require("./data/SiteConfig");
+
 module.exports = {
   siteMetadata: {
     title: 'CivicActions | Open and Agile Digital Government Services',
@@ -40,10 +42,15 @@ module.exports = {
         username: `dkan-blog`,
       },
     },
+    {
+      resolve: `gatsby-source-medium`,
+      options: {
+        username: `agile-government-leadership`,
+      },
+    },
     `gatsby-remark-copy-linked-files`,
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
-    `gatsby-plugin-remove-trailing-slashes`,
     {
       resolve: `gatsby-remark-images`,
       options: {
@@ -52,4 +59,4 @@ module.exports = {
       },
     }
   ],
-}
+};
