@@ -20,7 +20,7 @@ specs: [
 images:
   - {
   url: 'smithsonian_1.jpg', 
-  caption: 'Users access the site easily on mobile devices.', 
+  caption: '', 
   alt: 'Human Origins website on tablet'
   }
   - {
