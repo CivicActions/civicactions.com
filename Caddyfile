@@ -1,4 +1,4 @@
-{$HOSTNAMES}
+import Caddyfile.{$ENV}
 tls ca-home@lists.civicactions.net
 push # enable HTTP/2 push for link headers
 expires {

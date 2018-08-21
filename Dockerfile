@@ -44,7 +44,7 @@ RUN ln -s /srv /caesium && /caesiumbin/entrypoint.sh
 # Package site into web server
 #
 FROM alpine:3.8
-ENV HOSTNAMES 0.0.0.0:80
+ENV ENV dev
 EXPOSE 80 443
 VOLUME /root/.caddy /srv
 WORKDIR /srv
