@@ -1,6 +1,4 @@
 import /etc/Caddyfile.{$ENV}
-tls ca-home@lists.civicactions.net
-push # enable HTTP/2 push for link headers
 expires {
     match .html$ 1i # expires jpg files after one minute
     match .* 1y # expire all other files after one year (file names are content based)

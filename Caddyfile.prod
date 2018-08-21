@@ -1,1 +1,4 @@
 civicactions.com:80 www.civicactions.com:80 civicactions.com:443 www.civicactions.com:443
+tls ca-home@lists.civicactions.net {
+    dns cloudflare
+}
