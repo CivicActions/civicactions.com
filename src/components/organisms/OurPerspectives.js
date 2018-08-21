@@ -35,28 +35,29 @@ class OurPerspectives extends Component {
     let third_image = image3 ? image3 : null;
 
     return (
-      <section
-        className = "section section__triple-quotes usa-grid">
-        <SectionTitle title = "Our Perspectives" />
-        <div
-          className = "blockquotes__list">
-          <Slider {...settings}>
-            <Blockquote
-              quote = "I love the honest, collaborative atmosphere and the way CivicActions prioritizes the well-being of team members."
-              quote_source = "Iris Ibekwe, Engineer"
-              quote_image = { first_image }
-            />
-            <Blockquote
-              quote = "I enjoy digging into the challenges of improving communication and process within organizations doing good."
-              quote_source = "Jeff Maher, Engineer"
-              quote_image = { second_image }
-            />
-            <Blockquote
-              quote = "We constantly figure out how to do what needs to be done, so we automatically grow. Then we share our learnings with others."
-              quote_source = "Kim Davidson"
-              quote_image = { third_image }
-            />
-          </Slider>
+      <section className = "section section__triple-quotes neutral-hex-bg team">
+        <div className = "usa-grid">
+          <SectionTitle title = "Our Perspectives" />
+          <div
+            className = "blockquotes__list">
+            <Slider {...settings}>
+              <Blockquote
+                quote = "I love the honest, collaborative atmosphere and the way CivicActions prioritizes the well-being of team members."
+                quote_source = "Iris Ibekwe, Engineer"
+                quote_image = { first_image }
+              />
+              <Blockquote
+                quote = "I enjoy digging into the challenges of improving communication and process within organizations doing good."
+                quote_source = "Jeff Maher, Engineer"
+                quote_image = { second_image }
+              />
+              <Blockquote
+                quote = "We constantly figure out how to do what needs to be done, so we automatically grow. Then we share our learnings with others."
+                quote_source = "Kim Davidson"
+                quote_image = { third_image }
+              />
+            </Slider>
+          </div>
         </div>
       </section>
     )
