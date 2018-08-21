@@ -75,11 +75,11 @@ export const t = graphql `
           name
           image {
             childImageSharp {
-              fixed(width:600, height: 600) {
+              fixed(width: 250, height: 250) {
               ...GatsbyImageSharpFixed_noBase64
               }
             }
-          }
+            }
           path
           published
           role
