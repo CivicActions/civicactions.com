@@ -12,7 +12,7 @@ quotes:
   }
   - {
     image: './team-members/images/andy-hawks.jpg',
-    text: 'At CivicActions everything is done intentionally and with purpose. We try to bring this authenticity to everyone we work with',
+    text: 'At CivicActions everything is done intentionally and with purpose. We try to bring this authenticity to everyone we work with.',
     author: 'Andy Hawks, Engineer'
   }
   - {
@@ -40,10 +40,10 @@ We seek projects that make life better for people. This means we welcome tough c
 ### Embrace new thinking
 We stay informed about new trends and technologies to provide the best value for our clients and employees. We have the courage to experiment because it leads to faster learning and innovation. And we’re committed to continuous improvement.
 
-### Be Agile in all things
+### Be agile in all things
 For us, agile is more than a development or project management approach. It’s a way of thinking that requires us to be flexible, transparent, and user-focused in every aspect of our daily work. We regularly reflect on our processes and are willing to embrace change when necessary.
 
-### Take Responsibility
+### Take responsibility
 Contributing to public sector projects comes with an obligation to take responsibility for our actions and stand for what is right. We work to create opportunities for underrepresented groups, honor our commitments, and do the little things well.
 
 ### Promote openness and transparency
