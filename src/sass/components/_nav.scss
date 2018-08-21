@@ -48,7 +48,7 @@
     position: relative;
     &:hover {
       //@include top-border-large($teal);
-      //margin-top: -10px;
+      //margin-top: -1rem;
     }
     button > span, a {
       font-family: $font-serif;
@@ -102,10 +102,10 @@
       padding-top: $spacing-md-small;
       padding-bottom: $spacing-md-small;
       &:hover {
-        background: $color-primary-darkest;
+        background: $navy;
       }
       &.usa-current {
-        background: $color-primary-darker;
+        background: $color-primary-darkest;
         font-weight: $font-normal;
         @include media($nav-width) {
           padding-left: 1.5rem;
