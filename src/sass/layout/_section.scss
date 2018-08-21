@@ -196,12 +196,11 @@
   column-gap: 30px;
   row-gap: 20px;
 
-
   @include media($medium-screen) {
     grid-template-columns: repeat(4, 1fr);
   }
 
-  @include media($large-screen) {
+  @include media(760px) {
     grid-template-columns: repeat(6, 1fr);
   }
 }
