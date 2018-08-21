@@ -14,7 +14,7 @@ const FooterNav = () => {
                     <Link to = '/values' activeClassName = "usa-current"> Our Values </Link>
                 </li>
                 <li className = "usa-footer-secondary-link">
-                    <Link to = '/team' activeClassName = "usa-current"> Our People </Link>
+                    <Link to = '/team' activeClassName = "usa-current"> Our Team </Link>
                 </li>
                 <li className = "usa-footer-secondary-link">
                     <Link to = '/communities' activeClassName = "usa-current"> Our Communities  </Link>

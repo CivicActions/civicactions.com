@@ -16,4 +16,17 @@
     margin: 15px;
     vertical-align: top;
   }
+
+  &__group {
+    a {
+      &.external-link {
+        &::after {
+          content: '';
+          display: inline-block;
+          height: 15px;
+          width: 10px;
+        }
+      }
+    }
+  }
 }
