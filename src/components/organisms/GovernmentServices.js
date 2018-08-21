@@ -20,7 +20,7 @@ const GovernmentServices = () => (
         teaserTitle = "DKAN and Open Data"
         teaserImage = { image2 }
         teaserText = "We help agencies comply with open data mandates by providing full-scale DKAN services and support."
-        teaserLink = "/"
+        teaserLink = "/dkan-open-data"
         teaserClass = "teaser__dkan teaser__halves"
       />
     </div>

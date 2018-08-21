@@ -1,4 +1,5 @@
 import React from "react";
+import Link from "./../components/scripts/Link";
 
 const Teaser = ({
   teaserDate,
@@ -34,7 +35,12 @@ const Teaser = ({
       <div className = "teaser__date"> { teaserDate } </div>
       <h3 className =  "teaser__title"> { teaserTitle } </h3>
       { teaser_text}
-      <div className = "teaser__link"> <a href = { teaserLink }>Read More</a> </div>
+      <div className = "teaser__link">
+        <Link
+            to = { teaserLink }
+            children = 'Read More'
+        />
+      </div>
     </div>
   );
 };
