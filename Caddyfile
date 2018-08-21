@@ -8,3 +8,6 @@ expires {
 errors {
     * 404.html # Use the 404 page for all errors for now
 }
+mime {
+    .json application/json
+}
