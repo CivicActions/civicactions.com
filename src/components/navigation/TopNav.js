@@ -36,7 +36,7 @@ const TopNav = ({pages}) => {
                                 <Link to = '/team/' activeClassName = "usa-current"> Our People </Link>
                             </li>
                             <li>
-                                <Link to = '/communities' activeClassName = "usa-current"> Our Community  </Link>
+                                <Link to = '/communities' activeClassName = "usa-current"> Our Communities  </Link>
                             </li>
                             <li>
                                 <Link to = '/press' activeClassName = "usa-current"> Press </Link>
