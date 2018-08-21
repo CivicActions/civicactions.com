@@ -81,8 +81,9 @@ const Layout = ({ children, data, location }) => (
 
 
             />
-        <header className = "section header__main usa-header usa-header-basic"
-              style = {{ backgroundImage: "url(" + header_bg + ")" }}>
+
+          <header className = "section header__main"
+                  style = {{ backgroundImage: "url(" + header_bg + ")" }}>
             <section className = "usa-nav-container">
                 <div className = "usa-navbar">
                     <Header siteTitle={data.site.siteMetadata.title} />

@@ -4,7 +4,7 @@ import Slider from "react-slick"
 import Blockquote from "./../atoms/Blockquote";
 import SectionTitle from "./../atoms/SectionTitle";
 
-import image1 from "./../../files/client-logos/MTA.png";
+import image1 from "./../../files/client-logos/msf.png";
 import image2 from "./../../files/client-logos/deptdefense.png";
 import image3 from "./../../files/client-logos/SF.png";
 
