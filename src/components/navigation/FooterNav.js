@@ -37,7 +37,7 @@ const FooterNav = () => {
                     <Link to = '/capabilities' activeClassName = "usa-current"> Contracting and Capabilities </Link>
                 </li>
                 <li className = "usa-footer-secondary-link">
-                    <Link to = '/Dkan-Open-Data' activeClassName = "usa-current"> DKAN and Open Data </Link>
+                    <Link to = '/dkan-open-data' activeClassName = "usa-current"> DKAN and Open Data </Link>
                 </li>
             </ul>
             <ul className = "usa-unstyled-list usa-width-one-fourth usa-footer-primary-content">
