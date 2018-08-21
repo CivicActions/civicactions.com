@@ -61,7 +61,7 @@ Digital Democracy was built to double as an “Action Center.” Organizers can 
 
 <blockquote>
 Digital Democracy empowers every Californian with unprecedented access to their government. The result will be greater accountability.
-<cite> -Gavin Newsom, Lieutenant Governor, State of California</cite>
+<cite>Gavin Newsom, Lieutenant Governor, State of California</cite>
 </blockquote>
 
 ### Impact

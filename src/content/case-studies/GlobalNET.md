@@ -75,7 +75,7 @@ We used 100% open source licensed components (except EZproxy and Adobe Connect) 
 
 <blockquote>
 It was a pleasure to work with the CivicActions team. Their experience with government clients and agile processes helped us reach our user base sooner than expected with a product that met their needs. We have a happy group of stakeholders!
-<cite> -Lisa Berry, Senior GlobalNET Liaison Officer, DSCA </cite>
+<cite>Lisa Berry, Senior GlobalNET Liaison Officer, DSCA </cite>
 </blockquote>
 
 ### Impact
