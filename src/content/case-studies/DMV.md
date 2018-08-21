@@ -36,12 +36,12 @@ images:
   }
   - {
   url: 'DMV_4.jpg', 
-  caption: 'Learning about the needs of international users', 
+  caption: 'Discussing the organizational structure of DMV and other project stakeholders', 
   alt: 'Discussing organizational structure'
   }
   - {
   url: 'DMV_5.jpg', 
-  caption: 'Discussing the organizational structure of DMV and other project stakeholders.', 
+  caption: 'Learning about the needs of international users', 
   alt: 'Talking to users about multilingual functionality'
   }
   - {
