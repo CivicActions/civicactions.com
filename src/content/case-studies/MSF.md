@@ -64,7 +64,7 @@ We built a rewarding relationship with MSF and their enthusiastic team of civic-
 
 <blockquote>
 “CivicActions did an excellent job of understanding our priorities and translating them into a Drupal site for this complex project. It was truly a pleasure working with this accountable, creative, organized, and committed team.”
-<cite> Kelly Smith-Holbourn, Web Manager, Doctors Without Borders USA </cite>
+<cite>Kelly Smith-Holbourn, Web Manager, Doctors Without Borders USA </cite>
 </blockquote>
 
 ### Impact

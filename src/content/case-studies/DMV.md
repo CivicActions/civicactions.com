@@ -74,7 +74,7 @@ The Secretary of State’s staff was thrilled with the user-centered approaches 
 
 <blockquote>
 We had a blast! This was such a new way of how to develop content for legislation.
-<cite> -Rochelle, Secretary of State Representative </cite>
+<cite>Rochelle, Secretary of State Representative </cite>
 </blockquote>
 
 ### Impact
