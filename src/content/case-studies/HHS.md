@@ -51,7 +51,7 @@ Our partnership with HHS helps the agency share information about the quality of
 * Agency is meeting federal security requirements with updated documentation
 * HHS open data portal is less cluttered and easier to navigate
 * HHS staff are better prepared to identify the most important data
-* Improvements to the HHS open data platform will benefit other agencies using DKAN" to "Improvements to the HHS platform will benefit other agencies using DKAN
+* Improvements to the HHS platform will benefit other agencies using DKAN
 
 
 
