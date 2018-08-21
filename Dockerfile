@@ -55,8 +55,8 @@ RUN apk add --no-cache ca-certificates && update-ca-certificates
 # Install caddy from builder stage.
 COPY --from=builder /install/caddy /usr/bin/caddy
 
-# Install a default configuration file.
-COPY Caddyfile /etc/Caddyfile
+# Install default configuration files.
+COPY Caddyfile* /etc/
 
 # Install application from appzz stage.
 COPY --from=appzz /srv /srv
