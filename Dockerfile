@@ -34,6 +34,13 @@ RUN find /srv -type f -a \( -name '*.html' -o -name '*.css' -o -name '*.js' \
     -exec brotli --best {} \+ -exec gzip --best -k {} \+
 
 #
+# Lossless image compression
+#
+FROM bardiir/auto-caesium:latest as appzz
+COPY --from=appz /srv /srv
+RUN ln -s /srv /caesium && /caesiumbin/entrypoint.sh
+
+#
 # Package site into web server
 #
 FROM alpine:3.8
@@ -51,7 +58,7 @@ COPY --from=builder /install/caddy /usr/bin/caddy
 # Install a default configuration file.
 COPY Caddyfile /etc/Caddyfile
 
-# Install application from appz stage.
-COPY --from=appz /srv /srv
+# Install application from appzz stage.
+COPY --from=appzz /srv /srv
 
 CMD ["caddy", "--conf", "/etc/Caddyfile", "--log", "stdout", "--agree=true"]
