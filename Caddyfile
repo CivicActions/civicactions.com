@@ -4,3 +4,6 @@ expires {
     match .html$ 1i # expires jpg files after one minute
     match .* 1y # expire all other files after one year (file names are content based)
 }
+errors {
+    * 404.html # Use the 404 page for all errors for now
+}
