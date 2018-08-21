@@ -1,6 +1,5 @@
-0.0.0.0:80
-#{$HOSTNAME}:80, {$HOSTNAME}:443
-#tls ca-home@lists.civicactions.net
+{$HOSTNAMES}
+tls ca-home@lists.civicactions.net
 push # enable HTTP/2 push for link headers
 expires {
     match .html$ 1i # expires jpg files after one minute
