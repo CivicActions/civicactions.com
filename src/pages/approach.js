@@ -30,10 +30,12 @@ const Approach = ({data}) => {
        </div>
      </section>
 
-     <section className = "section section_benefits usa-grid">
-       <SectionTitle title = { services_title }/>
-       <div className = "section__benefits--intro-text">{ services_subtitle }</div>
-       <IconParagraphsGroup icons = { services } />
+     <section className = "section section_benefits neutral-hex-bg">
+       <div className = "usa-grid">
+         <SectionTitle title = { services_title }/>
+         <div className = "section__benefits--intro-text">{ services_subtitle }</div>
+         <IconParagraphsGroup icons = { services } />
+       </div>
      </section>
 
      <section

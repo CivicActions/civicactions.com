@@ -209,4 +209,9 @@
       border: 1px solid $light-gray;
     }
   }
+
+  // Sections with neutral bag that need bottom margin 0
+  &_features {
+    margin-bottom: 0;
+  }
 }
