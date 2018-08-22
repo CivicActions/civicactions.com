@@ -10,7 +10,7 @@ import SubFooter from './../footer/SubFooter';
 import Footer from './../footer/Footer';
 import config from "../../../data/SiteConfig";
 import TopNav from './../navigation/TopNav';
-
+import '../../sass/styles.scss';
 import header_bg from './../header/background_bg-hero.png';
 
 
