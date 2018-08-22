@@ -30,7 +30,7 @@ class ImageSlider extends Component {
     if(images !== null) {
       let slideCount = images.length;
        settings = {
-        customPaging: (i:number) => {
+        customPaging: (i) => {
           return <div className="slide__custom-dots">{i + 1}/{slideCount}</div>
         },
         dots: true,
