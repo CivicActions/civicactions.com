@@ -1,6 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import { Link } from "gatsby";
+import Link from "./../../components/scripts/Link";
+
 
 const Button = ({type, button_text, link, isExternal}) => {
   const buttonClass =
@@ -9,9 +10,10 @@ const Button = ({type, button_text, link, isExternal}) => {
     (type === 'hero') ? 'usa-button-navy':
       'usa-button';
 
-  const buttonURL = isExternal ?
-    <a href = { link } alt = { button_text }>{ button_text } </a> :
-    <Link alt = { button_text } to = { link }>{ button_text } </Link>;
+  const buttonURL =  <Link
+      to = { link }
+      children = { button_text }
+  />
 
   return (
     <button className = { buttonClass }>
