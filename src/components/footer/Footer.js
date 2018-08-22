@@ -31,6 +31,10 @@ const Footer = ({email, phone, address, address_line_2, city}) => {
         </div>
       </footer>
       <USWDS/>
+        <script>
+            document.addEventListener("DOMContentLoaded", function(e) {
+            document.body.classList.remove('fade') });
+        </script>
     </div>
   )
 };
