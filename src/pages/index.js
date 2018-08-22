@@ -6,7 +6,7 @@ import { graphql } from 'gatsby'
 import HomeLayout from '../components/layouts/HomeLayout'
 import MediumPostList from '../components/medium-components/mediumPostList';
 import GovernmentServices from '../components/organisms/GovernmentServices';
-import HomeQuoteSlider from '../components/organisms/HomeQuoteSlider';
+import GlobalQuoteSlider from './../components/organisms/GlobalQuoteSlider';
 import FeaturedCaseStudies from '../components/organisms/FeaturedCaseStudies';
 
 // Atoms
@@ -23,6 +23,7 @@ const IndexPage = ({data}) => {
   const { group } = allMediumPost;
   const { html, frontmatter } = markdownRemark;
   const { edges } = allMarkdownRemark;
+  const { quotes, quotes_title} = frontmatter;
 
   let mediumCaPosts = _.first(group, (edges) => {
      return edges;
@@ -71,7 +72,14 @@ const IndexPage = ({data}) => {
       <GovernmentServices />
 
       {/*----- Get to Know Us section -------- */}
-      <HomeQuoteSlider />
+      <section className = "section section__triple-quotes">
+        <div className = "usa-grid">
+          <SectionTitle title = {quotes_title} />
+          <div className = "blockquotes__list">
+            <GlobalQuoteSlider quotes = {quotes} />
+          </div>
+        </div>
+      </section>
     </HomeLayout>
   );
 
@@ -103,6 +111,18 @@ export const mediumQuery = graphql `
         cta_text
         cta_link
         quote
+        quotes_title
+        quotes {
+          author
+          image {
+            childImageSharp{
+              fixed(width:264, height: 264) {
+              ...GatsbyImageSharpFixed_noBase64
+             }
+            }
+          }
+          text
+        }
       }
     }
 
