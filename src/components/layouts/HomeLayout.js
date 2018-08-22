@@ -78,10 +78,7 @@ const Layout = ({ children, data, location }) => (
               { property: 'og:email', content: data.site.siteMetadata.email },
               { property: 'og:phone_number', content: data.site.siteMetadata.phone },
           ]}
-
-
             />
-
           <header className = "section header__main"
                   style = {{ backgroundImage: "url(" + header_bg + ")" }}>
             <section className = "usa-nav-container">
@@ -99,7 +96,6 @@ const Layout = ({ children, data, location }) => (
            </div>
         </main>
         <SubFooter />
-
         <Footer
           email = { data.site.siteMetadata.email }
           phone = { data.site.siteMetadata.phone }

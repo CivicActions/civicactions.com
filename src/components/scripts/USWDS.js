@@ -8,6 +8,8 @@ class USWDS extends Component {
     componentDidMount() {
         const isMobileDevice = navigator.userAgent.match(/iPad|iPhone|iPod/i) != null;
 
+        document.body.classList.add('fade');
+
         let anchors = document.querySelectorAll('a:not(.fa):not([href^="/"])');
 
         for (let i = 0; i < anchors.length; i++) {
@@ -26,7 +28,13 @@ class USWDS extends Component {
             }
         }
 
-        USWDS.loadUSWDS()
+        // const script = document.createElement('script');
+        // script.type = 'text/javascript';
+        // script.text = "document.body.classList.remove('fade')";
+        // document.body.appendChild(script);
+
+
+        USWDS.loadUSWDS();
     }
 
     componentWillUnmount() {
