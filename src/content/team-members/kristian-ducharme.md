@@ -1,5 +1,5 @@
 ---
-path: /
+path: /team/kristian-ducharme
 type: team
 published: 0
 name: Kristian Ducharme
