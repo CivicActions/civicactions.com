@@ -16,6 +16,20 @@ else
   echo "Error: unknown shell"; return
 fi
 
+if [ -f ./.env ]; then
+  source ./.env
+fi
+if [ "$GATSBY_JAZZ_URL" = "" ]; then
+  echo 'ERROR: Please set your Jazz API URL using `echo GATSBY_JAZZ_URL=urlvalue >> .env`'
+  return
+fi
+
+DOCKER_VERSION_CHECK="$(docker version --format '{{ printf "%.5s" .Server.Version }}') <= 17.05"
+if (( $(echo $DOCKER_VERSION_CHECK | bc -l) )); then
+  echo "Docker 17.05 or higher is needed for this project"
+  return
+fi
+
 [ "$(alias | grep deactivate)" ] && deactivate  # In case already activated.
 GIT_ROOT=$(git rev-parse --show-toplevel)
 
@@ -27,7 +41,7 @@ unalias deactivate fullbuild ${CLI_TOOLS}"
 export PATH=$GIT_ROOT/bin:$PATH
 export PROJECT=${GIT_ROOT##*/}
 
-if [ "$SHELL_TYPE" = "bash" ];then
+if [ "$SHELL_TYPE" = "bash" ]; then
   export PS1="${PS1}\[\033[01;31m\](${PROJECT})\[\033[00m\] \$ "
 else
   export PS1="${PS1} (${PROJECT}) \$ "
@@ -39,7 +53,7 @@ docker build --tag home-sandbox --target env .
 
 echo
 echo "Adding aliases for CLI tools: ${CLI_TOOLS}"
-CONTAINER="docker run --rm -it -p 8000:8000 -v ${GIT_ROOT}:/usr/src/app -e GATSBY_JAZZ_URL home-sandbox:latest"
+CONTAINER="docker run --rm -it -p 8000:8000 -v ${GIT_ROOT}:/usr/src/app -e GATSBY_JAZZ_URL=${GATSBY_JAZZ_URL} home-sandbox:latest"
 for CLI_TOOL in ${CLI_TOOLS[@]}; do
   alias ${CLI_TOOL}="${CONTAINER} ${CLI_TOOL}"
 done
@@ -50,4 +64,4 @@ echo "Installing NPM packages with yarn"
 yarn install --pure-lockfile
 
 echo
-echo "Activated - to get started run 'caddy develop', then go to http://localhost:8000/"
+echo "Activated - to get started run 'yarn develop', then go to http://localhost:8000/"
