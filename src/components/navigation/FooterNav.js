@@ -62,7 +62,7 @@ const FooterNav = () => {
                     {/*<Link to = '/privacy' activeClassName = "usa-current"> Privacy </Link>*/}
                 {/*</li>*/}
                 <li className = "usa-footer-secondary-link">
-                   <Link to = '/licensing-policy' activeClassName = "usa-current"> Licensing </Link>
+                   <Link to = '/licensing-policy' activeClassName = "usa-current"> Licensing Policy</Link>
                 </li>
                 <li className = "usa-footer-secondary-link">
                     <a href = "https://creativecommons.org/licenses/by-sa/3.0/" className = "external-link usa-nav-link"> <span>Creative Commons </span> </a>
