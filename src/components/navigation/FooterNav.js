@@ -58,9 +58,9 @@ const FooterNav = () => {
                 <li className = "usa-footer-primary-link">
                     <h4>Details</h4>
                 </li>
-                {/*<li className = "usa-footer-secondary-link">*/}
-                    {/*<Link to = '/privacy' activeClassName = "usa-current"> Privacy </Link>*/}
-                {/*</li>*/}
+                <li className = "usa-footer-secondary-link">
+                    <Link to = '/privacy-policy' activeClassName = "usa-current"> Privacy Policy </Link>
+                </li>
                 {/*<li className = "usa-footer-secondary-link">*/}
                     {/*<Link to = '/licensing' activeClassName = "usa-current"> Licensing </Link>*/}
                 {/*</li>*/}
