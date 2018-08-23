@@ -72,7 +72,7 @@ export const t = graphql `
         image {
           childImageSharp{
             fixed(width:264, height: 264) {
-              ...GatsbyImageSharpFixed_noBase64
+              ...GatsbyImageSharpFixed_withWebp_noBase64
             }
           }
         }
@@ -88,7 +88,7 @@ export const t = graphql `
           image {
             childImageSharp {
               fixed(width: 250, height: 250) {
-                ...GatsbyImageSharpFixed_noBase64
+                ...GatsbyImageSharpFixed_withWebp_noBase64
               }
             }
           }

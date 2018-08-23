@@ -117,7 +117,7 @@ export const mediumQuery = graphql `
           image {
             childImageSharp{
               fixed(width:264, height: 264) {
-              ...GatsbyImageSharpFixed_noBase64
+              ...GatsbyImageSharpFixed_withWebp_noBase64
              }
             }
           }
@@ -136,7 +136,7 @@ export const mediumQuery = graphql `
           preview_image {
             childImageSharp {
               fixed(width:600, height: 600) {
-                ...GatsbyImageSharpFixed_noBase64
+                ...GatsbyImageSharpFixed_withWebp_noBase64
               }
             }
           }
