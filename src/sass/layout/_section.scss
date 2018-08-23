@@ -190,12 +190,19 @@
 // GENERIC TEASER GRID
 //------------------------------------------------------------
 .section__teaser-grid {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: flex-start;
-  align-content: space-between;
-  align-items: baseline;
+
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  column-gap: 30px;
+  row-gap: 20px;
+
+  @include media($medium-screen) {
+    grid-template-columns: repeat(4, 1fr);
+  }
+
+  @include media(760px) {
+    grid-template-columns: repeat(6, 1fr);
+  }
 }
 
 // Add border arond images in the following sections:
@@ -208,5 +215,15 @@
     img:not(.blockquote__icon) {
       border: 1px solid $light-gray;
     }
+  }
+
+  // Sections with neutral bag that need bottom margin 0
+  &_features {
+    margin-bottom: 0;
+  }
+
+  &_dkan_cta {
+    margin-top: $spacing-large;
+    margin-bottom: $spacing-large;
   }
 }

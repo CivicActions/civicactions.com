@@ -68,15 +68,15 @@ To help spread awareness about EatFresh, we created a print campaign so people c
 
 <blockquote>
 I’ve gotten very positive and impressed feedback since the site’s launch. The CivicActions team members are superstars — they helped us meet our goals and create a user-friendly community site that will help us keep folks talking about nutrition!
-<cite> Tiana Wertheim,  Senior Analyst, San Francisco Human Services Agency </cite>
+<cite>Tiana Wertheim,  Senior Analyst, San Francisco Human Services Agency </cite>
 </blockquote>
 
 ### Impact
-* Underserved Californians can easily access health advice and quality nutrition information 
+* Underserved Californians can access quality health advice and nutrition info
 * Resources are tailored to fit real-life situations of low-income constituents
 * Other agencies and community organizations can integrate EatFresh into their programs
 * Audiences are engaged with healthy lifestyle learning on social media
-* Health education resources and community based activities have expanded beyond the website
+* Health education resources and activities have expanded beyond the website
 * More Californians are reading nutrition labels and cooking at home with healthy ingredients
 
 

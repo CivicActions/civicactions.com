@@ -12,7 +12,7 @@
   }
 
   button {
-    margin: $line-height auto;
+    margin: 40px auto $line-height;
   }
 
   &__text {
@@ -35,7 +35,11 @@
   &.hero--home {
     position: relative;
 
-    .hero__title {text-align: left;}
+    .hero__title,
+    .hero__intro-text,
+    .hero__text {
+      text-align: left;
+    }
 
     @include media($medium-screen) {
 

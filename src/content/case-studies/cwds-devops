@@ -6,26 +6,29 @@ client_name: "Child Welfare Digital Services"
 preview_image: CWDS_preview.jpg
 promoted_to_front_page: no
 project: "CWDS DevOps"
-website: "https://cwds.ca.gov/"
+website: ""
 background_section_title: "Something about DevOps"
-background_section: "This will have some text about DevOps
-"
-background_section_second: 
-tags: ["DevOps"]
+background_section: "This text will be updated" 
+
+background_section_second: "This text will be updated"
+
+tags: ["DevOps", "Security and Compliance"]
 specs: [
-"list",
-"tech",
-"specs", 
-"there", 
-"will", 
-"be", 
-"lots"
+"Ansible",
+"AWS",
+"Jenkins", 
+"Docker", 
+"JIRA", 
+"Linux", 
+"Bash",
+"Python", 
+"New Relic"
 ]
 images:
   - {
-  url: 'CWDS_preview.jpg', 
-  caption: 'Creating a culture of communication is a big part of successful DevOps.', 
-  alt: 'DevOps team working at CWDS'
+  url: 'EatFresh_1.jpg', 
+  caption: 'EatFresh helps Californians make healthy choices on a budget.', 
+  alt: 'EatFresh website on tablet'
   }
   - {
   url: 'EatFresh_2.jpg', 
@@ -47,7 +50,7 @@ images:
 
 ### Approach
 
-##### These sections will be updated with DevOps stuff
+##### The following sections will be updated with DevOps stuff
 By taking time to listen to the viewpoints and expertise of each stakeholder, we made sure the project addressed a shared goal that would support San Francisco as well as the larger ecosystem of health services in California.
 
 ##### Gain stakeholder buy-in
@@ -67,7 +70,7 @@ To help spread awareness about EatFresh, we created a print campaign so people c
 
 <blockquote>
 I’ve gotten very positive and impressed feedback since the site’s launch. The CivicActions team members are superstars — they helped us meet our goals and create a user-friendly community site that will help us keep folks talking about nutrition!
-<cite> Tiana Wertheim,  Senior Analyst, San Francisco Human Services Agency </cite>
+<cite>Tiana Wertheim,  Senior Analyst, San Francisco Human Services Agency </cite>
 </blockquote>
 
 ### Impact

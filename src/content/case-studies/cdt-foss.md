@@ -63,16 +63,11 @@ By embracing FOSS at the state level, CDT makes it easier for California countie
 * Staff builds on open source best practices to create their own guidelines
 * CDT saves money by avoiding the recurring costs of vendor lock-in
 * Technical, legal, and procurement staff gain working knowledge of FOSS 
-* Open source technologies created by CDT can be re-used by counties and cities
+* Open source code created by CDT can be re-used by counties and cities
 * CDT can verify the security and efficacy of its own code
 * California residents benefit from a more transparent, accountable government
 
 ### Explore
-##### Learn about our offering
-[FOSS legal training for agencies](https://drive.google.com/file/d/1fc0a06aGR709VA81Rdb-8E3ElTRpiEBB/view?usp=sharing)  
-
-##### Explore a sample presentation deck
-[FOSS strategies](https://docs.google.com/presentation/d/11cHlKoUl65E5GT-67wqcJIC6stoGJzvPisBAaMglFlQ/edit#slide=id.g3d265708e4_2_11)
 
 ##### Discover helpful resources
 [Resources for managing open source projects](https://opentechstrategies.com/#resources)

@@ -164,7 +164,7 @@ class Contact extends React.Component {
               <div className = "form__field form__submit">
                 <button type="submit" value="Send" disabled={!isEnabled} > Submit </button>
               </div>
-              <input type="hidden" name="_next" value="http://localhost:8000/thank-you" />
+              <input type="hidden" name="_next" value="https://civicactions.com/thank-you" />
             </form>
           </section>
         </section>

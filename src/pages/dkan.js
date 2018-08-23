@@ -36,12 +36,24 @@ const Dkan = ({data}) => {
        </div>
      </section>
 
-     <section className = "section section_features usa-grid neutral-hex-bg">
-       <SectionTitle title = { features_title }/>
-     <div className = "section__features--intro-text">DKAN comes out-of-the-box with comprehensive public-facing engagement and administrative site management tools.</div>
-       <IconParagraphsGroup icons = { features } />
-
+     <section className = "section section_features neutral-hex-bg">
+       <section className = "usa-grid">
+         <SectionTitle title = { features_title }/>
+         <div className = "section__features--intro-text">DKAN comes out-of-the-box with comprehensive public-facing engagement and administrative site management tools.</div>
+         <IconParagraphsGroup icons = { features } />
+       </section>
      </section>
+
+       <section className="section section_dkan_cta">
+           <div className="usa-grid">
+               <div className="align-center">
+                   <Button
+                       button_text="Visit getDKAN.org"
+                       link="http://getdkan.org"
+                   />
+               </div>
+           </div>
+       </section>
     </GeneralLayout>
 
 

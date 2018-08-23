@@ -14,10 +14,10 @@ const FooterNav = () => {
                     <Link to = '/values' activeClassName = "usa-current"> Our Values </Link>
                 </li>
                 <li className = "usa-footer-secondary-link">
-                    <Link to = '/team' activeClassName = "usa-current"> Our People </Link>
+                    <Link to = '/team' activeClassName = "usa-current"> Our Team </Link>
                 </li>
                 <li className = "usa-footer-secondary-link">
-                    <Link to = '/communities' activeClassName = "usa-current"> Our Community  </Link>
+                    <Link to = '/communities' activeClassName = "usa-current"> Our Communities  </Link>
                 </li>
                 <li className = "usa-footer-secondary-link">
                     <Link to = '/press' activeClassName = "usa-current"> Press </Link>
@@ -37,7 +37,7 @@ const FooterNav = () => {
                     <Link to = '/capabilities' activeClassName = "usa-current"> Contracting and Capabilities </Link>
                 </li>
                 <li className = "usa-footer-secondary-link">
-                    <Link to = '/Dkan-Open-Data' activeClassName = "usa-current"> DKAN and Open Data </Link>
+                    <Link to = '/dkan' activeClassName = "usa-current"> DKAN and Open Data </Link>
                 </li>
             </ul>
             <ul className = "usa-unstyled-list usa-width-one-fourth usa-footer-primary-content">
@@ -59,13 +59,13 @@ const FooterNav = () => {
                     <h4>Details</h4>
                 </li>
                 <li className = "usa-footer-secondary-link">
-                    <Link to = '/privacy' activeClassName = "usa-current"> Privacy </Link>
+                    <Link to = '/privacy-policy' activeClassName = "usa-current"> Privacy Policy </Link>
                 </li>
                 <li className = "usa-footer-secondary-link">
-                    <Link to = '/licensing' activeClassName = "usa-current"> Licensing </Link>
+                   <Link to = '/licensing-policy' activeClassName = "usa-current"> Licensing Policy</Link>
                 </li>
                 <li className = "usa-footer-secondary-link">
-                    <Link to = '/creative-commons' activeClassName = "usa-current"> Creative Commons </Link>
+                    <a href = "https://creativecommons.org/licenses/by-sa/3.0/" className = "external-link usa-nav-link"> <span>Creative Commons </span> </a>
                 </li>
             </ul>
         </nav>

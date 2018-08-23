@@ -36,9 +36,20 @@ images:
   }
   - {
   url: 'DMV_4.jpg', 
-  caption: 'Discussing the organizational structure of DMV and other project stakeholders.', 
+  caption: 'Discussing the organizational structure of DMV and other project stakeholders', 
   alt: 'Discussing organizational structure'
   }
+  - {
+  url: 'DMV_5.jpg', 
+  caption: 'Learning about the needs of international users', 
+  alt: 'Talking to users about multilingual functionality'
+  }
+  - {
+  url: 'DMV_6.jpg', 
+  caption: 'Discussing the new workflow with DMV staff', 
+  alt: 'Discussing the new workflow with DMV staff'
+  }
+  
 ---
 
 ### Approach
@@ -63,7 +74,7 @@ The Secretary of State’s staff was thrilled with the user-centered approaches 
 
 <blockquote>
 We had a blast! This was such a new way of how to develop content for legislation.
-<cite> -Rochelle, Secretary of State Representative </cite>
+<cite>Rochelle, Secretary of State Representative </cite>
 </blockquote>
 
 ### Impact
@@ -96,3 +107,4 @@ We had a blast! This was such a new way of how to develop content for legislatio
 <p>
   </div>
 </figure>
+

@@ -16,9 +16,9 @@ const Hero = ({
   social
   }) => {
 
-  // The button gets displayed only if the Button text is set.
+  // The button gets displayed only if the cta link is set.
   const team_image = image ? <div className = "hero__image"><img src = { image } alt = { client_name } /></div>: '' ;
-  const button = cta_text ? <Button type = 'hero'
+  const button = cta_link ? <Button type = 'hero'
                                     button_text = { cta_text }
                                     link = { cta_link }
                                     isExternal = { cta_is_external } /> : '';

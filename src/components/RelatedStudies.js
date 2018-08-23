@@ -39,7 +39,7 @@ const RelatedStudies = ({posts, tags}) => {
 
   if(relatedStudiesCounter > 0) {
     return (
-      <div className = "section section__related-content">
+      <div className = "section section__related-content neutral-hex-bg">
         <section className = "usa-grid">
           <SectionTitle title = "Related Case Studies"/>
             <div className = "related-content__list">

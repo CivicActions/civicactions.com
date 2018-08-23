@@ -1,2 +1,2 @@
-{$HOSTNAME}:80, {$HOSTNAME}:443
-tls ca-home@lists.civicactions.net
+# Import a configuration file specific to the environment.
+import /etc/Caddyfile.{$ENV}
