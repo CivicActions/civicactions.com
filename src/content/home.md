@@ -20,7 +20,7 @@ quotes:
   }
 - {
     image: './team-members/images/steve-wirt.jpg',
-    text: 'We are each in charge of how we approach our own work, yet we’re accountable to each other. So we have to remain clear, focused, and transparent.',
+    text: "We're each in charge of how we approach our own work, yet we're accountable to one another. So we focus on clear, transparent communication.",
     author: 'Steve Curtis, Project Manager'
   }
 ---
