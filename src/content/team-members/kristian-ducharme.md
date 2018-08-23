@@ -1,7 +1,7 @@
 ---
 path: /team/kristian-ducharme
 type: team
-published: 0
+published: 1
 name: Kristian Ducharme
 image: 'images/kristian-ducharme.jpg'
 role: Engineer
