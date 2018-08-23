@@ -4,6 +4,10 @@ import Slider from "react-slick"
 import Blockquote from "./../atoms/Blockquote";
 import SectionTitle from "./../atoms/SectionTitle";
 
+import image1 from "./../../content/team-members/images/iris-ibekwe.jpg";
+import image2 from "./../../content/team-members/images/jeff-maher.jpg";
+import image3 from "./../../content/team-members/images/kim-davidson.jpg";
+
 class OurPerspectives extends Component {
 
   render() {
@@ -26,18 +30,9 @@ class OurPerspectives extends Component {
       ]
     };
 
-
-    const blockQuotes = this.props.quotes.map((item, index) => {
-      const quoteImage = item.image ?  item.image.childImageSharp.fixed.src: null;
-      return (
-        <Blockquote
-          key = {index}
-          quote = {item.text}
-          quote_source = {item.author}
-          quote_image = {quoteImage}
-        />
-      )
-    });
+    let first_image = image1 ? image1 : null;
+    let second_image = image2 ? image2 : null;
+    let third_image = image3 ? image3 : null;
 
     return (
       <section className = "section section__triple-quotes neutral-hex-bg team">
@@ -46,7 +41,21 @@ class OurPerspectives extends Component {
           <div
             className = "blockquotes__list">
             <Slider {...settings}>
-              {blockQuotes}
+              <Blockquote
+                quote = "I love the honest, collaborative atmosphere and the way CivicActions prioritizes the well-being of team members."
+                quote_source = "Iris Ibekwe, Engineer"
+                quote_image = { first_image }
+              />
+              <Blockquote
+                quote = "I enjoy digging into the challenges of improving communication and process within organizations doing good."
+                quote_source = "Jeff Maher, Engineer"
+                quote_image = { second_image }
+              />
+              <Blockquote
+                quote = "We constantly figure out how to do what needs to be done, so we automatically grow. Then we share our learnings with others."
+                quote_source = "Kim Davidson"
+                quote_image = { third_image }
+              />
             </Slider>
           </div>
         </div>

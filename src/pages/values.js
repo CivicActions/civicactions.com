@@ -51,34 +51,34 @@ export default Values;
 export const valuesQuery = graphql`
   query valuesPage {
     markdownRemark(frontmatter: { title: { eq: "Our Values" } } ) {
-      html
-      frontmatter {
-        title
-        subtitle
-        thankyou_text
-        thankyou_images {
-          text
-          image {
-            childImageSharp{
-              resize(width: 516) {
-                src
-              }
+    html
+    frontmatter {
+      title
+      subtitle
+      thankyou_text
+      thankyou_images {
+        text
+        image {
+          childImageSharp{
+            resize(width: 516) {
+              src
             }
           }
-        }
-        quotes_title
-        quotes {
-          image {
-            childImageSharp{
-              fixed(width:264, height: 264) {
-                ...GatsbyImageSharpFixed_withWebp_noBase64
-              }
-            }
-          }
-          text
-          author
         }
       }
+      quotes_title
+      quotes {
+        image {
+    childImageSharp{
+            fixed(width:264, height: 264) {
+              ...GatsbyImageSharpFixed_noBase64
+              }
+          }
+        }
+        text
+        author
+      }
     }
+  }
   }
 `;

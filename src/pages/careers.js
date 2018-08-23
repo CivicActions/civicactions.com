@@ -109,7 +109,7 @@ query jobsQuery {
           url {
           childImageSharp {
             fixed(width:2000, height: 727) {
-                ...GatsbyImageSharpFixed_withWebp_noBase64
+                ...GatsbyImageSharpFixed_noBase64
             }
            }
          }
@@ -124,7 +124,7 @@ query jobsQuery {
           image {
             childImageSharp{
               fixed(width:264, height: 264) {
-              ...GatsbyImageSharpFixed_withWebp_noBase64
+              ...GatsbyImageSharpFixed_noBase64
               }
             }
           }

@@ -24,7 +24,7 @@ const Team = ({data}) => {
   const{ markdownRemark, allMarkdownRemark } = data;
   const team = allMarkdownRemark.edges;
   const imageArray = [ image1, image2, image3, image4, image5, image6, image7, image8, image9, image10 ];
-  const {title, subtitle, quotes, quotes_title} = markdownRemark.frontmatter;
+  const {title, subtitle} = markdownRemark.frontmatter;
 
   const teamTeasers = team.map((item, index) => {
       const {image, name, path, published, role} = item.node.frontmatter;
@@ -39,6 +39,7 @@ const Team = ({data}) => {
       )
     });
 
+
   return(
       <GeneralLayout
           heroTitle = {title}
@@ -48,11 +49,10 @@ const Team = ({data}) => {
               {teamTeasers}
           </section>
 
-          <OurPerspectives title = {quotes_title} quotes={quotes} />
-
-          <section className = "feed__image--wrapper">
-            <ImageBand imageArray = { imageArray }/>
-          </section>
+              <OurPerspectives />
+              <section className = "feed__image--wrapper">
+                  <ImageBand imageArray = { imageArray }/>
+              </section>
       </GeneralLayout>
   )
 };
@@ -61,24 +61,12 @@ export default Team;
 
 
 export const t = graphql `
-{
-  markdownRemark(frontmatter: { title: { eq: "Our Team" } } ) {
-    frontmatter {
-      subtitle
-      title
-      quotes_title
-      quotes {
-        author
-        image {
-          childImageSharp{
-            fixed(width:264, height: 264) {
-              ...GatsbyImageSharpFixed_withWebp_noBase64
-            }
-          }
-        }
-        text
-      }
-    }
+ {
+   markdownRemark(frontmatter: { title: { eq: "Our Team" } } ) {
+     frontmatter {
+       subtitle
+       title
+     }
   }
   allMarkdownRemark(filter: {frontmatter: {type: {eq: "team"}}}) {
     edges {
@@ -87,8 +75,8 @@ export const t = graphql `
           name
           image {
             childImageSharp {
-              fixed(width: 250, height: 250) {
-                ...GatsbyImageSharpFixed_withWebp_noBase64
+              fixed(width:600, height: 600) {
+              ...GatsbyImageSharpFixed_noBase64
               }
             }
           }
@@ -102,4 +90,3 @@ export const t = graphql `
   }
 }
 `;
-
