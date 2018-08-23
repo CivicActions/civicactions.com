@@ -1,6 +1,10 @@
 .section__image-slider {
   .slick-list {
 
+    // We actually want all the previous and next slides to show,
+    // So override this 'react-slick' slick-list overflow property.
+    overflow: visible;
+
     @include media($small-screen) {
       //overflow: visible;
     }
