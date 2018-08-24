@@ -53,7 +53,7 @@ export default function Template({data}) {
       location     = { location }
       social       = { social }
     >
-      <div className = "team_member__specs__wrapper">
+      <div className = "team_member__specs--wrapper">
           <section className = " section usa-grid team-member__specs">
               <div className = "study__tech-specs ">
                   <span className = "study__tech-specs__title"> Specialties </span>
