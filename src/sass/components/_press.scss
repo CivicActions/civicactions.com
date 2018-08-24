@@ -23,6 +23,9 @@
 
   &__link {
     font-weight: bold;
+    a {
+      display: inline;
+    }
   }
 }
 
