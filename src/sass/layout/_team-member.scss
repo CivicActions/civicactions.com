@@ -1,7 +1,7 @@
 .team-member {
   &__hero {
+    text-align: center;
     @media all and (max-width: $small-screen) {
-      text-align: center;
       transform: scaleY(-1);
     }
     .hero {
@@ -80,8 +80,19 @@
   }
 
   &__posts {
+    margin-bottom: 0;
+    margin-top: 100px;
+    @include neutral-hex-bg;
 
+    .section__title--wrapper, .team__medium-posts {
+      margin-top: -($spacing-large);
+    }
 
+    @media all and (max-width: $small-screen) {
+      .section__title--wrapper {
+        margin-top: -4rem;
+      }
+    }
   }
 
 }
