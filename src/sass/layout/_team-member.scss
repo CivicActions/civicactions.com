@@ -1,0 +1,69 @@
+.team-member {
+  &__hero {
+    .hero {
+      &__image {
+        @include span-columns(4);
+        padding-top: $spacing-medium;
+        margin-bottom: -($spacing-medium);
+      }
+
+      &__text {
+        text-align: left;
+        @include span-columns(8);
+      }
+
+      &__intro-text, &__location {
+        line-height: 1.5;
+      }
+
+      &__social--link {
+        color: $white;
+        font-weight: $font-bold;
+        display: inline-block;
+        margin-right: $spacing-small;
+        &:after {
+          display: none;
+        }
+        &:first-of-type {
+          &:after {
+            content: '|';
+            display: inline-block;
+          }
+        }
+      }
+    }
+  }
+
+  &__specs {
+    padding: $site-margins 0;
+    @include media($medium-screen) {
+      .study__tech-specs {
+        @include shift(4);
+      }
+    }
+    .study__tech-specs__title {
+      font-family: $font-sans;
+      font-weight: $font-bold;
+      font-size: $base-font-size;
+    }
+    ul {
+      margin: 0.5em 0;
+    }
+  }
+
+  &__text {
+
+
+  }
+
+  &__posts {
+
+
+  }
+
+}
+
+.team_member__specs__wrapper {
+  background: $neutral;
+  margin-top: -46px;
+}
