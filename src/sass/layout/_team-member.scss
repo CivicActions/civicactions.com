@@ -39,6 +39,7 @@
     @include media($medium-screen) {
       .study__tech-specs {
         @include shift(4);
+        padding-left: $spacing-medium;
       }
     }
     .study__tech-specs__title {
