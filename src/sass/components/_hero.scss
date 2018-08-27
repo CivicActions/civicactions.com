@@ -41,7 +41,8 @@
       text-align: left;
     }
 
-    @include media($medium-screen) {
+    @include media($medium-large-screen) {
+
       .hero__text,
       .hero__image--wrapper {
         display: inline-block;
