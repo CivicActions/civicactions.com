@@ -25,7 +25,8 @@
   //-------------------------------------------
 
   &__home-intro {
-    margin-top: $section-margin * 2;
+    margin-top: rem(100px);
+    margin-bottom: rem(100px);
     &--quote {
       color: $color-secondary;
     }
@@ -201,6 +202,7 @@
 
   @include media(760px) {
     grid-template-columns: repeat(6, 1fr);
+    padding-bottom: $section-margin;
   }
 }
 
@@ -216,7 +218,7 @@
     }
   }
 
-  // Sections with neutral bag that need bottom margin 0
+  // Sections with neutral bg that need bottom margin 0
   &_features {
     margin-bottom: 0;
   }
@@ -225,12 +227,18 @@
     margin-top: $spacing-large;
     margin-bottom: $spacing-large;
   }
+
+  // Sections with netural bg that need bottom padding
+  @include media(760px) {
+    &__approach, &__careers, &__contact, &__values {
+      padding-bottom: $section-margin;
+    }
+  }
 }
 
 // Styling for sections with neutral hex background
 .neutral-hex-bg {
   position: relative;
-
   @include media($medium-screen) {
     .section__title--wrapper {
       position: absolute;

@@ -1,7 +1,7 @@
 .hero {
   color: $white;
   font-size: $lead-font-size;
-  margin-bottom: 50px;
+  margin-bottom: $section-margin * 2;
 
   &.case-study-hero {
     margin-bottom: 0;
@@ -42,17 +42,14 @@
     }
 
     @include media($medium-screen) {
-
       .hero__text,
       .hero__image--wrapper {
         display: inline-block;
         vertical-align: middle;
-        position: relative;
 
         img {
           position: absolute;
-          top: -18.5rem;
-          left: 4rem;
+          top: 0;
           max-width: 787px;
           width: 100vw;
           height: auto;
@@ -71,6 +68,17 @@
           width: 100vw;
           position: relative;
           max-width: 760px;
+        }
+      }
+    }
+
+
+    @include media($large-screen) {
+      .hero__image--wrapper {
+        position: relative;
+        img {
+          top: -18.5rem;
+          left: 4rem;
         }
       }
     }
