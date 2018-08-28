@@ -1,7 +1,7 @@
 ---
 path: /team/kristian-ducharme
 type: team
-published: 1
+published: 0
 name: Kristian Ducharme
 image: 'images/kristian-ducharme.jpg'
 role: Engineer
@@ -36,7 +36,7 @@ medium_posts:
 
 Kristian loves learning, teaching, and creating things. He often serves as technical lead on agile Drupal projects providing custom module development, large-scale migrations, project planning, and automated testing -- but also applies his extremely diverse skillset to help with DevOps support, front-end design, database modeling, mobile development, and more. He’s a certified Acquia Drupal 8 Back End Specialist and Developer and contributes actively to the Drupal community.  Kristian has a BS in Computer Engineering from Cal Poly State University. He has a collection of over 15 vintage keyboards, has been a creator of guitar stomp pedals, and has co-written songs with Jon Anderson of YES.
 
-### Things Kristian loves Doing
+### Things Kristian Has Been Doing
 * Bridging the knowledge gap between citizens and lawmakers 
 * Empowering adult education practitioners to learn and collaborate
 * Keeping data open for the State of Georgia and Georgia State Charter Schools Commission, and US Department of Agriculture

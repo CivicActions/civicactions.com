@@ -53,6 +53,7 @@
         }
       }
     }
+
   }
 
   &__specs {
@@ -71,6 +72,17 @@
     }
     ul {
       margin: 0.5em 0;
+    }
+  }
+
+  &__text {
+    .blockquote {
+      &__icon {
+        border: none;
+      }
+      &__text {
+        font-size: $h3-font-size;
+      }
     }
   }
 

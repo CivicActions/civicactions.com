@@ -13,6 +13,8 @@ export default function Template({data}) {
   const{ frontmatter, html } = markdownRemark;
   const{ name, role, location, social, medium_posts, specialties, image, quote } = frontmatter;
 
+  let quoteName = name.split(' ');
+
   let memberSpecialties,
     specs,
     mediumPosts,
@@ -65,7 +67,7 @@ export default function Template({data}) {
         <div dangerouslySetInnerHTML = {{ __html: html}} />
         <Blockquote
           quote = { quote }
-          quote_source = { name }
+          quote_source = { quoteName[0] }
         />
       </section>
       <section className = "section section__recent-posts team team-member__posts">
