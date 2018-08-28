@@ -77,7 +77,7 @@ const Careers = ({data}) => {
 
       <Benefits title={benefits_title} />
 
-      <section className = "section section__recent-posts neutral-hex-bg">
+      <section className = "section section__recent-posts section__recent-posts-careers neutral-hex-bg">
         <div className = "usa-grid">
           <SectionTitle
             title = {openings_title}
