@@ -47,10 +47,12 @@
       .hero__image--wrapper {
         display: inline-block;
         vertical-align: middle;
+        position: relative;
 
         img {
           position: absolute;
-          top: 0;
+          top: -18.5rem;
+          left: 4rem;
           max-width: 787px;
           width: 100vw;
           height: auto;

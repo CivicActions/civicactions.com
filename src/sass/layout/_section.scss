@@ -25,7 +25,7 @@
   //-------------------------------------------
 
   &__home-intro {
-    margin-top: 50px;
+    margin-top: $section-margin * 2;
     &--quote {
       color: $color-secondary;
     }
@@ -224,5 +224,29 @@
   &_dkan_cta {
     margin-top: $spacing-large;
     margin-bottom: $spacing-large;
+  }
+}
+
+// Styling for sections with neutral hex background
+.neutral-hex-bg {
+  position: relative;
+
+  @include media($medium-screen) {
+    .section__title--wrapper {
+      position: absolute;
+      top: -4rem;
+    }
+
+    .related-content__list, .teaser, .section__benefits--intro-text{
+      padding-top: $site-margins * 2;
+    }
+
+    .align-right {
+      position: relative;
+      button {
+        position: relative;
+        bottom: -6rem;
+      }
+    }
   }
 }
