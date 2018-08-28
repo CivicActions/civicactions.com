@@ -20,7 +20,7 @@ quotes:
   }
 - {
     image: './team-members/images/steve-wirt.jpg',
-    text: 'We're each in charge of how we approach our own work, yet we're accountable to one another. So we focus on clear, transparent communication.',
+    text: "We're each in charge of how we approach our own work, yet we're accountable to one another. So we focus on clear, transparent communication.",
     author: 'Steve Wirt, Engineer'
   }
 ---
