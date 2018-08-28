@@ -3,7 +3,7 @@
     display: grid;
     align-items: baseline;
 
-    @media screen and (max-width: $small-screen) {
+    @media screen and (max-width: $medium-screen) {
       grid-template-columns: repeat(1, 1fr);
     }
 

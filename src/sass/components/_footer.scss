@@ -65,6 +65,15 @@
       text-align: left;
       padding-bottom: $spacing-medium;
     }
+    @include media(660px) {
+      .usa-width-one-third {
+        @include span-columns(6);
+      }
+      .usa-width-two-thirds {
+        @include span-columns(6);
+      }
+    }
+
     @include media($nav-width) {
       .usa-width-one-third {
         @include span-columns(4);
