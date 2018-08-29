@@ -60,7 +60,7 @@ const Layout = ({ children, data, location }) => (
         <Helmet
           title={ data.site.siteMetadata.title }
           meta={[
-              { name: 'description', content: 'Sample' },
+              { name: 'description', content: 'Open and Agile Digital Government Services' },
               { name: 'keywords', content: 'sample, something' },
 
               // Social Sharing
@@ -68,7 +68,7 @@ const Layout = ({ children, data, location }) => (
               { property: 'og:type', content: 'website'},
               { property: 'og:url', content: location },
               { property: 'og:title', content: data.site.siteMetadata.title },
-              { property: 'og:description', content: ''},
+              { property: 'og:description', content: 'Open and Agile Digital Government Services'},
               { property: 'og:image', content: header_bg },
               { name: 'twitter:card', content: config.seo.twitterCard },
               { name: 'twitter:site', content: config.seo.twitterSite },
