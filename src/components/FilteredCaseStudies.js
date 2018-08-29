@@ -12,6 +12,11 @@ class FilteredCaseStudies extends Component {
 
   handleClick(e) {
     let text = e.target.value;
+    let actives = document.querySelectorAll('.active');
+    [].forEach.call(actives, function(el) {
+        el.classList.remove("active");
+    });
+    e.target.classList.add('active');
     this.setState({ tag: text});
   }
 
