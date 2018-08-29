@@ -13,6 +13,8 @@ export default function Template({data}) {
   const{ frontmatter, html } = markdownRemark;
   const{ name, role, location, social, medium_posts, specialties, image, quote } = frontmatter;
 
+  let quoteName = name.split(' ');
+
   let memberSpecialties,
     specs,
     mediumPosts,
@@ -47,26 +49,28 @@ export default function Template({data}) {
     <GeneralLayout
       heroTitle    = { name }
       heroSubtitle = { role }
+      heroClass    = 'team-member__hero'
       pageTitle    = { `CivicActions | ${name}`}
       teamImage    = { memberImage }
       location     = { location }
       social       = { social }
     >
-
-      <section className = " section usa-grid ">
-        <div className = "study__tech-specs ">
-          <h3> Specialties </h3>
-          <ul>{ specs }</ul>
-        </div>
-      </section>
-      <section className = "section text-container">
+      <div className = "team_member__specs--wrapper">
+          <section className = " section usa-grid team-member__specs">
+              <div className = "study__tech-specs ">
+                  <span className = "study__tech-specs__title"> Specialties </span>
+                  <div> { specs } </div>
+              </div>
+          </section>
+      </div>
+      <section className = "section text-container team-member__text">
         <div dangerouslySetInnerHTML = {{ __html: html}} />
         <Blockquote
           quote = { quote }
-          quote_source = { name }
+          quote_source = { quoteName[0] }
         />
       </section>
-      <section className = "section section__recent-posts team">
+      <section className = "section section__recent-posts team team-member__posts">
         <div className = "usa-grid">
           <SectionTitle title = "Authored Articles" />
           { mediumPostsList }

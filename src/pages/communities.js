@@ -71,17 +71,15 @@ const Communities = ({ data }) => {
           <span className = "community__logo dkan"><Img resolutions = { dkanLogo } /></span>
           <SectionTitle
             title = {dkan_title}
-            subtitle = { dkan_intro_text }
-          />
+            subtitle = { dkan_intro_text }>
+            {/* Passing in a button component as props.children.  */}
+            <Button button_text={dkan_button_text}
+                    link={dkan_button_link}
+                    isExternal = { true } />
+          </SectionTitle>
           { DKANPosts }
         </div>
-        <div className = "usa-grid align-right">
-          <Button
-            button_text = {dkan_button_text}
-            link = {dkan_button_link}
-            isExternal = { true }
-          />
-        </div>
+
       </section>
     </GeneralLayout>
   );

@@ -33,3 +33,9 @@ abbr[title] {
 .visually-hidden {
   @include visually-hidden-text;
 }
+
+
+// Lists
+ul {
+  list-style-type: disc;
+}

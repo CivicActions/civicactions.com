@@ -60,7 +60,7 @@ const Careers = ({data}) => {
 
       <ImageSlider images = { images } />
 
-      <section className = "section">
+      <section className = "section section__careers">
         <div className = "usa-grid">
           <div className = "text-container" dangerouslySetInnerHTML = {{ __html: html }} />
         </div>
@@ -77,7 +77,7 @@ const Careers = ({data}) => {
 
       <Benefits title={benefits_title} />
 
-      <section className = "section section__recent-posts neutral-hex-bg">
+      <section className = "section section__recent-posts section__recent-posts-careers neutral-hex-bg">
         <div className = "usa-grid">
           <SectionTitle
             title = {openings_title}

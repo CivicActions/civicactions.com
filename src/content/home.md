@@ -16,12 +16,12 @@ quotes:
 - {
     image: './team-members/images/steve-curtis.jpg',
     text: 'We build trust by giving clients insight into the people we are, so they relate to us as humans rather than just contractors.',
-    author: 'Steve Wirt,  Engineer'
+    author: 'Steve Curtis,  Project Manager'
   }
 - {
     image: './team-members/images/steve-wirt.jpg',
-    text: 'We are each in charge of how we approach our own work, yet we’re accountable to each other. So we have to remain clear, focused, and transparent.',
-    author: 'Steve Curtis, Project Manager'
+    text: "We're each in charge of how we approach our own work, yet we're accountable to one another. So we focus on clear, transparent communication.",
+    author: 'Steve Wirt, Engineer'
   }
 ---
 We focus on outcomes and help organizations accomplish their missions through:

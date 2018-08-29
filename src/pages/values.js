@@ -22,7 +22,7 @@ const Values = ({ data }) => {
       heroTitle = { title }
       heroSubtitle = { subtitle }
     >
-      <section className = "section">
+      <section className = "section section__values">
         <div className = "usa-grid">
           <div className = "text-container" dangerouslySetInnerHTML = {{ __html: html }} />
         </div>
