@@ -27,15 +27,16 @@ Nomadic Wandering
 ]
 medium_posts: 
   - {
-  title: "CivicActions at Drupal GovCon 2018"
+  title: "CivicActions at Drupal GovCon 2018,"
   date: 08-13-18,
   url: https://medium.com/civicactions/civicactions-at-drupal-govcon-2018-f1075c4d803
   }
   - {
-  title: "Joining the Data Coalition and expanding our commitment to open data"
+  title: "Joining the Data Coalition and expanding our commitment to open data,"
   date: 07-28-18,
   url: https://medium.com/civicactions/joining-the-data-coalition-and-expanding-our-commitment-to-open-data-383f72937666
   }
+  
 ---
 
 Melinda loves to tell the stories of good things people are doing in the world. She writes about civic tech and government transformation with a focus on the people and processes that make better services for improving lives. At CivicActions she works on content strategy, marketing, and serving the [Agile Government Leadership community](https://www.agilegovleaders.org/).  
