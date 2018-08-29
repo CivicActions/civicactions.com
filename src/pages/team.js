@@ -3,8 +3,9 @@ import { graphql } from "gatsby"
 
 import GeneralLayout from "./../components/layouts/GeneralLayout"
 import TeaserGrid from './../components/TeaserGrid';
-import OurPerspectives from '../components/organisms/OurPerspectives';
+import GlobalQuotesSlider from './../components/organisms/GlobalQuoteSlider';
 import ImageBand from './../components/organisms/ImageBand';
+import SectionTitle from "./../components/atoms/SectionTitle";
 
 // Image band Images
 //@todo pull these images dynamically from a file source.
@@ -40,20 +41,28 @@ const Team = ({data}) => {
     });
 
   return(
-      <GeneralLayout
-          heroTitle = {title}
-          heroSubtitle = {subtitle}
-      >
-          <section className = "section usa-grid section__teaser-grid">
-              {teamTeasers}
-          </section>
+    <GeneralLayout
+      heroTitle = {title}
+      heroSubtitle = {subtitle}
+    >
+      <section className = "section usa-grid section__teaser-grid">
+        {teamTeasers}
+      </section>
 
-          <OurPerspectives title = {quotes_title} quotes={quotes} />
+      <section className = "section section__triple-quotes neutral-hex-bg team">
+        <div className = "usa-grid">
+          <SectionTitle title={quotes_title} />
+          <div
+            className = "blockquotes__list">
+            <GlobalQuotesSlider quotes={quotes} />
+          </div>
+        </div>
+      </section>
 
-          <section className = "feed__image--wrapper">
-            <ImageBand imageArray = { imageArray }/>
-          </section>
-      </GeneralLayout>
+      <section className = "feed__image--wrapper">
+        <ImageBand imageArray = { imageArray }/>
+      </section>
+    </GeneralLayout>
   )
 };
 
