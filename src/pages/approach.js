@@ -24,7 +24,7 @@ const Approach = ({data}) => {
      heroTitle = { title }
      heroSubtitle = { subtitle }
      >
-     <section className = "section">
+     <section className = "section section__approach">
        <div className = "usa-grid">
          <div className = "text-container" dangerouslySetInnerHTML = {{ __html: html }} />
        </div>

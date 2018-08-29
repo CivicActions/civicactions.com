@@ -82,6 +82,7 @@ $color-transparent:          rgba($shadow-black, 0) !default;
 // Mobile First Breakpoints
 $small-screen:  481px !default;
 $medium-screen: 600px !default;
+$medium-large-screen: 1000px !default;
 $large-screen:  1201px !default;
 
 // Grid column counts by screen size
@@ -91,6 +92,14 @@ $grid-columns-large: 12 !default;
 
 // Extra Layout classes
 $section-margin: rem(50px);
+
+/*
+ * Subtitle bottom margin
+ *
+ * Subtract 1em (17px) for paragraph margin
+ *  as most text is in a <p>.
+ */
+$section-subtitle-bottom-margin: rem(30px - 17px);
 
 // @media single-keyword helpers
 $small: new-breakpoint(min-width $small-screen $grid-columns-small) !default;

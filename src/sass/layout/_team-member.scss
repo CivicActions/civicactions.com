@@ -1,0 +1,109 @@
+.team-member {
+  &__hero {
+    text-align: center;
+    @media all and (max-width: $small-screen) {
+      transform: scaleY(-1);
+    }
+    .hero {
+      &__image {
+        padding-top: $site-margins;
+        margin-bottom: -($spacing-medium);
+        @media all and (max-width: $small-screen) {
+          transform: scaleY(-1);
+          img {
+            margin-top: $spacing-medium;
+            margin-bottom: -($spacing-medium);
+          }
+        }
+        @media all and (min-width: $medium-screen) {
+          @include span-columns(4);
+          padding-top: $spacing-medium;
+        }
+      }
+
+      &__text {
+        padding-bottom: $spacing-x-small;
+        @media all and (max-width: $small-screen) {
+          transform: scaleY(-1);
+        }
+        @media all and (min-width: $medium-screen) {
+          @include span-columns(8);
+          text-align: left;
+        }
+
+      }
+
+      &__intro-text, &__location {
+        line-height: 1.5;
+      }
+
+      &__social--link {
+        color: $white;
+        font-weight: $font-bold;
+        display: inline-block;
+        margin-right: $spacing-small;
+        &:after {
+          display: none;
+        }
+        &:first-of-type {
+          &:after {
+            content: '|';
+            display: inline-block;
+          }
+        }
+      }
+    }
+
+  }
+
+  &__specs {
+    padding: $spacing-medium;
+    @include media($medium-screen) {
+      padding: $site-margins 0;
+      .study__tech-specs {
+        @include shift(4);
+        padding-left: $spacing-medium;
+      }
+    }
+    .study__tech-specs__title {
+      font-family: $font-sans;
+      font-weight: $font-bold;
+      font-size: $base-font-size;
+    }
+    ul {
+      margin: 0.5em 0;
+    }
+  }
+
+  &__text {
+    .blockquote {
+      &__icon {
+        border: none;
+      }
+      &__text {
+        font-size: $h3-font-size;
+      }
+    }
+  }
+
+  &__posts {
+    margin-bottom: 0;
+    margin-top: 100px;
+    @include neutral-hex-bg;
+
+    .section__title--wrapper, .team__medium-posts {
+      margin-top: -($spacing-large);
+    }
+
+    @media all and (max-width: $small-screen) {
+      .section__title--wrapper {
+        margin-top: -4rem;
+      }
+    }
+  }
+}
+
+.team_member__specs--wrapper {
+  background: $neutral;
+  margin-top: -46px;
+}
