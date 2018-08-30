@@ -35,7 +35,7 @@ const CaseStudies = ({data}) => {
       <section className = "section section__triple-quotes neutral-hex-bg">
         <div className = "usa-grid">
           <div className = "absolute">
-            <SectionTitle title = "From Our Clients" />
+            <SectionTitle title = {quotes_title} />
             <div className = "blockquotes__list">
               <GlobalQuoteSlider quotes={quotes} />
             </div>
