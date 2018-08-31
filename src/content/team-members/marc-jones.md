@@ -21,17 +21,7 @@ Getting Audited,
 Thinking It Through,
 Reading Contracts
 ]
-medium_posts: 
-  - {
-  title: "",
-  date: ,
-  url: 
-  }
-  - {
-  title: "",
-  date: ,
-  url: 
-  }
+
   
 ---
 
