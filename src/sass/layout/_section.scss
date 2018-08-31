@@ -1,5 +1,5 @@
 .section {
-  margin-bottom: 50px;
+  margin-bottom: rem(100px);
 
   &__title {
     color: $color-secondary;
@@ -169,6 +169,19 @@
   }
 
   //------------------------------------------------------------
+  // FILTERS ON CASE STUDY LANDING PAGE
+  //------------------------------------------------------------
+  &__tag-filters {
+    margin-bottom: rem(40px);
+    margin-top: -($section-margin * 2);
+    padding: rem(36px) 3rem;
+  }
+
+  &__tag-filters__wrapper {
+    background: $neutral;
+  }
+
+  //------------------------------------------------------------
   // RELATED CASE STUDIES SECTION ON THE CASE STUDY LANDING PAGE
   //------------------------------------------------------------
   &__related-content {
@@ -264,7 +277,7 @@
       top: -4rem;
     }
 
-    .related-content__list, .teaser, .section__benefits--intro-text{
+    .related-content__list, .teaser, .section__benefits--intro-text, .section__features--intro-text {
       padding-top: $site-margins * 2;
     }
 

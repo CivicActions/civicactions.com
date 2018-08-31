@@ -1,10 +1,16 @@
 .team-member {
   &__hero {
     text-align: center;
+    margin-bottom: $section-margin;
     @media all and (max-width: $small-screen) {
       transform: scaleY(-1);
     }
     .hero {
+      &__title {
+        @media all and (max-width: $small-screen) {
+          margin-bottom: 0;
+        }
+      }
       &__image {
         padding-top: $site-margins;
         margin-bottom: -($spacing-medium);
@@ -35,6 +41,7 @@
 
       &__intro-text, &__location {
         line-height: 1.5;
+        font-weight: 300;
       }
 
       &__social--link {
