@@ -33,17 +33,7 @@ Empathy,
 Quality Assurance,
 Cat Whisperer
 ]
-medium_posts: 
-  - {
-  title: ,
-  date: ,
-  url: 
-  }
-  - {
-  title: "",
-  date: ,
-  url: 
-  }
+
   
 ---
 
