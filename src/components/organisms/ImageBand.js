@@ -28,11 +28,11 @@ const ImageBand = ({size, imageArray}) => {
 
   let imageList = imageArray.map((image, index) => {
     //@todo find a more accessible way to get the image alt.
-
+    const imageUrl = image ? image.childImageSharp.resize.src : null;
     let imageAlt = `team-image-${ index }`;
     return <img
       className = "feed__image"
-      src = { image }
+      src = { imageUrl }
       alt = { imageAlt }
       key = { index } />
   });

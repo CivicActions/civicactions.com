@@ -1,5 +1,5 @@
 .section {
-  margin-bottom: 50px;
+  margin-bottom: rem(100px);
 
   &__title {
     color: $color-secondary;
@@ -86,12 +86,19 @@
     }
   }
 
+  //-------------------------------------
+  // RECENT POSTS SECTION ON THE CAREERS PAGE
+  //-------------------------------------------
+
   &__recent-posts-careers {
     @media all and (min-width: $medium-screen) {
       .teaser--wrapper {
-        @include shift(6);
+        @include shift(5);
         padding-top: 3.4rem;
         overflow:hidden;
+      }
+      .section__subtitle {
+        @include span-columns(6);
       }
     }
   }
@@ -152,6 +159,7 @@
     }
   }
 
+
   //-------------------------------------
   // FEATURES INTRO SECTION ON THE DKAN OPEN DATA PAGE
   //-------------------------------------------
@@ -166,6 +174,19 @@
         margin-top: 0;
       }
     }
+  }
+
+  //------------------------------------------------------------
+  // FILTERS ON CASE STUDY LANDING PAGE
+  //------------------------------------------------------------
+  &__tag-filters {
+    margin-bottom: rem(40px);
+    margin-top: -($section-margin * 2);
+    padding: rem(36px) 3rem;
+  }
+
+  &__tag-filters__wrapper {
+    background: $neutral;
   }
 
   //------------------------------------------------------------
@@ -264,7 +285,7 @@
       top: -4rem;
     }
 
-    .related-content__list, .teaser, .section__benefits--intro-text{
+    .related-content__list, .teaser, .section__benefits--intro-text, .section__features--intro-text {
       padding-top: $site-margins * 2;
     }
 

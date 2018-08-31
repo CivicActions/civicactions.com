@@ -29,3 +29,9 @@
     font-size: $lead-font-size;
   }
 }
+
+.case-study-text {
+  blockquote {
+    margin-top: $section-margin;
+  }
+}
