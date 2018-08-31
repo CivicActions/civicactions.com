@@ -29,6 +29,17 @@ quotes:
 openings_title: Openings
 openings_subtitle: "We actively seek to broaden the diversity of people on our team, and strongly encourage folks from underrepresented groups to apply. We give equal consideration to all qualified applicants."
 benefits_title: What We Offer
+image_band:
+- './image-band/IMG_20170919_085448.jpg'
+- './image-band/IMG_20170918_123826.jpg'
+- './image-band/IMG_20170920_191202.jpg'
+- './image-band/sacramento.jpg'
+- './image-band/rachel-presentation.jpg'
+- './image-band/20170919_174032_HDR.jpg'
+- './image-band/IMG_20170918_182447.jpg'
+- './image-band/IMG_20180713_130136.jpg'
+- './image-band/IMG_0577.jpg'
+- './image-band/IMG_20170918_122218.jpg'
 ---
 ### Who we are
 CivicActions is built on a culture of openness and authenticity. We aren’t afraid to show emotion or be our true selves. We find inspiration in the things that make each of us unique, and we continually share and learn from each other. We are people first, striving to make the world better through our work, but also creating an environment that allows us to care for ourselves and each other.
