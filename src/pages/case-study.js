@@ -60,7 +60,7 @@ export const allCaseStudies = graphql `
         author
         image {
           childImageSharp{
-            fixed(width:264, height: 264) {
+            fixed(width: 134, height: 134) {
               ...GatsbyImageSharpFixed_withWebp_noBase64
             }
           }
