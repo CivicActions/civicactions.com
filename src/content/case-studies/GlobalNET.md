@@ -11,7 +11,7 @@ background_section_title: "Outdated technology and complex requirements"
 background_section: "The Defense Security Cooperation Agency (DSCA) uses the GlobalNET platform to facilitate secure collaboration among its partner organizations. GlobalNET’s 76,000 participants are comprised of military, diplomatic, law enforcement, and civilian government personnel throughout the world. They speak many languages and possess varying degrees of technical know-how, so GlobalNET must be accessible and easy to use for everyone -- while meeting the highest standards for security."
 background_section_second: "GlobalNET needed an update to support new participants, additional features, and a better user experience. Multiple layers of customers and microservices made the project very complex. With over 1,500 content updates to the site per day, the modernization needed to be completed with minimal disruption to thousands of users."
 
-tags: ["Drupal", "DevOps", "Security & Compliance", "Quality Assurance", "UX", "Support"]
+tags: ["Drupal", "DevOps", "Security and Compliance", "Quality Assurance", "UX", "Support"]
 specs: [
 "Drupal 7, Ilias, EZproxy, Adobe Connect, JIRA",
 "Mobile-friendly, responsive design",
