@@ -44,6 +44,7 @@
         font-weight: 300;
       }
 
+
       &__social--link {
         color: $white;
         font-weight: $font-bold;
@@ -58,6 +59,9 @@
             display: inline-block;
           }
         }
+      }
+      &__social--link:last-child {
+        margin-right: 0;
       }
     }
 
