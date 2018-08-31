@@ -1,5 +1,5 @@
 .section {
-  margin-bottom: 50px;
+  margin-bottom: rem(100px);
 
   &__title {
     color: $color-secondary;
@@ -166,6 +166,19 @@
         margin-top: 0;
       }
     }
+  }
+
+  //------------------------------------------------------------
+  // FILTERS ON CASE STUDY LANDING PAGE
+  //------------------------------------------------------------
+  &__tag-filters {
+    margin-bottom: rem(40px);
+    margin-top: -($section-margin * 2);
+    padding: rem(36px) 3rem;
+  }
+
+  &__tag-filters__wrapper {
+    background: $neutral;
   }
 
   //------------------------------------------------------------
