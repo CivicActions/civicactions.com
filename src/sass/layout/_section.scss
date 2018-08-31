@@ -86,12 +86,19 @@
     }
   }
 
+  //-------------------------------------
+  // RECENT POSTS SECTION ON THE CAREERS PAGE
+  //-------------------------------------------
+
   &__recent-posts-careers {
     @media all and (min-width: $medium-screen) {
       .teaser--wrapper {
-        @include shift(6);
+        @include shift(5);
         padding-top: 3.4rem;
         overflow:hidden;
+      }
+      .section__subtitle {
+        @include span-columns(6);
       }
     }
   }
@@ -151,6 +158,7 @@
       }
     }
   }
+
 
   //-------------------------------------
   // FEATURES INTRO SECTION ON THE DKAN OPEN DATA PAGE
