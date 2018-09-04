@@ -193,7 +193,7 @@
   }
 
   //------------------------------------------------------------
-  // RELATED CASE STUDIES SECTION ON THE CASE STUDY LANDING PAGE
+  // RELATED CASE STUDIES SECTION 
   //------------------------------------------------------------
   &__related-content {
     background-color: $neutral;
@@ -201,6 +201,13 @@
     margin-top: $section-margin;
     margin-bottom: 0;
     padding-bottom: $section-margin;
+  }
+
+  &__related-content--no-bg {
+    margin-top: rem(100px);
+    .section__title {
+      margin-bottom: 0;
+    }
   }
 
   //------------------------------------------------------------

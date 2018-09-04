@@ -5,19 +5,21 @@ import IconParagraphsGroup from '../components/organisms/IconParagraphsGroup'
 import GeneralLayout from '../components/layouts/GeneralLayout';
 import SectionTitle from '../components/atoms/SectionTitle';
 import Button from "../components/atoms/Buttons";
+import RelatedStudies from '../components/RelatedStudies'; 
 
 const Dkan = ({data}) => {
-  const{ markdownRemark } = data;
-  const{ frontmatter, html } = markdownRemark;
+  const{ markdownRemark, allMarkdownRemark} = data;
+  const{edges} = allMarkdownRemark;
+  const{ frontmatter, html} = markdownRemark;
   const{
     features,
     features_title,
+    tags,
     title,
     subtitle
   } = frontmatter;
 
-
- return(
+  return(
    <GeneralLayout
      heroTitle = { title }
      heroSubtitle = { subtitle }
@@ -43,9 +45,16 @@ const Dkan = ({data}) => {
          <IconParagraphsGroup icons = { features } />
        </section>
      </section>
+
+     { (tags && edges) ? (
+       <RelatedStudies
+         posts={ edges }
+         tags={ tags }
+         customClasses='section__related-content--no-bg'
+       />
+     ) : null}
+
     </GeneralLayout>
-
-
  );
 
 };
@@ -53,8 +62,8 @@ const Dkan = ({data}) => {
 export default Dkan;
 
 export const dkanOpenDataQuery = graphql`
-  query dkan {
-    markdownRemark(frontmatter: { title: { eq: "DKAN and Open Data" } } ) {
+query dkan {
+  markdownRemark(frontmatter: { title: { eq: "DKAN and Open Data" } } ) {
     html
     frontmatter {
       title
@@ -68,7 +77,32 @@ export const dkanOpenDataQuery = graphql`
           publicURL
         }
       }
+      tags
     }
   }
+
+  allMarkdownRemark(
+    filter: {frontmatter: {type: {eq: "case-study"}}}
+    limit: 3
+  ) {
+    totalCount
+    edges {
+      node {
+        frontmatter {
+          client_name
+          title
+          path
+          tags
+          preview_image {
+            childImageSharp {
+              resize(width: 300, height: 300) {
+                src
+              }
+            }
+          }
+        }
+      }
+    }
   }
+}
 `;
