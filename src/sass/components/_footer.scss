@@ -91,6 +91,10 @@
       padding-bottom: $spacing-small;
     }
 
+    .usa-footer-secondary-link:hover, .external-link span:hover {
+      text-decoration: none;
+    }
+
     @media screen and (max-width: $medium-screen) {
       ul {
         .usa-footer-primary-link {
