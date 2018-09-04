@@ -6,8 +6,9 @@ import CaseStudyTeaser from "./../components/CaseStudyTeaser";
 import SectionTitle from './../components/atoms/SectionTitle';
 
 
-const RelatedStudies = ({posts, tags}) => {
+const RelatedStudies = ({posts, tags, customClasses}) => {
   let relatedStudiesCounter = 0;
+  const classes = customClasses ? customClasses :  'section__related-content neutral-hex-bg';
 
   const relatedContent = (posts.map((post, index) => {
     const{ node } = post;
@@ -39,7 +40,7 @@ const RelatedStudies = ({posts, tags}) => {
 
   if(relatedStudiesCounter > 0) {
     return (
-      <div className = "section section__related-content neutral-hex-bg">
+      <div className = {`section ${classes}`}>
         <section className = "usa-grid">
           <SectionTitle title = "Related Case Studies"/>
             <div className = "related-content__list">
