@@ -20,3 +20,13 @@ describe("Button", () =>
     const testInstance = testRenderer.root;
     expect(testInstance.findByType(Button).props.button_text).toBe('Button text');
   }))
+
+/*
+ *Include a snapshot test.
+ */
+describe("Button snapshot test.", () =>
+  it("renders button text", () => {
+    const tree = testRenderer.toJSON();
+    expect(tree).toMatchSnapshot();
+  }))
+

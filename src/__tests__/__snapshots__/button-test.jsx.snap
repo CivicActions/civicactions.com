@@ -1,0 +1,25 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Button snapshot test. renders button text 1`] = `
+<button
+  className="usa-button"
+>
+  <a
+    href="http://www.civicactions.com"
+  >
+    Button text
+  </a>
+</button>
+`;
+
+exports[`Button snapsjhot test. renders button text 1`] = `
+<button
+  className="usa-button"
+>
+  <a
+    href="http://www.civicactions.com"
+  >
+    Button text
+  </a>
+</button>
+`;
