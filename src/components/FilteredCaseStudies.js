@@ -42,11 +42,6 @@ class FilteredCaseStudies extends Component {
 
     // The filtered tags are initially set to "All" to display all case studies on page load
     // If a tag is clicked the case studies get filtered
-
-    // if(this.state.tag.length === 0 ) {
-    //   this.state.tag = ['All'];
-    // }
-
     const filteredStudies = this.state.tag[0] === 'All' ? posts :
       posts.filter((item) => {
       const{ tags } = item.node.frontmatter;
