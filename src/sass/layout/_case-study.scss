@@ -33,5 +33,8 @@
 .case-study-text {
   blockquote {
     margin-top: $section-margin;
+    cite {
+      margin-top: $cite-margin;
+    }
   }
 }
