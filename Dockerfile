@@ -1,4 +1,22 @@
 #
+# Node environment (used for sandboxes also)
+#
+FROM node:8.11 as env
+WORKDIR /usr/src/app
+ENV PATH=/usr/src/app/node_modules/.bin/:${PATH}
+
+#
+# Build site
+#
+FROM env as app
+ARG GATSBY_JAZZ_URL
+
+COPY package.json yarn.lock ./
+RUN yarn install --pure-lockfile
+COPY . .
+RUN yarn build
+
+#
 # Build web server
 # This is based on https://github.com/abiosoft/caddy-docker/blob/master/Dockerfile
 #
@@ -8,19 +26,6 @@ ARG version="0.11.0"
 ARG plugins="realip,expires,prometheus,cloudflare"
 
 RUN VERSION=${version} PLUGINS=${plugins} ENABLE_TELEMETRY=false /bin/sh /usr/bin/builder.sh
-
-
-#
-# Build site
-#
-FROM node:8.11 as app
-ARG GATSBY_JAZZ_URL
-
-WORKDIR /usr/src/app
-COPY package.json yarn.lock ./
-RUN yarn --pure-lockfile
-COPY . .
-RUN yarn build
 
 #
 # Compress site files

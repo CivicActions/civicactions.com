@@ -5,9 +5,9 @@ CivicActions home site
 For an overview of the project structure please refer to the [Gatsby documentation - Building with Components](https://www.gatsbyjs.org/docs/building-with-components/).
 
 ## Requirements
-* A recent version of [Node.js](https://nodejs.org/en/)
-* Npm: https://www.npmjs.com/get-npm
-* [Yarn](https://yarnpkg.com/lang/en/)
+* [Docker 17.05 or later](https://docs.docker.com/install/)
+
+Alternatively you can use a recent version of [Node.js](https://nodejs.org/en/) and [Yarn](https://yarnpkg.com/lang/en/) - however Docker is the preferred environment as it matches CI and production environments.
 
 ## Install
 Clone the git repository:
@@ -17,26 +17,49 @@ git clone git@github.com:CivicActions/civicactions.com.git
 
 Go to the top level directory:
 ```sh
-cd civicactions
+cd civicactions.com
 ```
 
-Make sure that you have the Gatsby CLI program installed:
+Source an activate script. This will make CLI tools (running in Docker) available on your terminal and also download NPM dependencies.
 ```sh
-npm install --global gatsby-cli
-```
-
-And run from your CLI:
-```sh
-yarn
+. bin/activate
 ```
 
 Fire up the development server:
 ```sh
-cd gatsby-example-site
-gatsby develop
+yarn develop
 ```
 You should see the site by going to http://localhost:8000/  in your browser.
 To turn off the server run `Ctrl + C`
+
+To see gatsby sub-commands available run:
+```sh
+gatsby
+```
+
+To see other scripts useful for development:
+```sh
+yarn run
+```
+
+You can also test a full build which will run with some additional compression steps and serve the site with the [Caddy](https://caddyserver.com/) web server, albeit without hot reloading.
+```sh
+fullbuild
+```
+You should see the site by going to http://localhost:8000/  in your browser.
+To turn off the server run `Ctrl + C`
+
+To stop development and use your local versions of CLI tools run:
+```sh
+deactivate
+```
+
+If you encounter problems you can force a rebuild by deleting the sandbox and/or full images and reactivate:
+```sh
+deactivate
+docker rmi -f home-sandbox home-full
+. bin/activate
+```
 
 ## Development Workflow
 To collaborate on this project first follow the install steps above to create a functional sandbox.
@@ -52,20 +75,15 @@ git remote add origin git@github.com:CivicActions/civicactions.com.git
 git remote add myfork [link used to clone your fork]
 ```
 
----
 ### Working in local branch
 
 4. Create a new local branch with the naming convention `CA-xx(ticket number)-brief-ticket-title` and commit your changes to the ticket branch.
 5. After working, run `git pull --rebase origin master` to pull in the latest changes.
-6. Run `npm install` to update the site with any new plugins.
-7. Run `gatsby develop` to make sure the site builds as expected.
+6. Run `yarn install` to update the site with any new plugins.
+7. Run `yarn develop` to make sure the site builds as expected.
 8. Push your changes to your fork `git push myfork`.
 9. Create a PR in the main repo.
 
 ## Deploy
-### Deploying the static site in Github pages
-To deploy the current work in the master branch run: 
-```
-npm run deploy
-```
-This will push updated changes to the origin/gh-pages branch which updates the static page.
+
+Pull requests are deployed automatically when merged.
