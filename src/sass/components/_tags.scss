@@ -23,9 +23,7 @@ $outline: -1px 1px 6px 3px $color-primary-alt-lightest;
     box-shadow: $outline;
   }
 
-  &.active,
-  &:active,
-  &:focus {
+  &.active {
     background-color: $color-secondary;
     color: $white;
   }

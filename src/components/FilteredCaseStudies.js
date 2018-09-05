@@ -2,31 +2,47 @@ import React, { Component } from "react";
 
 import CaseStudyTeaser from './../components/CaseStudyTeaser';
 
+const defaultProps = {
+  tags: []
+};
+
 class FilteredCaseStudies extends Component {
+  static defaultProps = defaultProps;
   constructor(props) {
     super(props);
     this.state = {
-      tag: 'All'
-    }
+      tag: ['All']
+    };
   }
 
   handleClick(e) {
-    let text = e.target.value;
-    let actives = document.querySelectorAll('.active');
-    [].forEach.call(actives, function(el) {
-        el.classList.remove("active");
-    });
-    e.target.classList.add('active');
-    this.setState({ tag: text});
+      let text = e.target.value;
+      let tags = defaultProps.tags;
+      let index = tags.indexOf(text);
+
+      if(index === -1) {
+        tags.push(text);
+        e.target.classList.add('active');
+        document.querySelector('[ value = "All" ]').classList.remove('active');
+      } else {
+        tags.splice(index, 1);
+        e.target.classList.remove('active');
+      }
+
+      if(tags.length === 0) {
+          tags = ['All'];
+          document.querySelector('[ value = "All" ]').classList.add('active');
+      }
+
+      this.setState({tag: tags});
   }
 
   render() {
     const{ posts, allTags } = this.props;
 
     // The filtered tags are initially set to "All" to display all case studies on page load
-    // If a tag is clicked the case studies get filtered.
-
-    const filteredStudies = this.state.tag === "All" ? posts :
+    // If a tag is clicked the case studies get filtered
+    const filteredStudies = this.state.tag[0] === 'All' ? posts :
       posts.filter((item) => {
       const{ tags } = item.node.frontmatter;
       return tags.some(v => this.state.tag.includes(v));
