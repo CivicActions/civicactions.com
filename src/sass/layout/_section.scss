@@ -281,23 +281,62 @@
 // Styling for sections with neutral hex background
 .neutral-hex-bg {
   position: relative;
+
+  .section__title--wrapper {
+    position: absolute;
+    top: -4rem;
+  }
+
+  .related-content__list, .teaser, .section__benefits--intro-text, .section__features--intro-text {
+    padding-top: $site-margins * 2;
+  }
+
+  @media all and (max-width: $small-screen) {
+    .section__recent-posts-careers {
+      .section__title--wrapper {
+        position: relative;
+        top: 0;
+      }
+    }
+    .teaser__contracting {
+      padding-top: $site-margins * 6;
+    }
+    .section__benefits--intro-text {
+      padding-top: $site-margins * 4;
+    }
+    .related-content__list {
+      padding-top: $site-margins * 3
+    }
+  }
+
   @include media($medium-screen) {
-
-    .section__title--wrapper {
-      position: absolute;
-      top: -4rem;
-    }
-
-    .related-content__list, .teaser, .section__benefits--intro-text, .section__features--intro-text {
-      padding-top: $site-margins * 2;
-    }
-
     .align-right {
       position: relative;
       button {
         position: relative;
         bottom: -6rem;
       }
+    }
+  }
+}
+
+@media all and (max-width: $small-screen) {
+  .section__recent-posts-careers {
+    .section__title--wrapper {
+      position: relative;
+      top: 0;
+      h2 {
+        position: absolute;
+        top: -4rem;
+      }
+      .section__subtitle {
+        padding-top: $site-margins * 2;
+      }
+    }
+  }
+  .section__triple-quotes-careers {
+    .blockquotes__list {
+      padding-top: $site-margins * 2;
     }
   }
 }

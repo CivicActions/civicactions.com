@@ -55,7 +55,7 @@ const Careers = ({data}) => {
         </div>
       </section>
 
-      <section className = "section section__triple-quotes neutral-hex-bg">
+      <section className = "section section__triple-quotes section__triple-quotes-careers neutral-hex-bg">
         <div className = "usa-grid">
           <SectionTitle title = { quotes_title } />
           <div className = "blockquotes__list">
