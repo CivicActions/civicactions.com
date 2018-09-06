@@ -4,12 +4,11 @@
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    margin: 1rem 0;
 
     font-family: $font-sans;
     font-weight: $font-bold;
     font-size: $h6-font-size;
-    line-height: 1.2;
+    line-height: 1.1;
     text-align: center;
     color: $navy;
   }
@@ -41,5 +40,11 @@
         }
       }
     }
+  }
+}
+
+.icon_foia {
+  .rollovericon__rollover_text {
+    padding-top: 1.5rem;
   }
 }
