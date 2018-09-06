@@ -40,8 +40,6 @@ $outline: -1px 1px 6px 3px $color-primary-alt-lightest;
 // Remove hover state for tags on individual case studies
 .text-container {
   .tags {
-    &:hover {
-      background: $white;
-    }
+    pointer-events: none;
   }
 }
