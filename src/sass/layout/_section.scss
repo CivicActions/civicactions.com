@@ -301,8 +301,8 @@
     .section__benefits--intro-text {
       padding-top: $site-margins * 4;
     }
-    .blockquotes__list {
-      padding-top: $site-margins * 2;
+    .related-content__list {
+      padding-top: $site-margins * 3
     }
   }
 
@@ -329,6 +329,11 @@
       .section__subtitle {
         padding-top: $site-margins * 2;
       }
+    }
+  }
+  .section__triple-quotes-careers {
+    .blockquotes__list {
+      padding-top: $site-margins * 2;
     }
   }
 }
