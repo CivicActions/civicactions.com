@@ -87,7 +87,7 @@ const FeaturedClients = () => (
             />
             <RolloverIcon
                 icon = { deptdefense }
-                icon_rollover_text = "Department of Defense"
+                icon_rollover_text = "US Department of Defense"
                 icon_class = "icon_dod"
             />
             <RolloverIcon
