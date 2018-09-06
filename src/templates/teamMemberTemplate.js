@@ -65,17 +65,25 @@ export default function Template({data}) {
       </div>
       <section className = "section text-container team-member__text">
         <div dangerouslySetInnerHTML = {{ __html: html}} />
-        <Blockquote
-          quote = { quote }
-          quote_source = { quoteName[0] }
-        />
+          { // Just show quote if quote exists
+              quote && quoteName[0] !== '' ?
+                  <Blockquote
+                      quote = { quote }
+                      quote_source = { quoteName[0] }
+                  />
+                  : quote }
       </section>
-      <section className = "section section__recent-posts team team-member__posts">
-        <div className = "usa-grid">
-          <SectionTitle title = "Authored Articles" />
-          { mediumPostsList }
-        </div>
-      </section>
+
+        { // Just show medium posts if medium posts exist
+            mediumPostsList ?
+                <section className = "section section__recent-posts team team-member__posts">
+                    <div className = "usa-grid">
+                        <SectionTitle title = "Authored Articles" />
+                        { mediumPostsList }
+                    </div>
+                </section>
+                : mediumPostsList }
+
     </GeneralLayout>
   );
 };
