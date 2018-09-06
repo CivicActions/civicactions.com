@@ -187,6 +187,9 @@
 
   &__tag-filters__wrapper {
     background: $neutral;
+    h4 {
+      font-size: $base-font-size;
+    }
   }
 
   //------------------------------------------------------------
