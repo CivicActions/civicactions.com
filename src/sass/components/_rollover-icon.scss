@@ -1,12 +1,16 @@
 .rollovericon {
   &__rollover_text {
     display: none;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+
     font-family: $font-sans;
     font-weight: $font-bold;
     font-size: $h6-font-size;
-    line-height: 1.31;
-    color: $navy;
+    line-height: 1.1;
     text-align: center;
+    color: $navy;
   }
 
   &__wrapper {
@@ -15,6 +19,14 @@
     display: inline-block;
     margin: 15px;
     vertical-align: top;
+    &:hover {
+      .rollovericon__icon {
+        display: none;
+      }
+      .rollovericon__rollover_text {
+        display: flex;
+      }
+    }
   }
 
   &__group {
@@ -28,5 +40,11 @@
         }
       }
     }
+  }
+}
+
+.icon_foia {
+  .rollovericon__rollover_text {
+    padding-top: 1.5rem;
   }
 }
