@@ -21,14 +21,13 @@
         max-width: 132px;
       }
     }
-
-
   }
 
   &__text {
     margin-left: 10px;
     display: inline-block;
-    width: calc(100% - 50px);
+    @include span-columns(9);
+    @include shift(2 of 12);
     font-size: $lead-font-size;
     padding-left: 0;
     background-image: none;
@@ -36,7 +35,7 @@
 
   &__icon {
     display: inline-block;
-    //margin-top: 1em;
+    position: absolute;
     vertical-align: top;
   }
 
@@ -66,7 +65,8 @@ cite {
   font-weight: bold;
   text-align: right;
   display: block;
-
+  @include span-columns(10);
+  @include shift(2 of 12);
   &::before {
     content: '— ';
   }
