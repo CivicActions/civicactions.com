@@ -41,6 +41,6 @@ TeaserGrid.propTypes = {
     link: PropTypes.string,
     name: PropTypes.string,
     title: PropTypes.string,
-    published: PropTypes.boolean
+    published: PropTypes.number
 };
 
