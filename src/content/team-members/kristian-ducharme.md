@@ -24,12 +24,12 @@ Keyboarding (the musical kind)
 medium_posts: 
   - {
   title: A post from Medium,
-  date: 07-07-18,
+  date: "July 7, 2018",
   url: https://medium.com
   }
   - {
   title: "Silence Is Not An Option: Helping Doctors Without Borders Speak Up For Vulnerable Humans",
-  date: 07-20-18,
+  date: "July 20, 2018",
   url: https://medium.com/civicactions/silence-is-not-an-option-helping-doctors-without-borders-speak-up-for-vulnerable-humans-7bf5940a19cd
   }
 ---
