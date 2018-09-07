@@ -10,10 +10,12 @@ $outline: -1px 1px 6px 3px $color-primary-alt-lightest;
 // This mixin is only needed until we fully remove the
 // deprecated usa-button-disabled style.
 @mixin disabledesque {
-  background-color: $color-gray-lighter;
+  background-color: #acacac;
   pointer-events: none;
-  color: lighten($navy, 10%);
-  text-shadow: 1px 1px 0 $white;
+  color: #3f3e3e;
+  font-family: $font-sans;
+  font-size: rem(19px);
+  font-weight: 900;
 
   &:hover,
   &.usa-button-hover,
