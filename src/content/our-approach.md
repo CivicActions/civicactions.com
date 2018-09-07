@@ -181,7 +181,7 @@ technologies:
   - {
     icon: './foss/owasp-zap.png',
     title: OWASP ZAP,
-    url: https://www.owasp.org/index.php/OWASP_Zed_Attack_Proxy_Project
+    url: https://www.owasp.org/index.php/OWASP_Zed_Attack_Proxy_Project/
   }
   
 ---  
