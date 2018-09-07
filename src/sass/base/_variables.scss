@@ -79,6 +79,9 @@ $shadow-black: #000;
 $color-shadow:               rgba($shadow-black, .3) !default;
 $color-transparent:          rgba($shadow-black, 0) !default;
 
+$color-disabled:              #acacac;
+$color-disabled-text:         #3f3e3e;
+
 // Mobile First Breakpoints
 $small-screen:  481px !default;
 $medium-screen: 600px !default;
