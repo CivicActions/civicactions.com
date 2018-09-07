@@ -10,9 +10,9 @@ $outline: -1px 1px 6px 3px $color-primary-alt-lightest;
 // This mixin is only needed until we fully remove the
 // deprecated usa-button-disabled style.
 @mixin disabledesque {
-  background-color: $color-disabled;
+  background-color: #acacac;
   pointer-events: none;
-  color: $color-disabled-text;
+  color: #3f3e3e;
   font-family: $font-sans;
   font-size: rem(19px);
   font-weight: 900;
