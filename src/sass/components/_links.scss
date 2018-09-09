@@ -15,15 +15,6 @@ a.external-link {
     }
   }
 }
-
-.usa-nav-primary {
-  a.external-link {
-    &:hover {
-      color: $color-primary;
-    }
-  }
-}
-
 .usa-button-navy, .usa-button {
   a.external-link {
     &:after {
@@ -43,6 +34,17 @@ a.external-link {
     &:active {
       &:after {
         content: url('./../files/icons/external-link-pressed.svg');
+      }
+    }
+  }
+}
+
+.usa-nav-primary {
+  a.external-link {
+    &:hover {
+      color: $color-primary;
+      &:after {
+        content: url('./../files/icons/external-link-hover.svg');
       }
     }
   }
