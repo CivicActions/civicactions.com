@@ -16,6 +16,23 @@ a.external-link {
   }
 }
 
+.usa-nav-primary {
+  a.external-link {
+    &:hover {
+      color: $color-primary;
+    }
+  }
+}
+
+.usa-button-navy, .usa-button {
+  a.external-link {
+    &:after {
+      margin-left: 5px;
+      content: url('./../files/icons/external-link.svg');
+    }
+  }
+}
+
 .footer, .usa-nav {
   a.external-link {
     display: inline-block;
