@@ -105,7 +105,7 @@ query jobsQuery {
           alt
           url {
           childImageSharp {
-            fixed(width:2000, height: 727) {
+            fixed(width:2000) {
                 ...GatsbyImageSharpFixed_withWebp_noBase64
             }
            }
