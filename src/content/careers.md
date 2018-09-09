@@ -5,7 +5,7 @@ title: "Careers"
 subtitle: "CivicActions is a place to learn and grow with a talented group of folks who are passionate about transforming the future of government digital services. Join us!"
 images:
   - {
-  url: 'team.jpg', 
+  url: 'careers.jpg', 
   caption: 'CivicActions retreat 2017 in Sacramento', 
   alt: 'CivicActions retreat 2017 in Sacramento'
   }
