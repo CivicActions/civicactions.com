@@ -53,6 +53,14 @@
             content: url('./../files/icons/social/linkedin.svg')
           }
         }
+        span {
+          position: absolute !important;
+          clip: rect(1px, 1px, 1px, 1px);
+          overflow: hidden;
+          height: 1px;
+          width: 1px;
+          word-wrap: normal;
+        }
       }
     }
   }
