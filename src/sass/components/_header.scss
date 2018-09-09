@@ -21,6 +21,14 @@
 
     max-width: 150px;
   }
+  span {
+    position: absolute !important;
+    clip: rect(1px, 1px, 1px, 1px);
+    overflow: hidden;
+    height: 1px;
+    width: 1px;
+    word-wrap: normal;
+  }
 }
 
 // For a strange bug that hides all processed images.
