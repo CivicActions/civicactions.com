@@ -25,7 +25,7 @@ const RelatedByTitle = ({posts, titles}) => {
     }));
 
 
-  if(relatedContent) {
+  if(relatedContent.length > 0) {
     return (
       <div className = "section section__related-content neutral-hex-bg">
         <section className = "usa-grid">

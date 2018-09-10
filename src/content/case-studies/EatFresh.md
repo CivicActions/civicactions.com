@@ -11,7 +11,8 @@ background_section_title: "Beyond food stamps"
 background_section: "San Francisco’s Human Services Agency (SFHSA) plays an important role in helping low-income residents get access to services that keep them healthy, including the CalFresh food stamp program. But CalFresh users are often faced with significant time and budget constraints when trying to make healthy choices." 
 
 background_section_second: "SFHSA and its community partner, Leah’s Pantry, needed help developing a resource for low-income Californians that would complement the CalFresh program and integrate with other community health initiatives. SFHSA wanted to create an online platform that would help users find healthy, low-cost recipes and get advice from nutrition experts. This resource would need to be accessible across many devices, languages, and cultures to meet the needs of California’s diverse low-income population."
-
+related_titles: 
+- "Test"
 tags: ["UX", "Drupal"]
 specs: [
 "Drupal 7",
