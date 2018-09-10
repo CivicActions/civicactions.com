@@ -1,5 +1,7 @@
 import React from "react";
 
+import {filterPostsByTitle} from "../helpers";
+
 const allPosts = [
   {
     title: "title to include 1",
@@ -18,12 +20,6 @@ const allPosts = [
     path: "path 2"
   }
 ];
-
-const filterPostsByTitle = (posts, titles) => {
-  return posts.filter((p) => {
-    return titles.includes(p.title);
-  });
-};
 
 const nodesFromTitles = (posts, titles, filterFun) => {
   return filterFun(posts, titles);
