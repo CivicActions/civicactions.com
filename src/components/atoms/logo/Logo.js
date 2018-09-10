@@ -16,6 +16,8 @@ const Logo = ({siteTitle}) => {
            retina_logo_url= { logo2x }
            className="logo__image"
       />
+
+      <span> { siteTitle } </span>
     </Link>
   );
 };

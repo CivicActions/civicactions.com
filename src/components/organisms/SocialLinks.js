@@ -10,7 +10,8 @@ class SocialLinks extends Component {
                href = { link.url }
                target = "_blank"
                rel = "external noopener noreferrer"
-               className = { link.iconClassName }>
+               className = { link.iconClassName }  >
+               <span> { link.label } </span>
             </a>
         ));
     }
