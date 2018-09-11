@@ -6,7 +6,6 @@ import { graphql } from 'gatsby';
 
 import GeneralLayout from './../components/layouts/GeneralLayout';
 import ImageSlider from './../components/organisms/ImageSlider';
-import RelatedStudies from './../components/RelatedStudies';
 import RelatedByTitle from './../components/RelatedByTitle';
 
 export default function Template({data}) {

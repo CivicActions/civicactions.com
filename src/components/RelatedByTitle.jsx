@@ -6,8 +6,9 @@ import CaseStudyTeaser from "./../components/CaseStudyTeaser";
 import SectionTitle from './../components/atoms/SectionTitle';
 
 
-const RelatedByTitle = ({posts, titles}) => {
+const RelatedByTitle = ({posts, titles, customClasses}) => {
 
+  const classes = customClasses ? customClasses :  'section__related-content neutral-hex-bg';
   const relatedContent = (filterPostsByTitle(
     posts.map((p) => {return (existy(p) && existy(p.node) && existy(p.node.frontmatter) ? p.node.frontmatter : null)}), titles).splice(0,3).map((post, index) => {
       const{ title, preview_image, client_name, path } = post;
@@ -27,7 +28,7 @@ const RelatedByTitle = ({posts, titles}) => {
 
   if(relatedContent.length > 0) {
     return (
-      <div className = "section section__related-content neutral-hex-bg">
+        <div className = {`section ${classes}`}>
         <section className = "usa-grid">
           <SectionTitle title = "Related Case Studies"/>
           <div className = "related-content__list">
