@@ -55,7 +55,7 @@ const Careers = ({data}) => {
         </div>
       </section>
 
-      <section className = "section section__triple-quotes neutral-hex-bg">
+      <section className = "section section__triple-quotes section__triple-quotes-careers neutral-hex-bg">
         <div className = "usa-grid">
           <SectionTitle title = { quotes_title } />
           <div className = "blockquotes__list">
@@ -105,7 +105,7 @@ query jobsQuery {
           alt
           url {
           childImageSharp {
-            fixed(width:2000, height: 727) {
+            fixed(width:2000) {
                 ...GatsbyImageSharpFixed_withWebp_noBase64
             }
            }

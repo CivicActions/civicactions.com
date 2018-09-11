@@ -5,7 +5,7 @@
  */
 
 const React = require('react');
-const favicon = require('./src/favicon-16x16.png');
+const favicon = require('./src/favicon-32x32.png');
 
 exports.onRenderBody = ({ setHeadComponents }) => {
 

@@ -10,7 +10,9 @@ import SectionTitle from "./../components/atoms/SectionTitle";
 const Team = ({data}) => {
 
   const{ markdownRemark, allMarkdownRemark } = data;
-  const team = allMarkdownRemark.edges;
+  const managers = allMarkdownRemark.group[0].edges;
+  const nonmanagers = allMarkdownRemark.group[1].edges;
+  const team = managers.concat(nonmanagers);
 
   const {
     image_band,
@@ -89,26 +91,44 @@ export const t = graphql `
       }
     }
   }
-  allMarkdownRemark(filter: {frontmatter: {type: {eq: "team"}}}) {
-    edges {
-      node {
-        frontmatter {
-          name
-          image {
-            childImageSharp {
-              fixed(width: 250, height: 250) {
-                ...GatsbyImageSharpFixed_withWebp_noBase64
+    allMarkdownRemark(
+    filter: {
+      frontmatter: {
+        type: {
+          eq: "team"
+        }
+      }
+    }
+    sort: {
+      fields: frontmatter___name, 
+      order: ASC
+    }
+  ) 
+  {
+    group (field: frontmatter___manager) {
+      edges {
+        node {
+          frontmatter {
+            name
+            image {
+              childImageSharp {
+                fixed(width: 250, height: 250) {
+                  ...GatsbyImageSharpFixed_withWebp_noBase64
               }
             }
           }
-          path
-          published
-          role
-          title
+            path
+            published
+            manager
+            role
+            title
+          }
         }
       }
     }
   }
+  
+  
 }
 `;
 

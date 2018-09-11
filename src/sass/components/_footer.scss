@@ -53,6 +53,9 @@
             content: url('./../files/icons/social/linkedin.svg')
           }
         }
+        span {
+          @include visually-hidden-text;
+        }
       }
     }
   }
@@ -89,6 +92,10 @@
       text-decoration: underline;
       padding-top: $spacing-small;
       padding-bottom: $spacing-small;
+    }
+
+    .usa-footer-secondary-link:hover, .external-link span:hover {
+      text-decoration: none;
     }
 
     @media screen and (max-width: $medium-screen) {

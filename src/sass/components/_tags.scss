@@ -23,9 +23,7 @@ $outline: -1px 1px 6px 3px $color-primary-alt-lightest;
     box-shadow: $outline;
   }
 
-  &.active,
-  &:active,
-  &:focus {
+  &.active {
     background-color: $color-secondary;
     color: $white;
   }
@@ -37,4 +35,11 @@ $outline: -1px 1px 6px 3px $color-primary-alt-lightest;
 
 .section__case-studies {
   font-size: $h4-font-size;
+}
+
+// Remove hover state for tags on individual case studies
+.text-container {
+  .tags {
+    pointer-events: none;
+  }
 }
