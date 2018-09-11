@@ -9,6 +9,9 @@
       margin-right: 0;
     }
 
+    .teaser-grid {
+    }
+
   }
 }
 
@@ -28,5 +31,11 @@
   display: none;
   &:hover {
     text-decoration: underline;
+  }
+}
+
+@media all and (max-width: $small-screen) {
+  .teaser-grid__text, .teaser-grid__image {
+    @include span-columns(6);
   }
 }
