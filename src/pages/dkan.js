@@ -5,7 +5,7 @@ import IconParagraphsGroup from '../components/organisms/IconParagraphsGroup'
 import GeneralLayout from '../components/layouts/GeneralLayout';
 import SectionTitle from '../components/atoms/SectionTitle';
 import Button from "../components/atoms/Buttons";
-import RelatedStudies from '../components/RelatedStudies'; 
+import RelatedByTitle from '../components/RelatedByTitle';
 
 const Dkan = ({data}) => {
   const{ markdownRemark, allMarkdownRemark} = data;
@@ -14,48 +14,49 @@ const Dkan = ({data}) => {
   const{
     features,
     features_title,
-    tags,
     title,
+    related_titles,
     subtitle
   } = frontmatter;
 
-  return(
-   <GeneralLayout
-     heroTitle = { title }
-     heroSubtitle = { subtitle }
-     >
-     <section className = "section">
-       <div className = "usa-grid">
-         <div className = "text-container" dangerouslySetInnerHTML = {{ __html: html }} />
+  return (
+      <GeneralLayout
+    heroTitle = { title }
+        heroSubtitle = { subtitle }
+        >
+    <section className = "section">
+      <div className = "usa-grid">
+        <div className = "text-container" dangerouslySetInnerHTML = {{ __html: html }} />
 
-         <div class = "align-center">
-           <Button
-             button_text = "Visit getDKAN.org"
-             link = "http://getdkan.org"
-             />
-         </div>
+        <div class = "align-center">
+          <Button
+            button_text = "Visit getDKAN.org"
+            link = "http://getdkan.org"
+            />
+        </div>
 
-       </div>
-     </section>
+      </div>
+    </section>
 
-     <section className = "section section_features neutral-hex-bg">
-       <section className = "usa-grid">
-         <SectionTitle title = { features_title }/>
-         <div className = "section__features--intro-text">DKAN comes out-of-the-box with comprehensive public-facing engagement and administrative site management tools.</div>
-         <IconParagraphsGroup icons = { features } />
-       </section>
-     </section>
+    <section className = "section section_features neutral-hex-bg">
+      <section className = "usa-grid">
+        <SectionTitle title = { features_title }/>
+        <div className = "section__features--intro-text">DKAN comes out-of-the-box with comprehensive public-facing engagement and administrative site management tools.</div>
+        <IconParagraphsGroup icons = { features } />
+      </section>
+    </section>
 
-     { (tags && edges) ? (
-       <RelatedStudies
-         posts={ edges }
-         tags={ tags }
-         customClasses='section__related-content--no-bg'
-       />
-     ) : null}
+    { (related_titles && edges) ?
+      <RelatedByTitle
+        posts = { edges }
+        titles = { related_titles }
+        customClasses='section__related-content--no-bg'
+      />
+      : null
+    }
 
-    </GeneralLayout>
- );
+      </GeneralLayout>
+  );
 
 };
 
@@ -77,13 +78,12 @@ query dkan {
           publicURL
         }
       }
-      tags
+      related_titles
     }
   }
 
   allMarkdownRemark(
     filter: {frontmatter: {type: {eq: "case-study"}}}
-    limit: 3
   ) {
     totalCount
     edges {
@@ -92,7 +92,6 @@ query dkan {
           client_name
           title
           path
-          tags
           preview_image {
             childImageSharp {
               resize(width: 300, height: 300) {
