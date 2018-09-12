@@ -5,12 +5,9 @@
     // So override this 'react-slick' slick-list overflow property.
     overflow: visible;
 
-    @include media($small-screen) {
-      //overflow: visible;
-    }
-
     @media all and (max-width: 480px) {
       padding: 0 !important;
+      overflow: hidden;
     }
   }
 
