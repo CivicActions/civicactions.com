@@ -92,6 +92,8 @@ cite {
   .blockquote {
     &__image {
       margin-bottom: 22px;
+      text-align: left;
+      @include shift(2 of 12);
     }
     &__text {
       display: inline-block;
