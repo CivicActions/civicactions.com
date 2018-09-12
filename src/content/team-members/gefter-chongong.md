@@ -12,7 +12,7 @@ social:
   name: LinkedIn,
   url: https://www.linkedin.com/in/gefter-m-4731491a
   }
-   - {
+  - {
   name: GitHub,
   url: https://github.com/mbig
   }
