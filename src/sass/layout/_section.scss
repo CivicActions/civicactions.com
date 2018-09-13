@@ -93,12 +93,8 @@
   &__recent-posts-careers {
     @media all and (min-width: $medium-screen) {
       .teaser--wrapper {
-        @include shift(5);
         padding-top: 3.4rem;
         overflow:hidden;
-      }
-      .section__subtitle {
-        @include span-columns(6);
       }
     }
   }
@@ -285,6 +281,12 @@
   .section__title--wrapper {
     position: absolute;
     top: -4rem;
+  }
+
+  &.section__recent-posts-careers .section__title--wrapper {
+    position: relative;
+    top: 0;
+    margin-top: -2.4em;
   }
 
   .related-content__list, .teaser, .section__benefits--intro-text, .section__features--intro-text {
