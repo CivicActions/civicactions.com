@@ -15,6 +15,7 @@ COPY package.json yarn.lock ./
 RUN yarn install --pure-lockfile
 COPY . .
 RUN yarn build
+RUN yarn test
 
 #
 # Build web server
