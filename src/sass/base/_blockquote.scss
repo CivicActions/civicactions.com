@@ -87,6 +87,35 @@ cite {
 
 }
 
+// section__triple-quotes (home, case-study)
+.section__triple-quotes {
+  .blockquote {
+    &__image {
+      margin-bottom: 22px;
+      text-align: left;
+      @include shift(2 of 12);
+    }
+    &__text {
+      display: inline-block;
+       @include span-columns(9);
+      @include shift(2 of 12);
+
+    }
+    &__icon {
+      position: absolute;
+    }
+  }
+  cite {
+    @include span-columns(10);
+    @include shift(2 of 12);
+  }
+  blockquote {
+    > p {
+      margin-top: 0;
+    }
+  }
+}
+
 hr {
   display: none;
 }
