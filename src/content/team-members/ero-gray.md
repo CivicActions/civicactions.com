@@ -1,5 +1,5 @@
 ---
-path: /
+path: /team/ero-gray
 type: team
 published: 0
 name: Ero Gray
