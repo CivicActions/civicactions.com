@@ -92,6 +92,7 @@ $grid-columns-large: 12 !default;
 
 // Extra Layout classes
 $section-margin: rem(50px);
+$cite-margin: rem(30px);
 
 /*
  * Subtitle bottom margin
@@ -131,7 +132,7 @@ $button-border-radius:          0 !default;
 $box-shadow:                    0 0 2px $color-shadow !default;
 $focus-outline:                 2px dotted $neutral !default;
 $focus-spacing:                 3px !default;
-$nav-width:                     951px !default;
+$nav-width:                     850px !default;
 $sidenav-current-border-width:  .4rem !default; // must be in rem for math
 
 // 44 x 44 pixels hit target following Apple iOS Human Interface

@@ -48,7 +48,7 @@ const Approach = ({data}) => {
          </div>
        </div>
 
-       <RolloverIconGroup technologies = { technologies} />
+       <RolloverIconGroup technologies = { technologies } />
      </section>
 
    </GeneralLayout>

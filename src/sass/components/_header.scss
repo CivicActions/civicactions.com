@@ -21,6 +21,10 @@
 
     max-width: 150px;
   }
+  span {
+    @include visually-hidden-text;
+
+  }
 }
 
 // For a strange bug that hides all processed images.

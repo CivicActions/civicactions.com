@@ -1,5 +1,5 @@
 .section {
-  margin-bottom: 50px;
+  margin-bottom: rem(100px);
 
   &__title {
     color: $color-secondary;
@@ -86,10 +86,13 @@
     }
   }
 
+  //-------------------------------------
+  // RECENT POSTS SECTION ON THE CAREERS PAGE
+  //-------------------------------------------
+
   &__recent-posts-careers {
     @media all and (min-width: $medium-screen) {
       .teaser--wrapper {
-        @include shift(6);
         padding-top: 3.4rem;
         overflow:hidden;
       }
@@ -152,6 +155,7 @@
     }
   }
 
+
   //-------------------------------------
   // FEATURES INTRO SECTION ON THE DKAN OPEN DATA PAGE
   //-------------------------------------------
@@ -165,6 +169,22 @@
       p {
         margin-top: 0;
       }
+    }
+  }
+
+  //------------------------------------------------------------
+  // FILTERS ON CASE STUDY LANDING PAGE
+  //------------------------------------------------------------
+  &__tag-filters {
+    margin-bottom: rem(40px);
+    margin-top: -($section-margin * 2);
+    padding: rem(36px) 3rem;
+  }
+
+  &__tag-filters__wrapper {
+    background: $neutral;
+    h4 {
+      font-size: $base-font-size;
     }
   }
 
@@ -202,7 +222,7 @@
 .section__teaser-grid {
 
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: repeat(1, 1fr);
   column-gap: 30px;
   row-gap: 20px;
 
@@ -257,23 +277,68 @@
 // Styling for sections with neutral hex background
 .neutral-hex-bg {
   position: relative;
+
+  .section__title--wrapper {
+    position: absolute;
+    top: -4rem;
+  }
+
+  &.section__recent-posts-careers .section__title--wrapper {
+    position: relative;
+    top: 0;
+    margin-top: -2.4em;
+  }
+
+  .related-content__list, .teaser, .section__benefits--intro-text, .section__features--intro-text {
+    padding-top: $site-margins * 2;
+  }
+
+  @media all and (max-width: $small-screen) {
+    .section__recent-posts-careers {
+      .section__title--wrapper {
+        position: relative;
+        top: 0;
+      }
+    }
+    .teaser__contracting {
+      padding-top: $site-margins * 6;
+    }
+    .section__benefits--intro-text {
+      padding-top: $site-margins * 4;
+    }
+    .related-content__list {
+      padding-top: $site-margins * 3
+    }
+  }
+
   @include media($medium-screen) {
-
-    .section__title--wrapper {
-      position: absolute;
-      top: -4rem;
-    }
-
-    .related-content__list, .teaser, .section__benefits--intro-text{
-      padding-top: $site-margins * 2;
-    }
-
     .align-right {
       position: relative;
       button {
         position: relative;
         bottom: -6rem;
       }
+    }
+  }
+}
+
+@media all and (max-width: $small-screen) {
+  .section__recent-posts-careers {
+    .section__title--wrapper {
+      position: relative;
+      top: 0;
+      h2 {
+        position: absolute;
+        top: -4rem;
+      }
+      .section__subtitle {
+        padding-top: $site-margins * 2;
+      }
+    }
+  }
+  .section__triple-quotes-careers {
+    .blockquotes__list {
+      padding-top: $site-margins * 2;
     }
   }
 }

@@ -43,17 +43,6 @@ const Dkan = ({data}) => {
          <IconParagraphsGroup icons = { features } />
        </section>
      </section>
-
-       <section className="section section_dkan_cta">
-           <div className="usa-grid">
-               <div className="align-center">
-                   <Button
-                       button_text="Visit getDKAN.org"
-                       link="http://getdkan.org"
-                   />
-               </div>
-           </div>
-       </section>
     </GeneralLayout>
 
 

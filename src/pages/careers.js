@@ -9,33 +9,22 @@ import ImageBand from './../components/organisms/ImageBand'
 import ImageSlider from './../components/organisms/ImageSlider';
 import GlobalQuoteSlider from './../components/organisms/GlobalQuoteSlider';
 
-// Image band Images
-import image1 from './../files/image-band/IMG_20170919_085448.jpg'
-import image2 from './../files/image-band/IMG_20170918_123826.jpg';
-import image3 from './../files/image-band/IMG_20170920_191202.jpg';
-import image4 from './../files/image-band/sacramento.jpg';
-import image5 from './../files/image-band/rachel-presentation.jpg';
-import image6 from './../files/image-band/20170919_174032_HDR.jpg';
-import image7 from './../files/image-band/IMG_20170918_182447.jpg';
-import image8 from './../files/image-band/IMG_20180713_130136.jpg';
-import image9 from './../files/image-band/IMG_0577.jpg';
-import image10 from './../files/image-band/IMG_20170918_122218.jpg';
 
 const Careers = ({data}) => {
   const { allJob, markdownRemark } = data;
   const { html,frontmatter } = markdownRemark;
     const {
-        benefits_title,
-        images,
-         quotes,
-         quotes_title,
-         openings_subtitle,
-         openings_title,
-         title,
-         subtitle,
-        } = frontmatter;
+      benefits_title,
+      images,
+      image_band,
+      quotes,
+      quotes_title,
+      openings_subtitle,
+      openings_title,
+      title,
+      subtitle,
+    } = frontmatter;
   const { edges } = allJob;
-  const imageArray = [ image1, image2, image3, image4, image5, image6, image7, image8, image9, image10 ];
 
   const jobs = _.map(edges, (job, index) => {
 
@@ -66,7 +55,7 @@ const Careers = ({data}) => {
         </div>
       </section>
 
-      <section className = "section section__triple-quotes neutral-hex-bg">
+      <section className = "section section__triple-quotes section__triple-quotes-careers neutral-hex-bg">
         <div className = "usa-grid">
           <SectionTitle title = { quotes_title } />
           <div className = "blockquotes__list">
@@ -89,7 +78,7 @@ const Careers = ({data}) => {
         </div>
       </section>
       <section className = "feed__image--wrapper">
-        <ImageBand imageArray = { imageArray }/>
+        <ImageBand imageArray = { image_band }/>
       </section>
 
     </GeneralLayout>
@@ -103,12 +92,20 @@ query jobsQuery {
     markdownRemark(frontmatter: { title: { eq: "Careers" } } ) {
     html
     frontmatter {
+        image_band {
+        childImageSharp{
+                 resize(quality: 50){
+                  src
+                }
+        }
+      }
+
         images {
           caption
           alt
           url {
           childImageSharp {
-            fixed(width:2000, height: 727) {
+            fixed(width:2000) {
                 ...GatsbyImageSharpFixed_withWebp_noBase64
             }
            }

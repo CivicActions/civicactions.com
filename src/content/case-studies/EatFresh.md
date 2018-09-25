@@ -12,7 +12,7 @@ background_section: "San Francisco’s Human Services Agency (SFHSA) plays an im
 
 background_section_second: "SFHSA and its community partner, Leah’s Pantry, needed help developing a resource for low-income Californians that would complement the CalFresh program and integrate with other community health initiatives. SFHSA wanted to create an online platform that would help users find healthy, low-cost recipes and get advice from nutrition experts. This resource would need to be accessible across many devices, languages, and cultures to meet the needs of California’s diverse low-income population."
 
-tags: ["User Experience", "Drupal"]
+tags: ["UX", "Drupal"]
 specs: [
 "Drupal 7",
 "Mobile-friendly, responsive design",
