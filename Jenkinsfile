@@ -31,7 +31,7 @@ pipeline {
                     docker.withRegistry('https://gcr.io', 'internal-it-k8s-gcr') {
                         def latestImage = docker.build("civicactions-internal-it/home", "--build-arg GATSBY_JAZZ_URL=${GATSBY_JAZZ_URL} .")
                         latestImage.push("latest")
-                        latestImage.push("${env.GIT_COMMIT}")
+                        latestImage.push("${env.GIT_COMMIT}+${env.BUILD_NUMBER}")
                         slackSend channel: 'marketing-home', message: "Master branch built and image pushed successfully to Docker registry"
                     }
                 }
