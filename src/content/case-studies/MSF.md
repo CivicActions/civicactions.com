@@ -4,7 +4,7 @@ type:  "case-study"
 title: "Speaking up for human rights"
 client_name: "Médecins Sans Frontières USA"
 preview_image: MSF_preview.jpg
-promoted_to_front_page: no
+promoted_to_front_page: yes
 project: "DoctorsWithoutBorders.org"
 website: "https://doctorswithoutborders.org/"
 background_section_title: "Outdated website hampering global mission"
