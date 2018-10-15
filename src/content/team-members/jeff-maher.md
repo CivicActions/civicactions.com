@@ -1,5 +1,5 @@
 ---
-path: /
+path: /team/jeff-maher
 type: team
 published: 0
 name: Jeff Maher
