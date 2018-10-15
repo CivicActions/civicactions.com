@@ -1,5 +1,5 @@
 ---
-path: /
+path: /team/melinda-burgess
 type: team
 published: 0
 name: Melinda Burgess
