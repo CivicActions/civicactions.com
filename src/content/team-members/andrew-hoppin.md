@@ -1,5 +1,5 @@
 ---
-path: /
+path: /team/andrew-hoppin
 type: team
 published: 0
 name: Andrew Hoppin
