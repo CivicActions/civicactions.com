@@ -1,5 +1,5 @@
 ---
-path: /
+path: /team/ben-hafer
 type: team
 published: 0
 name: Ben Hafer
