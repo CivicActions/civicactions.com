@@ -1,5 +1,5 @@
 ---
-path: /
+path: /team/karen-johnson
 type: team
 published: 0
 name: Karen Johnson
