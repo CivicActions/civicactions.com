@@ -1,5 +1,5 @@
 ---
-path: /
+path: /team/marc-jones
 type: team
 published: 0
 name: Marc Jones
