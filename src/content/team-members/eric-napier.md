@@ -1,5 +1,5 @@
 ---
-path: /
+path: /team/eric-napier
 type: team
 published: 0
 name: Eric Napier
