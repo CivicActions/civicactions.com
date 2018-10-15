@@ -1,5 +1,5 @@
 ---
-path: /
+path: /team/steve-wirt
 type: team
 published: 0
 name: Steve Wirt
