@@ -1,5 +1,5 @@
 ---
-path: /
+path: /team/dan-gurin
 type: team
 published: 0
 name: Dan Gurin
