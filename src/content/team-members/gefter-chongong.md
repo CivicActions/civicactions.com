@@ -1,5 +1,5 @@
 ---
-path: /
+path: /team/gefter-chongong
 type: team
 published: 0
 name: Gefter Chongong
