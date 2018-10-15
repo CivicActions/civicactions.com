@@ -50,19 +50,24 @@
         font-weight: $font-bold;
         display: inline-block;
         margin-right: $spacing-small;
+
         &:after {
-          display: none;
+          content: '|';
+          display: inline-block
         }
-        &:first-of-type {
+
+        &:last-of-type {
           &:after {
-            content: '|';
-            display: inline-block;
+            content: '';
           }
         }
+
+        &:last-child {
+           margin-right: 0;
+
+        }
       }
-      &__social--link:last-child {
-        margin-right: 0;
-      }
+
     }
 
   }
