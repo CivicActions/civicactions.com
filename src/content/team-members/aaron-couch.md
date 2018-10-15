@@ -1,5 +1,5 @@
 ---
-path: /
+path: /team/aaron-couch
 type: team
 published: 0
 name: Aaron Couch
