@@ -1,5 +1,5 @@
 ---
-path: /
+path: /team/may-lyn-medina
 type: team
 published: 0
 name: May Lyn Medina
