@@ -1,5 +1,5 @@
 ---
-path: /
+path: /team/jason-heaster
 type: team
 published: 0
 name: Jason Heaster
