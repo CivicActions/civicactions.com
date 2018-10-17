@@ -44,7 +44,7 @@ Dan has a BA in Music from Johns Hopkins University and has taken courses in Com
 
 
 ### Things Dan has been doing
-* Ensuring riders of [the New York subway system](https://dev.acquia.com/blog/using-drupal-8-and-aws-iot-to-power-digital-signage-for-new-yorks-subway-system/01/10/2018/20051?utm_source=drupal-newsletter&utm_medium=email&utm_campaign=drupal-newsletter-20181004)/cdn.vox-cdn.com/uploads/chorus_image/image/58177413/mta_countdown_clocks.0.jpg) know when their train is going to arrive
+* Ensuring riders of [the New York subway system](https://dev.acquia.com/blog/using-drupal-8-and-aws-iot-to-power-digital-signage-for-new-yorks-subway-system/01/10/2018/20051?utm_source=drupal-newsletter&utm_medium=email&utm_campaign=drupal-newsletter-20181004)know when their train is going to arrive
 * Delivering [Freedom Of Information Act requests](https://www.foia.gov/) from constituents to federal agencies
 * Building a secure, modernized website for the [Federal Communications Commission](https://civicactions.com/case-study/fcc)
 * Facilitating the sharing of content on [the NPR digital network](http://digitalservices.npr.org/topic/core-publisher)
