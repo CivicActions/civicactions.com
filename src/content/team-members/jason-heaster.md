@@ -30,7 +30,7 @@ Jason has a BS in Civil Engineering from Ohio State University. He is a certifie
 
 
 ### Things Jason loves Doing
-* Helping NYC commuters get there quicker with [new platform information architecture](http://www.metro-magazine.com/rail/article/715387/nyc-transit-uses-new-tech-tests-real-time-train-arrival)
+* Helping NYC commuters get there quicker with [new platform information architecture](https://dev.acquia.com/blog/using-drupal-8-and-aws-iot-to-power-digital-signage-for-new-yorks-subway-system/01/10/2018/20051?utm_source=drupal-newsletter&utm_medium=email&utm_campaign=drupal-newsletter-20181004)
 * Making [FCC](https://civicactions.com/case-study/fcc/) regulatory guidelines more accessible and secure
 * Empowering [adult education practitioners](https://civicactions.com/case-study/lincs/) to learn and collaborate
 * Helping the City of San Francisco maintain a [healthy environment](https://sfenvironment.org/)
