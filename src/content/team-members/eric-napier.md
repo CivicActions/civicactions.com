@@ -37,7 +37,7 @@ Eric has a BA in Music from the New College of Florida. When he’s not at work,
 
 
 ### Things Eric has been doing
-* Building [digital clocks](https://dev.acquia.com/blog/using-drupal-8-and-aws-iot-to-power-digital-signage-for-new-yorks-subway-system/01/10/2018/20051?utm_source=drupal-newsletter&utm_medium=email&utm_campaign=drupal-newsletter-20181004)/cdn.vox-cdn.com/uploads/chorus_image/image/58177413/mta_countdown_clocks.0.jpg) to help New York metro riders get there on time
+* Building [digital clocks](https://dev.acquia.com/blog/using-drupal-8-and-aws-iot-to-power-digital-signage-for-new-yorks-subway-system/01/10/2018/20051?utm_source=drupal-newsletter&utm_medium=email&utm_campaign=drupal-newsletter-20181004) to help New York metro riders get there on time
 * Helping [Doctors Without Borders](https://civicactions.com/case-study/msf) raise support to deliver global aid
 * Creating data visualizations for [nonprofits](https://rethinkmedia.org/) in support of democracy
 * Sharing about automated testing at [meetups](https://groups.drupal.org/node/519205) and [Drupal events](https://www.drupalgovcon.org/drupal-govcon-2016/bdd-strategies-rock-solid-automated-testing-drupal.html)
