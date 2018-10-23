@@ -13,7 +13,7 @@ social:
   url: https://www.linkedin.com/in/karenbjohnson/
   }
   - {
-    name: Github,
+    name: GitHub,
     url: https://github.com/kbthson
    }
 specialties: [ "System Administration",
@@ -25,9 +25,11 @@ Tango
   
 ---
 
-Karen is curious, self-motivated, and addicted to learning. She keeps software systems healthy and is constantly looking for ways to automate, standardize, and improve the way they work. She is known for tackling hard problems and coming up with creative, repeatable solutions.
+Karen is curious, self-motivated, and addicted to learning. 
 
-Karen studied Art History at Bard College but soon fell in love with technology systems (especially GNU/Linux) -- so she followed her heart and became a tech nerd. She’s also a darn good tango dancer and enthusiastic reader of science fiction.
+She keeps software systems healthy and is constantly looking for ways to automate, standardize, and improve the way they work. She is known for tackling hard problems and coming up with creative, repeatable solutions.
+
+Karen studied Art History at Bard College but soon fell in love with technology systems (especially GNU/Linux) — so she followed her heart and became a tech nerd. She’s also a darn good tango dancer and enthusiastic reader of science fiction.
 
 
 
