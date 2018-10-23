@@ -39,7 +39,7 @@ Tom is a bartender-turned-developer and a self-taught expert in his field who st
 
 
 ### Things Tom has been doing
-* Helping [Doctors Without Borders](https://www.doctorswithoutborders.org/) raise support to deliver global aid
+* Helping [Doctors Without Borders](https://civicactions.com/case-study/msf/) raise support to deliver global aid
 * Keeping government workings [open and accountable](https://www.foia.gov/)
 * Leading the rebuilding of the [U.S. Treasury](https://home.treasury.gov/) website
 * Building tools and processes for [international collaboration](https://civicactions.com/case-study/globalnet) 
