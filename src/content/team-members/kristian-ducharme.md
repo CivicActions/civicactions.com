@@ -13,7 +13,7 @@ social:
   url: https://www.linkedin.com/in/kristianducharme/
   }
   - {
-    name: Github,
+    name: GitHub,
     url: https://github.com/kducharm
    }
   - {
@@ -32,7 +32,11 @@ Keyboarding (the musical kind)
 
 ---
 
-Kristian loves learning, teaching, and creating things. He often serves as technical lead on agile Drupal projects providing custom module development, large-scale migrations, project planning, and automated testing -- but also applies his extremely diverse skillset to help with DevOps support, front-end design, database modeling, mobile development, and more. He’s a certified Acquia Drupal 8 Back End Specialist and Developer and contributes actively to the Drupal community.  Kristian has a BS in Computer Engineering from Cal Poly State University. He has a collection of over 15 vintage keyboards, has been a creator of guitar stomp pedals, and has co-written songs with Jon Anderson of YES.
+Kristian loves learning, teaching, and creating things. 
+
+He often serves as technical lead on agile Drupal projects providing custom module development, large-scale migrations, project planning, and automated testing -- but also applies his extremely diverse skillset to help with DevOps support, front-end design, database modeling, mobile development, and more. He’s a certified Acquia Drupal 8 Back End Specialist and Developer and contributes actively to the Drupal community.
+
+Kristian has a BS in Computer Engineering from Cal Poly State University. He has a collection of over 15 vintage keyboards, has been a creator of guitar stomp pedals, and has co-written songs with Jon Anderson of YES.
 
 ### Things Kristian Has Been Doing
 * Bridging the knowledge gap between [citizens and lawmakers](https://civicactions.com/case-study/digital-democracy) 
