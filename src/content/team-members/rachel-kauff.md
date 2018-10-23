@@ -13,7 +13,7 @@ social:
   url: https://www.linkedin.com/in/rachel-kauff-40b8a8140/
   }
   - {
-    name: Github,
+    name: GitHub,
     url: https://github.com/rachel-kauff
    } 
 specialties: [ "Wordsmithing",
