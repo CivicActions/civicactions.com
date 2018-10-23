@@ -13,7 +13,7 @@ social:
   url: https://www.linkedin.com/in/tomcamppdx/
   }
   - {
-    name: Github,
+    name: GitHub,
     url: https://github.com/tom-camp/
    }
   - {
@@ -31,7 +31,7 @@ Extended Road Trips
 
 Tom loves solving puzzles and squashing bugs (the programming kind).
  
-As an engineer and “professional troubleshooter,” he inspires colleagues and clients with his unique approach — 60% patience, 30% creativity, and 10% humor. There’s nothing he can’t tackle with his decade of Drupal experience and broad range of technical and interpersonal skills. He is a champion listener and communicates well with just about anybody — from clients and stakeholders to programmers and designers. He draws from his experience in nonprofit work to support and empathize with the government agencies he now serves. 
+As an engineer and “professional troubleshooter,” he inspires colleagues and clients with his unique approach — 60% patience, 30% creativity, and 10% humor. He is a champion listener and communicates well with just about anybody — from clients and stakeholders to programmers and designers. His decade of Drupal experience and previous work with nonprofits help him build user-focused experiences for the government agencies he now serves. 
  
 Tom is a bartender-turned-developer and a self-taught expert in his field who still appreciates a well crafted cocktail. He loves getting outside with his wife to explore Colorado’s stunning wilderness — and he actually enjoys shoveling snow.
 
