@@ -14,7 +14,7 @@ social:
   url: https://www.linkedin.com/in/grugnog/
   }
   - {
-    name: Github,
+    name: GitHub,
     url: https://github.com/grugnog
    }
   - {
