@@ -13,7 +13,7 @@ social:
   url: https://www.linkedin.com/in/anotherc/
   }
   - {
-    name: Github,
+    name: GitHub,
     url: https://github.com/acouch?tab=overview&from=2011-12-01&to=2011-12-31
    }
   - {
@@ -25,7 +25,7 @@ social:
   url: https://twitter.com/anotherc
   }
 specialties: [ "Open Data",
-Open Data,
+Social Justice,
 Entrepreneurship,
 Writing
 ]
