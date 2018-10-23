@@ -6,14 +6,14 @@ name: Steve Wirt
 image: 'images/steve-wirt.jpg'
 role: Engineer
 location: Nokomis, FL
-quote: If it's worth doing, it's worth doing well. If it's worth doing well, it's gotta be done with a smile
+quote: If it's worth doing, it's worth doing well. If it's worth doing well, it's gotta be done with a smile.
 social: 
   - {
   name: LinkedIn,
   url: https://www.linkedin.com/in/swirt/
   }
   - {
-    name: Github,
+    name: GitHub,
     url: https://github.com/swirtSJW
    }
   - {
@@ -30,11 +30,10 @@ Woodworking
 
 Steve likes to learn by building things.
 
-He often serves as technical lead on projects, using his skills in Drupal module development, PHP, Javascript, jQuery, SEO and 508 Accessibility to solve problems for government clients. His experience with project planning and development architecture help guide large-scale migrations for complex agency websites.
+He often serves as technical lead on projects, using his varied Drupal skills to orchestrate solutions perfectly suited to user needs. His experience with project planning and development architecture help guide large-scale migrations for complex agency websites. Steve’s earnest desire to teach and learn, along with his 20 years of experience as an instructional designer, make him a valued mentor to his teammates, clients, and the Drupal community.
 
-Steve’s earnest desire to teach and learn is evident in all his interactions with clients and teammates. He has over 20 years of experience as an instructional designer and regularly mentors others in professional development.
+Steve graduated from the State University of New York with a B.S. (Physics Teaching) and an M.S. (Instructional Technology). Though he spends much of his day working with modern technology, you can often find him geeking out about old timey woodworking tools on his blog.
 
-Steve graduated from the State University of New York with a B.S. in Physics Teaching and an M.S. in Instructional Technology. Though he spends much of his day working with modern technology, you can often find him geeking out about old timey woodworking tools on his blog.
 
 
 
