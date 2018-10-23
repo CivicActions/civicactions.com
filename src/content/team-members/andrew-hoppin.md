@@ -6,14 +6,14 @@ name: Andrew Hoppin
 image: 'images/andrew-hoppin.jpg'
 role: Consultant
 location: New York City
-quote: “Government sharing is government caring”
+quote: Government sharing is government caring.
 social: 
   - {
   name: LinkedIn,
   url: https://www.linkedin.com/in/ahoppin/
   }
   - {
-    name: Github,
+    name: GitHub,
     url: https://github.com/andrewhoppin
    }
   - {
@@ -41,7 +41,7 @@ Andrew has an M.S. in Environmental Science from the University of California Be
 
 
 
-### Things Andrew has been Doing
+### Things Andrew has been doing
 * Helping government [harness the power of open data](https://getdkan.org/)
 * Writing about the [potential of blockchain](https://www.linkedin.com/pulse/why-your-government-should-care-blockchain-technology-andrew-hoppin/) to improve government efficiency
 * Building a data-based [healthcare startup](https://coverus.health/) to empower patients
