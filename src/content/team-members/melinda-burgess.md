@@ -13,7 +13,7 @@ social:
   url: https://www.linkedin.com/in/melinda-burgess-03250286/
   }
   - {
-    name: Github,
+    name: GitHub,
     url: https://github.com/melindaburgess
    }
   - {
