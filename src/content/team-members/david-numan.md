@@ -1,5 +1,5 @@
 ---
-path: /david-numan
+path: /team/david-numan
 type: team
 published: 0
 name: David Numan
