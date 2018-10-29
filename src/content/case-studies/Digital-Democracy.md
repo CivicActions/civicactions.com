@@ -33,7 +33,10 @@ images:
   caption: 'Mapping the database schema helped us improve the organization of the site.', 
   alt: 'Database schema for Digital Democracy'
   }
-  
+related_titles:
+- Sharing data to support veterans
+- Bringing free and open source software to government
+- Promoting public health with open data  
 ---
 
 ### Approach
