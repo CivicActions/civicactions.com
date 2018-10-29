@@ -43,7 +43,11 @@ images:
   caption: 'CivicActions team members working on a rapid prototyping session for GlobalNET', 
   alt: 'CivicActions team working in DC'
   }
-  
+related_titles:
+-Modernizing a legacy federal system
+-Supporting and expanding adult education
+-Improving transparency in state government
+
 ---
 
 ### Approach
