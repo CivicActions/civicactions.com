@@ -33,7 +33,11 @@ images:
   caption: 'Users access the site easily on mobile devices.', 
   alt: 'Human Origins website on tablet'
   }
-  
+related_titles:
+-Speaking up for human rights
+-Helping Californians make healthy choices for life
+-Supporting and expanding adult education
+
 ---
 
 ### Approach
