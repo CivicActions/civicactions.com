@@ -29,7 +29,11 @@ images:
   caption: '"Data stories" are visualizations to help people understand USVA data', 
   alt: 'USVA data stories'
   }
-  
+related_titles:
+-Promoting public health with open data
+-Speaking up for human rights
+-Improving transparency in state government
+
 ---
 
 ### Approach
