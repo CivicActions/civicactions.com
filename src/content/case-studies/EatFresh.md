@@ -44,9 +44,9 @@ images:
   }
 
 related_titles:
--Bringing free and open source software to government
--Supporting and expanding adult education
--Improving transparency in state government
+- Bringing free and open source software to government
+- Supporting and expanding adult education
+- Improving transparency in state government
 
 ---
 

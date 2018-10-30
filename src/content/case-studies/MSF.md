@@ -37,9 +37,9 @@ images:
   alt: 'Mind-map to show content relationships'
   } 
 related_titles:
--Expanding understanding of human evolution
--Sharing data to support veterans
--Modernizing a legacy federal system
+- Expanding understanding of human evolution
+- Sharing data to support veterans
+- Modernizing a legacy federal system
 
 ---
 

@@ -30,9 +30,9 @@ images:
   alt: 'USVA data stories'
   }
 related_titles:
--Promoting public health with open data
--Speaking up for human rights
--Improving transparency in state government
+- Promoting public health with open data
+- Speaking up for human rights
+- Improving transparency in state government
 
 ---
 

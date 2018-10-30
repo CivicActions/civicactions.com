@@ -40,9 +40,9 @@ images:
   alt: 'FCC Information Flow Diagram'
   }  
 related_titles:
--Empowering international collaboration
--Supporting and expanding adult education
--Sharing data to support veterans
+  - Empowering international collaboration
+  - Supporting and expanding adult education
+  - Sharing data to support veterans
 
 ---
 

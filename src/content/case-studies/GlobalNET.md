@@ -44,9 +44,9 @@ images:
   alt: 'CivicActions team working in DC'
   }
 related_titles:
--Modernizing a legacy federal system
--Supporting and expanding adult education
--Improving transparency in state government
+- Modernizing a legacy federal system
+- Supporting and expanding adult education
+- Improving transparency in state government
 
 ---
 

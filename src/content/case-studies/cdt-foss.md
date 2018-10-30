@@ -33,9 +33,9 @@ images:
   alt: 'FOSS overview from slide deck'
   }
 related_titles:
--Improving transparency in state government
--Supporting and expanding adult education
--Helping Californians make healthy choices for life
+- Improving transparency in state government
+- Supporting and expanding adult education
+- Helping Californians make healthy choices for life
 
 ---
 

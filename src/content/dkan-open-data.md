@@ -61,8 +61,8 @@ features:
   }
 
 related_titles:
--Sharing data to support veterans
--Promoting public health with open data
+- Sharing data to support veterans
+- Promoting public health with open data
 
 ---
 We believe in the power of open data — standardized, machine-readable, trustworthy, and publicly accessible data that anyone can use and redistribute. When data is open, so are opportunities for creativity, collaboration, and innovation.

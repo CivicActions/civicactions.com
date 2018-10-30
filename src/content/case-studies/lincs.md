@@ -43,9 +43,9 @@ images:
   alt: 'Types of support provided by CivicActions'
   }
 related_titles:
--Empowering international collaboration
--Modernizing a legacy federal system
--Speaking up for human rights
+- Empowering international collaboration
+- Modernizing a legacy federal system
+- Speaking up for human rights
 
 ---
 
