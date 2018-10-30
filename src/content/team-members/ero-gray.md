@@ -1,5 +1,5 @@
 ---
-path: /
+path: /team/ero-gray
 type: team
 published: 0
 name: Ero Gray
@@ -13,7 +13,7 @@ social:
   url: https://www.linkedin.com/in/erogray/
   }
   - {
-    name: Github,
+    name: GitHub,
     url: https://github.com/erogray/
    }
   - {
@@ -37,7 +37,9 @@ Cat Whisperer
   
 ---
 
-Ero is happiest when making technology work for the social good. He listens (REALLY listens) to users, positively guides their experiences, and advocates for practices that connect customer feedback with actual development and operations decisions. Before arriving at CivicActions, he provided technology leadership for numerous nonprofits and led a tech support department at Idealist.org. He is committed to building a better world by making technology more civic-minded and human-friendly.
+Ero is happiest when making technology work for the social good. 
+
+He listens (REALLY listens) to users, positively guides their experiences, and advocates for practices that connect customer feedback with actual development and operations decisions. Before arriving at CivicActions, he provided technology leadership for numerous nonprofits and led a tech support department at Idealist.org. He is committed to building a better world by making technology more civic-minded and human-friendly.
 
 Ero has a BA in Literature and Writing with a minor in Teaching from the University of California, San Diego (UCSD), and his undergraduate study of avant-garde poetry has helped make him expert at writing easy-to-understand technical emails. He is generally believed to be the kindest person who works at CivicActions (that’s saying a lot), and is among the most likely to be covered with cat hair.
 

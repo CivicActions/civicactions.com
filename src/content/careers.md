@@ -6,8 +6,8 @@ subtitle: "CivicActions is a place to learn and grow with a talented group of fo
 images:
   - {
   url: 'careers.jpg', 
-  caption: 'CivicActions retreat 2017 in Sacramento', 
-  alt: 'CivicActions retreat 2017 in Sacramento'
+  caption: 'CivicActions retreat 2018 in Boulder', 
+  alt: 'CivicActions retreat 2018 in Boulder'
   }
 quotes_title: Working at CivicActions
 quotes: 

@@ -40,9 +40,9 @@ services:
   }
   - {
     icon: './icons/devops.svg',
-    title: Devops,
+    title: DevOps,
     caption: 'Establishing culture, technologies, and practices that drive continuous improvement.', 
-    alt: 'Devops'
+    alt: 'DevOps'
   }
   - {
     icon: './icons/training.svg',

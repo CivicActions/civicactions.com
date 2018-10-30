@@ -1,12 +1,12 @@
 ---
-path: /
+path: /team/gefter-chongong
 type: team
 published: 0
 name: Gefter Chongong
 image: 'images/gefter-chongong.jpg'
 role: Engineer
 location: Bowie, MD
-quote: Never give up ... I will eventually get there
+quote: Never give up ... I will eventually get there.
 social: 
   - {
   name: LinkedIn,
@@ -34,7 +34,7 @@ Gefter has a B.Sc. in Computer and Information Science and holds multiple techno
 
 
 
-### Things Gefter has been Doing
+### Things Gefter has been doing
 * Building and automating cloud infrastructure for the [Defense Security Cooperation Agency](https://civicactions.com/case-study/globalnet)
 * Solving challenging DevOps problems for the [Department of Education](https://civicactions.com/case-study/lincs)
 * [Fighting cyber-crime](https://cybraics.com/) by building and maintaining microservices infrastructure

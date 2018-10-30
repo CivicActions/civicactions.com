@@ -1,5 +1,5 @@
 ---
-path: /
+path: /team/melinda-burgess
 type: team
 published: 0
 name: Melinda Burgess
@@ -13,7 +13,7 @@ social:
   url: https://www.linkedin.com/in/melinda-burgess-03250286/
   }
   - {
-    name: Github,
+    name: GitHub,
     url: https://github.com/melindaburgess
    }
   - {
@@ -39,14 +39,16 @@ medium_posts:
   
 ---
 
-Melinda loves to tell the stories of good things people are doing in the world. She writes about civic tech and government transformation with a focus on the people and processes that make better services for improving lives. At CivicActions she works on content strategy, marketing, and serving the [Agile Government Leadership community](https://www.agilegovleaders.org/).  
+Melinda loves to tell the stories of good things people are doing in the world. 
+
+She writes about civic tech and government transformation with a focus on the people and processes that are improving public services. At CivicActions she creates content to highlight the leadership, insights, and general awesomeness of the team. She also serves as wordsmith and community-builder for [AGL](https://www.agilegovleaders.org/).  
 
 Melinda is self-taught in her career path, and grateful for the people and organizations that have helped her grow and learn. Her favorite things in life are avocados, her kids’ artwork, Instagram, clever science-y blogs with stick figures, and craft beer.
 
 
 ### Things Melinda loves Doing
 * Telling the stories of a passionate [team of civic technologists](https://medium.com/civicactions)
-* Writing about the advancement of [agile and innovative practices in government](https://medium.com/agile-government-leadership)
+* Writing about [agile and innovative practices in government](https://medium.com/agile-government-leadership)
 * Contributing to the story of the [open source open data community](https://medium.com/dkan-blog)
 * Building a network of [leaders in agile government](https://www.agilegovleaders.org/) to serve the public sector
 * Remodeling an Airstream and [traveling cross-country](https://www.instagram.com/openairfamily/) in a Eurovan
