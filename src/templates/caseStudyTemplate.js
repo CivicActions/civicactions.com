@@ -6,12 +6,12 @@ import { graphql } from 'gatsby';
 
 import GeneralLayout from './../components/layouts/GeneralLayout';
 import ImageSlider from './../components/organisms/ImageSlider';
-import RelatedStudies from './../components/RelatedStudies';
+import RelatedByTitle from './../components/RelatedByTitle';
 
 export default function Template({data}) {
   const{ markdownRemark, allMarkdownRemark } = data;
   const{ frontmatter, html } = markdownRemark;
-  const{ specs, tags, images } = frontmatter;
+  const{ related_titles, specs, tags, images } = frontmatter;
   const{edges} = allMarkdownRemark;
 
   let specsList = _.map(specs, (spec, index) => {
@@ -55,8 +55,10 @@ export default function Template({data}) {
         <div className = "case-study-text" dangerouslySetInnerHTML = {{ __html: html }} />
         { tagsList }
       </div>
-      <RelatedStudies posts = { edges } tags = { tags } />
-
+      {related_titles ?
+       <RelatedByTitle posts = { edges } titles = { related_titles } />
+         : null
+      }
     </GeneralLayout>
   );
 };
@@ -75,6 +77,7 @@ export const studyQuery = graphql `
         background_section_title
         background_section
         background_section_second
+        related_titles
         tags
         specs
         images {
@@ -93,7 +96,6 @@ export const studyQuery = graphql `
 
     allMarkdownRemark(
       filter: {frontmatter: {type: {eq: "case-study"}, path: {ne: $path}}}
-      limit: 3
     ) {
     totalCount
     edges {

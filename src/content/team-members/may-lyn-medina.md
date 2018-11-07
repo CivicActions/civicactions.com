@@ -1,5 +1,5 @@
 ---
-path: /
+path: /team/may-lyn-medina
 type: team
 published: 0
 name: May Lyn Medina
@@ -29,7 +29,7 @@ May Lyn has a B.S. in Accounting from University of Negros Occidental-Recoletos 
 
 
 ### Things May Lyn has been doing
-* [Cooking the books](https://quickbooks.intuit.com/oicms/t/qbks-16923/b/homepage/) and helping CivicActioneers [track their time](https://www.getharvest.com/)
+* [Wrangling numbers](https://quickbooks.intuit.com/oicms/t/qbks-16923/b/homepage/) and helping CivicActioneers [track their time](https://www.getharvest.com/)
 * Helping provide [financial and developmental services](https://nwtf.org.ph/) to people in poverty
 * Advocating for [integrated mental health care](http://www.officialgazette.gov.ph/2018/06/20/republic-act-no-11036/) in the Philippines
 * Promoting a healthy lifestyle through local [aerobic dance](http://www.sunstar.com.ph/article/403638) events

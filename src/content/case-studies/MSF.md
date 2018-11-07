@@ -36,7 +36,11 @@ images:
   caption: 'Cognitive mapping tools helped us create a content model for MSF.', 
   alt: 'Mind-map to show content relationships'
   } 
-  
+related_titles:
+- Expanding understanding of human evolution
+- Sharing data to support veterans
+- Modernizing a legacy federal system
+
 ---
 
 ### Approach

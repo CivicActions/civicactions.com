@@ -42,7 +42,11 @@ images:
   caption: 'We provide friendly helpdesk support to the LINCS community.', 
   alt: 'Types of support provided by CivicActions'
   }
-  
+related_titles:
+- Empowering international collaboration
+- Modernizing a legacy federal system
+- Speaking up for human rights
+
 ---
 
 ### Approach

@@ -13,18 +13,22 @@ tags: ["Open Data", "Drupal", "Support"]
 specs: [
 "Drupal 7",
 "DKAN Open Data Portal",
-"FedRAMP compliant hosting", 
-"Docker", 
-"CircleCI", 
+"FedRAMP compliant hosting",
+"Docker",
+"CircleCI",
 "JIRA Service Desk"
 ]
 images:
   - {
-  url: 'HHS_1.jpg', 
-  caption: '', 
+  url: 'HHS_1.jpg',
+  caption: '',
   alt: 'HHS open data portal on laptop and mobile'
   }
-  
+related_titles:
+- Sharing data to support veterans
+- Improving transparency in state government
+- Modernizing a legacy federal system
+
 ---
 
 ### Approach
@@ -44,7 +48,6 @@ We meet regularly with HHS staff to answer questions, fine-tune new datasets, fi
 ##### Improving public health through data
 Our partnership with HHS helps the agency share information about the quality of medical care in the United States, databases of the latest medical and scientific research, consumer product data, community health performance information, government spending data, and more.
 
-
 ### Impact
 * Researchers, developers, and policy makers can use HHS data to improve public health
 * Public health data is more accurate and up-to-date
@@ -53,8 +56,6 @@ Our partnership with HHS helps the agency share information about the quality of
 * HHS staff are better prepared to identify the most important data
 * Improvements to the HHS platform will benefit other agencies using DKAN
 
-
-
 ### Explore
 ##### See the data
 [Healthdata.gov](http://www.healthdata.gov)
@@ -62,14 +63,14 @@ Our partnership with HHS helps the agency share information about the quality of
 ##### Health data in action
 [2018 Health Datapalooza](http://www.academyhealth.org/events/site/2018-health-datapalooza)
 
- 
+
 <figure>
-  <div> 
+  <div>
     <header>40</header>
     <p>agencies sharing<br>health data<p>
-    
+
   </div>
-  <div> 
+  <div>
       <header>2,993</header>
       <p>datasets housed<br>on healthdata.gov<p>
   </div>

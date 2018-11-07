@@ -1,5 +1,5 @@
 ---
-path: /
+path: /team/jeff-maher
 type: team
 published: 0
 name: Jeff Maher
@@ -13,7 +13,7 @@ social:
   url: https://www.linkedin.com/in/jeffmaher
   }
   - {
-    name: Github,
+    name: GitHub,
     url: https://github.com/jeffmaher
    }
   - {

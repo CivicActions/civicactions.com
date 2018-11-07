@@ -39,7 +39,11 @@ images:
   caption: 'We studied the flow of information within FCC to learn how to create the best content management experience.', 
   alt: 'FCC Information Flow Diagram'
   }  
-  
+related_titles:
+  - Empowering international collaboration
+  - Supporting and expanding adult education
+  - Sharing data to support veterans
+
 ---
 
 ### Approach

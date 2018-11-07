@@ -32,7 +32,11 @@ images:
   caption: 'Overview of FOSS from a training presentation', 
   alt: 'FOSS overview from slide deck'
   }
-  
+related_titles:
+- Improving transparency in state government
+- Supporting and expanding adult education
+- Helping Californians make healthy choices for life
+
 ---
 
 ### Approach

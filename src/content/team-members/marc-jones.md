@@ -1,5 +1,5 @@
 ---
-path: /
+path: /team/marc-jones
 type: team
 published: 0
 name: Marc Jones
@@ -13,7 +13,7 @@ social:
   url: https://www.linkedin.com/in/marctjones/
   }
   - {
-    name: Github,
+    name: GitHub,
     url: https://github.com/marctjones
    }
 specialties: [ "FOSS Licensing",
@@ -25,7 +25,9 @@ Reading Contracts
   
 ---
 
-Marc is a technologist, lawyer, and evangelist for free and open source software. He lends his myriad skill sets to DevOps teams working on automated systems for government agencies. He also rather enjoys reading the contracts nobody wants to read and filling out paperwork nobody wants to deal with, in order to help agencies focus on serving constituents.
+Marc is a technologist, lawyer, and evangelist for free and open source software. 
+
+He lends his myriad skill sets to DevOps teams working on automated systems for government agencies. He also rather enjoys reading the contracts nobody wants to read and filling out paperwork nobody wants to deal with, in order to help agencies focus on serving constituents.
 He has advised state and federal agencies, universities, Fortune 100 companies, and several prominent open source projects. 
 
 Marc graduated from Quinnipiac University School of Law and holds a certificate in Data Protection Practice from the Law Society of Ireland. He lets his cats sleep on his desk while he’s working, and often finds himself traveling to unusual but unexciting locations.
