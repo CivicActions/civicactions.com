@@ -13,10 +13,6 @@ import FeaturedCaseStudies from '../components/organisms/FeaturedCaseStudies';
 import SectionTitle from '../components/atoms/SectionTitle'
 import Button from '../components/atoms/Buttons'
 
-// Host Google Fonts locally
-require('typeface-ubuntu');
-require('typeface-lato');
-
 const IndexPage = ({data}) => {
 
   const { allMediumPost, markdownRemark, allMarkdownRemark } = data;
