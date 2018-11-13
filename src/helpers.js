@@ -17,3 +17,14 @@ export const filterStudies = (tagList, posts) => {
     return tags.some(v => tagList.includes(v));
   });
 };
+
+
+export const getFirstName = (firstName, fullName) => {
+  if (existy(firstName)) {
+    return firstName;
+  } else if (existy(fullName)) {
+    return fullName.split(' ')[0];
+  } else {
+    return null;
+  }
+}

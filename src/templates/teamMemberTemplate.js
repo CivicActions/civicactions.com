@@ -7,13 +7,14 @@ import GeneralLayout from './../components/layouts/GeneralLayout';
 import Teaser from './../components/Teaser';
 import Blockquote from './../components/atoms/Blockquote';
 import SectionTitle from './../components/atoms/SectionTitle';
+import {existy, getFirstName} from "../helpers";
 
 export default function Template({data}) {
   const{ markdownRemark } = data;
   const{ frontmatter, html } = markdownRemark;
-  const{ name, role, location, social, medium_posts, specialties, image, quote } = frontmatter;
+  const{ first_name, name, role, location, social, medium_posts, specialties, image, quote } = frontmatter;
 
-  let quoteName = name.split(' ');
+  const quoteName = getFirstName(first_name, name);
 
   let memberSpecialties,
     specs,
@@ -56,33 +57,33 @@ export default function Template({data}) {
       social       = { social }
     >
       <div className = "team_member__specs--wrapper">
-          <section className = " section usa-grid team-member__specs">
-              <div className = "study__tech-specs ">
-                  <span className = "study__tech-specs__title"> Specialties </span>
-                  <div> { specs } </div>
-              </div>
-          </section>
+        <section className = " section usa-grid team-member__specs">
+          <div className = "study__tech-specs ">
+            <span className = "study__tech-specs__title"> Specialties </span>
+            <div> { specs } </div>
+          </div>
+        </section>
       </div>
       <section className = "section text-container team-member__text">
         <div dangerouslySetInnerHTML = {{ __html: html}} />
-          { // Just show quote if quote exists
-              quote && quoteName[0] !== '' ?
-                  <Blockquote
-                      quote = { quote }
-                      quote_source = { quoteName[0] }
-                  />
-                  : quote }
+        { // Just show quote if quote exists
+          quote && existy(quoteName) ?
+            <Blockquote
+              quote = { quote }
+              quote_source = { quoteName }
+            />
+          : quote }
       </section>
 
-        { // Just show medium posts if medium posts exist
-            mediumPostsList ?
-                <section className = "section section__recent-posts team team-member__posts">
-                    <div className = "usa-grid">
-                        <SectionTitle title = "Authored Articles" />
-                        { mediumPostsList }
-                    </div>
-                </section>
-                : mediumPostsList }
+      { // Just show medium posts if medium posts exist
+        mediumPostsList ?
+          <section className = "section section__recent-posts team team-member__posts">
+            <div className = "usa-grid">
+              <SectionTitle title = "Authored Articles" />
+              { mediumPostsList }
+            </div>
+          </section>
+        : mediumPostsList }
 
     </GeneralLayout>
   );
@@ -95,6 +96,7 @@ export const teamQuery = graphql `
       html
       frontmatter {
         path
+        first_name
         name
         role
         location
