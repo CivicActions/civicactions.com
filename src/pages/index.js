@@ -8,10 +8,9 @@ import MediumPostList from '../components/medium-components/mediumPostList';
 import GovernmentServices from '../components/organisms/GovernmentServices';
 import GlobalQuoteSlider from './../components/organisms/GlobalQuoteSlider';
 import FeaturedCaseStudies from '../components/organisms/FeaturedCaseStudies';
-
 // Atoms
-import SectionTitle from '../components/atoms/SectionTitle'
-import Button from '../components/atoms/Buttons'
+import SectionTitle from '../components/atoms/SectionTitle';
+import Button from '../components/atoms/Buttons';
 
 const IndexPage = ({data}) => {
 
@@ -75,10 +74,16 @@ const IndexPage = ({data}) => {
             <GlobalQuoteSlider quotes = {quotes} />
           </div>
         </div>
+        {/*----- Meet our team -------- */}
+        <div className = "usa-grid align-right">
+          <Button
+            button_text = "Meet Our Team"
+            link = "/team"
+          />
+        </div>
       </section>
     </HomeLayout>
   );
-
 }
 
 export default IndexPage
