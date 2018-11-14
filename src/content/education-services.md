@@ -39,7 +39,7 @@ CivicActions DITAP trainings are modeled on the same culture of open collaborati
 ### Trainings
 
 #### DITAP Foundation
-The DITAP Foundation course is for learners seeking to lead change in digital service procurement. This course fulfills the requirements of the **FAC-C-DS Certification**.  
+The DITAP Foundation course is for learners seeking to lead change in digital service procurement. This course fulfills the requirements of the **FAC-C-DS Certification**. Graduates earn up to 80 CLP.  
 
 **Course Topics**
 * Digital Services in 21st Century Government
