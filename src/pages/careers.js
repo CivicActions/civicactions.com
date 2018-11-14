@@ -1,11 +1,11 @@
 import React from "react"
 import _ from 'lodash'
-import { graphql } from "gatsby"
+import { graphql } from "gatsby";
 
-import SectionTitle from "./../components/atoms/SectionTitle"
-import GeneralLayout from "./../components/layouts/GeneralLayout"
-import Benefits from '../components/organisms/Benefits';
-import ImageBand from './../components/organisms/ImageBand'
+import SectionTitle from "./../components/atoms/SectionTitle";
+import GeneralLayout from "./../components/layouts/GeneralLayout";
+import IconParagraphsGroup from '../components/organisms/IconParagraphsGroup';
+import ImageBand from './../components/organisms/ImageBand';
 import ImageSlider from './../components/organisms/ImageSlider';
 import GlobalQuoteSlider from './../components/organisms/GlobalQuoteSlider';
 
@@ -13,17 +13,18 @@ import GlobalQuoteSlider from './../components/organisms/GlobalQuoteSlider';
 const Careers = ({data}) => {
   const { allJob, markdownRemark } = data;
   const { html,frontmatter } = markdownRemark;
-    const {
-      benefits_title,
-      images,
-      image_band,
-      quotes,
-      quotes_title,
-      openings_subtitle,
-      openings_title,
-      title,
-      subtitle,
-    } = frontmatter;
+  const {
+    benefits,
+    benefits_title,
+    images,
+    image_band,
+    quotes,
+    quotes_title,
+    openings_subtitle,
+    openings_title,
+    title,
+    subtitle,
+  } = frontmatter;
   const { edges } = allJob;
 
   const jobs = _.map(edges, (job, index) => {
@@ -64,7 +65,13 @@ const Careers = ({data}) => {
         </div>
       </section>
 
-      <Benefits title={benefits_title} />
+      <section className = "section section_benefits">
+        <section className = "usa-grid">
+          <SectionTitle title = { benefits_title }/>
+          <IconParagraphsGroup icons = { benefits } />
+        </section>
+      </section>
+
 
       <section className = "section section__recent-posts section__recent-posts-careers neutral-hex-bg">
         <div className = "usa-grid">
@@ -112,6 +119,14 @@ query jobsQuery {
          }
        }
         benefits_title
+        benefits {
+          alt
+          title
+          caption
+          icon {
+            publicURL
+          }
+        }
         openings_title
         openings_subtitle
         title
