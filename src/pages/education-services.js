@@ -2,7 +2,6 @@ import React from 'react';
 import { graphql } from "gatsby";
 
 import GeneralLayout from '../components/layouts/GeneralLayout';
-import SectionTitle from '../components/atoms/SectionTitle';
 
 const EducationServices = ({data}) => {
   const{ markdownRemark} = data;
@@ -16,7 +15,7 @@ const EducationServices = ({data}) => {
     <GeneralLayout
       heroTitle = { title }
       heroSubtitle = { subtitle } >
-      
+
       <section className = "section">
         <div className = "usa-grid">
           <div className = "text-container"
@@ -33,7 +32,7 @@ const EducationServices = ({data}) => {
       {/*     <IconParagraphsGroup icons = { features } /> */}
       {/*   </section> */}
       {/* </section> */}
-      
+
       {/* This is a placeholder for related titles content. see pages/ */}
       {/* dkan.js for how the graphql query can be added. */}
       {/* { (related_titles && edges) ? */}
@@ -44,7 +43,7 @@ const EducationServices = ({data}) => {
       {/*   /> */}
       {/*   : null */}
       {/* } */}
-   
+
     </GeneralLayout>
   );
 
