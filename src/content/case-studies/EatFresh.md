@@ -93,7 +93,7 @@ I’ve gotten very positive and impressed feedback since the site’s launch. Th
 [EatFresh Impact Evaluation Results](http://leahspantrysf.org/blog/2014/11/18/eatfreshorg-impact-evaluation-results)
 
 ##### More on the life of EatFresh since launch
-[About EatFresh](http://leahspantrysf.org/about-eatfresh/)  
+[About EatFresh](http://www.leahspantry.org/products/eatfresh-org/)  
 [EatFresh Overview from SNAP-Ed Toolkit](https://snapedtoolkit.org/interventions/programs/eatfresh/)
  
 <figure>
