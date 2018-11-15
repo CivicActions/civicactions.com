@@ -6273,7 +6273,7 @@ gatsby-transformer-sharp@^2.2.0-alpha.80a21f04:
     fs-extra "^4.0.2"
     probe-image-size "^4.0.0"
 
-gatsby@^2.0.50:
+gatsby@latest:
   version "2.0.50"
   resolved "https://registry.yarnpkg.com/gatsby/-/gatsby-2.0.50.tgz#ea68745c455f9f6c9d36b552ab4722e6a5e817f3"
   integrity sha512-rf2GTYiCALqTKNIMn6/8KsQDrJvYuFTsgmFOWJsPhybYwrUv5EjZT71KccZdLZ4sAV5aBbq8JJC3hrvqCuciMQ==
