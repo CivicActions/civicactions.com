@@ -29,7 +29,7 @@ const Hero = ({
 
   if(social) {
     socialLinks = social.map((link, index) => {
-      return <a className = "hero__social--link" href = { link.url }> { link.name } </a>
+      return <a className = "hero__social--link" key={index} href = { link.url }> { link.name } </a>
     });
     memberSocial = <div className = "hero__social">{ socialLinks } </div>;
   }
