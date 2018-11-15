@@ -4,7 +4,7 @@ import React from "react";
 import Helmet from 'react-helmet';
 import { StaticQuery, graphql } from "gatsby";
 
-import Header from './../header/Header'
+import Header from './../header/Header';
 import Hero from './../header/Hero';
 import SubFooter from './../footer/SubFooter';
 import Footer from './../footer/Footer';
