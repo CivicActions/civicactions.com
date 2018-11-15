@@ -51,7 +51,8 @@ export default function Template({data}) {
       heroSubtitle = { role }
       heroClass    = 'team-member__hero'
       pageTitle    = { `CivicActions | ${name}`}
-      teamImage      = { url + image.childImageSharp.fluid.src}
+      ogImage      = { url + image.childImageSharp.fluid.src}
+      teamImage    = { image }
       location     = { location }
       social       = { social }
     >

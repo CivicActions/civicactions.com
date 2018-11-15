@@ -26,6 +26,7 @@ const GeneralLayout = ({
   heroIsExternal,
   hideSubFooter,
   teamImage,
+  ogImage,
   location,
   social
   }) => (
@@ -72,7 +73,7 @@ const GeneralLayout = ({
                 { property: 'og:url', content: location },
                 { property: 'og:title', content: heroTitle },
                 { property: 'og:description', content: heroSubtitle },
-                { property: 'og:image', content: teamImage },
+                { property: 'og:image', content: ogImage },
                 { name: 'twitter:card', content: config.seo.twitterCard },
                 { name: 'twitter:site', content: config.seo.twitterSite },
                 { property: 'fb:app_id', content: config.seo.fbAppId },
