@@ -43,15 +43,13 @@ export default function Template({data}) {
     mediumPostsList = <ul className = "team__medium-posts medium--teasers teaser--wrapper">{ mediumPosts }</ul>
 
   }
-
-  const url = window.location.protocol+'//'+window.location.hostname+(window.location.port ? ':'+window.location.port: '');
   return (
     <GeneralLayout
       heroTitle    = { name }
       heroSubtitle = { role }
       heroClass    = 'team-member__hero'
       pageTitle    = { `CivicActions | ${name}`}
-      ogImage      = { url + image.childImageSharp.fluid.src}
+      ogImage      = { image.childImageSharp.fluid.src}
       teamImage    = { image }
       location     = { location }
       social       = { social }
