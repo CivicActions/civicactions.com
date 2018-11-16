@@ -28,7 +28,11 @@
 }
 
 // For a strange bug that hides all processed images.
-.gatsby-image-wrapper {
+// The .not(.hero__image) is to add the exception for
+// hero images postioned via the gatsby-image fluid element,
+// as they are conversely thrown out of place by this fix: they
+// require absolute positioning for placement.
+*:not(.hero__image) > .gatsby-image-wrapper {
   overflow: visible !important;
 
   img {
