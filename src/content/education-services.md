@@ -17,7 +17,7 @@ The U.S. Digital Service and Office of Federal Procurement Policy created the Di
 Starting in 2022, all Federal acquisition professionals managing contracts of $7M or greater will need the [FAC-C-DS certification](https://techfarhub.cio.gov/assets/files/FAC_C_Digital_Services_5-18-18.pdf) provided by DITAP training. Whether or not you need a certification, learning about modern digital services delivery can benefit many agency leaders, including: 
 
 * **Procurement Officials** seeking to develop expertise in modern IT contracts
-* **Project/Program Managers** learning to structure projects for digital service delivery
+* **Project and Program Managers** learning to structure projects for digital service delivery
 * **Legal teams** advising agencies on FOSS licensing and digital services contracts
 * **Technical Managers** approaching new open source and shared technology services
 * **Finance Officers** looking to maximize technology investments
@@ -71,10 +71,7 @@ We are currently developing an optional course for advanced learners looking to 
 * Pre-register to express interest.
 
 ### Register
-To enroll in DITAP courses or to express interest in future offerings, please register [here](https://docs.google.com/forms/d/1SZMrfD-mEG5zTEGjsUgRjKiMq0swmgSf_DfAyXRad0I/edit)
-
-### Contact
-For more information, contact Tony Fortenberry, Director of Education Services at: <educationservices@civicactions.com>
+To enroll in DITAP courses, express interest in future offerings, or get more information, contact Tony Fortenberry, Director of Education Services at: <educationservices@civicactions.com>
 
 
 
