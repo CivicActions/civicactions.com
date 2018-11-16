@@ -26,6 +26,10 @@ exports.createPages = ({ actions, graphql }) => {
               name
               role
               manager
+              date
+              link_text
+              publication
+              website
             }
           }
         }
@@ -36,6 +40,18 @@ exports.createPages = ({ actions, graphql }) => {
       if (result.errors) {
         return Promise.reject(result.errors)
       }
+
+      const pressNodes = result.data.allMarkdownRemark.edges.filter(
+        ({ node }) => node.frontmatter.type === 'press');
+
+      createPaginatedPages({
+        edges:  pressNodes,
+        createPage: createPage,
+        pageTemplate: "src/pages/press.js",
+        pageLength: 5, // This is optional and defaults to 10 if not used
+        pathPrefix: "press",
+        buildPath: (index, pathPrefix) => index > 1 ? `${pathPrefix}/${index}` : `/${pathPrefix}`
+      });
 
       result.data.allMarkdownRemark.edges.forEach(({ node }) => {
 
@@ -48,22 +64,6 @@ exports.createPages = ({ actions, graphql }) => {
             });
             break;
           case 'case-study':
-            createPage ({
-              path: node.frontmatter.path,
-              component: caseStudyTemplate
-            });
-            break;
-          case 'press':
-
-          createPaginatedPages({
-            edges: result.data.allMarkdownRemark.edges, // TODO Just press pages
-            createPage: createPage,
-            pageTemplate: "src/pages/press.js",
-            pageLength: 5, // This is optional and defaults to 10 if not used
-            pathPrefix: "press", // This is optional and defaults to an empty string if not used
-            buildPath: (index, pathPrefix) => index > 1 ? `${pathPrefix}/${index}` : `/${pathPrefix}` // This is optional and this is the default
-          });
-
             createPage ({
               path: node.frontmatter.path,
               component: caseStudyTemplate

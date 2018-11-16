@@ -1,19 +1,30 @@
 import React from "react";
 import { graphql } from "gatsby";
+import Link from "gatsby-link";
 
 import GeneralLayout from './../components/layouts/GeneralLayout';
 import PressTeaser from './../components/PressTeaser';
 
+const NavLink = props => {
+  if (!props.test) {
+    return <Link to={props.url}>{props.text}</Link>;
+  } else {
+    return <span>{props.text}</span>;
+  }
+};
+
 const Press = ({ data, pathContext }) => {
 
-  const{ allMarkdownRemark, markdownRemark } = data;
+  // pagination. See gatsby node for loading of pathContext.
+  const { group, index, first, last} = pathContext;
+  const previousUrl = index - 1 === 1 ? "/press" : '/press/' + (index - 1).toString();
+  const nextUrl = '/press/' + (index + 1).toString();
 
-  const{ edges } = allMarkdownRemark;
+  const{ markdownRemark } = data;
   const{ frontmatter} = markdownRemark;
   const {title, subtitle} = frontmatter;
 
-  let pressItems = edges.map((item, index) => {
-    const{ node } = item;
+  let pressItems = group.map(({ node }, index) => {
     const{ frontmatter, html } = node;
     const { title, date, publication, link_text, website} = frontmatter;
 
@@ -27,8 +38,7 @@ const Press = ({ data, pathContext }) => {
         link_text = { link_text }
         website = { website }
       />
-    )
-
+    );
   });
 
   return (
@@ -41,6 +51,13 @@ const Press = ({ data, pathContext }) => {
          <ul className = "press__list">
            { pressItems }
          </ul>
+
+         <div className="previousLink">
+           <NavLink test={first} url={previousUrl} text="Go to Previous Page" />
+         </div>
+         <div className="nextLink">
+           <NavLink test={last} url={nextUrl} text="Go to Next Page" />
+         </div>
        </div>
       </section>
     </GeneralLayout>
