@@ -16,8 +16,8 @@ const Hero = ({
   location,
   social
   }) => {
+    const team_image = image ? <div className = "hero__image"><Img fluid = {image.childImageSharp.fluid} alt={`Image of ${title}`} /></div>: '';
     // The button gets displayed only if the cta link is set.
-    const team_image = image ? <div className = "hero__image"><Img fluid = {image.childImageSharp.fluid} /></div>: '';
     const button = cta_link ? <Button type = 'hero'
                                     button_text = { cta_text }
                                     link = { cta_link }
