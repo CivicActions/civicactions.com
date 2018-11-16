@@ -5,6 +5,7 @@
  */
 
 const path = require('path');
+const createPaginatedPages = require("gatsby-paginate");
 
 exports.createPages = ({ actions, graphql }) => {
   const { createPage } = actions;
@@ -47,6 +48,22 @@ exports.createPages = ({ actions, graphql }) => {
             });
             break;
           case 'case-study':
+            createPage ({
+              path: node.frontmatter.path,
+              component: caseStudyTemplate
+            });
+            break;
+          case 'press':
+
+          createPaginatedPages({
+            edges: result.data.allMarkdownRemark.edges, // TODO Just press pages
+            createPage: createPage,
+            pageTemplate: "src/pages/press.js",
+            pageLength: 5, // This is optional and defaults to 10 if not used
+            pathPrefix: "press", // This is optional and defaults to an empty string if not used
+            buildPath: (index, pathPrefix) => index > 1 ? `${pathPrefix}/${index}` : `/${pathPrefix}` // This is optional and this is the default
+          });
+
             createPage ({
               path: node.frontmatter.path,
               component: caseStudyTemplate

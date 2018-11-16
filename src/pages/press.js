@@ -4,7 +4,8 @@ import { graphql } from "gatsby";
 import GeneralLayout from './../components/layouts/GeneralLayout';
 import PressTeaser from './../components/PressTeaser';
 
-const Press = ({ data }) => {
+const Press = ({ data, pathContext }) => {
+
   const{ allMarkdownRemark, markdownRemark } = data;
 
   const{ edges } = allMarkdownRemark;
@@ -20,6 +21,7 @@ const Press = ({ data }) => {
       <PressTeaser
         publication = { publication}
         date = { date }
+        key = { index }
         title = { title }
         text = { html }
         link_text = { link_text }
@@ -73,4 +75,3 @@ query pressPage {
   }
 }
 `;
-
