@@ -47,7 +47,7 @@ exports.createPages = ({ actions, graphql }) => {
       createPaginatedPages({
         edges:  pressNodes,
         createPage: createPage,
-        pageTemplate: "src/pages/press.js",
+        pageTemplate: "src/templates/press.js",
         pageLength: 5, // This is optional and defaults to 10 if not used
         pathPrefix: "press",
         buildPath: (index, pathPrefix) => index > 1 ? `${pathPrefix}/${index}` : `/${pathPrefix}`
