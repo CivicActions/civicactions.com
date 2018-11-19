@@ -3,11 +3,13 @@ path: /team/may-lyn-medina
 type: team
 published: 0
 name: May Lyn Medina
+first_name: May Lyn
+last_name: Medina
 image: 'images/may-lyn-medina.jpg'
 role: Admin Support
 location: Bacolod City, Philippines
 quote: Move with purpose, live with meaning
-social: 
+social:
   - {
   name: LinkedIn,
   url: https://www.linkedin.com/in/maylynmedina/
@@ -15,10 +17,10 @@ social:
 specialties: [ "Accounting",
 Microfinance Loans,
 Invoicing,
-Attention to Detail 
+Attention to Detail
 ]
 
-  
+
 ---
 
 May Lyn is in her element when all the numbers add up at the end of the day.
