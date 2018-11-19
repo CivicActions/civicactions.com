@@ -67,7 +67,7 @@ We are currently developing an optional course for advanced learners looking to 
 
 **Pre-registration available**
 * Curriculum currently in development
-* Date: First class tentatively scheduled to begin 2019 Q2
+* Date: First class tentatively scheduled to begin May 2019
 * Pre-register to express interest.
 
 ### Register
