@@ -6,7 +6,7 @@ subtitle: 'Transforming government services starts with procurement. We offer ed
 
 ---
 
-[Download program details (pdf)](https://drive.google.com/file/d/14y2vp8rdVA29rT_JT4A7Mk1W5rYQVQYF/view?usp=sharing)
+[Download program details (pdf)](content/CivicActions-DITAP.pdf)
 
 Traditional procurement practices lack the flexibility to help Federal agencies buy and deliver modern digital services. As the technological landscape continues to evolve and public expectation for government digital services increases, procurement officers need to learn how current regulations can be adapted to modular contracts and software development best practices.
 
