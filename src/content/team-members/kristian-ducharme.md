@@ -30,6 +30,7 @@ Problem Solving,
 Keyboarding (the musical kind)
 ]
 
+
 ---
 
 Kristian loves learning, teaching, and creating things. 
