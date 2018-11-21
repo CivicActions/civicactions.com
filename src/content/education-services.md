@@ -6,6 +6,7 @@ subtitle: 'Transforming government services starts with procurement. We offer ed
 
 ---
 
+### Background
 [Download program details (pdf)](https://drive.google.com/file/d/14y2vp8rdVA29rT_JT4A7Mk1W5rYQVQYF/view?usp=sharing)
 
 Traditional procurement practices lack the flexibility to help Federal agencies buy and deliver modern digital services. As the technological landscape continues to evolve and public expectation for government digital services increases, procurement officers need to learn how current regulations can be adapted to modular contracts and software development best practices.
@@ -13,7 +14,7 @@ Traditional procurement practices lack the flexibility to help Federal agencies 
 The U.S. Digital Service and Office of Federal Procurement Policy created the Digital Information Technology Acquisitions Professional (DITAP) program as a pilot community of informed IT procurement specialists to build expertise across Federal agencies. CivicActions offers DITAP training to support the development of modern acquisition strategies for digital transformation.
 
 
-#### Who is DITAP Training For?
+### Who is DITAP Training For?
 Starting in 2022, all Federal acquisition professionals managing contracts of $7M or greater will need the [FAC-C-DS certification](https://techfarhub.cio.gov/assets/files/FAC_C_Digital_Services_5-18-18.pdf) provided by DITAP training. Whether or not you need a certification, learning about modern digital services delivery can benefit many agency leaders, including: 
 
 * **Procurement Officials** seeking to develop expertise in modern IT contracts
@@ -24,21 +25,22 @@ Starting in 2022, all Federal acquisition professionals managing contracts of $7
 
 ### Our Approach
 
-**Expert, invested coaches**
+#### Expert, invested coaches
 
 Our team of design and technology experts is committed to transforming how government procures, develops, and delivers digital services. CivicActions DITAP training is shaped by years of work alongside state and federal staff on modern IT projects.
 
-**Blended learning environments**
+#### Blended learning environments
 
 Focused in-person classroom sessions form the foundation for extended learning online. 
 
-**Community-oriented learning**
+#### Community-oriented learning
 
 CivicActions DITAP trainings are modeled on the same culture of open collaboration and learning that supports effective digital service delivery. Learners connect with peers in the acquisition community so they can benefit from shared knowledge and support.
 
 ### Trainings
 
 #### DITAP Foundation
+
 The DITAP Foundation course is for learners seeking to lead change in digital service procurement. This course fulfills the requirements of the **FAC-C-DS Certification**. Graduates earn up to 80 CLP.  
 
 **Course Topics**
@@ -57,6 +59,7 @@ The DITAP Foundation course is for learners seeking to lead change in digital se
 * Cost:  $6,000 per learner
 
 #### DITAP Advanced
+
 We are currently developing an optional course for advanced learners looking to deepen their expertise in digital services delivery and culture. Please pre-register to receive information on future training schedules. 
 
 **Course Topics**
