@@ -21,8 +21,6 @@ export default function Template({data}) {
     mediumPosts,
     mediumPostsList;
 
-  let memberImage = image ? image.childImageSharp.resize.src: '';
-
   if(specialties) {
     memberSpecialties = specialties.map((item, index) => {
       return <li className = "hero__specialties" key = { index }>{ item }</li>
@@ -45,14 +43,14 @@ export default function Template({data}) {
     mediumPostsList = <ul className = "team__medium-posts medium--teasers teaser--wrapper">{ mediumPosts }</ul>
 
   }
-
   return (
     <GeneralLayout
       heroTitle    = { name }
       heroSubtitle = { role }
       heroClass    = 'team-member__hero'
       pageTitle    = { `CivicActions | ${name}`}
-      teamImage    = { memberImage }
+      ogImage      = { image.childImageSharp.fluid.src}
+      teamImage    = { image }
       location     = { location }
       social       = { social }
     >
@@ -113,8 +111,8 @@ export const teamQuery = graphql `
         specialties
         image {
           childImageSharp {
-            resize(width: 300, height: 300) {
-              src
+            fluid(maxWidth: 600, maxHeight: 600) {
+            ...GatsbyImageSharpFluid_withWebp_noBase64
             }
           }
         }
