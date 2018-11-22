@@ -48,6 +48,7 @@ Jeff was an early member of the US Digital Service and founding engineering mana
 * Redesigning [hiring processes](https://civicactions.com/careers/) to create high performing teams
 * [Thinking](https://ash.harvard.edu/people/jeff-maher) and [writing](https://medium.com/@plusjeff) about building digital service teams within government
 * Working to improve government design forms at [Code for Boston](http://www.codeforboston.org/)
+* Promoting [healthy DevOps culture](https://www.youtube.com/watch?time_continue=1&v=W_1tJ4n_okg) to support digital services for the public
 
 
 
