@@ -1,5 +1,5 @@
 ---
-path: /
+path: /team/jay-darnell
 type: team
 published: 0
 name: Jay Darnell
