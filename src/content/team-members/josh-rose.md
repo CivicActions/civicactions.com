@@ -1,5 +1,5 @@
 ---
-path: /
+path: /team/josh-rose
 type: team
 published: 0
 name: Josh Rose
