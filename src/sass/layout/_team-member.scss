@@ -74,6 +74,7 @@
 
   &__specs {
     padding: $spacing-medium;
+    margin-bottom: rem(40px);
     @include media($medium-screen) {
       padding: $site-margins 0;
       .study__tech-specs {
