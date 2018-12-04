@@ -57,6 +57,12 @@ module.exports = {
         maxWidth: 1028,
         wrapperStyle: "position: relative;"
       },
+    },
+    {
+      resolve: `gatsby-transformer-remark`,
+      options: {
+        plugins: ["gatsby-remark-copy-linked-files"],
+      },
     }
   ],
 };
