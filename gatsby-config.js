@@ -23,11 +23,11 @@ module.exports = {
       }
     },
     {
-        resolve: `gatsby-source-filesystem`,
-        options: {
-            path: `${__dirname}/src/files/client-logos`,
-            name: 'client-logos',
-        }
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        path: `${__dirname}/src/files/client-logos`,
+        name: 'client-logos',
+      }
     },
     `gatsby-transformer-remark`,
     {
