@@ -9,4 +9,4 @@ publication: "SooperThemes Blog"
 
 ---
 
-A list by SooperThemes highlights the use of Drupal by organizations focused on positive world impact. Two of the sites - [Tesla Motors](https://www.tesla.com/) and [Doctors Without Borders](https://www.doctorswithoutborders.org/) - are CivicActions projects.
+A list by SooperThemes highlights the use of Drupal by organizations focused on positive world impact. We were honored to work on 2 of the 9 sites - [Tesla Motors](https://www.tesla.com/) and [Doctors Without Borders](https://www.doctorswithoutborders.org/).
