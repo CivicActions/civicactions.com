@@ -68,8 +68,8 @@ benefits:
   - {
   icon: "./icons/career_benefits/community.svg",
   title: Commmunity,
-  caption: "We are 'open by default' - so your contributions here will be under public license for the benefit of all. We also encourage you to spend 5% of your working time giving bak to a community you care about.",
-  alt: "We are 'open by default' - so your contributions here will be under public license for the benefit of all. We also encourage you to spend 5% of your working time giving bak to a community you care about.",
+  caption: "We are 'open by default' - so your contributions here will be under public license for the benefit of all. We also encourage you to spend 5% of your working time giving back to a community you care about.",
+  alt: "We are 'open by default' - so your contributions here will be under public license for the benefit of all. We also encourage you to spend 5% of your working time giving back to a community you care about.",
 
   }
 
