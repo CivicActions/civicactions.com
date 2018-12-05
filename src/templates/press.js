@@ -52,13 +52,16 @@ const Press = ({ data, pathContext }) => {
            { pressItems }
          </ul>
 
-         <div className="previousLink">
-           <NavLink test={first} url={previousUrl} text="Go to Previous Page" />
-         </div>
-         <div className="nextLink">
-           <NavLink test={last} url={nextUrl} text="Go to Next Page" />
+         <div className="prev-next-links">
+           <div className="previous">
+             <NavLink test={first} url={previousUrl} text="Previous" />
+           </div>
+           <div className="next">
+             <NavLink test={last} url={nextUrl} text="Next" />
+           </div>
          </div>
        </div>
+
       </section>
     </GeneralLayout>
   )
