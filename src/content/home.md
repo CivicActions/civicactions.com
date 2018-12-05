@@ -10,7 +10,7 @@ quotes_title: Get to know us
 quotes: 
 - {
     image: './team-members/images/karen-johnson.jpg',
-    text: 'The emphasis on balance and constant learning make CivicActions an incredibly fun and engaging community.',
+    text: 'The emphasis on balance and constant learning makes CivicActions an incredibly fun and engaging community.',
     author: 'Karen Johnson, Systems Administrator'
   }
 - {
