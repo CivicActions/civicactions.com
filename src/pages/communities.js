@@ -43,8 +43,7 @@ const Communities = ({ data }) => {
   return(
     <GeneralLayout
       heroTitle = { title }
-      heroSubtitle = { subtitle }
-    >
+      heroSubtitle = { subtitle } >
 
       {/* The Recent AGL Posts from Medium Section.*/}
       <section className = "section section__recent-posts">
@@ -52,16 +51,14 @@ const Communities = ({ data }) => {
           <span className = "community__logo"><Img resolutions = { aglLogo } /></span>
           <SectionTitle
             title = "Agile Government Leadership"
-            subtitle = { agile_intro_text }
-          />
+            subtitle = { agile_intro_text }>
+            <Button
+              button_text = {agl_button_text}
+              link = {agl_button_link}
+              isExternal = { true }
+              />
+          </SectionTitle>
           { AGLPosts }
-        </div>
-        <div className = "usa-grid">
-          <Button
-            button_text = {agl_button_text}
-            link = {agl_button_link}
-            isExternal = { true }
-          />
         </div>
       </section>
 
@@ -79,7 +76,6 @@ const Communities = ({ data }) => {
           </SectionTitle>
           { DKANPosts }
         </div>
-
       </section>
     </GeneralLayout>
   );
