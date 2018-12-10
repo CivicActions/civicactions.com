@@ -21,7 +21,9 @@ RUN yarn test
 # Build web server
 # This is based on https://github.com/abiosoft/caddy-docker/blob/master/Dockerfile
 #
-FROM abiosoft/caddy:builder as builder
+# TODO: Switch back to abiosoft/caddy:builder once https://github.com/abiosoft/caddy-docker/issues/151 is fixed.
+#
+FROM grugnog/caddy:builder as builder
 
 ARG version="0.11.0"
 ARG plugins="realip,expires,prometheus,cloudflare"
