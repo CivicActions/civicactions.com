@@ -23,7 +23,7 @@ RUN yarn test
 #
 # TODO: Switch back to abiosoft/caddy:builder once https://github.com/abiosoft/caddy-docker/issues/151 is fixed.
 #
-FROM grugnog/caddy:builder as builder
+FROM grugnog/caddy-docker:builder as builder
 
 ARG version="0.11.0"
 ARG plugins="realip,expires,prometheus,cloudflare"
