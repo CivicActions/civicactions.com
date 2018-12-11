@@ -5,6 +5,7 @@
  */
 
 const path = require('path');
+const createPaginatedPages = require("gatsby-paginate");
 
 exports.createPages = ({ actions, graphql }) => {
   const { createPage } = actions;
@@ -25,7 +26,12 @@ exports.createPages = ({ actions, graphql }) => {
               name
               role
               manager
+              date
+              link_text
+              publication
+              website
             }
+            html
           }
         }
       }
@@ -35,6 +41,18 @@ exports.createPages = ({ actions, graphql }) => {
       if (result.errors) {
         return Promise.reject(result.errors)
       }
+
+      const pressNodes = result.data.allMarkdownRemark.edges.filter(
+        ({ node }) => node.frontmatter.type === 'press');
+
+      createPaginatedPages({
+        edges:  pressNodes,
+        createPage: createPage,
+        pageTemplate: "src/templates/press.js",
+        pageLength: 5, // This is optional and defaults to 10 if not used
+        pathPrefix: "press",
+        buildPath: (index, pathPrefix) => index > 1 ? `${pathPrefix}/${index}` : `/${pathPrefix}`
+      });
 
       result.data.allMarkdownRemark.edges.forEach(({ node }) => {
 
