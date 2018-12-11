@@ -1,5 +1,5 @@
 ---
-path: /
+path: /team/john-erhardt
 type: team
 published: 0
 name: John Erhardt
