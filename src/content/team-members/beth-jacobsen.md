@@ -40,4 +40,5 @@ Beth has a degree from the University of Florida and is an Acquia Certified Drup
 * Helping support [social transformation](https://www.tostan.org/) for communities in Africa 
 * Going back for more [South Indian street fare](https://www.youtube.com/watch?v=C66NVENUNYQ) in Washington Square Park
 * [Writing and workshopping](http://www.29thstreetplaywrightscollective.org/write-now-workshop.html) plays on the Upper West Side
+
 -------------------------------
