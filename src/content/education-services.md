@@ -37,7 +37,7 @@ Focused in-person classroom sessions form the foundation for extended learning o
 
 CivicActions DITAP trainings are modeled on the same culture of open collaboration and learning that supports effective digital service delivery. Learners connect with peers in the acquisition community so they can benefit from shared knowledge and support.
 
-### Trainings
+### Courses
 
 #### DITAP Foundation
 
