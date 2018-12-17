@@ -46,7 +46,7 @@ She writes about civic tech and government transformation with a focus on the pe
 Melinda is self-taught in her career path, and grateful for the people and organizations that have helped her grow and learn. Her favorite things in life are avocados, her kids’ artwork, Instagram, clever science-y blogs with stick figures, and craft beer.
 
 
-### Things Melinda loves Doing
+### Things Melinda has been doing
 * Telling the stories of a passionate [team of civic technologists](https://medium.com/civicactions)
 * Writing about [agile and innovative practices in government](https://medium.com/agile-government-leadership)
 * Contributing to the story of the [open source open data community](https://medium.com/dkan-blog)
