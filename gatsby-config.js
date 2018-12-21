@@ -63,6 +63,19 @@ module.exports = {
       options: {
         plugins: ["gatsby-remark-copy-linked-files"],
       },
+    },
+    {
+      resolve: "gatsby-transformer-remark",
+      options: {
+        plugins: [
+          {
+            resolve: "gatsby-remark-embed-youtube",
+            options: {
+              width: '100%'
+            }
+          }
+        ]
+      }
     }
   ],
 };

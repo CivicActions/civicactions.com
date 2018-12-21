@@ -32,6 +32,44 @@ abbr[title] {
   @include text-container;
 }
 
+.text-container--careers {
+  @extend .text-container;
+
+  // 1. Overwrite max-width so that we can have a full-width content
+    max-width: none;
+
+  // 2. Set restriction for all tags, so as to have a mostly narrow column
+  * {
+    max-width: $text-max-width;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  // 3. except for these:
+  > div, div > iframe {
+    max-width: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  // Wrapper fix for iframe height.
+  // https://css-tricks.com/NetMag/FluidWidthVideo/Article-FluidWidthVideo.php
+  > div {
+    position: relative;
+    padding-bottom: 56.25%; /* 16:9 */
+    padding-top: 25px;
+    height: 0;
+    > iframe  {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+    }
+  }
+}
+
+
+
 .visually-hidden {
   @include visually-hidden-text;
 }

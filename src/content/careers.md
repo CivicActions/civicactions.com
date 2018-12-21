@@ -84,7 +84,10 @@ image_band:
 - './image-band/IMG_20180713_130136.jpg'
 - './image-band/IMG_0577.jpg'
 - './image-band/IMG_20170918_122218.jpg'
+
 ---
+`youtube:https://www.youtube.com/embed/7r_TbNoRMrw`
+
 ### Who we are
 CivicActions is built on a culture of openness and authenticity. We aren’t afraid to show emotion or be our true selves. We find inspiration in the things that make each of us unique, and we continually share and learn from each other. We are people first, striving to make the world better through our work, but also creating an environment that allows us to care for ourselves and each other.
 

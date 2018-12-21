@@ -48,11 +48,9 @@ const Careers = ({data}) => {
       hideSubFooter =  {true}
     >
 
-      <ImageSlider images = { images } />
-
       <section className = "section section__careers">
         <div className = "usa-grid">
-          <div className = "text-container" dangerouslySetInnerHTML = {{ __html: html }} />
+          <div className = "text-container--careers" dangerouslySetInnerHTML = {{ __html: html }} />
         </div>
       </section>
 
