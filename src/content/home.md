@@ -34,13 +34,13 @@ government_services:
   }
 - {
     title: 'DKAN and Open Data',
-    image: './government-services-images/DKANopendata.jpg',
+    image: './government-services-images/DKAN.jpg',
     text: 'We help agencies comply with open data mandates by providing full-scale DKAN services and support.',
     link: '/dkan',
   }
 - {
     title: 'DITAP Training',
-    image: './government-services-images/education-services_thumb2.jpg',
+    image: './government-services-images/ditap.jpg',
     text: 'We offer education services to support the development of leaders in the Federal acquisition community.',
     link: '/education-services',
   }
