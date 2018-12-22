@@ -3,12 +3,6 @@ path: /
 type: page
 title: "Careers"
 subtitle: "CivicActions is a place to learn and grow with a talented group of folks who are passionate about transforming the future of government digital services. Join us!"
-images:
-  - {
-  url: 'careers.jpg',
-  caption: 'CivicActions retreat 2018 in Boulder',
-  alt: 'CivicActions retreat 2018 in Boulder'
-  }
 quotes_title: Working at CivicActions
 quotes:
   - {
