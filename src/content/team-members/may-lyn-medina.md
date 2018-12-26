@@ -6,7 +6,7 @@ name: May Lyn Medina
 first_name: May Lyn
 last_name: Medina
 image: 'images/may-lyn-medina.jpg'
-role: Admin Support
+role: Administrative Support
 location: Bacolod City, Philippines
 quote: Move with purpose, live with meaning
 social:
