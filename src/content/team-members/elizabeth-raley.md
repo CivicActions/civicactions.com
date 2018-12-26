@@ -1,5 +1,5 @@
 ---
-path: /
+path: /team/elizabeth-raley
 type: team
 published: 0
 name: Elizabeth Raley
