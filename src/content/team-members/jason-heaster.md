@@ -4,7 +4,7 @@ type: team
 published: 0
 name: Jason Heaster
 image: 'images/jason-heaster.jpg'
-role: Agile Project Manager
+role: Project Management
 location: Amherst, MA
 quote: I am the mad scientist of team chemistry
 social: 
