@@ -4,7 +4,7 @@ type: team
 published: 0
 name: Beth Jacobsen
 image: 'images/beth-jacobsen.jpg'
-role: Engineer
+role: Engineering
 location: New York, New York
 quote: It’s important to know that the work I’m doing day to day isn’t just for the team, but for the greater good.
 social: 
