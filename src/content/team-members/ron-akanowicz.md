@@ -1,5 +1,5 @@
 ---
-path: /
+path: /team/ron-akanowicz
 type: team
 published: 0
 name: Ron Akanowicz
