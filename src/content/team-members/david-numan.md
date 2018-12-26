@@ -4,7 +4,7 @@ type: team
 published: 0
 name: David Numan
 image: 'images/david-numan.jpg'
-role: Engineer / System Administrator 
+role: DevOps
 location: Hamilton, Ontario, Canada
 quote: They call me Docker Dave.
 social: 
