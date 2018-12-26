@@ -4,7 +4,7 @@ type: team
 published: 0
 name: Ben Hafer
 image: 'images/ben-hafer.jpg'
-role: Director of Business Development
+role: Business Development
 location: Sacramento, CA
 quote: There is nothing permanent except change. (Heraclitus)
 social: 
