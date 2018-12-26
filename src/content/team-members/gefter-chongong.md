@@ -4,7 +4,7 @@ type: team
 published: 0
 name: Gefter Chongong
 image: 'images/gefter-chongong.jpg'
-role: Engineer
+role: DevOps
 location: Bowie, MD
 quote: Never give up ... I will eventually get there.
 social: 
