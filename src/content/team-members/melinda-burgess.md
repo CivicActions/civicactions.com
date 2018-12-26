@@ -4,7 +4,7 @@ type: team
 published: 0
 name: Melinda Burgess
 image: 'images/melinda-burgess.jpg'
-role: Content Strategist
+role: Content Strategy
 location: Seattle, WA
 quote: I love working remotely because I can have the peace of mind that comes with a secure career, while still pursuing radical dreams.
 social: 
