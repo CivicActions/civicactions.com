@@ -5,7 +5,7 @@ published: 0
 name: Owen Barton
 image: 'images/owen-barton.jpg'
 manager: 1
-role: Director of Engineering
+role: Management & Operations
 location: Corvallis, OR
 quote: Maxims are always stated as unconditional, when in fact they shouldn’t be.
 social: 
