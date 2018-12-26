@@ -4,7 +4,7 @@ type: team
 published: 0
 name: Eric Napier
 image: 'images/eric-napier.jpg'
-role: Engineer
+role: Engineering
 location: Cape Elizabeth, Maine
 quote: I have a book here and I'm not afraid to use it.
 social: 
