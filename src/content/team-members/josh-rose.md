@@ -4,7 +4,7 @@ type: team
 published: 0
 name: Josh Rose
 image: 'images/josh-rose.jpg'
-role: Engineer
+role: Engineering
 location: Springfield, OR
 quote: A lot of places talk about being a 'flat' company, but at CivicActions it's real. Everyone can be a leader.
 social: 
