@@ -1,5 +1,5 @@
 ---
-path: /
+path: /team/judy-raiten
 type: team
 published: 0
 name: Judy Raiten
