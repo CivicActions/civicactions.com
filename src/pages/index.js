@@ -5,7 +5,7 @@ import { graphql } from 'gatsby'
 //Components
 import HomeLayout from '../components/layouts/HomeLayout'
 import MediumPostList from '../components/medium-components/mediumPostList';
-import GovernmentServices from '../components/organisms/GovernmentServices';
+import Teaser from './../components/Teaser';
 import GlobalQuoteSlider from './../components/organisms/GlobalQuoteSlider';
 import FeaturedCaseStudies from '../components/organisms/FeaturedCaseStudies';
 // Atoms
@@ -18,7 +18,12 @@ const IndexPage = ({data}) => {
   const { group } = allMediumPost;
   const { html, frontmatter } = markdownRemark;
   const { edges } = allMarkdownRemark;
-  const { quotes, quotes_title} = frontmatter;
+  const {
+    government_services_title,
+    quotes,
+    quotes_title,
+    government_services
+  } = frontmatter;
 
   let mediumCaPosts = _.first(group, (edges) => {
      return edges;
@@ -26,6 +31,18 @@ const IndexPage = ({data}) => {
 
   let mediumPosts = _.map(mediumCaPosts, (post, index) => {
     return <MediumPostList key = {{ index }} posts = {{ post }} />
+  });
+
+  const governmentServices = _.map(government_services, (item, index) => {
+    const { title, image, text, link } = item;
+    const img = image ?  image.childImageSharp.fixed.src: null;
+    return <Teaser
+             key = {{ index }}
+             teaserTitle = {title}
+             teaserImage = {img}
+             teaserText = {text}
+             teaserLink = {link}
+           />
   });
 
   return (
@@ -64,7 +81,14 @@ const IndexPage = ({data}) => {
       </section>
 
       {/*------ Modernizing Government Services Section--------*/}
-      <GovernmentServices />
+      <section className = "section section__government-services neutral-hex-bg">
+        <div className = "usa-grid columns columns--teaser">
+          <SectionTitle title = {government_services_title} />
+          {governmentServices}
+        </div>
+      </section>
+
+
 
       {/*----- Get to Know Us section -------- */}
       <section className = "section section__triple-quotes">
@@ -123,6 +147,19 @@ export const mediumQuery = graphql `
             }
           }
           text
+        }
+        government_services_title
+        government_services {
+          link
+          text
+          title
+          image {
+            childImageSharp{
+              fixed(width:590, height: 300) {
+              ...GatsbyImageSharpFixed_withWebp_noBase64
+             }
+            }
+          }
         }
       }
     }

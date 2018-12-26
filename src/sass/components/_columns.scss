@@ -1,0 +1,17 @@
+.columns {
+  @media all and (min-width: 600px) {
+    display: flex;
+    flex-direction: row;
+    > div {
+      padding: 0 15px;
+      flex-grow: 1;
+      flex-basis: 0;
+     }
+    > div:first-child {
+      padding-left: 0;
+    }
+    > div:last-child {
+      padding-right: 0;
+    }
+  }
+}
