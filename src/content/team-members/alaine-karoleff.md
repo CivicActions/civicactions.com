@@ -5,7 +5,7 @@ published: 0
 name: Alaine Karoleff
 image: 'images/alaine-karoleff.jpg'
 manager: 1
-role: Director of Agile Digital Services
+role: Management & Operations
 location: San Francisco, CA
 quote: Team diversity means I can be unique in myself, but also fit in with the team.
 social: 
