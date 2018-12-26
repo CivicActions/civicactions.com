@@ -4,7 +4,7 @@ type: team
 published: 0
 name: Ero Gray
 image: 'images/ero-gray.jpg'
-role: Helpdesk Support Manager
+role: Help Desk Support 
 location: Portland, OR
 quote: I still don't have a better plan than kindness.
 social: 
