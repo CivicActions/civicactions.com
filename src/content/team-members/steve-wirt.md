@@ -4,7 +4,7 @@ type: team
 published: 0
 name: Steve Wirt
 image: 'images/steve-wirt.jpg'
-role: Engineer
+role: Engineering
 location: Nokomis, FL
 quote: If it's worth doing, it's worth doing well. If it's worth doing well, it's gotta be done with a smile.
 social: 
