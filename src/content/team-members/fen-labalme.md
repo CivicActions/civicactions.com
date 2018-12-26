@@ -4,7 +4,7 @@ type: team
 published: 0
 name: Fen Labalme
 image: 'images/fen-labalme.jpg'
-role: Chief Information Security Officer
+role: Security & Compliance
 location: Pittsburgh, PA
 quote: Security is never ‘done’.
 social: 
