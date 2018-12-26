@@ -5,7 +5,7 @@ published: 0
 name: Bill Ogilvie
 image: 'images/bill-ogilvie.jpg'
 manager: 1
-role: Vice President of Federal Sales
+role: Business Development
 location: Washington, D.C. area
 quote: Don’t get squeezed into a waterfall — let’s keep it open and agile.
 social: 
