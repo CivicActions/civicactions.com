@@ -4,7 +4,7 @@ type: team
 published: 0
 name: Tom Camp
 image: 'images/tom-camp.jpg'
-role: Engineer
+role: Engineering
 location: Paonia, Colorado
 quote: Well, ‘killed the world’ might be a bit of an overstatement. I would have gone with ‘introduced entropy.’
 social: 
