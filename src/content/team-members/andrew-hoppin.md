@@ -4,7 +4,7 @@ type: team
 published: 0
 name: Andrew Hoppin
 image: 'images/andrew-hoppin.jpg'
-role: Consultant
+role: Open Data
 location: New York City
 quote: Government sharing is government caring.
 social: 
