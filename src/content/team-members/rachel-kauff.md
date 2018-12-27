@@ -4,7 +4,7 @@ type: team
 published: 0
 name: Rachel Kauff
 image: 'images/rachel-kauff.jpg'
-role: Content Writer
+role: Content Strategy
 location: Los Angeles, CA
 quote: The donut emoji is a reminder of the cyclical nature of cravings.
 social: 
