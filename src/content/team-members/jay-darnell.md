@@ -4,7 +4,7 @@ type: team
 published: 0
 name: Jay Darnell
 image: 'images/jay-darnell.jpg'
-role: Engineer
+role: Engineering
 location: Guelph, Ontario
 quote: The universe is an amazing place full of wonders waiting to be discovered.
 social: 
