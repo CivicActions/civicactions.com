@@ -4,7 +4,7 @@ type: team
 published: 0
 name: Dan Gurin
 image: 'images/dan-gurin.jpg'
-role: Engineer
+role: Engineering
 location: Asheville, NC
 quote: Never do today what is better left until tomorrow.
 social: 
