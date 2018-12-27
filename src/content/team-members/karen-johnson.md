@@ -4,7 +4,7 @@ type: team
 published: 0
 name: Karen Johnson
 image: 'images/karen-johnson.jpg'
-role: Systems Administrator
+role: DevOps
 location: Media, PA
 quote: If I could be an ethical hacker, I’d totally do that.
 social: 
