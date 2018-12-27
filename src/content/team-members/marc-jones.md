@@ -4,7 +4,7 @@ type: team
 published: 0
 name: Marc Jones
 image: 'images/marc-jones.jpg'
-role: In-house Counsel & Compliance Engineer
+role: Legal & Compliance 
 location: Bloomfield, CT
 quote: If you are always working towards eliminating the need for your job; people will never stop offering you new jobs.
 social: 
