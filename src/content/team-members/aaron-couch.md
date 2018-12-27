@@ -1,7 +1,7 @@
 ---
 path: /team/aaron-couch
 type: team
-published: 0
+published: 1
 name: Aaron Couch
 image: 'images/aaron-couch.jpg'
 role: Open Data
@@ -42,7 +42,7 @@ Aaron loves sharing technology for the greater good.
 
 As the creator of [Project DKAN](https://getdkan.org/), he works with the development team to maintain a Drupal-based open data platform that allows organizations to publish and organize information. Aaron’s innovative work in civic technology is backed by a fierce commitment to open source software and years of experience in Drupal development. 
 
-Aaron has a B.A. from the University of Pittsburgh. He is the founder of several companies and a lifelong advocate for social change. He lives with his partner, daughter, and cat in the Roxborough neighborhood in Philadelphia -- and occasionally works from the car so his daughter can take a nap in the carseat and his partner can catch a break.
+Aaron has a B.A. from the University of Pittsburgh. He is the founder of several companies and a lifelong advocate for social change. He lives with his partner, daughter, and cat in the Roxborough neighborhood in Philadelphia — and occasionally works from the car so his daughter can take a nap in the carseat and his partner can catch a break.
 
 
 
