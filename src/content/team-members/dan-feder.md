@@ -1,5 +1,5 @@
 ---
-path: /
+path: /team/dan-feder
 type: team
 published: 0
 name: Dan Feder
