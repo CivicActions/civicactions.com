@@ -42,4 +42,5 @@ Jacqueline has a BFA from University of Michigan. She began her career designing
 * Volunteering to help [support health rights](https://midwestaccesscoalition.org/) for women
 * Staying up-to-date with the latest in [digital accessibility](http://conf.a11yto.com/) and [inclusivity in design](https://www.meetup.com/a11ychi/)
 * Maintaining [her cat’s Instagram](https://www.instagram.com/torbjornthecat/)
+
 -------------------------------
