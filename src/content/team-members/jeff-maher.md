@@ -6,7 +6,7 @@ name: Jeff Maher
 image: 'images/jeff-maher.jpg'
 role: Engineering
 location: Boston, MA
-quote: Don’t let the urgent crowd out the important. -Anonymous
+quote: Don’t let the urgent crowd out the important. (Anonymous)
 social: 
   - {
   name: LinkedIn,
