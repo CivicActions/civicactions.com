@@ -1,5 +1,5 @@
 ---
-path: /
+path: /team/steve-curtis
 type: team
 published: 0
 name: Steve Curtis
