@@ -6,7 +6,7 @@ name: Jeff Maher
 image: 'images/jeff-maher.jpg'
 role: Engineering
 location: Boston, MA
-quote: Don’t let the urgent crowd out the important. -Anonymous
+quote: Don’t let the urgent crowd out the important. (Anonymous)
 social: 
   - {
   name: LinkedIn,
@@ -25,12 +25,7 @@ Building Teams,
 User Research,
 Asking “Why?”
 ]
-medium_posts: 
-  - {
-  title: "Meet Jeff Maher: Bringing Culture Change to the Daily Work of Government",
-  date: 06-07-18 ,
-  url: https://medium.com/civicactions/meet-jeff-maher-bringing-cultural-change-to-the-daily-work-of-government-da0f69bc602b
-  }
+
   
 ---
 
@@ -49,6 +44,7 @@ Jeff was an early member of the US Digital Service and founding engineering mana
 * [Thinking](https://ash.harvard.edu/people/jeff-maher) and [writing](https://medium.com/@plusjeff) about building digital service teams within government
 * Working to improve government design forms at [Code for Boston](http://www.codeforboston.org/)
 * Promoting [healthy DevOps culture](https://www.youtube.com/watch?time_continue=1&v=W_1tJ4n_okg) to support digital services for the public
+* Bringing [culture change](https://medium.com/civicactions/meet-jeff-maher-bringing-cultural-change-to-the-daily-work-of-government-da0f69bc602b) to the daily work of government
 
 
 
