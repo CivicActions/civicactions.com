@@ -50,6 +50,7 @@ Steve has a BA in Music from Carleton College, a MA in Musicology from Cornell U
 ### Things Steve has been doing
 * [Supporting transparency](https://civicactions.com/case-study/digital-democracy) in state government 
 * Helping [Doctors Without Borders](https://civicactions.com/case-study/msf/) raise support to deliver global aid
+* Facilitating [open conversations](https://medium.com/@steve.curtis/an-open-dialogue-on-work-and-life-in-a-distributed-team-796ef88813cd) about remote work 
 * Helping teams build [user-directed digital products](http://www.govtech.com/civic/3-Tips-for-Joining-Californias-Agile-Government-Vendor-Pool.html) in just a few days
 * [Touring across the US and Europe](http://www.allabouthem.com/tour.htm) with the band [Hem](https://www.hemmusic.com/)
 * “Do[ing] what [great, grown-up indie rock](https://littlesilver.bandcamp.com/track/one-stepper) has always done,” according to Rolling Stone
