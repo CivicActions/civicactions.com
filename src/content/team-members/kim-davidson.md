@@ -1,7 +1,7 @@
 ---
 path: /team/kim-davidson
 type: team
-published: 0
+published: 1
 name: Kim Davidson
 image: 'images/kim-davidson.jpg'
 role: Open Data
