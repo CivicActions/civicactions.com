@@ -1,7 +1,7 @@
 ---
 path: /team/john-erhardt
 type: team
-published: 0
+published: 1
 name: John Erhardt
 image: 'images/john-erhardt.jpg'
 role: Engineering
