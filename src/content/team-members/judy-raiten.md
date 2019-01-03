@@ -1,7 +1,7 @@
 ---
 path: /team/judy-raiten
 type: team
-published: 0
+published: 1
 name: Judy Raiten
 image: 'images/judy-raiten.jpg'
 role: Administrative Support
