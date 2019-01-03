@@ -1,7 +1,7 @@
 ---
 path: /team/sreekar-peddi
 type: team
-published: 0
+published: 1
 name: Sreekar Peddi
 image: 'images/sreekar-peddi.jpg'
 role: DevOps
