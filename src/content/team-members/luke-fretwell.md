@@ -1,7 +1,7 @@
 ---
 path: /team/luke-fretwell
 type: team
-published: 0
+published: 1
 name: Luke Fretwell
 image: 'images/luke-fretwell.jpg'
 role: Business Development
