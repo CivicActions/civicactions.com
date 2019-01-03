@@ -1,7 +1,7 @@
 ---
 path: /team/jay-darnell
 type: team
-published: 0
+published: 1
 name: Jay Darnell
 image: 'images/jay-darnell.jpg'
 role: Engineering
