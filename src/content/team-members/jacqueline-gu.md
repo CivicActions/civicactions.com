@@ -1,7 +1,7 @@
 ---
 path: /team/jacqueline-gu
 type: team
-published: 0
+published: 1
 name: Jacqueline Gu
 image: 'images/jacqueline-gu.jpg'
 role: User Experience
