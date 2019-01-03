@@ -1,7 +1,7 @@
 ---
 path: /team/tony-cooper
 type: team
-published: 0
+published: 1
 name: Tony Cooper
 image: 'images/tony-cooper.jpg'
 role: Board Member
