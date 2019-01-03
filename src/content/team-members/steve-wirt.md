@@ -1,7 +1,7 @@
 ---
 path: /team/steve-wirt
 type: team
-published: 0
+published: 1
 name: Steve Wirt
 image: 'images/steve-wirt.jpg'
 role: Engineering
