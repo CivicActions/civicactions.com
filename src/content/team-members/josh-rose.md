@@ -1,7 +1,7 @@
 ---
 path: /team/josh-rose
 type: team
-published: 0
+published: 1
 name: Josh Rose
 image: 'images/josh-rose.jpg'
 role: Engineering
