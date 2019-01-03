@@ -1,7 +1,7 @@
 ---
 path: /team/tony-fortenberry
 type: team
-published: 0
+published: 1
 name: Tony Fortenberry
 image: 'images/tony-fortenberry.jpg'
 role: Education Services
