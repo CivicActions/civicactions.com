@@ -1,7 +1,7 @@
 ---
 path: /team/steve-curtis
 type: team
-published: 0
+published: 1
 name: Steve Curtis
 image: 'images/steve-curtis.jpg'
 role: Project Management
