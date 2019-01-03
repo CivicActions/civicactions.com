@@ -1,7 +1,7 @@
 ---
 path: /team/karen-johnson
 type: team
-published: 0
+published: 1
 name: Karen Johnson
 image: 'images/karen-johnson.jpg'
 role: DevOps
