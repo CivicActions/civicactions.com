@@ -1,7 +1,7 @@
 ---
 path: /team/melinda-burgess
 type: team
-published: 0
+published: 1
 name: Melinda Burgess
 image: 'images/melinda-burgess.jpg'
 role: Content Strategy
