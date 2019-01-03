@@ -1,7 +1,7 @@
 ---
 path: /team/tom-wood
 type: team
-published: 0
+published: 1
 name: Tom Wood
 image: 'images/tom-wood.jpg'
 role: DevOps
