@@ -1,7 +1,7 @@
 ---
 path: /team/rachel-kauff
 type: team
-published: 0
+published: 1
 name: Rachel Kauff
 image: 'images/rachel-kauff.jpg'
 role: Content Strategy
