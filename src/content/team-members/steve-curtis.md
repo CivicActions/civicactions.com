@@ -42,7 +42,7 @@ Steve is an empathetic and adept facilitator.
 
 His patience, curiosity, and organizational focus have helped guide CivicActions teams through agile projects of all sizes since 2011. With an eye on the greater good, Steve enjoys managing projects that support the missions of nonprofits and government agencies. He pays attention to the energy and ability of each individual in a project to help them do their best work. He’s also nimble with words, and assists the CivicActions proposal team as a writer and editor.
 
-Steve has a BA in Music from Carleton College, a MA in Musicology from Cornell University, and is a Certified ScrumMaster. After nearly twenty years in NYC, Steve moved with his family to New Haven, CT, where perpetual home renovations have kept him busy (but also provided an unexpectedly high dose of fun and satisfaction).
+Steve has a BA in Music from Carleton College, a MA in Musicology from Cornell University, and is a Certified ScrumMaster. After nearly twenty years in NYC, Steve moved with his family to New Haven, CT, where perpetual home renovations keep him busy (but also provide an unexpectedly high dose of fun and satisfaction).
 
 
 
