@@ -23,14 +23,11 @@
 }
 
 .teaser-grid__name {
-  font-size: $small-font-size;
   font-weight: bold;
 }
 
 .teaser-grid__title {
-  &:hover {
-    text-decoration: underline;
-  }
+  font-size: $small-font-size;
 }
 
 @media all and (max-width: $small-screen) {
