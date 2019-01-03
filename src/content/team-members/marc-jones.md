@@ -1,7 +1,7 @@
 ---
 path: /team/marc-jones
 type: team
-published: 0
+published: 1
 name: Marc Jones
 image: 'images/marc-jones.jpg'
 role: Legal & Compliance 
