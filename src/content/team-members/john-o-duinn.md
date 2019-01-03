@@ -1,7 +1,7 @@
 ---
 path: /team/john-o-duinn
 type: team
-published: 0
+published: 1
 name: John O'Duinn
 image: 'images/john-oduinn.jpg'
 role: DevOps
