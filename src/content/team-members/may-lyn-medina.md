@@ -1,7 +1,7 @@
 ---
 path: /team/may-lyn-medina
 type: team
-published: 0
+published: 1
 name: May Lyn Medina
 first_name: May Lyn
 last_name: Medina
