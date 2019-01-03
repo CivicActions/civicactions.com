@@ -1,7 +1,7 @@
 ---
 path: /team/jason-heaster
 type: team
-published: 0
+published: 1
 name: Jason Heaster
 image: 'images/jason-heaster.jpg'
 role: Project Management
