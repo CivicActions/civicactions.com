@@ -1,7 +1,7 @@
 ---
 path: /team/iris-ibekwe
 type: team
-published: 0
+published: 1
 name: Iris Ibekwe
 image: 'images/iris-ibekwe.jpg'
 role: Engineering
