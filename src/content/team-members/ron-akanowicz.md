@@ -1,7 +1,7 @@
 ---
 path: /team/ron-akanowicz
 type: team
-published: 0
+published: 1
 name: Ron Akanowicz
 image: 'images/ron-akanowicz.jpg'
 role: User Experience 
