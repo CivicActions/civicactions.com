@@ -1,7 +1,7 @@
 ---
 path: /team/jen-harris
 type: team
-published: 0
+published: 1
 name: Jen Harris
 image: 'images/jen-harris.jpg'
 role: User Experience
