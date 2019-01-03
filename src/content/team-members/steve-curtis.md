@@ -54,7 +54,7 @@ Steve has a BA in Music from Carleton College, a MA in Musicology from Cornell U
 * Helping teams build [user-directed digital products](http://www.govtech.com/civic/3-Tips-for-Joining-Californias-Agile-Government-Vendor-Pool.html) in just a few days
 * [Touring across the US and Europe](http://www.allabouthem.com/tour.htm) with the band [Hem](https://www.hemmusic.com/)
 * “Do[ing] what [great, grown-up indie rock](https://littlesilver.bandcamp.com/track/one-stepper) has always done,” according to Rolling Stone
-* [Performing](https://www.nytimes.com/2018/07/31/theater/review-twelfth-night-shakespeare-in-the-park-shaina-taub.html) alongside Anne Hathaway and Audra McDonald
+* [Performing](https://www.nytimes.com/2009/06/26/theater/reviews/26night.html) alongside Anne Hathaway and Audra McDonald
 
 -------------------------------
 
