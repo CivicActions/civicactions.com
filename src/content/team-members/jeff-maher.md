@@ -1,7 +1,7 @@
 ---
 path: /team/jeff-maher
 type: team
-published: 0
+published: 1
 name: Jeff Maher
 image: 'images/jeff-maher.jpg'
 role: Engineering
