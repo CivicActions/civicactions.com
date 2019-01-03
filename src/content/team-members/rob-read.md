@@ -1,7 +1,7 @@
 ---
 path: /team/rob-read
 type: team
-published: 0
+published: 1
 name: Rob Read
 image: 'images/robert-read.jpg'
 role: Advisor
