@@ -1,7 +1,7 @@
 ---
 path: /team/tom-camp
 type: team
-published: 0
+published: 1
 name: Tom Camp
 image: 'images/tom-camp.jpg'
 role: Engineering
