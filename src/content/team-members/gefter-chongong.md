@@ -1,7 +1,7 @@
 ---
 path: /team/gefter-chongong
 type: team
-published: 0
+published: 1
 name: Gefter Chongong
 image: 'images/gefter-chongong.jpg'
 role: DevOps
