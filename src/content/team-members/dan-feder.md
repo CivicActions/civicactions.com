@@ -1,7 +1,7 @@
 ---
 path: /team/dan-feder
 type: team
-published: 0
+published: 1
 name: Dan Feder
 image: 'images/dan-feder.jpg'
 role: Open Data
