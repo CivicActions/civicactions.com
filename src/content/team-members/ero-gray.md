@@ -1,7 +1,7 @@
 ---
 path: /team/ero-gray
 type: team
-published: 0
+published: 1
 name: Ero Gray
 image: 'images/ero-gray.jpg'
 role: Help Desk Support 
