@@ -1,7 +1,7 @@
 ---
 path: /team/alaine-karoleff
 type: team
-published: 0
+published: 1
 name: Alaine Karoleff
 image: 'images/alaine-karoleff.jpg'
 manager: 1
