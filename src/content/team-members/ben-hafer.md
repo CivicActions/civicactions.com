@@ -1,7 +1,7 @@
 ---
 path: /team/ben-hafer
 type: team
-published: 0
+published: 1
 name: Ben Hafer
 image: 'images/ben-hafer.jpg'
 role: Business Development
