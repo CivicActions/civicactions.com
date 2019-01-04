@@ -1,7 +1,7 @@
 ---
 path: /team/bill-ogilvie
 type: team
-published: 0
+published: 1
 name: Bill Ogilvie
 image: 'images/bill-ogilvie.jpg'
 manager: 1
