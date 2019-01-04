@@ -1,7 +1,7 @@
 ---
 path: /team/aaron-burt
 type: team
-published: 0
+published: 1
 name: Aaron Burt
 image: 'images/aaron-burt.jpg'
 role: DevOps
