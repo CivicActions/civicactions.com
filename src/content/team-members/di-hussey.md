@@ -1,7 +1,7 @@
 ---
 path: /team/di-hussey
 type: team
-published: 0
+published: 1
 name: Di Hussey
 image: 'images/di-hussey.jpg'
 role: Business Development
