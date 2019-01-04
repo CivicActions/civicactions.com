@@ -1,7 +1,7 @@
 ---
 path: /team/dan-gurin
 type: team
-published: 0
+published: 1
 name: Dan Gurin
 image: 'images/dan-gurin.jpg'
 role: Engineering
