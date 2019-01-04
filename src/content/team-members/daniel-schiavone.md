@@ -1,7 +1,7 @@
 ---
 path: /team/daniel-schiavone
 type: team
-published: 0
+published: 1
 name: Daniel Schiavone
 image: 'images/daniel-schiavone.jpg'
 role: Engineering
