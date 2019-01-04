@@ -1,7 +1,7 @@
 ---
 path: /team/david-numan
 type: team
-published: 0
+published: 1
 name: David Numan
 image: 'images/david-numan.jpg'
 role: DevOps
