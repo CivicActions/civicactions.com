@@ -1,7 +1,7 @@
 ---
 path: /team/fen-labalme
 type: team
-published: 0
+published: 1
 name: Fen Labalme
 image: 'images/fen-labalme.jpg'
 role: Security & Compliance
