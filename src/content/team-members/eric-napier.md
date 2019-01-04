@@ -1,7 +1,7 @@
 ---
 path: /team/eric-napier
 type: team
-published: 0
+published: 1
 name: Eric Napier
 image: 'images/eric-napier.jpg'
 role: Engineering
