@@ -1,7 +1,7 @@
 ---
 path: /team/owen-barton
 type: team
-published: 0
+published: 1
 name: Owen Barton
 image: 'images/owen-barton.jpg'
 manager: 1
