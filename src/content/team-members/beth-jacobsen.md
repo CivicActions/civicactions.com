@@ -1,7 +1,7 @@
 ---
 path: /team/beth-jacobsen
 type: team
-published: 0
+published: 1
 name: Beth Jacobsen
 image: 'images/beth-jacobsen.jpg'
 role: Engineering
