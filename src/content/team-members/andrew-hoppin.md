@@ -1,7 +1,7 @@
 ---
 path: /team/andrew-hoppin
 type: team
-published: 0
+published: 1
 name: Andrew Hoppin
 image: 'images/andrew-hoppin.jpg'
 role: Open Data
