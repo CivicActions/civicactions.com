@@ -1,7 +1,7 @@
 ---
 path: /team/andy-hawks
 type: team
-published: 0
+published: 1
 name: Andy Hawks
 image: 'images/andy-hawks.jpg'
 role: Engineering
