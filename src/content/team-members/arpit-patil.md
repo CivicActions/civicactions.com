@@ -1,7 +1,7 @@
 ---
 path: /team/arpit-patil
 type: team
-published: 0
+published: 1
 name: Arpit Patil
 image: 'images/arpit-patil.jpg'
 role: DevOps
