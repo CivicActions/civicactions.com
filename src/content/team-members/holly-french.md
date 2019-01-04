@@ -1,7 +1,7 @@
 ---
 path: /team/holly-french
 type: team
-published: 0
+published: 1
 name: Holly French
 image: 'images/holly-french.jpg'
 role: Project Management
