@@ -1,7 +1,7 @@
 ---
 path: /team/ethan-teague
 type: team
-published: 0
+published: 1
 name: Ethan Teague
 image: 'images/ethan-teague.jpg'
 role: Engineering
