@@ -1,7 +1,7 @@
 ---
 path: /team/janette-day
 type: team
-published: 0
+published: 1
 name: Janette Day
 image: 'images/janette-day.jpg'
 role: Open Data
