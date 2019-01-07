@@ -9,6 +9,6 @@ publication: "FCW, StateScoop"
 
 ---
 
-Both StateScoop and FCW highlight CivicActions’ support of [AGL Academy](https://www.agilegovleaders.org/academy/), a new initiative by [Agile Government Leadership](https://www.agilegovleaders.org/) that helps government project managers gain skills in agile development practices through free online courses.
+Both [StateScoop](https://statescoop.com/fed-state-local-it-leaders-launch-agile-development-academy/) and FCW highlight CivicActions’ support of [AGL Academy](https://www.agilegovleaders.org/academy/), a new initiative by [Agile Government Leadership](https://www.agilegovleaders.org/) that helps government project managers gain skills in agile development practices through free online courses.
 
-**More on this topic:** [Fed, state, local IT leaders launch agile development academy](https://statescoop.com/fed-state-local-it-leaders-launch-agile-development-academy)
+
