@@ -1,7 +1,7 @@
 ---
 path: /team/susie-bird
 type: team
-published: 0
+published: 1
 name: Susie Bird
 image: 'images/susie-bird.jpg'
 role: Business Development
