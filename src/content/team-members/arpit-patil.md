@@ -25,7 +25,7 @@ Arpit is devoted to improving lives with technology.
 
 He works with DevOps teams to build systems using modern automation tools to handle large amounts of data smoothly and efficiently. He’s enamoured with Python scripting, Linux systems, and cloud platforms — and is in constant pursuit of the technology systems of the future. Arpit is a good-natured team player who is always willing to lend a hand to help.
 
-Arpit has MS in Information Systems from California State University. He is an avid tennis player and likes to jam on the electric keyboard with his musical colleagues at the CivicActions retreats. 
+Arpit has an M.S. in Information Systems from California State University. He is an avid tennis player and likes to jam on the electric keyboard with his musical colleagues at the CivicActions retreats. 
 
 
 
