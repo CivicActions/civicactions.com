@@ -25,7 +25,7 @@ social:
     url: https://soundcloud.com/morekeyboards
    }
 specialties: [ "Drupal 7/8",
-"'All the Stacks' Development",
+Full-Stack Development,
 Problem Solving,
 Keyboarding (the musical kind)
 ]
