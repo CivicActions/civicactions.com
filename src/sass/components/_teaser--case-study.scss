@@ -5,10 +5,6 @@
    display: block;
    text-decoration: none;
 
-   .teaser--case-study {
-     margin: 2% 4% 2% 0;
-   }
-
    &:focus {
      @include outline;
      outline: none;
@@ -37,4 +33,3 @@
     }
   }
 }
-
