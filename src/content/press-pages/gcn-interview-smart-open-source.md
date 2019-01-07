@@ -9,4 +9,4 @@ publication: "GCN"
 
 ---
 
-GCN interviewed CivicActions’ [Henry Poole](civicactions.com/team/henry-poole) and [Marc Jones](civicactions.com/team/marc-jones) about how government can get the most out of open source software — by choosing the right technology for the project and creating code as a public asset.
+GCN interviewed CivicActions’ [Henry Poole](https://civicactions.com/team/henry-poole) and [Marc Jones](https://civicactions.com/team/marc-jones) about how government can get the most out of open source software — by choosing the right technology for the project and creating code as a public asset.
