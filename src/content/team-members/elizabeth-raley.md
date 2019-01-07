@@ -49,7 +49,6 @@ Elizabeth has a B.F.A. from Wayne State University and is a certified ScrumMaste
 * Helping CivicActions grow with a focus on [diversity and equity](https://medium.com/civicactions/were-hiring-at-civicactions-aa8ac8486923)
 * Facilitating [open discussions](https://www.agilegovleaders.org/conference/) in a community of government agile practitioners
 * Promoting [agile culture](https://www.fedscoop.com/video/civicactions-elizabeth-raley-on-agile-in-government/) to support California’s digital transformation
-* Working on [hiring practices](https://docs.google.com/presentation/d/1DeLX7ooExDkLXD-3-aNOlP3mXiXU1jheAifFdwm1ylw/edit?usp=sharing) to bring emotionally intelligent people to our team
 * Staying balanced with a daily [yoga](https://www.youtube.com/user/yogawithadriene) and [meditation](https://www.headspace.com/) practice
 
 -------------------------------

@@ -44,7 +44,7 @@ Alaine holds a B.S. from Eastern Michigan University. She’s also a certified P
 * Supporting new hires with friendly guidance and [helpful documentation](https://civicactions-handbook.readthedocs.io/en/latest/04-how-we-work/tools/harvest/)
 * Crafting [templates](https://docs.google.com/document/d/1pmOruj_1PeSfmJtxzvjDy7KxTTJi0VS8D62WUrWjeSM/edit?usp=sharing) for smooth and efficient client operations
 * Training client [product owners](https://docs.google.com/document/d/1vwsaJcODSWwevH4Qzz2XdsXaERutaSaBYYSvn5iY2tc/edit?usp=sharing) on [agile methods](https://www.agilegovleaders.org/academy/product-owner/)
-* Going to [weekday concerts](https://www.youtube.com/watch?v=xhdDZe-Zkxw) and never missing a workday beat
+* Going to [weekday concerts](https://www.youtube.com/watch?v=yA8iEvtjLlE) and never missing a workday beat
 
 
 ----------------------------

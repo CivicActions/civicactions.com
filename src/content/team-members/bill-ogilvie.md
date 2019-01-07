@@ -33,7 +33,7 @@ Bill has a B.S. from the University of Central Oklahoma. Now that his kids are g
 ### Things Bill has been doing
 * Leading teams through complex requirements to create successful [sales proposals](https://civicactions-handbook.readthedocs.io/en/latest/07-sales-and-marketing/sales-guild/#the-sales-guild)
 * Sharing our [human-first approach](https://civicactions.com/approach) with clients
-* Helping CivicActions partner with government via the [GSA Schedule](https://www.gsa.gov/acquisition/purchasing-programs/gsa-schedules/about-gsa-schedules)
+* Helping CivicActions partner with government via the [GSA Schedule](https://www.gsa.gov/buying-selling/purchasing-programs/gsa-schedules)
 * Promoting CivicActions as [a leader in government technology](http://www.govtech.com/100/)
 * Helping CivicActions [secure a place](http://www.govtech.com/civic/3-Tips-for-Joining-Californias-Agile-Government-Vendor-Pool.html) on the California agile vendor pool
 * Treading carefully on [Billy Goat Trail](https://www.nps.gov/choh/planyourvisit/billy-goat-trail.htm)

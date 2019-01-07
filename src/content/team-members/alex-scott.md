@@ -44,7 +44,7 @@ Alex holds a B.A. from Brighton University, UK, and presently lives near Madrid.
 * Building [multilingual site versions](https://www.tesla.com/jp/) for Tesla Motors
 * Reaching broader audiences to help [fund research](https://www.bbrfoundation.org/) for helping people with mental illness
 * Volunteering with [Red Cross](https://www.ifrc.org/en/what-we-do/where-we-work/europe/spanish-red-cross/) to help people find and apply for employment opportunities
-* Visiting gorilla families [in Uganda](https://drive.google.com/file/d/1QS7qXrP2qk68ZVm8FEig4RR865XdoIrD/view?usp=sharing), trekking in Madagascar, and exploring ancient forest cities in Cambodia, Sri Lanka, and Tanzania.
+* Visiting gorilla families [in Uganda](https://drive.google.com/file/d/1QS7qXrP2qk68ZVm8FEig4RR865XdoIrD/view?usp=sharing), trekking in Madagascar, and exploring ancient forest cities in Cambodia, Sri Lanka, and Tanzania
 
 -------------------------------
 
