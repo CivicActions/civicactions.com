@@ -1,7 +1,7 @@
 ---
 path: /team/adrienne-cabouet
 type: team
-published: 0
+published: 1
 name: Adrienne Cabouet
 image: 'images/adrienne-cabouet.jpg'
 role: Engineering
