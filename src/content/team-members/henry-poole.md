@@ -1,7 +1,7 @@
 ---
 path: /team/henry-poole
 type: team
-published: 0
+published: 1
 name: Henry Poole
 image: 'images/henry-poole.jpg'
 manager: 1
@@ -36,7 +36,7 @@ Henry is responsible for the first blog by a U.S. congressman and one of the fir
 
 
 ### Things Henry has been doing
-* Creating [<code>/earth](https://hackernoon.com/experience-from-the-code-earth-hackathon-for-project-drawdown-184e2a412e4b) to help reverse global warming
+* Creating [code earth](https://hackernoon.com/experience-from-the-code-earth-hackathon-for-project-drawdown-184e2a412e4b) to help reverse global warming
 * Helping government [understand](https://defensesystems.com/GIG/gcn/Articles/2017/06/30/5-strategies-open-source.aspx) and use [free and open source software](https://civicactions.com/case-study/cdt-foss)
 * [Closing loopholes](https://www.synopsys.com/blogs/software-security/quietly-accelerating-adoption-agpl/) to keep software open and respect the freedom of users
 * Teaching others how to [transform government without ego](https://govfresh.com/2016/09/transforming-government-without-ego/)
