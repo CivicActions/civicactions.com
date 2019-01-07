@@ -1,7 +1,7 @@
 ---
 path: /team/kristian-ducharme
 type: team
-published: 0
+published: 1
 name: Kristian Ducharme
 image: 'images/kristian-ducharme.jpg'
 role: Engineering
@@ -25,7 +25,7 @@ social:
     url: https://soundcloud.com/morekeyboards
    }
 specialties: [ "Drupal 7/8",
-"All the Stacks Development",
+Full-Stack Development,
 Problem Solving,
 Keyboarding (the musical kind)
 ]
