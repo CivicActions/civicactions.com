@@ -4,7 +4,7 @@ type: press
 title: 'CivicActions Named to 2018 GovTech 100 Top Government Technology Companies List'
 date: "2018-01-10"
 link_text: "2018 GovTech 100 List"
-website: "http://www.govtech.com/100/"
+website: "http://www.govtech.com/100/2018/"
 publication: "Government Technology"
 
 ---
