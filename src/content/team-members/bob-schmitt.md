@@ -32,7 +32,7 @@ Bridging Knowledge Gaps
 
 Bob loves working with creative teams on intractable problems.
 
-He’s a veteran of public-sector projects, full of tales of IT triumph and daring ideas (ask him about the time his wayward [public engagement project](https://web.archive.org/web/20021011101430/http://www.techrocks.org:80/index.lasso) generated a proposal to shut down the White House email system for a week — using seven Macs and a good internet connection). But seriously: he know what it takes to get people working together to create long-term change. His development expertise comes with well-formed technical documentation and practical project management skills.
+He’s a veteran of public-sector projects, full of tales of IT triumph and daring ideas (ask him about the time his wayward [public engagement project](https://web.archive.org/web/20021011101430/http://www.techrocks.org:80/index.lasso) generated a proposal to shut down the White House email system for a week — using seven Macs and a good internet connection). But seriously: he knows what it takes to get people working together to create long-term change. His development expertise comes with well-formed technical documentation and practical project management skills.
 
 Bob has a B.A. from American University in Washington, D.C. and was recognized as Best Public Interest Developer by [NTEN](https://www.nten.org/) in 2002. He loves outdoor sports like kayaking, fishing, and sailing — and has spent considerable time perfecting the art of making brick oven pizza at high altitudes.
 
@@ -44,7 +44,7 @@ Bob has a B.A. from American University in Washington, D.C. and was recognized a
 * Leading the growth of CivicActions’ [Drupal service offerings](https://www.drupal.org/civicactions)
 * Working to build a [service site](https://service.teslamotors.com/) for Tesla Motors (in just six weeks)
 * Developing and launching [International Network to Promote the Rule of Law](https://inprol.org/)
-* Promoting world peace by putting IT to work for the [U.S. Institute of Peace](https://usip.org/) and the [Virtual Diplomacy Initiative](https://www.google.com/search?q=virtual+diplomacy+us+institute+of+peace)
+* Promoting world peace by putting IT to work for the [U.S. Institute of Peace](https://usip.org/) and the [Virtual Diplomacy Initiative](https://www.usip.org/sites/default/files/challenge_virtual_diplomacy_vdi.pdf)
 * Performing [psychedelic party music](http://rockettouranus.com/) and [folksy blues](https://www.facebook.com/sparechangemontana/)
 
 
