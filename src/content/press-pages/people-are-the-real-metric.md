@@ -9,4 +9,4 @@ publication: "InformationWeek"
 
 ---
 
-InformationWeek interviewed John O’Duinn, Senior Strategist at CivicActions, about his talk at InterOp ITX in which he explained that the best way to track the success of government IT is to focus on the impact for citizens.
+InformationWeek interviewed [John O’Duinn](https://civicactions.com/team/john-o-duinn), Senior Strategist at CivicActions, about his talk at [InterOp ITX](https://www.interop.com/) in which he explained that the best way to track the success of government IT is to focus on the impact for citizens.
