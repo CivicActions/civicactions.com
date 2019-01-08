@@ -40,7 +40,7 @@ Rachel has an M.B.A. in Design Strategy from California College of the Arts. She
 * Speaking at the [UX Digital Summit 2018](https://www.uxdigitalsummit.com/)
 * Mentoring women in the [UX community](http://hexagonux.com/)
 * Spearheading research and design at [an innovative rental startup](https://www.2ndaddress.com/)
-* Celebrating her recent [MBA in Design Strategy](https://www.cca.edu/academics/graduate/design-mba)
+* Celebrating her recent [M.B.A. in Design Strategy](https://www.cca.edu/academics/graduate/design-mba)
 
 -------------------------------
 
