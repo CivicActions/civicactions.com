@@ -9,4 +9,4 @@ publication: "InformationWeek"
 
 ---
 
-CivicActions’ John O’Duinn, a technology leader, author, and expert on remote teams, explains the benefits gained by tech companies willing to open their doors to remote workers — and the strategies to help remote teams work effectively.  
+CivicActions’ [John O’Duinn](https://civicactions.com/team/john-o-duinn), a technology leader, author, and expert on remote teams, explains the benefits gained by tech companies willing to open their doors to remote workers — and the strategies to help remote teams work effectively.  
