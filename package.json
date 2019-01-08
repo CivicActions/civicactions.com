@@ -15,7 +15,6 @@
     "gatsby-plugin-sass": "^2.0.0-alpha.9",
     "gatsby-plugin-sharp": "^2.0.0-beta.7",
     "gatsby-remark-copy-linked-files": "^2.0.7",
-    "gatsby-remark-embed-youtube": "^0.0.7",
     "gatsby-remark-images": "^2.0.1-beta.11",
     "gatsby-source-filesystem": "^2.0.1-beta.10",
     "gatsby-source-medium": "^2.0.0-beta.5",
