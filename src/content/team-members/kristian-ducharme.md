@@ -41,7 +41,7 @@ Kristian has a BS in Computer Engineering from Cal Poly State University. He has
 ### Things Kristian Has Been Doing
 * Bridging the knowledge gap between [citizens and lawmakers](https://civicactions.com/case-study/digital-democracy) 
 * Empowering [adult education practitioners](https://civicactions.com/case-study/lincs) to learn and collaborate
-* Keeping data open for the [State of Georgia](https://data.georgia.gov/) and [Georgia State Charter Schools Commission](https://scsc.georgia.gov/), and [US Department of Agriculture](https://data.nal.usda.gov/)
+* Keeping data open for the [State of Georgia](https://data.georgia.gov/), [Georgia State Charter Schools Commission](https://scsc.georgia.gov/), and [U.S. Department of Agriculture](https://data.nal.usda.gov/)
 * Helping the City of Los Angeles [connect with](https://www.lacity.org/) and [deliver news](http://lacityview.org/) to citizens
 * Presenting at [DrupalCon Los Angeles 2015](https://events.drupal.org/losangeles2015) and [BADCamp 2016](https://2016.badcamp.net/) 
 * Porting and maintaining [Migration Tools](https://drupal.org/project/migration_tools) module for Drupal 8
