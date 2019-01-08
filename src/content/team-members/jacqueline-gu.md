@@ -29,7 +29,7 @@ For Jacqueline, design is a serious responsibility.
 
 She believes design should improve the lives of others and is careful to follow human-centered principles in her work as Visual and UX Designer. Jacqueline is skilled in systems thinking and user research, but her superpower is empathy. She helps teams and clients focus on human understanding throughout projects to create services that are intuitive and useful — and is a stickler for accessibility.
 
-Jacqueline has a BFA from University of Michigan. She began her career designing websites for movies and video games, but moved on to more fulfilling work with nonprofits and civic tech projects. She is a budding runner, occasional traveler, and enthusiastic listener of podcasts.
+Jacqueline has a B.F.A. from University of Michigan. She began her career designing websites for movies and video games, but moved on to more fulfilling work with nonprofits and civic tech projects. She is a budding runner, occasional traveler, and enthusiastic listener of podcasts.
 
 
 
