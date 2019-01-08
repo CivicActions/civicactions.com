@@ -9,4 +9,4 @@ publication: "AGL Blog"
 
 ---
 
-Aaron Pava, co-founder of AGL and Chief Experience Officer at CivicActions, will serve as Executive Director of AGL’s newly formed nonprofit trade association that seeks to promote innovative practices in government.
+[Aaron Pava](https://civicactions.com/team/aaron-pava), co-founder of AGL and Chief Experience Officer at CivicActions, will serve as Executive Director of AGL’s newly formed nonprofit trade association that seeks to promote innovative practices in government.
