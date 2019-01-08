@@ -13,13 +13,12 @@ const NavLink = props => {
   }
 };
 
-const Press = ({ data, pathContext }) => {
+const Press = ({ data, pageContext }) => {
 
-  // pagination. See gatsby node for loading of pathContext.
-  const { group, index, first, last} = pathContext;
+  // pagination. See gatsby node for loading of pageContext.
+  const { group, index, first, last} = pageContext;
   const previousUrl = index - 1 === 1 ? "/press" : '/press/' + (index - 1).toString();
   const nextUrl = '/press/' + (index + 1).toString();
-
   const{ markdownRemark } = data;
   const{ frontmatter} = markdownRemark;
   const {title, subtitle} = frontmatter;
@@ -75,22 +74,6 @@ query pressPage {
     frontmatter {
       title
       subtitle
-    }
-  }
-  allMarkdownRemark(
-    sort: {fields: [frontmatter___date], order: DESC},
-    filter: {frontmatter: {type: {eq: "press"}}}) {
-    edges {
-      node {
-        frontmatter {
-          title
-          date(formatString: "MMMM DD, YYYY")
-          publication
-          link_text
-          website
-        }
-        html
-      }
     }
   }
 }

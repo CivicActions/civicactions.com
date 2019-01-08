@@ -16,7 +16,7 @@ exports.createPages = ({ actions, graphql }) => {
 
   return graphql(`
     {
-      allMarkdownRemark {
+      allMarkdownRemark (sort: {fields: [frontmatter___date], order: DESC}) {
         edges {
           node {
             frontmatter {
@@ -91,7 +91,7 @@ exports.onCreateNode = ({ node, getNode, boundActionCreators }) => {
             name: `slug`,
             value: node.path,
         });
-        console.log(node)
+       // console.log(node)
     }
 
 };
