@@ -6,7 +6,7 @@ name: Jason Heaster
 image: 'images/jason-heaster.jpg'
 role: Project Management
 location: Amherst, MA
-quote: I am the mad scientist of team chemistry
+quote: I am the mad scientist of team chemistry.
 social: 
   - {
   name: LinkedIn,
@@ -25,7 +25,7 @@ Jason thrives on helping others achieve a higher purpose.
 
 He brings a calm presence and strategic mind to CivicActions projects, keeping cross-functional teams on track while responding to the shifting needs of clients and stakeholders. He’s been managing production environments for over 13 years and loves the thrill of overcoming challenges by uniting the skills of an outstanding team. Jason blends emotional intelligence with a strong command of agile processes to nurture and motivate people, helping them do their best possible work. 
 
-Jason has a BS in Civil Engineering from Ohio State University. He is a certified Scrum Master and a PMI Agile Certified Professional. He loves being outdoors, whether exploring a new trail, napping in a hammock, or making fresh donuts over a campfire.
+Jason has a B.S. in Civil Engineering from Ohio State University. He is a certified Scrum Master and a PMI Agile Certified Professional. He loves being outdoors, whether exploring a new trail, napping in a hammock, or making fresh donuts over a campfire.
 
 
 
