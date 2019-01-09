@@ -25,7 +25,7 @@ Susie loves a good challenge.
 
 She tackles the capture management process with an indomitable spirit, navigating opportunities and requirements to match CivicActions services to the right projects. Her technical background and project management experience help her understand client needs and communicate easily with developers, managers, and potential clients. Her energy and ready laughter are a welcome asset to the capture management team.
 
-Susie has a BS in Chemistry from the University of California, Santa Cruz. She is a certified Scrum Master, a certified Project Management Professional, and a member of the Project Management Institute. When she isn’t running the capture management process, she’s running Sierra Mountain trails with her two dogs. 
+Susie has a B.S. in Chemistry from the University of California, Santa Cruz. She is a certified Scrum Master, a certified Project Management Professional, and a member of the Project Management Institute. When she isn’t running the capture management process, she’s running Sierra Mountain trails with her two dogs. 
 
 
 

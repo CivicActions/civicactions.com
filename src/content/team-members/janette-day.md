@@ -34,7 +34,7 @@ Janette quietly absorbs the world around her, then works to make it better.
 
 She’s a core contributor to the DKAN open data platform, and supports its continued growth with front-end development and custom-built Drupal projects. Her attentive work and dedication to the collaborative ethos of open source software helps organizations share their data to be more transparent and improve lives. Janette is a thoughtful listener who steps in wherever she is needed, cheerfully lending a hand to solve the even trickiest problems.
 
-Janette has a BA in Communications. She lives in Wisconsin with her family, where she can be found playing tennis, hiking in the woods, snowboarding, gardening, and reading.  
+Janette has a B.A. in Communications. She lives in Wisconsin with her family, where she can be found playing tennis, hiking in the woods, snowboarding, gardening, and reading.  
 
 
 

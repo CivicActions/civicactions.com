@@ -28,7 +28,7 @@ Tony is notorious for being “disruptive in the name of harmony.”
 
 As a board member, he uses his talents for instigating change to guide CivicActions in the right direction. Tony’s keen sense of strategy helps the board identify opportunities for growth while preserving the company’s mission and values. He is passionate about guiding people to reach their full potential by helping them better understand their own work and communication styles.
 
-Tony holds a BS in Mechanical Engineering from Cornell University. He is a certified mediator, and an active volunteer for community-based organizations. Tony loves sports that happen on water (and snow) — including boating, surfing, swimming, white water rafting, and snowboarding.
+Tony holds a B.S. in Mechanical Engineering from Cornell University. He is a certified mediator, and an active volunteer for community-based organizations. Tony loves sports that happen on water (and snow) — including boating, surfing, swimming, white water rafting, and snowboarding.
 
 
 

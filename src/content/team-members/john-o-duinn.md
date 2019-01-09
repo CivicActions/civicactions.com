@@ -35,9 +35,9 @@ Distributed Teamwork
 
 John loves making systems work for humans. 
 
-From technical infrastructure to organizational dynamics, John is passionate about helping people make practical changes to achieve balance and productivity in their work. He mentors DevOps teams in efficient development processes and crisp communication channels. If you’re not lucky enough to directly experience John’s gentle optimism and sage advice, you can still pick up some practical tips — his new book Distributed Teams helps people get the most out of remote work. 
+From technical infrastructure to organizational dynamics, John is passionate about helping people make practical changes to achieve balance and productivity in their work. He mentors DevOps teams in efficient development processes and crisp communication channels. If you’re not lucky enough to directly experience John’s gentle optimism and sage advice, you can still pick up some practical tips — his new book _Distributed Teams_ helps people get the most out of remote work. 
 
-John has a MS in Computer Science from Dublin City University, and has served as a member of the [U.S. Digital Service](https://www.usds.gov/) in the Obama White House. He works from all over the world —  in 13 cities across four continents so far, and is a champion of “digital nomads” everywhere.
+John has an M.S. in Computer Science from Dublin City University, and has served as a member of the [U.S. Digital Service](https://www.usds.gov/) in the Obama White House. He works from all over the world —  in 13 cities across four continents so far, and is a champion of “digital nomads” everywhere.
 
 
 

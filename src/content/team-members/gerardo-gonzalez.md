@@ -36,7 +36,7 @@ Gerardo is an instigator for betterment.
 
 He’s not shy about asking the tough questions that keep teams accountable to each other and their work. Gerardo’s inquisitive nature and full-stack development experience are the basis of his dedication to clean and efficient code — he will go the extra mile to find the best solution to a technical problem. He loves delving into content strategy and software systems, and contributes to data modeling projects in the Drupal community. 
 
-Gerardo has a MS in Computer Science from the University of Oklahoma, where he spent several years researching artificial life. He’s interested in real life too — Gerardo enjoys hanging out with his wife and two kids after work, and occasionally writing introspective stories and songs.
+Gerardo has a M.S. in Computer Science from the University of Oklahoma, where he spent several years researching artificial life. He’s interested in real life too — Gerardo enjoys hanging out with his wife and two kids after work, and occasionally writing introspective stories and songs.
 
 
 

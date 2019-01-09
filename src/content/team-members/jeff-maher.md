@@ -33,7 +33,7 @@ Jeff believes that empowering government to deliver user-centered software is ke
 
 Jeff’s first priority in a project is to identify important outcomes and how folks can work to achieve them in small, iterative, repeatable steps. From there, he works towards delivery. He encourages his teams to continually learn, listen, and pivot based on new information as they go. 
 
-Jeff was an early member of the US Digital Service and founding engineering manager of the Vets.gov team. He has also worked with several state digital service teams in California, Rhode Island, and Massachusetts.
+Jeff was an early member of the U.S. Digital Service and founding engineering manager of the Vets.gov team. He has also worked with several state digital service teams in California, Rhode Island, and Massachusetts.
 
 
 
