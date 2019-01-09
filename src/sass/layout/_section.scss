@@ -189,7 +189,7 @@
   }
 
   //------------------------------------------------------------
-  // RELATED CASE STUDIES SECTION 
+  // RELATED CASE STUDIES SECTION
   //------------------------------------------------------------
   &__related-content {
     background-color: $neutral;
@@ -227,19 +227,22 @@
 // GENERIC TEASER GRID
 //------------------------------------------------------------
 .section__teaser-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
 
-  display: grid;
-  grid-template-columns: repeat(1, 1fr);
-  column-gap: 30px;
-  row-gap: 20px;
+  .teaser-grid--wrapper {
+    width: 100%;
 
-  @include media($medium-screen) {
-    grid-template-columns: repeat(4, 1fr);
-  }
-
-  @include media(760px) {
-    grid-template-columns: repeat(6, 1fr);
-    padding-bottom: $section-margin;
+    @media screen and (min-width: $small-screen) and (max-width: $medium-screen) {
+      width: 33%;
+    }
+    @media screen and (min-width: $medium-screen) and (max-width: $medium-large-screen) {
+      width: 20%;
+    }
+    @media screen and (min-width: $medium-large-screen) {
+      width: 15%;
+    }
   }
 }
 
