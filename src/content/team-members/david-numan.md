@@ -43,7 +43,7 @@ Dave has a B.A. in Business and is a PHP Certified Engineer, but he also has ple
 
 
 ### Things David has been doing
-* [Helping DSCA](https://civicactions.com/case-study/globalnet) create advanced site infrastructure
+* [Helping the DSCA](https://civicactions.com/case-study/globalnet) create advanced site infrastructure
 * Ensuring [science research](https://nsf.gov/) can be published bug-free through automated QA
 * [Presenting](https://www.devopsdays.org/events/2017-toronto/program/david-numan/) on DevOps and automation in Toronto
 * Leading efforts to improve development tools with [Docker](https://www.docker.com/)
