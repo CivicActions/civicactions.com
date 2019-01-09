@@ -55,7 +55,7 @@ Rob loves inventing and collaborating for the public good.
 
 He works at the intersection of software development and human interactions, providing agile coaching for CivicActions teams and government clients. Rob is also a scientist, inventor, entrepreneur, and veteran of civic tech leadership. He created and leads the open-source hardware and software innovation platform Public Invention For All Humanity ([PIFAH](https://github.com/PIFAH/PIFAH)) and is a stickler for good, clean code.
 
-Robert has a PhD in Computer Science from the University of Texas at Austin, two patents in optics and solar energy, and several published peer-reviewed articles. He was a Presidential Innovation Fellow in 2013 and co-founded 18F. He is also fluent in [Esperanto](http://esperanto.net/en/).  
+Robert has a Ph.D. in Computer Science from the University of Texas at Austin, two patents in optics and solar energy, and several published peer-reviewed articles. He was a Presidential Innovation Fellow in 2013 and co-founded 18F. He is also fluent in [Esperanto](http://esperanto.net/en/).  
 
 
 
