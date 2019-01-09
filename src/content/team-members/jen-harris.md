@@ -36,7 +36,7 @@ Jen likes hard problems that lead to unexpected discoveries.
 
 At CivicActions, she blends research skills, analytic thinking, and creative intuition in her approach to tackling complex design challenges. A former project manager, she enjoys leading the UX process and facilitating team collaboration. She is adept at breaking down big challenges into smaller parts, and lifting up her teammates to help them accomplish their best work.
 
-Jen holds a BA in Art from Yale, an MFA from Queens College of the City University of New York, and a 2012 Fellowship in Painting from the New York Foundation for the Arts. Before joining CivicActions, she worked in museums, made botanical illustrations in South India, and designed remarkably clever veggie pun t-shirts.
+Jen holds a B.A. in Art from Yale, an M.F.A. from Queens College of the City University of New York, and a 2012 Fellowship in Painting from the New York Foundation for the Arts. Before joining CivicActions, she worked in museums, made botanical illustrations in South India, and designed remarkably clever veggie pun t-shirts.
 
 
 
