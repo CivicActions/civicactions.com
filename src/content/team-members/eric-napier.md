@@ -32,7 +32,7 @@ Eric is a builder and fixer of code.
 
 He divides his time between development and quality assurance for CivicActions clients, drawing on over a decade of Drupal expertise to develop new tools and run automated testing. He’s a leader in showing the value of Behavior Driven Development (BDD) and building strong backend systems that stay healthy for the long term. Eric loves working with organizations that make the world better, and he has led development efforts for several nonprofits.
 
-Eric has a BA in Music from the New College of Florida. When he’s not at work, you can find him playing with local blues and jazz groups. He also enjoys kayaking, hiking, and long distance skateboarding. 
+Eric has a B.A. in Music from the New College of Florida. When he’s not at work, you can find him playing with local blues and jazz groups. He also enjoys kayaking, hiking, and long distance skateboarding. 
 
 
 

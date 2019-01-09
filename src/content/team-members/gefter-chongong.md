@@ -40,7 +40,7 @@ Gefter has a B.Sc. in Computer and Information Science and holds multiple techno
 * [Fighting cyber-crime](https://cybraics.com/) by building and maintaining microservices infrastructure
 * Maintaining a [Virtual Test Lab](https://www.nesdis.noaa.gov/) to help the National Oceanic and Atmospheric Administration (NOAA) try new ideas
 * Maintaining [NOAA](http://www.noaa.gov/)’s email system of 20,000+ users
-* [Training young IT professionals](http://metropoltech.com/training-and-development/) in Linux and AWS
+* [Training young IT professionals](http://www.mtcitraining.com/) in Linux and AWS
 
 
 

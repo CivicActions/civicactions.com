@@ -31,7 +31,7 @@ social:
 specialties: [ "Full Stack Drupal",
 Product / Project Management,
 Scientific Method,
-Strings and Drums
+Strings & Drums
 ]
 
   
@@ -41,7 +41,7 @@ Dan loves to delve, discover, and deliver.
 
 He’s a generalist and can handle just about any role at CivicActions including Drupal Architect, Quality Assurance Lead, and Data Analyst. From front and backend development to project management, UX design, and DevOps, he thrives on the challenge of solving problems for clients across the full gamut of digital service endeavors. He enjoys presenting and connecting with the Drupal community at conferences and is a certified Acquia Drupal 8 Developer.
 
-Dan has a BA in Music from Johns Hopkins University and has taken courses in Computer Science, Engineering, and Environmental Science at Mount Hood, Berklee, and Harvard Colleges. He plucks all manner of stringed instruments, bangs on drums, and has engineered recordings of Dan Tyminski (Soggy Bottom Boys), The Flaming Lips, and Art Garfunkel.
+Dan has a B.A. in Music from Johns Hopkins University and has taken courses in Computer Science, Engineering, and Environmental Science at Mount Hood, Berklee, and Harvard Colleges. He plucks all manner of stringed instruments, bangs on drums, and has engineered recordings of Dan Tyminski (Soggy Bottom Boys), The Flaming Lips, and Art Garfunkel.
 
 
 
