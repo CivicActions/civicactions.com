@@ -1,13 +1,18 @@
 .icon {
   &paragraphs__group {
-    display: grid;
-    align-items: baseline;
+    display: flex;
+    flex: 1;
+    flex-wrap: wrap;
 
-    @media screen and (max-width: $medium-screen) {
-      grid-template-columns: repeat(1, 1fr);
+    .iconparagraph__wrapper {
+      width: 100%;
+      @media screen and (min-width: $small-screen) {
+        width: 50%;
+      }
+      @media screen and (min-width: $medium-large-screen) {
+        width: 33%;
+      }
     }
-
-    grid-template-columns: repeat(3, 1fr);
   }
   &paragraph__wrapper {
     text-align: center;
