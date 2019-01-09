@@ -33,7 +33,7 @@ Daniel is always looking for new ways to help civic spaces thrive.
 
 A true Renaissance man, his skill and versatility as a developer come from experience in art, music, technology, and business. His early training in painting taught him to start with the general and work towards the specific, an approach that helps him maintain perspective while building and testing the back-end architecture of complex projects. He appreciates the ever-changing nature of technology and enjoys solving tricky problems.
 
-Daniel has a MFA in Art from the University of Arizona, and has been a leader in his creative community for over 15 years. His curiosity and civic-minded ethos have led him to establish an art center, start his own Drupal shop, open an art gallery, organize Drupal events, and bind a book for the pope. He’s currently learning to play the mandocello.
+Daniel has an M.F.A. in Art from the University of Arizona, and has been a leader in his creative community for over 15 years. His curiosity and civic-minded ethos have led him to establish an art center, start his own Drupal shop, open an art gallery, organize Drupal events, and bind a book for the pope. He’s currently learning to play the mandocello.
 
 
 
