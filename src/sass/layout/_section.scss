@@ -189,7 +189,7 @@
   }
 
   //------------------------------------------------------------
-  // RELATED CASE STUDIES SECTION 
+  // RELATED CASE STUDIES SECTION
   //------------------------------------------------------------
   &__related-content {
     background-color: $neutral;
@@ -257,6 +257,15 @@
     img:not(.blockquote__icon) {
       border: 1px solid $light-gray;
     }
+  }
+
+//------------------------------------------------------------
+// Iframe border
+//------------------------------------------------------------
+
+// Remove default border, set by chrome user agent.
+  iframe {
+    border: 0;
   }
 
   //------------------------------------------------------------

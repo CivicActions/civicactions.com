@@ -3,12 +3,6 @@ path: /
 type: page
 title: "Careers"
 subtitle: "CivicActions is a place to learn and grow with a talented group of folks who are passionate about transforming the future of government digital services. Join us!"
-images:
-  - {
-  url: 'careers.jpg',
-  caption: 'CivicActions retreat 2018 in Boulder',
-  alt: 'CivicActions retreat 2018 in Boulder'
-  }
 quotes_title: Working at CivicActions
 quotes:
   - {
@@ -84,7 +78,13 @@ image_band:
 - './image-band/IMG_20180713_130136.jpg'
 - './image-band/IMG_0577.jpg'
 - './image-band/IMG_20170918_122218.jpg'
+
 ---
+
+<div>
+<iframe src="https://player.vimeo.com/video/310174855" width="100%" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+</div>
+
 ### Who we are
 CivicActions is built on a culture of openness and authenticity. We aren’t afraid to show emotion or be our true selves. We find inspiration in the things that make each of us unique, and we continually share and learn from each other. We are people first, striving to make the world better through our work, but also creating an environment that allows us to care for ourselves and each other.
 

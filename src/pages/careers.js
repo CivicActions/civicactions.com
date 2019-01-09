@@ -6,7 +6,6 @@ import SectionTitle from "./../components/atoms/SectionTitle";
 import GeneralLayout from "./../components/layouts/GeneralLayout";
 import IconParagraphsGroup from '../components/organisms/IconParagraphsGroup';
 import ImageBand from './../components/organisms/ImageBand';
-import ImageSlider from './../components/organisms/ImageSlider';
 import GlobalQuoteSlider from './../components/organisms/GlobalQuoteSlider';
 
 
@@ -16,7 +15,6 @@ const Careers = ({data}) => {
   const {
     benefits,
     benefits_title,
-    images,
     image_band,
     quotes,
     quotes_title,
@@ -48,11 +46,9 @@ const Careers = ({data}) => {
       hideSubFooter =  {true}
     >
 
-      <ImageSlider images = { images } />
-
       <section className = "section section__careers">
         <div className = "usa-grid">
-          <div className = "text-container" dangerouslySetInnerHTML = {{ __html: html }} />
+          <div className = "text-container--careers" dangerouslySetInnerHTML = {{ __html: html }} />
         </div>
       </section>
 
@@ -107,17 +103,6 @@ query jobsQuery {
         }
       }
 
-        images {
-          caption
-          alt
-          url {
-          childImageSharp {
-            fixed(width:2000) {
-                ...GatsbyImageSharpFixed_withWebp_noBase64
-            }
-           }
-         }
-       }
         benefits_title
         benefits {
           alt
