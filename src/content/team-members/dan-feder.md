@@ -36,7 +36,7 @@ Dan holds problems in perspective for the greater good.
 
 He provides technical leadership for CivicActions’ [DKAN open data platform](https://civicactions.com/dkan/), guiding product design and architectural decisions to serve customers and the wider open data community. He has a deep empathy for others that fuels his determination to make DKAN the best it can possibly be for the organizations that are using data to help people. Before joining CivicActions, Dan worked as a journalist, translator, and web developer for human rights organizations.
 
-Dan has a BA in Journalism and Social Theory from Boston University. He frequently travels to Columbia, where he used to live while working as a journalist. Now Dan lives in an old house in an old neighborhood of Philly, with his cat, dog, and partner.
+Dan has a B.A. in Journalism and Social Theory from Boston University. He frequently travels to Columbia, where he used to live while working as a journalist. Now Dan lives in an old house in an old neighborhood of Philly, with his cat, dog, and partner.
 
 
 
