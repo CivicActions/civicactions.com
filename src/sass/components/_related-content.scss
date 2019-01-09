@@ -1,9 +1,20 @@
 .related-content__list {
   display: block;
 
-  @media all and (min-width: 400px) {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    column-gap: 30px;
+  @media all and (min-width: 600px) {
+    display: flex;
+    flex-direction: row;
+
+    > a {
+      padding: 0 15px;
+      flex-grow: 1;
+      flex-basis: 0;
+    }
+    > a:first-child {
+      padding-left: 0;
+    }
+    > a:last-child {
+      padding-right: 0;
+    }
   }
 }
