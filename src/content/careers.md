@@ -82,7 +82,7 @@ image_band:
 ---
 
 <div>
-  <iframe width="100%" src="https://www.youtube.com/embed/7r_TbNoRMrw?vq=hd1080" frameborder="0" allow="accelerometer; autoplay; encrypted-media;  gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe src="https://player.vimeo.com/video/310174855" width="100%" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 </div>
 
 ### Who we are
