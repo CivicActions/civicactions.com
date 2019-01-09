@@ -16,10 +16,7 @@ social:
     name: GitHub,
     url: https://github.com/woodt
    }
-  - {
-  name: Drupal,
-  url: https://drupal.org/u/twood.ca
-  }
+
 specialties: [ "Agile ",
 DevSecOps,
 Python,
