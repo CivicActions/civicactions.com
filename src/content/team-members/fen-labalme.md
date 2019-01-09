@@ -35,7 +35,7 @@ medium_posts:
   date: "August 12, 2018",
   url: https://medium.com/civicactions/give-government-permission-to-speak-freely-d816f8584030
   }
-   - {
+  - {
   title: "Governments Must Adopt an Agile Mind-Set Towards Sercurity",
   date: "July 19, 2018",
   url: https://medium.com/civicactions/governments-must-adopt-an-agile-mind-set-towards-security-f86f4870a38b
