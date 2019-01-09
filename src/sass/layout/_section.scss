@@ -110,13 +110,18 @@
 
   //---- CASE STUDY LANDING PAGE
   &__case-studies {
-    @include media($small-screen) {
-      display: grid;
-      grid-template-columns: repeat(2, 1fr);
-      column-gap: 30px;
-
-      @include media($medium-screen) {
-        grid-template-columns: repeat(3, 1fr);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    .teaser--case-study--wrapper {
+      flex: 1;
+      @include media($small-screen) {
+        min-width: 100%;
+        max-width: 100%;
+        @include media($medium-screen) {
+          min-width: 30%;
+          max-width: 30%;
+        }
       }
     }
   }
