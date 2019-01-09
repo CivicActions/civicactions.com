@@ -23,9 +23,9 @@ RFx Compliance & Review
 
 Di thrives on challenges.
 
-She helps the proposal team navigate complex layers of requirements to match CivicActions’ services with client needs. Di’s optimism makes insight seem like common sense, but don’t be fooled — her adept management comes from over a decade of experience with contracts and proposals. 
+She helps the proposal team navigate complex layers of requirements to match CivicActions’ services with client needs. Di’s optimism makes insight seem like common sense, but don’t be fooled — her adept management comes from over a decade of experience with contracts and proposals. Her orchestration of people, skills, and spreadsheets has helped CivicActions expand into more work with agencies seeking UX, Drupal, DevOps, and open data services.
 
-Di has an AA in Business Administration with a minor in English from California State University, Sacramento. She is a certified Scrum Master and has a certificate in Human Centered Design.   Di is a California enthusiast — she loves the beauty and culture of her native state, where she lives with her two cats, Prada and Pinto Bean. 
+Di has an A.A. in Business Administration with a minor in English from California State University, Sacramento. She is a certified Scrum Master and has a certificate in Human Centered Design. Di is a California enthusiast — she loves the beauty and culture of her native state, where she lives with her two cats, Prada and Pinto Bean.  
 
 
 
@@ -35,7 +35,7 @@ Di has an AA in Business Administration with a minor in English from California 
 * Keeping team members laughing in times of stress
 * Loving work from Sacramento, Granite Bay, Lake Tahoe, Cabo, Seattle, Phoenix, and Monterey
 * Enjoying outdoor beauty through gardening, landscape design, and travel
-* Volunteering in her community
+* Volunteering to [help displaced youth](https://www.windyouth.org/) in Sacramento build a better future
 
 -------------------------------
 
