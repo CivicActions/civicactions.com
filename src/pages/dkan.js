@@ -94,8 +94,8 @@ query dkan {
           path
           preview_image {
             childImageSharp {
-              resize(width: 300, height: 300) {
-                src
+              fixed(width: 600, height: 600) {
+                ...GatsbyImageSharpFixed_withWebp_noBase64
               }
             }
           }

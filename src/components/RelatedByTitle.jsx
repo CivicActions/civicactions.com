@@ -13,7 +13,7 @@ const RelatedByTitle = ({posts, titles, customClasses}) => {
     posts.map((p) => {return (existy(p) && existy(p.node) && existy(p.node.frontmatter) ? p.node.frontmatter : null)}), titles).splice(0,3).map((post, index) => {
       const{ title, preview_image, client_name, path } = post;
 
-      let image = preview_image !== null ? preview_image.childImageSharp.resize : null;
+      let image = preview_image !== null ? preview_image.childImageSharp.fixed : null;
       return (
         <CaseStudyTeaser
           title = { title }

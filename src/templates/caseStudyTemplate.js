@@ -86,7 +86,7 @@ export const studyQuery = graphql `
           url {
           childImageSharp {
             fixed(width:1400, height: 788) {
-                ...GatsbyImageSharpFixed_withWebp_noBase64 
+                ...GatsbyImageSharpFixed_withWebp_noBase64
             }
           }
         }
@@ -107,7 +107,7 @@ export const studyQuery = graphql `
           tags
           preview_image {
             childImageSharp {
-              resize(width: 300, height: 300) {
+              fixed(width: 600, height: 600) {
                 src
               }
             }
