@@ -4,7 +4,7 @@ import { graphql } from "gatsby";
 import GeneralLayout from './../components/layouts/GeneralLayout';
 import GlobalQuoteSlider from './../components/organisms/GlobalQuoteSlider';
 import SectionTitle from './../components/atoms/SectionTitle';
-import ThreeColGrid from './../components/organisms/ThreeColGrid';
+import FourColGrid from './../components/organisms/FourColGrid';
 
 const Values = ({ data }) => {
   const{ markdownRemark } = data;
@@ -40,7 +40,7 @@ const Values = ({ data }) => {
       <section className = "section section_benefits usa-grid">
         <SectionTitle title = "Thanks"/>
         <div className = "section__benefits--intro-text">{ thankyou_text }</div>
-        <ThreeColGrid items = { thankyou_images } />
+        <FourColGrid items = { thankyou_images } />
       </section>
     </GeneralLayout>
   );

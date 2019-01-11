@@ -4,7 +4,7 @@ path: /
 subtitle: Our values are the mindsets that help us structure our work, define our culture, and achieve our goal of creating digital services that work for everyone.
 thankyou_text: Our human-centric culture has enabled us to build a company that is recognized for putting people first. We are grateful to the people and organizations that have helped us get here.
 quotes_title: From the Team
-quotes: 
+quotes:
   - {
     image: './team-members/images/henry-poole.jpg',
     text: 'When you create a space for people to be balanced, it opens up the silos in the mind and allows for more possibility and innovation.',
@@ -33,6 +33,10 @@ thankyou_images:
     image: '././general-images/govTech18.png',
     text: 'Gov tech 2018',
   }
+  - {
+    image: '././general-images/govTech19.png',
+    text: 'Gov tech 2019',
+  }
 ---
 ### Work for the greater good
 We seek projects that make life better for people. This means we welcome tough challenges and excel at solving both technical and business related problems. We take time to define how human needs will be met through the services we create.
@@ -53,4 +57,4 @@ We communicate honestly and clearly. We actively share our work and insights wit
 We are intentional about showing appreciation for each other and for those we serve. By celebrating the talents and efforts of the people around us, we encourage them to learn new things and grow as leaders. We also designate time for ourselves to give back to the various communities we are part of.
 
 ### Maintain balance
-We believe people work more effectively when they feel healthy and balanced. We create a positive work culture by adhering to business practices that support physical and emotional well-being. And we honor the priorities we have set for ourselves in our personal, professional, and spiritual lives. 
+We believe people work more effectively when they feel healthy and balanced. We create a positive work culture by adhering to business practices that support physical and emotional well-being. And we honor the priorities we have set for ourselves in our personal, professional, and spiritual lives.
