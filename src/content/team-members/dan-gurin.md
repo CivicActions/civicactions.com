@@ -51,7 +51,7 @@ Dan has a B.A. in Music from Johns Hopkins University and has taken courses in C
 * Building a secure, modernized website for the [Federal Communications Commission](https://civicactions.com/case-study/fcc)
 * Facilitating the sharing of content on [the NPR digital network](http://digitalservices.npr.org/topic/core-publisher)
 * [Presenting about automated testing](https://events.drupal.org/nashville2018/sessions/sweet-test-suite) at DrupalCon Nashville 2018
-* [Flying solo](https://photos.app.goo.gl/J2zCEP64FFhmTwRi7) over the Appalachian mountains
+* [Flying solo](https://drive.google.com/file/d/1YoQrqJ3JkAr69JlSOtnW5vyoKp6077Fs/view?usp=sharing) over the Appalachian mountains
 * Organizing [Drupal Camp Asheville](https://www.drupalasheville.com/)
 
 -----------------------------------
