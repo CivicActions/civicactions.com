@@ -2,7 +2,8 @@
 path: /feedback
 type: page
 title: Feedback
-subtitle: "Bugs? Compliments? Suggestions? We welcome your feedback and ideas for our site."
+subtitle: "Bugs? Compliments? Suggestions? 
+We welcome your feedback and ideas for our site."
 
 ---
 
