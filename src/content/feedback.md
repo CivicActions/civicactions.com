@@ -7,7 +7,7 @@ We welcome your feedback and ideas for our site."
 
 ---
 
-We work in the open and appreciate contributions from everyone. Our work lives here in GitHub. You can:
+We work in the open and appreciate contributions from everyone. Our work lives [here in GitHub](https://github.com/CivicActions/civicactions.com). You can:
 
 <br />
 <hr>
