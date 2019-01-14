@@ -29,11 +29,12 @@ Asking “Why?”
   
 ---
 
-Jeff believes that empowering government to deliver user-centered software is key to making the world a better place. He talks with users, simplifies systems and processes, writes code to make things work, and frequently re-reads the [Digital Services Playbook](https://playbook.cio.gov/).
+Jeff works to make the world better by empowering government to put users first.
 
-Jeff’s first priority in a project is to identify important outcomes and how folks can work to achieve them in small, iterative, repeatable steps. From there, he works towards delivery. He encourages his teams to continually learn, listen, and pivot based on new information as they go. 
+He helps agencies deliver human-centered software by talking with users, simplifying systems and processes, writing code to make things work, and frequently re-reading the [Digital Services Playbook](https://playbook.cio.gov/). Jeff’s first priority in a project is to identify outcomes and figure out how to achieve them through iterative, repeatable steps. He encourages his teams to continually learn, listen, and pivot based on new information as they go. 
 
-Jeff was an early member of the U.S. Digital Service and founding engineering manager of the Vets.gov team. He has also worked with several state digital service teams in California, Rhode Island, and Massachusetts.
+Jeff was an early member of the U.S. Digital Service, founding engineering manager of the Vets.gov team, and has worked with state digital service teams in California, Rhode Island, and Massachusetts. He loves exploring new areas and restaurants with his best friend and urban hiking buddy — his wife.
+
 
 
 
