@@ -33,7 +33,7 @@ Karen studied Art History at Bard College but soon fell in love with technology 
 
 
 
-### Things Karen has been
+### Things Karen has been doing
 * Helping [global peace partners](https://civicactions.com/case-study/globalnet/?portfolioCats=15) access information and share best practices
 * Empowering [adult education practitioners](https://lincs.ed.gov/) to learn and collaborate
 * [Establishing programs](http://civicactions-handbook.readthedocs.io/en/latest/04-how-we-work/cultural-ambassadors/) to help new hires feel safe, included, and comfortable
