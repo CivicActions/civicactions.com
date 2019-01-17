@@ -39,7 +39,7 @@ Elizabeth connects people to each other and to things that matter.
 
 She knows that work is always more than a means to an end, and encourages folks to keep sight of their higher purpose in a supportive culture of open authenticity and wholeness. Elizabeth worked for years as a project manager, helping agencies understand and adopt agile practices. These days her project is the entire company, which she facilitates with curiosity and empathetic attention, helping CivicActioners become the happiest and most productive versions of themselves.
 
-Elizabeth has a B.F.A. from Wayne State University and is a certified ScrumMaster. She brings laughter to every Slack channel, from #parenting to #namaste, and really appreciates a good spreadsheet. At home, she enjoys life with her trio of family members: husband, baby, and dog.
+Elizabeth has a B.F.A. from Wayne State University and is a certified ScrumMaster. She brings laughter to every Slack channel, from #parenting to #namaste, and really appreciates a good spreadsheet. At home, she enjoys life with her trio of family members: husband, kid, and dog.
 
 
 
