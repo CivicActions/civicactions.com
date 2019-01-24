@@ -5,7 +5,7 @@ title: "Connecting public transit to real time data"
 client_name: "New York Metropolitan Transportation Authority"
 preview_image: mta-preview.jpg
 promoted_to_front_page: no
-project: "MTA digital countdown clocks"
+project: "MTA Digital Countdown Clocks"
 website: 
 background_section_title: "New system needed to support modern signage"
 background_section: "The MTA manages the world’s largest public transit system, helping over 11 million passengers get around New York City every day. Subway riders rely on the MTA’s website for travel information to help them know when their train will arrive. The agency needed a way display information from their website on digital signs in subway stations and platforms. " 
