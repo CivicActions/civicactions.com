@@ -92,10 +92,10 @@ CivicActions engineers were able to carry through complex technical requirements
 <figure>
   <div> 
     <header>5.7 million</header>
-    <p>Riders using real time info every day<p>
+    <p>Riders using real time<br>info every day<p>
   </div>
   <div> 
       <header>1800</header>
-      <p>New clocks added in 400 subway stations<p>
+      <p>New clocks added<br>in 400 subway stations<p>
   </div>
 </figure>
