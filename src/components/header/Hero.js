@@ -14,6 +14,7 @@ const Hero = ({
   hero_class,
   image,
   location,
+  personal_pronouns,
   social
   }) => {
     const team_image = image ? <div className = "hero__image"><Img fluid = {image.childImageSharp.fluid} alt={`Image of ${title}`} /></div>: '';
@@ -24,6 +25,8 @@ const Hero = ({
                                     isExternal = { cta_is_external } /> : '';
 
   const memberLocation = location ? <div className = "hero__location">{ location } </div> : '';
+  const memberPersonalPronouns = personal_pronouns ?
+        <div className = "hero__personal_pronouns">{ personal_pronouns } </div> : null;
   let socialLinks;
   let memberSocial;
 
@@ -34,12 +37,14 @@ const Hero = ({
     memberSocial = <div className = "hero__social">{ socialLinks } </div>;
   }
 
+
   return(
     <section className = {"hero usa-grid " + hero_class}>
       { team_image }
       <div className = "hero__text">
         <div className = "hero__client-name">{ client_name }</div>
-        <h1 className = "hero__title">{ title }</h1>
+        <h1 className = {"hero__title" + (memberPersonalPronouns ? " no-space-underneath" : "") }>{ title }</h1>
+        { memberPersonalPronouns }
         <div className = "hero__intro-text">{ subtitle }</div>
         { memberLocation }
         { memberSocial }
