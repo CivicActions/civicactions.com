@@ -1,8 +1,9 @@
 import React from 'react'
 import PropTypes from 'prop-types';
 import Img from "gatsby-image";
-
 import Button from "../atoms/Buttons";
+import ditapFile from "./../../content/docs/CivicActions-DITAP.pdf"
+
 
 const Hero = ({
   client_name,
@@ -16,7 +17,14 @@ const Hero = ({
   location,
   social
   }) => {
+
+
     const team_image = image ? <div className = "hero__image"><Img fluid = {image.childImageSharp.fluid} alt={`Image of ${title}`} /></div>: '';
+
+    if (cta_link && cta_link === "INTERNAL_DITAP_FILE") {
+      cta_link = ditapFile;
+    }
+
     // The button gets displayed only if the cta link is set.
     const button = cta_link ? <Button type = 'hero'
                                     button_text = { cta_text }
