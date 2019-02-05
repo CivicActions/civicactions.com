@@ -53,6 +53,9 @@ const FooterNav = () => {
                 <li className = "usa-footer-secondary-link">
                     <Link to = '/contact' activeClassName = "usa-current"> Contact </Link>
                 </li>
+                <li className = "usa-footer-secondary-link">
+                    <Link to = '/feedback' activeClassName = "usa-current"> Feedback </Link>
+                </li>
             </ul>
             <ul className = "usa-unstyled-list usa-width-one-fourth usa-footer-primary-content">
                 <li className = "usa-footer-primary-link">
