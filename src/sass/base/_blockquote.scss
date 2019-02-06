@@ -41,6 +41,10 @@
 
 }
 
+.blockquote__wrapper {
+  position: relative;
+}
+
 blockquote {
   font-style: italic;
   margin: 0;
@@ -103,6 +107,7 @@ cite {
     }
     &__icon {
       position: absolute;
+      left: 0;
     }
   }
   cite {
