@@ -37,6 +37,12 @@ export default function Template({data}) {
           <div className = "study__project study--col">
             <h3>Project</h3>
             <div className = "study__project__title">{ frontmatter.project }</div>
+            { frontmatter.partner ?
+              <div className = "study__project__partner">
+                <h3>Partner</h3>
+              <div className = "study__project__title">{ frontmatter.partner }</div>
+              </div>
+              : null}
           </div>
           <div className = "study__tech-specs study--col">
             <h3> Tech Specs </h3>
@@ -72,6 +78,7 @@ export const studyQuery = graphql `
         path
         title
         client_name
+        partner
         project
         website
         background_section_title
