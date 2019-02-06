@@ -20,16 +20,25 @@ const Hero = ({
 
 
     const team_image = image ? <div className = "hero__image"><Img fluid = {image.childImageSharp.fluid} alt={`Image of ${title}`} /></div>: '';
+    let button = null;
 
     if (cta_link && cta_link === "INTERNAL_DITAP_FILE") {
-      cta_link = ditapFile;
-    }
-
-    // The button gets displayed only if the cta link is set.
-    const button = cta_link ? <Button type = 'hero'
+      // Wrap a form around the button so it so that it will open in Firefox.
+      button = cta_link ? <form method="get" action={ ditapFile}>
+                                  <Button type = 'hero'
+                                          button_text = { cta_text }
+                                          link = { ditapFile }
+                                          isExternal = { cta_is_external } />
+                                </form> : '';
+    } else {
+      // The button gets displayed only if the cta link is set.
+      button = cta_link ? <Button type = 'hero'
                                     button_text = { cta_text }
                                     link = { cta_link }
                                     isExternal = { cta_is_external } /> : '';
+    }
+
+
 
   const memberLocation = location ? <div className = "hero__location">{ location } </div> : '';
   let socialLinks;
