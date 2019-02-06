@@ -3,6 +3,7 @@ path: /team/rachel-kauff
 type: team
 published: 1
 name: Rachel Kauff
+personal_pronouns: she/her
 image: 'images/rachel-kauff.jpg'
 role: Content Strategy
 location: Los Angeles, CA
