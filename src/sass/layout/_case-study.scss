@@ -28,6 +28,10 @@
   &__project__title {
     font-size: $lead-font-size;
   }
+  &__project__partner {
+    margin-top: $cite-margin;
+    font-size: $lead-font-size;
+  }
 }
 
 .case-study-text {
