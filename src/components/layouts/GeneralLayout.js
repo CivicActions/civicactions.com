@@ -28,6 +28,7 @@ const GeneralLayout = ({
   teamImage,
   ogImage,
   location,
+  personal_pronouns,
   social
   }) => (
 
@@ -104,6 +105,7 @@ const GeneralLayout = ({
             hero_class  = { heroClass }
             image       = { teamImage }
             location    = { location }
+            personal_pronouns = {personal_pronouns}
             social      = { social }
           />
         </header>

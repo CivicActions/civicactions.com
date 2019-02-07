@@ -12,9 +12,10 @@ import {existy, getFirstName} from "../helpers";
 export default function Template({data}) {
   const{ markdownRemark } = data;
   const{ frontmatter, html } = markdownRemark;
-  const{ first_name, name, role, location, social, medium_posts, specialties, image, quote } = frontmatter;
+  const{ first_name, name, personal_pronouns, role, location, social, medium_posts, specialties, image, quote } = frontmatter;
 
   const quoteName = getFirstName(first_name, name);
+  const personalPronouns = personal_pronouns ? personal_pronouns : '';
 
   let memberSpecialties,
     specs,
@@ -52,6 +53,7 @@ export default function Template({data}) {
       ogImage      = { image.childImageSharp.fluid.src}
       teamImage    = { image }
       location     = { location }
+      personal_pronouns = { personalPronouns}
       social       = { social }
     >
       <div className = "team_member__specs--wrapper">
@@ -96,6 +98,7 @@ export const teamQuery = graphql `
         path
         first_name
         name
+        personal_pronouns
         role
         location
         quote

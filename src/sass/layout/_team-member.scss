@@ -11,6 +11,9 @@
           margin-bottom: 0;
         }
       }
+      &__title.no-space-underneath {
+        margin-bottom: 0;
+      }
       &__image {
         padding-top: $site-margins;
         margin-bottom: -($spacing-medium);
@@ -44,6 +47,13 @@
         font-weight: 300;
       }
 
+      &__personal_pronouns {
+        font-weight: 300;
+        font-style: italic;
+        font-size: 90%;
+        margin-top: -5px;
+        padding-bottom: 11px;
+      }
 
       &__social--link {
         color: $white;
