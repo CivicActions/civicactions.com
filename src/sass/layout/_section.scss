@@ -307,6 +307,15 @@
     top: -4rem;
   }
 
+  @media all and (max-width: $small-screen) {
+    // Avoid text overlapping over the image on mobile.
+    &.section__government-services .section__title--wrapper {
+      position: static !important;
+      top: 0;
+    }
+  }
+
+
   &.section__recent-posts-careers .section__title--wrapper {
     position: relative;
     top: 0;
