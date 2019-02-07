@@ -30,6 +30,9 @@ $outline: -1px 1px 6px 3px $color-primary-alt-lightest;
 }
 
 // stylelint-disable selector-no-qualifying-type
+
+// Given that buttons should not have links nested inside of them
+// as the clock event does not fire, this is just being used for extendable styles. See the .link-button on this page.
 .usa-button,
 .usa-button-primary,
 .usa-button:visited,
@@ -289,4 +292,21 @@ html .usa-button-secondary-inverse-disabled,  // Deprecated
 
 .usa-button-unstyled {
   @include button-unstyled;
+}
+
+// Link button: a tag styled like a button.
+a.link-button {
+  @extend .usa-button;
+
+  &.usa-button-navy:visited,
+  &.usa-button-navy {
+    color: $white !important;
+  }
+
+  &.usa-button-navy:hover {
+    background-color: darken($navy, 5%);
+    box-shadow: $drop-shadow darken($navy, 5%);
+    border: 2px solid darken($navy, 5%);
+    color: darken($navy, 5%);
+  }
 }

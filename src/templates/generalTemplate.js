@@ -14,6 +14,8 @@ export default function Template({data}) {
         heroTitle = {frontmatter.title}
         heroSubtitle = { frontmatter.subtitle }
         pageTitle = { `CivicActions | ${frontmatter.title}` }
+        heroCTAText = { frontmatter.cta_text }
+        heroCTALink = {frontmatter.cta_link }
       >
         <div className = "text-container section">
           <div dangerouslySetInnerHTML = {{ __html: html}} />
@@ -31,6 +33,8 @@ export const generalPageQuery = graphql `
         path
         title
         subtitle
+        cta_text
+        cta_link
       }
     }
   }

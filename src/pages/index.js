@@ -10,7 +10,7 @@ import GlobalQuoteSlider from './../components/organisms/GlobalQuoteSlider';
 import FeaturedCaseStudies from '../components/organisms/FeaturedCaseStudies';
 // Atoms
 import SectionTitle from '../components/atoms/SectionTitle';
-import Button from '../components/atoms/Buttons';
+import Link from "./../components/scripts/Link";
 
 const IndexPage = ({data}) => {
 
@@ -65,9 +65,10 @@ const IndexPage = ({data}) => {
           <FeaturedCaseStudies posts = { edges } />
         </div>
         <div className = "usa-grid align-right">
-          <Button
-            button_text = "See More Work"
-            link = "/case-study"
+          <Link
+            children = 'See More Work'
+            to = '/case-study'
+            className = 'link-button'
           />
         </div>
       </section>
@@ -100,9 +101,10 @@ const IndexPage = ({data}) => {
         </div>
         {/*----- Meet our team -------- */}
         <div className = "usa-grid align-right">
-          <Button
-            button_text = "Meet Our Team"
-            link = "/team"
+          <Link
+            children = "Meet Our Team"
+            to = "/team"
+            className = 'link-button'
           />
         </div>
       </section>

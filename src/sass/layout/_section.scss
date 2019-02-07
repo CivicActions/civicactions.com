@@ -338,7 +338,7 @@
   @include media($medium-screen) {
     .align-right {
       position: relative;
-      button {
+      a.link-button {
         position: relative;
         bottom: -6rem;
       }

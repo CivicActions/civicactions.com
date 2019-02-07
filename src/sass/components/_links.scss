@@ -15,12 +15,22 @@ a.external-link {
     }
   }
 }
+
+// This should be replaced by "a.link-button" - see below.
 .usa-button-navy, .usa-button {
   a.external-link {
     &:after {
       margin-left: 5px;
       content: url('./../files/icons/external-link.svg');
     }
+  }
+}
+
+// Link buttons.
+a.link-button.external-link {
+  &:after {
+    margin-left: 5px;
+    content: url('./../files/icons/external-link.svg');
   }
 }
 

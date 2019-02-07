@@ -2,7 +2,8 @@ import React from 'react'
 import PropTypes from 'prop-types';
 import Img from "gatsby-image";
 
-import Button from "../atoms/Buttons";
+import ditapFile from "./../../content/docs/CivicActions-DITAP.pdf"
+import Link from "./../scripts/Link";
 
 const Hero = ({
   client_name,
@@ -16,12 +17,28 @@ const Hero = ({
   location,
   social
   }) => {
+
     const team_image = image ? <div className = "hero__image"><Img fluid = {image.childImageSharp.fluid} alt={`Image of ${title}`} /></div>: '';
-    // The button gets displayed only if the cta link is set.
-    const button = cta_link ? <Button type = 'hero'
-                                    button_text = { cta_text }
-                                    link = { cta_link }
-                                    isExternal = { cta_is_external } /> : '';
+
+    // Load the CTA link from an imported file when we need to load
+    // a URL from the file system and we don't know the public URL that
+    // gatsby-remark-copy-linked-files would have used.
+    // Otherwise use the ctaLink argument.
+    function getCtaLink(ctaLink) {
+        if  (ctaLink === "INTERNAL_DITAP_FILE") {
+          return ditapFile;
+        }
+      return ctaLink;
+    }
+
+    // Hero links get button styling with the "btn" class.
+    // The link button gets displayed only if the cta link is set.
+    const linkButton = cta_link ?
+          <Link
+            to = { getCtaLink(cta_link) }
+            children = { cta_text }
+            className = 'link-button usa-button-navy'
+          /> : null;
 
   const memberLocation = location ? <div className = "hero__location">{ location } </div> : '';
   let socialLinks;
@@ -43,7 +60,7 @@ const Hero = ({
         <div className = "hero__intro-text">{ subtitle }</div>
         { memberLocation }
         { memberSocial }
-        {button}
+        {linkButton}
       </div>
     </section>
   );

@@ -1,8 +1,7 @@
 import React from 'react'
 
 import home_image from './../../content/home.jpg';
-
-import Button from "../atoms/Buttons"
+import Link from "./../scripts/Link";
 
 const HeroHome = ({info}) => {
   const{title, subtitle, cta_text, cta_link} = info;
@@ -14,7 +13,11 @@ const HeroHome = ({info}) => {
       <div className = "hero__text">
         <h1 className = "hero__title">{ title }</h1>
         <div className = "hero__intro-text">{ subtitle }</div>
-        <Button type = 'hero' button_text = { cta_text } link = { cta_link } />
+        <Link
+          to = { cta_link }
+          children = { cta_text }
+          className = 'link-button usa-button-navy'
+        />
       </div>
       { BannerImage}
     </section>

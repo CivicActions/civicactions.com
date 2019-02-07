@@ -4,7 +4,7 @@ import { graphql } from "gatsby"
 import Img from "gatsby-image"
 
 import SectionTitle from '../components/atoms/SectionTitle'
-import Button from '../components/atoms/Buttons'
+import Link from "./../components/scripts/Link";
 import GeneralLayout from "./../components/layouts/GeneralLayout"
 import MediumPostList from '../components/medium-components/mediumPostList'
 
@@ -52,11 +52,11 @@ const Communities = ({ data }) => {
           <SectionTitle
             title = "Agile Government Leadership"
             subtitle = { agile_intro_text }>
-            <Button
-              button_text = {agl_button_text}
-              link = {agl_button_link}
-              isExternal = { true }
-              />
+            <Link
+              to = { agl_button_link }
+              children = { agl_button_text }
+              className = 'link-button external-link'
+            />
           </SectionTitle>
           { AGLPosts }
         </div>
@@ -69,10 +69,12 @@ const Communities = ({ data }) => {
           <SectionTitle
             title = {dkan_title}
             subtitle = { dkan_intro_text }>
-            {/* Passing in a button component as props.children.  */}
-            <Button button_text={dkan_button_text}
-                    link={dkan_button_link}
-                    isExternal = { true } />
+            {/* Passing in a link component as props.children.  */}
+            <Link
+              to = { dkan_button_link }
+              children = { dkan_button_text }
+              className = 'link-button external-link'
+            />
           </SectionTitle>
           { DKANPosts }
         </div>

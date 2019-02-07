@@ -4,7 +4,7 @@ import { graphql } from "gatsby"
 import IconParagraphsGroup from '../components/organisms/IconParagraphsGroup'
 import GeneralLayout from '../components/layouts/GeneralLayout';
 import SectionTitle from '../components/atoms/SectionTitle';
-import Button from "../components/atoms/Buttons";
+import Link from "./../components/scripts/Link";
 import RelatedByTitle from '../components/RelatedByTitle';
 
 const Dkan = ({data}) => {
@@ -29,12 +29,12 @@ const Dkan = ({data}) => {
         <div className = "text-container" dangerouslySetInnerHTML = {{ __html: html }} />
 
         <div class = "align-center">
-          <Button
-            button_text = "Visit getDKAN.org"
-            link = "http://getdkan.org"
-            />
+          <Link
+            to = "http://getdkan.org"
+            children = "Visit getDKAN.org"
+            className = 'link-button external-link'
+          />
         </div>
-
       </div>
     </section>
 
