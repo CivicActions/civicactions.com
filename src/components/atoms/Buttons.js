@@ -3,6 +3,10 @@ import PropTypes from 'prop-types';
 import Link from "./../../components/scripts/Link";
 
 
+// Warning. links in buttons do not work in firefox.
+// Avoid using this component and instead use the Link component
+// with a .link-button class.
+
 const Button = ({type, button_text, link, isExternal}) => {
   const buttonClass =
     (type === 'secondary') ? 'usa-button-secondary':

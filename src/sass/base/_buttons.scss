@@ -30,6 +30,9 @@ $outline: -1px 1px 6px 3px $color-primary-alt-lightest;
 }
 
 // stylelint-disable selector-no-qualifying-type
+
+// Given that buttons should not have links nested inside of them
+// as the clock event does not fire, this is just being used for extendable styles. See the .link-button on this page.
 .usa-button,
 .usa-button-primary,
 .usa-button:visited,
