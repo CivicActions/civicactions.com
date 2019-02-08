@@ -15,7 +15,7 @@ social:
   }
   - {
     name: GitHub,
-    url: hhttps://github.com/kategarklavs
+    url: https://github.com/kategarklavs
    }
   - {
   name: Twitter,
