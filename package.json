@@ -45,7 +45,9 @@
     "format": "prettier --write 'src/**/*.js'",
     "test": "jest",
     "deploy": "gatsby build --prefix-paths && gh-pages -d public",
-    "sass-lint": "sass-lint -c .sass-lint.yml 'src/sass/**/*.scss' -v -q"
+    "sass-lint": "sass-lint -c .sass-lint.yml 'src/sass/**/*.scss' -v -q",
+    "storybook": "start-storybook -p 6006",
+    "build-storybook": "build-storybook"
   },
   "jest": {
     "transform": {
@@ -76,7 +78,12 @@
     "jest": "^23.5.0",
     "prettier": "^1.12.0",
     "react-test-renderer": "^16.4.2",
-    "sass-lint": "^1.12.1"
+    "sass-lint": "^1.12.1",
+    "@storybook/react": "^4.1.11",
+    "@storybook/addon-actions": "^4.1.11",
+    "@storybook/addon-links": "^4.1.11",
+    "@storybook/addons": "^4.1.11",
+    "babel-loader": "^8.0.5"
   },
   "repository": {
     "type": "git",
