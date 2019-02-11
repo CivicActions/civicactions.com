@@ -3,6 +3,7 @@ path: /team/jen-harris
 type: team
 published: 1
 name: Jen Harris
+personal_pronouns: she/her
 image: 'images/jen-harris.jpg'
 role: User Experience
 location: Los Angeles, CA

@@ -3,6 +3,7 @@ path: /team/steve-curtis
 type: team
 published: 1
 name: Steve Curtis
+personal_pronouns: he/him
 image: 'images/steve-curtis.jpg'
 role: Project Management
 location: Hamden, CT 

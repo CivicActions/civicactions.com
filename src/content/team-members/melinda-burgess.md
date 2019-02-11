@@ -3,6 +3,7 @@ path: /team/melinda-burgess
 type: team
 published: 1
 name: Melinda Burgess
+personal_pronouns: she/her
 image: 'images/melinda-burgess.jpg'
 role: Content Strategy
 location: Seattle, WA

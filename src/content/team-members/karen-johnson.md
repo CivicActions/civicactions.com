@@ -3,6 +3,7 @@ path: /team/karen-johnson
 type: team
 published: 1
 name: Karen Johnson
+personal_pronouns: she/her
 image: 'images/karen-johnson.jpg'
 role: DevOps
 location: Media, PA

@@ -3,6 +3,7 @@ path: /team/kevin-walsh
 type: team
 published: 1
 name: Kevin Walsh
+personal_pronouns: he/him
 image: 'images/kev-walsh.jpg'
 role: User Experience
 location: The Blue Mountains, Ontario

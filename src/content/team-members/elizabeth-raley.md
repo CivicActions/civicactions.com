@@ -3,6 +3,7 @@ path: /team/elizabeth-raley
 type: team
 published: 1
 name: Elizabeth Raley
+personal_pronouns: she/her
 image: 'images/elizabeth-raley.jpg'
 manager: 1
 role: Management & Operations

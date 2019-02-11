@@ -3,6 +3,7 @@ path: /team/jeff-maher
 type: team
 published: 1
 name: Jeff Maher
+personal_pronouns: he/him
 image: 'images/jeff-maher.jpg'
 role: Engineering
 location: Boston, MA

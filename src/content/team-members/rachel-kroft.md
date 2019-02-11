@@ -3,6 +3,7 @@ path: /team/rachel-kroft
 type: team
 published: 1
 name: Rachel Kroft
+personal_pronouns: she/her/they
 image: 'images/rachel-kroft.jpg'
 role: User Experience
 location: San Francisco, CA
