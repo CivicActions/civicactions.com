@@ -3,6 +3,7 @@ path: /team/owen-barton
 type: team
 published: 1
 name: Owen Barton
+personal_pronouns: he/him
 image: 'images/owen-barton.jpg'
 manager: 1
 role: Management & Operations
