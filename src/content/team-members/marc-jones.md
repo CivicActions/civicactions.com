@@ -3,6 +3,7 @@ path: /team/marc-jones
 type: team
 published: 1
 name: Marc Jones
+personal_pronouns: he/him
 image: 'images/marc-jones.jpg'
 role: Legal & Compliance 
 location: Bloomfield, CT
