@@ -3,6 +3,7 @@ path: /team/tony-fortenberry
 type: team
 published: 1
 name: Tony Fortenberry
+personal_pronouns: he/him
 image: 'images/tony-fortenberry.jpg'
 role: Education Services
 location: Sacramento, CA
