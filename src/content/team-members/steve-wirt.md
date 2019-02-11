@@ -3,6 +3,7 @@ path: /team/steve-wirt
 type: team
 published: 1
 name: Steve Wirt
+personal_pronouns: he/him
 image: 'images/steve-wirt.jpg'
 role: Engineering
 location: Nokomis, FL
