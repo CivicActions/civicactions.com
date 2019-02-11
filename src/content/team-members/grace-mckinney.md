@@ -3,6 +3,7 @@ path: /team/grace-mckinney
 type: team
 published: 1
 name: Grace McKinney
+personal_pronouns: she/her
 image: 'images/grace-mckinney.jpg'
 role: Hiring
 location: Washington, DC
