@@ -3,6 +3,7 @@ path: /team/aaron-pava
 type: team
 published: 1
 name: Aaron Pava
+personal_pronouns: he/him
 image: 'images/aaron-pava.jpg'
 manager: 1
 role: Management & Operations
