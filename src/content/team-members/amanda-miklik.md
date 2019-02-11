@@ -25,7 +25,7 @@ social:
 specialties: [ "Content Strategy",
 Service Design,
 Social Justice,
-Giving tours of Salem, MA
+"Giving tours of Salem, MA"
 ]
 
   
