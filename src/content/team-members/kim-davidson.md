@@ -3,6 +3,7 @@ path: /team/kim-davidson
 type: team
 published: 1
 name: Kim Davidson
+personal_pronouns: she/her
 image: 'images/kim-davidson.jpg'
 role: Open Data
 location: Brooklyn, NY
