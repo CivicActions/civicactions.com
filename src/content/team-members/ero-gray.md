@@ -3,6 +3,7 @@ path: /team/ero-gray
 type: team
 published: 1
 name: Ero Gray
+personal_pronouns: he/him
 image: 'images/ero-gray.jpg'
 role: Help Desk Support 
 location: Portland, OR
