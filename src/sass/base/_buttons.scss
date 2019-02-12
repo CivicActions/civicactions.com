@@ -115,7 +115,6 @@ button,
       box-shadow: $drop-shadow $color-primary-darkest, $outline;
       color: $color-primary-darkest;
       outline: none;
-
     }
 
     &:active,
@@ -309,4 +308,37 @@ a.link-button {
     border: 2px solid darken($navy, 5%);
     color: darken($navy, 5%);
   }
+}
+
+// Simple
+a.link-button--secondary {
+  @extend a.link-button;
+  background-color: $color-white !important;
+  box-shadow: $drop-shadow $color-primary !important;
+  border: 2px solid $color-primary !important;
+  color: $color-primary !important;
+
+  &:hover {
+    box-shadow: $drop-shadow $color-primary-darkest !important;
+    color: $color-primary-darkest !important;
+    background-color: $color-primary-extralight !important;
+  }
+
+  &:focus {
+    background-color: $color-gray-lighter !important;
+    border: 0 !important;
+    box-shadow: none !important;
+  }
+
+  &:active {
+    color: $white !important;
+    background-color: $color-primary-darkest !important;
+    border-color: $color-primary-darkest !important;
+    box-shadow: none !important;
+  }
+
+  &:after {
+    content: url('./../files/icons/external-link-pressed.svg') !important;
+  }
+
 }
