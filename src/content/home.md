@@ -24,7 +24,7 @@ quotes:
     author: 'Steve Wirt, Engineer'
   }
 
-government_services_title: Modernizing Goverment Services
+government_services_title: Modernizing Government Services
 government_services:
 - {
     title: 'Contracting and Capabilities',
