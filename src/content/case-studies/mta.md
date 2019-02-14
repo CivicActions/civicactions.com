@@ -5,13 +5,13 @@ title: "Connecting public transit to real time data"
 client_name: "New York Metropolitan Transportation Authority"
 preview_image: mta-preview.jpg
 promoted_to_front_page: no
-partner: Acquia
+partner: ''
 project: "MTA Digital Countdown Clocks"
 website: 
 background_section_title: "New system needed to support modern signage"
 background_section: "The MTA manages the world’s largest public transit system, helping over 11 million passengers get around New York City every day. Subway riders rely on the MTA’s website for travel information to help them know when their train will arrive. The agency needed a way to display information from their website on digital signs in subway stations and platforms. " 
 
-background_section_second: "The data was complex and constantly changing, representing a massive network of trains, tracks, and stations — which needed to display reliably and in real time to keep riders informed. Acquia and CivicActions worked with MTA to extend the agency’s existing Drupal CMS to a network of devices using Amazon’s Internet of Things (IoT)."
+background_section_second: "The data was complex and constantly changing, representing a massive network of trains, tracks, and stations — which needed to display reliably and in real time to keep riders informed. [Acquia](https://www.acquia.com/) and CivicActions worked with MTA to extend the agency’s existing Drupal CMS to a network of devices using Amazon’s Internet of Things (IoT)."
 tags: ["UX", "Drupal", "Innovation Lab"]
 specs: [
 "Decoupled Drupal 8",
@@ -35,9 +35,12 @@ images:
   caption: 'We set up a system that allows hundreds of digital signs to receive data simultaneously', 
   alt: 'Amanzon IoT chart'
   }
-
-
 related_titles:
+- Improving transparency in state government
+- Modernizing a legacy federal system
+- Helping Californians make healthy choices for life
+
+
 
 
 ---
