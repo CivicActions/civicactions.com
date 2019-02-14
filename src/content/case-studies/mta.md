@@ -5,7 +5,7 @@ title: "Connecting public transit to real time data"
 client_name: "New York Metropolitan Transportation Authority"
 preview_image: mta-preview.jpg
 promoted_to_front_page: no
-partner: Acquia
+partner: ''
 project: "MTA Digital Countdown Clocks"
 website: 
 background_section_title: "New system needed to support modern signage"
@@ -35,9 +35,12 @@ images:
   caption: 'We set up a system that allows hundreds of digital signs to receive data simultaneously', 
   alt: 'Amanzon IoT chart'
   }
-
-
 related_titles:
+- Improving transparency in state government
+- Modernizing a legacy federal system
+- Helping Californians make healthy choices for life
+
+
 
 
 ---
