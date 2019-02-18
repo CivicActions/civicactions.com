@@ -47,7 +47,7 @@ Fen loves to create solutions for problems before they arise.
 
 His current mission is to empower better government by delivering free and open source software (FOSS) security and compliance solutions that improve upon previous proprietary systems. He’s also working on automating the [ATO process](https://before-you-ship.18f.gov/ato/), making it easier for agencies to do business securely. He applies over twenty years of IT experience (and a relentless sense of humor) to mentor CivicActions engineers in creating modern, secure systems for clients.
 
-Fen is a Certified Information System Security Professional (CISSP) and a long-time advocate of handling information wisely. His [Computer Science and Electrical Engineering thesis](https://github.com/openprivacy/newspeek) at MIT presaged the privacy concerns facing today’s Internet and social media platforms. His close-knit family enjoys traveling to historic locations, campaigning for a greener Earth, and playing/cheering at hockey games.
+Fen is a Certified Information System Security Professional (CISSP) and a long-time advocate of handling information wisely. His Computer Science and Electrical Engineering [thesis](https://github.com/openprivacy/newspeek) at MIT presaged the privacy concerns facing today’s Internet and social media platforms. His close-knit family enjoys traveling to historic locations, campaigning for a greener Earth, and playing/cheering at hockey games.
 
 
 
