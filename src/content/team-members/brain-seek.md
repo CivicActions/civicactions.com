@@ -3,7 +3,7 @@ path: /team/brain-seek
 type: team
 published: 1
 name: Brain Seek
-person_pronouns: he/him
+personal_pronouns: he/him
 image: 'images/brain-seek.jpg'
 role: Engineering
 location: Tempe, AZ
