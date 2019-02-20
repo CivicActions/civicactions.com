@@ -7,7 +7,7 @@ personal_pronouns: she/her
 image: 'images/rachel-kauff.jpg'
 role: Content Strategy
 location: Los Angeles, CA
-quote: The donut emoji is a reminder of the cyclical nature of cravings.
+quote: 'The donut emoji is a reminder of the cyclical nature's cravings.'
 social:
   - {
   name: LinkedIn,
