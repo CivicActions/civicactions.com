@@ -1,8 +1,8 @@
 ---
-path: /team/brain-seek
+path: /team/brian-seek
 type: team
 published: 1
-name: Brain Seek
+name: Brian Seek
 personal_pronouns: he/him
 image: 'images/brain-seek.jpg'
 role: Engineering
