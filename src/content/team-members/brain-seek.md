@@ -4,7 +4,7 @@ type: team
 published: 1
 name: Brian Seek
 personal_pronouns: he/him
-image: 'images/brain-seek.jpg'
+image: 'images/brian-seek.jpg'
 role: Engineering
 location: Tempe, AZ
 quote: 
