@@ -40,7 +40,7 @@ Kim is an agile powerhouse.
 
 Her enthusiasm for the systems and processes that help people work together keeps large-scale projects focused and on-time. She manages community engagement, complex projects, and ongoing professional services needs for the [DKAN Open Data Platform](https://getdkan.org/). Kim communicates efficiently with all kinds of people — from developers to managers — and takes time to ask the right questions until everything is clear. She’s been called “a veritable fireball of energy”!
 
-Kim has a B.A. from Columbia University and is a certified Scrum Master. Born in Hawaii, she founded a Tahitian dance school in New York City to share her love of dance with her community. You’ll often find her enjoying the streets of NYC and petting other people’s dogs.
+Kim has a B.A. from Columbia University and is a certified Scrum Master. Having grown up in Hawaii, she founded a Tahitian dance school in New York City to share her love of dance with her community. You’ll often find her enjoying the streets of NYC and petting other people’s dogs.
 
 
 
