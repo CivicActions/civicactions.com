@@ -1,5 +1,8 @@
 pipeline {
     agent any
+    triggers {
+        cron(env.BRANCH_NAME == 'scheduled-build' ? 'H */5 * * *' : '')
+    }
     options {
         buildDiscarder(logRotator(numToKeepStr:'10'))
         timeout(time: 15, unit: 'MINUTES')
