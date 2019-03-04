@@ -1,7 +1,9 @@
 pipeline {
     agent any
     triggers {
-        cron(env.BRANCH_NAME == 'scheduled-build' ? '*/5 * * * *' : '')
+        // Build/deploy master at noon and 6pm PT.
+        cron(env.BRANCH_NAME == 'master' ? '0 20 * * *' : '')
+        cron(env.BRANCH_NAME == 'master' ? '0 2 * * *' : '')
     }
     options {
         buildDiscarder(logRotator(numToKeepStr:'10'))
