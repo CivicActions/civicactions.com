@@ -20,9 +20,9 @@ const social_block = {social_icons:[
   {
     image: icon3,
     title: "Mail",
-    text: "2625 Alcatraz Ave. ",
-    text2: "Suite 320",
-    text3: "Berkeley, CA 94705"
+    text: "3527 Mt Diablo Blvd",
+    text2: "Unit 269",
+    text3: "Lafayette, CA 94549"
   }
 ] };
 

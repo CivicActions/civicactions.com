@@ -5,9 +5,9 @@ module.exports = {
     title: 'CivicActions | Open and Agile Digital Government Services',
     email: 'contact@civicactions.com',
     phone: '(510) 408-7510',
-    address: '2625 Alcatraz Avenue,',
-    address_line_2: 'Suite 320,',
-    city: 'Berkeley, CA 94705'
+    address: '3527 Mt Diablo Blvd,',
+    address_line_2: 'Unit 269,',
+    city: 'Lafayette, CA 94549'
   },
   pathPrefix: "/civicactions.com",
   plugins: [
