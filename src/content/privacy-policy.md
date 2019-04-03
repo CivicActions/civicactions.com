@@ -72,6 +72,6 @@ This policy was last modified on April 25, 2014
 If there are any questions regarding this privacy policy you may contact us using the information below.
 
 CivicActions </br>
-2625 Alcatraz Avenue, Suite 320 </br>
-Berkeley, CA 94705, USA </br>
+3527 Mt Diablo Blvd Unit 269, </br>
+Lafayette, CA 94549, USA </br>
 (510) 408-7510 </br>
