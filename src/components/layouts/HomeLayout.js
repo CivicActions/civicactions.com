@@ -60,7 +60,7 @@ const Layout = ({ children, data, location }) => (
           title={ data.site.siteMetadata.title }
           meta={[
               { name: 'description', content: 'Open and Agile Digital Government Services' },
-              { name: 'keywords', content: 'sample, something' },
+              // { name: 'keywords', content: 'sample, something' },
 
               // Social Sharing
               { name: 'og:site_name', content: data.site.siteMetadata.title },
