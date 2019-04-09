@@ -12,7 +12,7 @@ social:
   name: LinkedIn,
   url: https://www.linkedin.com/in/benhafer/
   }
-specialties: [ "Systems Development Lifecycle (SDLC)",
+specialties: [ "Business Development",
 Enterprise Architecture & DevOps,
 IT Service Management,
 Outdoors-ing
@@ -20,9 +20,9 @@ Outdoors-ing
   
 ---
 
-Ben is a visionary servant leader who brings goals into reality.
+Ben is dedicated to agile practices and free and open source software. 
 
-With dedication to agile practices and free and open source software, Ben works to plan and develop modern solutions that meet business needs. He helps CivicActions get positioned to bring positive change to the public sector, based on his past experience leading [technical and cultural transformation](https://www.codeforamerica.org/blog/2015/11/30/a-new-approach-to-procuring-government-technology-in-california/) within government as CTO of California’s Child Welfare Digital Services.
+He helps CivicActions get positioned to bring positive change to the public sector, based on his past experience leading [technical and cultural transformation](https://www.codeforamerica.org/blog/2015/11/30/a-new-approach-to-procuring-government-technology-in-california/) within government as CTO of California’s Child Welfare Digital Services.
 
 Ben is a graduate of the California Information Technology Leadership Academy ([ITLA](https://cdt.ca.gov/workforce-development/information-technology-leadership-academy/)) and is certified in IT Service Management ([ITIL](https://www.axelos.com/best-practice-solutions/itil)), Professional Agile Leadership Essentials ([PAL](https://www.scrum.org/courses/professional-agile-leadership-essentials-training)), and Enterprise Architecture. To recharge, Ben enjoys hiking and mountaineering, and spends three months of the year sleeping under the stars.
 
