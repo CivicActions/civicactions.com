@@ -32,6 +32,8 @@ pipeline {
             when { branch 'master' }
             steps {
                 script {
+                    // Add a timestamp file to ensure we rebuild the site content
+                    sh "date > .build-timestamp"
                     docker.withRegistry('https://gcr.io', 'internal-it-k8s-gcr') {
                         def latestImage = docker.build("civicactions-internal-it/home", "--build-arg GATSBY_JAZZ_URL=${GATSBY_JAZZ_URL} .")
                         latestImage.push("latest")
