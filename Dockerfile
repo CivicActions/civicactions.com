@@ -5,6 +5,18 @@ FROM node:8.11 as env
 WORKDIR /usr/src/app
 ENV PATH=/usr/src/app/node_modules/.bin/:${PATH}
 
+
+#
+# Build web server
+# This is based on https://github.com/abiosoft/caddy-docker/blob/master/Dockerfile
+#
+FROM abiosoft/caddy:builder as builder
+
+ARG version="0.11.5"
+ARG plugins="realip,expires,prometheus,cloudflare"
+
+RUN VERSION=${version} PLUGINS=${plugins} /bin/sh /usr/bin/builder.sh
+
 #
 # Build site
 #
@@ -16,19 +28,6 @@ RUN yarn install --pure-lockfile
 COPY . .
 RUN yarn build
 RUN yarn test
-
-#
-# Build web server
-# This is based on https://github.com/abiosoft/caddy-docker/blob/master/Dockerfile
-#
-# TODO: Switch back to abiosoft/caddy:builder once https://github.com/abiosoft/caddy-docker/issues/151 is fixed.
-#
-FROM grugnog/caddy-docker:builder as builder
-
-ARG version="0.11.1"
-ARG plugins="realip,expires,prometheus,cloudflare"
-
-RUN VERSION=${version} PLUGINS=${plugins} /bin/sh /usr/bin/builder.sh
 
 #
 # Compress site files
