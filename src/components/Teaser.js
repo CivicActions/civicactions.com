@@ -33,14 +33,8 @@ const Teaser = ({
     <div className = { teaser_class }>
       { image_wrapper }
       <div className = "teaser__date"> { teaserDate } </div>
-      <h3 className =  "teaser__title"> { teaserTitle } </h3>
+      <h3 className =  "teaser__title"> <Link to={teaserLink}>{ teaserTitle }</Link></h3>
       { teaser_text}
-      <div className = "teaser__link">
-        <Link
-            to = { teaserLink }
-            children = 'Read More'
-        />
-      </div>
     </div>
   );
 };
