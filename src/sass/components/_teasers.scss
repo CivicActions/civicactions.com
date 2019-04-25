@@ -24,6 +24,12 @@
 
   &__title {
     font-size: $h4-font-size;
+    a {
+      text-decoration: none;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
   }
 
   &__link {
