@@ -6,7 +6,7 @@ name: Melinda Burgess
 personal_pronouns: she/her
 image: 'images/melinda-burgess.jpg'
 role: Content Strategy
-location: Seattle, WA
+location: Anywhere, USA
 quote: I love working remotely because I can have the peace of mind that comes with a secure career, while still pursuing radical dreams.
 social: 
   - {
@@ -27,8 +27,8 @@ social:
   }
 specialties: [ "Storytelling",
 Community Building,
-Intentionality,
-Nomadic Wandering
+Nomadic Wandering,
+Emojis
 ]
 medium_posts: 
   - {
@@ -48,7 +48,7 @@ Melinda loves to tell the stories of good things people are doing in the world.
 
 She writes about civic tech and government transformation with a focus on the people and processes that are improving public services. At CivicActions she creates content to highlight the leadership, insights, and general awesomeness of the team. She also serves as wordsmith and community-builder for [Agile Government Leadership](https://www.agilegovleaders.org/).  
 
-Melinda is self-taught in her career path, and grateful for the people and organizations that have helped her grow and learn. Her favorite things in life are avocados, her kids’ artwork, Instagram, clever science-y blogs with stick figures, and craft beer.
+Melinda likes organizing content, people, and closets. She's a "digital nomad" who appreciates the freedom to wander with her family while maintaining her career. Her favorite things in life are avocados, her kids’ artwork, Instagram, clever science-y blogs with stick figures, and craft beer.
 
 
 ### Things Melinda has been doing
