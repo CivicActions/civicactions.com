@@ -27,6 +27,10 @@
     color: $white;
   }
 
+  a:hover {
+    text-decoration: underline;
+  }
+
   &--wrapper {
     background-color: $color-primary;
 
