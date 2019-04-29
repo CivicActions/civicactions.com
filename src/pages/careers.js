@@ -7,7 +7,7 @@ import GeneralLayout from "./../components/layouts/GeneralLayout";
 import IconParagraphsGroup from '../components/organisms/IconParagraphsGroup';
 import ImageBand from './../components/organisms/ImageBand';
 import GlobalQuoteSlider from './../components/organisms/GlobalQuoteSlider';
-
+import Link from "./../components/scripts/Link";
 
 const Careers = ({data}) => {
   const { allJob, markdownRemark } = data;
@@ -31,10 +31,9 @@ const Careers = ({data}) => {
 
     return (
       <li key = { job.node.id } className = "teaser__item">
-        <h4 className =  "teaser__title">{ job.node.title }</h4>
+        <h4 className =  "teaser__title"><Link to={url}>{ job.node.title }</Link></h4>
         <div className = "teaser__text">Location: { job.node.city}, { job.node.state }</div>
         <div className = "teaser__text">Type: { job.node.type }</div>
-        <div className = "teaser__link"><a href = {url}> View Details</a></div>
       </li>
     )
   });
