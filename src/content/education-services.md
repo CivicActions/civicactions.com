@@ -38,6 +38,8 @@ Focused in-person classroom sessions form the foundation for extended learning o
 CivicActions DITAP trainings are modeled on the same culture of open collaboration and learning that supports effective digital service delivery. Learners connect with peers in the acquisition community so they can benefit from shared knowledge and support.
 
 [Read more about recent efforts to improve federal acquisition](https://federalnewsnetwork.com/ask-the-cio/2019/04/usds-applying-its-own-lessons-learned-to-fix-federal-hiring-acquisition/)
+"This might be one of the most impactful things the USDS does over time."
+*- Eddie Hartwig, USDS Acting Deputy Director, on DITAP training*
 
 ### Courses
 
