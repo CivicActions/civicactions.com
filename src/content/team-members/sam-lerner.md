@@ -28,7 +28,7 @@ Full Stack Development
 ]
 
 ---
-Sam loves the power of technology to make connections.
+Sam loves technology as a multidisciplinary art form.
 
 His uncontainable curiosity and knack for problem solving got him involved in IT early in life — he was working as a developer even before he got his driver’s license. Now Sam applies his boundless energy and wide-ranging technical experience to helping our government clients build Drupal-powered sites optimized for performance. 
 
