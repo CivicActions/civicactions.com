@@ -31,10 +31,10 @@ RUN yarn test
 
 #
 # Compress site files
+# TODO: When brotli is added to stable Alpine release, move back to tagged base image.
 #
-FROM alpine:3.8 as appz
-RUN apk add gzip --no-cache && \
-    apk add brotli --no-cache --repository http://dl-3.alpinelinux.org/alpine/edge/testing/ --allow-untrusted
+FROM alpine:edge as appz
+RUN apk add gzip brotli --no-cache
 COPY --from=app /usr/src/app/public /srv
 RUN find /srv -type f -a \( -name '*.html' -o -name '*.css' -o -name '*.js' \
     -o -name '*.json' -o -name '*.xml' -o -name '*.svg' -o -name '*.txt' \) \
