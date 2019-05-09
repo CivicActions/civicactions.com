@@ -19,10 +19,6 @@ fi
 if [ -f ./.env ]; then
   source ./.env
 fi
-if [ "$GATSBY_JAZZ_URL" = "" ]; then
-  echo 'ERROR: Please set your Jazz API URL using `echo GATSBY_JAZZ_URL=urlvalue >> .env`'
-  return
-fi
 
 DOCKER_VERSION_CHECK="$(docker version --format '{{ printf "%.5s" .Server.Version }}') <= 17.05"
 if (( $(echo $DOCKER_VERSION_CHECK | bc -l) )); then
