@@ -7,11 +7,12 @@ subtitle: We understand the complexities of helping public sector agencies procu
 
 ### Leaders in Government Innovation
 
-* Named to Government Technology “GovTech 100” list in 2017, 2018 
+* Named to Government Technology “GovTech 100” list in 2017, 2018, 2019 
 * Former U.S. Digital Service (USDS) experience
 * Founders of Agile Government Leadership ([AGL](https://www.agilegovleaders.org/ "Agile Government Leadership"))
 * Maintainers of open source open data platform [DKAN](https://getdkan.org/ "DKAN") 
 * Free and Open Source Software (FOSS) pioneers, leaders, and practitioners
+* Providers of DITAP training for federal acquisition officers to learn about modern procurement practices
 * Contributors to [industry press](https://www.civicactions.com/press "Press")(FedScoop, StateScoop, FCW, NextGov, Federal Times)
 
 ### Core Competencies 
