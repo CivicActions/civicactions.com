@@ -56,5 +56,8 @@ We communicate honestly and clearly. We actively share our work and insights wit
 ### Show appreciation
 We are intentional about showing appreciation for each other and for those we serve. By celebrating the talents and efforts of the people around us, we encourage them to learn new things and grow as leaders. We also designate time for ourselves to give back to the various communities we are part of.
 
+### Foster diversity
+We have a responsibility to address the inequality that permeates our lives as civic tech practitioners and individuals. We work to build diversity, equity, and inclusion in both our team culture and our work on problems that shape civic life -- while regularly asking how we can do better.
+
 ### Maintain balance
 We believe people work more effectively when they feel healthy and balanced. We create a positive work culture by adhering to business practices that support physical and emotional well-being. And we honor the priorities we have set for ourselves in our personal, professional, and spiritual lives.

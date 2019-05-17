@@ -51,11 +51,10 @@ Steve has a B.A. in Music from Carleton College, an M.A. in Musicology from Corn
 ### Things Steve has been doing
 * [Supporting transparency](https://civicactions.com/case-study/digital-democracy) in state government 
 * Helping [Doctors Without Borders](https://civicactions.com/case-study/msf/) raise support to deliver global aid
+* Synthesizing user research to plan the future of a [Department of Education website](https://www2.ed.gov/about/offices/list/ovae/pi/AdultEd/index.html)
 * Facilitating [open conversations](https://medium.com/@steve.curtis/an-open-dialogue-on-work-and-life-in-a-distributed-team-796ef88813cd) about remote work 
 * Helping teams build [user-directed digital products](http://www.govtech.com/civic/3-Tips-for-Joining-Californias-Agile-Government-Vendor-Pool.html) in just a few days
-* [Touring across the US and Europe](http://www.allabouthem.com/tour.htm) with the band [Hem](https://www.hemmusic.com/)
 * “Do[ing] what [great, grown-up indie rock](https://littlesilver.bandcamp.com/track/one-stepper) has always done,” according to Rolling Stone
-* [Performing](https://www.nytimes.com/2009/06/26/theater/reviews/26night.html) alongside Anne Hathaway and Audra McDonald
 
 -------------------------------
 

@@ -41,6 +41,7 @@ Iris has a Bachelor's in Electronic Engineering from the University of Nigeria. 
 * Creating easy-to-find [resources for LA business owners](http://business.lacity.org/)
 * Moving the [U.S. House of Representatives](https://house.gov/) to a modern, secure online platform
 * Finding clever ways to integrate [design and development](https://www.youtube.com/watch?v=uLcBLuCcu5k) with Drupal
+* Co-maintaining the [U.S. Web Design Standards base theme](https://www.drupal.org/project/uswds) to help government create consistent and beautiful digital services
 
 
 -------------------------------
