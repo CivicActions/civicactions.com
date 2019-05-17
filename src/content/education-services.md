@@ -13,6 +13,12 @@ Traditional procurement practices lack the flexibility to help Federal agencies 
 
 The U.S. Digital Service and Office of Federal Procurement Policy created the Digital Information Technology Acquisitions Professional (DITAP) program as a pilot community of informed IT procurement specialists to build expertise across Federal agencies. CivicActions offers DITAP training to support the development of modern acquisition strategies for digital transformation.
 
+[Read more about recent efforts to improve federal acquisition](https://federalnewsnetwork.com/ask-the-cio/2019/04/usds-applying-its-own-lessons-learned-to-fix-federal-hiring-acquisition/)
+
+<blockquote>
+This might be one of the most impactful things the USDS does over time.
+<cite>Eddie Hartwig, U.S. Digital Service Acting Deputy Director </cite>
+</blockquote>
 
 ### Who is DITAP Training For?
 Starting in 2022, all Federal acquisition professionals managing contracts of $7M or greater will need the [FAC-C-DS certification](https://techfarhub.cio.gov/assets/files/FAC_C_Digital_Services_5-18-18.pdf) provided by DITAP training. Whether or not you need a certification, learning about modern digital services delivery can benefit many agency leaders, including:
@@ -36,10 +42,6 @@ Focused in-person classroom sessions form the foundation for extended learning o
 #### Community-oriented learning
 
 CivicActions DITAP trainings are modeled on the same culture of open collaboration and learning that supports effective digital service delivery. Learners connect with peers in the acquisition community so they can benefit from shared knowledge and support.
-
-[Read more about recent efforts to improve federal acquisition](https://federalnewsnetwork.com/ask-the-cio/2019/04/usds-applying-its-own-lessons-learned-to-fix-federal-hiring-acquisition/)
-"This might be one of the most impactful things the USDS does over time."
-*- Eddie Hartwig, USDS Acting Deputy Director, on DITAP training*
 
 ### Courses
 
