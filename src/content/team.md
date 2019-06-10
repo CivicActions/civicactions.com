@@ -11,14 +11,14 @@ quotes:
     author: "Iris Ibekwe, Engineer"
 }
 - {
-    image: './team-members/images/jeff-maher.jpg',
-    text: "I enjoy digging into the challenges of improving communication and process within organizations doing good.",
-    author: "Jeff Maher, Engineer"
+    image: './team-members/images/ashish-kumar.jpg',
+    text: "Working from home allows you to spend more time at the end of the day with your family.",
+    author: "Ashish Kumar, Engineer"
 }
 - {
     image: './team-members/images/kim-davidson.jpg',
     text: "We constantly figure out how to do what needs to be done, so we automatically grow. Then we share our learnings with others.",
-    author: "Kim Davidson"
+    author: "Kim Davidson, Project Manager"
 }
 image_band:
 - './image-band/IMG_20170918_154333.jpg'
