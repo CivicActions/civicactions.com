@@ -32,7 +32,11 @@ const Careers = ({data}) => {
     return (
       <li key = { job.node.id } className = "teaser__item">
         <h4 className =  "teaser__title"><Link to={url}>{ job.node.title }</Link></h4>
-        <div className = "teaser__text">Location: { job.node.city}, { job.node.state }</div>
+        <div className = "teaser__text">Location: &nbsp;
+          {job.node.city ? job.node.city.trim() : null}
+          {job.node.city && job.node.state ? ", " : null}
+          {job.node.state}
+        </div>
         <div className = "teaser__text">Type: { job.node.type }</div>
       </li>
     )
