@@ -52,9 +52,9 @@ a.link-button.external-link {
 .usa-nav-primary {
   a.external-link {
     &:hover {
-      color: $color-primary;
       &:after {
-        content: url('./../files/icons/external-link-hover.svg');
+        content: url('./../files/icons/external-link.svg');
+        color: $white;
       }
     }
   }
