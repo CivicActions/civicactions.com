@@ -21,7 +21,7 @@ quotes:
     author: 'Stefanie Gray, Engineer'
   }
 openings_title: Openings
-openings_subtitle: "We actively seek to broaden the diversity of people on our team, and strongly encourage folks from underrepresented groups to apply. We give equal consideration to all qualified applicants."
+openings_subtitle: "We actively seek to broaden the diversity of our team, and strongly encourage folks from underrepresented groups to apply. We give equal consideration to all qualified applicants."
 benefits_title: What We Offer
 benefits:
   - {

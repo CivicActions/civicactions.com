@@ -41,7 +41,7 @@ Focused in-person classroom sessions form the foundation for extended learning o
 
 #### Community-oriented learning
 
-CivicActions DITAP trainings are modeled on the same culture of open collaboration and learning that supports effective digital service delivery. Learners connect with peers in the acquisition community so they can benefit from shared knowledge and support.
+CivicActions DITAP trainings are modeled on the same culture of open collaboration and learning that supports effective digital service delivery. Learners connect with peers in the acquisition community so they can benefit from shared knowledge and support. Unique to CivicActions, DITAP registrants receive a 12-month enrollment for ongoing participation in the DITAP alumni open learning community.
 
 ### Courses
 
@@ -57,27 +57,12 @@ The DITAP Foundation course is for learners seeking to lead change in digital se
 * Leading Change as a Digital IT Acquisition Professional
 
 **Registration now open**
-* Date:  Next course tentatively scheduled to begin January or February 2019
-* Duration: Approximately 5 months
+* Date:  Next course tentatively scheduled to begin Fall 2019
 * Schedule: Total of four 3-day classroom sessions scheduled approximately 4-6 weeks apart
 * Location:  Washington DC
-* Class size: 20-30 learners
-* Cost:  $6,000 per learner
-
-#### DITAP Advanced
-
-We are currently developing an optional course for advanced learners looking to deepen their expertise in digital services delivery and culture. Please pre-register to receive information on future training schedules.
-
-**Course Topics**
-* Digital Services Team Culture
-* Digital Services Community and Collaboration
-* FOSS Licensing and Legal Considerations
-* Advanced Techniques for Digital Services Delivery
-
-**Pre-registration available**
-* Curriculum currently in development
-* Date: First class tentatively scheduled to begin May 2019
-* Pre-register to express interest.
+* Class size: 25-30 learners
+* Community Participation: 12 months
+* Cost:  $7,500 per learner
 
 ### Register
 To enroll in DITAP courses, express interest in future offerings, or get more information, contact Tony Fortenberry, Director of Education Services at: <educationservices@civicactions.com>
