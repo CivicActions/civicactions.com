@@ -23,9 +23,9 @@ Astrophotography
   
 ---
 
-Ken brings a unique lens to understand the bigger picture.
+Ken sees technology through the lens of deep experience.
 
-He’s been working with technology systems since before there was an Internet, yet he remains on the cutting edge and in constant “learning mode”. Ken is an adept build-and-release engineer with a passion for using DevOps best practices to manage large-scale, complex systems. He’s done this for years in the private sector and now supports government projects to make a direct, positive impact on the lives of fellow humans.
+He’s been working with technology systems since before there was an Internet, and he remains on the cutting edge by staying in constant “learning mode”. Ken is an adept build-and-release engineer with a passion for using DevOps best practices to manage large-scale, complex systems. He’s done this for years in the private sector and now supports government projects to make a direct, positive impact on the lives of his fellow humans.
 
 Ken’s ability to synthesize information and manage the constant shifting of technical components stems from his meditative approach to life, which keeps him grounded and curious no matter what he’s working on. Offline, you might find Ken traveling cross-country (or globally) with his wife, star-gazing with his self-built telescope camera, or tinkering with his AI-powered robot named Bubo.
 
@@ -41,4 +41,6 @@ Ken’s ability to synthesize information and manage the constant shifting of te
 * Exploring ancient Egypt and [rubbing elbows](https://drive.google.com/file/d/14SeI-JZmT9PUbvoaWNc-adTj_PuShEQw/view?usp=sharing) with the Great Sphinx
 * Composing and playing [meditative music](https://www.youtube.com/watch?v=eB6rm6APZBE)
 * Adopting multiple homeless cats to give them [a fur-ever family](https://drive.google.com/file/d/1aiZMQAfDEkgdSoBlaBgnTjQ9ieRwu89w/view?usp=sharing)
+
+
 -------------------------------
