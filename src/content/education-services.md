@@ -3,8 +3,6 @@ path: /education-services
 type: page
 title: "Digital Information Technology Acquisitions Professional (DITAP) Training"
 subtitle: 'Transforming government services starts with procurement. We offer education services to support leaders for change in the Federal acquisition community.'
-cta_text: Download program details (pdf)
-cta_link: INTERNAL_DITAP_FILE
 ---
 
 ### Background
