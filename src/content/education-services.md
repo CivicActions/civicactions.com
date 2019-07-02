@@ -45,22 +45,31 @@ CivicActions DITAP trainings are modeled on the same culture of open collaborati
 
 #### DITAP Foundation
 
-The DITAP Foundation course is for learners seeking to lead change in digital service procurement. This course fulfills the requirements of the **FAC-C-DS Certification**. Graduates earn up to 80 CLP.
+The DITAP Foundation course is for learners seeking to lead change in digital service procurement. This course fulfills the requirements of the [FAC-C-DS Certification](https://techfarhub.cio.gov/assets/files/FAC_C_Digital_Services_5-18-18.pdf). Graduates earn up to 80 CLP.
 
 **Course Topics**
 * Digital Services in 21st Century Government
 * How to Understand What You Are Buying
 * Acquisition Techniques: How To Buy
-* Awarding & Administering Digital Service Contracts
+* Awarding and Administering Digital Service Contracts
 * Leading Change as a Digital IT Acquisition Professional
 
 **Registration now open**
-* Date:  Next course tentatively scheduled to begin Fall 2019
-* Schedule: Total of four 3-day classroom sessions scheduled approximately 4-6 weeks apart
-* Location:  Washington DC
-* Class size: 25-30 learners
-* Community Participation: 12 months
-* Cost:  $7,500 per learner
+*Course schedule*
+* August 2019 - Registration, pre-work, online study begins
+* October 2019 - Classroom sessions begin
+* February 2020 - Course completion
+
+*Cadence*
+* Classroom (4 sessions, 3 days each, approximately 4-6 week intervals)
+* Webinars (bi-weekly) and online learning (self-paced)
+
+*More details*
+* Course duration: approximately 5 months
+* Community support network participation: 12 months
+* Location: Washington, D.C.
+* Class size: 25-30
+* Cost: $7,500 per learner
 
 ### Register
 To enroll in DITAP courses, express interest in future offerings, or get more information, contact Tony Fortenberry, Director of Education Services at: <educationservices@civicactions.com>
