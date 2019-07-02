@@ -55,6 +55,7 @@ The DITAP Foundation course is for learners seeking to lead change in digital se
 * Leading Change as a Digital IT Acquisition Professional
 
 **Registration now open**
+
 *Course schedule*
 * August 2019 - Registration, pre-work, online study begins
 * October 2019 - Classroom sessions begin
