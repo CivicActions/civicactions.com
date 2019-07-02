@@ -1,5 +1,5 @@
 ---
-path: /team/andrew.bond
+path: /team/andrew-bond
 type: team
 published: 1
 name: Andrew Bond
