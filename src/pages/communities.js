@@ -1,5 +1,4 @@
 import React from "react"
-import _ from 'lodash'
 import { graphql } from "gatsby"
 import Img from "gatsby-image"
 
@@ -12,33 +11,24 @@ import MediumPostList from '../components/medium-components/mediumPostList'
 const Communities = ({ data }) => {
   const{ markdownRemark, allMediumPost } = data;
   const { frontmatter } = markdownRemark;
-  const { agl_button_text, agl_button_link, title, subtitle, agile_intro_text, dkan_title, dkan_button_text, dkan_button_link, dkan_intro_text,agl_logo, dkan_logo } = frontmatter;
+  const { agl_button_text,
+	  agl_button_link,
+	  dsc_intro_text,
+	  dsc_title,
+	  dsc_logo,
+	  dsc_button_text,
+	  dsc_button_link,
+	  title,
+	  subtitle,
+	  agile_intro_text,
+	  dkan_title,
+	  dkan_button_text,
+	  dkan_button_link,
+	  dkan_intro_text,
+	  agl_logo,
+	  dkan_logo } = frontmatter;
 
-  const { group } = allMediumPost;
-
-  // @todo Test if this will consistently return the AGL group of posts first.
-  // It may be better to filter with JS using specified homeCollection ID's.
-
-  let mediumAGL = _.first(group, (edges) => {
-    return edges
-  });
-
-  let AGLPosts = _.map(mediumAGL, (post, index) => {
-    return <MediumPostList posts = {{ post }} />
-  });
-
-  let aglLogo = agl_logo ? agl_logo.childImageSharp.resolutions: '';
-
-
-  let mediumDKAN = _.last(group, (edges) => {
-    return edges;
-  });
-
-  let DKANPosts = _.map(mediumDKAN, (post, index) => {
-    return <MediumPostList posts = {{ post }} />
-  });
-  let dkanLogo = dkan_logo ? dkan_logo.childImageSharp.resolutions: '';
-
+  const { group: medium } = allMediumPost;
 
   return(
     <GeneralLayout
@@ -48,7 +38,7 @@ const Communities = ({ data }) => {
       {/* The Recent AGL Posts from Medium Section.*/}
       <section className = "section section__recent-posts">
         <div className = "usa-grid community__wrapper">
-          <span className = "community__logo"><Img resolutions = { aglLogo } /></span>
+          <span className = "community__logo"><Img resolutions = { agl_logo ? agl_logo.childImageSharp.resolutions: '' } /></span>
           <SectionTitle
             title = "Agile Government Leadership"
             subtitle = { agile_intro_text }>
@@ -56,16 +46,35 @@ const Communities = ({ data }) => {
               to = { agl_button_link }
               children = { agl_button_text }
               className = 'link-button external-link'
-            />
+              />
           </SectionTitle>
-          { AGLPosts }
+	  <MediumPostList posts = { (medium[1]) ? medium[1] : null } />
         </div>
       </section>
 
-      {/* The Recent DKAN Posts from Medium Section.*/}
-      <section className = "section section__recent-posts right-flipped">
+
+     {/* The Recent DSC Posts from Medium Section.*/}
+      <section className = "section section__recent-posts right-flipped central">
         <div className = "usa-grid community__wrapper">
-          <span className = "community__logo dkan"><Img resolutions = { dkanLogo } /></span>
+          <span className = "community__logo dsc"><Img resolutions = {  dsc_logo ? dsc_logo.childImageSharp.resolutions : '' } /></span>
+          <SectionTitle
+            title = { dsc_title }
+            subtitle = { dsc_intro_text }>
+            <Link
+              to = { dsc_button_link }
+              children = { dsc_button_text }
+              className = 'link-button external-link'
+            />
+          </SectionTitle>
+	  <MediumPostList posts = { (medium[0]) ? medium[0] : null } />
+        </div>
+      </section>
+
+
+      {/* The Recent DKAN Posts from Medium Section.*/}
+      <section className = "section section__recent-posts">
+        <div className = "usa-grid community__wrapper">
+          <span className = "community__logo dkan"><Img resolutions = { dkan_logo ? dkan_logo.childImageSharp.resolutions: '' } /></span>
           <SectionTitle
             title = {dkan_title}
             subtitle = { dkan_intro_text }>
@@ -76,7 +85,7 @@ const Communities = ({ data }) => {
               className = 'link-button external-link'
             />
           </SectionTitle>
-          { DKANPosts }
+	  <MediumPostList posts = { (medium[2]) ? medium[2] : null } />
         </div>
       </section>
     </GeneralLayout>
@@ -101,6 +110,11 @@ export const communitiesQuery = graphql`
 
   markdownRemark(frontmatter: {title :{ eq: "Our Communities"}}) {
     frontmatter {
+      dsc_title
+      dsc_intro_text
+      dsc_button_text
+      dsc_button_link
+
       agl_button_text
       agl_button_link
       title
@@ -111,6 +125,13 @@ export const communitiesQuery = graphql`
       dkan_intro_text
       dkan_title
       agl_logo {
+        childImageSharp {
+          resolutions(width: 67, height: 67) {
+          ...GatsbyImageSharpResolutions_withWebp
+          }
+        }
+      }
+      dsc_logo {
         childImageSharp {
           resolutions(width: 67, height: 67) {
           ...GatsbyImageSharpResolutions_withWebp

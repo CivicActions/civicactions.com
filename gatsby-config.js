@@ -48,6 +48,12 @@ module.exports = {
         username: `agile-government-leadership`,
       },
     },
+    {
+      resolve: `gatsby-source-medium`,
+      options: {
+        username: `@DigitalServicesCoalition`,
+      },
+    },
     `gatsby-remark-copy-linked-files`,
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
