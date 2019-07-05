@@ -12,7 +12,7 @@ ENV PATH=/usr/src/app/node_modules/.bin/:${PATH}
 #
 FROM abiosoft/caddy:builder as builder
 
-ARG version="0.11.5"
+ARG version="1.0.1"
 ARG plugins="realip,expires,prometheus,cloudflare"
 
 RUN VERSION=${version} PLUGINS=${plugins} /bin/sh /usr/bin/builder.sh
