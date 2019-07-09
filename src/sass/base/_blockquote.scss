@@ -58,6 +58,7 @@ blockquote {
 }
 
 cite {
+  margin-top: $cite-margin;
   font-size: $base-font-size;
   font-style: normal;
   color: $color-secondary;
@@ -111,6 +112,7 @@ cite {
     }
   }
   cite {
+    margin-top: 0;
     @include span-columns(10);
     @include shift(2 of 12);
   }
