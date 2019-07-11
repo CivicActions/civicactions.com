@@ -1,9 +1,10 @@
 civicactions.com:443 {
 	# Production host.
 	import Caddyfile.defaults
-	tls ca-home@lists.civicactions.net {
-		dns cloudflare
-	}
+#	tls ca-home@lists.civicactions.net {
+#		dns cloudflare
+#	}
+	tls off
 	header / Strict-Transport-Security "max-age=31536000;"
 }
 civicactions.com:80 www.civicactions.com:80 www.civicactions.com:443 {
