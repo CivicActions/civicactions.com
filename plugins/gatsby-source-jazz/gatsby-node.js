@@ -11,11 +11,12 @@ const API_URI = process.env.GATSBY_JAZZ_URL;
 exports.sourceNodes = async({ actions }) => {
   const {createNode} = actions;
 
-  // Use a simple node if we don't have an API properly defined.
-  if (_.isNil(process.env.GATSBY_JAZZ_URL) ||
-      !_.includes(process.env.GATSBY_JAZZ_URL, "https://api.resumatorapi.com")
-     ) {
-    
+  // If we are in a development environment:
+  if (!_.isNil(process.env.NODE_ENV)
+      && process.env.NODE_ENV === 'development') {
+
+    console.log("Node environment: ", process.env.NODE_ENV);
+
     const fakeJob = {
       id: "123",
       title: "Test job",
@@ -39,9 +40,9 @@ exports.sourceNodes = async({ actions }) => {
       },
     };
     createNode(fakeJob);
-    
-    // We hace an API path defined:
-  } else {    
+
+
+  } else { // We are not in a development environment:
     const result = await axios.get(API_URI);
     let single = result.data;
 
