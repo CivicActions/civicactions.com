@@ -13,9 +13,13 @@ ENV PATH=/usr/src/app/node_modules/.bin/:${PATH}
 FROM abiosoft/caddy:builder as builder
 
 ARG version="1.0.1"
-ARG plugins="realip,expires,prometheus,cloudflare"
+ARG plugins="realip,expires,cloudflare"
+ARG enable_telemetry="true"
 
-RUN VERSION=${version} PLUGINS=${plugins} /bin/sh /usr/bin/builder.sh
+# process wrapper
+RUN go get -v github.com/abiosoft/parent
+
+RUN VERSION=${version} PLUGINS=${plugins} ENABLE_TELEMETRY=${enable_telemetry} /bin/sh /usr/bin/builder.sh
 
 #
 # Build site
@@ -61,6 +65,8 @@ RUN apk add --no-cache ca-certificates && update-ca-certificates
 
 # Install caddy from builder stage.
 COPY --from=builder /install/caddy /usr/bin/caddy
+# Install caddy process wrapper from builder stage.
+COPY --from=builder /go/bin/parent /bin/parent
 
 # Install default configuration files.
 COPY Caddyfile* /etc/
@@ -68,4 +74,4 @@ COPY Caddyfile* /etc/
 # Install application from appzz stage.
 COPY --from=appzz /srv /srv
 
-CMD ["caddy", "--conf", "/etc/Caddyfile", "--log", "stdout", "--agree=true"]
+CMD ["/bin/parent", "caddy", "--conf", "/etc/Caddyfile", "--log", "stdout", "--agree=true"]
