@@ -10,4 +10,7 @@ civicactions.com:80 www.civicactions.com:80 www.civicactions.com:443 {
 	# Redirect all other domains/ports to the canonical one.
 	redir https://civicactions.com{uri}
 	header / Strict-Transport-Security "max-age=31536000;"
+	tls ca-home@lists.civicactions.net {
+		dns cloudflare
+	}
 }
