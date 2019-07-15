@@ -14,7 +14,7 @@ FROM abiosoft/caddy:builder as builder
 
 ARG version="1.0.1"
 ARG plugins="realip,expires,cloudflare"
-ARG enable_telemetry="true"
+ARG enable_telemetry="false"
 
 # process wrapper
 RUN go get -v github.com/abiosoft/parent
