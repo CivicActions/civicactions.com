@@ -6,16 +6,11 @@ require("dotenv").config({
   path: `.env.${process.env.NODE_ENV}`,
 });
 
-const API_URI = process.env.GATSBY_JAZZ_URL;
-
 exports.sourceNodes = async({ actions }) => {
   const {createNode} = actions;
 
-  // If we are in a development environment:
-  if (!_.isNil(process.env.NODE_ENV)
-      && process.env.NODE_ENV === 'development') {
-
-    console.log("Node environment: ", process.env.NODE_ENV);
+  // If environment variable is set to 'development':
+  if (process.env.GATSBY_JAZZ_URL === 'development') {
 
     const fakeJob = {
       id: "123",
@@ -42,14 +37,15 @@ exports.sourceNodes = async({ actions }) => {
     createNode(fakeJob);
 
 
-  } else { // We are not in a development environment:
-    const result = await axios.get(API_URI);
+  } else { // Environment variable is not set to development:
+
+    const result = await axios.get(process.env.GATSBY_JAZZ_URL);
     let single = result.data;
 
-    // A *hacky* way to check for single results from the JazzHR API.
+    // A *hacky* way to check for single results from the JazzHR API.
     if(single.title === undefined) {
       for (const job of result.data) {
-	await createNode({
+        await createNode({
           children: [],
           id: job.id.toString(),
           title: job.title,
@@ -71,33 +67,32 @@ exports.sourceNodes = async({ actions }) => {
               .update(JSON.stringify(job))
               .digest(`hex`),
           },
-	});
+        });
       }
     } else {
       await createNode({
-	children: [],
-	id: single.id.toString(),
-	title: single.title,
-	country: single.country_id,
-	city: single.city,
-	state: single.state,
-	zip: single.zip,
-	department: single.department,
-	description: single.description,
-	open_date: single.original_open_date,
-	type: single.type,
-	status: single.status,
-	board_code: single.board_code,
-	parent: null,
-	internal: {
+        children: [],
+        id: single.id.toString(),
+        title: single.title,
+        country: single.country_id,
+        city: single.city,
+        state: single.state,
+        zip: single.zip,
+        department: single.department,
+        description: single.description,
+        open_date: single.original_open_date,
+        type: single.type,
+        status: single.status,
+        board_code: single.board_code,
+        parent: null,
+        internal: {
           type: 'Job',
           contentDigest: crypto
             .createHash(`md5`)
             .update(JSON.stringify(single))
             .digest(`hex`),
-	},
+        },
       });
     }
   }
-
 };
