@@ -40,10 +40,9 @@ Amanda studied Adult Learning and Social Justice at Metropolitan State Universit
 
 
 ### Things Amanda has been doing
-* Guiding content strategy for the [Department of Justice](https://www.justice.gov/)
+* Helping [Doctors Without Borders](https://civicactions.com/case-study/msf) develop a process to involve users in the design process
+* Improving knowledge sharing among adult educators and state directors with the [US Department of Education](https://lincs.ed.gov/)
 * Helping agencies embrace design thinking at the [U.S. Digital Service](https://www.usds.gov/)
-* Applying service design principles to the [U.S. Immigration and Naturalization experience](https://my.uscis.gov/)
-* Helping veterans access benefits by Improving the [VA’s claim appeals process](https://benefits.va.gov/benefits/appeals.asp)
 * [Receiving awards](http://dcfemtech.com/awards-2018-media) for outstanding design leadership
 * Sharing the power of civic technology with [Lesbians Who Tech](https://lesbianswhotech.org/speakers/amanda-miklik/)
 * Creating [an interactive game](https://youfeellikeshit.com/) that helps people practice self-care
