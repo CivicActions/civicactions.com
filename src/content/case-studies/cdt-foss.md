@@ -73,8 +73,11 @@ By embracing FOSS at the state level, CDT makes it easier for California countie
 
 ### Explore
 
-##### Discover helpful resources
-[Resources for managing open source projects](https://opentechstrategies.com/#resources)
+##### Helpful resources
+[Managing open source projects](https://opentechstrategies.com/#resources)
+
+##### Training deck
+[FOSS Community Development](https://docs.google.com/presentation/d/1OtaYLr-cEnEGSb2iq9RmQAIbWxuPXMYKs51be4IDb4o/edit?usp=sharing)
  
 <figure>
   <div> 
