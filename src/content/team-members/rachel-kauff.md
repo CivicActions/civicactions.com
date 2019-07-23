@@ -35,11 +35,12 @@ Rachel has an M.F.A. in printmaking and sculpture from University of Iowa. She l
 
 
 ### Things Rachel has been doing
+* Working with the [VA](https://www.va.gov/) to create useful content for Veterans 
+* Serving on a team that promotes diversity, equity, and inclusion at CivicActions
 * Helping the [CivicActions team](https://civicactions.com/team/) shine
 * Telling the stories of CivicActions’ [partnerships and successes](https://civicactions.com/case-study/)
-* [Crafting winning applications](http://rachelkauff.net/) for individual artists and small nonprofits
 * Inventing [new surrealist objects](http://platteforum.org/dt_catalog/rachel-kauff/) with a team of high school art interns
 * [Writing](http://the-rib.net/project/dearest-future-a-love-note-for-iowa-citys-public-space-one) about how regional art communities are reimagining the future
-* Humbly serving as staffer for [her cat](https://www.instagram.com/toad.kauff.harris/)
+* Humbly serving as staffer for [her cat](https://www.instagram.com/toad_de_ching/)
 
 ----------------------------
