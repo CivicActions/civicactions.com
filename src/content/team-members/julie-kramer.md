@@ -33,8 +33,7 @@ Julie loves working for the good of her community.
 
 Her initial passion for open data grew out of years of volunteer work and leadership in her local civic tech projects. Now she’s thrilled to merge her community work and professional interests as an engineer on our open data team, helping build and maintain the [DKAN open data platform](https://getdkan.org/). A practical-minded and careful listener, Julie’s positivity and dedication help her team stay focused on their goals.
 
-Julie has a B.S. in advertising and creative writing from Florida State University. When she’s not working on making her Miami community — and the world — a better place to live, she loves
-immersing herself in new travel destinations by reading local literature. She’s also into tennis, bike riding, scuba diving, and the outdoors — and brings her dog Little Jerry everywhere she goes.
+Julie has a B.S. in advertising and creative writing from Florida State University. When she’s not working on making her Miami community — and the world — a better place to live, she loves immersing herself in new travel destinations by reading local literature. She’s also into tennis, bike riding, scuba diving, and the outdoors — and brings her dog Little Jerry everywhere she goes.
 
 
 
