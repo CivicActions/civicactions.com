@@ -45,4 +45,7 @@ Julie has a B.S. in advertising and creative writing from Florida State Universi
 * Advocating for [women’s interests and quality of life in her county](https://www8.miamidade.gov/global/government/boards/commission-for-women.page)
 * Founding the [Femme Book Club](https://www.instagram.com/femmebookclub/) in Miami to read and discuss literature written by women
 
+
+
+
 ----------------------------
