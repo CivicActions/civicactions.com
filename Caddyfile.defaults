@@ -1,13 +1,19 @@
 # This is a snippet that is applied to each vhost.
 # Config in here should be applicable to all environments.
 # https://caddyserver.com/docs/caddyfile#snippets
-expires {
-	match .html$ 1i # expires jpg files after one minute
-	match .* 1y # expire all other files after one year (file names are content based)
-}
 errors {
 	* 404.html # Use the 404 page for all errors for now
 }
-mime {
-	.json application/json
+# Per https://www.gatsbyjs.org/docs/caching/
+header / {
+  Cache-Control "public, max-age=0, must-revalidate"
+}
+header /static {
+  Cache-Control "public, max-age=31536000, immutable"
+}
+# The below is not exactly optimal, but caddy can't do headers per-file-ext currently.
+expires {
+    match .css$ 1y # expires in 1 year
+    match .js$ 1y # expires in 1 year
+    match sw.js$ 1i # expires in 1 second
 }
