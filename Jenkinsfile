@@ -32,6 +32,10 @@ pipeline {
             when { branch 'master' }
             steps {
                 script {
+                    // Extract public directory from a previously built image if it exists.
+                    // This improves build times and also means that previous assets are normally around to avoid a 404
+                    // when the HTML request goes to an new release pod and an asset goes to an old release pod (or vice-versa).
+                    sh 'id=$(docker create civicactions-internal-it/home:latest 2> /dev/null); if [ "${id}" != "" ]; then docker cp $id:/srv public; docker rm ${id}; echo "Cache updated"; fi'
                     // Add a timestamp file to ensure we rebuild the site content
                     sh "date > .build-timestamp"
                     docker.withRegistry('https://gcr.io', 'internal-it-k8s-gcr') {
