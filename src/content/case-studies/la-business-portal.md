@@ -25,7 +25,7 @@ images:
   }
   - {
   url: 'la-business-2.jpg', 
-  caption: '“Startup in a Day” guide helps users easily open a business.', 
+  caption: '“Startup in a Day” guide helps small business entrepreneurs achieve their dreams.', 
   alt: 'LA Business Portal Startup in a Day wizard on mobile'
   }
 
