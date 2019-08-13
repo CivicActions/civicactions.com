@@ -68,7 +68,7 @@ The L.A. Business Portal will provide an open-source model for communities acros
 
 ### Explore
 ##### See our work
-[City of Los Angeles Business Portal](http://www.business.lacity.org/)  
+[City of Los Angeles Business Portal](http://business.lacity.org/)  
 
 ##### Check out the open-source repository
 [GitHub: Startup in a Day: Los Angeles, CA](https://github.com/StartupInADay/Los-Angeles-California)
