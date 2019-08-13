@@ -6,7 +6,7 @@ client_name: "City of Los Angeles"
 preview_image: la-business-preview.jpg
 promoted_to_front_page: no
 project: "LA Business Portal"
-website: "https://www.business.lacity.org/"
+website: "https://business.lacity.org/"
 background_section_title: "Too much red tape for aspiring entrepreneurs"
 background_section: "Launching a new small business in Los Angeles can be intimidating. There are numerous — sometimes complex — requirements for registering, but also many helpful resources available. The City of Los Angeles wanted to support small business growth by streamlining assistance, resources, and guidance in a one-stop portal." 
 
