@@ -29,11 +29,6 @@ images:
   alt: 'Redesigned GlobalNET website'
   }
   - {
-  url: 'GlobalNET_2.jpg', 
-  caption: 'CivicActions with the GlobalNET team in Garmisch, Germany', 
-  alt: 'CivicActions and client team in Germany'
-  }
-  - {
   url: 'GlobalNET_3.jpg', 
   caption: 'We created structures to help GlobalNET organizations and groups manage their own content.', 
   alt: 'GlobalNET structure model'
