@@ -54,6 +54,9 @@ module.exports = {
     {
       resolve: `gatsby-remark-images`,
       options: {
+        useMozJpeg: true,
+        stripMetadata: true,
+        defaultQuality: 75,
         maxWidth: 1028,
         wrapperStyle: "position: relative;"
       },

@@ -42,7 +42,7 @@ RUN apk add gzip brotli --no-cache
 COPY --from=app /usr/src/app/public /srv
 RUN find /srv -type f -a \( -name '*.html' -o -name '*.css' -o -name '*.js' \
     -o -name '*.json' -o -name '*.xml' -o -name '*.svg' -o -name '*.txt' \) \
-    -exec brotli --best {} \+ -exec gzip --best -k {} \+
+    -exec brotli -f --best {} \+ -exec gzip -f --best -k {} \+
 
 #
 # Lossless image compression
