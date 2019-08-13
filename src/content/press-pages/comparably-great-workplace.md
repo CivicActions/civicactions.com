@@ -9,4 +9,4 @@ publication: "Comparably"
 
 ---
 
-We’re honored to be included among nine bay area tech companies that foster a positive workplace culture, based on surveys completed by our own team members on [Comparably](https://www.comparably.com/).
+We’re honored to be included among nine Bay Area tech companies that foster a positive workplace culture, based on surveys completed by our own team members on [Comparably](https://www.comparably.com/).
