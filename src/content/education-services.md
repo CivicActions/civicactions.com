@@ -73,4 +73,4 @@ The DITAP Foundation course is for learners seeking to lead change in digital se
 * Cost: $7,500 per learner
 
 ### Register
-To enroll in DITAP courses, express interest in future offerings, or get more information, contact Tony Fortenberry, Director of Education Services at: <educationservices@civicactions.com>
+Contact us to enroll in DITAP courses, express interest in future offerings, or get more information: <educationservices@civicactions.com>
