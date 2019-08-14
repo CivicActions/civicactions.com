@@ -1,4 +1,4 @@
-civicactions.com:443 {
+https://civicactions.com:443 {
 	# Production host.
 	import Caddyfile.defaults
 	tls ca-home@lists.civicactions.net {
@@ -6,7 +6,7 @@ civicactions.com:443 {
 	}
 	header / Strict-Transport-Security "max-age=31536000;"
 }
-civicactions.com:80 www.civicactions.com:80 www.civicactions.com:443 {
+http://civicactions.com:80 http://www.civicactions.com:80 https://www.civicactions.com:443 {
 	# Redirect all other domains/ports to the canonical one.
 	redir https://civicactions.com{uri}
 	header / Strict-Transport-Security "max-age=31536000;"
