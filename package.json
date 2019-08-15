@@ -32,7 +32,9 @@
     "sass-rem": "^2.0.1",
     "typeface-lato": "0.0.54",
     "typeface-ubuntu": "0.0.54",
-    "uswds": "^1.6.6"
+    "uswds": "^1.6.6",
+    "webpack": "^4",
+    "webpack-dev-server": "^3"
   },
   "keywords": [
     "gatsby"
