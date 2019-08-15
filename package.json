@@ -74,7 +74,7 @@
     "@babel/preset-env": "^7.0.0",
     "@babel/preset-react": "^7.0.0",
     "babel-core": "^7.0.0-0",
-    "babel-jest": "^23.4.2",
+    "babel-jest": "^24",
     "identity-obj-proxy": "^3.0.0",
     "jest": "^24",
     "prettier": "^1.12.0",
