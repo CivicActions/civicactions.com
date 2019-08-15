@@ -2,10 +2,6 @@ const axios = require('axios');
 const crypto = require('crypto');
 const _ = require(`lodash`);
 
-require("dotenv").config({
-  path: `.env.${process.env.NODE_ENV}`,
-});
-
 exports.sourceNodes = async({ actions }) => {
   const {createNode} = actions;
 
@@ -24,7 +20,7 @@ exports.sourceNodes = async({ actions }) => {
       open_date: "Open date",
       type: "Job type",
       status: "Job status",
-      board_code: "Borad code",
+      board_code: "Board code",
       parent: null,
       internal: {
         type: 'Job',
