@@ -17,14 +17,13 @@ pipeline {
             when { changeRequest() }
             steps {
                 script {
-                    // Remove existing container if it is running.
-                    sh "docker rm -f \"home-${env.CHANGE_ID}\" || true"
-                }
-                script {
                     // Extract public directory from a previously built image if it exists. This improves build times.
                     sh 'id=$(docker create civicactions-internal-it/home:latest 2> /dev/null || true); if [ "${id}" != "" ]; then docker cp $id:/srv public; docker rm ${id}; echo "Cache updated"; fi'
-                    // Build new image and start container with the right hostname.
+                    // Build new image.
                     sh "docker build -t \"civicactions-internal-it/home:${env.CHANGE_ID}\" --build-arg \"GATSBY_JAZZ_URL=${GATSBY_JAZZ_URL}\" --pull ."
+                    // Remove existing container if it is running.
+                    sh "docker rm -f \"home-${env.CHANGE_ID}\" || true"
+                    // Start container with the right hostname.
                     sh "docker run --detach --rm --name=\"home-${env.CHANGE_ID}\" \"civicactions-internal-it/home:${env.CHANGE_ID}\""
                     slackSend channel: 'marketing-home', message: "PR Review environment ready at http://home-${env.CHANGE_ID}.ci.civicactions.net/"
                 }
