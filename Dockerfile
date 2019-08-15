@@ -30,6 +30,7 @@ ARG GATSBY_JAZZ_URL
 COPY package.json yarn.lock ./
 RUN yarn install --pure-lockfile
 COPY . .
+RUN yarn lint
 RUN yarn build
 RUN yarn test
 
@@ -41,8 +42,8 @@ FROM alpine:edge as appz
 RUN apk add gzip brotli --no-cache
 COPY --from=app /usr/src/app/public /srv
 RUN find /srv -type f -a \( -name '*.html' -o -name '*.css' -o -name '*.js' \
-    -o -name '*.json' -o -name '*.xml' -o -name '*.svg' -o -name '*.txt' \) \
-    -exec brotli -f --best {} \+ -exec gzip -f --best -k {} \+
+  -o -name '*.json' -o -name '*.xml' -o -name '*.svg' -o -name '*.txt' \) \
+  -exec brotli -f --best {} \+ -exec gzip -f --best -k {} \+
 
 #
 # Lossless image compression

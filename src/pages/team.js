@@ -79,11 +79,10 @@ export const t = graphql`
               }
             }
           }
+          text
         }
-        text
       }
     }
-  }
     allMarkdownRemark(
       filter: { frontmatter: { type: { eq: "team" } } }
       sort: { fields: [frontmatter___manager, frontmatter___name], order: ASC }

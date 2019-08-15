@@ -1,4 +1,4 @@
-const config = require("./data/SiteConfig");
+const config = require('./data/SiteConfig')
 
 module.exports = {
   siteMetadata: {
@@ -7,9 +7,9 @@ module.exports = {
     phone: '(510) 408-7510',
     address: '3527 Mt Diablo Blvd,',
     address_line_2: 'Unit 269,',
-    city: 'Lafayette, CA 94549'
+    city: 'Lafayette, CA 94549',
   },
-  pathPrefix: "/civicactions.com",
+  pathPrefix: '/civicactions.com',
   plugins: [
     'gatsby-plugin-react-helmet',
     `gatsby-plugin-sass`,
@@ -20,14 +20,14 @@ module.exports = {
       options: {
         path: `${__dirname}/src/content`,
         name: 'case-studies',
-      }
+      },
     },
     {
       resolve: `gatsby-source-filesystem`,
       options: {
         path: `${__dirname}/src/files/client-logos`,
         name: 'client-logos',
-      }
+      },
     },
     `gatsby-transformer-remark`,
     {
@@ -50,22 +50,26 @@ module.exports = {
     },
     `gatsby-remark-copy-linked-files`,
     `gatsby-transformer-sharp`,
-    `gatsby-plugin-sharp`,
     {
-      resolve: `gatsby-remark-images`,
+      resolve: `gatsby-plugin-sharp`,
       options: {
         useMozJpeg: true,
         stripMetadata: true,
         defaultQuality: 75,
+      },
+    },
+    {
+      resolve: `gatsby-remark-images`,
+      options: {
         maxWidth: 1028,
-        wrapperStyle: "position: relative;"
+        wrapperStyle: 'position: relative;',
       },
     },
     {
       resolve: `gatsby-transformer-remark`,
       options: {
-        plugins: ["gatsby-remark-copy-linked-files"],
+        plugins: ['gatsby-remark-copy-linked-files'],
       },
-    }
+    },
   ],
-};
+}
