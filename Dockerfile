@@ -1,7 +1,7 @@
 #
 # Node environment (used for sandboxes also)
 #
-FROM node:8.11 as env
+FROM node:8.16 as env
 WORKDIR /usr/src/app
 ENV PATH=/usr/src/app/node_modules/.bin/:${PATH}
 
