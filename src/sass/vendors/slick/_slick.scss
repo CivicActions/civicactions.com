@@ -18,8 +18,8 @@ $outline: 0 1px 6px 3px $color-primary-alt-lightest;
 }
 .slick-list {
   position: relative;
-  overflow: hidden;
   display: block;
+  overflow: hidden;
   margin: 0;
   padding: 0;
 
@@ -43,16 +43,16 @@ $outline: 0 1px 6px 3px $color-primary-alt-lightest;
 
 .slick-track {
   position: relative;
-  left: 0;
   top: 0;
+  left: 0;
   display: block;
-  margin-left: auto;
   margin-right: auto;
+  margin-left: auto;
 
   &:before,
   &:after {
-    content: "";
     display: table;
+    content: "";
   }
 
   &:after {
@@ -64,6 +64,7 @@ $outline: 0 1px 6px 3px $color-primary-alt-lightest;
   }
 }
 .slick-slide {
+  display: none;
   float: left;
   height: 100%;
   min-height: 1px;
@@ -76,8 +77,6 @@ $outline: 0 1px 6px 3px $color-primary-alt-lightest;
   &.slick-loading img {
     display: none;
   }
-
-  display: none;
 
   &.dragging img {
     pointer-events: none;
@@ -107,29 +106,29 @@ $outline: 0 1px 6px 3px $color-primary-alt-lightest;
   text-align: center;
 
   li {
-    list-style: none;
     display: inline-block;
+    list-style: none;
 
     &.slick-active {
-       button {
-         background: transparent;
-         border: 2px solid $teal;
-       }
+      button {
+        border: 2px solid $teal;
+        background: transparent;
+      }
     }
   }
 
   button {
-    box-shadow: unset;
+    width: 15px;
+    height: 15px;
+    margin: 15px;
     padding: 3px;
     color: transparent;
     border-radius: 50%;
-    height: 15px;
-    width: 15px;
-    margin: 15px;
+    box-shadow: unset;
 
     &:hover {
-      box-shadow: unset;
       color: transparent;
+      box-shadow: unset;
     }
 
     &:focus {

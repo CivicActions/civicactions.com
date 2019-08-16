@@ -1,7 +1,7 @@
-import React, { Component } from 'react'
-import Slider from 'react-slick'
+import React, { Component } from "react"
+import Slider from "react-slick"
 
-import Blockquote from './../atoms/Blockquote'
+import Blockquote from "./../atoms/Blockquote"
 
 class GlobalQuoteSlider extends Component {
   render() {
@@ -25,9 +25,9 @@ class GlobalQuoteSlider extends Component {
 
     const { quotes } = this.props
 
-    let quoteItems = quotes.map((item, index) => {
-      let { author, text, image } = item
-      let quoteImage = image ? image.childImageSharp.fixed.src : null
+    const quoteItems = quotes.map((item, index) => {
+      const { author, text, image } = item
+      const quoteImage = image ? image.childImageSharp.fixed.src : null
 
       return (
         <Blockquote

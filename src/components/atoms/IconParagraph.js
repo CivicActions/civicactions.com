@@ -1,5 +1,5 @@
-import React from 'react'
-import PropTypes from 'prop-types'
+import React from "react"
+import PropTypes from "prop-types"
 
 const IconParagraph = ({
   icon,
@@ -9,7 +9,7 @@ const IconParagraph = ({
   icon_text2,
   icon_text3,
 }) => {
-  let iconClass = `iconparagraph__wrapper ${icon_class}`
+  const iconClass = `iconparagraph__wrapper ${icon_class}`
   let image
 
   if (icon) {
@@ -25,12 +25,13 @@ const IconParagraph = ({
       {image}
       <p className="iconparagraph__heading"> {icon_heading} </p>
       <p className="iconparagraph__text">
-        {' '}
+        {` `}
         {icon_text}
         <br />
         {icon_text2}
         <br />
-        {icon_text3}{' '}
+        {icon_text3}
+        {` `}
       </p>
     </div>
   )

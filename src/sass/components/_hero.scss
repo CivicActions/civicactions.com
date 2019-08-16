@@ -1,7 +1,7 @@
 .hero {
+  margin-bottom: $section-margin * 2;
   color: $white;
   font-size: $lead-font-size;
-  margin-bottom: $section-margin * 2;
 
   &.case-study-hero {
     margin-bottom: 0;
@@ -43,7 +43,6 @@
     }
 
     @include media($medium-large-screen) {
-
       .hero__text,
       .hero__image--wrapper {
         display: inline-block;
@@ -52,8 +51,8 @@
         img {
           position: absolute;
           top: 0;
-          max-width: 787px;
           width: 100vw;
+          max-width: 787px;
           height: auto;
         }
       }
@@ -67,13 +66,12 @@
         padding-left: $gutter;
 
         .gatsby-image-wrapper {
-          width: 100vw;
           position: relative;
+          width: 100vw;
           max-width: 760px;
         }
       }
     }
-
 
     @include media($large-screen) {
       .hero__image--wrapper {

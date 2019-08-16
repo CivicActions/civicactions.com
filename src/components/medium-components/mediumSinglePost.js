@@ -1,11 +1,11 @@
-import React from 'react'
-import Teaser from '../Teaser'
+import React from "react"
+import Teaser from "../Teaser"
 
-//This displays a single medium teaser
+// This displays a single medium teaser
 export default function MediumSinglePost({ single }) {
-  let mediumLink = `https://medium.com/civicactions/${single.uniqueSlug}`
-  let mediumDate = single.createdAt
-  let mediumTitle = single.title
+  const mediumLink = `https://medium.com/civicactions/${single.uniqueSlug}`
+  const mediumDate = single.createdAt
+  const mediumTitle = single.title
 
   return (
     <Teaser

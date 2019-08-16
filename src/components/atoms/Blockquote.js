@@ -1,10 +1,10 @@
-import React from 'react'
-import PropTypes from 'prop-types'
+import React from "react"
+import PropTypes from "prop-types"
 
-import blockquote_bg from './../../files/icons/leftquote.svg'
+import blockquote_bg from "./../../files/icons/leftquote.svg"
 
 const Blockquote = ({ quote, quote_source, quote_class, quote_image }) => {
-  let quoteClass = `blockquote__wrapper ${quote_class}`
+  const quoteClass = `blockquote__wrapper ${quote_class}`
   let image
 
   if (quote_image) {

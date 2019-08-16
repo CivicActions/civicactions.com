@@ -1,10 +1,10 @@
-import React from 'react'
-import { graphql } from 'gatsby'
+import React from "react"
+import { graphql } from "gatsby"
 
-import GeneralLayout from './../components/layouts/GeneralLayout'
-import GlobalQuoteSlider from './../components/organisms/GlobalQuoteSlider'
-import SectionTitle from './../components/atoms/SectionTitle'
-import FourColGrid from './../components/organisms/FourColGrid'
+import GeneralLayout from "./../components/layouts/GeneralLayout"
+import GlobalQuoteSlider from "./../components/organisms/GlobalQuoteSlider"
+import SectionTitle from "./../components/atoms/SectionTitle"
+import FourColGrid from "./../components/organisms/FourColGrid"
 
 const Values = ({ data }) => {
   const { markdownRemark } = data

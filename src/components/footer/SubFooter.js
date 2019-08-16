@@ -1,9 +1,9 @@
-import React from 'react'
+import React from "react"
 
-import SubFooterCta from './SubFooterCta'
+import SubFooterCta from "./SubFooterCta"
 
 const SubFooter = ({ hide }) => {
-  let hideClass = hide === true ? 'hidden' : 'visible'
+  const hideClass = hide === true ? `hidden` : `visible`
   return (
     <div className={`section__subfooter--wrapper ${hideClass}`}>
       <section className="section__subfooter subfooter usa-grid">

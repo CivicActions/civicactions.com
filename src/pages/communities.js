@@ -1,12 +1,12 @@
-import React from 'react'
-import _ from 'lodash'
-import { graphql } from 'gatsby'
-import Img from 'gatsby-image'
+import React from "react"
+import _ from "lodash"
+import { graphql } from "gatsby"
+import Img from "gatsby-image"
 
-import SectionTitle from '../components/atoms/SectionTitle'
-import Link from './../components/scripts/Link'
-import GeneralLayout from './../components/layouts/GeneralLayout'
-import MediumPostList from '../components/medium-components/mediumPostList'
+import SectionTitle from "../components/atoms/SectionTitle"
+import Link from "./../components/scripts/Link"
+import GeneralLayout from "./../components/layouts/GeneralLayout"
+import MediumPostList from "../components/medium-components/mediumPostList"
 
 const Communities = ({ data }) => {
   const { markdownRemark, allMediumPost } = data
@@ -30,24 +30,20 @@ const Communities = ({ data }) => {
   // @todo Test if this will consistently return the AGL group of posts first.
   // It may be better to filter with JS using specified homeCollection ID's.
 
-  let mediumAGL = _.first(group, edges => {
-    return edges
-  })
+  const mediumAGL = _.first(group, edges => edges)
 
-  let AGLPosts = _.map(mediumAGL, (post, index) => {
-    return <MediumPostList posts={{ post }} />
-  })
+  const AGLPosts = _.map(mediumAGL, (post, index) => (
+    <MediumPostList posts={{ post }} />
+  ))
 
-  let aglLogo = agl_logo ? agl_logo.childImageSharp.resolutions : ''
+  const aglLogo = agl_logo ? agl_logo.childImageSharp.resolutions : ``
 
-  let mediumDKAN = _.last(group, edges => {
-    return edges
-  })
+  const mediumDKAN = _.last(group, edges => edges)
 
-  let DKANPosts = _.map(mediumDKAN, (post, index) => {
-    return <MediumPostList posts={{ post }} />
-  })
-  let dkanLogo = dkan_logo ? dkan_logo.childImageSharp.resolutions : ''
+  const DKANPosts = _.map(mediumDKAN, (post, index) => (
+    <MediumPostList posts={{ post }} />
+  ))
+  const dkanLogo = dkan_logo ? dkan_logo.childImageSharp.resolutions : ``
 
   return (
     <GeneralLayout heroTitle={title} heroSubtitle={subtitle}>

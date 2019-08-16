@@ -1,5 +1,5 @@
-import React from 'react'
-import Link from './../components/scripts/Link'
+import React from "react"
+import Link from "./../components/scripts/Link"
 
 const Teaser = ({
   teaserDate,
@@ -10,8 +10,8 @@ const Teaser = ({
   teaserClass,
   teaserType,
 }) => {
-  let teaser_class = 'teaser'
-  let image_wrapper = ''
+  let teaser_class = `teaser`
+  let image_wrapper = ``
   let teaser_text
 
   if (teaserClass) {
@@ -35,7 +35,7 @@ const Teaser = ({
       {image_wrapper}
       <div className="teaser__date"> {teaserDate} </div>
       <h3 className="teaser__title">
-        {' '}
+        {` `}
         <Link to={teaserLink}>{teaserTitle}</Link>
       </h3>
       {teaser_text}

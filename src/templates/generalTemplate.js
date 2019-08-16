@@ -1,9 +1,9 @@
 // Template for displaying general pages
 
-import React from 'react'
-import { graphql } from 'gatsby'
+import React from "react"
+import { graphql } from "gatsby"
 
-import GeneralLayout from './../components/layouts/GeneralLayout'
+import GeneralLayout from "./../components/layouts/GeneralLayout"
 
 export default function Template({ data }) {
   const { markdownRemark } = data

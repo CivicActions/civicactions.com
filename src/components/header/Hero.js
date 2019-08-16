@@ -1,9 +1,9 @@
-import React from 'react'
-import PropTypes from 'prop-types'
-import Img from 'gatsby-image'
+import React from "react"
+import PropTypes from "prop-types"
+import Img from "gatsby-image"
 
-import ditapFile from './../../content/docs/CivicActions-DITAP.pdf'
-import Link from './../scripts/Link'
+import ditapFile from "./../../content/docs/CivicActions-DITAP.pdf"
+import Link from "./../scripts/Link"
 
 const Hero = ({
   client_name,
@@ -23,7 +23,7 @@ const Hero = ({
       <Img fluid={image.childImageSharp.fluid} alt={`Image of ${title}`} />
     </div>
   ) : (
-    ''
+    ``
   )
 
   // Load the CTA link from an imported file when we need to load
@@ -31,7 +31,7 @@ const Hero = ({
   // gatsby-remark-copy-linked-files would have used.
   // Otherwise use the ctaLink argument.
   function getCtaLink(ctaLink) {
-    if (ctaLink === 'INTERNAL_DITAP_FILE') {
+    if (ctaLink === `INTERNAL_DITAP_FILE`) {
       return ditapFile
     }
     return ctaLink
@@ -50,7 +50,7 @@ const Hero = ({
   const memberLocation = location ? (
     <div className="hero__location">{location} </div>
   ) : (
-    ''
+    ``
   )
   const memberPersonalPronouns = personal_pronouns ? (
     <div className="hero__personal_pronouns">{personal_pronouns} </div>
@@ -59,26 +59,25 @@ const Hero = ({
   let memberSocial
 
   if (social) {
-    socialLinks = social.map((link, index) => {
-      return (
-        <a className="hero__social--link" key={index} href={link.url}>
-          {' '}
-          {link.name}{' '}
-        </a>
-      )
-    })
+    socialLinks = social.map((link, index) => (
+      <a className="hero__social--link" key={index} href={link.url}>
+        {` `}
+        {link.name}
+        {` `}
+      </a>
+    ))
     memberSocial = <div className="hero__social">{socialLinks} </div>
   }
 
   return (
-    <section className={'hero usa-grid ' + hero_class}>
+    <section className={`hero usa-grid ` + hero_class}>
       {team_image}
       <div className="hero__text">
         <div className="hero__client-name">{client_name}</div>
         <h1
           className={
-            'hero__title' +
-            (memberPersonalPronouns ? ' no-space-underneath' : '')
+            `hero__title` +
+            (memberPersonalPronouns ? ` no-space-underneath` : ``)
           }
         >
           {title}

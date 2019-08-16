@@ -3,10 +3,10 @@
     display: flex;
     flex-direction: row;
     > div {
-      padding: 0 15px;
-      flex-grow: 1;
       flex-basis: 0;
-     }
+      flex-grow: 1;
+      padding: 0 15px;
+    }
     > div:first-child {
       padding-left: 0;
     }

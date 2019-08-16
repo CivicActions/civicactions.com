@@ -1,4 +1,3 @@
-
 // These variables drive almost every aspect of the U.S. Web Design
 // system. Every variable is declared as !default so that it can be
 // overridden by a previous import.
@@ -18,28 +17,28 @@
 $rem-baseline: 10px;
 $line-height: rem(15px);
 
-$em-base:             16px;
-$base-font-size:      rem(17px) !default;
-$small-font-size:     rem(15px) !default;
-$lead-font-size:      rem(22px) !default;
-$title-font-size:     5.2rem !default;
-$stats-font-size:     rem(75px) !default;
-$h1-font-size:        rem(48px) !default;
-$h2-font-size:        rem(44px) !default;
-$h3-font-size:        rem(30px) !default;
-$h4-font-size:        rem(24px) !default;
-$h5-font-size:        $base-font-size !default;
-$h6-font-size:        rem(13px) !default;
-$base-line-height:    strip-unit($line-height) !default;
+$em-base: 16px;
+$base-font-size: rem(17px) !default;
+$small-font-size: rem(15px) !default;
+$lead-font-size: rem(22px) !default;
+$title-font-size: 5.2rem !default;
+$stats-font-size: rem(75px) !default;
+$h1-font-size: rem(48px) !default;
+$h2-font-size: rem(44px) !default;
+$h3-font-size: rem(30px) !default;
+$h4-font-size: rem(24px) !default;
+$h5-font-size: $base-font-size !default;
+$h6-font-size: rem(13px) !default;
+$base-line-height: strip-unit($line-height) !default;
 $heading-line-height: 1.3 !default;
-$lead-line-height:    1.7 !default;
+$lead-line-height: 1.7 !default;
 
-$font-sans:           'Lato', Helvetica !default; // used in Headings
-$font-serif:          'Ubuntu', Georgia !default; // used in Body text
+$font-sans: "Lato", Helvetica !default; // used in Headings
+$font-serif: "Ubuntu", Georgia !default; // used in Body text
 
 // TODO these should be called font-weight-${}
-$font-normal:         400 !default;
-$font-bold:           700 !default;
+$font-normal: 400 !default;
+$font-bold: 700 !default;
 
 // Color
 $red: #db1b3b;
@@ -53,37 +52,36 @@ $white: #fff;
 $black: #000;
 
 // Functional colors
-$color-primary:              $teal !default;
-$color-primary-darker:       darken($color-primary, 5%);
-$color-primary-darkest:      darken($color-primary, 10%) !default;
-$color-primary-extralight:   lighten($color-primary, 65%) !default;
+$color-primary: $teal !default;
+$color-primary-darker: darken($color-primary, 5%);
+$color-primary-darkest: darken($color-primary, 10%) !default;
+$color-primary-extralight: lighten($color-primary, 65%) !default;
 
-
-$color-primary-alt:          $coral !default;
-$color-primary-alt-dark:     darken($color-primary-alt, 5%) !default;
-$color-primary-alt-darkest:  darken($color-primary-alt, 10%) !default
-$color-primary-alt-light:    lighten($color-primary-alt, 5%) !default;
+$color-primary-alt: $coral !default;
+$color-primary-alt-dark: darken($color-primary-alt, 5%) !default;
+$color-primary-alt-darkest: darken($color-primary-alt, 10%) !default;
+$color-primary-alt-light: lighten($color-primary-alt, 5%) !default;
 $color-primary-alt-lightest: lighten($color-primary-alt, 10%) !default;
 
-$color-secondary:            $red !default;
-$color-secondary-dark:       darken($color-secondary, 5%) !default;
-$color-secondary-darkest:    darken($color-secondary, 10%) !default;
-$color-secondary-light:      lighten($color-secondary, 5%) !default;
-$color-secondary-lightest:   lighten($color-secondary, 10%) !default;
+$color-secondary: $red !default;
+$color-secondary-dark: darken($color-secondary, 5%) !default;
+$color-secondary-darkest: darken($color-secondary, 10%) !default;
+$color-secondary-light: lighten($color-secondary, 5%) !default;
+$color-secondary-lightest: lighten($color-secondary, 10%) !default;
 
-$color-base:                 $navy !default;
-$color-focus:                $neutral !default;
-$color-visited:              $teal !default;
+$color-base: $navy !default;
+$color-focus: $neutral !default;
+$color-visited: $teal !default;
 
 $shadow-black: #000;
-$color-shadow:               rgba($shadow-black, .3) !default;
-$color-transparent:          rgba($shadow-black, 0) !default;
+$color-shadow: rgba($shadow-black, 0.3) !default;
+$color-transparent: rgba($shadow-black, 0) !default;
 
 // Mobile First Breakpoints
-$small-screen:  481px !default;
+$small-screen: 481px !default;
 $medium-screen: 600px !default;
 $medium-large-screen: 1000px !default;
-$large-screen:  1201px !default;
+$large-screen: 1201px !default;
 
 // Grid column counts by screen size
 $grid-columns-small: 1 !default;
@@ -108,38 +106,38 @@ $medium: new-breakpoint(min-width $medium-screen $grid-columns-medium) !default;
 $large: new-breakpoint(min-width $large-screen $grid-columns-large) !default;
 
 // Set the base path for assets (used for font and image paths below)
-$asset-path: '../../node_modules/uswds/src/' !default;
+$asset-path: "../../node_modules/uswds/src/" !default;
 
 // Relative font and image file paths
-$font-path: '#{$asset-path}fonts' !default;
-$image-path: '#{$asset-path}img' !default;
+$font-path: "#{$asset-path}fonts" !default;
+$image-path: "#{$asset-path}img" !default;
 
 // Set $asset-pipeline to true if you're using the Rails Asset Pipeline
-$asset-pipeline:      false !default;
+$asset-pipeline: false !default;
 
 // Magic Numbers
-$text-max-width:                65rem !default; //66ch changed to rem widths because ch is not consistent across different font sizes !default; // 66 characters per line
-$lead-max-width:                77rem !default;
-$site-max-width:                1040px !default;
-$site-margins:                  3rem !default;
-$site-margins-mobile:           1.5rem !default;
-$article-max-width:             600px !default;
-$input-max-width:               46rem !default;
-$label-border-radius:           2px !default;
-$checkbox-border-radius:        2px !default;
-$border-radius:                 3px !default;
-$button-border-radius:          0 !default;
-$box-shadow:                    0 0 2px $color-shadow !default;
-$focus-outline:                 2px dotted $neutral !default;
-$focus-spacing:                 3px !default;
-$nav-width:                     850px !default;
-$sidenav-current-border-width:  .4rem !default; // must be in rem for math
+$text-max-width: 65rem !default; //66ch changed to rem widths because ch is not consistent across different font sizes !default; // 66 characters per line
+$lead-max-width: 77rem !default;
+$site-max-width: 1040px !default;
+$site-margins: 3rem !default;
+$site-margins-mobile: 1.5rem !default;
+$article-max-width: 600px !default;
+$input-max-width: 46rem !default;
+$label-border-radius: 2px !default;
+$checkbox-border-radius: 2px !default;
+$border-radius: 3px !default;
+$button-border-radius: 0 !default;
+$box-shadow: 0 0 2px $color-shadow !default;
+$focus-outline: 2px dotted $neutral !default;
+$focus-spacing: 3px !default;
+$nav-width: 850px !default;
+$sidenav-current-border-width: 0.4rem !default; // must be in rem for math
 
 // 44 x 44 pixels hit target following Apple iOS Human Interface
 // Guidelines
 $hit-area: 4.4rem !default;
 
-$spacing-x-small: .5rem;
+$spacing-x-small: 0.5rem;
 $spacing-small: 1rem;
 $spacing-md-small: 1.5rem;
 $spacing-medium: 2rem;

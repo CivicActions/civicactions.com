@@ -1,12 +1,12 @@
-import React from 'react'
+import React from "react"
 
-import home_image from './../../content/home.jpg'
-import Link from './../scripts/Link'
+import home_image from "./../../content/home.jpg"
+import Link from "./../scripts/Link"
 
 const HeroHome = ({ info }) => {
   const { title, subtitle, cta_text, cta_link } = info
 
-  let BannerImage = (
+  const BannerImage = (
     <div className="hero__image--wrapper">
       <img src={home_image} alt="Digital Services that work for everyone" />
     </div>

@@ -10,10 +10,10 @@
     }
 
     > a {
+      flex-basis: 0;
+      flex-grow: 1;
       max-width: 33%;
       padding: 0 15px;
-      flex-grow: 1;
-      flex-basis: 0;
     }
     > a:first-child {
       padding-left: 0;

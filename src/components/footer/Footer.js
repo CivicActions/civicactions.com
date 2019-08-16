@@ -1,12 +1,12 @@
-import React from 'react'
-import Link from 'gatsby-link'
-import SocialLinks from './../organisms/SocialLinks'
-import Logo from './../atoms/logo/Logo'
-import USWDS from './../scripts/USWDS'
-import FooterNav from './../navigation/FooterNav'
+import React from "react"
+import Link from "gatsby-link"
+import SocialLinks from "./../organisms/SocialLinks"
+import Logo from "./../atoms/logo/Logo"
+import USWDS from "./../scripts/USWDS"
+import FooterNav from "./../navigation/FooterNav"
 
 const Footer = ({ email, phone, address, address_line_2, city }) => {
-  let email_link = `/mailto:${email}`
+  const email_link = `/mailto:${email}`
 
   return (
     <div className="footer__wrapper  footer">

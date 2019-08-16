@@ -1,13 +1,13 @@
-import React from 'react'
-import social_block from '../../../data/social-icons'
+import React from "react"
+import social_block from "../../../data/social-icons"
 
-import IconParagraph from './../atoms/IconParagraph'
+import IconParagraph from "./../atoms/IconParagraph"
 
 const ReachUs = () => {
   const { social_icons } = social_block
 
-  let iconsList = social_icons.map((icon, index) => {
-    let { image, title, text, text2, text3 } = icon
+  const iconsList = social_icons.map((icon, index) => {
+    const { image, title, text, text2, text3 } = icon
 
     return (
       <IconParagraph

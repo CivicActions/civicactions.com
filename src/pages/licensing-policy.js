@@ -1,7 +1,7 @@
-import React from 'react'
-import { graphql } from 'gatsby'
+import React from "react"
+import { graphql } from "gatsby"
 
-import GeneralLayout from '../components/layouts/GeneralLayout'
+import GeneralLayout from "../components/layouts/GeneralLayout"
 
 const LicensingPolicy = ({ data }) => {
   const { markdownRemark } = data

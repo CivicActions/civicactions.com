@@ -1,9 +1,7 @@
-import React from "react";
+import React from "react"
 
-describe("Test test.", () => {
-  it('Should have tests', () => {
-    expect(1).toEqual(1);
-  });
-});
-
-
+describe(`Test test.`, () => {
+  it(`Should have tests`, () => {
+    expect(1).toEqual(1)
+  })
+})

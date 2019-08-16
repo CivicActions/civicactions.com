@@ -1,10 +1,10 @@
-import React from 'react'
-import Link from 'gatsby-link'
-import Img from 'gatsby-image'
-import PropTypes from 'prop-types'
+import React from "react"
+import Link from "gatsby-link"
+import Img from "gatsby-image"
+import PropTypes from "prop-types"
 
 const CaseStudyTeaser = ({ image, title, link, client_name }) => {
-  let preview_image = image ? (
+  const preview_image = image ? (
     <div className="teaser--case-study__image">
       <Img sizes={image} />
     </div>

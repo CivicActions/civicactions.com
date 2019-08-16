@@ -1,17 +1,17 @@
 // This forms the wrapper (Header + Footer) around general pages.
 
-import React from 'react'
-import Helmet from 'react-helmet'
-import { StaticQuery, graphql } from 'gatsby'
-import { Link } from 'gatsby'
-import '../../sass/styles.scss'
-import Header from './../header/Header'
-import SubFooter from './../footer/SubFooter'
-import Footer from './../footer/Footer'
-import config from '../../../data/SiteConfig'
-import TopNav from './../navigation/TopNav'
-import header_bg from './../header/background_bg-hero.png'
-import hero_image from './../../files/images/404.gif'
+import React from "react"
+import Helmet from "react-helmet"
+import { StaticQuery, graphql } from "gatsby"
+import { Link } from "gatsby"
+import "../../sass/styles.scss"
+import Header from "./../header/Header"
+import SubFooter from "./../footer/SubFooter"
+import Footer from "./../footer/Footer"
+import config from "../../../data/SiteConfig"
+import TopNav from "./../navigation/TopNav"
+import header_bg from "./../header/background_bg-hero.png"
+import hero_image from "./../../files/images/404.gif"
 
 const NotFoundLayout = ({
   siteData,
@@ -60,24 +60,24 @@ const NotFoundLayout = ({
         <Helmet
           title={pageTitle}
           meta={[
-            { name: 'description', content: 'Sample' },
-            { name: 'keywords', content: 'sample, something' },
+            { name: `description`, content: `Sample` },
+            { name: `keywords`, content: `sample, something` },
 
             // Social Sharing
-            { name: 'og:site_name', content: data.site.siteMetadata.title },
-            { property: 'og:type', content: 'website' },
-            { property: 'og:url', content: location },
-            { property: 'og:title', content: heroTitle },
-            { property: 'og:description', content: heroSubtitle },
-            { property: 'og:image', content: teamImage },
-            { name: 'twitter:card', content: config.seo.twitterCard },
-            { name: 'twitter:site', content: config.seo.twitterSite },
-            { property: 'fb:app_id', content: config.seo.fbAppId },
+            { name: `og:site_name`, content: data.site.siteMetadata.title },
+            { property: `og:type`, content: `website` },
+            { property: `og:url`, content: location },
+            { property: `og:title`, content: heroTitle },
+            { property: `og:description`, content: heroSubtitle },
+            { property: `og:image`, content: teamImage },
+            { name: `twitter:card`, content: config.seo.twitterCard },
+            { name: `twitter:site`, content: config.seo.twitterSite },
+            { property: `fb:app_id`, content: config.seo.fbAppId },
 
             // Contact
-            { property: 'og:email', content: data.site.siteMetadata.email },
+            { property: `og:email`, content: data.site.siteMetadata.email },
             {
-              property: 'og:phone_number',
+              property: `og:phone_number`,
               content: data.site.siteMetadata.phone,
             },
           ]}
@@ -85,7 +85,7 @@ const NotFoundLayout = ({
 
         <header
           className="section header__main usa-header usa-header-basic"
-          style={{ backgroundImage: 'url(' + header_bg + ')' }}
+          style={{ backgroundImage: `url(` + header_bg + `)` }}
         >
           <section className="usa-nav-container">
             <div className="usa-navbar">

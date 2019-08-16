@@ -1,11 +1,11 @@
-import React from 'react'
-import { graphql } from 'gatsby'
+import React from "react"
+import { graphql } from "gatsby"
 
-import IconParagraphsGroup from '../components/organisms/IconParagraphsGroup'
-import GeneralLayout from '../components/layouts/GeneralLayout'
-import SectionTitle from '../components/atoms/SectionTitle'
-import Link from './../components/scripts/Link'
-import RelatedByTitle from '../components/RelatedByTitle'
+import IconParagraphsGroup from "../components/organisms/IconParagraphsGroup"
+import GeneralLayout from "../components/layouts/GeneralLayout"
+import SectionTitle from "../components/atoms/SectionTitle"
+import Link from "./../components/scripts/Link"
+import RelatedByTitle from "../components/RelatedByTitle"
 
 const Dkan = ({ data }) => {
   const { markdownRemark, allMarkdownRemark } = data
@@ -28,7 +28,7 @@ const Dkan = ({ data }) => {
             dangerouslySetInnerHTML={{ __html: html }}
           />
 
-          <div class="align-center">
+          <div className="align-center">
             <Link
               to="http://getdkan.org"
               children="Visit getDKAN.org"

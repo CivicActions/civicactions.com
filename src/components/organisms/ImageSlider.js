@@ -1,10 +1,10 @@
-import React, { Component } from 'react'
-import Slider from 'react-slick'
+import React, { Component } from "react"
+import Slider from "react-slick"
 
-import SlideImage from './../SlideImage'
+import SlideImage from "./../SlideImage"
 
-import prevArrow from './../../files/icons/prev-arrow-white.svg'
-import nextArrow from './../../files/icons/right-arrow-white.svg'
+import prevArrow from "./../../files/icons/prev-arrow-white.svg"
+import nextArrow from "./../../files/icons/right-arrow-white.svg"
 
 class ImageSlider extends Component {
   constructor(props) {
@@ -23,19 +23,17 @@ class ImageSlider extends Component {
 
   render() {
     const { images } = this.props
-    let settings = ''
+    let settings = ``
     let slideImages
 
     if (images !== null) {
-      let slideCount = images.length
+      const slideCount = images.length
       settings = {
-        customPaging: i => {
-          return (
-            <div className="slide__custom-dots">
-              {i + 1}/{slideCount}
-            </div>
-          )
-        },
+        customPaging: i => (
+          <div className="slide__custom-dots">
+            {i + 1}/{slideCount}
+          </div>
+        ),
         dots: true,
         infinite: false,
         speed: 500,
@@ -61,21 +59,21 @@ class ImageSlider extends Component {
         }
       })
 
-      let multipleImages = (
+      const multipleImages = (
         <span>
           <Slider ref={c => (this.slider = c)} {...settings}>
             {slideImages}
           </Slider>
           <div className="slide__arrows">
             <div
-              style={{ backgroundImage: 'url(' + prevArrow + ')' }}
+              style={{ backgroundImage: `url(` + prevArrow + `)` }}
               className="slide__previous"
               onClick={this.previous}
             >
               <span className="visually-hidden">Previous</span>
             </div>
             <div
-              style={{ backgroundImage: 'url(' + nextArrow + ')' }}
+              style={{ backgroundImage: `url(` + nextArrow + `)` }}
               className="slide__next"
               onClick={this.next}
             >
@@ -85,7 +83,7 @@ class ImageSlider extends Component {
         </span>
       )
 
-      let renderedImages =
+      const renderedImages =
         slideCount === 1 ? slideImages : slideCount > 1 ? multipleImages : null
 
       return (

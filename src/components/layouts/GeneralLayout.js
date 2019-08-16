@@ -1,16 +1,16 @@
 // This forms the wrapper (Header + Footer) around general pages.
 
-import React from 'react'
-import Helmet from 'react-helmet'
-import { StaticQuery, graphql } from 'gatsby'
+import React from "react"
+import Helmet from "react-helmet"
+import { StaticQuery, graphql } from "gatsby"
 
-import Header from './../header/Header'
-import Hero from './../header/Hero'
-import SubFooter from './../footer/SubFooter'
-import Footer from './../footer/Footer'
-import config from '../../../data/SiteConfig'
-import TopNav from './../navigation/TopNav'
-import header_bg from './../header/background_bg-hero.png'
+import Header from "./../header/Header"
+import Hero from "./../header/Hero"
+import SubFooter from "./../footer/SubFooter"
+import Footer from "./../footer/Footer"
+import config from "../../../data/SiteConfig"
+import TopNav from "./../navigation/TopNav"
+import header_bg from "./../header/background_bg-hero.png"
 
 const GeneralLayout = ({
   siteData,
@@ -61,24 +61,24 @@ const GeneralLayout = ({
         <Helmet
           title={pageTitle}
           meta={[
-            { name: 'description', content: 'Sample' },
-            { name: 'keywords', content: 'sample, something' },
+            { name: `description`, content: `Sample` },
+            { name: `keywords`, content: `sample, something` },
 
             // Social Sharing
-            { name: 'og:site_name', content: data.site.siteMetadata.title },
-            { property: 'og:type', content: 'website' },
-            { property: 'og:url', content: location },
-            { property: 'og:title', content: heroTitle },
-            { property: 'og:description', content: heroSubtitle },
-            { property: 'og:image', content: ogImage },
-            { name: 'twitter:card', content: config.seo.twitterCard },
-            { name: 'twitter:site', content: config.seo.twitterSite },
-            { property: 'fb:app_id', content: config.seo.fbAppId },
+            { name: `og:site_name`, content: data.site.siteMetadata.title },
+            { property: `og:type`, content: `website` },
+            { property: `og:url`, content: location },
+            { property: `og:title`, content: heroTitle },
+            { property: `og:description`, content: heroSubtitle },
+            { property: `og:image`, content: ogImage },
+            { name: `twitter:card`, content: config.seo.twitterCard },
+            { name: `twitter:site`, content: config.seo.twitterSite },
+            { property: `fb:app_id`, content: config.seo.fbAppId },
 
             // Contact
-            { property: 'og:email', content: data.site.siteMetadata.email },
+            { property: `og:email`, content: data.site.siteMetadata.email },
             {
-              property: 'og:phone_number',
+              property: `og:phone_number`,
               content: data.site.siteMetadata.phone,
             },
           ]}
@@ -86,7 +86,7 @@ const GeneralLayout = ({
 
         <header
           className="section header__main"
-          style={{ backgroundImage: 'url(' + header_bg + ')' }}
+          style={{ backgroundImage: `url(` + header_bg + `)` }}
         >
           <section className="usa-nav-container">
             <div className="usa-navbar">

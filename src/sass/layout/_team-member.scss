@@ -1,10 +1,7 @@
 .team-member {
   &__hero {
-    text-align: center;
     margin-bottom: $section-margin;
-    @media all and (max-width: $small-screen) {
-      transform: scaleY(-1);
-    }
+    text-align: center;
     .hero {
       &__title {
         @media all and (max-width: $small-screen) {
@@ -15,8 +12,9 @@
         margin-bottom: 0;
       }
       &__image {
-        padding-top: $site-margins;
         margin-bottom: -($spacing-medium);
+        padding-top: $site-margins;
+
         @media all and (max-width: $small-screen) {
           transform: scaleY(-1);
           img {
@@ -24,81 +22,89 @@
             margin-bottom: -($spacing-medium);
           }
         }
+
         @media all and (min-width: $medium-screen) {
           @include span-columns(4);
+
           padding-top: $spacing-medium;
         }
       }
 
       &__text {
         padding-bottom: $spacing-x-small;
+
         @media all and (max-width: $small-screen) {
           transform: scaleY(-1);
         }
+
         @media all and (min-width: $medium-screen) {
           @include span-columns(8);
+
           text-align: left;
         }
-
       }
 
-      &__intro-text, &__location {
-        line-height: 1.5;
+      &__intro-text,
+      &__location {
         font-weight: 300;
+        line-height: 1.5;
       }
 
       &__personal_pronouns {
-        font-weight: 300;
-        font-style: italic;
-        font-size: 90%;
         margin-top: -5px;
         padding-bottom: 11px;
+        font-size: 90%;
+        font-weight: 300;
+        font-style: italic;
       }
 
       &__social--link {
-        color: $white;
-        font-weight: $font-bold;
         display: inline-block;
         margin-right: $spacing-small;
+        color: $white;
+        font-weight: $font-bold;
 
         &:after {
-          content: '|';
-          display: inline-block
+          display: inline-block;
+          content: "|";
         }
 
         &:last-of-type {
           &:after {
-            content: '';
+            content: "";
           }
         }
 
         &:last-child {
-           margin-right: 0;
-
+          margin-right: 0;
         }
       }
-
     }
 
+    @media all and (max-width: $small-screen) {
+      transform: scaleY(-1);
+    }
   }
 
   &__specs {
-    padding: $spacing-medium;
     margin-bottom: rem(40px);
+    padding: $spacing-medium;
+    .study__tech-specs__title {
+      font-family: $font-sans;
+      font-size: $base-font-size;
+      font-weight: $font-bold;
+    }
+    ul {
+      margin: 0.5em 0;
+    }
+
     @include media($medium-screen) {
       padding: $site-margins 0;
       .study__tech-specs {
         @include shift(4);
+
         padding-left: $spacing-medium;
       }
-    }
-    .study__tech-specs__title {
-      font-family: $font-sans;
-      font-weight: $font-bold;
-      font-size: $base-font-size;
-    }
-    ul {
-      margin: 0.5em 0;
     }
   }
 
@@ -114,11 +120,13 @@
   }
 
   &__posts {
-    margin-bottom: 0;
-    margin-top: 100px;
     @include neutral-hex-bg;
 
-    .section__title--wrapper, .team__medium-posts {
+    margin-top: 100px;
+    margin-bottom: 0;
+
+    .section__title--wrapper,
+    .team__medium-posts {
       margin-top: -($spacing-large);
     }
 
@@ -131,6 +139,6 @@
 }
 
 .team_member__specs--wrapper {
-  background: $neutral;
   margin-top: -46px;
+  background: $neutral;
 }

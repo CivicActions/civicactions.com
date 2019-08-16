@@ -1,5 +1,5 @@
-import React, { Component } from 'react'
-import config from '../../../data/SiteConfig'
+import React, { Component } from "react"
+import config from "../../../data/SiteConfig"
 
 class SocialLinks extends Component {
   static getLinkElements() {

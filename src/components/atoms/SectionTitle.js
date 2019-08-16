@@ -1,11 +1,11 @@
-import React from 'react'
+import React from "react"
 
 const SectionTitle = props => {
   const { title, subtitle, children } = props
   const sectionSubtitle = subtitle ? (
     <p className="section__subtitle">{subtitle}</p>
   ) : (
-    ''
+    ``
   )
   return (
     <div className="section__title--wrapper">

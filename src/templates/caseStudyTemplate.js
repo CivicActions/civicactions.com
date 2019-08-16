@@ -1,12 +1,12 @@
 // Template for displaying individual case-study content
 
-import React from 'react'
-import _ from 'lodash'
-import { graphql } from 'gatsby'
+import React from "react"
+import _ from "lodash"
+import { graphql } from "gatsby"
 
-import GeneralLayout from './../components/layouts/GeneralLayout'
-import ImageSlider from './../components/organisms/ImageSlider'
-import RelatedByTitle from './../components/RelatedByTitle'
+import GeneralLayout from "./../components/layouts/GeneralLayout"
+import ImageSlider from "./../components/organisms/ImageSlider"
+import RelatedByTitle from "./../components/RelatedByTitle"
 
 export default function Template({ data }) {
   const { markdownRemark, allMarkdownRemark } = data
@@ -14,22 +14,18 @@ export default function Template({ data }) {
   const { related_titles, specs, tags, images } = frontmatter
   const { edges } = allMarkdownRemark
 
-  let specsList = _.map(specs, (spec, index) => {
-    return (
-      <li className="study__item" key={index}>
-        {' '}
-        {spec}
-      </li>
-    )
-  })
+  const specsList = _.map(specs, (spec, index) => (
+    <li className="study__item" key={index}>
+      {` `}
+      {spec}
+    </li>
+  ))
 
-  let tagsList = tags.map((tag, index) => {
-    return (
-      <button className="tags" key={index}>
-        {tag}
-      </button>
-    )
-  })
+  const tagsList = tags.map((tag, index) => (
+    <button className="tags" key={index}>
+      {tag}
+    </button>
+  ))
 
   return (
     <GeneralLayout

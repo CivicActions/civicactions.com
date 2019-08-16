@@ -1,6 +1,6 @@
-import React, { Component } from 'react'
+import React, { Component } from "react"
 
-import CaseStudyTeaser from './../components/CaseStudyTeaser'
+import CaseStudyTeaser from "./../components/CaseStudyTeaser"
 
 const defaultProps = {
   tags: [],
@@ -11,27 +11,27 @@ class FilteredCaseStudies extends Component {
   constructor(props) {
     super(props)
     this.state = {
-      tag: ['All'],
+      tag: [`All`],
     }
   }
 
   handleClick(e) {
-    let text = e.target.value
+    const text = e.target.value
     let tags = defaultProps.tags
-    let index = tags.indexOf(text)
+    const index = tags.indexOf(text)
 
     if (index === -1) {
       tags.push(text)
-      e.target.classList.add('active')
-      document.querySelector('[ value = "All" ]').classList.remove('active')
+      e.target.classList.add(`active`)
+      document.querySelector(`[ value = "All" ]`).classList.remove(`active`)
     } else {
       tags.splice(index, 1)
-      e.target.classList.remove('active')
+      e.target.classList.remove(`active`)
     }
 
     if (tags.length === 0) {
-      tags = ['All']
-      document.querySelector('[ value = "All" ]').classList.add('active')
+      tags = [`All`]
+      document.querySelector(`[ value = "All" ]`).classList.add(`active`)
     }
 
     this.setState({ tag: tags })
@@ -43,16 +43,16 @@ class FilteredCaseStudies extends Component {
     // The filtered tags are initially set to "All" to display all case studies on page load
     // If a tag is clicked the case studies get filtered
     const filteredStudies =
-      this.state.tag[0] === 'All'
+      this.state.tag[0] === `All`
         ? posts
         : posts.filter(item => {
             const { tags } = item.node.frontmatter
             return tags.some(v => this.state.tag.includes(v))
           })
 
-    let studyTeasers = filteredStudies.map((item, index) => {
+    const studyTeasers = filteredStudies.map((item, index) => {
       const { title, client_name, preview_image, path } = item.node.frontmatter
-      let image =
+      const image =
         preview_image !== null ? preview_image.childImageSharp.fixed : null
 
       return (
@@ -71,17 +71,15 @@ class FilteredCaseStudies extends Component {
         ? `There are no case studies tagged ${this.state.tag}`
         : studyTeasers
 
-    const filterTags = allTags.map((tag, index) => {
-      return (
-        <button
-          className="tags"
-          onClick={this.handleClick.bind(this)}
-          value={tag}
-        >
-          {tag}
-        </button>
-      )
-    })
+    const filterTags = allTags.map((tag, index) => (
+      <button
+        className="tags"
+        onClick={this.handleClick.bind(this)}
+        value={tag}
+      >
+        {tag}
+      </button>
+    ))
 
     return (
       <div>

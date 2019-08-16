@@ -1,9 +1,9 @@
-import React from 'react'
-import { graphql } from 'gatsby'
-import Link from 'gatsby-link'
+import React from "react"
+import { graphql } from "gatsby"
+import Link from "gatsby-link"
 
-import GeneralLayout from './../components/layouts/GeneralLayout'
-import PressTeaser from './../components/PressTeaser'
+import GeneralLayout from "./../components/layouts/GeneralLayout"
+import PressTeaser from "./../components/PressTeaser"
 
 const NavLink = props => {
   if (!props.test) {
@@ -17,13 +17,13 @@ const Press = ({ data, pageContext }) => {
   // pagination. See gatsby node for loading of pageContext.
   const { group, index, first, last } = pageContext
   const previousUrl =
-    index - 1 === 1 ? '/press' : '/press/' + (index - 1).toString()
-  const nextUrl = '/press/' + (index + 1).toString()
+    index - 1 === 1 ? `/press` : `/press/` + (index - 1).toString()
+  const nextUrl = `/press/` + (index + 1).toString()
   const { markdownRemark } = data
   const { frontmatter } = markdownRemark
   const { title, subtitle } = frontmatter
 
-  let pressItems = group.map(({ node }, index) => {
+  const pressItems = group.map(({ node }, index) => {
     const { frontmatter, html } = node
     const { title, date, publication, link_text, website } = frontmatter
 

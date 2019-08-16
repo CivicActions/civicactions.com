@@ -1,13 +1,13 @@
-import React from 'react'
-import _ from 'lodash'
-import { graphql } from 'gatsby'
+import React from "react"
+import _ from "lodash"
+import { graphql } from "gatsby"
 
-import SectionTitle from './../components/atoms/SectionTitle'
-import GeneralLayout from './../components/layouts/GeneralLayout'
-import IconParagraphsGroup from '../components/organisms/IconParagraphsGroup'
-import ImageBand from './../components/organisms/ImageBand'
-import GlobalQuoteSlider from './../components/organisms/GlobalQuoteSlider'
-import Link from './../components/scripts/Link'
+import SectionTitle from "./../components/atoms/SectionTitle"
+import GeneralLayout from "./../components/layouts/GeneralLayout"
+import IconParagraphsGroup from "../components/organisms/IconParagraphsGroup"
+import ImageBand from "./../components/organisms/ImageBand"
+import GlobalQuoteSlider from "./../components/organisms/GlobalQuoteSlider"
+import Link from "./../components/scripts/Link"
 
 const Careers = ({ data }) => {
   const { allJob, markdownRemark } = data
@@ -26,7 +26,7 @@ const Careers = ({ data }) => {
   const { edges } = allJob
 
   const jobs = _.map(edges, (job, index) => {
-    let url = `http://civicactions.applytojob.com/apply/${job.node.board_code}`
+    const url = `http://civicactions.applytojob.com/apply/${job.node.board_code}`
 
     return (
       <li key={job.node.id} className="teaser__item">
@@ -36,7 +36,7 @@ const Careers = ({ data }) => {
         <div className="teaser__text">
           Location: &nbsp;
           {job.node.city ? job.node.city.trim() : null}
-          {job.node.city && job.node.state ? ', ' : null}
+          {job.node.city && job.node.state ? `, ` : null}
           {job.node.state}
         </div>
         <div className="teaser__text">Type: {job.node.type}</div>

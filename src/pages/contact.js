@@ -1,17 +1,17 @@
-import React from 'react'
+import React from "react"
 
-import GeneralLayout from './../components/layouts/GeneralLayout'
-import ReachUs from './../components/organisms/ReachUs'
-import SectionTitle from './../components/atoms/SectionTitle'
+import GeneralLayout from "./../components/layouts/GeneralLayout"
+import ReachUs from "./../components/organisms/ReachUs"
+import SectionTitle from "./../components/atoms/SectionTitle"
 
 class Contact extends React.Component {
   constructor() {
     super()
     this.state = {
-      name: '',
-      email: '',
-      org: '',
-      phone: '',
+      name: ``,
+      email: ``,
+      org: ``,
+      phone: ``,
       touched: {
         name: false,
         org: false,
@@ -101,14 +101,15 @@ class Contact extends React.Component {
                   aria-required="true"
                   value={this.state.name}
                   onChange={this.handleNameChange}
-                  onBlur={this.handleBlur('name')}
-                  className={shouldMarkError('name') ? 'error' : ''}
+                  onBlur={this.handleBlur(`name`)}
+                  className={shouldMarkError(`name`) ? `error` : ``}
                 />
               </div>
 
               <div className="form__field">
                 <label htmlFor="organization">
-                  Organization<abbr title="This field is mandatory">*</abbr>{' '}
+                  Organization<abbr title="This field is mandatory">*</abbr>
+                  {` `}
                 </label>
                 <input
                   type="text"
@@ -118,14 +119,15 @@ class Contact extends React.Component {
                   aria-required="true"
                   value={this.state.org}
                   onChange={this.handleOrgChange}
-                  onBlur={this.handleBlur('org')}
-                  className={shouldMarkError('org') ? 'error' : ''}
+                  onBlur={this.handleBlur(`org`)}
+                  className={shouldMarkError(`org`) ? `error` : ``}
                 />
               </div>
 
               <div className="form__field">
                 <label htmlFor="email">
-                  Email<abbr title="This field is mandatory">*</abbr>{' '}
+                  Email<abbr title="This field is mandatory">*</abbr>
+                  {` `}
                 </label>
                 <input
                   id="email"
@@ -135,14 +137,15 @@ class Contact extends React.Component {
                   aria-required="true"
                   value={this.state.email}
                   onChange={this.handleEmailChange}
-                  onBlur={this.handleBlur('email')}
-                  className={shouldMarkError('email') ? 'error' : ''}
+                  onBlur={this.handleBlur(`email`)}
+                  className={shouldMarkError(`email`) ? `error` : ``}
                 />
               </div>
 
               <div className="form__field">
                 <label htmlFor="phone">
-                  Phone<abbr title="This field is mandatory">*</abbr>{' '}
+                  Phone<abbr title="This field is mandatory">*</abbr>
+                  {` `}
                 </label>
                 <input
                   type="tel"
@@ -152,7 +155,7 @@ class Contact extends React.Component {
                   aria-required="true"
                   value={this.state.phone}
                   onChange={this.handlePhoneChange}
-                  className={shouldMarkError('phone') ? 'error' : ''}
+                  className={shouldMarkError(`phone`) ? `error` : ``}
                 />
               </div>
 
@@ -174,8 +177,8 @@ class Contact extends React.Component {
 
               <div className="form__field form__submit">
                 <button type="submit" value="Send" disabled={!isEnabled}>
-                  {' '}
-                  Submit{' '}
+                  {` `}
+                  Submit{` `}
                 </button>
               </div>
               <input

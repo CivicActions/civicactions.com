@@ -2,7 +2,7 @@
   &__wrapper {
     position: relative;
 
-    @media  all and (max-width: 600px){
+    @media all and (max-width: 600px) {
       padding-top: 80px;
     }
   }
@@ -10,7 +10,7 @@
   &__logo {
     position: absolute;
 
-    @media  all and (max-width: $medium-screen){
+    @media all and (max-width: $medium-screen) {
       top: -97px;
     }
 
@@ -19,8 +19,8 @@
       left: -50px;
 
       &.dkan {
-        left: auto;
         right: -50px;
+        left: auto;
       }
     }
   }

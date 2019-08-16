@@ -1,11 +1,11 @@
-import React from 'react'
-import { graphql } from 'gatsby'
+import React from "react"
+import { graphql } from "gatsby"
 
-import GeneralLayout from './../components/layouts/GeneralLayout'
-import TeaserGrid from './../components/TeaserGrid'
-import GlobalQuotesSlider from './../components/organisms/GlobalQuoteSlider'
-import ImageBand from './../components/organisms/ImageBand'
-import SectionTitle from './../components/atoms/SectionTitle'
+import GeneralLayout from "./../components/layouts/GeneralLayout"
+import TeaserGrid from "./../components/TeaserGrid"
+import GlobalQuotesSlider from "./../components/organisms/GlobalQuoteSlider"
+import ImageBand from "./../components/organisms/ImageBand"
+import SectionTitle from "./../components/atoms/SectionTitle"
 
 const Team = ({ data }) => {
   const { markdownRemark, allMarkdownRemark } = data

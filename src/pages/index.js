@@ -1,16 +1,16 @@
-import React from 'react'
-import _ from 'lodash'
-import { graphql } from 'gatsby'
+import React from "react"
+import _ from "lodash"
+import { graphql } from "gatsby"
 
-//Components
-import HomeLayout from '../components/layouts/HomeLayout'
-import MediumPostList from '../components/medium-components/mediumPostList'
-import Teaser from './../components/Teaser'
-import GlobalQuoteSlider from './../components/organisms/GlobalQuoteSlider'
-import FeaturedCaseStudies from '../components/organisms/FeaturedCaseStudies'
+// Components
+import HomeLayout from "../components/layouts/HomeLayout"
+import MediumPostList from "../components/medium-components/mediumPostList"
+import Teaser from "./../components/Teaser"
+import GlobalQuoteSlider from "./../components/organisms/GlobalQuoteSlider"
+import FeaturedCaseStudies from "../components/organisms/FeaturedCaseStudies"
 // Atoms
-import SectionTitle from '../components/atoms/SectionTitle'
-import Link from './../components/scripts/Link'
+import SectionTitle from "../components/atoms/SectionTitle"
+import Link from "./../components/scripts/Link"
 
 const IndexPage = ({ data }) => {
   const { allMediumPost, markdownRemark, allMarkdownRemark } = data
@@ -24,13 +24,11 @@ const IndexPage = ({ data }) => {
     government_services,
   } = frontmatter
 
-  let mediumCaPosts = _.first(group, edges => {
-    return edges
-  })
+  const mediumCaPosts = _.first(group, edges => edges)
 
-  let mediumPosts = _.map(mediumCaPosts, (post, index) => {
-    return <MediumPostList key={{ index }} posts={{ post }} />
-  })
+  const mediumPosts = _.map(mediumCaPosts, (post, index) => (
+    <MediumPostList key={{ index }} posts={{ post }} />
+  ))
 
   const governmentServices = _.map(government_services, (item, index) => {
     const { title, image, text, link } = item
@@ -83,7 +81,7 @@ const IndexPage = ({ data }) => {
         </div>
       </section>
 
-      {/*------ Modernizing Government Services Section--------*/}
+      {/* ------ Modernizing Government Services Section--------*/}
       <section className="section section__government-services neutral-hex-bg">
         <div className="usa-grid columns columns--teaser">
           <SectionTitle title={government_services_title} />
@@ -91,7 +89,7 @@ const IndexPage = ({ data }) => {
         </div>
       </section>
 
-      {/*----- Get to Know Us section -------- */}
+      {/* ----- Get to Know Us section -------- */}
       <section className="section section__triple-quotes">
         <div className="usa-grid">
           <SectionTitle title={quotes_title} />
@@ -99,7 +97,7 @@ const IndexPage = ({ data }) => {
             <GlobalQuoteSlider quotes={quotes} />
           </div>
         </div>
-        {/*----- Meet our team -------- */}
+        {/* ----- Meet our team -------- */}
         <div className="usa-grid align-right">
           <Link children="Meet Our Team" to="/team" className="link-button" />
         </div>

@@ -6,8 +6,8 @@
  */
 exports.onClientEntry = () => {
   // Host Google Fonts locally
-  require('typeface-ubuntu')
-  require('typeface-lato')
+  require(`typeface-ubuntu`)
+  require(`typeface-lato`)
 
-  require('./src/sass/styles.scss')
+  require(`./src/sass/styles.scss`)
 }

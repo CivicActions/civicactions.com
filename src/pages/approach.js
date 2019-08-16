@@ -1,10 +1,10 @@
-import React from 'react'
-import { graphql } from 'gatsby'
+import React from "react"
+import { graphql } from "gatsby"
 
-import GeneralLayout from '../components/layouts/GeneralLayout'
-import SectionTitle from '../components/atoms/SectionTitle'
-import IconParagraphsGroup from '../components/organisms/IconParagraphsGroup'
-import RolloverIconGroup from '../components/organisms/RolloverIconGroup'
+import GeneralLayout from "../components/layouts/GeneralLayout"
+import SectionTitle from "../components/atoms/SectionTitle"
+import IconParagraphsGroup from "../components/organisms/IconParagraphsGroup"
+import RolloverIconGroup from "../components/organisms/RolloverIconGroup"
 
 const Approach = ({ data }) => {
   const { markdownRemark } = data

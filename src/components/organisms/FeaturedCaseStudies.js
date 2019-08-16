@@ -1,14 +1,14 @@
-import React from 'react'
+import React from "react"
 
-import CaseStudyTeaser from './../../components/CaseStudyTeaser'
+import CaseStudyTeaser from "./../../components/CaseStudyTeaser"
 
 const FeaturedCaseStudies = ({ posts }) => {
-  let caseStudies = posts.map((post, index) => {
+  const caseStudies = posts.map((post, index) => {
     const { node } = post
     const { frontmatter } = node
     const { title, client_name, preview_image, path } = frontmatter
 
-    let image = preview_image.childImageSharp.fixed
+    const image = preview_image.childImageSharp.fixed
 
     return (
       <CaseStudyTeaser

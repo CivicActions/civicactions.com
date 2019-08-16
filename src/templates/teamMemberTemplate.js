@@ -1,13 +1,13 @@
 // Template for displaying individual team-member content
 
-import React from 'react'
-import { graphql } from 'gatsby'
+import React from "react"
+import { graphql } from "gatsby"
 
-import GeneralLayout from './../components/layouts/GeneralLayout'
-import Teaser from './../components/Teaser'
-import Blockquote from './../components/atoms/Blockquote'
-import SectionTitle from './../components/atoms/SectionTitle'
-import { existy, getFirstName } from '../helpers'
+import GeneralLayout from "./../components/layouts/GeneralLayout"
+import Teaser from "./../components/Teaser"
+import Blockquote from "./../components/atoms/Blockquote"
+import SectionTitle from "./../components/atoms/SectionTitle"
+import { existy, getFirstName } from "../helpers"
 
 export default function Template({ data }) {
   const { markdownRemark } = data
@@ -26,33 +26,32 @@ export default function Template({ data }) {
   } = frontmatter
 
   const quoteName = getFirstName(first_name, name)
-  const personalPronouns = personal_pronouns ? personal_pronouns : ''
+  const personalPronouns = personal_pronouns ? personal_pronouns : ``
 
-  let memberSpecialties, specs, mediumPosts, mediumPostsList
+  let memberSpecialties
+  let specs
+  let mediumPosts
+  let mediumPostsList
 
   if (specialties) {
-    memberSpecialties = specialties.map((item, index) => {
-      return (
-        <li className="hero__specialties" key={index}>
-          {item}
-        </li>
-      )
-    })
+    memberSpecialties = specialties.map((item, index) => (
+      <li className="hero__specialties" key={index}>
+        {item}
+      </li>
+    ))
     specs = <ul className="hero__specs--list">{memberSpecialties}</ul>
   }
 
   if (medium_posts) {
-    mediumPosts = medium_posts.map((post, index) => {
-      return (
-        <li className="medium--teaser__item teaser__item" key={index}>
-          <Teaser
-            teaserDate={post.date}
-            teaserTitle={post.title}
-            teaserLink={post.url}
-          />
-        </li>
-      )
-    })
+    mediumPosts = medium_posts.map((post, index) => (
+      <li className="medium--teaser__item teaser__item" key={index}>
+        <Teaser
+          teaserDate={post.date}
+          teaserTitle={post.title}
+          teaserLink={post.url}
+        />
+      </li>
+    ))
     mediumPostsList = (
       <ul className="team__medium-posts medium--teasers teaser--wrapper">
         {mediumPosts}

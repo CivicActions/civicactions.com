@@ -6,23 +6,25 @@
 
     .iconparagraph__wrapper {
       width: 100%;
+
       @media screen and (min-width: $small-screen) {
         width: 50%;
       }
+
       @media screen and (min-width: $medium-large-screen) {
         width: 33%;
       }
     }
   }
   &paragraph__wrapper {
-    text-align: center;
     padding: 0 $section-margin;
+    text-align: center;
   }
-  &paragraph__heading{
+  &paragraph__heading {
+    margin-top: 0;
+    margin-bottom: 0;
     font-family: $font-sans;
     font-weight: 900;
-    margin-bottom: 0;
-    margin-top: 0;
   }
   &paragraph__text {
     margin-top: 0;

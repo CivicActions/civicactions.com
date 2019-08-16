@@ -1,8 +1,8 @@
-import React from 'react'
-import PropTypes from 'prop-types'
+import React from "react"
+import PropTypes from "prop-types"
 
 const RolloverIcon = ({ icon, icon_rollover_text, icon_class, icon_url }) => {
-  let iconClass = `rollovericon__wrapper ${icon_class}`
+  const iconClass = `rollovericon__wrapper ${icon_class}`
   let image
 
   if (icon) {
@@ -13,7 +13,7 @@ const RolloverIcon = ({ icon, icon_rollover_text, icon_class, icon_url }) => {
     )
   }
 
-  let iconWrapper = icon_url ? (
+  const iconWrapper = icon_url ? (
     <a href={icon_url}>
       <div className={iconClass}>
         {image}

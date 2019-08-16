@@ -1,10 +1,10 @@
-import React from 'react'
-import PropTypes from 'prop-types'
+import React from "react"
+import PropTypes from "prop-types"
 
 const ThreeColGrid = ({ items }) => {
   const gridItems = items.map((item, index) => {
     const { title, image } = item
-    let imageUrl = image ? image.childImageSharp.resize.src : ''
+    const imageUrl = image ? image.childImageSharp.resize.src : ``
 
     return (
       <div className="three-col--item">

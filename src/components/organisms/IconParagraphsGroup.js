@@ -1,11 +1,11 @@
-import React from 'react'
-import PropTypes from 'prop-types'
+import React from "react"
+import PropTypes from "prop-types"
 
-import IconParagraph from './../atoms/IconParagraph'
+import IconParagraph from "./../atoms/IconParagraph"
 
 const IconParagraphsGroup = ({ icons }) => {
-  let iconList = icons.map((service, index) => {
-    let image = service.icon ? service.icon.publicURL : ''
+  const iconList = icons.map((service, index) => {
+    const image = service.icon ? service.icon.publicURL : ``
     const { title, caption } = service
 
     return (

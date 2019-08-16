@@ -1,30 +1,31 @@
 .teaser--case-study {
   color: $navy;
 
- &--wrapper {
-   display: block;
-   text-decoration: none;
+  &--wrapper {
+    display: block;
+    text-decoration: none;
 
-   &:focus {
-     @include outline;
-     outline: none;
-   }
+    &:focus {
+      @include outline;
 
-   &:last-of-type {
-     margin-right: 0;
-   }
- }
+      outline: none;
+    }
+
+    &:last-of-type {
+      margin-right: 0;
+    }
+  }
 
   &__text {
-    color: $navy;
-    text-decoration: none;
     padding: 40px 20px;
+    text-decoration: none;
+    color: $navy;
   }
 
   &__client {
+    display: block;
     font-size: $small-font-size;
     font-weight: bold;
-    display: block;
   }
 
   &__title {

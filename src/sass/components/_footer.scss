@@ -1,9 +1,10 @@
 .footer {
   &__wrapper {
-    background-color: $navy;
-    color: $white;
-    font-size: 15px;
     padding: $spacing-medium 0;
+    color: $white;
+    background-color: $navy;
+    font-size: 15px;
+
     @media screen and (max-width: $medium-screen) {
       padding: $spacing-large $spacing-medium;
     }
@@ -15,10 +16,10 @@
     }
   }
 
-  a, h4 {
+  a,
+  h4 {
     color: $white;
   }
-
 
   h4 {
     font-size: $base-font-size;
@@ -36,21 +37,21 @@
     margin-top: 20px;
     .social-links {
       .fa {
-        margin-right: 20px;
         display: inline-block;
+        margin-right: 20px;
         &-twitter {
           &:after {
-            content: url('./../files/icons/social/twitter.svg')
+            content: url("./../files/icons/social/twitter.svg");
           }
         }
         &-facebook {
           &:after {
-            content: url('./../files/icons/social/facebook.svg')
+            content: url("./../files/icons/social/facebook.svg");
           }
         }
         &-linkedin {
           &:after {
-            content: url('./../files/icons/social/linkedin.svg')
+            content: url("./../files/icons/social/linkedin.svg");
           }
         }
         span {
@@ -65,9 +66,21 @@
   .usa-footer-primary-section {
     background: transparent;
     .usa-footer-contact-links {
-      text-align: left;
       padding-bottom: $spacing-medium;
+      text-align: left;
     }
+    .usa-footer-secondary-link,
+    .external-link span {
+      padding-top: $spacing-small;
+      padding-bottom: $spacing-small;
+      text-decoration: underline;
+    }
+
+    .usa-footer-secondary-link:hover,
+    .external-link span:hover {
+      text-decoration: none;
+    }
+
     @include media(660px) {
       .usa-width-one-third {
         @include span-columns(6);
@@ -88,21 +101,12 @@
         @include span-columns(3);
       }
     }
-    .usa-footer-secondary-link, .external-link span {
-      text-decoration: underline;
-      padding-top: $spacing-small;
-      padding-bottom: $spacing-small;
-    }
-
-    .usa-footer-secondary-link:hover, .external-link span:hover {
-      text-decoration: none;
-    }
 
     @media screen and (max-width: $medium-screen) {
       ul {
         .usa-footer-primary-link {
-          background-image: none;
           padding-left: 0;
+          background-image: none;
           h4 {
             display: inline-block;
           }

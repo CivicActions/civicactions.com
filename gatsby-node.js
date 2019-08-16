@@ -4,8 +4,8 @@
  * See: https://www.gatsbyjs.org/docs/node-apis/
  */
 
-const path = require('path')
-const createPaginatedPages = require('gatsby-paginate')
+const path = require(`path`)
+const createPaginatedPages = require(`gatsby-paginate`)
 
 exports.createPages = ({ actions, graphql }) => {
   const { createPage } = actions
@@ -42,29 +42,29 @@ exports.createPages = ({ actions, graphql }) => {
     }
 
     const pressNodes = result.data.allMarkdownRemark.edges.filter(
-      ({ node }) => node.frontmatter.type === 'press'
+      ({ node }) => node.frontmatter.type === `press`
     )
 
     createPaginatedPages({
       edges: pressNodes,
       createPage: createPage,
-      pageTemplate: 'src/templates/press.js',
+      pageTemplate: `src/templates/press.js`,
       pageLength: 5, // This is optional and defaults to 10 if not used
-      pathPrefix: 'press',
+      pathPrefix: `press`,
       buildPath: (index, pathPrefix) =>
         index > 1 ? `${pathPrefix}/${index}` : `/${pathPrefix}`,
     })
 
     result.data.allMarkdownRemark.edges.forEach(({ node }) => {
       switch (node.frontmatter.type) {
-        case 'team':
+        case `team`:
           createPage({
             path: node.frontmatter.path,
             component: teamMemberTemplate,
             context: {},
           })
           break
-        case 'case-study':
+        case `case-study`:
           createPage({
             path: node.frontmatter.path,
             component: caseStudyTemplate,
@@ -83,7 +83,7 @@ exports.createPages = ({ actions, graphql }) => {
 // This is to be able to query page slugs. For creating a dynamic menu in the future
 exports.onCreateNode = ({ node, getNode, boundActionCreators }) => {
   const { createNodeField } = boundActionCreators
-  if (node.internal.type === 'SitePage') {
+  if (node.internal.type === `SitePage`) {
     createNodeField({
       node,
       name: `slug`,
@@ -97,7 +97,7 @@ exports.onCreateNode = ({ node, getNode, boundActionCreators }) => {
 exports.onCreateWebpackConfig = ({ stage, actions }) => {
   actions.setWebpackConfig({
     resolve: {
-      modules: [path.resolve(__dirname, 'src'), 'node_modules'],
+      modules: [path.resolve(__dirname, `src`), `node_modules`],
     },
   })
 }

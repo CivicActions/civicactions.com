@@ -1,28 +1,28 @@
-import React from 'react'
-import { graphql } from 'gatsby'
+import React from "react"
+import { graphql } from "gatsby"
 
-import GeneralLayout from './../components/layouts/GeneralLayout'
-import FeaturedClients from './../components/organisms/FeaturedClients'
-import FilteredCaseStudies from './../components/FilteredCaseStudies'
-import GlobalQuoteSlider from './../components/organisms/GlobalQuoteSlider'
-import SectionTitle from './../components/atoms/SectionTitle'
+import GeneralLayout from "./../components/layouts/GeneralLayout"
+import FeaturedClients from "./../components/organisms/FeaturedClients"
+import FilteredCaseStudies from "./../components/FilteredCaseStudies"
+import GlobalQuoteSlider from "./../components/organisms/GlobalQuoteSlider"
+import SectionTitle from "./../components/atoms/SectionTitle"
 
 const CaseStudies = ({ data }) => {
   const { markdownRemark, allMarkdownRemark } = data
   const { edges } = allMarkdownRemark
   const { quotes, quotes_title } = markdownRemark.frontmatter
 
-  let allTags = [
-    'All',
-    'UX',
-    'Open Data',
-    'Security and Compliance',
-    'Support',
-    'Drupal',
-    'DevOps',
-    'Education Services',
-    'Quality Assurance',
-    'Innovation Lab',
+  const allTags = [
+    `All`,
+    `UX`,
+    `Open Data`,
+    `Security and Compliance`,
+    `Support`,
+    `Drupal`,
+    `DevOps`,
+    `Education Services`,
+    `Quality Assurance`,
+    `Innovation Lab`,
   ]
 
   return (

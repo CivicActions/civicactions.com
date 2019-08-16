@@ -1,7 +1,7 @@
-import React from 'react'
-import Img from 'gatsby-image'
-import Link from 'gatsby-link'
-import PropTypes from 'prop-types'
+import React from "react"
+import Img from "gatsby-image"
+import Link from "gatsby-link"
+import PropTypes from "prop-types"
 
 const TeaserGrid = ({ image, link, name, published, title }) => {
   const previewImage = image ? (
@@ -14,7 +14,7 @@ const TeaserGrid = ({ image, link, name, published, title }) => {
     <div className="teaser-grid--wrapper">
       <div className="teaser-grid">
         {// Just show a link if the element fulfills the right criteria.
-        published && link !== '/' ? (
+        published && link !== `/` ? (
           <Link to={link} title={`Link to ${name}'s profile page`}>
             {previewImage}
           </Link>
@@ -24,7 +24,7 @@ const TeaserGrid = ({ image, link, name, published, title }) => {
         <div className="teaser-grid__text">
           <div className="teaser-grid__name teaser__link">
             {// Just show a link if the element fulfills the right criteria.
-            published && link !== '/' ? (
+            published && link !== `/` ? (
               <Link to={link} title={`Link to ${name}'s profile page`}>
                 {name}
               </Link>
