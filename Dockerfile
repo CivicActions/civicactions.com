@@ -28,7 +28,7 @@ FROM env as app
 ARG GATSBY_JAZZ_URL
 
 COPY package.json yarn.lock ./
-RUN yarn install --pure-lockfile
+RUN yarn install --frozen-lockfile
 COPY . .
 RUN yarn lint-code
 # TODO: Fix warnings and add eslint-code here also.
