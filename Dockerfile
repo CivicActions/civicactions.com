@@ -51,8 +51,8 @@ RUN find /srv -type f -a \( -name '*.html' -o -name '*.css' -o -name '*.js' \
 # Lossless image compression
 #
 FROM bardiir/auto-caesium:latest as appzz
-COPY --from=appz /srv /srv
-RUN ln -s /srv /caesium && /caesiumbin/entrypoint.sh
+COPY --from=appz /srv /caesium
+RUN /caesiumbin/entrypoint.sh
 
 #
 # Package site into web server
@@ -75,6 +75,6 @@ COPY --from=builder /go/bin/parent /bin/parent
 COPY Caddyfile* /etc/
 
 # Install application from appzz stage.
-COPY --from=appzz /srv /srv
+COPY --from=appzz /caesium /srv
 
 CMD ["/bin/parent", "caddy", "--conf", "/etc/Caddyfile", "--log", "stdout", "--agree=true"]
