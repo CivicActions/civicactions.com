@@ -30,7 +30,9 @@ ARG GATSBY_JAZZ_URL
 COPY package.json yarn.lock ./
 RUN yarn install --pure-lockfile
 COPY . .
-RUN yarn lint
+RUN yarn lint-code
+# TODO: Fix warnings and add eslint-code here also.
+RUN yarn lint-styles
 RUN yarn build
 RUN yarn test
 

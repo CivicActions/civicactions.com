@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
 # List of CLI tools to be made available.
-CLI_TOOLS="gatsby yarn node"
+CLI_TOOLS="gatsby yarn node jest sass-lint prettier eslint prettier-eslint prettier-stylelint"
 
 if [ -n "$ZSH_VERSION" ]; then
   SHELL_TYPE="zsh"

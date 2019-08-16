@@ -21,6 +21,9 @@
     "gh-pages": "^2",
     "lodash": "^4.17",
     "node-sass": "^4.9.3",
+    "postcss-scss": "^2.0.0",
+    "prettier-eslint-cli": "^5.0.0",
+    "prettier-stylelint": "^0.4.2",
     "prop-types": "^15.6.2",
     "react": "^16.4.1",
     "react-dom": "^16.4.1",
@@ -29,6 +32,10 @@
     "react-slick": "^0.25",
     "react-stack-grid": "^0.7.1",
     "sass-rem": "^2.0.1",
+    "stylelint": "^10.1.0",
+    "stylelint-config-standard": "^18.3.0",
+    "stylelint-no-browser-hacks": "^1.2.1",
+    "stylelint-order": "^3.0.1",
     "typeface-lato": "0.0.75",
     "typeface-ubuntu": "0.0.65",
     "uswds": "^1.6.6",
@@ -43,11 +50,14 @@
     "build": "gatsby build",
     "develop": "gatsby develop",
     "clean": "gatsby clean",
-    "format": "prettier --write 'src/**/*.js' '*.js'",
-    "lint": "prettier --check 'src/**/*.js' '*.js'",
+    "fix-code": "prettier-eslint --write 'src/**/*.{js,jsx}' '*.js' ",
+    "fix-styles": "prettier-stylelint --quiet --write 'src/**/*.{css,scss}' ",
+    "lint-code": "prettier --check 'src/**/*.{js,jsx}' '*.js' ",
+    "eslint-code": "eslint 'src/**/*.{js,jsx}' '*.js' ",
+    "lint-styles": "prettier-stylelint --quiet 'src/**/*.{css,scss}' ",
     "test": "jest",
     "deploy": "gatsby build --prefix-paths && gh-pages -d public",
-    "sass-lint": "sass-lint -c .sass-lint.yml 'src/sass/**/*.scss' -v -q"
+    "lint-sass": "sass-lint -c .sass-lint.yml 'src/sass/**/*.scss' -v -q"
   },
   "jest": {
     "transform": {
@@ -76,7 +86,7 @@
     "babel-jest": "^24",
     "identity-obj-proxy": "^3.0.0",
     "jest": "^24",
-    "prettier": "^1.12.0",
+    "prettier": "^1.18",
     "react-test-renderer": "^16.4.2",
     "sass-lint": "^1.12.1"
   },
