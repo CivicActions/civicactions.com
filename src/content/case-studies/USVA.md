@@ -5,7 +5,7 @@ title: "Sharing data to support veterans"
 client_name: "U.S. Department of Veterans Affairs"
 preview_image: USVA_preview.jpg
 project: "USVA Open Data"
-website: "https://www.data.va.gov"
+website: 
 background_section_title: "Veteran data needs improvement"
 background_section: "The open data portal for U.S. Department of Veterans Affairs (USVA) is one of the most prominent and important sites in the open data landscape. It is used to meet federal open data requirements and also to share information about veterans and their services with those who will use the data to help veterans. The site is powered by DKAN, an open source open data platform used by many governments around the world to publish data."
 background_section_second: "USVA’s open data portal was struggling to reach its full potential. The agency required help to improve the usability and accuracy of its data, and also needed to train new staff (with varying technical abilities) on how to upload and manage data properly. CivicActions, as the maintaining organization for DKAN, stepped in to provide support and partnership to the dedicated USVA open data team."
@@ -68,9 +68,7 @@ The USVA data portal houses thousands of datasets. We trained agency staff to us
 
 
 ### Explore
-##### See the data
-[Data.va.gov](https://www.data.va.gov/)  
-
+  
 ##### Learn about DKAN open data
 [Visit getDKAN.org](https://getdkan.org/)
 
