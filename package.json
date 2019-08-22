@@ -48,7 +48,7 @@
   "license": "MIT",
   "scripts": {
     "build": "gatsby build",
-    "develop": "gatsby develop",
+    "develop": "gatsby develop --host=0.0.0.0",
     "clean": "gatsby clean",
     "fix-code": "prettier-eslint --write 'src/**/*.{js,jsx}' '*.js' ",
     "fix-styles": "prettier-stylelint --quiet --write 'src/**/*.{css,scss}' ",
