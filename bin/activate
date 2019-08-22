@@ -49,7 +49,7 @@ docker build --tag home-sandbox --target env .
 
 echo
 echo "Adding aliases for CLI tools: ${CLI_TOOLS}"
-CONTAINER="docker run --rm -it -p 8000:8000 -v ${GIT_ROOT}:/usr/src/app -e GATSBY_JAZZ_URL='development' home-sandbox:latest"
+CONTAINER="docker run --rm -it -u $(id -u):$(id -g) -p 8000:8000 -v ${GIT_ROOT}:/usr/src/app -e GATSBY_JAZZ_URL='development' home-sandbox:latest"
 for CLI_TOOL in ${CLI_TOOLS[@]}; do
   alias ${CLI_TOOL}="${CONTAINER} ${CLI_TOOL}"
 done
