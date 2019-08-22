@@ -79,7 +79,7 @@ git remote add myfork [link used to clone your fork]
 
 4. Create a new local branch with the naming convention `CA-xx(ticket number)-brief-ticket-title` and commit your changes to the ticket branch.
 5. After working, run `git pull --rebase origin master` to pull in the latest changes.
-6. Run `yarn install` to update the site with any new plugins.
+6. Follow the instructions above to activate.
 7. Run `yarn develop` to make sure the site builds as expected.
 8. Push your changes to your fork `git push myfork`.
 9. Create a PR in the main repo.
