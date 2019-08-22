@@ -2,22 +2,22 @@
   margin-bottom: rem(100px);
 
   &__title {
-    color: $color-secondary;
     text-transform: capitalize;
+    color: $color-secondary;
 
     // Red border above section title
     &::before {
-      content: '';
+      display: block;
       width: 100px;
       height: 10px;
+      content: "";
       background-color: $color-secondary;
-      display: block;
     }
   }
 
   &__subtitle {
-    font-size: $lead-font-size;
     padding-bottom: $section-subtitle-bottom-margin;
+    font-size: $lead-font-size;
   }
 
   //-------------------------------------
@@ -40,7 +40,6 @@
     }
 
     @media screen and (min-width: $small-screen) {
-
       &--quote {
         @include span-columns(4);
       }
@@ -57,21 +56,9 @@
   //-------------------------------------
 
   &__recent-posts {
-    @media all and (min-width: $medium-screen) {
-
-      .section__title--wrapper {
-        @include span-columns(4);
-      }
-
-      .teaser--wrapper {
-        @include span-columns(7);
-        @include shift(1);
-      }
-    }
-
-
     &.right-flipped {
       @include neutral-hex-bg;
+
       margin-bottom: 0;
 
       @media all and (min-width: $medium-screen) {
@@ -84,6 +71,17 @@
         }
       }
     }
+
+    @media all and (min-width: $medium-screen) {
+      .section__title--wrapper {
+        @include span-columns(4);
+      }
+
+      .teaser--wrapper {
+        @include span-columns(7);
+        @include shift(1);
+      }
+    }
   }
 
   //-------------------------------------
@@ -93,8 +91,8 @@
   &__recent-posts-careers {
     @media all and (min-width: $medium-screen) {
       .teaser--wrapper {
+        overflow: hidden;
         padding-top: 3.4rem;
-        overflow:hidden;
       }
     }
   }
@@ -104,8 +102,8 @@
   //-------------------------------------
 
   &__specs {
-    background-color: $neutral;
     padding: $section-margin 0;
+    background-color: $neutral;
   }
 
   //---- CASE STUDY LANDING PAGE
@@ -115,9 +113,11 @@
     justify-content: space-between;
     .teaser--case-study--wrapper {
       flex: 1;
+
       @include media($small-screen) {
         min-width: 100%;
         max-width: 100%;
+
         @include media($medium-screen) {
           min-width: 30%;
           max-width: 30%;
@@ -148,11 +148,10 @@
   // BENEFITS INTRO SECTION ON THE CAREERS PAGE
   //-------------------------------------------
   &__benefits {
-
     &--intro-text {
-      font-size: $lead-font-size;
       max-width: $text-max-width;
       margin-bottom: $section-margin;
+      font-size: $lead-font-size;
 
       p {
         margin-top: 0;
@@ -160,16 +159,14 @@
     }
   }
 
-
   //-------------------------------------
   // FEATURES INTRO SECTION ON THE DKAN OPEN DATA PAGE
   //-------------------------------------------
   &__features {
-
     &--intro-text {
-      font-size: $lead-font-size;
       max-width: $text-max-width;
       margin-bottom: $section-margin;
+      font-size: $lead-font-size;
 
       p {
         margin-top: 0;
@@ -181,8 +178,8 @@
   // FILTERS ON CASE STUDY LANDING PAGE
   //------------------------------------------------------------
   &__tag-filters {
-    margin-bottom: rem(40px);
     margin-top: -($section-margin * 2);
+    margin-bottom: rem(40px);
     padding: rem(36px) 3rem;
   }
 
@@ -197,11 +194,11 @@
   // RELATED CASE STUDIES SECTION
   //------------------------------------------------------------
   &__related-content {
-    background-color: $neutral;
     position: relative;
     margin-top: $section-margin;
     margin-bottom: 0;
     padding-bottom: $section-margin;
+    background-color: $neutral;
   }
 
   &__related-content--no-bg {
@@ -224,8 +221,8 @@
 }
 
 .neutral {
-  background-color: $neutral;
   padding-bottom: $section-margin;
+  background-color: $neutral;
 }
 
 //------------------------------------------------------------
@@ -242,9 +239,11 @@
     @media screen and (min-width: $small-screen) and (max-width: $medium-screen) {
       width: 33%;
     }
+
     @media screen and (min-width: $medium-screen) and (max-width: $medium-large-screen) {
       width: 20%;
     }
+
     @media screen and (min-width: $medium-large-screen) {
       width: 15%;
     }
@@ -267,11 +266,11 @@
     }
   }
 
-//------------------------------------------------------------
-// Iframe border
-//------------------------------------------------------------
+  //------------------------------------------------------------
+  // Iframe border
+  //------------------------------------------------------------
 
-// Remove default border, set by chrome user agent.
+  // Remove default border, set by chrome user agent.
   iframe {
     border: 0;
   }
@@ -292,7 +291,10 @@
 
   // Sections with netural bg that need bottom padding
   @include media(760px) {
-    &__approach, &__careers, &__contact, &__values {
+    &__approach,
+    &__careers,
+    &__contact,
+    &__values {
       padding-bottom: $section-margin;
     }
   }
@@ -307,23 +309,25 @@
     top: -4rem;
   }
 
-  @media all and (max-width: $small-screen) {
-    // Avoid text overlapping over the image on mobile.
-    &.section__government-services .section__title--wrapper {
-      position: static !important;
-      top: 0;
-    }
-  }
-
-
   &.section__recent-posts-careers .section__title--wrapper {
     position: relative;
     top: 0;
     margin-top: -2.4em;
   }
 
-  .related-content__list, .teaser, .section__benefits--intro-text, .section__features--intro-text {
+  .related-content__list,
+  .teaser,
+  .section__benefits--intro-text,
+  .section__features--intro-text {
     padding-top: $site-margins * 2;
+  }
+
+  @media all and (max-width: $small-screen) {
+    // Avoid text overlapping over the image on mobile.
+    &.section__government-services .section__title--wrapper {
+      position: static !important;
+      top: 0;
+    }
   }
 
   @media all and (max-width: $small-screen) {
@@ -340,7 +344,7 @@
       padding-top: $site-margins * 4;
     }
     .related-content__list {
-      padding-top: $site-margins * 3
+      padding-top: $site-margins * 3;
     }
   }
 

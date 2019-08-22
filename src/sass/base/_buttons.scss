@@ -10,9 +10,9 @@ $outline: -1px 1px 6px 3px $color-primary-alt-lightest;
 // This mixin is only needed until we fully remove the
 // deprecated usa-button-disabled style.
 @mixin disabledesque {
-  background-color: #acacac;
   pointer-events: none;
   color: #3f3e3e;
+  background-color: #acacac;
   font-family: $font-sans;
   font-size: rem(19px);
   font-weight: 900;
@@ -23,8 +23,8 @@ $outline: -1px 1px 6px 3px $color-primary-alt-lightest;
   &.usa-button-active,
   &:focus,
   &.usa-focus {
-    background-color: $color-gray-lighter;
     border: 0;
+    background-color: $color-gray-lighter;
     box-shadow: none;
   }
 }
@@ -38,36 +38,36 @@ $outline: -1px 1px 6px 3px $color-primary-alt-lightest;
 .usa-button:visited,
 .usa-button-primary:visited,
 button,
-[type=button],
-[type=submit],
-[type=reset],
-[type=image] {
+[type="button"],
+[type="submit"],
+[type="reset"],
+[type="image"] {
   @include font-smoothing;
   @include margin(0.5em 0.5em 0.5em null);
-  appearance: none;
-  background-color: $color-primary;
+
+  display: inline-block;
+  width: auto;
+  padding: 1rem 2rem;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  color: $color-white;
   border: 0;
   border-radius: $button-border-radius;
-  color: $color-white;
-  cursor: pointer;
-  display: inline-block;
+  background-color: $color-primary;
+  box-shadow: $drop-shadow $color-primary-darkest;
   font-family: $font-sans;
   font-size: $base-font-size;
   font-weight: $font-bold;
   line-height: 1;
-  padding: 1rem 2rem;
-  text-align: center;
-  text-decoration: none;
-  width: auto;
-  box-shadow: $drop-shadow $color-primary-darkest;
+  appearance: none;
 
   &:hover,
   &.usa-button-hover {
-    background-color: $color-primary-darkest;
-    border-bottom: 0;
-    color: $color-white;
     text-decoration: none;
-
+    color: $color-white;
+    border-bottom: 0;
+    background-color: $color-primary-darkest;
   }
 
   &:active,
@@ -82,8 +82,8 @@ button,
   }
 
   &.usa-button-primary-alt {
-    background-color: $color-primary-alt;
     color: $color-base;
+    background-color: $color-primary-alt;
 
     &:hover,
     &.usa-button-hover {
@@ -92,36 +92,36 @@ button,
 
     &:active,
     &.usa-button-active {
-      background-color: $color-primary-alt-darkest;
       color: $color-white;
+      background-color: $color-primary-alt-darkest;
     }
   }
 
   &.usa-button-secondary {
+    color: $color-primary;
+    border: 2px solid $color-primary;
     background-color: $color-white;
     box-shadow: $drop-shadow $color-primary;
-    border: 2px solid $color-primary;
-    color: $color-primary;
 
     &:hover,
     &.usa-button-hover {
-      box-shadow: $drop-shadow $color-primary-darkest;
       color: $color-primary-darkest;
       background-color: $color-primary-extralight;
+      box-shadow: $drop-shadow $color-primary-darkest;
     }
 
     &:focus,
     &.usa-focus {
-      box-shadow: $drop-shadow $color-primary-darkest, $outline;
       color: $color-primary-darkest;
       outline: none;
+      box-shadow: $drop-shadow $color-primary-darkest, $outline;
     }
 
     &:active,
     &.usa-button-active {
       color: $white;
-      background-color: $color-primary-darkest;
       border-color: $color-primary-darkest;
+      background-color: $color-primary-darkest;
       box-shadow: none;
 
       > a {
@@ -139,21 +139,22 @@ button,
   }
 
   &.usa-button-secondary-inverse,
-  &.usa-button-outline-inverse {    // Outline inverse to be deprecated in 2.0
+  &.usa-button-outline-inverse {
+    color: $color-white;
+    // Outline inverse to be deprecated in 2.0
     background: transparent;
     box-shadow: $button-stroke $color-white;
-    color: $color-white;
 
     &:hover,
     &.usa-button-hover {
-      box-shadow: $button-stroke $color-gray-lighter;
       color: $color-gray-lighter;
+      box-shadow: $button-stroke $color-gray-lighter;
     }
 
     &:active,
     &.usa-button-active {
-      box-shadow: $button-stroke $color-gray-light;
       color: $color-gray-lighter;
+      box-shadow: $button-stroke $color-gray-light;
     }
   }
 
@@ -172,10 +173,10 @@ button,
   }
 
   &.usa-button-navy {
+    color: $color-primary;
+    border: 2px solid $navy;
     background-color: $navy;
     box-shadow: $drop-shadow $navy;
-    border: 2px solid $navy;
-    color: $color-primary;
 
     a,
     a:visited {
@@ -184,10 +185,10 @@ button,
 
     &:hover,
     &.usa-button-hover {
+      color: darken($navy, 5%);
+      border: 2px solid darken($navy, 5%);
       background-color: darken($navy, 5%);
       box-shadow: $drop-shadow darken($navy, 5%);
-      border: 2px solid darken($navy, 5%);
-      color: darken($navy, 5%);
 
       a,
       a:visited {
@@ -221,9 +222,9 @@ button,
   }
 
   &.usa-button-big {
+    padding: 1.5rem 3rem;
     border-radius: 8px;
     font-size: 2.4rem;
-    padding: 1.5rem 3rem;
   }
 
   &:disabled {
@@ -237,8 +238,7 @@ button,
 }
 /* stylelint-disable */
 
-.usa-button-disabled  // Deprecated
-{
+.usa-button-disabled {
   @include disabledesque;
 }
 
@@ -246,10 +246,11 @@ button,
 .usa-button-secondary-inverse-disabled,  // Deprecated
 .usa-button-secondary:disabled,
 .usa-button-secondary-inverse:disabled,
-.usa-button-outline-inverse:disabled {   // Outline inverse to be deprecated in 2.0
-  box-shadow: $button-stroke $color-gray-lighter;
+.usa-button-outline-inverse:disabled {
   pointer-events: none;
   color: $color-gray-lighter;
+  // Outline inverse to be deprecated in 2.0
+  box-shadow: $button-stroke $color-gray-lighter;
 
   &:hover,
   &.usa-button-hover,
@@ -257,8 +258,8 @@ button,
   &.usa-button-active,
   &:focus,
   &.usa-focus {
-    background-color: $color-white;
     border: 0;
+    background-color: $color-white;
   }
 }
 
@@ -269,19 +270,19 @@ html .usa-button-secondary-disabled,          // Deprecated
 
 html .usa-button-secondary-inverse-disabled,  // Deprecated
 .usa-button-secondary-inverse:disabled {
-  background-color: transparent;
   color: $color-gray;
+  background-color: transparent;
   box-shadow: $button-stroke $color-gray;
 }
 
 @mixin button-unstyled {
-  background-color: transparent;
-  border: 0;
-  border-radius: 0;
-  font-weight: $font-normal;
   margin: 0;
   padding: 0;
   text-align: left;
+  border: 0;
+  border-radius: 0;
+  background-color: transparent;
+  font-weight: $font-normal;
   -webkit-font-smoothing: auto;
 
   &:hover {
@@ -303,42 +304,42 @@ a.link-button {
   }
 
   &.usa-button-navy:hover {
+    color: darken($navy, 5%);
+    border: 2px solid darken($navy, 5%);
     background-color: darken($navy, 5%);
     box-shadow: $drop-shadow darken($navy, 5%);
-    border: 2px solid darken($navy, 5%);
-    color: darken($navy, 5%);
   }
 }
 
 // Simple
 a.link-button--secondary {
   @extend a.link-button;
+
+  color: $color-primary !important;
+  border: 2px solid $color-primary !important;
   background-color: $color-white !important;
   box-shadow: $drop-shadow $color-primary !important;
-  border: 2px solid $color-primary !important;
-  color: $color-primary !important;
 
   &:hover {
-    box-shadow: $drop-shadow $color-primary-darkest !important;
     color: $color-primary-darkest !important;
     background-color: $color-primary-extralight !important;
+    box-shadow: $drop-shadow $color-primary-darkest !important;
   }
 
   &:focus {
-    background-color: $color-gray-lighter !important;
     border: 0 !important;
+    background-color: $color-gray-lighter !important;
     box-shadow: none !important;
   }
 
   &:active {
     color: $white !important;
-    background-color: $color-primary-darkest !important;
     border-color: $color-primary-darkest !important;
+    background-color: $color-primary-darkest !important;
     box-shadow: none !important;
   }
 
   &:after {
-    content: url('./../files/icons/external-link-pressed.svg') !important;
+    content: url("./../files/icons/external-link-pressed.svg") !important;
   }
-
 }

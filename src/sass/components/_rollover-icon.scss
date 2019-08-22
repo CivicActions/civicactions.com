@@ -2,21 +2,20 @@
   &__rollover_text {
     display: none;
     flex-wrap: wrap;
-    justify-content: center;
     align-items: center;
-
-    font-family: $font-sans;
-    font-weight: $font-bold;
-    font-size: $h6-font-size;
-    line-height: 1.1;
+    justify-content: center;
     text-align: center;
     color: $navy;
+    font-family: $font-sans;
+    font-size: $h6-font-size;
+    font-weight: $font-bold;
+    line-height: 1.1;
   }
 
   &__wrapper {
-    height: 67px;
-    width: 67px;
     display: inline-block;
+    width: 67px;
+    height: 67px;
     margin: 15px;
     vertical-align: top;
     &:hover {
@@ -33,10 +32,10 @@
     a {
       &.external-link {
         &::after {
-          content: '';
           display: inline-block;
-          height: 15px;
           width: 10px;
+          height: 15px;
+          content: "";
         }
       }
     }

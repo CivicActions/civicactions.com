@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
 # List of CLI tools to be made available.
-CLI_TOOLS="gatsby yarn node"
+CLI_TOOLS="gatsby yarn node jest sass-lint prettier eslint prettier-eslint prettier-stylelint"
 
 if [ -n "$ZSH_VERSION" ]; then
   SHELL_TYPE="zsh"
@@ -18,10 +18,6 @@ fi
 
 if [ -f ./.env ]; then
   source ./.env
-fi
-if [ "$GATSBY_JAZZ_URL" = "" ]; then
-  echo 'ERROR: Please set your Jazz API URL using `echo GATSBY_JAZZ_URL=urlvalue >> .env`'
-  return
 fi
 
 DOCKER_VERSION_CHECK="$(docker version --format '{{ printf "%.5s" .Server.Version }}') <= 17.05"
@@ -53,11 +49,11 @@ docker build --tag home-sandbox --target env .
 
 echo
 echo "Adding aliases for CLI tools: ${CLI_TOOLS}"
-CONTAINER="docker run --rm -it -p 8000:8000 -v ${GIT_ROOT}:/usr/src/app -e GATSBY_JAZZ_URL=${GATSBY_JAZZ_URL} home-sandbox:latest"
+CONTAINER="docker run --rm -it -u $(id -u):$(id -g) -p 8000:8000 -v ${GIT_ROOT}:/usr/src/app -e GATSBY_JAZZ_URL='development' home-sandbox:latest"
 for CLI_TOOL in ${CLI_TOOLS[@]}; do
   alias ${CLI_TOOL}="${CONTAINER} ${CLI_TOOL}"
 done
-alias fullbuild="docker build --tag home-full --build-arg GATSBY_JAZZ_URL=$GATSBY_JAZZ_URL . && docker run --rm -it -p 8000:80 home-full:latest"
+alias fullbuild="docker build --tag home-full --build-arg GATSBY_JAZZ_URL='development' . && docker run --rm -it -p 8000:80 home-full:latest"
 
 echo
 echo "Installing NPM packages with yarn"

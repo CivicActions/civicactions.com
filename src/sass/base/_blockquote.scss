@@ -1,8 +1,8 @@
 .blockquote__wrapper {
+  margin-top: $section-margin;
+  margin-bottom: $section-margin;
   background: no-repeat left center;
   background-size: 37px;
-  margin-bottom: $section-margin;
-  margin-top: $section-margin;
 
   &.home__content--wrapper {
     @include flex-item;
@@ -20,17 +20,15 @@
         max-width: 132px;
       }
     }
-
-
   }
 
   &__text {
-    margin-left: 10px;
     display: inline-block;
     width: calc(100% - 50px);
-    font-size: $lead-font-size;
+    margin-left: 10px;
     padding-left: 0;
     background-image: none;
+    font-size: $lead-font-size;
   }
 
   &__icon {
@@ -38,7 +36,6 @@
     //margin-top: 1em;
     vertical-align: top;
   }
-
 }
 
 .blockquote__wrapper {
@@ -46,40 +43,37 @@
 }
 
 blockquote {
-  font-style: italic;
   margin: 0;
-  font-size: $h3-font-size;
   margin-left: -80px;
   padding-left: 80px;
   background: no-repeat left top;
+  background-image: url('data:image/svg+xml;utf8,<svg width="24" height="20" xmlns="http://www.w3.org/2000/svg"><path d="M10.053 3.717c-1.71.874-2.992 1.871-3.848 2.993-.855 1.12-1.282 2.536-1.282 4.246.114-.038.304-.057.57-.057 1.216 0 2.251.37 3.107 1.112.855.74 1.282 1.757 1.282 3.049 0 1.444-.418 2.584-1.254 3.42-.836.836-1.881 1.254-3.135 1.254-1.786 0-3.125-.655-4.019-1.967-.893-1.31-1.339-3.144-1.339-5.5 0-2.698.665-5.073 1.995-7.125C3.46 3.09 5.493 1.399 8.229.069l1.824 3.648zm13.452 0c-1.71.874-2.992 1.871-3.848 2.993-.855 1.12-1.282 2.536-1.282 4.246.114-.038.304-.057.57-.057 1.216 0 2.251.37 3.107 1.112.855.74 1.282 1.757 1.282 3.049 0 1.444-.418 2.584-1.254 3.42-.836.836-1.881 1.254-3.135 1.254-1.786 0-3.125-.655-4.018-1.967-.894-1.31-1.34-3.144-1.34-5.5 0-2.698.665-5.073 1.995-7.125 1.33-2.052 3.363-3.743 6.099-5.073l1.824 3.648z" fill="#DB1B3B" fill-rule="evenodd"/></svg>');
   background-size: 50px;
-  background-image: url(
-  'data:image/svg+xml;utf8,<svg width="24" height="20" xmlns="http://www.w3.org/2000/svg"><path d="M10.053 3.717c-1.71.874-2.992 1.871-3.848 2.993-.855 1.12-1.282 2.536-1.282 4.246.114-.038.304-.057.57-.057 1.216 0 2.251.37 3.107 1.112.855.74 1.282 1.757 1.282 3.049 0 1.444-.418 2.584-1.254 3.42-.836.836-1.881 1.254-3.135 1.254-1.786 0-3.125-.655-4.019-1.967-.893-1.31-1.339-3.144-1.339-5.5 0-2.698.665-5.073 1.995-7.125C3.46 3.09 5.493 1.399 8.229.069l1.824 3.648zm13.452 0c-1.71.874-2.992 1.871-3.848 2.993-.855 1.12-1.282 2.536-1.282 4.246.114-.038.304-.057.57-.057 1.216 0 2.251.37 3.107 1.112.855.74 1.282 1.757 1.282 3.049 0 1.444-.418 2.584-1.254 3.42-.836.836-1.881 1.254-3.135 1.254-1.786 0-3.125-.655-4.018-1.967-.894-1.31-1.34-3.144-1.34-5.5 0-2.698.665-5.073 1.995-7.125 1.33-2.052 3.363-3.743 6.099-5.073l1.824 3.648z" fill="#DB1B3B" fill-rule="evenodd"/></svg>');
+  font-size: $h3-font-size;
+  font-style: italic;
 }
 
 cite {
-  margin-top: $cite-margin;
-  font-size: $base-font-size;
-  font-style: normal;
-  color: $color-secondary;
-  font-weight: bold;
-  text-align: right;
   display: block;
+  margin-top: $cite-margin;
+  text-align: right;
+  color: $color-secondary;
+  font-size: $base-font-size;
+  font-weight: bold;
+  font-style: normal;
 
   &::before {
-    content: '— ';
+    content: "— ";
   }
 }
 
 // Home page content section
 .home__content {
-
   &--text {
     color: $color-secondary;
   }
 
   @media screen and (min-width: $small-screen) {
-
     &--text {
       @include span-columns(4);
     }
@@ -89,22 +83,22 @@ cite {
       @include shift(1 of 12);
     }
   }
-
 }
 
 // section__triple-quotes (home, case-study)
 .section__triple-quotes {
   .blockquote {
     &__image {
-      margin-bottom: 22px;
-      text-align: left;
-      @include shift(2 of 12);
-    }
-    &__text {
-      display: inline-block;
-       @include span-columns(9);
       @include shift(2 of 12);
 
+      margin-bottom: 22px;
+      text-align: left;
+    }
+    &__text {
+      @include span-columns(9);
+      @include shift(2 of 12);
+
+      display: inline-block;
     }
     &__icon {
       position: absolute;
@@ -112,9 +106,10 @@ cite {
     }
   }
   cite {
-    margin-top: 0;
     @include span-columns(10);
     @include shift(2 of 12);
+
+    margin-top: 0;
   }
   blockquote {
     > p {

@@ -1,31 +1,29 @@
 import React, { Component } from "react"
-import config from "../../../data/SiteConfig";
+import config from "../../../data/SiteConfig"
 
 class SocialLinks extends Component {
-    static getLinkElements() {
-        const socialLinks = config.socialLinks;
+  static getLinkElements() {
+    const socialLinks = config.socialLinks
 
-        return socialLinks.map((link) => (
-            <a key = { link.label }
-               href = { link.url }
-               target = "_blank"
-               rel = "external noopener noreferrer"
-               className = { link.iconClassName }  >
-               <span> { link.label } </span>
-            </a>
-        ));
+    return socialLinks.map(link => (
+      <a
+        key={link.label}
+        href={link.url}
+        target="_blank"
+        rel="external noopener noreferrer"
+        className={link.iconClassName}
+      >
+        <span> {link.label} </span>
+      </a>
+    ))
+  }
+  render() {
+    const socialLinks = config.socialLinks
+    if (!socialLinks) {
+      return null
     }
-    render() {
-        const socialLinks = config.socialLinks;
-        if( !socialLinks ) {
-            return null;
-        }
-        return (
-            <div className = "social-links">
-                { SocialLinks.getLinkElements() }
-            </div>
-        );
-    }
+    return <div className="social-links">{SocialLinks.getLinkElements()}</div>
+  }
 }
 
-export default SocialLinks;
+export default SocialLinks

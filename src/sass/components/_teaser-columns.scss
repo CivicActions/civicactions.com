@@ -1,9 +1,10 @@
-
 // Section goverment services on homepage. Teaser overrides.
- .columns--teaser {
+.columns--teaser {
   @media all and (min-width: 600px) {
     > .teaser {
-      > h3, > p, > div:not(.teaser__image--wrapper) {
+      > h3,
+      > p,
+      > div:not(.teaser__image--wrapper) {
         padding: 0 20px;
       }
       > h3 {

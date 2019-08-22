@@ -12,19 +12,20 @@ a {
     text-decoration: none;
   }
   &:focus {
-    box-shadow: none;
     outline: 1px dotted $neutral;
+    box-shadow: none;
 
     main & {
       @include outline;
+
       outline: none;
     }
   }
 }
 
 abbr[title] {
-  border-bottom: 0;
   text-decoration: none;
+  border-bottom: 0;
 }
 
 // Typography
@@ -36,16 +37,17 @@ abbr[title] {
   @extend .text-container;
 
   // 1. Overwrite max-width so that we can have a full-width content
-    max-width: none;
+  max-width: none;
 
   // 2. Set restriction for all tags, so as to have a mostly narrow column
   * {
     max-width: $text-max-width;
-    margin-left: auto;
     margin-right: auto;
+    margin-left: auto;
   }
   // 3. except for these:
-  > div, div > iframe {
+  > div,
+  div > iframe {
     max-width: none;
     margin: 0;
     padding: 0;
@@ -55,10 +57,10 @@ abbr[title] {
   // https://css-tricks.com/NetMag/FluidWidthVideo/Article-FluidWidthVideo.php
   > div {
     position: relative;
-    padding-bottom: 56.25%; /* 16:9 */
-    padding-top: 25px;
     height: 0;
-    > iframe  {
+    padding-top: 25px;
+    padding-bottom: 56.25%; /* 16:9 */
+    > iframe {
       position: absolute;
       top: 0;
       left: 0;
@@ -68,12 +70,9 @@ abbr[title] {
   }
 }
 
-
-
 .visually-hidden {
   @include visually-hidden-text;
 }
-
 
 // Lists
 ul {

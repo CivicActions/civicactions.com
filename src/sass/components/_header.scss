@@ -15,15 +15,14 @@
 
 .logo {
   &__image {
+    max-width: 150px;
+
     @include media($medium-screen) {
       max-width: 200px;
     }
-
-    max-width: 150px;
   }
   span {
     @include visually-hidden-text;
-
   }
 }
 

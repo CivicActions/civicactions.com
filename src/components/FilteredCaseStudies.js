@@ -1,96 +1,100 @@
-import React, { Component } from "react";
+import React, { Component } from "react"
 
-import CaseStudyTeaser from './../components/CaseStudyTeaser';
+import CaseStudyTeaser from "./../components/CaseStudyTeaser"
 
 const defaultProps = {
-  tags: []
-};
+  tags: [],
+}
 
 class FilteredCaseStudies extends Component {
-  static defaultProps = defaultProps;
+  static defaultProps = defaultProps
   constructor(props) {
-    super(props);
+    super(props)
     this.state = {
-      tag: ['All']
-    };
+      tag: [`All`],
+    }
   }
 
   handleClick(e) {
-      let text = e.target.value;
-      let tags = defaultProps.tags;
-      let index = tags.indexOf(text);
+    const text = e.target.value
+    let tags = defaultProps.tags
+    const index = tags.indexOf(text)
 
-      if(index === -1) {
-        tags.push(text);
-        e.target.classList.add('active');
-        document.querySelector('[ value = "All" ]').classList.remove('active');
-      } else {
-        tags.splice(index, 1);
-        e.target.classList.remove('active');
-      }
+    if (index === -1) {
+      tags.push(text)
+      e.target.classList.add(`active`)
+      document.querySelector(`[ value = "All" ]`).classList.remove(`active`)
+    } else {
+      tags.splice(index, 1)
+      e.target.classList.remove(`active`)
+    }
 
-      if(tags.length === 0) {
-          tags = ['All'];
-          document.querySelector('[ value = "All" ]').classList.add('active');
-      }
+    if (tags.length === 0) {
+      tags = [`All`]
+      document.querySelector(`[ value = "All" ]`).classList.add(`active`)
+    }
 
-      this.setState({tag: tags});
+    this.setState({ tag: tags })
   }
 
   render() {
-    const{ posts, allTags } = this.props;
+    const { posts, allTags } = this.props
 
     // The filtered tags are initially set to "All" to display all case studies on page load
     // If a tag is clicked the case studies get filtered
-    const filteredStudies = this.state.tag[0] === 'All' ? posts :
-      posts.filter((item) => {
-      const{ tags } = item.node.frontmatter;
-      return tags.some(v => this.state.tag.includes(v));
-    });
+    const filteredStudies =
+      this.state.tag[0] === `All`
+        ? posts
+        : posts.filter(item => {
+            const { tags } = item.node.frontmatter
+            return tags.some(v => this.state.tag.includes(v))
+          })
 
-    let studyTeasers = filteredStudies.map((item, index) => {
-      const { title, client_name, preview_image, path } = item.node.frontmatter;
-      let image = preview_image !== null ? preview_image.childImageSharp.fixed : null;
+    const studyTeasers = filteredStudies.map((item, index) => {
+      const { title, client_name, preview_image, path } = item.node.frontmatter
+      const image =
+        preview_image !== null ? preview_image.childImageSharp.fixed : null
 
       return (
         <CaseStudyTeaser
-          title = { title }
-          image = { image }
-          client_name = { client_name }
-          link = { path }
-          key = { index }
+          title={title}
+          image={image}
+          client_name={client_name}
+          link={path}
+          key={index}
         />
       )
-    });
+    })
 
-    const renderStudies = filteredStudies.length === 0 ?
-      `There are no case studies tagged ${ this.state.tag }` : studyTeasers;
+    const renderStudies =
+      filteredStudies.length === 0
+        ? `There are no case studies tagged ${this.state.tag}`
+        : studyTeasers
 
-    const filterTags = allTags.map((tag, index) => {
-      return (
-        <button className = "tags" onClick={ this.handleClick.bind(this)} value = { tag }>
-          { tag }
-        </button>
-      )
-    });
+    const filterTags = allTags.map((tag, index) => (
+      <button
+        className="tags"
+        onClick={this.handleClick.bind(this)}
+        value={tag}
+      >
+        {tag}
+      </button>
+    ))
 
     return (
       <div>
-        <div className = "section__tag-filters__wrapper">
-            <section className = "section usa-grid section__tag-filters">
-                <h4>Filter by: </h4>
-                { filterTags }
-            </section>
+        <div className="section__tag-filters__wrapper">
+          <section className="section usa-grid section__tag-filters">
+            <h4>Filter by: </h4>
+            {filterTags}
+          </section>
         </div>
-        <section className = "section usa-grid section__case-studies">
-          { renderStudies }
+        <section className="section usa-grid section__case-studies">
+          {renderStudies}
         </section>
       </div>
-
-  )
+    )
   }
-
-
 }
 
 export default FilteredCaseStudies

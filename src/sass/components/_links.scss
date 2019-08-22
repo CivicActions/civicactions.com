@@ -2,26 +2,27 @@ a.external-link {
   display: inline-block;
   &:after {
     margin-left: 5px;
-    content: url('./../files/icons/external-link-hover.svg');
+    content: url("./../files/icons/external-link-hover.svg");
   }
   &:hover {
     &:after {
-      content: url('./../files/icons/external-link-hover.svg');
+      content: url("./../files/icons/external-link-hover.svg");
     }
   }
   &:active {
     &:after {
-      content: url('./../files/icons/external-link-pressed.svg');
+      content: url("./../files/icons/external-link-pressed.svg");
     }
   }
 }
 
 // This should be replaced by "a.link-button" - see below.
-.usa-button-navy, .usa-button {
+.usa-button-navy,
+.usa-button {
   a.external-link {
     &:after {
       margin-left: 5px;
-      content: url('./../files/icons/external-link.svg');
+      content: url("./../files/icons/external-link.svg");
     }
   }
 }
@@ -30,20 +31,21 @@ a.external-link {
 a.link-button.external-link {
   &:after {
     margin-left: 5px;
-    content: url('./../files/icons/external-link.svg');
+    content: url("./../files/icons/external-link.svg");
   }
 }
 
-.footer, .usa-nav {
+.footer,
+.usa-nav {
   a.external-link {
     display: inline-block;
     &:after {
       margin-left: 5px;
-      content: url('./../files/icons/external-link.svg');
+      content: url("./../files/icons/external-link.svg");
     }
     &:active {
       &:after {
-        content: url('./../files/icons/external-link-pressed.svg');
+        content: url("./../files/icons/external-link-pressed.svg");
       }
     }
   }
@@ -53,7 +55,7 @@ a.link-button.external-link {
   a.external-link {
     &:hover {
       &:after {
-        content: url('./../files/icons/external-link.svg');
+        content: url("./../files/icons/external-link.svg");
         color: $white;
       }
     }

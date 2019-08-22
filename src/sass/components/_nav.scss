@@ -1,59 +1,37 @@
 .usa-nav {
-  @include media($nav-width) {
-    background: transparent;
-    padding-top: $spacing-md-small;
-  }
-
-  @media screen and (max-width: $nav-width) {
-    background: $teal;
-    width: 100%;
-    border-left: none;
-    padding: $spacing-md-small;
-    button.usa-nav-close {
-      box-shadow: none;
-      color: $white;
-      margin: -5.3rem -0.5rem 1.5rem auto;
-      font-weight: $font-bold;
-      width: 62px;
-    }
-    button.usa-nav-link {
-      font-weight: $font-bold;
-    }
-    .usa-nav-primary {
-      margin-top: 0;
-    }
-
-  }
   .mobile-nav--logo {
-    border-top: 5px solid $coral;
-    margin-top: -14px;
-    width: 100%;
     display: none;
-    @media screen and (max-width: $nav-width) {
-      display: block;
-    }
+    width: 100%;
+    margin-top: -14px;
+    border-top: 5px solid $coral;
     .logo__image {
       width: 108px;
     }
-    .mobile-nav--logo-container, .mobile-nav--close--container{
-      padding-top: $spacing-medium;
+    .mobile-nav--logo-container,
+    .mobile-nav--close--container {
       width: 50%;
+      padding-top: $spacing-medium;
     }
     .mobile-nav--close--container {
       float: right;
     }
+
+    @media screen and (max-width: $nav-width) {
+      display: block;
+    }
   }
 
   .menu-item {
-    border-top: none;
     position: relative;
+    border-top: none;
     &:hover {
       //@include top-border-large($teal);
       //margin-top: -1rem;
     }
-    button > span, a {
-      font-family: $font-serif;
+    button > span,
+    a {
       color: $white;
+      font-family: $font-serif;
       font-size: $base-font-size;
     }
     button {
@@ -61,15 +39,15 @@
       span {
         display: inline-block;
       }
-      &[aria-expanded=false] {
-        background: url('./../files/icons/arrow-down.svg');
+      &[aria-expanded="false"] {
+        background: url("./../files/icons/arrow-down.svg");
         background-repeat: no-repeat;
         background-position: right 1.5rem top 40%;
         background-size: 1rem;
       }
-      &[aria-expanded=true] {
+      &[aria-expanded="true"] {
         background: transparent;
-        background: url('./../files/icons/arrow-down.svg');
+        background: url("./../files/icons/arrow-down.svg");
         background-repeat: no-repeat;
         background-position: right 1.5rem top 40%;
         background-size: 1rem;
@@ -91,44 +69,72 @@
     }
   }
   .usa-nav-submenu {
-    background: $color-primary;
     padding: 0;
-    @include media($nav-width) {
-      margin-left: $spacing-md-small;
-    }
+    background: $color-primary;
     a {
-      font-family: $font-sans;
-      font-size: $small-font-size;
-      text-decoration: underline;
       padding-top: $spacing-md-small;
       padding-bottom: $spacing-md-small;
+      text-decoration: underline;
+      font-family: $font-sans;
+      font-size: $small-font-size;
       &:hover {
         background: $navy;
       }
       &.usa-current {
         background: $color-primary-darkest;
         font-weight: $font-normal;
+
         @include media($nav-width) {
           padding-left: 1.5rem;
         }
       }
     }
+
+    @include media($nav-width) {
+      margin-left: $spacing-md-small;
+    }
+  }
+
+  @include media($nav-width) {
+    padding-top: $spacing-md-small;
+    background: transparent;
+  }
+
+  @media screen and (max-width: $nav-width) {
+    width: 100%;
+    padding: $spacing-md-small;
+    border-left: none;
+    background: $teal;
+    button.usa-nav-close {
+      width: 62px;
+      margin: -5.3rem -0.5rem 1.5rem auto;
+      color: $white;
+      box-shadow: none;
+      font-weight: $font-bold;
+    }
+    button.usa-nav-link {
+      font-weight: $font-bold;
+    }
+    .usa-nav-primary {
+      margin-top: 0;
+    }
   }
 }
 
 .usa-menu-btn {
-  box-shadow: none;
-  background: transparent;
-  text-transform: none;
-  font-size: $base-font-size;
-  font-weight: $font-bold;
   margin-top: -4.25rem;
   padding-right: 9rem;
+  text-transform: none;
+  background: transparent;
   background: url("./../files/icons/hamburger-menu.svg");
   background-repeat: no-repeat;
   background-position: right 1.5rem top 40%;
   background-size: 2.5rem;
-  &:active, &:focus {
+  box-shadow: none;
+  font-size: $base-font-size;
+  font-weight: $font-bold;
+  &:active,
+  &:focus {
     background: transparent;
     box-shadow: none;
   }
@@ -143,10 +149,9 @@
 .usa-nav-link {
   font-weight: $font-bold;
   &:hover {
-
     span {
-      border-bottom: none;
       padding-bottom: 0;
+      border-bottom: none;
     }
   }
 }

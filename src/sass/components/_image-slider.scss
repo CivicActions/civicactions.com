@@ -1,13 +1,12 @@
 .section__image-slider {
   .slick-list {
-
     // We actually want all the previous and next slides to show,
     // So override this 'react-slick' slick-list overflow property.
     overflow: visible;
 
     @media all and (max-width: 480px) {
-      padding: 0 !important;
       overflow: hidden;
+      padding: 0 !important;
     }
   }
 
@@ -32,11 +31,9 @@
   .slick-dots {
     display: none !important;
 
-
     @include media($medium-screen) {
       right: 145px;
       display: block !important;
-
     }
   }
 
@@ -47,10 +44,10 @@
 
 // Custom pagination styling.
 .slide__custom-dots {
-  display: none;
   position: absolute;
   top: -8px;
   left: -25px;
+  display: none;
 
   .slick-active & {
     display: block;
@@ -60,55 +57,52 @@
 
 // Only display the current slide in small width browsers
 .slide__item {
-  @media all and (max-width: 480px) {
-    width: 100vw;
-    display: none;
-  }
-
   .slick-current & {
     @media all and (max-width: 480px) {
       display: block;
     }
+  }
+
+  @media all and (max-width: 480px) {
+    display: none;
+    width: 100vw;
   }
 }
 
 // Slides
 .slide {
   &__caption {
+    width: 70%;
+    margin-top: 25px;
+    font-size: $small-font-size;
+    font-style: italic;
 
-    @include media($medium-screen){
+    @include media($medium-screen) {
       width: 90%;
     }
 
     @include media($small-screen) {
-      width: 80%
+      width: 80%;
     }
-
-    width: 70%;
-    font-size: $small-font-size;
-    font-style: italic;
-    margin-top: 25px;
   }
 
   &__arrows {
     right: 0;
 
+    > div {
+      display: inline-block;
+      padding: 15px;
+      background: no-repeat center $color-primary;
+      background-size: 17px;
+
+      &.slide__previous {
+        margin-right: 2px;
+        background-size: 10px;
+      }
+    }
+
     @include media($small-screen) {
       right: 70px;
     }
-
-    > div {
-      background: no-repeat center $color-primary;
-      padding: 15px;
-      background-size: 17px;
-      display: inline-block;
-
-      &.slide__previous {
-        background-size: 10px;
-        margin-right: 2px;
-      }
-    }
   }
-
-
 }

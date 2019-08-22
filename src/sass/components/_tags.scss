@@ -1,22 +1,22 @@
 $outline: -1px 1px 6px 3px $color-primary-alt-lightest;
 
 .tags {
+  display: inline-block;
+  padding: 7px $line-height;
   color: $color-secondary;
   border: 2px solid $color-secondary;
-  padding: 7px $line-height;
   border-radius: 20px;
-  display: inline-block;
-  font-weight: bold;
-  font-size: $small-font-size;
 
   // unset button styles
   background-color: $white;
   box-shadow: none;
+  font-size: $small-font-size;
+  font-weight: bold;
 
   &:hover {
-    background-color: $neutral;
     color: $color-secondary-dark;
     border: 2px solid $color-secondary-dark;
+    background-color: $neutral;
   }
 
   &:focus {
@@ -24,12 +24,12 @@ $outline: -1px 1px 6px 3px $color-primary-alt-lightest;
   }
 
   &.active {
-    background-color: $color-secondary;
     color: $white;
+    background-color: $color-secondary;
   }
 
   &:first-of-type {
-    margin-left: 0
+    margin-left: 0;
   }
 }
 

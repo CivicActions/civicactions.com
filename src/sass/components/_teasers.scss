@@ -4,8 +4,8 @@
   }
 
   &__item {
-    list-style: none;
     padding: 2.5rem 0;
+    list-style: none;
     border-bottom: 1px solid;
 
     &:first-child {
@@ -37,8 +37,8 @@
   }
 
   &__image--wrapper {
-    max-height: 180px;
     overflow: hidden;
+    max-height: 180px;
     margin-bottom: 2rem;
   }
 

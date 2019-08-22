@@ -2,6 +2,7 @@
   &--wrapper {
     &:focus {
       @include outline;
+
       outline: none;
     }
 
@@ -11,12 +12,12 @@
   }
 }
 
-
 .teaser-grid__text {
-  color: $navy;
-  text-decoration: none;
   padding: 30px 0 10px;
   padding-left: 10px;
+  text-decoration: none;
+  color: $navy;
+
   @media screen and (min-width: $small-screen) {
     padding-left: 0;
   }
@@ -31,7 +32,8 @@
 }
 
 @media all and (max-width: $small-screen) {
-  .teaser-grid__text, .teaser-grid__image {
+  .teaser-grid__text,
+  .teaser-grid__image {
     @include span-columns(6);
   }
 }
