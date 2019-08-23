@@ -231,7 +231,7 @@
 .section__teaser-grid {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
+  justify-content: flex-start;
 
   .teaser-grid--wrapper {
     width: 100%;
@@ -245,7 +245,7 @@
     }
 
     @media screen and (min-width: $medium-large-screen) {
-      width: 15%;
+      width: 16.5%;
     }
   }
 }
