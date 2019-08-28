@@ -79,6 +79,13 @@ const IndexPage = ({ data }) => {
           <SectionTitle title="See what we've been up to" />
           {mediumPosts}
         </div>
+        <div className="usa-grid align-right">
+          <Link
+            children="Read Our Blog"
+            to="https://medium.com/civicactions"
+            className="link-button"
+          />
+        </div>
       </section>
 
       {/* ------ Modernizing Government Services Section--------*/}
