@@ -34,12 +34,16 @@ const Careers = ({ data }) => {
           <Link to={url}>{job.node.title}</Link>
         </h4>
         <div className="teaser__text">
-          Location: &nbsp;
-          {job.node.city ? job.node.city.trim() : null}
+          Location:&nbsp;
+          <span class="city">
+            {job.node.city ? job.node.city.trim() : null}
+          </span>
           {job.node.city && job.node.state ? `, ` : null}
-          {job.node.state}
+          <span class="state">{job.node.state}</span>
         </div>
-        <div className="teaser__text">Type: {job.node.type}</div>
+        <div className="teaser__text">
+          Type: <span class="type">{job.node.type}</span>
+        </div>
       </li>
     )
   })
