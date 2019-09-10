@@ -29,6 +29,10 @@ ARG GATSBY_JAZZ_URL
 
 COPY package.json yarn.lock ./
 RUN yarn install --frozen-lockfile
+
+# Temporary workaround for Medium CAPTCA issue: https://github.com/gatsbyjs/gatsby/issues/17335#issuecomment-529912619
+RUN sed -i'' -e 's|/latest?format=json|?format=json|g' node_modules/gatsby-source-medium/gatsby-node.js
+
 COPY . .
 RUN yarn lint-code
 # TODO: Fix warnings and add eslint-code here also.
