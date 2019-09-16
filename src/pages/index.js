@@ -13,8 +13,7 @@ import SectionTitle from "../components/atoms/SectionTitle"
 import Link from "./../components/scripts/Link"
 
 const IndexPage = ({ data }) => {
-  const { allMediumPost, markdownRemark, allMarkdownRemark } = data
-  const { group } = allMediumPost
+  const { markdownRemark, allMarkdownRemark } = data
   const { html, frontmatter } = markdownRemark
   const { edges } = allMarkdownRemark
   const {
@@ -24,12 +23,7 @@ const IndexPage = ({ data }) => {
     government_services,
   } = frontmatter
 
-  const mediumCaPosts = _.first(group, edges => edges)
-
-  const mediumPosts = _.map(mediumCaPosts, (post, index) => (
-    <MediumPostList key={{ index }} posts={{ post }} />
-  ))
-
+  
   const governmentServices = _.map(government_services, (item, index) => {
     const { title, image, text, link } = item
     const img = image ? image.childImageSharp.fixed.src : null
@@ -77,7 +71,7 @@ const IndexPage = ({ data }) => {
       <section className="section section__recent-posts">
         <div className="usa-grid">
           <SectionTitle title="See what we've been up to" />
-          {mediumPosts}
+           MEDIUM POSTS
         </div>
         <div className="usa-grid align-right">
           <Link
@@ -116,20 +110,7 @@ const IndexPage = ({ data }) => {
 export default IndexPage
 
 export const mediumQuery = graphql`
-  query mediumPosts {
-    allMediumPost(limit: 3) {
-      group(field: homeCollectionId) {
-        edges {
-          node {
-            id
-            title
-            createdAt(formatString: "MMMM DD, YYYY")
-            uniqueSlug
-          }
-        }
-      }
-    }
-
+  query content {
     markdownRemark(frontmatter: { type: { eq: "home" } }) {
       html
       frontmatter {
