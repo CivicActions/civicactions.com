@@ -24,8 +24,6 @@ const Communities = ({ data }) => {
     dkan_logo,
   } = frontmatter
 
-
-
   const aglLogo = agl_logo ? agl_logo.childImageSharp.resolutions : ``
   const dkanLogo = dkan_logo ? dkan_logo.childImageSharp.resolutions : ``
 
@@ -46,7 +44,7 @@ const Communities = ({ data }) => {
               children={agl_button_text}
               className="link-button external-link"
             />
-           </SectionTitle>
+          </SectionTitle>
           AGL POSTS
         </div>
       </section>
@@ -64,7 +62,7 @@ const Communities = ({ data }) => {
               children={dkan_button_text}
               className="link-button external-link"
             />
-           </SectionTitle>
+          </SectionTitle>
           DKAN POSTS
         </div>
       </section>
@@ -76,7 +74,6 @@ export default Communities
 
 export const communitiesQuery = graphql`
   query communityPosts {
-
     markdownRemark(frontmatter: { title: { eq: "Our Communities" } }) {
       frontmatter {
         agl_button_text

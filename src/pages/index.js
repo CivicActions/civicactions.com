@@ -20,26 +20,28 @@ const IndexPage = ({ data }) => {
     quotes,
     quotes_title,
     government_services,
-    medium_teasers
+    medium_teasers,
   } = frontmatter
 
-const mediumTeasers = _.map(medium_teasers, (item, index) => {
-const { title, link, date } = item;
-return (
-<li className="medium--teaser__item teaser__item">
-  <Teaser
-    key={{ index }}
-    teaserDate={date}
-    teaserTitle={title}
-    teaserLink={link}
-    />
-</li>)})
+  const mediumTeasers = _.map(medium_teasers, (item, index) => {
+    const { title, link, date } = item
+    return (
+      <li className="medium--teaser__item teaser__item">
+        <Teaser
+          key={{ index }}
+          teaserDate={date}
+          teaserTitle={title}
+          teaserLink={link}
+        />
+      </li>
+    )
+  })
 
   const governmentServices = _.map(government_services, (item, index) => {
     const { title, image, text, link } = item
     const img = image ? image.childImageSharp.fixed.src : null
     return (
-        <Teaser
+      <Teaser
         key={{ index }}
         teaserTitle={title}
         teaserImage={img}
@@ -82,9 +84,7 @@ return (
       <section className="section section__recent-posts">
         <div className="usa-grid">
           <SectionTitle title="See what we've been up to" />
-          <ul className="medium--teasers teaser--wrapper">
-            {mediumTeasers}
-          </ul>
+          <ul className="medium--teasers teaser--wrapper">{mediumTeasers}</ul>
         </div>
         <div className="usa-grid align-right">
           <Link
@@ -146,9 +146,9 @@ export const query = graphql`
           text
         }
         medium_teasers {
-          date,
-          title,
-          link,
+          date
+          title
+          link
         }
         government_services_title
         government_services {
