@@ -4,7 +4,6 @@ import { graphql } from "gatsby"
 
 // Components
 import HomeLayout from "../components/layouts/HomeLayout"
-import MediumPostList from "../components/medium-components/mediumPostList"
 import Teaser from "./../components/Teaser"
 import GlobalQuoteSlider from "./../components/organisms/GlobalQuoteSlider"
 import FeaturedCaseStudies from "../components/organisms/FeaturedCaseStudies"
@@ -21,14 +20,26 @@ const IndexPage = ({ data }) => {
     quotes,
     quotes_title,
     government_services,
+    medium_teasers
   } = frontmatter
 
-  
+const mediumTeasers = _.map(medium_teasers, (item, index) => {
+const { title, link, date } = item;
+return (
+<li className="medium--teaser__item teaser__item">
+  <Teaser
+    key={{ index }}
+    teaserDate={date}
+    teaserTitle={title}
+    teaserLink={link}
+    />
+</li>)})
+
   const governmentServices = _.map(government_services, (item, index) => {
     const { title, image, text, link } = item
     const img = image ? image.childImageSharp.fixed.src : null
     return (
-      <Teaser
+        <Teaser
         key={{ index }}
         teaserTitle={title}
         teaserImage={img}
@@ -71,7 +82,9 @@ const IndexPage = ({ data }) => {
       <section className="section section__recent-posts">
         <div className="usa-grid">
           <SectionTitle title="See what we've been up to" />
-           MEDIUM POSTS
+          <ul className="medium--teasers teaser--wrapper">
+            {mediumTeasers}
+          </ul>
         </div>
         <div className="usa-grid align-right">
           <Link
@@ -109,7 +122,7 @@ const IndexPage = ({ data }) => {
 
 export default IndexPage
 
-export const mediumQuery = graphql`
+export const query = graphql`
   query content {
     markdownRemark(frontmatter: { type: { eq: "home" } }) {
       html
@@ -131,6 +144,11 @@ export const mediumQuery = graphql`
             }
           }
           text
+        }
+        medium_teasers {
+          date,
+          title,
+          link,
         }
         government_services_title
         government_services {
