@@ -12,18 +12,18 @@ const Communities = ({ data }) => {
   const { frontmatter, html } = markdownRemark
 
   return (
-    <GeneralLayout heroTitle={frontmatter.title} heroSubtitle={frontmatter.subtitle}>
-
+    <GeneralLayout
+      heroTitle={frontmatter.title}
+      heroSubtitle={frontmatter.subtitle}
+    >
       <section className="section section__communities">
-      <div className="usa-grid">
-      <div
-    className="text-container"
-    dangerouslySetInnerHTML={{ __html: html }}
-      />
-      </div>
+        <div className="usa-grid">
+          <div
+            className="text-container"
+            dangerouslySetInnerHTML={{ __html: html }}
+          />
+        </div>
       </section>
-    
-      
     </GeneralLayout>
   )
 }
@@ -34,7 +34,7 @@ export const communitiesQuery = graphql`
   query communityPosts {
     markdownRemark(frontmatter: { title: { eq: "Our Communities" } }) {
       html
-      frontmatter {      
+      frontmatter {
         title
         subtitle
       }
