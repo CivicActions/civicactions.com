@@ -46,7 +46,7 @@ RUN /caesiumbin/entrypoint.sh
 #
 # Package site into web server
 #
-FROM civicactions/caddy-docker-build:latest
+FROM civicactions/caddy-docker-build:v1.0.3.2
 
 ENV ENV dev
 
@@ -55,5 +55,3 @@ COPY Caddyfile* /etc/
 
 # Install application from appzz stage.
 COPY --from=appzz /caesium /srv
-
-CMD ["--conf", "/etc/Caddyfile", "--log", "stdout", "--agree=true"]
