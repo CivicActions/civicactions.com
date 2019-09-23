@@ -16,7 +16,6 @@
     "gatsby-remark-copy-linked-files": "^2",
     "gatsby-remark-images": "^3",
     "gatsby-source-filesystem": "^2",
-    "gatsby-source-medium": "^2",
     "gatsby-transformer-remark": "^2",
     "gatsby-transformer-sharp": "^2",
     "gh-pages": "^2",

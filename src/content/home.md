@@ -23,7 +23,22 @@ quotes:
     text: 'We build trust by giving clients insight into the people we are, so they relate to us as humans rather than just contractors.',
     author: 'Steve Wirt, Engineer'
   }
-
+medium_teasers: 
+- {
+  title: 'We hire people, not resumes (and other quirks to the CivicActions application process)',
+  link: 'https://medium.com/civicactions/we-hire-people-not-resumes-and-other-quirks-to-the-civicactions-application-process-7aab30d69c1c',
+ date: 'August 07, 2019'
+}
+- {
+  title: 'Improving scrum team flow on digital service projects',
+  link: 'https://medium.com/civicactions/improving-scrum-team-flow-on-digital-service-projects-6723d95eaad8',
+  date: 'July 22, 2019'
+}
+- {
+  title: 'Culture and diversity: How CivicActions is growing',
+  link: 'https://medium.com/civicactions/were-hiring-at-civicactions-aa8ac8486923',
+  date: 'July 25, 2018'
+}
 government_services_title: Modernizing Government Services
 government_services:
 - {

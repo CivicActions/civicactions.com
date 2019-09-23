@@ -4,7 +4,6 @@ import { graphql } from "gatsby"
 
 // Components
 import HomeLayout from "../components/layouts/HomeLayout"
-import MediumPostList from "../components/medium-components/mediumPostList"
 import Teaser from "./../components/Teaser"
 import GlobalQuoteSlider from "./../components/organisms/GlobalQuoteSlider"
 import FeaturedCaseStudies from "../components/organisms/FeaturedCaseStudies"
@@ -13,8 +12,7 @@ import SectionTitle from "../components/atoms/SectionTitle"
 import Link from "./../components/scripts/Link"
 
 const IndexPage = ({ data }) => {
-  const { allMediumPost, markdownRemark, allMarkdownRemark } = data
-  const { group } = allMediumPost
+  const { markdownRemark, allMarkdownRemark } = data
   const { html, frontmatter } = markdownRemark
   const { edges } = allMarkdownRemark
   const {
@@ -22,13 +20,22 @@ const IndexPage = ({ data }) => {
     quotes,
     quotes_title,
     government_services,
+    medium_teasers,
   } = frontmatter
 
-  const mediumCaPosts = _.first(group, edges => edges)
-
-  const mediumPosts = _.map(mediumCaPosts, (post, index) => (
-    <MediumPostList key={{ index }} posts={{ post }} />
-  ))
+  const mediumTeasers = _.map(medium_teasers, (item, index) => {
+    const { title, link, date } = item
+    return (
+      <li className="medium--teaser__item teaser__item">
+        <Teaser
+          key={{ index }}
+          teaserDate={date}
+          teaserTitle={title}
+          teaserLink={link}
+        />
+      </li>
+    )
+  })
 
   const governmentServices = _.map(government_services, (item, index) => {
     const { title, image, text, link } = item
@@ -77,7 +84,7 @@ const IndexPage = ({ data }) => {
       <section className="section section__recent-posts">
         <div className="usa-grid">
           <SectionTitle title="See what we've been up to" />
-          {mediumPosts}
+          <ul className="medium--teasers teaser--wrapper">{mediumTeasers}</ul>
         </div>
         <div className="usa-grid align-right">
           <Link
@@ -115,21 +122,8 @@ const IndexPage = ({ data }) => {
 
 export default IndexPage
 
-export const mediumQuery = graphql`
-  query mediumPosts {
-    allMediumPost(limit: 3) {
-      group(field: homeCollectionId) {
-        edges {
-          node {
-            id
-            title
-            createdAt(formatString: "MMMM DD, YYYY")
-            uniqueSlug
-          }
-        }
-      }
-    }
-
+export const query = graphql`
+  query content {
     markdownRemark(frontmatter: { type: { eq: "home" } }) {
       html
       frontmatter {
@@ -150,6 +144,11 @@ export const mediumQuery = graphql`
             }
           }
           text
+        }
+        medium_teasers {
+          date
+          title
+          link
         }
         government_services_title
         government_services {
