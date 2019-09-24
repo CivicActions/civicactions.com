@@ -4,7 +4,11 @@
 FROM node:12.8 as env
 WORKDIR /usr/src/app
 ENV PATH=/usr/src/app/node_modules/.bin/:${PATH}
-
+USER root
+ARG UID=1000
+RUN usermod -u ${UID} -o node
+RUN find /usr /home -user 1000 -exec chown -h node {} \;
+USER node
 
 #
 # Build site
