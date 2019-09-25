@@ -7,7 +7,7 @@ ENV PATH=/usr/src/app/node_modules/.bin/:${PATH}
 USER root
 ARG UID=1000
 RUN usermod -u ${UID} -o node
-RUN find /usr /home -user 1000 -exec chown -h node {} \;
+RUN chown -R node /usr/src/app /home
 USER node
 
 #
