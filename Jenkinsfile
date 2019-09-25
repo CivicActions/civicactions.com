@@ -17,8 +17,6 @@ pipeline {
             when { changeRequest() }
             steps {
                 script {
-                    // Extract public directory from a previously built image if it exists. This improves build times.
-                    sh 'id=$(docker create civicactions-internal-it/home:latest 2> /dev/null || true); if [ "${id}" != "" ]; then rm -rf public; docker cp $id:/srv public; docker rm ${id}; echo "Cache updated"; fi'
                     // Build new image.
                     sh "docker build -t \"civicactions-internal-it/home:${env.CHANGE_ID}\" --build-arg \"GATSBY_JAZZ_URL=${GATSBY_JAZZ_URL}\" --pull ."
                     // Remove existing container if it is running.
@@ -33,10 +31,6 @@ pipeline {
             when { branch 'master' }
             steps {
                 script {
-                    // Extract public directory from a previously built image if it exists.
-                    // This improves build times and also means that previous assets are normally around to avoid a 404
-                    // when the HTML request goes to an new release pod and an asset goes to an old release pod (or vice-versa).
-                    sh 'id=$(docker create civicactions-internal-it/home:latest 2> /dev/null || true); if [ "${id}" != "" ]; then rm -rf public; docker cp $id:/srv public; docker rm ${id}; echo "Cache updated"; fi'
                     // Add a timestamp file to ensure we rebuild the site content
                     sh "date > .build-timestamp"
                     docker.withRegistry('https://gcr.io', 'internal-it-k8s-gcr') {
