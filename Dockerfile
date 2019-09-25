@@ -16,10 +16,10 @@ USER node
 FROM env as app
 ARG GATSBY_JAZZ_URL
 
-COPY package.json yarn.lock ./
+COPY --chown=node package.json yarn.lock ./
 RUN yarn install --frozen-lockfile
 
-COPY . .
+COPY --chown=node . .
 RUN yarn lint-code
 # TODO: Fix warnings and add eslint-code here also.
 RUN yarn lint-styles
