@@ -11,6 +11,7 @@ import Footer from "./../footer/Footer"
 import config from "../../../data/SiteConfig"
 import TopNav from "./../navigation/TopNav"
 import header_bg from "./../header/background_bg-hero.png"
+import logo_r from "./../atoms/logo/logo-civicactions-r.png"
 
 const GeneralLayout = ({
   siteData,
@@ -70,9 +71,10 @@ const GeneralLayout = ({
             { property: `og:url`, content: location },
             { property: `og:title`, content: heroTitle },
             { property: `og:description`, content: heroSubtitle },
-            { property: `og:image`, content: ogImage },
+            { property: `og:image`, content: logo_r },
             { name: `twitter:card`, content: config.seo.twitterCard },
             { name: `twitter:site`, content: config.seo.twitterSite },
+            { name: `twitter:image`, content: logo_r },
             { property: `fb:app_id`, content: config.seo.fbAppId },
 
             // Contact
