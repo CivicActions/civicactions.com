@@ -5,7 +5,7 @@ published: 1
 name: Shira Kates
 personal_pronouns: she/her
 image: 'images/shira-kates.jpg'
-role: Content Strategy
+role: User Experience
 location: Encinatas, CA
 quote: I'm proud to be part of the remote work revolution, supporting green living, quality of life, and rural economies.
 social: 
@@ -24,7 +24,7 @@ Visioning & Leadership
 
 Shira actively creates the world she wants to live in.
  
-She excels at helping people and organizations become the best version of themselves, and has led user experience and content initiatives at Google, HP, Yahoo, and Silicon Valley startups. But now Shira’s happy place is a smaller company, no commute, and work that has tangible impact for people from all walks of life. At CivicActions she helps government agencies research user needs and deliver information to the public via clear and thoughtful content. 
+She excels at helping people and organizations become the best version of themselves, and has led user experience and content initiatives at Google, HP, Yahoo, and Silicon Valley startups. But now Shira’s happy place is a smaller company with no commute, and work that has tangible impact for people from all walks of life. At CivicActions she helps government agencies research user needs and deliver crucial information and services to the public. 
 
 Shira has an MBA in Design Strategy from California College of the Arts and a BA in English Literature from Skidmore College. She’s an entrepreneur and investor, and co-owns an NYC co-working cafe called The Granddaddy. Shira grew up in rural Massachusetts, did a 20-year stint in San Francisco, and now resides joyfully in beautiful Encinitas, California with her husband, daughter, and a very silly cat. She’s a staunch advocate of intentional living and snuggles.
 
