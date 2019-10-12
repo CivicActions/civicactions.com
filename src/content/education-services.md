@@ -54,13 +54,6 @@ The DITAP Foundation course is for learners seeking to lead change in digital se
 * Awarding and Administering Digital Service Contracts
 * Leading Change as a Digital IT Acquisition Professional
 
-**Registration now open**
-
-*Course schedule*
-* August 2019 - Registration, pre-work, online study begins
-* October 2019 - Classroom sessions begin
-* February 2020 - Course completion
-
 *Cadence*
 * Classroom (4 sessions, 3 days each, approximately 4-6 week intervals)
 * Webinars (bi-weekly) and online learning (self-paced)
