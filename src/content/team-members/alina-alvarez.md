@@ -4,7 +4,7 @@ type: team
 published: 1
 name: Alina Alvarez
 image: 'images/alina-alvarez.jpg'
-manager: 1
+manager: 0
 role: User Experience
 location: Mexico City, Mexico
 quote: 
