@@ -5,7 +5,7 @@ published: 1
 name: Jim Bader
 image: 'images/jim-bader.jpg'
 role: DevOps
-location: Sacramento, CA
+location: Sacramento, California
 quote: 
 social: 
   - {
