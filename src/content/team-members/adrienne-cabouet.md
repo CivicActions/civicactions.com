@@ -5,7 +5,7 @@ published: 1
 name: Adrienne Cabouet
 image: 'images/adrienne-cabouet.jpg'
 role: Engineering
-location: Albuquerque, NM
+location: Albuquerque, New Mexico
 quote: 
 social: 
   - {
