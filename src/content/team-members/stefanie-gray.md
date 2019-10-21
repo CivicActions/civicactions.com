@@ -6,7 +6,7 @@ name: Stefanie Gray
 personal_pronouns: she/they
 image: 'images/stefanie-gray.jpg'
 role: Help Desk Support
-location: Denver, CO
+location: Denver, Colorado
 quote: Be the Leslie Knope you wish to see in the world.
 social: 
   - {
