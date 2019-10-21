@@ -6,7 +6,7 @@ name: Karen Johnson
 personal_pronouns: she/her
 image: 'images/karen-johnson.jpg'
 role: DevOps
-location: Media, PA
+location: Media, Pennsylvania
 quote: If I could be an ethical hacker, I’d totally do that.
 social: 
   - {
