@@ -5,7 +5,7 @@ published: 1
 name: Susie Bird
 image: 'images/susie-bird.jpg'
 role: Business Development
-location: Antelope, CA
+location: Antelope, California
 quote: "Adopt the pace of nature: her secret is patience. (Ralph Waldo Emerson)"
 social: 
   - {
