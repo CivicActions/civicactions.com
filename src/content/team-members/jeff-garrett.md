@@ -5,7 +5,7 @@ published: 1
 name: Jeff Garrett
 image: 'images/jeff-garrett.jpg'
 role: DevOps
-location: Placerville, CA
+location: Placerville, California
 quote: 
 social: 
   - {
