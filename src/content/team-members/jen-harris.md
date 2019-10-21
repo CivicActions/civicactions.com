@@ -6,7 +6,7 @@ name: Jen Harris
 personal_pronouns: she/her
 image: 'images/jen-harris.jpg'
 role: User Experience
-location: Los Angeles, CA
+location: Los Angeles, California
 quote:
 social: 
   - {
