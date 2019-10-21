@@ -5,7 +5,7 @@ published: 1
 name: Daniel Schiavone
 image: 'images/daniel-schiavone.jpg'
 role: Engineering
-location: Baltimore, MD
+location: Baltimore, Maryland
 quote: Technology is the perfect field for the curious.
 social: 
   - {
