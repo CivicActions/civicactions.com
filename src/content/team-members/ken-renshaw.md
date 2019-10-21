@@ -5,7 +5,7 @@ published: 1
 name: Ken Renshaw
 image: 'images/ken-renshaw.jpg'
 role: DevOps
-location: Yale, OK
+location: Yale, Oklahoma
 social: 
   - {
   name: LinkedIn,
