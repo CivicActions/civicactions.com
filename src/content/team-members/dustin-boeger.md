@@ -5,7 +5,7 @@ published: 1
 name: Dustin Boeger
 image: 'images/dustin-boeger.jpg'
 role: Engineering
-location: Davis, CA
+location: Davis, California
 quote: Get busy livin' or get busy dyin' (Shawshank Redemption)
 social: 
   - {
