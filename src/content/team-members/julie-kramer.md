@@ -6,7 +6,7 @@ name: Julie Kramer
 personal_pronouns: she/her
 image: 'images/julie-kramer.jpg'
 role: Engineering
-location: Miami, FL
+location: Miami, Florida
 quote: 
 social:
   - {
