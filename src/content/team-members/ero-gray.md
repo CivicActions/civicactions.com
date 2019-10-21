@@ -6,7 +6,7 @@ name: Ero Gray
 personal_pronouns: he/him
 image: 'images/ero-gray.jpg'
 role: Help Desk Support 
-location: Portland, OR
+location: Portland, Oregon
 quote: I still don't have a better plan than kindness.
 social: 
   - {

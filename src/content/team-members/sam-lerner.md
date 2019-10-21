@@ -5,7 +5,7 @@ published: 1
 name: Sam Lerner
 image: 'images/sam-lerner.jpg'
 role: Engineering
-location: Honeoye Falls, NY
+location: Honeoye Falls, New York
 quote: 
 social: 
   - {

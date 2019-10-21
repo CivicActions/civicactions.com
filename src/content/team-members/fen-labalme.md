@@ -5,7 +5,7 @@ published: 1
 name: Fen Labalme
 image: 'images/fen-labalme.jpg'
 role: Security & Compliance
-location: Pittsburgh, PA
+location: Pittsburgh, Pennsylvania
 quote: Security is never ‘done’.
 social: 
   - {

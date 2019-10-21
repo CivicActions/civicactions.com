@@ -5,7 +5,7 @@ published: 1
 name: Iris Ibekwe
 image: 'images/iris-ibekwe.jpg'
 role: Engineering
-location: Manassas, VA
+location: Manassas, Virginia
 quote: At CivicActions, tough conversations are encouraged and dissenting opinions are aired in an atmosphere of respect — with a willingness to understand other people’s points of view.
 social: 
   - {

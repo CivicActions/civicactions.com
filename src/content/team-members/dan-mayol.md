@@ -5,7 +5,7 @@ published: 1
 name: Dan Mayol
 image: 'images/dan-mayol.jpg'
 role: DevOps
-location: Etowah, NC
+location: Etowah, North Carolina
 quote: 
 social: 
   - {

@@ -6,7 +6,7 @@ name: Kim Davidson
 personal_pronouns: she/her
 image: 'images/kim-davidson.jpg'
 role: Open Data
-location: Brooklyn, NY
+location: Brooklyn, New York
 quote: Working at CivicActions, I have the potential to make a big impact on social change.
 social: 
   - {

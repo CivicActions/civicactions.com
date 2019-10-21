@@ -5,7 +5,7 @@ published: 1
 name: Rob Read
 image: 'images/robert-read.jpg'
 role: Advisor
-location: Austin, TX
+location: Austin, Texas
 quote: To be a good programmer is difficult and noble.
 social: 
   - {

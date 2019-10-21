@@ -6,7 +6,7 @@ name: Shira Kates
 personal_pronouns: she/her
 image: 'images/shira-kates.jpg'
 role: User Experience
-location: Encinitas, CA
+location: Encinitas, California
 quote: I'm proud to be part of the remote work revolution, supporting green living, quality of life, and rural economies.
 social: 
   - {

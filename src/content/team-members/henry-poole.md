@@ -6,7 +6,7 @@ name: Henry Poole
 image: 'images/henry-poole.jpg'
 manager: 1
 role: Management & Operations
-location: Lafayette, CA 
+location: Lafayette, California
 quote: Gain or Drain.
 social: 
   - {

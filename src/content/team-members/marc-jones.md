@@ -6,7 +6,7 @@ name: Marc Jones
 personal_pronouns: he/him
 image: 'images/marc-jones.jpg'
 role: Legal & Compliance 
-location: Bloomfield, CT
+location: Bloomfield, Connecticut
 quote: If you are always working towards eliminating the need for your job, people will never stop offering you new jobs.
 social: 
   - {

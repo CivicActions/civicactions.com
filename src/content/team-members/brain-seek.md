@@ -6,7 +6,7 @@ name: Brian Seek
 personal_pronouns: he/him
 image: 'images/brian-seek.jpg'
 role: Engineering
-location: Tempe, AZ
+location: Tempe, Arizona
 quote: 
 social: 
   - {

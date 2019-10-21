@@ -5,7 +5,7 @@ published: 1
 name: Cameron Prince
 image: 'images/cameron-prince.jpg'
 role: Engineering
-location: Huntsville, AL
+location: Huntsville, Alabama
 quote:
 social: 
   - {

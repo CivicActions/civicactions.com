@@ -5,7 +5,7 @@ published: 1
 name: Kristian Ducharme
 image: 'images/kristian-ducharme.jpg'
 role: Engineering
-location: Paso Robles, CA
+location: Paso Robles, California
 quote: Watching the impact CivicActions has makes it exciting to see what will happen next.
 social: 
   - {

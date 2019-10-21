@@ -5,7 +5,7 @@ published: 1
 name: Daniel Gading
 image: 'images/daniel-gading.jpg'
 role: Open Data
-location: Silver Spring, MD
+location: Silver Spring, Maryland
 quote: 
 social: 
   - {

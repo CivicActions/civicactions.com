@@ -6,7 +6,7 @@ name: Steve Curtis
 personal_pronouns: he/him
 image: 'images/steve-curtis.jpg'
 role: Project Management
-location: Hamden, CT 
+location: Hamden, Connecticut 
 quote: We’re all essentially masters of the way we approach our own work, yet deeply accountable to each other.
 social: 
   - {

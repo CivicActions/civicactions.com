@@ -5,7 +5,7 @@ published: 1
 name: Tony Cooper
 image: 'images/tony-cooper.jpg'
 role: Board Member
-location: Sacramento, CA
+location: Sacramento, California
 quote: Human potential is the thing that creates every great change in the world.
 social: 
   - {

@@ -5,7 +5,7 @@ published: 1
 name: Ashish Kumar
 image: 'images/ashish-kumar.jpg'
 role: DevOps
-location: Sacramento, CA
+location: Sacramento, California
 quote: 
 social: 
   - {

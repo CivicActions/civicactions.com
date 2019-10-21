@@ -7,7 +7,7 @@ personal_pronouns: he/him
 image: 'images/owen-barton.jpg'
 manager: 1
 role: Management & Operations
-location: Corvallis, OR
+location: Corvallis, Oregon
 quote: Maxims are always stated as unconditional, when in fact they shouldn’t be.
 social: 
   - {

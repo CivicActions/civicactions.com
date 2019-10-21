@@ -5,7 +5,7 @@ published: 1
 name: Tom Wood
 image: 'images/tom-wood.jpg'
 role: DevOps
-location: Storrs, CT
+location: Storrs, Connecticut
 quote: If you wish to make an apple pie from scratch, you must first invent the universe. (Carl Sagan)
 social: 
   - {

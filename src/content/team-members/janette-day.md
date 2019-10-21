@@ -5,7 +5,7 @@ published: 1
 name: Janette Day
 image: 'images/janette-day.jpg'
 role: Open Data
-location: Cottage Grove, WI
+location: Cottage Grove, Wisconsin
 quote: I am the invasive weed annihilator.
 social: 
   - {

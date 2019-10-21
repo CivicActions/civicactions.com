@@ -5,7 +5,7 @@ published: 1
 name: Ethan Teague
 image: 'images/ethan-teague.jpg'
 role: Engineering
-location: Sarasota, FL
+location: Sarasota, Florida
 quote: Pants down, then sit on the toilet.
 social: 
   - {

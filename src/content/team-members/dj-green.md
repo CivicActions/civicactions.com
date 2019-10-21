@@ -5,7 +5,7 @@ published: 1
 name: DJ Green
 image: 'images/dj-green.jpg'
 role: User Experience
-location: San Antonio, TX
+location: San Antonio, Texas
 quote: 
 social: 
   - {

@@ -6,7 +6,7 @@ name: Rachel Kroft
 personal_pronouns: she/her/they
 image: 'images/rachel-kroft.jpg'
 role: User Experience
-location: San Francisco, CA
+location: San Francisco, California
 quote: The greatest gift you can give somebody is your own personal development. (Jim Rohn) 
 
 social: 
