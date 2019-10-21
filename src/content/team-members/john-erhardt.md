@@ -5,7 +5,7 @@ published: 1
 name: John Erhardt
 image: 'images/john-erhardt.jpg'
 role: Engineering
-location: Denver, CO
+location: Denver, Colorado
 quote: (The meaning of the universe is) 42!
 social: 
   - {
