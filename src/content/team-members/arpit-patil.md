@@ -5,7 +5,7 @@ published: 1
 name: Arpit Patil
 image: 'images/arpit-patil.jpg'
 role: DevOps
-location: Sacramento, CA
+location: Sacramento, California
 quote: I love helping people, and by working with government I have the satisfaction of knowing my efforts will benefit citizens directly.
 social: 
   - {
