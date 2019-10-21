@@ -5,7 +5,7 @@ published: 1
 name: Jason Heaster
 image: 'images/jason-heaster.jpg'
 role: Project Management
-location: Amherst, MA
+location: Amherst, Massachusetts
 quote: I am the mad scientist of team chemistry.
 social: 
   - {
