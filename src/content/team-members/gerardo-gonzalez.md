@@ -5,7 +5,7 @@ published: 1
 name: Gerardo Gonzalez
 image: 'images/gerardo-gonzalez.jpg'
 role: Open Data
-location: Oklahoma City, OK
+location: Oklahoma City, Oklahoma
 quote: Improve yourself; improve others.
 social: 
   - {
