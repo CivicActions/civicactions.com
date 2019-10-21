@@ -6,7 +6,7 @@ name: Alaine Karoleff
 image: 'images/alaine-karoleff.jpg'
 manager: 1
 role: Management & Operations
-location: San Francisco, CA
+location: Los Angeles, California
 quote: Team diversity means I can be unique in myself, but also fit in with the team.
 social: 
   - {
