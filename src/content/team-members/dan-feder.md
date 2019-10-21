@@ -5,7 +5,7 @@ published: 1
 name: Dan Feder
 image: 'images/dan-feder.jpg'
 role: Open Data
-location: Philadelphia, PA
+location: Philadelphia, Pennsylvania
 quote: 
 social: 
   - {
