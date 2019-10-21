@@ -6,7 +6,7 @@ name: Jacqueline Gu
 personal_pronouns: she/her
 image: 'images/jacqueline-gu.jpg'
 role: User Experience
-location: Chicago, IL
+location: Chicago, Illinois
 quote: Designing for accessibility makes user experience better for everyone, not just people who need it.
 social: 
   - {
