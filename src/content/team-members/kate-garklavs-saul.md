@@ -6,7 +6,7 @@ name: Kate Garklavs Saul
 personal_pronouns: she/her
 image: 'images/kate-garklavs-saul.jpg'
 role: User Experience
-location: Portland, OR
+location: Portland, Oregon
 quote: Poetry is everywhere; it just needs editing (James Tate)
 social: 
   - {
