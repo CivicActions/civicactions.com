@@ -5,7 +5,7 @@ published: 1
 name: John O'Duinn
 image: 'images/john-oduinn.jpg'
 role: DevOps
-location: San Francisco Bay area
+location: San Francisco Bay Area, California
 quote: People are the real metrics.
 social: 
   - {
