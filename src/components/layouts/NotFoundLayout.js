@@ -72,6 +72,7 @@ const NotFoundLayout = ({
             { property: `og:image`, content: teamImage },
             { name: `twitter:card`, content: config.seo.twitterCard },
             { name: `twitter:site`, content: config.seo.twitterSite },
+            { name: `twitter:image`, content: config.seo.twitterImage },
             { property: `fb:app_id`, content: config.seo.fbAppId },
 
             // Contact

@@ -20,6 +20,7 @@ module.exports = {
         fbAppId: "",
         twitterSite: "@civicactions",
         twitterCard: "summary",
+        twitterImage: "/src/components/atoms/logo/logo-civicactions-r.png",
 
     }
 };
