@@ -11,7 +11,6 @@ import Footer from "./../footer/Footer"
 import config from "../../../data/SiteConfig"
 import TopNav from "./../navigation/TopNav"
 import header_bg from "./../header/background_bg-hero.png"
-import ogImage from "./../atom/logo/logo-civicactions-r.png"
 
 const Layout = ({ children, data, location }) => (
   <StaticQuery
@@ -72,7 +71,7 @@ const Layout = ({ children, data, location }) => (
               property: `og:description`,
               content: `Open and Agile Digital Government Services`,
             },
-            { property: `og:image`, content: ogImage },
+            { property: `og:image`, content: config.seo.twitterImage },
             { name: `twitter:card`, content: config.seo.twitterCard },
             { name: `twitter:site`, content: config.seo.twitterSite },
             { name: `twitter:image`, content: config.seo.twitterImage },

@@ -70,7 +70,7 @@ const GeneralLayout = ({
             { property: `og:url`, content: location },
             { property: `og:title`, content: heroTitle },
             { property: `og:description`, content: heroSubtitle },
-            { property: `og:image`, content: ogImage },
+            { property: `og:image`, content: config.seo.twitterImage },
             { name: `twitter:card`, content: config.seo.twitterCard },
             { name: `twitter:site`, content: config.seo.twitterSite },
             { name: `twitter:image`, content: config.seo.twitterImage },
