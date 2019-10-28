@@ -43,11 +43,13 @@ John has an M.S. in Computer Science from Dublin City University, and has served
 
 ### Things John has been doing
 * Helping people and technology work better together at [California Child Welfare Digital Services](https://cwds.ca.gov/)
-* [Writing](https://www.amazon.com/Distributed-Teams-Practice-Together-Physically/dp/1732254907/) about how [distributed teams](https://medium.com/@joduinn/distributed-teams-why-now-c7776ad14358) can achieve seamless collaboration and productivity
-* Promoting the benefits of remote work for [companies](https://www.informationweek.com/strategic-cio/team-building-and-staffing/create-an-all-star-tech-team-welcome-remote-workers/a/d-id/1331254) and [job-seekers](https://oduinn.com/book/jobs-for-remoties/)
-* [Focusing on people](https://www.informationweek.com/government/dont-get-side-tracked-by-flashy-metrics-success-is-in-the-people/d/d-id/1331791) to measure the success of government projects
-* Sharing the secrets of [using group chat effectively](https://medium.com/@joduinn/5-ways-to-get-the-most-out-of-group-chat-c58ca0c2db7)
 * Improving [access](https://medium.com/the-u-s-digital-service/new-tool-launches-to-improve-the-benefits-claim-appeals-process-at-the-va-59c2557a4a1c) to benefits for disabled Veterans
+* [Focusing on people](https://www.informationweek.com/government/dont-get-side-tracked-by-flashy-metrics-success-is-in-the-people/d/d-id/1331791) to measure the success of government projects
+* [Writing](https://www.amazon.com/Distributed-Teams-Practice-Together-Physically/dp/1732254907/) about how [distributed teams](https://medium.com/@joduinn/distributed-teams-why-now-c7776ad14358) can achieve [seamless collaboration](https://medium.com/@joduinn/5-ways-to-get-the-most-out-of-group-chat-c58ca0c2db7) and productivity 
+* Promoting the benefits of remote work for [companies](https://www.informationweek.com/strategic-cio/team-building-and-staffing/create-an-all-star-tech-team-welcome-remote-workers/a/d-id/1331254), [job-seekers](https://oduinn.com/book/jobs-for-remoties/), and [state governments](https://oduinn.com/2019/01/21/work-from-home-in-vermont)
+
+
+
 * [Sporting](https://drive.google.com/file/d/1lsjKAQnNGybSXx57GvQJmyGTtlRbfiV9/view?usp=sharing) a collection of cheery patterned work shirts
 
 
