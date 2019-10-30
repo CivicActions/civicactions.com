@@ -265,7 +265,7 @@
 .section__teaser-grid {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
+  justify-content: left;
 
   .teaser-grid--wrapper {
     width: 100%;
@@ -280,6 +280,10 @@
 
     @media screen and (min-width: $medium-large-screen) {
       width: 15%;
+    }
+
+    .teaser-grid {
+      margin: 0 0.8%;
     }
   }
 }
