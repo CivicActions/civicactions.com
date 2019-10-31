@@ -14,7 +14,7 @@ social:
 specialties: [ "Consummate Communicator",
 Creative Collaborator,
 Ardent Alliterator,
-Determined Disentangler of Difficult, Daedalian Dilemmas
+Disentangler of Daedalian Dilemmas
 ]
   
 ---
