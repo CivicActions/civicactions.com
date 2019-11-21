@@ -4,7 +4,7 @@ type: team
 published: 1
 name: Judy Raiten
 image: 'images/judy-raiten.jpg'
-role: Administrative Support
+role: Business Support
 location: Twin Falls, Idaho
 quote: Feed the light.
 social: 
