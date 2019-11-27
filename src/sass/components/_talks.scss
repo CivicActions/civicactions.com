@@ -1,0 +1,13 @@
+.section__talks {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  &.usa-grid {
+    padding-left: 0;
+    padding-right: 0;
+    &::after {
+      content: none; /* Fix for alignment.Override clearfix on usa-grid. */
+    }
+  }
+}
+
