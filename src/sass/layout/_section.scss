@@ -50,7 +50,40 @@
       }
     }
   }
+  //-------------------------------------
+  // WHAT WE'VE BEEN TALKING ABOUT 
+  //-------------------------------------
 
+  &__what-weve-been-talking-about {
+    @include neutral-hex-bg;
+
+    .section__title--wrapper {
+      position: relative;
+      top: 0;
+      margin-top: -2.4em;
+      @media (min-width: $medium-screen) {
+      float: left;
+      display: block;
+      margin-right: 2.35765%;
+      width: 31.76157%;
+    }
+  }
+    @media (min-width: $medium-screen) {
+      .teaser-wrapper {
+        float: right;
+        padding-left: 0;
+        width: 60%;
+        li:last-child {
+          padding-bottom: 0;
+        }
+        .link-button { 
+          margin-left: 1.94em;
+        }
+      }
+    }
+} 
+
+    
   //-------------------------------------
   // RECENT POSTS SECTION IN THE HOMEPAGE
   //-------------------------------------

@@ -25,4 +25,11 @@ videos:
   related_link_title: "Useful Drupal extensions for government modernization projects",
   related_link: "https://medium.com/civicactions/a-few-of-my-favorite-things-c2a590b96c5e",
   }
+
+what_we_have_been_talking_about_teasers: 
+- {
+  title: How Drupal can (and is) powering government open data efforts,
+  link: 'https://medium.com/civicactions/how-drupal-can-and-is-powering-government-open-data-efforts-7477a150a126',
+  date: 'July 30, 2019'
+}
 ---
