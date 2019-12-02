@@ -25,3 +25,15 @@ CivicActions maintains DKAN, a community-driven, free and open source open data 
 </p>
 
 [Visit DSC](https://digitalservicescoalition.org)
+
+<h3 class="with-drupal-logo">Drupal Community</h3>
+<p>CivicActions engineers are longtime contributors and active maintainers in Drupal, an open source CMS that is used, built, taught, and collaboratively improved by people all over the world.
+</p>
+
+[Visit Drupal](https://drupal.org)
+
+<h3 class="with-data-coalition-logo">Data Coalition</h3>
+<p>CivicActions is a member of the Data Coalition, a group of organizations advocating for responsible policies to make government data high-quality, accessible, and useable.
+</p>
+
+[Visit Data Coalition](https://datacoalition.org)
