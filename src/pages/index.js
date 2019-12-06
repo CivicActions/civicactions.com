@@ -26,13 +26,8 @@ const IndexPage = ({ data }) => {
   const mediumTeasers = _.map(medium_teasers, (item, index) => {
     const { title, link, date } = item
     return (
-      <li className="medium--teaser__item teaser__item">
-        <Teaser
-          key={{ index }}
-          teaserDate={date}
-          teaserTitle={title}
-          teaserLink={link}
-        />
+      <li className="medium--teaser__item teaser__item" key={index}>
+        <Teaser teaserDate={date} teaserTitle={title} teaserLink={link} />
       </li>
     )
   })
@@ -42,7 +37,7 @@ const IndexPage = ({ data }) => {
     const img = image ? image.childImageSharp.fixed.src : null
     return (
       <Teaser
-        key={{ index }}
+        key={index}
         teaserTitle={title}
         teaserImage={img}
         teaserText={text}

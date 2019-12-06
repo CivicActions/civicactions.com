@@ -31,6 +31,7 @@ class GlobalQuoteSlider extends Component {
 
       return (
         <Blockquote
+          key={index}
           quote={text}
           quote_source={author}
           quote_image={quoteImage}
