@@ -70,8 +70,11 @@ The L.A. Business Portal will provide an open-source model for communities acros
 ##### See our work
 [City of Los Angeles Business Portal](http://business.lacity.org/)  
 
-##### Check out the open-source repository
+##### Check out the open source repository
 [GitHub: Startup in a Day: Los Angeles, CA](https://github.com/StartupInADay/Los-Angeles-California)
+
+##### See how other agencies can benefit 
+[New Jersey builds business portal using open source code from LA County project](https://business.nj.gov/license)
 
 ##### Press
 [GCN: LA launches open source business portal](https://gcn.com/articles/2016/09/19/la-business-portal-open-source.aspx)  
