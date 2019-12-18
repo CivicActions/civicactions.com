@@ -4,7 +4,7 @@ type: team
 published: 1
 name: Victor Udowea
 personal_pronouns: he/him
-image: 'images/victor-udoewa.jpeg'
+image: 'images/victor-udoewa.jpg'
 manager: 0
 role: Strategy, Education, Design
 location: Washington, DC
