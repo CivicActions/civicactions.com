@@ -1,5 +1,5 @@
 ---
-path: /team/victor-udowea
+path: /team/victor-udoewa
 type: team
 published: 1
 name: Victor Udowea
