@@ -15,7 +15,7 @@ social:
 specialties: [ "Equity & Justice",
 Multilinguist,
 Getting It Done,
-All Things Warm, Quiet, and Cozy
+"All Things Warm, Quiet, and Cozy"
 ]
 
   
