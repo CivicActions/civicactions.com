@@ -11,12 +11,12 @@ quotes:
 - {
     image: './team-members/images/karen-johnson.jpg',
     text: 'The emphasis on balance and constant learning makes CivicActions an incredibly fun and engaging community.',
-    author: 'Karen Johnson, Systems Administrator'
+    author: 'Karen Johnson, DevOps Engineer'
   }
 - {
-    image: './team-members/images/steve-curtis.jpg',
-    text: "We're each in charge of how we approach our own work, yet we're accountable to one another. So we focus on clear, transparent communication.",
-    author: 'Steve Curtis,  Project Manager'
+    image: './team-members/images/chadia-mugisha.jpg',
+    text: "It's important to me to support projects that make life tangibly better for people, and CivicActions is a place where I can do that.",
+    author: 'Chadia Mugisha, Project Manager'
   }
 - {
     image: './team-members/images/steve-wirt.jpg',
