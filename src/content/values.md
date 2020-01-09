@@ -16,9 +16,9 @@ quotes:
     author: 'Andy Hawks, Engineer'
   }
   - {
-    image: './team-members/images/alaine-karoleff.jpg',
-    text: 'Being part of a diverse company creates freedom for me to feel I can be unique to myself, but also fit in with the team.',
-    author: 'Alaine Karoleff, Director of Agile Digital Services'
+    image: './team-members/images/ari-hylas.jpg',
+    text: 'The best thing about working on government projects is being part of something larger than myself.',
+    author: 'Ari Hylas, Engineer'
   }
 thankyou_images:
   - {
