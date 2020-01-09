@@ -2,7 +2,7 @@
 path: /press/civicactions-named-to-govtech-2020-top-100
 type: press
 title: 'CivicActions Named to 2020 GovTech 100 Top Government Technology Companies List'
-date: "2020-1-7"
+date: "2020-01-07"
 link_text: "2020 GovTech 100 List"
 website: "https://www.govtech.com/100/2020/"
 publication: "Government Technology"
