@@ -2,21 +2,21 @@
 path: /
 type: home
 title: Digital services that work for everyone
-subtitle: We help agencies improve lives through modern software and thoughtful experiences.
+subtitle: We partner with agencies to improve lives through modern software and thoughtful experiences.
 cta_text: Learn How We Do It
 cta_link: /approach
-quote: Our goal is to transform the way governments procure, develop, and deliver digital services.
+quote: Our goal is to help government deliver simple and effective digital services for the benefit of all.
 quotes_title: Get to know us
 quotes:
 - {
     image: './team-members/images/karen-johnson.jpg',
     text: 'The emphasis on balance and constant learning makes CivicActions an incredibly fun and engaging community.',
-    author: 'Karen Johnson, Systems Administrator'
+    author: 'Karen Johnson, DevOps Engineer'
   }
 - {
     image: './team-members/images/steve-curtis.jpg',
-    text: "We're each in charge of how we approach our own work, yet we're accountable to one another. So we focus on clear, transparent communication.",
-    author: 'Steve Curtis,  Project Manager'
+    text: "It's important to me to support projects that make life tangibly better for people, and CivicActions is a place I can do that.",
+    author: 'Chadia Mugisha, Jr. Project Manager'
   }
 - {
     image: './team-members/images/steve-wirt.jpg',
@@ -56,12 +56,12 @@ government_services:
 - {
     title: 'DITAP Training',
     image: './government-services-images/ditap.jpg',
-    text: 'We offer education services to support the development of leaders in the Federal acquisition community.',
+    text: 'We offer digital services education to support the development of leaders in the Federal acquisition community.',
     link: '/education-services',
   }
 
 ---
-We focus on outcomes and help organizations accomplish their missions through:
+We focus on outcomes and help organizations serve people better through:
 * Agile approaches and human-centered design
 * Culture of openness, learning, and collaboration
 * Modern technologies and continuous improvement
