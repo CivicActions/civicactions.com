@@ -7,6 +7,7 @@ personal_pronouns: she/her
 image: 'images/chadia-mugisha.jpg'
 role: Project Management
 location: Boise, ID
+quote: It’s important to me to support projects that make life tangibly better for people, and CivicActions is a place I can do that.
 social: 
   - {
   name: LinkedIn,
