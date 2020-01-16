@@ -19,6 +19,7 @@ const NotFoundLayout = ({
   pageTitle,
   clientName,
   heroTitle,
+  heroIntroText,
   heroSubtitle,
   heroCTAText,
   heroCTALink,
@@ -99,18 +100,18 @@ const NotFoundLayout = ({
               <img src={hero_image} alt="page not found" />
             </div>
             <div className="hero__text">
-              <h1 className="hero__title">Whoops!</h1>
+              <h1 className="hero__title">{heroTitle}</h1>
               <div className="hero__intro-text">
-                The page you’re looking for no longer exists. May we suggest:
+                {heroIntroText}
                 <ul>
                   <li>
                     <Link to="/">Visit our homepage</Link>
                   </li>
                   <li>
-                    <Link to="/careers">View our Jobs Listing</Link>
+                    <Link to="/careers">View our job listings</Link>
                   </li>
                   <li>
-                    <a href="https://medium.com/civicactions">Read Our Blog</a>
+                    <a href="https://medium.com/civicactions">Read our blog</a>
                   </li>
                 </ul>
               </div>
