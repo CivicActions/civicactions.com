@@ -14,7 +14,6 @@ class TopNav extends React.Component {
   }
 
   fetchActiveParent(menu) {
-    // console.log(menu)
     const items = Object.entries(menu)
     for (const item of items) {
       if (item[1].innerHTML.includes("usa-current")) {

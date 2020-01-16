@@ -55,7 +55,7 @@
       }
 
       button > span,
-      a {
+      > a {
         color: $white;
         font-family: $font-serif;
         font-size: $base-font-size;
@@ -114,9 +114,9 @@
         background: $navy;
       }
       &.usa-current {
+        color: $white;
         background: $color-primary-darkest;
         font-weight: $font-normal;
-
         @include media($nav-width) {
           padding-left: 1.5rem;
         }
