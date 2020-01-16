@@ -1,4 +1,5 @@
 ---
+weight: 2
 path: "/case-study/globalnet"
 type:  "case-study"
 title: "Empowering international collaboration"
