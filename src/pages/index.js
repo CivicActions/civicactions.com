@@ -112,7 +112,7 @@ const IndexPage = ({ data }) => {
           </div>
         </div>
         {/* ----- Meet our team -------- */}
-        <div className="usa-grid align-right">
+        <div className="usa-grid align-right top-space">
           <Link children="Meet Our Team" to="/team" className="link-button" />
         </div>
       </section>
