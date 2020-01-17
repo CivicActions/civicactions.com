@@ -19,6 +19,9 @@ exports.createPages = ({ actions, graphql }) => {
       allMarkdownRemark(sort: { fields: [frontmatter___date], order: DESC }) {
         edges {
           node {
+            fields {
+              slug
+            }
             frontmatter {
               path
               type
@@ -30,6 +33,7 @@ exports.createPages = ({ actions, graphql }) => {
               link_text
               publication
               website
+              redirect_from
             }
             html
           }
@@ -89,7 +93,13 @@ exports.onCreateNode = ({ node, getNode, boundActionCreators }) => {
       name: `slug`,
       value: node.path,
     })
-    // console.log(node)
+  }
+  if (node.internal.type === `MarkdownRemark`) {
+    createNodeField({
+      name: `slug`,
+      node,
+      value: node.frontmatter.path,
+    })
   }
 }
 
