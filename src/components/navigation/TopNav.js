@@ -13,17 +13,29 @@ class TopNav extends React.Component {
     this.menuRef = []
   }
 
-  fetchActiveParent(menu) {
+  fetchActiveParent(menu, pathname) {
     const items = Object.entries(menu)
+    let found = false
     for (const item of items) {
       if (item[1].innerHTML.includes("usa-current")) {
+        found = true
         this.setState({ activeParent: item[0] })
+      }
+    }
+    if (!found && pathname) {
+      if (pathname.includes("/team/")) {
+        this.setState({ activeParent: "about" })
+      } else if (pathname.includes("/case-study/")) {
+        this.setState({ activeParent: "work" })
       }
     }
   }
 
   componentDidMount() {
-    this.fetchActiveParent(this.menuRef)
+    this.fetchActiveParent(
+      this.menuRef,
+      this.props.path ? this.props.path : false
+    )
   }
 
   render() {

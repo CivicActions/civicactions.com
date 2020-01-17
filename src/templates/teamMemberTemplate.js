@@ -69,6 +69,7 @@ export default function Template({ data }) {
       location={location}
       personal_pronouns={personalPronouns}
       social={social}
+      path={frontmatter.path}
     >
       <div className="team_member__specs--wrapper">
         <section className=" section usa-grid team-member__specs">
