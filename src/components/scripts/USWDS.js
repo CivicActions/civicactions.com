@@ -14,6 +14,7 @@ class USWDS extends Component {
     for (let i = 0; i < anchors.length; i++) {
       if (anchors[i].host !== window.location.hostname) {
         anchors[i].classList.add(`external-link`)
+        anchors[i].setAttribute(`target`, `_blank`)
       }
     }
 
