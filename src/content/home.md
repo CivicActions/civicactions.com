@@ -39,7 +39,7 @@ medium_teasers:
   link: 'https://medium.com/civicactions/were-hiring-at-civicactions-aa8ac8486923',
   date: 'July 25, 2018'
 }
-government_services_title: Modernizing Government Services
+government_services_title: Modernizing government services
 government_services:
 - {
     title: 'Contracting and Capabilities',

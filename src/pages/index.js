@@ -68,7 +68,7 @@ const IndexPage = ({ data }) => {
       {/* The Featured Case Studies Section*/}
       <section className="section section__government-services neutral-hex-bg">
         <div className="usa-grid">
-          <SectionTitle title="Work That Matters" />
+          <SectionTitle title="Work that matters" />
           <FeaturedCaseStudies posts={edges} />
         </div>
         <div className="usa-grid align-right">
