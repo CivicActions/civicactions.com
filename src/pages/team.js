@@ -33,7 +33,11 @@ const Team = ({ data }) => {
   })
 
   return (
-    <GeneralLayout heroTitle={title} heroSubtitle={subtitle} urlObject={location}>
+    <GeneralLayout
+      heroTitle={title}
+      heroSubtitle={subtitle}
+      urlObject={location}
+    >
       <section className="section usa-grid section__teaser-grid">
         {teamTeasers}
       </section>

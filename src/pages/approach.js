@@ -21,7 +21,11 @@ const Approach = ({ data }) => {
   } = frontmatter
 
   return (
-    <GeneralLayout heroTitle={title} heroSubtitle={subtitle} urlObject={location}>
+    <GeneralLayout
+      heroTitle={title}
+      heroSubtitle={subtitle}
+      urlObject={location}
+    >
       <section className="section section__approach">
         <div className="usa-grid">
           <div

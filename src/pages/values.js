@@ -19,7 +19,11 @@ const Values = ({ data }) => {
   } = frontmatter
 
   return (
-    <GeneralLayout heroTitle={title} heroSubtitle={subtitle} urlObject={location}>
+    <GeneralLayout
+      heroTitle={title}
+      heroSubtitle={subtitle}
+      urlObject={location}
+    >
       <section className="section section__values">
         <div className="usa-grid">
           <div
