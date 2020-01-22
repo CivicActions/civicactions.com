@@ -61,5 +61,7 @@ module.exports = {
         head: false,
       },
     },
+    `gatsby-redirect-from`,
+    `gatsby-plugin-meta-redirect`,
   ],
 }

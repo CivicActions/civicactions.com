@@ -1,5 +1,8 @@
 ---
-path: /team-alex-scott
+path: /team/alex-scott
+redirect_from: 
+  - /team-alex-scott
+  - /team-alex-scott/
 type: team
 published: 1
 name: Alex Scott

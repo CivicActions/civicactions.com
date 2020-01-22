@@ -1,5 +1,8 @@
 ---
-path: /team-ari-hylas
+path: /team/ari-hylas
+redirect_from: 
+  - /team-ari-hylas
+  - /team-ari-hylas/
 type: team
 published: 1
 name: Ari Hylas
