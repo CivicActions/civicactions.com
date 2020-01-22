@@ -3,7 +3,7 @@ title: Our Values
 path: /
 subtitle: Our values are the mindsets that help us structure our work, define our culture, and achieve our goal of creating digital services that work for everyone.
 thankyou_text: Our human-centric culture has enabled us to build a company that is recognized for putting people first. We are grateful to the people and organizations that have helped us get here.
-quotes_title: From the Team
+quotes_title: From the team
 quotes:
   - {
     image: './team-members/images/henry-poole.jpg',

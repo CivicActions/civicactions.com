@@ -38,7 +38,7 @@ const RelatedByTitle = ({ posts, titles, customClasses }) => {
     return (
       <div className={`section ${classes}`}>
         <section className="usa-grid">
-          <SectionTitle title="Related Case Studies" />
+          <SectionTitle title="Related case studies" />
           <div className="related-content__list">{relatedContent}</div>
         </section>
       </div>

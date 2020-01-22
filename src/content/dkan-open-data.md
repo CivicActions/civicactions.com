@@ -3,7 +3,7 @@ path: /
 type: page
 title: "DKAN and Open Data"
 subtitle: 'We use DKAN to help organizations all over the world comply with open data mandates and use their data to demonstrate accomplishments, educate the public, and empower people to improve their communities.'
-features_title: "DKAN Features"
+features_title: "DKAN features"
 features:
   - {
   icon: ./icons/datasets.svg,

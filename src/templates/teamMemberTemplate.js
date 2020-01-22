@@ -93,7 +93,7 @@ export default function Template({ data }) {
       mediumPostsList ? (
         <section className="section section__recent-posts team team-member__posts">
           <div className="usa-grid">
-            <SectionTitle title="Authored Articles" />
+            <SectionTitle title="Authored articles" />
             {mediumPostsList}
           </div>
         </section>
