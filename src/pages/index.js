@@ -52,7 +52,7 @@ const IndexPage = ({ data }) => {
   })
 
   return (
-    <HomeLayout>
+    <HomeLayout urlObject={location}>
       {/* The Home page content and blockquote section.
            The content in this section is pulled from '/content/home.md' */}
       <section className="section__home-intro section">

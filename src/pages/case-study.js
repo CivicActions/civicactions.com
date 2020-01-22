@@ -29,6 +29,7 @@ const CaseStudies = ({ data }) => {
     <GeneralLayout
       heroTitle="Case Studies"
       heroSubtitle="We help organizations provide better outcomes for people. Our years of experience with government and nonprofit clients have taught us how to manage the complexities of big projects and create partnerships that result in lasting success."
+      urlObject={location}
     >
       <FilteredCaseStudies posts={edges} allTags={allTags} />
 

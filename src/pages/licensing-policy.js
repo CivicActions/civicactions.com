@@ -9,7 +9,7 @@ const LicensingPolicy = ({ data }) => {
   const { subtitle, title } = frontmatter
 
   return (
-    <GeneralLayout heroTitle={title} heroSubtitle={subtitle}>
+    <GeneralLayout heroTitle={title} heroSubtitle={subtitle} urlObject={location}>
       <section className="section">
         <div className="usa-grid">
           <div
