@@ -68,7 +68,10 @@ export const allCaseStudies = graphql`
       }
     }
 
-    allMarkdownRemark(filter: { frontmatter: { type: { eq: "case-study" } } }) {
+    allMarkdownRemark(
+      filter: { frontmatter: { type: { eq: "case-study" } } }
+      sort: { fields: [frontmatter___weight], order: ASC }
+    ) {
       totalCount
       edges {
         node {
@@ -77,6 +80,7 @@ export const allCaseStudies = graphql`
             title
             path
             tags
+            weight
             preview_image {
               childImageSharp {
                 fixed(width: 600, height: 600) {

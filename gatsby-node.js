@@ -34,6 +34,7 @@ exports.createPages = ({ actions, graphql }) => {
               publication
               website
               redirect_from
+              weight
             }
             html
           }
