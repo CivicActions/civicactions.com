@@ -29,6 +29,7 @@ const GeneralLayout = ({
   location,
   personal_pronouns,
   social,
+  path,
 }) => (
   <StaticQuery
     query={graphql`
@@ -93,7 +94,7 @@ const GeneralLayout = ({
               <Header siteTitle="CivicActions" />
               <button className="usa-menu-btn">Menu</button>
             </div>
-            <TopNav pages={data.allSitePage} />
+            <TopNav pages={data.allSitePage} path={path} />
           </section>
           <Hero
             client_name={clientName}

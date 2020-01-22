@@ -36,6 +36,7 @@ export default function Template({ data }) {
       heroCTAText="Visit Website"
       heroClass="case-study-hero"
       heroIsExternal={true}
+      path={frontmatter.path}
     >
       <div className="section__specs section">
         <section className="usa-grid study">
