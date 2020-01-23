@@ -70,10 +70,10 @@ const GeneralLayout = ({
             // Social Sharing
             { name: `og:site_name`, content: data.site.siteMetadata.title },
             { property: `og:type`, content: `website` },
-            { property: `og:url`, content: urlObject.href },
+            // { property: `og:url`, content: urlObject.href },
             { property: `og:title`, content: heroTitle },
             { property: `og:description`, content: heroSubtitle },
-            { property: `og:image`, content: `${urlObject.origin}${logo}` },
+            // { property: `og:image`, content: `${urlObject.origin}${logo}` },
             { name: `twitter:card`, content: config.seo.twitterCard },
             { name: `twitter:site`, content: config.seo.twitterSite },
             { property: `fb:app_id`, content: config.seo.fbAppId },

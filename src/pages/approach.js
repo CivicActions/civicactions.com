@@ -24,7 +24,7 @@ const Approach = ({ data }) => {
     <GeneralLayout
       heroTitle={title}
       heroSubtitle={subtitle}
-      urlObject={location}
+      // urlObject={location}
     >
       <section className="section section__approach">
         <div className="usa-grid">

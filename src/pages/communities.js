@@ -15,7 +15,7 @@ const Communities = ({ data }) => {
     <GeneralLayout
       heroTitle={frontmatter.title}
       heroSubtitle={frontmatter.subtitle}
-      urlObject={location}
+      // urlObject={location}
     >
       <section className="section section__communities">
         <div className="usa-grid">

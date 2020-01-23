@@ -37,7 +37,7 @@ export default function Template({ data }) {
       heroClass="case-study-hero"
       heroIsExternal={true}
       path={frontmatter.path}
-      urlObject={location}
+      // urlObject={location}
     >
       <div className="section__specs section">
         <section className="usa-grid study">

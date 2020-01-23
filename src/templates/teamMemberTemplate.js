@@ -70,7 +70,7 @@ export default function Template({ data }) {
       personal_pronouns={personalPronouns}
       social={social}
       path={frontmatter.path}
-      urlObject={location}
+      // urlObject={location}
     >
       <div className="team_member__specs--wrapper">
         <section className=" section usa-grid team-member__specs">

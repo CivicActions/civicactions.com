@@ -22,7 +22,7 @@ const Values = ({ data }) => {
     <GeneralLayout
       heroTitle={title}
       heroSubtitle={subtitle}
-      urlObject={location}
+      // urlObject={location}
     >
       <section className="section section__values">
         <div className="usa-grid">

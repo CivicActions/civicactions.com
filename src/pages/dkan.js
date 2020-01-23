@@ -23,7 +23,7 @@ const Dkan = ({ data }) => {
     <GeneralLayout
       heroTitle={title}
       heroSubtitle={subtitle}
-      urlObject={location}
+      // urlObject={location}
     >
       <section className="section">
         <div className="usa-grid">

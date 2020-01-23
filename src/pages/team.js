@@ -36,7 +36,7 @@ const Team = ({ data }) => {
     <GeneralLayout
       heroTitle={title}
       heroSubtitle={subtitle}
-      urlObject={location}
+      // urlObject={location}
     >
       <section className="section usa-grid section__teaser-grid">
         {teamTeasers}

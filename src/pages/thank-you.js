@@ -10,7 +10,7 @@ const ThankYou = () => (
   <GeneralLayout
     heroTitle="Hire Us"
     heroSubtitle="Let’s create a public success story together. Tell us about your challenge or idea, and we’ll get in touch to discuss a plan of action. "
-    urlObject={location}
+    // urlObject={location}
   >
     <section className="section section__thankyou">
       <section className="usa-grid text-container">
