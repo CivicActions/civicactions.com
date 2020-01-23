@@ -3,7 +3,7 @@ path: /
 type: page
 title: "Case Studies"
 subtitle: "We help organizations provide better outcomes for people. Our years of experience with government and nonprofit clients have taught us how to manage the complexities of big projects and create partnerships that result in lasting success."
-quotes_title: From Our Clients
+quotes_title: From our clients
 quotes:
 - {
     text: "CivicActions did a great job of understanding our priorities. It was truly a pleasure working with this creative, organized, and committed team.",

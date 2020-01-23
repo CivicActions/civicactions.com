@@ -3,9 +3,9 @@ path: /
 type: approach
 title: "Our Approach"
 subtitle: "Every project is about humans first — the people whose daily lives will be affected by the quality of the work we do. We combine this understanding with our core values to inform our approach."
-services_title: "How We Can Help"
+services_title: "How we can help"
 services_subtitle: "Creating useful digital services in the 21st century requires all kinds of skills and technologies. We can help solve your complex challenges and make sure you gain the competencies for continuing success."
-technologies_title: "Technologies We Love"
+technologies_title: "Technologies we love"
 technologies_subtitle: "We use tools and technologies that promote openness, help people work better together, and provide excellent value."
 services:
   - {

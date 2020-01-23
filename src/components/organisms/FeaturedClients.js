@@ -38,7 +38,7 @@ import veteransaffairs from "./../../files/client-logos/veteransaffairs.png"
 const FeaturedClients = () => (
   <section className="section section__featured_clients usa-grid">
     <div className="section__featured_clients--intro_wrapper">
-      <SectionTitle title="Organizations We Serve" />
+      <SectionTitle title="Organizations we serve" />
       <div className="section__featured_clients--intro-text">
         <p>
           We partner with all levels of government, NGOs, and nonprofits to

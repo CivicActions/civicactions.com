@@ -192,7 +192,7 @@ class Contact extends React.Component {
 
         <section className="section section__contact-options neutral-hex-bg">
           <section className="usa-grid">
-            <SectionTitle title="More Ways to Reach Us" />
+            <SectionTitle title="More ways to reach us" />
             <div className="section__benefits--intro-text">
               Feel free to connect with us about work opportunities, speaking
               engagements, potential partnerships, or just to say hi.
