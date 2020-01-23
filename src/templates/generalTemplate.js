@@ -16,6 +16,7 @@ export default function Template({ data }) {
       pageTitle={`CivicActions | ${frontmatter.title}`}
       heroCTAText={frontmatter.cta_text}
       heroCTALink={frontmatter.cta_link}
+      urlObject={location}
     >
       <div className="text-container section">
         <div dangerouslySetInnerHTML={{ __html: html }} />

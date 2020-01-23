@@ -41,7 +41,11 @@ const Press = ({ data, pageContext }) => {
   })
 
   return (
-    <GeneralLayout heroTitle={title} heroSubtitle={subtitle}>
+    <GeneralLayout
+      heroTitle={title}
+      heroSubtitle={subtitle}
+      urlObject={location}
+    >
       <section className="section">
         <div className="usa-grid text-container">
           <ul className="press__list">{pressItems}</ul>

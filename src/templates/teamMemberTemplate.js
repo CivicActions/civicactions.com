@@ -17,7 +17,6 @@ export default function Template({ data }) {
     name,
     personal_pronouns,
     role,
-    location,
     social,
     medium_posts,
     specialties,
@@ -25,6 +24,7 @@ export default function Template({ data }) {
     quote,
   } = frontmatter
 
+  const memberLocation = frontmatter.location
   const quoteName = getFirstName(first_name, name)
   const personalPronouns = personal_pronouns ? personal_pronouns : ``
 
@@ -66,10 +66,11 @@ export default function Template({ data }) {
       pageTitle={`CivicActions | ${name}`}
       ogImage={image.childImageSharp.fluid.src}
       teamImage={image}
-      location={location}
+      location={memberLocation}
       personal_pronouns={personalPronouns}
       social={social}
       path={frontmatter.path}
+      urlObject={location}
     >
       <div className="team_member__specs--wrapper">
         <section className=" section usa-grid team-member__specs">
