@@ -7,44 +7,47 @@ import FilteredCaseStudies from "./../components/FilteredCaseStudies"
 import GlobalQuoteSlider from "./../components/organisms/GlobalQuoteSlider"
 import SectionTitle from "./../components/atoms/SectionTitle"
 
-const CaseStudies = ({ data }) => {
-  const { markdownRemark, allMarkdownRemark } = data
-  const { edges } = allMarkdownRemark
-  const { quotes, quotes_title } = markdownRemark.frontmatter
+class CaseStudies extends React.Component {
+  render() {
+    const { markdownRemark, allMarkdownRemark } = this.props.data
+    const { edges } = allMarkdownRemark
+    const { quotes, quotes_title } = markdownRemark.frontmatter
 
-  const allTags = [
-    `All`,
-    `UX`,
-    `Open Data`,
-    `Security and Compliance`,
-    `Support`,
-    `Drupal`,
-    `DevOps`,
-    `Education Services`,
-    `Quality Assurance`,
-    `Innovation Lab`,
-  ]
+    const allTags = [
+      `All`,
+      `UX`,
+      `Open Data`,
+      `Security and Compliance`,
+      `Support`,
+      `Drupal`,
+      `DevOps`,
+      `Education Services`,
+      `Quality Assurance`,
+      `Innovation Lab`,
+    ]
 
-  return (
-    <GeneralLayout
-      heroTitle="Case Studies"
-      heroSubtitle="We help organizations provide better outcomes for people. Our years of experience with government and nonprofit clients have taught us how to manage the complexities of big projects and create partnerships that result in lasting success."
-    >
-      <FilteredCaseStudies posts={edges} allTags={allTags} />
+    return (
+      <GeneralLayout
+        heroTitle="Case Studies"
+        heroSubtitle="We help organizations provide better outcomes for people. Our years of experience with government and nonprofit clients have taught us how to manage the complexities of big projects and create partnerships that result in lasting success."
+        urlObject={this.props.location}
+      >
+        <FilteredCaseStudies posts={edges} allTags={allTags} />
 
-      <section className="section section__triple-quotes neutral-hex-bg">
-        <div className="usa-grid">
-          <div className="absolute">
-            <SectionTitle title={quotes_title} />
-            <div className="blockquotes__list">
-              <GlobalQuoteSlider quotes={quotes} />
+        <section className="section section__triple-quotes neutral-hex-bg">
+          <div className="usa-grid">
+            <div className="absolute">
+              <SectionTitle title={quotes_title} />
+              <div className="blockquotes__list">
+                <GlobalQuoteSlider quotes={quotes} />
+              </div>
             </div>
           </div>
-        </div>
-      </section>
-      <FeaturedClients />
-    </GeneralLayout>
-  )
+        </section>
+        <FeaturedClients />
+      </GeneralLayout>
+    )
+  }
 }
 
 export default CaseStudies

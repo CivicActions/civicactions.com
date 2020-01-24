@@ -1,11 +1,13 @@
 // Template for displaying general pages
 
+import PropTypes from "prop-types"
+
 import React from "react"
 import { graphql } from "gatsby"
 
 import GeneralLayout from "./../components/layouts/GeneralLayout"
 
-export default function Template({ data }) {
+export default function Template({ data, location }) {
   const { markdownRemark } = data
   const { frontmatter, html } = markdownRemark
 
@@ -16,6 +18,7 @@ export default function Template({ data }) {
       pageTitle={`CivicActions | ${frontmatter.title}`}
       heroCTAText={frontmatter.cta_text}
       heroCTALink={frontmatter.cta_link}
+      urlObject={location}
     >
       <div className="text-container section">
         <div dangerouslySetInnerHTML={{ __html: html }} />

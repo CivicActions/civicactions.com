@@ -75,6 +75,8 @@ exports.createPages = ({ actions, graphql }) => {
             component: caseStudyTemplate,
           })
           break
+        case `press`:
+          break
         default:
           createPage({
             path: node.frontmatter.path,

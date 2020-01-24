@@ -11,8 +11,9 @@ import Footer from "./../footer/Footer"
 import config from "../../../data/SiteConfig"
 import TopNav from "./../navigation/TopNav"
 import header_bg from "./../header/background_bg-hero.png"
+import logo from "./../header/logo.png"
 
-const Layout = ({ children, data, location }) => (
+const Layout = ({ children, urlObject }) => (
   <StaticQuery
     query={graphql`
       query SiteTitleQuery {
@@ -65,15 +66,16 @@ const Layout = ({ children, data, location }) => (
             // Social Sharing
             { name: `og:site_name`, content: data.site.siteMetadata.title },
             { property: `og:type`, content: `website` },
-            { property: `og:url`, content: location },
+            { property: `og:url`, content: urlObject.href },
             { property: `og:title`, content: data.site.siteMetadata.title },
             {
               property: `og:description`,
               content: `Open and Agile Digital Government Services`,
             },
-            { property: `og:image`, content: header_bg },
+            { property: `og:image`, content: `${urlObject.origin}${logo}` },
             { name: `twitter:card`, content: config.seo.twitterCard },
             { name: `twitter:site`, content: config.seo.twitterSite },
+            { name: `twitter:image`, content: `${urlObject.origin}${logo}` },
             { property: `fb:app_id`, content: config.seo.fbAppId },
 
             // Contact
