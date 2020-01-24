@@ -18,8 +18,8 @@ videos:
   }
 - {
   youTubeID: "4vPPlgyMbCc",
-  related_link_title: "Content cleanup during large government site migrations",
-  related_link: "https://medium.com/civicactions/content-cleanup-during-migration-bbd63440b91",
+  related_link_title: "The role of UX in an agile team",
+  related_link: "https://medium.com/civicactions/the-role-of-ux-in-an-agile-team-1f376d478cfd",
   cover_image: './video-images/role-of-ux-in-an-agile-team.png',
   }
 - {
@@ -31,8 +31,18 @@ videos:
 
 what_we_have_been_talking_about_teasers: 
 - {
+  title: Modular content strategy for Doctors Without Borders,
+  link: 'https://medium.com/civicactions/modular-content-strategy-for-doctors-without-borders-704947e2f541',
+  date: 'December 13, 2019'
+}
+- {
   title: How Drupal can (and is) powering government open data efforts,
   link: 'https://medium.com/civicactions/how-drupal-can-and-is-powering-government-open-data-efforts-7477a150a126',
   date: 'July 30, 2019'
+}
+- {
+  title: Content cleanup during migrations,
+  link: 'https://medium.com/civicactions/content-cleanup-during-migration-bbd63440b91',
+  date: 'July 23, 2019'
 }
 ---
