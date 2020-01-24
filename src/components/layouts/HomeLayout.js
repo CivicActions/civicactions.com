@@ -75,6 +75,7 @@ const Layout = ({ children, urlObject }) => (
             { property: `og:image`, content: `${urlObject.origin}${logo}` },
             { name: `twitter:card`, content: config.seo.twitterCard },
             { name: `twitter:site`, content: config.seo.twitterSite },
+            { name: `twitter:image`, content: `${urlObject.origin}${logo}` },
             { property: `fb:app_id`, content: config.seo.fbAppId },
 
             // Contact

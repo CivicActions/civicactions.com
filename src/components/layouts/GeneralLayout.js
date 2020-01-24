@@ -64,8 +64,8 @@ const GeneralLayout = ({
         <Helmet
           title={pageTitle}
           meta={[
-            { name: `description`, content: `Sample` },
-            { name: `keywords`, content: `sample, something` },
+            // { name: `description`, content: `Sample` },
+            // { name: `keywords`, content: `sample, something` },
 
             // Social Sharing
             { name: `og:site_name`, content: data.site.siteMetadata.title },
@@ -76,6 +76,7 @@ const GeneralLayout = ({
             { property: `og:image`, content: `${urlObject.origin}${logo}` },
             { name: `twitter:card`, content: config.seo.twitterCard },
             { name: `twitter:site`, content: config.seo.twitterSite },
+            { name: `twitter:image`, content: `${urlObject.origin}${logo}` },
             { property: `fb:app_id`, content: config.seo.fbAppId },
 
             // Contact
