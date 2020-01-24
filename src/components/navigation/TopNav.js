@@ -168,7 +168,10 @@ class TopNav extends React.Component {
               aria-hidden="true"
             >
               <li>
-                <a href="https://medium.com/civicactions" className="usa-nav-link">
+                <a
+                  href="https://medium.com/civicactions"
+                  className="usa-nav-link"
+                >
                   <span>Blog</span>
                 </a>
               </li>
