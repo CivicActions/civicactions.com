@@ -32,4 +32,33 @@
   .youtube_video_text {
     padding: 20px;
   }
+  .vid-image-preview {
+    position: relative;
+    cursor: pointer;
+    img {
+      width: 100%;
+      height: auto;
+    }
+    &::before {
+      position: absolute;
+      top: calc(50% - 32px);
+      left: calc(50% - 32px);
+      width: 64px;
+      height: 64px;
+      content: "";
+      border-radius: 50%;
+      background-color: #fff;
+    }
+    &::after {
+      position: absolute;
+      top: calc(50% - 13px);
+      left: calc(50% - 7px);
+      width: 0;
+      height: 0;
+      content: "";
+      border-top: 15px solid transparent;
+      border-bottom: 15px solid transparent;
+      border-left: 20px solid $teal;
+    }
+  }
 }

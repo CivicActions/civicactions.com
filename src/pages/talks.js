@@ -82,9 +82,16 @@ export const query = graphql`
         subtitle
         videos_title
         videos {
-          url
+          youTubeID
           related_link_title
           related_link
+          cover_image {
+            childImageSharp {
+              fixed(width: 462, height: 247) {
+                src
+              }
+            }
+          }
         }
         what_we_have_been_talking_about_teasers {
           date
