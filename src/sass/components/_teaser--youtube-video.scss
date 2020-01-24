@@ -1,0 +1,64 @@
+.teaser--youtube-video {
+  width: 100%;
+  margin-bottom: 20px;
+
+  @media screen and (min-width: $small-screen) and (max-width: $medium-screen) {
+    width: 100%;
+  }
+  
+  @media screen and (min-width: $medium-screen) and (max-width: $medium-large-screen) {
+    width: 48.2%;
+  }
+
+  @media screen and (min-width: $medium-large-screen) { 
+    width:  48.2%;
+  }
+
+  .iframe-container {
+    overflow: hidden;
+    // Calculated from the aspect ration of the content (in case of 16:9 it is 9/16= 0.5625)
+    padding-bottom: 56.25%;
+    position: relative;
+
+    iframe {
+      border: 0;
+      height: 100%;
+      left: 0;
+      position: absolute;
+      top: 0;
+      width: 100%;
+    }
+  }
+  .youtube_video_text {
+    padding: 20px;
+  }
+  .vid-image-preview {
+    position: relative;
+    cursor: pointer;
+    img {
+      width: 100%;
+      height: auto;
+    }
+    &::before {
+      position: absolute;
+      top: calc(50% - 32px);
+      left: calc(50% - 32px);
+      width: 64px;
+      height: 64px;
+      content: "";
+      border-radius: 50%;
+      background-color: #fff;
+    }
+    &::after {
+      position: absolute;
+      top: calc(50% - 13px);
+      left: calc(50% - 7px);
+      width: 0;
+      height: 0;
+      content: "";
+      border-top: 15px solid transparent;
+      border-bottom: 15px solid transparent;
+      border-left: 20px solid $teal;
+    }
+  }
+}
