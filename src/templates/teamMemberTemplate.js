@@ -9,7 +9,7 @@ import Blockquote from "./../components/atoms/Blockquote"
 import SectionTitle from "./../components/atoms/SectionTitle"
 import { existy, getFirstName } from "../helpers"
 
-export default function Template({ data }) {
+export default function Template({ data, location }) {
   const { markdownRemark } = data
   const { frontmatter, html } = markdownRemark
   const {
@@ -70,7 +70,7 @@ export default function Template({ data }) {
       personal_pronouns={personalPronouns}
       social={social}
       path={frontmatter.path}
-      // urlObject={location}
+      urlObject={location}
     >
       <div className="team_member__specs--wrapper">
         <section className=" section usa-grid team-member__specs">

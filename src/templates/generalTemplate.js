@@ -7,7 +7,7 @@ import { graphql } from "gatsby"
 
 import GeneralLayout from "./../components/layouts/GeneralLayout"
 
-export default function Template({ data }) {
+export default function Template({ data, location }) {
   const { markdownRemark } = data
   const { frontmatter, html } = markdownRemark
 
@@ -18,7 +18,7 @@ export default function Template({ data }) {
       pageTitle={`CivicActions | ${frontmatter.title}`}
       heroCTAText={frontmatter.cta_text}
       heroCTALink={frontmatter.cta_link}
-      // urlObject={location}
+      urlObject={location}
     >
       <div className="text-container section">
         <div dangerouslySetInnerHTML={{ __html: html }} />

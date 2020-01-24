@@ -8,7 +8,7 @@ import GeneralLayout from "./../components/layouts/GeneralLayout"
 import ImageSlider from "./../components/organisms/ImageSlider"
 import RelatedByTitle from "./../components/RelatedByTitle"
 
-export default function Template({ data }) {
+export default function Template({ data, location }) {
   const { markdownRemark, allMarkdownRemark } = data
   const { frontmatter, html } = markdownRemark
   const { related_titles, specs, tags, images } = frontmatter
@@ -37,7 +37,7 @@ export default function Template({ data }) {
       heroClass="case-study-hero"
       heroIsExternal={true}
       path={frontmatter.path}
-      // urlObject={location}
+      urlObject={location}
     >
       <div className="section__specs section">
         <section className="usa-grid study">

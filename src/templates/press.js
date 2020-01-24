@@ -13,7 +13,7 @@ const NavLink = props => {
   }
 }
 
-const Press = ({ data, pageContext }) => {
+const Press = ({ data, pageContext, location }) => {
   // pagination. See gatsby node for loading of pageContext.
   const { group, index, first, last } = pageContext
   const previousUrl =
@@ -44,7 +44,7 @@ const Press = ({ data, pageContext }) => {
     <GeneralLayout
       heroTitle={title}
       heroSubtitle={subtitle}
-      // urlObject={location}
+      urlObject={location}
     >
       <section className="section">
         <div className="usa-grid text-container">
