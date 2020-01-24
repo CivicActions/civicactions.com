@@ -58,10 +58,7 @@ const NotFoundLayout = ({
     `}
     render={data => (
       <>
-        <Helmet
-          title={pageTitle}
-          meta={[ ]}
-        />
+        <Helmet title={pageTitle} meta={[]} />
 
         <header
           className="section header__main usa-header usa-header-basic"
