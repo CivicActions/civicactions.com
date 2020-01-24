@@ -81,7 +81,7 @@ class Contact extends React.Component {
       <GeneralLayout
         heroTitle="Hire Us"
         heroSubtitle="Let’s create a public success story together. Tell us about your challenge or idea, and we’ll get in touch to discuss a plan of action. "
-        // urlObject={location}
+        urlObject={this.props.location}
       >
         <section className="section section__contact">
           <section className="usa-grid">

@@ -1,5 +1,4 @@
 import React from "react"
-import PropTypes from "prop-types"
 import _ from "lodash"
 import { graphql } from "gatsby"
 
@@ -13,10 +12,6 @@ import SectionTitle from "../components/atoms/SectionTitle"
 import Link from "./../components/scripts/Link"
 
 class IndexPage extends React.Component {
-  static propTypes = {
-    location: PropTypes.object,
-  }
-
   render() {
     const { markdownRemark, allMarkdownRemark } = this.props.data
     const { html, frontmatter } = markdownRemark

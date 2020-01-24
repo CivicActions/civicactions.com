@@ -7,55 +7,57 @@ import GlobalQuotesSlider from "./../components/organisms/GlobalQuoteSlider"
 import ImageBand from "./../components/organisms/ImageBand"
 import SectionTitle from "./../components/atoms/SectionTitle"
 
-const Team = ({ data }) => {
-  const { markdownRemark, allMarkdownRemark } = data
-  const team = allMarkdownRemark.edges
+class Team extends React.Component {
+  render() {
+    const { markdownRemark, allMarkdownRemark } = this.props.data
+    const team = allMarkdownRemark.edges
 
-  const {
-    image_band,
-    quotes,
-    quotes_title,
-    title,
-    subtitle,
-  } = markdownRemark.frontmatter
+    const {
+      image_band,
+      quotes,
+      quotes_title,
+      title,
+      subtitle,
+    } = markdownRemark.frontmatter
 
-  const teamTeasers = team.map((item, index) => {
-    const { image, name, path, published, role } = item.node.frontmatter
+    const teamTeasers = team.map((item, index) => {
+      const { image, name, path, published, role } = item.node.frontmatter
+      return (
+        <TeaserGrid
+          image={image}
+          name={name}
+          link={path}
+          published={published}
+          title={role}
+        />
+      )
+    })
+
     return (
-      <TeaserGrid
-        image={image}
-        name={name}
-        link={path}
-        published={published}
-        title={role}
-      />
-    )
-  })
+      <GeneralLayout
+        heroTitle={title}
+        heroSubtitle={subtitle}
+        urlObject={this.props.location}
+      >
+        <section className="section usa-grid section__teaser-grid">
+          {teamTeasers}
+        </section>
 
-  return (
-    <GeneralLayout
-      heroTitle={title}
-      heroSubtitle={subtitle}
-      // urlObject={location}
-    >
-      <section className="section usa-grid section__teaser-grid">
-        {teamTeasers}
-      </section>
-
-      <section className="section section__triple-quotes neutral-hex-bg team">
-        <div className="usa-grid">
-          <SectionTitle title={quotes_title} />
-          <div className="blockquotes__list">
-            <GlobalQuotesSlider quotes={quotes} />
+        <section className="section section__triple-quotes neutral-hex-bg team">
+          <div className="usa-grid">
+            <SectionTitle title={quotes_title} />
+            <div className="blockquotes__list">
+              <GlobalQuotesSlider quotes={quotes} />
+            </div>
           </div>
-        </div>
-      </section>
+        </section>
 
-      <section className="feed__image--wrapper">
-        <ImageBand imageArray={image_band} />
-      </section>
-    </GeneralLayout>
-  )
+        <section className="feed__image--wrapper">
+          <ImageBand imageArray={image_band} />
+        </section>
+      </GeneralLayout>
+    )
+  }
 }
 
 export default Team

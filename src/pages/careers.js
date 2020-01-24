@@ -9,88 +9,90 @@ import ImageBand from "./../components/organisms/ImageBand"
 import GlobalQuoteSlider from "./../components/organisms/GlobalQuoteSlider"
 import Link from "./../components/scripts/Link"
 
-const Careers = ({ data }) => {
-  const { allJob, markdownRemark } = data
-  const { html, frontmatter } = markdownRemark
-  const {
-    benefits,
-    benefits_title,
-    image_band,
-    quotes,
-    quotes_title,
-    openings_subtitle,
-    openings_title,
-    title,
-    subtitle,
-  } = frontmatter
-  const { edges } = allJob
+class Careers extends React.Component {
+  render() {
+    const { allJob, markdownRemark } = this.props.data
+    const { html, frontmatter } = markdownRemark
+    const {
+      benefits,
+      benefits_title,
+      image_band,
+      quotes,
+      quotes_title,
+      openings_subtitle,
+      openings_title,
+      title,
+      subtitle,
+    } = frontmatter
+    const { edges } = allJob
 
-  const jobs = _.map(edges, (job, index) => {
-    const url = `http://civicactions.applytojob.com/apply/${job.node.board_code}`
+    const jobs = _.map(edges, (job, index) => {
+      const url = `http://civicactions.applytojob.com/apply/${job.node.board_code}`
+
+      return (
+        <li key={job.node.id} className="teaser__item">
+          <h4 className="teaser__title">
+            <Link to={url}>{job.node.title}</Link>
+          </h4>
+          <div className="teaser__text">
+            Location:&nbsp;
+            <span class="city">
+              {job.node.city ? job.node.city.trim() : null}
+            </span>
+            {job.node.city && job.node.state ? `, ` : null}
+            <span class="state">{job.node.state}</span>
+          </div>
+          <div className="teaser__text">
+            Type: <span class="type">{job.node.type}</span>
+          </div>
+        </li>
+      )
+    })
 
     return (
-      <li key={job.node.id} className="teaser__item">
-        <h4 className="teaser__title">
-          <Link to={url}>{job.node.title}</Link>
-        </h4>
-        <div className="teaser__text">
-          Location:&nbsp;
-          <span class="city">
-            {job.node.city ? job.node.city.trim() : null}
-          </span>
-          {job.node.city && job.node.state ? `, ` : null}
-          <span class="state">{job.node.state}</span>
-        </div>
-        <div className="teaser__text">
-          Type: <span class="type">{job.node.type}</span>
-        </div>
-      </li>
-    )
-  })
-
-  return (
-    <GeneralLayout
-      heroTitle={title}
-      heroSubtitle={subtitle}
-      hideSubFooter={true}
-      // urlObject={location}
-    >
-      <section className="section section__careers">
-        <div className="usa-grid">
-          <div
-            className="text-container--careers"
-            dangerouslySetInnerHTML={{ __html: html }}
-          />
-        </div>
-      </section>
-
-      <section className="section section__triple-quotes section__triple-quotes-careers neutral-hex-bg">
-        <div className="usa-grid">
-          <SectionTitle title={quotes_title} />
-          <div className="blockquotes__list">
-            <GlobalQuoteSlider quotes={quotes} />
+      <GeneralLayout
+        heroTitle={title}
+        heroSubtitle={subtitle}
+        hideSubFooter={true}
+        urlObject={this.props.location}
+      >
+        <section className="section section__careers">
+          <div className="usa-grid">
+            <div
+              className="text-container--careers"
+              dangerouslySetInnerHTML={{ __html: html }}
+            />
           </div>
-        </div>
-      </section>
-
-      <section className="section section_benefits">
-        <section className="usa-grid">
-          <SectionTitle title={benefits_title} />
-          <IconParagraphsGroup icons={benefits} />
         </section>
-      </section>
 
-      <section className="section section__recent-posts section__recent-posts-careers neutral-hex-bg">
-        <div className="usa-grid">
-          <SectionTitle title={openings_title} subtitle={openings_subtitle} />
-          <ul className="teaser--wrapper">{jobs}</ul>
-        </div>
-      </section>
-      <section className="feed__image--wrapper">
-        <ImageBand imageArray={image_band} />
-      </section>
-    </GeneralLayout>
-  )
+        <section className="section section__triple-quotes section__triple-quotes-careers neutral-hex-bg">
+          <div className="usa-grid">
+            <SectionTitle title={quotes_title} />
+            <div className="blockquotes__list">
+              <GlobalQuoteSlider quotes={quotes} />
+            </div>
+          </div>
+        </section>
+
+        <section className="section section_benefits">
+          <section className="usa-grid">
+            <SectionTitle title={benefits_title} />
+            <IconParagraphsGroup icons={benefits} />
+          </section>
+        </section>
+
+        <section className="section section__recent-posts section__recent-posts-careers neutral-hex-bg">
+          <div className="usa-grid">
+            <SectionTitle title={openings_title} subtitle={openings_subtitle} />
+            <ul className="teaser--wrapper">{jobs}</ul>
+          </div>
+        </section>
+        <section className="feed__image--wrapper">
+          <ImageBand imageArray={image_band} />
+        </section>
+      </GeneralLayout>
+    )
+  }
 }
 
 export default Careers
