@@ -13,7 +13,10 @@ class USWDS extends Component {
 
     for (let i = 0; i < anchors.length; i++) {
       if (anchors[i].host !== window.location.hostname) {
+        // Add a class to external links and force them to open in a new
+        // tab/window.
         anchors[i].classList.add(`external-link`)
+        anchors[i].setAttribute(`target`, `_blank`)
       }
     }
 
