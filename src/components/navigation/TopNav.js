@@ -145,7 +145,16 @@ class TopNav extends React.Component {
               </li>
             </ul>
           </li>
-          <li className="menu-item">
+          <li
+            className={[
+              activeParent === "ideas" ? "usa-current" : "",
+              "menu-item",
+            ].join(" ")}
+            ref={ref => {
+              this.menuRef["ideas"] = ref
+              return true
+            }}
+          >
             <button
               className="usa-accordion-button usa-nav-link"
               aria-expanded="false"
@@ -184,12 +193,12 @@ class TopNav extends React.Component {
             <button
               className="usa-accordion-button usa-nav-link"
               aria-expanded="false"
-              aria-controls="basic-nav-section-three"
+              aria-controls="basic-nav-section-four"
             >
               <span>Connect</span>
             </button>
             <ul
-              id="basic-nav-section-three"
+              id="basic-nav-section-four"
               className="usa-nav-submenu"
               aria-hidden="true"
             >
