@@ -9,10 +9,9 @@ import Teaser from "./../components/Teaser"
 import Link from "./../components/scripts/Link.js"
 
 class Talks extends React.Component {
-
   render() {
-    const {markdownRemark} = this.props.data
-    const {frontmatter, html} = markdownRemark
+    const { markdownRemark } = this.props.data
+    const { frontmatter, html } = markdownRemark
     const {
       title,
       subtitle,
@@ -22,17 +21,17 @@ class Talks extends React.Component {
     } = frontmatter
 
     const videoTeasers = videos.map((video, index) => {
-      return <YouTubeVideo key={index} video={video}/>
+      return <YouTubeVideo key={index} video={video} />
     })
 
     const whatWeHaveBeenTalkingAboutTeasers = _.map(
       what_we_have_been_talking_about_teasers,
       (item, index) => {
-        const {title, link, date} = item
+        const { title, link, date } = item
         return (
           <li className="what-weve-been-talking-about--teaser__item teaser__item">
             <Teaser
-              key={{index}}
+              key={{ index }}
               teaserDate={date}
               teaserTitle={title}
               teaserLink={link}
@@ -49,7 +48,7 @@ class Talks extends React.Component {
         urlObject={this.props.location}
       >
         <div className="usa-grid-full">
-          <SectionTitle title={videos_title}/>
+          <SectionTitle title={videos_title} />
         </div>
         <section className="section usa-grid section__talks">
           {videoTeasers}
@@ -58,7 +57,7 @@ class Talks extends React.Component {
         {/* What we've been talking about */}
         <section className="section section__what-weve-been-talking-about">
           <div className="usa-grid">
-            <SectionTitle title="What we've been talking about"/>
+            <SectionTitle title="What we've been talking about" />
             <div className="teaser-wrapper">
               <ul className="what-weve-been-talking-about--teasers">
                 {whatWeHaveBeenTalkingAboutTeasers}
