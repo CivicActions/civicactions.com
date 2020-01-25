@@ -39,7 +39,10 @@
         }
         ul {
           a {
-            font-weight: normal;
+            font-weight: $font-bold;
+          }
+          span {
+            color: $white;
           }
         }
         @media screen and (min-width: $nav-width) {
@@ -120,6 +123,9 @@
         @include media($nav-width) {
           padding-left: 1.5rem;
         }
+      }
+      &.external-link {
+        display: block;
       }
     }
 

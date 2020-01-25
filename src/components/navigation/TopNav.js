@@ -147,17 +147,41 @@ class TopNav extends React.Component {
           </li>
           <li
             className={[
-              activeParent === "blog" ? "usa-current" : "",
+              activeParent === "ideas" ? "usa-current" : "",
               "menu-item",
             ].join(" ")}
             ref={ref => {
-              this.menuRef["blog"] = ref
+              this.menuRef["ideas"] = ref
               return true
             }}
           >
-            <a href="https://medium.com/civicactions" className="usa-nav-link">
-              <span>Blog</span>
-            </a>
+            <button
+              className="usa-accordion-button usa-nav-link"
+              aria-expanded="false"
+              aria-controls="basic-nav-section-three"
+            >
+              <span>Ideas</span>
+            </button>
+            <ul
+              id="basic-nav-section-three"
+              className="usa-nav-submenu"
+              aria-hidden="true"
+            >
+              <li>
+                <a
+                  href="https://medium.com/civicactions"
+                  className="usa-nav-link"
+                >
+                  <span>Blog</span>
+                </a>
+              </li>
+              <li>
+                <Link to="/talks" activeClassName="usa-current">
+                  {` `}
+                  Talks{` `}
+                </Link>
+              </li>
+            </ul>
           </li>
           <li
             className={[
@@ -172,12 +196,12 @@ class TopNav extends React.Component {
             <button
               className="usa-accordion-button usa-nav-link"
               aria-expanded="false"
-              aria-controls="basic-nav-section-three"
+              aria-controls="basic-nav-section-four"
             >
               <span>Connect</span>
             </button>
             <ul
-              id="basic-nav-section-three"
+              id="basic-nav-section-four"
               className="usa-nav-submenu"
               aria-hidden="true"
             >
