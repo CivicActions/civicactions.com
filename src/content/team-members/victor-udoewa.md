@@ -2,7 +2,7 @@
 path: /team/victor-udoewa
 type: team
 published: 1
-name: Victor Udowea
+name: Victor Udoewa
 personal_pronouns: he/him
 image: 'images/victor-udoewa.jpg'
 role: Strategy, Education, Design
