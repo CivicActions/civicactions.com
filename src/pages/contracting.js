@@ -19,7 +19,6 @@ class Contracting extends React.Component {
         heroSubtitle={subtitle}
         urlObject={this.props.location}
       >
-
         <section className="section">
           <div className="usa-grid">
             <div
@@ -27,26 +26,25 @@ class Contracting extends React.Component {
               dangerouslySetInnerHTML={{ __html: html }}
             />
             <div class="text-container">
-            <ul>
-              <li>
-                <Link
-                  to={gsaSchedule}
-                  children="GSA Schedule 70 (PDF)"
-                  className=""
-                />
-              </li>
-              <li>
-                <Link
-                  to={cmasSchedule}
-                  children="CMAS Schedule 3-16-70-3298A (PDF)"
-                  className=""
-                />
-              </li>
-            </ul>
+              <ul>
+                <li>
+                  <Link
+                    to={gsaSchedule}
+                    children="GSA Schedule 70 (PDF)"
+                    className=""
+                  />
+                </li>
+                <li>
+                  <Link
+                    to={cmasSchedule}
+                    children="CMAS Schedule 3-16-70-3298A (PDF)"
+                    className=""
+                  />
+                </li>
+              </ul>
             </div>
           </div>
         </section>
-
       </GeneralLayout>
     )
   }
