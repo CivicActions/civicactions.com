@@ -30,17 +30,6 @@ Community Building,
 Nomadic Wandering,
 Emojis
 ]
-medium_posts: 
-  - {
-  title: "CivicActions at Drupal GovCon 2018",
-  date: "August 13, 2018",
-  url: https://medium.com/civicactions/civicactions-at-drupal-govcon-2018-f1075c4d803
-  }
-  - {
-  title: "Joining the Data Coalition and expanding our commitment to open data",
-  date: "July 28, 2018",
-  url: https://medium.com/civicactions/joining-the-data-coalition-and-expanding-our-commitment-to-open-data-383f72937666
-  }
   
 ---
 
