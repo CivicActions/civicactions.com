@@ -51,13 +51,19 @@ const FooterNav = () => (
       <li className="usa-footer-secondary-link">
         <Link to="/capabilities" activeClassName="usa-current">
           {` `}
-          Contracting and Capabilities{` `}
+          Capabilities{` `}
         </Link>
       </li>
       <li className="usa-footer-secondary-link">
         <Link to="/dkan" activeClassName="usa-current">
           {` `}
           DKAN and Open Data{` `}
+        </Link>
+      </li>
+      <li className="usa-footer-secondary-link">
+        <Link to="/contracting" activeClassName="usa-current">
+          {` `}
+          Contracting{` `}
         </Link>
       </li>
     </ul>
