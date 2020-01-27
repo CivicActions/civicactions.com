@@ -13,11 +13,9 @@ social:
   url: https://linkedin.com/in/nathandurbin/
   }
 specialties: [ "Analysis & Debugging",
-Containerization As Code,
-Automation,
 Environmental Advocacy,
 Big-Picture Thinking,
-Inclusion,
+Inclusion
 ]
   
 ---
