@@ -5,6 +5,27 @@ class USWDS extends Component {
     return require(`uswds`)
   }
 
+  static isOpen() {
+    const topLinks = document.querySelectorAll(`.usa-accordion-button`)
+    for (let j = 0; j < topLinks.length; j++) {
+      if (topLinks[j].getAttribute(`aria-expanded`) === "true") {
+        return true
+      }
+    }
+    return false
+  }
+
+  static closeAll() {
+    const topLinks = document.querySelectorAll(`.usa-accordion-button`)
+    for (let j = 0; j < topLinks.length; j++) {
+      topLinks[j].setAttribute(`aria-expanded`, `false`)
+    }
+    const subMenus = document.querySelectorAll(`.usa-nav-submenu`)
+    for (let j = 0; j < subMenus.length; j++) {
+      subMenus[j].setAttribute(`aria-hidden`, `true`)
+    }
+  }
+
   componentDidMount() {
     const isMobileDevice =
       navigator.userAgent.match(/iPad|iPhone|iPod/i) != null
@@ -27,6 +48,20 @@ class USWDS extends Component {
           topLinks[j].setAttribute(`aria-expanded`, `true`)
         }
       }
+    } else {
+      document.addEventListener(
+        "click",
+        function(event) {
+          // Bail out if no submenus are open.
+          if (!USWDS.isOpen()) return
+
+          // If the click isn't in a drop-down, close all drop-downs.
+          if (!event.target.parentNode.matches(".usa-accordion-button")) {
+            USWDS.closeAll()
+          }
+        },
+        false
+      )
     }
 
     USWDS.loadUSWDS()
