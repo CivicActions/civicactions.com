@@ -13,15 +13,15 @@ social:
   url: https://linkedin.com/in/nathandurbin/
   }
 specialties: [ "Analysis & Debugging",
-Environmental Advocacy,
-Big-Picture Thinking,
+Automation,
+Containerization As Code,
 Inclusion
 ]
   
 ---
 
 ### Things Nathan has been doing
-* Helping the [state of California] modernize its healthcare payment system
+* Helping the [state of California](https://github.com/ca-mmis) modernize its healthcare payment system
 * Using the power of automation to help businesses put [people over process](https://www.synchr.com/)
 * Donating idle computer time to support the [search for intelligent life](https://setiathome.berkeley.edu/) and [signals for rotating neutron stars](https://einsteinathome.org/)
 * Getting fresh perspective from the exploration of [underwater worlds](https://drive.google.com/a/civicactions.com/file/d/1-6lA_D0I9w7iPiATn6xK0SdncwaUEVoK/view?usp=sharing)
