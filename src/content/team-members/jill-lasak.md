@@ -12,11 +12,11 @@ social:
   name: LinkedIn,
   url: https://www.linkedin.com/in/jill-lasak/
   }
-    - {
+  - {
   name: Drupal,
   url: https://www.drupal.org/u/jill-l
   }
-      - {
+  - {
   name: Instagram,
   url: https://www.instagram.com/jill.lasak/
   }
