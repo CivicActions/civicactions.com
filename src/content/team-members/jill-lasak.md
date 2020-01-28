@@ -3,6 +3,7 @@ path: /team/jill-lasak
 type: team
 published: 1
 name: Jill Lasak
+personal_pronouns: 'she/her'
 image: 'images/jill-lasak.jpg'
 role: Engineering
 location: Los Angeles
