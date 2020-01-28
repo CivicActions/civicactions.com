@@ -41,20 +41,6 @@ class USWDS extends Component {
       }
     }
 
-    document.addEventListener(
-      "click",
-      function(event) {
-        // Bail out if no submenus are open.
-        if (!USWDS.isOpen()) return
-
-        // If the click isn't in a drop-down, close all drop-downs.
-        if (!event.target.parentNode.matches(".usa-accordion-button")) {
-          USWDS.closeAll()
-        }
-      },
-      false
-    )
-
     if (isMobileDevice) {
       const topLinks = document.querySelectorAll(`.usa-accordion-button`)
       for (let j = 0; j < topLinks.length; j++) {
@@ -62,6 +48,20 @@ class USWDS extends Component {
           topLinks[j].setAttribute(`aria-expanded`, `true`)
         }
       }
+    } else {
+      document.addEventListener(
+        "click",
+        function(event) {
+          // Bail out if no submenus are open.
+          if (!USWDS.isOpen()) return
+
+          // If the click isn't in a drop-down, close all drop-downs.
+          if (!event.target.parentNode.matches(".usa-accordion-button")) {
+            USWDS.closeAll()
+          }
+        },
+        false
+      )
     }
 
     USWDS.loadUSWDS()
