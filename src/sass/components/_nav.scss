@@ -177,6 +177,11 @@
   box-shadow: none;
   font-size: $base-font-size;
   font-weight: $font-bold;
+  &:active,
+  &:focus {
+    background-color: transparent;
+    box-shadow: none;
+  }
 }
 .usa-navbar {
   border-bottom: none;
