@@ -24,7 +24,6 @@
   .usa-nav-primary {
     .menu-item {
       position: relative;
-      padding-top: calc(1.5rem + 10px);
       border-top: none;
       &:hover {
         // @include top-border-large($teal);
@@ -33,13 +32,17 @@
 
       &.usa-current {
         padding-left: 0;
+        border-left: 0 none;
         > button span {
           padding-bottom: 0;
           border-bottom: 0 none;
         }
         ul {
           a {
-            font-weight: $font-bold;
+            font-weight: normal;
+            @include media($nav-width) {
+              font-weight: $font-bold;
+            }
           }
           span {
             color: $white;
@@ -102,6 +105,9 @@
           text-decoration: underline;
         }
       }
+      @include media($nav-width) {
+        padding-top: calc(1.5rem + 10px);
+      }
     }
   }
   .usa-nav-submenu {
@@ -110,7 +116,9 @@
     a {
       padding-top: $spacing-md-small;
       padding-bottom: $spacing-md-small;
+      padding-left: rem(50);
       text-decoration: underline;
+      color: $white;
       font-family: $font-sans;
       font-size: $small-font-size;
       &:hover {
@@ -126,6 +134,10 @@
       }
       &.external-link {
         display: block;
+      }
+
+      @include media($nav-width) {
+        padding-left: 1.5rem;
       }
     }
 
@@ -162,6 +174,22 @@
   @media screen and (min-width: $nav-width) {
     margin-top: -10px;
     padding-top: 0;
+  }
+
+  @media screen and (max-width: $nav-width) {
+    padding: 1.5rem 0;
+    .mobile-nav--logo {
+      padding: 0 3rem;
+    }
+    ul {
+      li {
+        button,
+        a {
+          padding-right: 3rem;
+          padding-left: 3rem;
+        }
+      }
+    }
   }
 }
 
