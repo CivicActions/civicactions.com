@@ -27,8 +27,8 @@
       padding-top: calc(1.5rem + 10px);
       border-top: none;
       &:hover {
-        //@include top-border-large($teal);
-        //margin-top: -1rem;
+        // @include top-border-large($teal);
+        // margin-top: -1rem;
       }
 
       &.usa-current {
@@ -179,7 +179,7 @@
   font-weight: $font-bold;
   &:active,
   &:focus {
-    background: transparent;
+    background-color: transparent;
     box-shadow: none;
   }
 }
