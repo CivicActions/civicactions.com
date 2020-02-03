@@ -31,7 +31,7 @@ Photography
 ### Fun facts about David
 * Loves learning to do new things, and will spend hours reading manuals
 * Got his start in IT wrangling [a beastly sort of ethernet cable](https://en.wikipedia.org/wiki/10BASE5) for the US Army
-* Once studied engineering, but couldn’t take all the chatter about Stark Trek reruns
+* Once studied engineering, but couldn’t take all the chatter about Star Trek reruns
 * Currently training to do a one mile run, followed by 100 pullups, 200 pushups, 300 squats, and another one mile run...all in 20 pounds of body armor 
 
 
