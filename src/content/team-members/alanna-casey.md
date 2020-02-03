@@ -4,7 +4,7 @@ type: team
 published: 1
 name: Alanna Casey
 personal_pronouns: 'she/her'
-image: 'images/alanna.casey.jpg'
+image: 'images/alanna-casey.jpg'
 role: Security & Compliance
 location: Mason, New Hampshire
 quote: Technical documentation is a unique form of teaching through writing. As a teacher and subject matter expert, you’re helping users of all skill levels understand the full power and value of the product you’re delivering.
