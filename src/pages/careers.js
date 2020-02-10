@@ -1,8 +1,8 @@
 import React from "react"
 import _ from "lodash"
 import { graphql } from "gatsby"
-const axios = require('axios');
-const crypto = require('crypto');
+const axios = require("axios")
+const crypto = require("crypto")
 
 import SectionTitle from "./../components/atoms/SectionTitle"
 import GeneralLayout from "./../components/layouts/GeneralLayout"
@@ -12,7 +12,6 @@ import GlobalQuoteSlider from "./../components/organisms/GlobalQuoteSlider"
 import Link from "./../components/scripts/Link"
 
 class Careers extends React.Component {
-
   constructor() {
     super()
     this.state = {
@@ -22,7 +21,7 @@ class Careers extends React.Component {
 
   getJazzJobs = async () => {
     // If environment variable is set to 'development':
-    if (process.env.GATSBY_JAZZ_URL === 'development') {
+    if (process.env.GATSBY_JAZZ_URL === "development") {
       const fakeJob = {
         id: "123",
         title: "Test job",
@@ -38,26 +37,27 @@ class Careers extends React.Component {
         board_code: "Board code",
         parent: null,
         internal: {
-          type: 'Job',
+          type: "Job",
           contentDigest: crypto
             .createHash(`md5`)
             .update(JSON.stringify({}))
             .digest(`hex`),
         },
-      };
-      this.setState({ jazzJobs: [ fakeJob ] });
-    } else { // Environment variable is not set to development:
-      let response = await axios.get(process.env.GATSBY_JAZZ_URL);
-      this.setState({ jazzJobs: response.data });
-    };
+      }
+      this.setState({ jazzJobs: [fakeJob] })
+    } else {
+      // Environment variable is not set to development:
+      let response = await axios.get(process.env.GATSBY_JAZZ_URL)
+      this.setState({ jazzJobs: response.data })
+    }
   }
 
   componentDidMount() {
-    this.getJazzJobs();
+    this.getJazzJobs()
   }
 
   render() {
-    const JazzJobs = this.state;
+    const JazzJobs = this.state
 
     const { markdownRemark } = this.props.data
     const { html, frontmatter } = markdownRemark
@@ -82,9 +82,7 @@ class Careers extends React.Component {
           </h4>
           <div className="teaser__text">
             Location:&nbsp;
-            <span class="city">
-              {job.city ? job.city.trim() : null}
-            </span>
+            <span class="city">{job.city ? job.city.trim() : null}</span>
             {job.city && job.state ? `, ` : null}
             <span class="state">{job.state}</span>
           </div>
