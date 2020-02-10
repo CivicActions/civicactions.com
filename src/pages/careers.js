@@ -1,6 +1,8 @@
 import React from "react"
 import _ from "lodash"
 import { graphql } from "gatsby"
+const axios = require('axios');
+const crypto = require('crypto');
 
 import SectionTitle from "./../components/atoms/SectionTitle"
 import GeneralLayout from "./../components/layouts/GeneralLayout"
@@ -10,8 +12,54 @@ import GlobalQuoteSlider from "./../components/organisms/GlobalQuoteSlider"
 import Link from "./../components/scripts/Link"
 
 class Careers extends React.Component {
+
+  constructor() {
+    super()
+    this.state = {
+      jazzJobs: [],
+    }
+  }
+
+  getJazzJobs = async () => {
+    // If environment variable is set to 'development':
+    if (process.env.GATSBY_JAZZ_URL === 'development') {
+      const fakeJob = {
+        id: "123",
+        title: "Test job",
+        country: 1,
+        city: "Test",
+        state: "Test",
+        zip: 12345,
+        department: "Test",
+        description: "Test",
+        open_date: "Open date",
+        type: "Job type",
+        status: "Job status",
+        board_code: "Board code",
+        parent: null,
+        internal: {
+          type: 'Job',
+          contentDigest: crypto
+            .createHash(`md5`)
+            .update(JSON.stringify({}))
+            .digest(`hex`),
+        },
+      };
+      this.setState({ jazzJobs: [ fakeJob ] });
+    } else { // Environment variable is not set to development:
+      let response = await axios.get(process.env.GATSBY_JAZZ_URL);
+      this.setState({ jazzJobs: response.data });
+    };
+  }
+
+  componentDidMount() {
+    this.getJazzJobs();
+  }
+
   render() {
-    const { allJob, markdownRemark } = this.props.data
+    const JazzJobs = this.state;
+
+    const { markdownRemark } = this.props.data
     const { html, frontmatter } = markdownRemark
     const {
       benefits,
@@ -24,26 +72,24 @@ class Careers extends React.Component {
       title,
       subtitle,
     } = frontmatter
-    const { edges } = allJob
 
-    const jobs = _.map(edges, (job, index) => {
-      const url = `http://civicactions.applytojob.com/apply/${job.node.board_code}`
-
+    const jobs = _.map(JazzJobs.jazzJobs, (job, index) => {
+      const url = `http://civicactions.applytojob.com/apply/${job.board_code}`
       return (
-        <li key={job.node.id} className="teaser__item">
+        <li key={job.id} className="teaser__item">
           <h4 className="teaser__title">
-            <Link to={url}>{job.node.title}</Link>
+            <Link to={url}>{job.title}</Link>
           </h4>
           <div className="teaser__text">
             Location:&nbsp;
             <span class="city">
-              {job.node.city ? job.node.city.trim() : null}
+              {job.city ? job.city.trim() : null}
             </span>
-            {job.node.city && job.node.state ? `, ` : null}
-            <span class="state">{job.node.state}</span>
+            {job.city && job.state ? `, ` : null}
+            <span class="state">{job.state}</span>
           </div>
           <div className="teaser__text">
-            Type: <span class="type">{job.node.type}</span>
+            Type: <span class="type">{job.type}</span>
           </div>
         </li>
       )
@@ -97,8 +143,8 @@ class Careers extends React.Component {
 
 export default Careers
 
-export const jobsQuery = graphql`
-  query jobsQuery {
+export const careersQuery = graphql`
+  query careersQuery {
     markdownRemark(frontmatter: { title: { eq: "Careers" } }) {
       html
       frontmatter {
@@ -134,18 +180,6 @@ export const jobsQuery = graphql`
           }
           text
           author
-        }
-      }
-    }
-    allJob {
-      edges {
-        node {
-          id
-          title
-          city
-          state
-          type
-          board_code
         }
       }
     }
