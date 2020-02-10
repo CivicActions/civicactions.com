@@ -13,7 +13,6 @@ module.exports = {
   plugins: [
     `gatsby-plugin-react-helmet`,
     `gatsby-plugin-sass`,
-    `gatsby-source-jazz`,
     `gatsby-plugin-node-fields`,
     {
       resolve: `gatsby-source-filesystem`,
