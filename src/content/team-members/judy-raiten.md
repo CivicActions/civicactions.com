@@ -5,7 +5,6 @@ published: 1
 name: Judy Raiten
 image: 'images/judy-raiten.jpg'
 role: In Memoriam
-location: Twin Falls, Idaho
 quote: Feed the light.
 specialties: [ "Quickbooks & Spreadsheets",
 Telling It Like It Is,
