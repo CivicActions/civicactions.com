@@ -1,7 +1,7 @@
 ---
 path: /team/rachael-adams
 type: team
-published: 1
+published: 0
 name: Rachael Adams
 image: 'images/rachael-adams.jpg'
 role: Office Manager
