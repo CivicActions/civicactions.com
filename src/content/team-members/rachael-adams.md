@@ -1,9 +1,9 @@
 ---
 path: /team/rachael-adams
 type: team
-published: 0
+published: 1
 name: Rachael Adams
-image: 'images/rachael-adams.jpg'
+image: 'images/rachael-adams-1.jpg'
 role: Office Manager
 location: Sawyer, Michigan <> Chicago, Illinois
 quote: Kindness and generosity are the fuel for happy relationships.
