@@ -47,7 +47,7 @@ class Careers extends React.Component {
       this.setState({ jazzJobs: [fakeJob] })
     } else {
       // Environment variable is not set to development:
-      let response = await axios.get(process.env.GATSBY_JAZZ_URL)
+      let response = await axios.get(process.env.GATSBY_JOBS_URL)
       this.setState({ jazzJobs: response.data })
     }
   }
