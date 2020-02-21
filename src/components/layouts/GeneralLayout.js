@@ -29,6 +29,8 @@ const GeneralLayout = ({
   ogImage,
   location,
   personal_pronouns,
+  audioFile,
+  pronunciation,
   social,
   path,
   urlObject,
@@ -111,6 +113,8 @@ const GeneralLayout = ({
             location={location}
             personal_pronouns={personal_pronouns}
             social={social}
+            audioFile={audioFile}
+            pronunciation={pronunciation}
           />
         </header>
         <main>

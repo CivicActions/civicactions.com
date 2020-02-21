@@ -5,6 +5,8 @@ published: 1
 name: Shade Bakare
 personal_pronouns: 'she/her'
 image: 'images/shade-bakare.jpg'
+audio: 'audio/shade-bakare.mp3'
+pronunciation: '[sh-ai-d bak-a-ray]'
 role: User Experience
 location: Atlanta, Georgia
 quote: I believe that everyone has a story. A valid one. One that should be considered, valued, respected, and most importantly … designed for.

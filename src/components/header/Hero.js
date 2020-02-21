@@ -17,6 +17,8 @@ const Hero = ({
   location,
   personal_pronouns,
   social,
+  audioFile,
+  pronunciation,
 }) => {
   const team_image = image ? (
     <div className="hero__image">
@@ -55,6 +57,9 @@ const Hero = ({
   const memberPersonalPronouns = personal_pronouns ? (
     <div className="hero__personal_pronouns">{personal_pronouns} </div>
   ) : null
+  const memberPronunciation = pronunciation ? (
+    <div className="hero__pronunciation">[{pronunciation}] </div>
+  ) : null
   let socialLinks
   let memberSocial
 
@@ -83,6 +88,7 @@ const Hero = ({
           {title}
         </h1>
         {memberPersonalPronouns}
+        {memberPronunciation}
         <div className="hero__intro-text">{subtitle}</div>
         {memberLocation}
         {memberSocial}

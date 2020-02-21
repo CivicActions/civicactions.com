@@ -20,12 +20,16 @@ export default function Template({ data, location }) {
     social,
     specialties,
     image,
+    audio,
+    pronunciation,
     quote,
   } = frontmatter
 
   const memberLocation = frontmatter.location
   const quoteName = getFirstName(first_name, name)
   const personalPronouns = personal_pronouns ? personal_pronouns : ``
+  const nameAudioFile = audio ? audio : ``
+  const namePronunciation = pronunciation ? pronunciation : ``
 
   let memberSpecialties
   let specs
@@ -51,6 +55,8 @@ export default function Template({ data, location }) {
       social={social}
       path={frontmatter.path}
       urlObject={location}
+      audioFile={nameAudioFile}
+      pronunciation={namePronunciation}
     >
       <div className="team_member__specs--wrapper">
         <section className=" section usa-grid team-member__specs">
@@ -83,6 +89,7 @@ export const teamQuery = graphql`
         first_name
         name
         personal_pronouns
+        pronunciation
         role
         location
         quote
@@ -97,6 +104,9 @@ export const teamQuery = graphql`
               ...GatsbyImageSharpFluid_withWebp_noBase64
             }
           }
+        }
+        audio {
+          publicURL
         }
       }
     }
