@@ -28,18 +28,10 @@ class Contracting extends React.Component {
             <div class="text-container">
               <ul>
                 <li>
-                  <Link
-                    to={gsaSchedule}
-                    children="GSA Schedule 70 (PDF)"
-                    className=""
-                  />
+                  <a href={gsaSchedule}>GSA Schedule 70 (PDF)</a>
                 </li>
                 <li>
-                  <Link
-                    to={cmasSchedule}
-                    children="CMAS Schedule 3-16-70-3298A (PDF)"
-                    className=""
-                  />
+                  <a href={cmasSchedule}>CMAS Schedule 3-16-70-3298A (PDF)</a>
                 </li>
               </ul>
             </div>
