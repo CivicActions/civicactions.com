@@ -3,7 +3,7 @@ path: /team/alanna-casey
 type: team
 published: 1
 name: Alanna Casey
-personal_pronouns: 'she/her'
+personal_pronouns: 'she/her', [a-lah-na ca-see]
 image: 'images/alanna-casey.jpg'
 role: Security & Compliance
 location: Mason, New Hampshire
