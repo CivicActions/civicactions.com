@@ -39,6 +39,20 @@ const Hero = ({
     return ctaLink
   }
 
+  function getPronoun(personal_pronouns, pronunciation) {
+    if (personal_pronouns && pronunciation) {
+      return (
+        <div className="hero__personal_pronouns">
+          {personal_pronouns}, [{pronunciation}]
+        </div>
+      )
+    } else if (personal_pronouns) {
+      return <div className="hero__personal_pronouns">{personal_pronouns} </div>
+    } else if (pronunciation) {
+      return <div className="hero__personal_pronouns">[{pronunciation}]</div>
+    }
+  }
+
   // Hero links get button styling with the "btn" class.
   // The link button gets displayed only if the cta link is set.
   const linkButton = cta_link ? (
@@ -54,12 +68,9 @@ const Hero = ({
   ) : (
     ``
   )
-  const memberPersonalPronouns = personal_pronouns ? (
-    <div className="hero__personal_pronouns">{personal_pronouns} </div>
-  ) : null
-  const memberPronunciation = pronunciation ? (
-    <div className="hero__pronunciation">[{pronunciation}] </div>
-  ) : null
+
+  const memberPersonalPronouns = getPronoun(personal_pronouns, pronunciation)
+
   let socialLinks
   let memberSocial
 
@@ -88,7 +99,6 @@ const Hero = ({
           {title}
         </h1>
         {memberPersonalPronouns}
-        {memberPronunciation}
         <div className="hero__intro-text">{subtitle}</div>
         {memberLocation}
         {memberSocial}
