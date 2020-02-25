@@ -6,7 +6,7 @@ name: Jill Lasak
 personal_pronouns: 'she/her'
 image: 'images/jill-lasak.jpg'
 role: Engineering
-location: Los Angeles
+location: Los Angeles, California
 quote: There’s a kind of magic about web development. It’s thrilling to take a bunch of letters and numbers and turn them into a functional thing that can improve peoples’ lives.
 social: 
   - {
