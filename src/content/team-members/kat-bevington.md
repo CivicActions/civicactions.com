@@ -26,7 +26,7 @@ Seizing The Day
 
 ### Things Kat has been doing
 * Putting users first to empower collaboration among [global peace partners](https://civicactions.com/case-study/globalnet)
-* Applying [modern design standards](https://designsystem.digital.gov/) to improve [national drought preparedness](https://www.drought.gov/drought/)
+* Applying [modern design standards](https://designsystem.digital.gov/) to improve [drought preparedness](https://www.drought.gov/drought/)
 * [Speaking](https://ams.confex.com/ams/2020Annual/webprogram/Session53602.html) about the use of human centered design to power climate data visualizations
 * Improving online [plant phenology mapping tools](https://budburst.fieldscope.org/) for middle school teachers and students
 * Developing interactive [field site maps](https://www.neonscience.org/field-sites/field-sites-map) to quantify evolving ecological processes
