@@ -39,8 +39,23 @@ const Hero = ({
     return ctaLink
   }
 
-  function getPronoun(personal_pronouns, pronunciation) {
-    if (personal_pronouns && pronunciation) {
+  function getPronoun(personal_pronouns, pronunciation, audioFile) {
+    if (personal_pronouns && pronunciation && audioFile) {
+
+      const mp3 = audioFile ? (
+        <Link
+          to={audioFile}
+          children="MP3"
+          className="audio-file-link"
+        />
+      ) : null
+
+      return (
+        <div className="hero__personal_pronouns">
+          {personal_pronouns}, [{pronunciation}] {mp3}
+        </div>
+      )
+    } else if (personal_pronouns && pronunciation) {
       return (
         <div className="hero__personal_pronouns">
           {personal_pronouns}, [{pronunciation}]
@@ -69,7 +84,7 @@ const Hero = ({
     ``
   )
 
-  const memberPersonalPronouns = getPronoun(personal_pronouns, pronunciation)
+  const memberPersonalPronouns = getPronoun(personal_pronouns, pronunciation, audioFile)
 
   let socialLinks
   let memberSocial
