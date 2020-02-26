@@ -41,13 +41,8 @@ const Hero = ({
 
   function getPronoun(personal_pronouns, pronunciation, audioFile) {
     if (personal_pronouns && pronunciation && audioFile) {
-
       const mp3 = audioFile ? (
-        <Link
-          to={audioFile}
-          children="MP3"
-          className="audio-file-link"
-        />
+        <Link to={audioFile} children="MP3" className="audio-file-link" />
       ) : null
 
       return (
@@ -84,7 +79,11 @@ const Hero = ({
     ``
   )
 
-  const memberPersonalPronouns = getPronoun(personal_pronouns, pronunciation, audioFile)
+  const memberPersonalPronouns = getPronoun(
+    personal_pronouns,
+    pronunciation,
+    audioFile
+  )
 
   let socialLinks
   let memberSocial
