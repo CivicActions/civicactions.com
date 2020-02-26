@@ -40,9 +40,15 @@ const Hero = ({
   }
 
   function getPronoun(personal_pronouns, pronunciation, audioFile) {
+    console.log(audioFile)
+
     if (personal_pronouns && pronunciation && audioFile) {
       const mp3 = audioFile ? (
-        <Link to={audioFile} children="MP3" className="audio-file-link" />
+        <Link
+          to={audioFile["publicURL"]}
+          children="MP3"
+          className="audio-file-link"
+        />
       ) : null
 
       return (
