@@ -46,7 +46,7 @@ const Hero = ({
       const mp3 = audioFile ? (
         <>
           <audio href={audioFile["publicURL"]} class="audio-file-link" />
-          <a>
+          <>
             <svg
               width="18px"
               height="16px"
@@ -69,7 +69,7 @@ const Hero = ({
                 ></path>
               </g>
             </svg>
-          </a>
+          </>
         </>
       ) : null
 
