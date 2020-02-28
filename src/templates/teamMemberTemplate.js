@@ -10,9 +10,8 @@ import SectionTitle from "./../components/atoms/SectionTitle"
 import { existy, getFirstName } from "../helpers"
 
 class teamMemberTemplate extends React.Component {
-
   componentDidMount() {
-    console.log('componentDidMount');
+    console.log("componentDidMount")
   }
 
   render() {
