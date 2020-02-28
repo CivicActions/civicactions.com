@@ -44,8 +44,9 @@ const Hero = ({
 
     if (personal_pronouns && pronunciation && audioFile) {
       const mp3 = audioFile ? (
-        <Link to={audioFile["publicURL"]} className="audio-file-link">
-          <svg
+        <>
+          <audio href={audioFile["publicURL"]} class="audio-file-link" />
+            <a><svg
             width="18px"
             height="16px"
             viewBox="0 0 18 16"
@@ -66,8 +67,8 @@ const Hero = ({
                 fill-rule="nonzero"
               ></path>
             </g>
-          </svg>
-        </Link>
+          </svg></a>
+        </>
       ) : null
 
       return (
