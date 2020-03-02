@@ -8,9 +8,7 @@ import GeneralLayout from "./../components/layouts/GeneralLayout"
 export default function Template({ data, location }) {
   const { markdownRemark } = data
   const { frontmatter, html } = markdownRemark
-  const {
-    title,
-  } = frontmatter
+  const { title } = frontmatter
 
   return (
     <GeneralLayout
@@ -19,8 +17,7 @@ export default function Template({ data, location }) {
       pageTitle={`CivicActions | ${title}`}
       path={frontmatter.path}
       urlObject={location}
-    >
-    </GeneralLayout>
+    ></GeneralLayout>
   )
 }
 
