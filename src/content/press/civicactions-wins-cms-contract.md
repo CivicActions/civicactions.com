@@ -2,7 +2,7 @@
 path: /press/civicactions-wins-cms-contract
 type: press-sub-page
 published: 1
-title: CivicActions Wins $18.25 M Contract to Redesign, Migrate CMS Websites
+title: CivicActions Wins $18.25M Contract to Redesign, Migrate CMS Websites
  
 ---
 
@@ -12,7 +12,7 @@ The contract calls for a redesign of CMS.gov and Medicare.gov, as well as migrat
 
 The digital services agency, which started in 2004, specializes in user centered design, Drupal development, open data, and DevOps. CivicActions is also the core maintainer of DKAN.
 
-The contract starts on March 2, 2020 and has two, one-year options to extend the project to June 1, 2023, up to a total of $18.25 M. 
+The contract starts on March 2, 2020 and has two, one-year options to extend the project to June 1, 2023, up to a total of $18.25M. 
 
 Earlier this year, the firm was named to the GovTech Top 100 list for the fourth year in a row.
 
