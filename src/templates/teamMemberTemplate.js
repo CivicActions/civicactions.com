@@ -15,7 +15,7 @@ class teamMemberTemplate extends React.Component {
   }
 
   render() {
-    const { markdownRemark } = data
+    const { markdownRemark } = this.props.data
     const { frontmatter, html } = markdownRemark
     const {
       first_name,
@@ -79,7 +79,7 @@ class teamMemberTemplate extends React.Component {
         personal_pronouns={personalPronouns}
         social={social}
         path={frontmatter.path}
-        urlObject={location}
+        urlObject={this.props.location}
         audioFile={nameAudioFile}
         pronunciation={namePronunciation}
       >
