@@ -18,6 +18,8 @@ Earlier this year, the firm was named to the GovTech Top 100 list for the fourth
 
 CivicActions is also a founding member of the Digital Services Coalition, a group of 16 companies dedicated to bringing the innovation and agility that has become the backbone of commercial digital services to the government.
 
+For this contract, CivicActions is partnering with Fearless, another Digital Services Coalition member firm, in a Contractor Teaming Arrangement.
+
 <a href="https://www.usaspending.gov/#/award/CONT_AWD_75FCMC20F0025_7530_GS35F337BA_4732" class="external-link">Award information on USASpending.gov</a>
 
 -----------------------------------
