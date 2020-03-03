@@ -21,33 +21,6 @@ Software Engineering,
 Data Science,
 Robotics
 ]
-medium_posts: 
-  - {
-  title: "An App the Foster Parent System Really Needs: What an Agile Rapid Prototyping Exercise Taught Us",
-  date: "July 11, 2018",
-  url: https://medium.com/civicactions/an-app-the-foster-parent-system-really-needs-what-an-agile-rapid-prototyping-exercise-taught-us-f1e116821273
-  }
-  - {
-  title: "Human Centered Design vs. Agile Development: Adaptive Balance",
-  date: "March 03, 2017",
-  url: https://medium.com/agile-government-leadership/human-centered-design-vs-agile-development-adaptive-balance-8fd51e652e4f
-  }  
-  - {
-  title: "A Story of an Agile Workshop",
-  date: "February 11, 2015",
-  url: https://18f.gsa.gov/2015/02/11/a-story-of-an-agile-workshop/
-  } 
-  - {
-  title: "How to Use More Open Source in Your Next Federal IT Acquisition",
-  date: "November 26, 2014",
-  url: https://18f.gsa.gov/2014/11/26/how-to-use-more-open-source/
-  }  
-  - {
-  title: "The Encasement Strategy: On Legacy Systems and the Importance of APIs",
-  date: "September 08, 2014",
-  url: https://18f.gsa.gov/2014/09/08/the-encasement-strategy-on-legacy-systems-and-the/
-  } 
-  
   
 ---
 

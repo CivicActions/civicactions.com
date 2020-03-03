@@ -27,12 +27,6 @@ Empathy,
 Servant Leadership,
 Managing Energy
 ]
-medium_posts: 
-  - {
-  title: "Culture and Diversity: How CivicActions is Growing",
-  date: "July 28, 2018",
-  url: https://medium.com/civicactions/were-hiring-at-civicactions-aa8ac8486923
-  }
   
 ---
 

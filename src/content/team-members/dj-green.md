@@ -21,8 +21,6 @@ User Research,
 Thinking on Paper,
 Photography
 ]
-medium_posts: 
- 
   
 ---
 

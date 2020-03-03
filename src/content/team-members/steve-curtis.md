@@ -30,12 +30,6 @@ Content Strategy,
 Music,
 Outdoor Tomfoolery
 ]
-medium_posts: 
-  - {
-  title: "An Open Dialogue on Work and Life on a Distributed Team",
-  date: "August 02, 2018",
-  url: https://medium.com/@steve.curtis/an-open-dialogue-on-work-and-life-in-a-distributed-team-796ef88813cd
-  }
   
 ---
 
