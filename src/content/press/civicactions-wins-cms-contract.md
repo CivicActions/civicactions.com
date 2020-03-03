@@ -2,7 +2,7 @@
 path: /press/civicactions-wins-cms-contract
 type: press-sub-page
 published: 1
-title: CivicActions Wins $18.25M Contract to Redesign, Migrate CMS Websites
+title: CivicActions Wins $18M Contract to Redesign, Migrate CMS Websites
  
 ---
 
