@@ -40,14 +40,18 @@ const Hero = ({
   }
 
   function getPronoun(personal_pronouns, pronunciation, audioFile) {
-    console.log(audioFile)
-
     if (personal_pronouns && pronunciation && audioFile) {
       const mp3 = audioFile ? (
         <>
-          <audio href={audioFile["publicURL"]} class="audio-file-link" />
+          <audio
+            href={audioFile["publicURL"]}
+            controls
+            class="audio-file-link"
+            id="audio-player"
+          />
           <>
             <svg
+              id="play-button"
               width="18px"
               height="16px"
               viewBox="0 0 18 16"
