@@ -56,6 +56,10 @@
         font-size: 90%;
         font-weight: 300;
         font-style: italic;
+
+        svg {
+          padding-top: 2px;
+        }
       }
 
       &__social--link {

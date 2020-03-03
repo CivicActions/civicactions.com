@@ -44,8 +44,7 @@ const Hero = ({
       const mp3 = audioFile ? (
         <>
           <audio
-            href={audioFile["publicURL"]}
-            controls
+            src={audioFile["publicURL"]}
             class="audio-file-link"
             id="audio-player"
           />
