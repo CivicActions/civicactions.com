@@ -10,7 +10,7 @@ The Centers for Medicare and Medicaid Services on Feb. 28 awarded CivicActions a
 
 The contract calls for a redesign of CMS.gov and Medicare.gov, as well as migrating the agency’s open data portals to new sites using DKAN, a free and open source open data platform. 
 
-The digital services agency, which started in 2004, specializes in user centered design, Drupal development, open data, and DevOps. CivicActions is also the core maintainer of DKAN.
+The digital services agency, which started in 2004, specializes in user centered design, Drupal development, security and compliance, open data, and DevOps. CivicActions is also the core maintainer of DKAN.
 
 The contract starts on March 2, 2020 and has two, one-year options to extend the project to June 1, 2023, up to a total of $18.25M. 
 
