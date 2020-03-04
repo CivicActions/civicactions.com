@@ -7,7 +7,7 @@ personal_pronouns: 'she/her'
 image: 'images/winnie-obinna.jpg'
 role: Project Management
 location: Dallas / Ft. Worth, Texas
-quote: Having a meaningful career while raising kids ... I can show them how to be valuable to their world.
+quote: I'm always looking for the place where passion meets work.
 social: 
 specialties: [ "Agile & Scrum",
 Passion & Purpose,
