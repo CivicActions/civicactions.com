@@ -78,7 +78,10 @@ const Hero = ({
 
       return (
         <div className="hero__personal_pronouns">
-          <span class="text">{personal_pronouns}, [{pronunciation}]</span> {mp3}
+          <span class="text">
+            {personal_pronouns}, [{pronunciation}]
+          </span>{" "}
+          {mp3}
         </div>
       )
     } else if (personal_pronouns && pronunciation) {
