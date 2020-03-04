@@ -18,7 +18,6 @@ export default function Template({ data, location }) {
     personal_pronouns,
     role,
     social,
-    medium_posts,
     specialties,
     image,
     quote,
@@ -30,8 +29,6 @@ export default function Template({ data, location }) {
 
   let memberSpecialties
   let specs
-  let mediumPosts
-  let mediumPostsList
 
   if (specialties) {
     memberSpecialties = specialties.map((item, index) => (
@@ -40,23 +37,6 @@ export default function Template({ data, location }) {
       </li>
     ))
     specs = <ul className="hero__specs--list">{memberSpecialties}</ul>
-  }
-
-  if (medium_posts) {
-    mediumPosts = medium_posts.map((post, index) => (
-      <li className="medium--teaser__item teaser__item" key={index}>
-        <Teaser
-          teaserDate={post.date}
-          teaserTitle={post.title}
-          teaserLink={post.url}
-        />
-      </li>
-    ))
-    mediumPostsList = (
-      <ul className="team__medium-posts medium--teasers teaser--wrapper">
-        {mediumPosts}
-      </ul>
-    )
   }
   return (
     <GeneralLayout
@@ -89,18 +69,6 @@ export default function Template({ data, location }) {
           quote
         )}
       </section>
-
-      {// Just show medium posts if medium posts exist
-      mediumPostsList ? (
-        <section className="section section__recent-posts team team-member__posts">
-          <div className="usa-grid">
-            <SectionTitle title="Authored articles" />
-            {mediumPostsList}
-          </div>
-        </section>
-      ) : (
-        mediumPostsList
-      )}
     </GeneralLayout>
   )
 }
@@ -120,11 +88,6 @@ export const teamQuery = graphql`
         quote
         social {
           name
-          url
-        }
-        medium_posts {
-          title
-          date
           url
         }
         specialties

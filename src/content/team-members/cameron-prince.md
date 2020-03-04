@@ -21,8 +21,6 @@ Back-end Development,
 Tesla Trivia,
 Agile Teamwork
 ]
-medium_posts: 
-
   
 ---
 

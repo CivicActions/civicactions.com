@@ -22,17 +22,6 @@ Agile Project Management,
 Efficiency,
 Polynesian Dance
 ]
-medium_posts: 
-  - {
-  title: "One Platform, 18 Organizations, 6 Countries, and 9 Launches",
-  date: "August 13, 2018",
-  url: https://medium.com/civicactions/one-platform-18-organizations-6-countries-and-9-launches-723016365468
-  }
-  - {
-  title: "Meet the DKAN Team",
-  date: "February 07, 2018",
-  url: https://medium.com/dkan-blog/meet-the-dkan-team-ebec2e177d91
-  }
   
 ---
 
