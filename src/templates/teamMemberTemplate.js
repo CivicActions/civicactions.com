@@ -11,11 +11,8 @@ import { existy, getFirstName } from "../helpers"
 
 class teamMemberTemplate extends React.Component {
   componentDidMount() {
-    console.log("componentDidMount")
-
     var playButton = document.getElementById("play-button")
     playButton.onclick = function() {
-      console.log("click")
       var player = document.getElementById("audio-player")
       if (player.paused) {
         // player.volume = .25;

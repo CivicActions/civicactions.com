@@ -56,9 +56,17 @@
         font-size: 90%;
         font-weight: 300;
         font-style: italic;
+        position: relative;
 
-        svg {
-          padding-top: 2px;
+        .text {
+          display: inline-block;
+          padding-right: 6px;
+        }
+
+        .audio-wrapper {
+          display: inline-block;
+          position: absolute;
+          top: 2px;
         }
       }
 
