@@ -12,13 +12,15 @@ import { existy, getFirstName } from "../helpers"
 class teamMemberTemplate extends React.Component {
   componentDidMount() {
     var playButton = document.getElementById("play-button")
-    playButton.onclick = function() {
-      var player = document.getElementById("audio-player")
-      if (player.paused) {
-        // player.volume = .25;
-        player.play()
-      } else {
-        player.pause()
+    if (playButton) {
+      playButton.onclick = function() {
+        var player = document.getElementById("audio-player")
+        if (player.paused) {
+          // player.volume = .25;
+          player.play()
+        } else {
+          player.pause()
+        }
       }
     }
   }
