@@ -1,8 +1,8 @@
 ---
 path: /distributed-government
 type: page
-title: "Webinar: Distributed Teams in Government"
-subtitle: "COVID-19: How government teams can work effectively together while physically apart"
+title: "COVID-19 and Quickly Shifting to Distributed Teams in Government (Free Webinar)"
+subtitle: "How government teams can work effectively together while physically apart"
 ---
 
 [Register now](https://zoom.us/webinar/register/WN_taz66tMMSAWOY8s8_hbDYQ)
@@ -75,7 +75,7 @@ There is also a Slack community for ongoing discussion, tip sharing, and questio
 
 ### Presenter
 
-John O’Duinn is the author of [Distributed Teams: The Art and Practice of Working Together While Physically Apart](https://www.amzn.com/1732254907) and frequent international speaker on benefits and strategies for remote work. John is a senior technologist and entrepreneur who has served in the U.S. Digital Service in the Obama White House and provided workshops and mentorship to distributed teams around the world. He co-created the State of Vermont policy encouraging remote work to promote economic growth, and is now supporting the development of similar policies for multiple jurisdictions worldwide. Learn more about John’s work at his [website](http://oduinn.com/) and on [LinkedIn](https://www.linkedin.com/in/joduinn).
+John O’Duinn is the author of "[Distributed Teams](https://www.amzn.com/1732254907): The Art and Practice of Working Together While Physically Apart" and frequent international speaker on benefits and strategies for remote work. John is a senior technologist and entrepreneur who has served in the U.S. Digital Service in the Obama White House and provided workshops and mentorship to distributed teams around the world. He co-created the State of Vermont policy encouraging remote work to promote economic growth, and is now supporting the development of similar policies for multiple jurisdictions worldwide. Learn more about John’s work at his [website](http://oduinn.com/) and on [LinkedIn](https://www.linkedin.com/in/joduinn).
 
 ### Register
 
