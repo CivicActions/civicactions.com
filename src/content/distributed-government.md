@@ -2,10 +2,10 @@
 path: /distributed-government
 type: page
 title: "Webinar: Distributed Teams in Government"
-subtitle: "How government teams can work effectively together while physically apart"
+subtitle: "COVID-19: How government teams can work effectively together while physically apart"
 ---
 
-[Register now](https://zoom.us/webinar/register/WN_taz66tMMSAWOY8s8_hbDYQ) >
+[Register now](https://zoom.us/webinar/register/WN_taz66tMMSAWOY8s8_hbDYQ)
 
 The current operational challenges posed by the COVID-19 situation are just the latest example of why teams should be prepared to continue to work effectively even when they can’t get to their physical office buildings. Whether it’s a public health crisis, a forest fire, or just moving to a forward-thinking work culture, you should equip your teams to be effective in a remote or telework model.
 
@@ -69,14 +69,14 @@ Federal, state, county and/or local government employees who need to keep their 
 
 ### Ongoing support
 
-If this webinar is helpful, let us know so that we can host additional events and trainings to help government teams work effectively together while physically apart.
+If this webinar is helpful, [let us know](/contact) so that we can host additional events and trainings to help government teams work effectively together while physically apart.
 
 There is also a Slack community for ongoing discussion, tip sharing, and questions.
 
 ### Presenter
 
-John O’Duinn is the author of "[Distributed Teams: The Art and Practice of Working Together While Physically Apart](https://www.amzn.com/1732254907)" and frequent international speaker on benefits and strategies for remote work. John is a senior technologist and entrepreneur who has served in the U.S. Digital Service in the Obama White House and provided workshops and mentorship to distributed teams around the world. He co-created the State of Vermont policy encouraging remote work to promote economic growth, and is now supporting the development of similar policies for multiple jurisdictions worldwide. Learn more about John’s work at his [website](http://oduinn.com/) and on [LinkedIn](https://www.linkedin.com/in/joduinn).
+John O’Duinn is the author of [Distributed Teams: The Art and Practice of Working Together While Physically Apart](https://www.amzn.com/1732254907) and frequent international speaker on benefits and strategies for remote work. John is a senior technologist and entrepreneur who has served in the U.S. Digital Service in the Obama White House and provided workshops and mentorship to distributed teams around the world. He co-created the State of Vermont policy encouraging remote work to promote economic growth, and is now supporting the development of similar policies for multiple jurisdictions worldwide. Learn more about John’s work at his [website](http://oduinn.com/) and on [LinkedIn](https://www.linkedin.com/in/joduinn).
 
 ### Register
 
-[Register for webinar link](https://zoom.us/webinar/register/WN_taz66tMMSAWOY8s8_hbDYQ) >
+[Register for webinar link](https://zoom.us/webinar/register/WN_taz66tMMSAWOY8s8_hbDYQ)
