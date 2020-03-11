@@ -1,5 +1,5 @@
 ---
-path: /press/civicactions-wins-cms-contract
+path: /press/2020-03-02-civicactions-wins-cms-contract
 type: press-sub-page
 published: 1
 title: CivicActions Wins $18M Contract to Redesign, Migrate CMS Websites

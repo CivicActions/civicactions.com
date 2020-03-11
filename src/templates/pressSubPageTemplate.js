@@ -17,7 +17,11 @@ export default function Template({ data, location }) {
       pageTitle={`CivicActions | ${title}`}
       path={frontmatter.path}
       urlObject={location}
-    ></GeneralLayout>
+    >
+      <div className="text-container section">
+        <div dangerouslySetInnerHTML={{ __html: html }} />
+      </div>
+    </GeneralLayout>
   )
 }
 
