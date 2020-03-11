@@ -14,7 +14,7 @@ export default function Template({ data, location }) {
     <GeneralLayout
       heroTitle={title}
       heroClass="press-sub-page__hero"
-      pageTitle={`88888CivicActions | ${title}`}
+      pageTitle={`CivicActions | ${title}`}
       path={frontmatter.path}
       urlObject={location}
     >
