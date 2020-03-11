@@ -12,6 +12,7 @@
     "gatsby-plugin-meta-redirect": "^1.1.1",
     "gatsby-plugin-node-fields": "^2",
     "gatsby-plugin-react-helmet": "^3",
+    "gatsby-plugin-robots-txt": "^1.5.0",
     "gatsby-plugin-sass": "^2",
     "gatsby-plugin-sharp": "^2",
     "gatsby-redirect-from": "^0.2.1",
