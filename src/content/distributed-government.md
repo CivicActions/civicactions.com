@@ -31,7 +31,12 @@ Federal, state, county and/or local government employees who need to keep their 
 
 #### When / Where
 
-- Thursday, March 12 @ 10am PT / 1pm ET
+- Friday, March 13 @ 10am PT / 1pm ET
+- Monday, March 16 @ 10am PT / 1pm ET
+- Tuesday, March 17 @ 10am PT / 1pm ET
+- Wednesday, March 18 @ 10am PT / 1pm ET
+- Thursday, March 19 @ 10am PT / 1pm ET
+- Friday, March 20 @ 10am PT / 1pm ET
 - Online via Zoom: [Register for webinar link](https://zoom.us/webinar/register/WN_aQ0Yu_7QSBWcmQeTELv52A
 )
 
