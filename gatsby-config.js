@@ -68,7 +68,7 @@ module.exports = {
       resolve: "gatsby-plugin-robots-txt",
       options: {
         host: "https://civicactions.com",
-        // sitemap: 'https://civicactions.com/sitemap.xml',
+        sitemap: null,
         policy: [{ userAgent: "*", allow: "/" }],
       },
     },
