@@ -42,6 +42,7 @@ const Press = ({ data, pageContext, location }) => {
 
   return (
     <GeneralLayout
+      pageTitle={`CivicActions | ${title}`}
       heroTitle={title}
       heroSubtitle={subtitle}
       urlObject={location}

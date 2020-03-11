@@ -4,7 +4,7 @@ type: press
 title: 'CivicActions Wins $18M Contract to Migrate, Redesign CMS Websites'
 date: "2020-03-02"
 link_text: "CivicActions Wins $18M Contract to Migrate, Redesign CMS Websites"
-website: "https://civicactions.com/press/civicactions-wins-cms-contract"
+website: "/press/2020-03-02-civicactions-wins-cms-contract"
 publication: "Press Release"
 
 ---

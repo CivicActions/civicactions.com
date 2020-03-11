@@ -14,10 +14,14 @@ export default function Template({ data, location }) {
     <GeneralLayout
       heroTitle={title}
       heroClass="press-sub-page__hero"
-      pageTitle={`CivicActions | ${title}`}
+      pageTitle={`88888CivicActions | ${title}`}
       path={frontmatter.path}
       urlObject={location}
-    ></GeneralLayout>
+    >
+      <div className="text-container section">
+        <div dangerouslySetInnerHTML={{ __html: html }} />
+      </div>
+    </GeneralLayout>
   )
 }
 

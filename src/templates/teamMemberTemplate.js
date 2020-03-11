@@ -83,7 +83,7 @@ class teamMemberTemplate extends React.Component {
         heroTitle={name}
         heroSubtitle={role}
         heroClass="team-member__hero"
-        pageTitle={`CivicActions | ${name}`}
+        pageTitle={`111111CivicActions | ${name}`}
         ogImage={image.childImageSharp.fluid.src}
         teamImage={image}
         location={memberLocation}
