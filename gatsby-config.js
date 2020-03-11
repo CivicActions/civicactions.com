@@ -8,6 +8,7 @@ module.exports = {
     address: `3527 Mt Diablo Blvd,`,
     address_line_2: `Unit 269,`,
     city: `Lafayette, CA 94549`,
+    siteUrl: `https://civicactions.com`,
   },
   pathPrefix: `/civicactions.com`,
   plugins: [
@@ -63,5 +64,13 @@ module.exports = {
     },
     `gatsby-redirect-from`,
     `gatsby-plugin-meta-redirect`,
+    {
+      resolve: "gatsby-plugin-robots-txt",
+      options: {
+        host: "https://civicactions.com",
+        // sitemap: 'https://civicactions.com/sitemap.xml',
+        policy: [{ userAgent: "*", allow: "/" }],
+      },
+    },
   ],
 }
