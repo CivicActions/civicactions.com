@@ -7,7 +7,8 @@ subtitle: "How government teams can work effectively together while physically a
 
 ### Details
 
-[Register now](https://zoom.us/webinar/register/WN_taz66tMMSAWOY8s8_hbDYQ)
+[Register now](https://zoom.us/webinar/register/WN_aQ0Yu_7QSBWcmQeTELv52A
+)
 
 The current operational challenges posed by the COVID-19 situation are just the latest example of why teams should be prepared to continue to work effectively even when they can’t get to their physical office buildings. Whether it’s a public health crisis, a forest fire, or just moving to a forward-thinking work culture, you should equip your teams to be effective in a remote or telework model.
 
@@ -15,7 +16,8 @@ Based on CivicActions lessons-learned from 15+ years of working in a fully distr
 
 ### Presenter
 
-John O’Duinn is the author of "[Distributed Teams](https://www.amzn.com/1732254907): The Art and Practice of Working Together While Physically Apart" and frequent international speaker on benefits and strategies for remote work. John is a senior technologist and entrepreneur who has served in the U.S. Digital Service in the Obama White House and provided workshops and mentorship to distributed teams around the world. He co-created the State of Vermont policy encouraging remote work to promote economic growth, and is now supporting the development of similar policies for multiple jurisdictions worldwide. Learn more about John’s work at his [website](http://oduinn.com/) and on [LinkedIn](https://www.linkedin.com/in/joduinn).
+John O’Duinn is the author of "[Distributed Teams](https://www.amzn.com/1732254907): The Art and Practice of Working Together While Physically Apart" and frequent international speaker on benefits and strategies for remote work. John is a senior technologist and entrepreneur who has served in the U.S. Digital Service in the Obama White House and provided workshops and mentorship to distributed teams around the world. 
+He co-created the State of Vermont policy encouraging remote work to promote economic growth, and is now supporting the development of similar policies for multiple jurisdictions worldwide. Learn more about John’s work at his [website](http://oduinn.com/) and on [LinkedIn](https://www.linkedin.com/in/joduinn).
 
 ### Who is it for?
 
@@ -29,8 +31,9 @@ Federal, state, county and/or local government employees who need to keep their 
 
 #### When / Where
 
-- Wednesday, March 11, Noon CT (10am PT, 1pm ET)
-- Online via Zoom: [Register for webinar link](https://zoom.us/webinar/register/WN_taz66tMMSAWOY8s8_hbDYQ)
+- Thursday, March 12 @ 10am PT / 1pm ET
+- Online via Zoom: [Register for webinar link](https://zoom.us/webinar/register/WN_aQ0Yu_7QSBWcmQeTELv52A
+)
 
 #### Schedule
 
@@ -83,6 +86,7 @@ There is also a Slack community for ongoing discussion, tip sharing, and questio
 
 ### Register
 
-[Register now](https://zoom.us/webinar/register/WN_taz66tMMSAWOY8s8_hbDYQ)
+[Register now](https://zoom.us/webinar/register/WN_aQ0Yu_7QSBWcmQeTELv52A
+)
 
 (Space is limited to 25 attendees. After registering, you will either receive an email confirmation with the webinar link, or we will let you know that you are waitlisted for the next event.)
