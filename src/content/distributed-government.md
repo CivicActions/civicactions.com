@@ -17,12 +17,13 @@ Federal, state, county and/or local government employees who need to keep their 
 
 #### Cost
 
-- Free (limited to 25 attendees)
+- Free 
+(Space is limited to 25 attendees. After registering, you will either receive an email confirmation with the webinar link, or we will let you know that you are waitlisted for the next event.)
 
 #### When / Where
 
 - Wednesday, March 11, Noon CT
-- Online via Zoom: [Register for webinar link](https://zoom.us/webinar/register/WN_taz66tMMSAWOY8s8_hbDYQ)
+- Online via Zoom: [Register now](https://zoom.us/webinar/register/WN_taz66tMMSAWOY8s8_hbDYQ)
 
 #### Schedule
 
@@ -79,4 +80,5 @@ John O’Duinn is the author of "[Distributed Teams](https://www.amzn.com/173225
 
 ### Register
 
-[Register for webinar link](https://zoom.us/webinar/register/WN_taz66tMMSAWOY8s8_hbDYQ)
+[Register now](https://zoom.us/webinar/register/WN_taz66tMMSAWOY8s8_hbDYQ)
+(Space is limited to 25 attendees. After registering, you will either receive an email confirmation with the webinar link, or we will let you know that you are waitlisted for the next event.)
