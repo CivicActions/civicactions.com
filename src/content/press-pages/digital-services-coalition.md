@@ -1,5 +1,5 @@
 ---
-path: /press/civicactions-joins-digital-services-coalition
+path: /press-item/civicactions-joins-digital-services-coalition
 type: press
 title: 'CivicActions Joins Digital Services Coalition'
 date: "2019-05-29"

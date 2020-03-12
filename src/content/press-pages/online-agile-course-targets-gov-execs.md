@@ -1,5 +1,5 @@
 ---
-path: /press/online-agile-course-targets-gov-execs
+path: /press-item/online-agile-course-targets-gov-execs
 type: press
 title: 'CivicActions’ Elizabeth Raley in StateScoop: ‘Free Online Agile Development Course Targets Government Executives’'
 date: "2017-03-08"

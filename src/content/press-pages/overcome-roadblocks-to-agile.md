@@ -1,5 +1,5 @@
 ---
-path: /press/overcome-roadblocks-to-agile
+path: /press-item/overcome-roadblocks-to-agile
 type: press
 title: 'How to Overcome Roadblocks to Agile in Government'
 date: "2014-11-17"

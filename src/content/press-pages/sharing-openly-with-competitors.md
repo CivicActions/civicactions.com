@@ -1,5 +1,5 @@
 ---
-path: /press/sharing-openly-with-competitors
+path: /press-item/sharing-openly-with-competitors
 type: press
 title: 'Sharing Openly With Competitors To Help Government Work Better'
 date: "2016-06-10"

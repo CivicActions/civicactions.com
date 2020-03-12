@@ -1,5 +1,5 @@
 ---
-path: /press/aaron-pava-executive-director-agl
+path: /press-item/aaron-pava-executive-director-agl
 type: press
 title: 'CivicActions’ Aaron Pava to Serve as Executive Director of Agile Government Leadership Association (AGL)'
 date: "2018-06-12"

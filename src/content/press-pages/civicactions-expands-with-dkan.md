@@ -1,5 +1,5 @@
 ---
-path: /press/civicactions-expands-with-dkan
+path: /press-item/civicactions-expands-with-dkan
 type: press
 title: 'CivicActions Expands Government Open Data Services with DKAN Project'
 date: "2017-11-01"

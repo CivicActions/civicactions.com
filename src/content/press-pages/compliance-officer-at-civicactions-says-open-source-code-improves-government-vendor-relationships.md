@@ -1,5 +1,5 @@
 ---
-path: /press/compliance-officer-at-civicactions-says-open-source-code-improves-government-vendor-relationships
+path: /press-item/compliance-officer-at-civicactions-says-open-source-code-improves-government-vendor-relationships
 type: press
 title: 'Compliance Officer at CivicActions Says Open Source Code Improves Government-Vendor Relationships'
 date: "2018-12-14"

@@ -1,5 +1,5 @@
 ---
-path: /press/fcw-embracing-agile
+path: /press-item/fcw-embracing-agile
 type: press
 title: 'CivicActions in FCW: ‘One Company Shows How It Is Embracing Agile’'
 date: "2015-07-06"

@@ -1,5 +1,5 @@
 ---
-path: /press/18f-agile-contract
+path: /press-item/18f-agile-contract
 type: press
 title: '18F’s Agile Contract Paves the Way for Better Procurement'
 date: "2015-07-15"

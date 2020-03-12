@@ -1,5 +1,5 @@
 ---
-path: /press/govtech-2019-top-100-companies
+path: /press-item/govtech-2019-top-100-companies
 type: press
 title: 'CivicActions Named to 2019 GovTech 100 Top Government Technology Companies List'
 date: "2019-01-08"

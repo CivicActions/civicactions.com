@@ -1,5 +1,5 @@
 ---
-path: /press/new-jersey-thanks-civicactions
+path: /press-item/new-jersey-thanks-civicactions
 type: press
 title: 'New Jersey Thanks CivicActions and Partners for Contributed Code to Launch Business Portal'
 date: "2019-10-31"

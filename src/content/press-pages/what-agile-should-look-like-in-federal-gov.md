@@ -1,5 +1,5 @@
 ---
-path: /press/what-agile-should-look-like-in-federal-gov
+path: /press-item/what-agile-should-look-like-in-federal-gov
 type: press
 title: 'CivicActions in NextGov: ‘What Agile Should Look Like in the Federal Government’'
 date: "2015-02-09"
