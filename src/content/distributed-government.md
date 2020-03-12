@@ -33,7 +33,7 @@ Online via Zoom [(register for webinar link)](https://zoom.us/webinar/register/W
 
 #### Cost
 
-Free 
+* Free 
 (Space is limited - we'll notify you with confirmation email upon registration)
 
 #### Topics
@@ -54,14 +54,13 @@ John served in the U.S. Digital Service in the Obama White House and has provide
 
 #### Register
 
-* Choose one session
 * Government employees only, please
 * Space is limited
-* [Register for webinar link](https://zoom.us/webinar/register/WN_aQ0Yu_7QSBWcmQeTELv52A)
+* [Choose a session and register](https://zoom.us/webinar/register/WN_aQ0Yu_7QSBWcmQeTELv52A)
 
 ### Community
 
-Stay in touch with other government teams who are working to adapt to current challenges by working remotely. Join the Distributed Government community for ongoing support.
+Stay in touch and get ongoing support from government peers who are adapting to current challenges by working remotely.
 
 * [Slack](https://distributedgov.herokuapp.com/)
 * [Twitter](https://twitter.com/DistributedGov)
