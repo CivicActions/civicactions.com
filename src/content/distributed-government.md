@@ -11,7 +11,7 @@ Operational challenges posed by the current COVID-19 situation are just the late
 
 ### Free webinars
 
-Based on 15+ years of working as a fully distributed team and the insights of remote-work mentor and expert John O’Duinn, we are offering a series of **FREE** webinars to provide practical information on making the transition from office-dependent work to distributed teams.
+Based on 15+ years of working as a fully distributed team and the insights of remote-work mentor and expert John O’Duinn, CivicActions is offering a series of **FREE** webinars to provide practical information on making the transition from office-dependent work to distributed teams.
 
 [Register now](https://zoom.us/webinar/register/WN_aQ0Yu_7QSBWcmQeTELv52A) (government employees only, please)
 
@@ -33,7 +33,7 @@ Online via Zoom [(register for webinar link)](https://zoom.us/webinar/register/W
 
 #### Cost
 
-Free
+Free 
 (Space is limited - we'll notify you with confirmation email upon registration)
 
 #### Topics
