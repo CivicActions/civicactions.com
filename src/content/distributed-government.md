@@ -15,11 +15,11 @@ Based on 15+ years of working as a fully distributed team and the insights of re
 
 [Register now](https://zoom.us/webinar/register/WN_aQ0Yu_7QSBWcmQeTELv52A) (government employees only, please)
 
-## Who is it for?
+#### Who is it for?
 
 Federal, state, county and/or local government employees who need to keep their teams operating as-normal-as-possible during rapid transitions from office-based work to distributed teams. 
 
-## When / Where
+#### When / Where
 
 * Friday, March 13 @ 10am PT / 1pm ET
 * Monday, March 16 @ 10am PT / 1pm ET
@@ -31,12 +31,12 @@ Federal, state, county and/or local government employees who need to keep their 
 
 Online via Zoom [(register for webinar link)](https://zoom.us/webinar/register/WN_aQ0Yu_7QSBWcmQeTELv52A)
 
-## Cost
+#### Cost
 
 Free
 (Space is limited - we'll notify you with confirmation email upon registration)
 
-## Topics
+#### Topics
 
 * Getting started
 * Operations and Tools
@@ -46,13 +46,13 @@ Free
 * Productivity
 * Q & A
 
-## Presenter
+#### Presenter
 
 [John O’Duinn](https://civicactions.com/team/john-o-duinn) is the author of "[Distributed Teams](https://www.amzn.com/1732254907): The Art and Practice of Working Together While Physically Apart". He is a senior technologist, entrepreneur, and frequent international speaker on the benefits and strategies for remote work.
 
 John served in the U.S. Digital Service in the Obama White House and has provided workshops and mentorship to distributed teams around the world. He co-created the State of Vermont policy encouraging remote work to promote economic growth, and is now supporting the development of similar policies for multiple jurisdictions worldwide. Learn more about John’s work at his [website](http://oduinn.com/) and on [LinkedIn](https://www.linkedin.com/in/joduinn).
 
-## Register
+#### Register
 
 * Choose one session
 * Government employees only, please
