@@ -26,11 +26,12 @@ Entrepreneurship
 ---
 
 ### Things Alan has been doing
+* Modernizing technologies to improve [adult education and literacy](https://www2.ed.gov/about/offices/list/ovae/pi/AdultEd/index.html)
 * Wrangling [automation software](https://www.bmc.com/it-solutions/brands/bladelogic.html) to help improve the car-purchasing experience
-* Providing top-notch infrastructure support for [law enforcement](https://www1.nyc.gov/site/nypd/index.page) to keep NYC safe
+* Empowering [state lawmakers](https://www.house.mi.gov/) and [local law enforcement](https://www1.nyc.gov/site/nypd/index.page) to protect and serve the public
 * Integrating systems to improve data sharing for the [busiest airport system in the U.S.](https://en.wikipedia.org/wiki/Aviation_in_the_New_York_metropolitan_area)
-* Helping [state lawmakers](https://www.house.mi.gov/) use technology to better understand and serve their constituents
 * Managing complex IT infrastructure for diverse industries from [media](https://www.condenast.com/about) to [money](https://www.nyse.com/index)
+* Being stage manager for his multi-talented [singer-songwriter wife](http://aliciamartinezmoss.com/)
 * Walking [NYC parks and beaches](https://www.timeout.com/newyork/attractions/best-nyc-parks) - all year round - with his three tiny dogs
 
 ### Fun facts about Alan
