@@ -15,6 +15,14 @@ Based on CivicActions' 15+ years of working as a fully distributed team and the 
 
 [Register now](https://zoom.us/webinar/register/WN_aQ0Yu_7QSBWcmQeTELv52A)
 
+### Spread the word
+
+Do you know friends or colleagues who need to quickly shift to working productively away from the office? Share with them!
+
+* [LinkedIn](https://www.linkedin.com/feed/update/urn:li:activity:6643966074763247616)
+* [Twitter](https://twitter.com/civicactions/status/1238201516575555584)
+* [Facebook](https://www.facebook.com/CivicActions/photos/a.10155737930601857/10156689617136857/)
+
 #### Who is it for?
 
 Federal, state, county and/or local government employees who need to keep their teams operating as-normal-as-possible during rapid transitions from office-based work to distributed teams. 
