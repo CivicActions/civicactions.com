@@ -1,5 +1,5 @@
 ---
-path: /press/2016-california-technology-forum
+path: /press-item/2016-california-technology-forum
 type: press
 title: 'CivicActions Participates in the 2016 California Technology Forum'
 date: "2016-07-27"

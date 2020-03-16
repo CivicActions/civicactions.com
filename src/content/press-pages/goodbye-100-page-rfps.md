@@ -1,5 +1,5 @@
 ---
-path: /press/goodbye-100-page-rfps
+path: /press-item/goodbye-100-page-rfps
 type: press
 title: 'CivicActions in Federal Times: ‘Say goodbye to 100-page RFPs’'
 date: "2015-07-27"

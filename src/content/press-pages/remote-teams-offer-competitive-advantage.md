@@ -1,5 +1,5 @@
 ---
-path: /press/remote-teams-offer-competitive-advantage
+path: /press-item/remote-teams-offer-competitive-advantage
 type: press
 title: 'Senior Strategist at CivicActions Says Remote Teams Offer Competitive Advantage'
 date: "2019-04-25"

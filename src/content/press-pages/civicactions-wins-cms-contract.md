@@ -1,5 +1,5 @@
 ---
-path: /press/civicactions-wins-cms-contract
+path: /press-item/civicactions-wins-cms-contract
 type: press
 title: 'CivicActions Wins $18M Contract to Migrate, Redesign CMS Websites'
 date: "2020-03-02"

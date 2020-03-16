@@ -1,5 +1,5 @@
 ---
-path: /press/gcn-interview-smart-open-source
+path: /press-item/gcn-interview-smart-open-source
 type: press
 title: 'CivicActions in GCN: ‘How to be smart about open source’'
 date: "2017-06-30"

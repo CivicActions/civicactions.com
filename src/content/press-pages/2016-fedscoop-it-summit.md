@@ -1,5 +1,5 @@
 ---
-path: /press/2016-fedscoop-it-summit
+path: /press-item/2016-fedscoop-it-summit
 type: press
 title: 'CivicActions at the 2016 FedScoop IT Summit'
 date: "2016-08-25"

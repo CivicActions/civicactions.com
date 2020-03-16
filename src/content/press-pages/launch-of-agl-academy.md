@@ -1,5 +1,5 @@
 ---
-path: /press/launch-of-agl-academy
+path: /press-item/launch-of-agl-academy
 type: press
 title: 'Supporting the Launch of AGL Academy'
 date: "2016-03-04"

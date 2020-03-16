@@ -1,5 +1,5 @@
 ---
-path: /press/best-50-top-workplaces-2017
+path: /press-item/best-50-top-workplaces-2017
 type: press
 title: 'CivicActions Named to “Top 50 Best Places to Work in 2017”'
 date: "2017-12-05"

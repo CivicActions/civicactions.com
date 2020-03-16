@@ -1,5 +1,5 @@
 ---
-path: /press/happy-productive-remote-teams
+path: /press-item/happy-productive-remote-teams
 type: press
 title: 'Remote Teams Create High Productivity, Happy Workers'
 date: "2018-03-27"

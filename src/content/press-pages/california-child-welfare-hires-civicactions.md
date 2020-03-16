@@ -1,5 +1,5 @@
 ---
-path: /press/california-child-welfare-hires-civicactions
+path: /press-item/california-child-welfare-hires-civicactions
 type: press
 title: 'California Agile Child Welfare Project Hires CivicActions for DevOps'
 date: "2017-07-12"

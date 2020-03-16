@@ -1,5 +1,5 @@
 ---
-path: /press/people-are-the-real-metrics
+path: /press-item/people-are-the-real-metrics
 type: press
 title: 'CivicActions’ John O’Duinn in InformationWeek: "People Are the Real Metrics"'
 date: "2018-06-05"

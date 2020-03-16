@@ -1,5 +1,5 @@
 ---
-path: /press/civicactions-featured-world-changing-drupal-sites
+path: /press-item/civicactions-featured-world-changing-drupal-sites
 type: press
 title: 'CivicActions Featured on List of World-Changing Drupal Websites'
 date: "2018-10-22"

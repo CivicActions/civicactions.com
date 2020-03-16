@@ -1,5 +1,5 @@
 ---
-path: /press/comparably-great-workplace
+path: /press-item/comparably-great-workplace
 type: press
 title: 'CivicActions on Shortlist of ‘Great Workplaces’'
 date: "2019-08-06"

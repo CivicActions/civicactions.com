@@ -1,5 +1,5 @@
 ---
-path: /press/new-york-city-delivers-real-time-data-metro-riders
+path: /press-item/new-york-city-delivers-real-time-data-metro-riders
 type: press
 title: New York City Delivers Real-Time Data to Metro Riders Using Drupal 8 and Amazon's IoT
 date: "2018-10-01"

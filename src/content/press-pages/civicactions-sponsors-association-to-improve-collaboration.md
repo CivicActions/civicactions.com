@@ -1,5 +1,5 @@
 ---
-path: /press/civicactions-sponsors-association-to-improve-collaboration
+path: /press-item/civicactions-sponsors-association-to-improve-collaboration
 type: press
 title: 'CivicActions Sponsors Association to Improve Collaboration for California Government and Tech Industry'
 date: "2019-12-06"

@@ -1,5 +1,5 @@
 ---
-path: /press/fcw-is-gov-ready-for-agile
+path: /press-item/fcw-is-gov-ready-for-agile
 type: press
 title: 'CivicActions in FCW: ‘Is Government Ready for Agile?’'
 date: "2015-02-13"
