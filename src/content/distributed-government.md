@@ -13,16 +13,6 @@ Operational challenges posed by the current COVID-19 situation are just the late
 
 Based on CivicActions' 15+ years of working as a fully distributed team and the insights of remote-work mentor and expert John O’Duinn, we're offering a series of **FREE** webinars to provide practical information on making the transition from office-dependent work to distributed teams. Each webinar also includes additional time to help answer questions about any top-of-mind concerns. 
 
-[Register now](https://zoom.us/webinar/register/WN_aQ0Yu_7QSBWcmQeTELv52A)
-
-### Spread the word
-
-Do you know friends or colleagues who need to quickly shift to working productively away from the office? Share with them!
-
-* [LinkedIn](https://www.linkedin.com/feed/update/urn:li:activity:6643966074763247616)
-* [Twitter](https://twitter.com/civicactions/status/1238201516575555584)
-* [Facebook](https://www.facebook.com/CivicActions/photos/a.10155737930601857/10156689617136857/)
-
 #### Who is it for?
 
 Federal, state, county and/or local government employees who need to keep their teams operating as-normal-as-possible during rapid transitions from office-based work to distributed teams. 
@@ -35,7 +25,8 @@ Online via Zoom (1 hour)
 * Monday, March 16 @ 10am PT / 1pm ET > [register](https://zoom.us/webinar/register/WN_aQ0Yu_7QSBWcmQeTELv52A)
 * Tuesday, March 17 @ 10am PT / 1pm ET > [register](https://zoom.us/webinar/register/WN_aQ0Yu_7QSBWcmQeTELv52A)
 * Wednesday, March 18 @ 10am PT / 1pm ET > [register](https://zoom.us/webinar/register/WN_aQ0Yu_7QSBWcmQeTELv52A)
-* Thursday, March 19 @ 10am PT / 1pm ET > [register](https://zoom.us/webinar/register/WN_aQ0Yu_7QSBWcmQeTELv52A)
+* Wednesday, March 18 @ 5pm PT / 8pm ET > [register](https://civicactions.zoom.us/webinar/register/WN_lILAekmYTPiQuoNashoGzw)
+* Thursday, March 19 @ 2pm PT / 5pm ET > [register](https://civicactions.zoom.us/webinar/register/WN_nqx8rodIR1uLTrT6dsSUaA)
 * Friday, March 20 @ 10am PT / 1pm ET > [register](https://zoom.us/webinar/register/WN_aQ0Yu_7QSBWcmQeTELv52A)
 
 #### Cost
@@ -58,10 +49,13 @@ Online via Zoom (1 hour)
 
 John served in the U.S. Digital Service in the Obama White House and has provided workshops and mentorship to distributed teams around the world. He co-created the State of Vermont policy encouraging remote work to promote economic growth, and is now supporting the development of similar policies for multiple jurisdictions worldwide. Learn more about John’s work at his [website](http://oduinn.com/) and on [LinkedIn](https://www.linkedin.com/in/joduinn).
 
-#### Register
+### Spread the word
 
-* Space is limited
-* [Choose a session and register](https://zoom.us/webinar/register/WN_aQ0Yu_7QSBWcmQeTELv52A)
+Do you know friends or colleagues who need to quickly shift to working productively away from the office? Share with them!
+
+* [LinkedIn](https://www.linkedin.com/feed/update/urn:li:activity:6643966074763247616)
+* [Twitter](https://twitter.com/civicactions/status/1238201516575555584)
+* [Facebook](https://www.facebook.com/CivicActions/photos/a.10155737930601857/10156689617136857/)
 
 ### Community
 
