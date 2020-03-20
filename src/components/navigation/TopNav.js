@@ -25,6 +25,8 @@ class TopNav extends React.Component {
     if (!found && pathname) {
       if (pathname.includes("/team/")) {
         this.setState({ activeParent: "about" })
+      } else if (pathname.includes("/press/")) {
+        this.setState({ activeParent: "about" })
       } else if (pathname.includes("/case-study/")) {
         this.setState({ activeParent: "work" })
       }
