@@ -21,8 +21,7 @@ Federal, state, county and/or local government employees who need to keep their 
 
 Online via Zoom (1 hour)
 
-* Friday, March 20 @ 10am PT / 1pm ET > [register](https://zoom.us/webinar/register/WN_aQ0Yu_7QSBWcmQeTELv52A)
-* Monday, March 23 @ 3pm PT / 5pm ET > [register](https://civicactions.zoom.us/webinar/register/WN_Fffv5uJRQxKrGUlMRT_aOg)
+* Monday, March 23 @ 3pm PT / 6pm ET > [register](https://civicactions.zoom.us/webinar/register/WN_Fffv5uJRQxKrGUlMRT_aOg)
 * Tuesday, March 24 @ 7am PT / 10am ET > [register](https://civicactions.zoom.us/webinar/register/WN_YBA_PDHGTgSKhz-BbdQAzw)
 * Wednesday, March 25 @ 11am PT / 2pm ET > [register](https://civicactions.zoom.us/webinar/register/WN_Z0UFg-CpRTirih3C6a8F1Q)
 * Thursday, March 26 @ 4pm PT / 7pm ET > [register](https://civicactions.zoom.us/webinar/register/WN_lZeZ6kBnRXmXbixPB3e8Og)
