@@ -51,9 +51,9 @@ John served in the U.S. Digital Service in the Obama White House and has provide
 
 Do you know friends or colleagues who need to quickly shift to working productively away from the office? Share with them!
 
-* [LinkedIn](https://www.linkedin.com/feed/update/urn:li:activity:6643966074763247616)
-* [Twitter](https://twitter.com/civicactions/status/1238201516575555584)
-* [Facebook](https://www.facebook.com/CivicActions/photos/a.10155737930601857/10156689617136857/)
+* [LinkedIn](https://www.linkedin.com/feed/update/urn:li:activity:6647870691871989760/)
+* [Twitter](https://twitter.com/civicactions/status/1242101535816941568)
+* [Facebook](https://www.facebook.com/CivicActions/photos/a.10155737930601857/10156722484996857/?type=3&theater)
 
 ### Community
 
