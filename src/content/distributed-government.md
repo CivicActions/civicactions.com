@@ -9,7 +9,7 @@ subtitle: "Helping government teams work effectively together while physically a
 
 Operational challenges posed by the current COVID-19 situation are just the latest example of why teams should be prepared to continue to work effectively even when they can’t get to their physical office buildings. Whether it’s a public health crisis, a forest fire, or just moving to a forward-thinking work culture, you should equip your teams to be effective in a remote or “telework” model.
 
-### Roundtable Exclusively for Executives in Federal Government
+### Fireside Chat: Remote/Telework Exclusively for Executives in Federal Government
 
 How to facilitate remote executive type meetings? How to address morale and keep distributed teams engaged? How to reduce all the video meetings? What are strategies for addressing morale and team connectedness? This roundtable will address issues around communications, coordination of work between team members, team accountability and trust. This is exclusively for executives in Federal Government. 
 
@@ -17,6 +17,8 @@ How to facilitate remote executive type meetings? How to address morale and keep
 
 Online via Zoom (1 hour)
 * Tuesday, March 31 @ 9am PT / 12noon ET > [register](https://civicactions.zoom.us/meeting/register/vJAkd-CgpjIv6WkPvLUDxeb6dQn2dZuTEA)
+* Thursday, April 02 @ 9am PT / 12noon ET > [register](https://civicactions.zoom.us/meeting/register/uJQqduysqzItgbJnvbkJ2pHTLGCEnhtzGA)
+* Friday, April 03 @ 9am PT / 12noon ET > [register](https://civicactions.zoom.us/meeting/register/tZUkduCrqzMuioozm4lnVtHgQ5gD9a-1Fw)
 
 #### Cost
 
@@ -54,7 +56,7 @@ Online via Zoom (1 hour)
 
 #### Presenter
 
-[John O’Duinn](https://civicactions.com/team/john-o-duinn) is the author of "[Distributed Teams](https://www.amzn.com/1732254907): The Art and Practice of Working Together While Physically Apart". He is a senior technologist, entrepreneur, and frequent international speaker on the benefits and strategies for remote work.
+[John O’Duinn](https://civicactions.com/team/john-o-duinn) is the author of "[Distributed Teams: The Art and Practice of Working Together While Physically Apart"](https://www.amzn.com/1732254907). He is a senior technologist, entrepreneur, and frequent international speaker on the benefits and strategies for remote work.
 
 John served in the U.S. Digital Service in the Obama White House and has provided workshops and mentorship to distributed teams around the world. He co-created the State of Vermont policy encouraging remote work to promote economic growth, and is now supporting the development of similar policies for multiple jurisdictions worldwide. Learn more about John’s work at his [website](http://oduinn.com/) and on [LinkedIn](https://www.linkedin.com/in/joduinn).
 
