@@ -58,14 +58,6 @@ Online via Zoom (1 hour)
 
 John served in the U.S. Digital Service in the Obama White House and has provided workshops and mentorship to distributed teams around the world. He co-created the State of Vermont policy encouraging remote work to promote economic growth, and is now supporting the development of similar policies for multiple jurisdictions worldwide. Learn more about John’s work at his [website](http://oduinn.com/) and on [LinkedIn](https://www.linkedin.com/in/joduinn).
 
-### Spread the word
-
-Do you know friends or colleagues who need to quickly shift to working productively away from the office? Share with them!
-
-* [LinkedIn](https://www.linkedin.com/feed/update/urn:li:activity:6647870691871989760/)
-* [Twitter](https://twitter.com/civicactions/status/1242101535816941568)
-* [Facebook](https://www.facebook.com/CivicActions/photos/a.10155737930601857/10156722484996857/?type=3&theater)
-
 ### Community
 
 Stay in touch and get ongoing support from government peers who are adapting to current challenges by working remotely.
