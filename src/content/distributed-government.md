@@ -2,12 +2,14 @@
 path: /distributed-government
 type: page
 title: "Distributed Teams in Government"
-subtitle: "Interactive webinars to help agencies quickly adapt to remote / telework in response to COVID-19"
+subtitle: "Interactive sessions to help agencies quickly adapt to remote / telework in response to COVID-19"
 ---
 
-#### For Federal Government Executives
+#### For Government Executives
 
-Learn how to facilitate remote executive-style meetings, foster trust and accountability, coordinate work among team members, and keep communications and operations running smoothly. Presentation with interactive Q&A discussion. Exclusively for executives in federal government.
+Learn how to facilitate remote executive-style meetings, foster trust and accountability, coordinate work among team members, and keep communications and operations running smoothly. 
+
+This "fireside chat" -style presentation is exclusively for executives in government. Bring your questions and concerns and we will address them specifically.
 
 **Choose a session**   
 * Tuesday, March 31 @ 9am PT / 12pm ET >> [REGISTER (free)](https://civicactions.zoom.us/meeting/register/vJAkd-CgpjIv6WkPvLUDxeb6dQn2dZuTEA)
