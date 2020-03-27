@@ -5,6 +5,7 @@ published: 1
 name: Shira Kates
 personal_pronouns: she/her
 image: 'images/shira-kates.jpg'
+manager: 1
 role: Chief Design Officer
 location: Encinitas, California
 quote: I'm proud to be part of the remote work revolution, supporting green living, quality of life, and rural economies.
