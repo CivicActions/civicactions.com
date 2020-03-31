@@ -1,13 +1,17 @@
 ---
 path: /distributed-government
 type: page
-title: "Quickly Shifting to Distributed Teams in Government"
-subtitle: "Interactive sessions to help agencies quickly adapt to remote / telework in response to COVID-19"
+title: "Free Webinar: Quickly Shifting to Distributed Teams in Government"
+subtitle: "Helping government teams work effectively together while physically apart"
 ---
 
-#### For Government Executives
+#### Special session for government executives
 
-Learn how to facilitate remote executive-style meetings, foster trust and accountability, coordinate work among team members, and keep communications and operations running smoothly. 
+Learn how to: 
+* Facilitate remote executive-style meetings
+* Foster trust and accountability
+* Coordinate work among team members
+* Keep communications and operations running smoothly
 
 This "fireside chat" -style presentation is exclusively for executives in government. Bring your questions and concerns and we will address them specifically.
 
@@ -16,11 +20,18 @@ This "fireside chat" -style presentation is exclusively for executives in govern
 * Friday, April 3 @ 9am PT / 12pm ET >> [REGISTER (free)](https://civicactions.zoom.us/meeting/register/tZUkduCrqzMuioozm4lnVtHgQ5gD9a-1Fw)
 
 
-#### For All Government Teams
+#### For all government teams
 
-Learn how to quickly adopt remote work best practices and tools, maintain team unity and collaboration, and keep operating as normal-as-possible during the rapid shift to distributed teams. Presentation with interactive Q&A discussion. Open to agency employees at all levels of government.
+Learn how to keep operating as normal-as-possible while rapidly shifting to distributed teams. We'll cover best practices for:
+* Communications
+* Productivity
+* Team Connection
+* Collaboration
+* Security
 
-**Last available session**   
+This presentation with interactive Q&A discussion is open to agency employees at all levels of government.
+
+**Choose a session**   
 * Wednesday, April 1 @ 9am PT / 12pm ET >> [REGISTER (free)](https://civicactions.zoom.us/meeting/register/upEqdO2trz0tst8IzXRMwj7cdjg9O14P_w)
 
 
