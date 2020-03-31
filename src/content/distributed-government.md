@@ -1,7 +1,7 @@
 ---
 path: /distributed-government
 type: page
-title: "Distributed Teams in Government"
+title: "Quickly Shifting to Distributed Teams in Government"
 subtitle: "Interactive sessions to help agencies quickly adapt to remote / telework in response to COVID-19"
 ---
 
@@ -12,7 +12,6 @@ Learn how to facilitate remote executive-style meetings, foster trust and accoun
 This "fireside chat" -style presentation is exclusively for executives in government. Bring your questions and concerns and we will address them specifically.
 
 **Choose a session**   
-* Tuesday, March 31 @ 9am PT / 12pm ET >> [REGISTER (free)](https://civicactions.zoom.us/meeting/register/vJAkd-CgpjIv6WkPvLUDxeb6dQn2dZuTEA)
 * Thursday, April 2 @ 9am PT / 12pm ET >> [REGISTER (free)](https://civicactions.zoom.us/meeting/register/uJQqduysqzItgbJnvbkJ2pHTLGCEnhtzGA)
 * Friday, April 3 @ 9am PT / 12pm ET >> [REGISTER (free)](https://civicactions.zoom.us/meeting/register/tZUkduCrqzMuioozm4lnVtHgQ5gD9a-1Fw)
 
@@ -21,9 +20,7 @@ This "fireside chat" -style presentation is exclusively for executives in govern
 
 Learn how to quickly adopt remote work best practices and tools, maintain team unity and collaboration, and keep operating as normal-as-possible during the rapid shift to distributed teams. Presentation with interactive Q&A discussion. Open to agency employees at all levels of government.
 
-**Choose a session**   
-* Friday, March 27 @ 12pm PT / 3pm ET >> [REGISTER (free)](https://civicactions.zoom.us/webinar/register/WN_UZhePAbsTI-8glqtN8HIdg)
-* Monday, March 30 @ 9am PT / 12pm ET >> [REGISTER (free)](https://civicactions.zoom.us/meeting/register/u5EudeGorT8qqyvhgxrpFZD94vgkWsX_5w)
+**Last available session**   
 * Wednesday, April 1 @ 9am PT / 12pm ET >> [REGISTER (free)](https://civicactions.zoom.us/meeting/register/upEqdO2trz0tst8IzXRMwj7cdjg9O14P_w)
 
 
