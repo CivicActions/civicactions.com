@@ -10,7 +10,7 @@ Agencies are rapidly shifting many employees to remote or "telework" in response
 ### Free sessions + open Q&A
 Based on CivicActions' 15+ years of working as a fully distributed team and the insights of remote-work mentor and expert John O’Duinn, we're offering a series of **FREE** sessions to provide practical information on making the transition from office-dependent work to distributed teams, and best practices for ongoing success.
 
-Questions and open discussion are encouraged so we can address any top-of-mind concerns.
+Questions and open discussion are encouraged.
 
 #### Topics
 
