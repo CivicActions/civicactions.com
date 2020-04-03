@@ -40,22 +40,8 @@ Choose a session and register. You can also attend more than one - discussions w
 
 John served in the U.S. Digital Service in the Obama White House and has provided workshops and mentorship to distributed teams around the world. He co-created the State of Vermont policy encouraging remote work to promote economic growth, and is now supporting the development of similar policies for multiple jurisdictions worldwide. Learn more about John’s work at his [website](http://oduinn.com/) and on [LinkedIn](https://www.linkedin.com/in/joduinn).
 
-#### Fireside chat session for government executives
 
-This session is tailored to address the specific concerns of government executives. Learn how to:
- 
-* Facilitate remote executive-style meetings
-* Foster trust and accountability
-* Coordinate work among team members
-* Keep communications and operations running smoothly
-
-This "fireside chat" -style presentation is exclusively for executives in government. We invite you to bring your questions and concerns so we can address them specifically.
-
-**Date / Time**
-* Friday, April 3 @ 9am PT / 12pm ET >> [REGISTER (free)](https://civicactions.zoom.us/meeting/register/tZUkduCrqzMuioozm4lnVtHgQ5gD9a-1Fw)
-
-
-#### Community
+### Community
 
 Stay in touch and get ongoing support from government peers who are adapting to current challenges by working remotely.
 
@@ -63,7 +49,7 @@ Stay in touch and get ongoing support from government peers who are adapting to 
 * [Twitter](https://twitter.com/DistributedGov)
 
 
-#### Feedback
+### Feedback
 
 Did you attend a webinar? Do you have more questions? How can we help? Your feedback will help us deliver more valuable information to government teams in this time of uncertainty. 
 
