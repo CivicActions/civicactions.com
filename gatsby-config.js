@@ -78,5 +78,19 @@ module.exports = {
         exclude: [`/press-item/*`],
       },
     },
+    {
+      resolve: `gatsby-transformer-remark`,
+      options: {
+        plugins: [
+          {
+            resolve: `gatsby-remark-autolink-headers`,
+            options: {
+              icon: false,
+              removeAccents: true,
+            },
+          },
+        ],
+      },
+    },
   ],
 }
