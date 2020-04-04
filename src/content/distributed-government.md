@@ -7,6 +7,8 @@ subtitle: "How government teams can work effectively together while physically a
 ### Work remotely and build resiliency
 Agencies are rapidly shifting many employees to remote or "telework" in response to COVID-19. This is a pivotal time for government to build resliency and reap long-term benefits by learning how teams can work effectively together without needing to be in the office. 
 
+[Register now](#register)
+
 ### Free sessions + open Q&A
 Based on CivicActions' 15+ years of working as a fully distributed team and the insights of remote-work mentor and expert John O’Duinn, we're offering a series of **FREE** sessions to provide practical information on making the transition from office-dependent work to distributed teams, and best practices for ongoing success.
 
