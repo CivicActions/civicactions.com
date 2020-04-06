@@ -34,7 +34,7 @@ Choose a session and register (free). You can also attend more than one - discus
 * Tuesday, April 21 @ 10am PT / 1pm ET >> [register now](https://civicactions.zoom.us/meeting/register/tZApde2rrTIqvRkYxtud73RnZPMRFrrNbw)
 * Thursday, April 23 @ 1pm PT / 4pm ET >> [register now](https://civicactions.zoom.us/meeting/register/tZIscOqgqjgpOL0by_-0tkkr_iVB9bMhUA)
 * Tuesday, April 28 @ 10am PT / 1pm ET >> [register now](https://civicactions.zoom.us/meeting/register/u5Epfu6gqzwrwOP_tVHyTeYLXq5yuZnJHA)
-* Thursday, April 30 @ 10am PT / 1pm ET >> [register now](https://civicactions.zoom.us/meeting/register/uZ0vf-yrrT8jmidw_oDEjo0POzgKf0w45w)
+* Thursday, April 30 @ 1pm PT / 4pm ET >> [register now](https://civicactions.zoom.us/meeting/register/uZ0vf-yrrT8jmidw_oDEjo0POzgKf0w45w)
 
 #### Presenter
 
