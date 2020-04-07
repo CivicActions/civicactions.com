@@ -25,19 +25,19 @@ quotes:
   }
 medium_teasers: 
 - {
-  title: 'We hire people, not resumes (and other quirks to the CivicActions application process)',
-  link: 'https://medium.com/civicactions/we-hire-people-not-resumes-and-other-quirks-to-the-civicactions-application-process-7aab30d69c1c',
- date: 'August 07, 2019'
+  title: 'Quickly shifting to distributed teams in government',
+  link: 'https://medium.com/civicactions/quickly-shifting-to-distributed-teams-in-government-54bd79b912c3',
+ date: 'April 6, 2020'
 }
 - {
-  title: 'Improving scrum team flow on digital service projects',
-  link: 'https://medium.com/civicactions/improving-scrum-team-flow-on-digital-service-projects-6723d95eaad8',
-  date: 'July 22, 2019'
+  title: 'The role of UX in an agile team',
+  link: 'https://medium.com/civicactions/the-role-of-ux-in-an-agile-team-1f376d478cfd',
+  date: 'January 21, 2020'
 }
 - {
-  title: 'Culture and diversity: How CivicActions is growing',
-  link: 'https://medium.com/civicactions/were-hiring-at-civicactions-aa8ac8486923',
-  date: 'July 25, 2018'
+  title: 'How our distributed team makes up for a year apart',
+  link: 'https://medium.com/civicactions/how-our-distributed-team-makes-up-for-a-year-apart-c68503192d26',
+  date: 'October 17, 2019'
 }
 government_services_title: Modernizing government services
 government_services:
