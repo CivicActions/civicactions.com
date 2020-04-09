@@ -2,10 +2,10 @@
 path: /distributed-government
 type: page
 title: "Free Sessions: Effective Distributed Teams in Government"
-subtitle: "How to improve trust and productivity in remote government teams"
+subtitle: "Improve trust and productivity in remote government teams"
 ---
 ### Work remotely and build resiliency
-Many agencies have shifted to remote or "telework" in response to COVID-19. This is a pivotal time for government to build resliency and reap long-term benefits by discovering how teams can work effectively together without needing to be in the office. Learn how teams can build trust and productivity through telework best practices.
+Many agencies have shifted to remote or "telework" in response to COVID-19. This is a pivotal time for government to build resliency and reap long-term benefits by discovering how teams can work effectively together without needing to be in the office. Learn how to build trust and productivity through telework best practices.
 
 [Register now](#register)
 
