@@ -1,25 +1,24 @@
 ---
 path: /distributed-government
 type: page
-title: "Free Sessions: Quickly Shifting to Distributed Teams in Government"
-subtitle: "How government teams can work effectively together while physically apart"
+title: "Free Sessions: Effective Distributed Teams in Government"
+subtitle: "How to improve trust and productivity in remote government teams"
 ---
 ### Work remotely and build resiliency
-Agencies are rapidly shifting many employees to remote or "telework" in response to COVID-19. This is a pivotal time for government to build resliency and reap long-term benefits by learning how teams can work effectively together without needing to be in the office. 
+Many agencies have shifted to remote or "telework" in response to COVID-19. This is a pivotal time for government to build resliency and reap long-term benefits by discovering how teams can work effectively together without needing to be in the office. Learn how teams can build trust and productivity through telework best practices.
 
 [Register now](#register)
 
 ### Free sessions + open Q&A
-Based on CivicActions' 15+ years of working as a fully distributed team and the insights of remote-work mentor and expert John O’Duinn, we're offering a series of **FREE** sessions to provide practical information on making the transition from office-dependent work to distributed teams, and best practices for ongoing success.
+Based on CivicActions' 15+ years of working as a fully distributed team and the insights of remote-work mentor and expert John O’Duinn, we're offering a series of **FREE** sessions to provide practical information on improving processes and culture for anyone working for or in government.
 
 Questions and open discussion are encouraged.
 
 #### Topics
 
-* Getting Started
 * Communications
 * Productivity
-* Team Connection
+* Team Connection & Morale
 * Collaboration
 * Security
 
@@ -27,7 +26,6 @@ Questions and open discussion are encouraged.
 
 Choose a session and register (free). You can also attend more than one - discussions will vary to meet specific audience needs.
 
-* Thursday, April 9 @ 1pm PT / 4pm ET » [register now](https://civicactions.zoom.us/meeting/register/tZIkc-qhqDouOfe2VmUMSfyMcZxY6oqJnQ)
 * Tuesday, April 14 @ 10am PT / 1pm ET » [register now](https://civicactions.zoom.us/meeting/register/tZ0qdeiurTwoR1TiY-ojZqZXabxqb57hsw)
 * Thursday, April 16 @ 1pm PT / 4pm ET » [register now](https://civicactions.zoom.us/meeting/register/tZ0kdOqtqDkqDXVG8L_Tqr2XbmHpeRAaRQ)
 * Tuesday, April 21 @ 10am PT / 1pm ET » [register now](https://civicactions.zoom.us/meeting/register/tZApde2rrTIqvRkYxtud73RnZPMRFrrNbw)
@@ -52,7 +50,7 @@ Stay in touch and get ongoing support from government peers who are adapting to 
 
 ### Feedback
 
-Did you attend a webinar? Do you have more questions? How can we help? Your feedback will help us deliver more valuable information to government teams in this time of uncertainty. 
+Did you attend a session? Do you have more questions? How can we help? Your feedback will help us deliver more valuable information to government teams in this time of uncertainty. 
 
 * [Post-webinar survey](https://www.surveymonkey.com/r/distributedgov)
 * [Contact us](https://civicactions.com/contact)
