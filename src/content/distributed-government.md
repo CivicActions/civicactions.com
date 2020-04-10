@@ -14,14 +14,6 @@ Based on CivicActions' 15+ years of working as a fully distributed team and the 
 
 Questions and open discussion are encouraged.
 
-#### Topics
-
-* Communications
-* Productivity
-* Team Connection & Morale
-* Collaboration
-* Security
-
 #### Register
 
 Choose a session and register (free). You can also attend more than one - discussions will vary to meet specific audience needs.
