@@ -26,7 +26,6 @@ Questions and open discussion are encouraged.
 
 Choose a session and register (free). You can also attend more than one - discussions will vary to meet specific audience needs.
  
-*General session on effective distributed gov teams*
 * Thursday, April 16 @ 1pm PT / 4pm ET  
 *General session on effective distributed gov teams*  
 [Register now](https://civicactions.zoom.us/meeting/register/tZ0kdOqtqDkqDXVG8L_Tqr2XbmHpeRAaRQ)
