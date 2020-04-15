@@ -27,16 +27,21 @@ Questions and open discussion are encouraged.
 Choose a session and register (free). You can also attend more than one - discussions will vary to meet specific audience needs.
  
 *General session on effective distributed gov teams*
-* Thursday, April 16 @ 1pm PT / 4pm ET » [register now](https://civicactions.zoom.us/meeting/register/tZ0kdOqtqDkqDXVG8L_Tqr2XbmHpeRAaRQ)  
-*General session on effective distributed gov teams*
-* Tuesday, April 21 @ 10am PT / 1pm ET » [register now](https://civicactions.zoom.us/meeting/register/tZApde2rrTIqvRkYxtud73RnZPMRFrrNbw)  
-*With focus on: Running large distributed meetings with 50+ people*
-* Thursday, April 23 @ 1pm PT / 4pm ET » [register now](https://civicactions.zoom.us/meeting/register/tZIscOqgqjgpOL0by_-0tkkr_iVB9bMhUA)  
-*With focus on: Running effective and secure distributed meetings*
-* Tuesday, April 28 @ 10am PT / 1pm ET » [register now](https://civicactions.zoom.us/meeting/register/u5Epfu6gqzwrwOP_tVHyTeYLXq5yuZnJHA)  
-*With focus on: Coordinating work with others*
-* Thursday, April 30 @ 1pm PT / 4pm ET » [register now](https://civicactions.zoom.us/meeting/register/uZ0vf-yrrT8jmidw_oDEjo0POzgKf0w45w)  
-*With focus on: Dealing with isolation, trust, and team cohesion*
+* Thursday, April 16 @ 1pm PT / 4pm ET  
+*General session on effective distributed gov teams*  
+[Register now](https://civicactions.zoom.us/meeting/register/tZ0kdOqtqDkqDXVG8L_Tqr2XbmHpeRAaRQ)
+* Tuesday, April 21 @ 10am PT / 1pm ET  
+*With focus on: Running large distributed meetings with 50+ people*  
+[Register now](https://civicactions.zoom.us/meeting/register/tZApde2rrTIqvRkYxtud73RnZPMRFrrNbw)
+* Thursday, April 23 @ 1pm PT / 4pm ET  
+*With focus on: Running effective and secure distributed meetings*  
+[Register now](https://civicactions.zoom.us/meeting/register/tZIscOqgqjgpOL0by_-0tkkr_iVB9bMhUA)
+* Tuesday, April 28 @ 10am PT / 1pm ET  
+*With focus on: Coordinating work with others*  
+[Register now](https://civicactions.zoom.us/meeting/register/u5Epfu6gqzwrwOP_tVHyTeYLXq5yuZnJHA)
+* Thursday, April 30 @ 1pm PT / 4pm ET  
+*With focus on: Dealing with isolation, trust, and team cohesion*  
+[Register now](https://civicactions.zoom.us/meeting/register/uZ0vf-yrrT8jmidw_oDEjo0POzgKf0w45w)
 
 #### Presenter
 
