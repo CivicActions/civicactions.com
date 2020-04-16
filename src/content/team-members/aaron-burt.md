@@ -4,6 +4,7 @@ type: team
 published: 1
 name: Aaron Burt
 image: 'images/aaron-burt.jpg'
+personal_pronouns: ''
 audio: 'audio/aaron-burt.mp3'
 pronunciation: 'air-un bert'
 role: DevOps
