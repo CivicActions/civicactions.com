@@ -8,6 +8,8 @@ published: 1
 name: Alex Scott
 personal_pronouns: ''
 image: 'images/alex-scott.jpg'
+audio: 'audio/alex-scott.mp3'
+pronunciation: 'al-ix scott'
 role: Engineering
 location: Toledo, Spain
 quote: I am genetically crossed with a fish from the twilight zone.

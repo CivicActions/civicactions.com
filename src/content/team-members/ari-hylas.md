@@ -8,6 +8,8 @@ published: 1
 name: Ari Hylas
 personal_pronouns: 'she/her'
 image: 'images/ari-hylas.jpg'
+audio: 'audio/ari-hylas.mp3'
+pronunciation: 'ah-ree high-lis'
 role: Engineering
 location: Belen, New Mexico
 quote: The best part about working as a developer is being part of something larger than myself, which makes me feel that there’s no limit to what I can do.

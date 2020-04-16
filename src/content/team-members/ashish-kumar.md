@@ -4,6 +4,8 @@ type: team
 published: 1
 name: Ashish Kumar
 image: 'images/ashish-kumar.jpg'
+audio: 'audio/ashish-kumar.mp3'
+pronunciation: 'ah-shish koo-mar'
 role: DevOps
 location: Sacramento, California
 quote: 

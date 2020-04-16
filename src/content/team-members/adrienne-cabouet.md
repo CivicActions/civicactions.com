@@ -4,6 +4,8 @@ type: team
 published: 1
 name: Adrienne Cabouet
 image: 'images/adrienne-cabouet.jpg'
+audio: 'audio/adrienne-cabouet.mp3'
+pronunciation: 'a-dree-in cab-o-way'
 role: Engineering
 location: Albuquerque, New Mexico
 quote: 

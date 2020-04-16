@@ -4,6 +4,8 @@ type: team
 published: 1
 name: Alaine Karoleff
 image: 'images/alaine-karoleff.jpg'
+audio: 'audio/alaine-karoleff.mp3'
+pronunciation: 'a-lane ka-roll-ef'
 manager: 1
 role: Management & Operations
 location: Los Angeles, California

@@ -4,6 +4,8 @@ type: team
 published: 1
 name: Andy Hawks
 image: 'images/andy-hawks.jpg'
+audio: 'audio/andy-hawks.mp3'
+pronunciation: 'an-dee hawks'
 role: Engineering
 location: Arvada, Colorado
 quote: At CivicActions everything is done intentionally and with great purpose. We try to bring this authenticity to everyone we work with.

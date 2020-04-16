@@ -4,6 +4,8 @@ type: team
 published: 1
 name: Andrew Bond
 image: 'images/andrew-bond.jpg'
+audio: 'audio/andrew-bond.mp3'
+pronunciation: 'an-drew bond'
 role: DevOps
 location: Pompano Beach, Florida
 social: 
