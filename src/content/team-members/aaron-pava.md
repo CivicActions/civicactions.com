@@ -5,6 +5,8 @@ published: 1
 name: Aaron Pava
 personal_pronouns: he/him
 image: 'images/aaron-pava.jpg'
+audio: 'audio/aaron-pava.mp3'
+pronunciation: 'air-un pah-va'
 manager: 1
 role: Management & Operations
 location: San Mateo, Alajuela, Costa Rica
