@@ -5,6 +5,8 @@ published: 1
 name: Alan Moss
 personal_pronouns: 'he/him'
 image: 'images/alan-moss.jpg'
+audio: 'audio/alan-moss.mp3'
+pronunciation: 'al-in moss'
 role: DevSecOps
 location: NYC, New York
 quote: When dealing with something difficult, the smart thing is to just dive right in and learn all about it.
