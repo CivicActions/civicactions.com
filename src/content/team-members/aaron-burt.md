@@ -4,6 +4,8 @@ type: team
 published: 1
 name: Aaron Burt
 image: 'images/aaron-burt.jpg'
+audio: 'audio/aaron-burt.mp3'
+pronunciation: 'air-un bert'
 role: DevOps
 location: Portland, Oregon
 quote: It’s amazing how often you can solve a problem by just listening.
