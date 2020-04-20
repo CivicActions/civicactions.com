@@ -6,7 +6,7 @@ name: Harshal Patel
 personal_pronouns: ''
 image: 'images/harshal-patel.jpg'
 audio: 'audio/harshal-patel.mp3'
-pronunciation: 'hur-shul pa-tale'
+pronunciation: 'har-shul pa-tale'
 role: DevOps
 location: Jersey City, New Jersey
 quote: The only constant in technology is change. We must improve not only the evolving technologies but also our skills and abilities to remain effective.
