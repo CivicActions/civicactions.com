@@ -30,7 +30,7 @@ Linux,
 ### Things Pete has been doing
 * Helping the [State of California](https://github.com/ca-mmis) modernize its healthcare payment system
 * Applying [SRE principles](https://medium.com/@jdavidmitchell/principles-of-site-reliability-engineering-at-google-8382b054e498) to keep internal applications at Google running like clockwork
-* Using open source tech to power the [exploration of science and biodiversity](https://www.calacademy.org/about-us)
+* Using open source tech to power the exploration of [science and biodiversity](https://www.calacademy.org/about-us)
 * Supporting [local government services](https://sf.gov/) through improved tech processes
 * Automating and improving systems for diverse industries from [airline travel](https://www.webbyawards.com/winners/2016/websites/website-features-and-design/best-user-experience/virgin-america/?/) to [robotic assisted surgery](https://www.intuitive.com/en-us)
 * Mentoring colleagues in his [favorite programming language](https://www.python.org/)
