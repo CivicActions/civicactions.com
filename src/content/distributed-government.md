@@ -18,12 +18,6 @@ Questions and open discussion are encouraged.
 
 Choose a session and register (free). You can also attend more than one - discussions will vary to meet specific audience needs.
  
-* Thursday, April 23 @ 1pm PT / 4pm ET  
-*With focus on: Running effective and secure distributed meetings*  
-[Register now](https://civicactions.zoom.us/meeting/register/tZIscOqgqjgpOL0by_-0tkkr_iVB9bMhUA)
-* Tuesday, April 28 @ 10am PT / 1pm ET  
-*With focus on: Coordinating work with others*  
-[Register now](https://civicactions.zoom.us/meeting/register/u5Epfu6gqzwrwOP_tVHyTeYLXq5yuZnJHA)
 * Thursday, April 30 @ 1pm PT / 4pm ET  
 *With focus on: Dealing with isolation, trust, and team cohesion*  
 [Register now](https://civicactions.zoom.us/meeting/register/uZ0vf-yrrT8jmidw_oDEjo0POzgKf0w45w)
