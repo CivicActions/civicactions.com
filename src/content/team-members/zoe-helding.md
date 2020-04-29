@@ -26,7 +26,7 @@ social:
 specialties: [ "Full-Stack Development",
 Cloud Architecture,
 Finding the Root Cause,
-Games (video, board, tabletop)
+Games (video/board/tabletop)
 ]
   
 ---
