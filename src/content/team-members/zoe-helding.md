@@ -32,13 +32,13 @@ Games (video/board/tabletop)
 ---
 
 ### Things Zoe has been doing
-* Keeping code clean and data accessible for a team of [civic-minded technologists](https://civicactions.com/)
-* Developing tools to [measure and increase the impact](https://analystinstitute.org/) of progressive programs
+* Keeping code clean, systems healthy, and data accessible for a team of [civic-minded technologists](https://civicactions.com/)
+* Developing tools to [measure the impact](https://analystinstitute.org/) of progressive programs
 * Improving and codifying infrastructure to empower [data-driven healthcare](https://www.graymatteranalytics.com/about-us/)
-* Building an app to help Colorado charter schools boost student attendance and parental involvement
-* [Digging into the data](https://270strategies.com/our-work/) to help organizations strengthen their messages and missions
-* Writing an [award-winning thesis](https://www.academia.edu/26929124/Repeat_Challengers_Revisited_Estimating_the_Effect_of_Campaign_Spending_on_U.S._House_Election_Results) on campaign spending and congressional elections
-* Employing an [analog ritual](https://bulletjournal.com/) and multicolor pens to stay centered and organized in the day-to-day
+* Building an app to help Colorado charter schools boost student attendance
+* [Digging into data](https://270strategies.com/our-work/) to help organizations strengthen their messages and missions
+* Writing an [award-winning thesis](https://www.academia.edu/26929124/Repeat_Challengers_Revisited_Estimating_the_Effect_of_Campaign_Spending_on_U.S._House_Election_Results) on the effects of campaign spending on congressional elections
+* Employing an [analog ritual](https://bulletjournal.com/) and multicolor pens to stay grounded in the day-to-day
 
 ### Fun facts about Zoe
 * Loves documentation, style guides, and clean code
