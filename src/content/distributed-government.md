@@ -2,7 +2,7 @@
 path: /distributed-government
 type: page
 title: "Effective Distributed Teams in Government"
-subtitle: "The ability to work effectively together while physically apart is vital to delivering government services in the digital age.  We provide training and resources to help agency teams 
+subtitle: "The ability to work effectively together while physically apart is vital to delivering government services in the digital age.  We provide training and resources to help agency teams establish policies and best practices for remote / telework."
 ---
 ### Background
 The shift to remote or "telework" in response to COVID-19 has accelerated the understanding that we are at a point in the organizational and civic evolutionary cycle where a distributed team model will play a critical role in building highly-effective public service teams.
@@ -15,10 +15,11 @@ Distributed Teams Training provides government leaders and teams with strategies
 
 #### How does it work?
 * Discovery to get aligned on your agency's needs and expected outcomes
-* Preparation to get your teams ready with the right equipment for virtual training
+* Preparation to get your teams ready for virtual training
 * Three interactive, virtual classroom sessions
 * Workbook to support learning and for future reference
 * Options for 1:1 personalized coaching
+* Options for telework policy development / improvement
 
 #### Curriculum
 * Setting up and getting started with remote work
