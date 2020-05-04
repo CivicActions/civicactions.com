@@ -1,45 +1,50 @@
 ---
 path: /distributed-government
 type: page
-title: "Free Sessions: Effective Distributed Teams in Government"
-subtitle: "Improve trust and productivity in remote government teams"
+title: "Effective Distributed Teams in Government"
+subtitle: "The ability to work effectively together while physically apart is vital to delivering government services in the digital age.  We provide training and resources to help agency teams establish policies and best practices for remote / telework."
 ---
-### Work remotely and build resiliency
-Many agencies have shifted to remote or "telework" in response to COVID-19. This is a pivotal time for government to build resiliency and reap long-term benefits by discovering how teams can work effectively together without needing to be in the office. Learn how to build trust and productivity through telework best practices.
+### Background
+The shift to remote or "telework" in response to COVID-19 has accelerated the understanding that we are at a point in the organizational and civic evolutionary cycle where a distributed team model will play a critical role in building highly-effective public service teams.
 
-[Register now](#register)
+As civic leaders seek to wisely address the issues of our times — disasters, pandemics, climate change, health and wellness, economic empowerment — distributed teams become the obvious solution for delivering responsive and resilient government services.
 
-### Free sessions + open Q&A
-Based on CivicActions' 15+ years of working as a fully distributed team and the insights of remote-work mentor and expert John O’Duinn, we're offering a series of **FREE** sessions to provide practical information on improving processes and culture for anyone working for or in government.
+### Personalized training for your team
 
-Questions and open discussion are encouraged.
+Distributed Teams Training provides government leaders and teams with strategies, tools, and best practices for working effectively in a distributed (remote/telework) model.  The offering is customizable to your agency and will help you improve team performance, streamline communications, save on operational costs, and boost workforce diversity and retention.
 
-#### Register
+#### How does it work?
+* Discovery to get aligned on your agency's needs and expected outcomes
+* Preparation to get your teams ready for virtual training
+* Three interactive, virtual classroom sessions
+* Workbook to support learning and for future reference
+* Options for 1:1 personalized coaching
+* Options for telework policy development / improvement
 
-Choose a session and register (free). You can also attend more than one - discussions will vary to meet specific audience needs.
- 
-* Thursday, April 30 @ 1pm PT / 4pm ET  
-*With focus on: Dealing with isolation, trust, and team cohesion*  
-[Register now](https://civicactions.zoom.us/meeting/register/uZ0vf-yrrT8jmidw_oDEjo0POzgKf0w45w)
+#### Curriculum
+* Setting up and getting started with remote work
+* Communications and collaboration
+* Security and operations
+* Team cohesion, trust, and accountability
+* Growing and sustaining distributed teams
+* Improving team performance and resilience
 
-#### Presenter
+To learn more or request training, contact [john.oduinn@civicactions.com](mailto:john.oduinn@civicactions.com)
+
+
+#### Instructor
 
 [John O’Duinn](https://civicactions.com/team/john-o-duinn) is the author of "[Distributed Teams](https://www.amzn.com/1732254907): The Art and Practice of Working Together While Physically Apart". He is a senior technologist, entrepreneur, and frequent international speaker on the benefits and strategies for remote work.
 
 John served in the U.S. Digital Service in the Obama White House and has provided workshops and mentorship to distributed teams around the world. He co-created the State of Vermont policy encouraging remote work to promote economic growth, and is now supporting the development of similar policies for multiple jurisdictions worldwide. Learn more about John’s work at his [website](http://oduinn.com/) and on [LinkedIn](https://www.linkedin.com/in/joduinn).
 
 
-### Community
+### Resources
+ 
+**Community Support**  
+Connect with government peers who are adopting telework practices and get support from remote / distributed teams experts.  
+[Join the community](https://distributedgov.herokuapp.com/)
 
-Stay in touch and get ongoing support from government peers who are adapting to current challenges by working remotely.
-
-* [Slack](https://distributedgov.herokuapp.com/)
-* [Twitter](https://twitter.com/DistributedGov)
-
-
-### Feedback
-
-Did you attend a session? Do you have more questions? How can we help? Your feedback will help us deliver more valuable information to government teams in this time of uncertainty. 
-
-* [Post-webinar survey](https://www.surveymonkey.com/r/distributedgov)
-* [Contact us](https://civicactions.com/contact)
+**Guide to Distributed Government**  
+A free resource on how to establish and run effective distributed teams in government, and why it's important.  
+[Read the Guide](https://guide.distributedgov.org/en/latest/)
