@@ -4,7 +4,7 @@ type: page
 title: "Effective Distributed Teams in Government"
 subtitle: "We provide training and resources to help agency teams establish policies and best practices for remote / telework."
 ---
-### Distributed teams for resilient government
+### Building a resilient government
 The shift to remote or "telework" in response to COVID-19 has accelerated the understanding that we are at a point in the organizational and civic evolutionary cycle where a distributed team model will play a critical role in building highly-effective public service teams.
 
 As civic leaders seek to address the issues of our times — disasters, pandemics, climate change, health and wellness, economic empowerment — distributed teams become the obvious solution for delivering responsive and resilient government services.
@@ -30,14 +30,15 @@ Distributed Teams Training provides government leaders and teams with strategies
 * Growing and sustaining distributed teams
 * Improving team performance and resilience
 
-#### Request training
-To learn more or request training, contact [john.oduinn@civicactions.com](mailto:john.oduinn@civicactions.com)
-
 #### Instructor
 
 [John O’Duinn](https://civicactions.com/team/john-o-duinn) is the author of "[Distributed Teams](https://www.amzn.com/1732254907): The Art and Practice of Working Together While Physically Apart". He is a senior technologist, entrepreneur, and frequent international speaker on the benefits and strategies for remote work.
 
 John served in the U.S. Digital Service in the Obama White House and has provided workshops and mentorship to distributed teams around the world. He co-created the State of Vermont policy encouraging remote work to promote economic growth, and is now supporting the development of similar policies for multiple jurisdictions worldwide. Learn more about John’s work at his [website](http://oduinn.com/) and on [LinkedIn](https://www.linkedin.com/in/joduinn).
+
+
+### Request training
+To learn more or request training, contact [john.oduinn@civicactions.com](mailto:john.oduinn@civicactions.com)
 
 
 ### Resources
