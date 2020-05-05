@@ -2,12 +2,13 @@
 path: /distributed-government
 type: page
 title: "Effective Distributed Teams in Government"
-subtitle: "The ability to work effectively together while physically apart is vital to delivering government services in the digital age.  We provide training and resources to help agency teams establish policies and best practices for remote / telework."
+subtitle: "We provide training and resources to help agency teams establish policies and best practices for remote / telework."
 ---
-### Background
+### Distributed teams for resilient government
 The shift to remote or "telework" in response to COVID-19 has accelerated the understanding that we are at a point in the organizational and civic evolutionary cycle where a distributed team model will play a critical role in building highly-effective public service teams.
 
-As civic leaders seek to wisely address the issues of our times — disasters, pandemics, climate change, health and wellness, economic empowerment — distributed teams become the obvious solution for delivering responsive and resilient government services.
+As civic leaders seek to address the issues of our times — disasters, pandemics, climate change, health and wellness, economic empowerment — distributed teams become the obvious solution for delivering responsive and resilient government services.
+
 
 ### Personalized training for your team
 
@@ -29,8 +30,8 @@ Distributed Teams Training provides government leaders and teams with strategies
 * Growing and sustaining distributed teams
 * Improving team performance and resilience
 
+#### Request training
 To learn more or request training, contact [john.oduinn@civicactions.com](mailto:john.oduinn@civicactions.com)
-
 
 #### Instructor
 
@@ -41,10 +42,10 @@ John served in the U.S. Digital Service in the Obama White House and has provide
 
 ### Resources
  
+ **Guide to Distributed Government**  
+A free resource on how to establish and run effective distributed teams in government, and why it's important.  
+[Read the Guide](https://guide.distributedgov.org/en/latest/)
+ 
 **Community Support**  
 Connect with government peers who are adopting telework practices and get support from remote / distributed teams experts.  
 [Join the community](https://distributedgov.herokuapp.com/)
-
-**Guide to Distributed Government**  
-A free resource on how to establish and run effective distributed teams in government, and why it's important.  
-[Read the Guide](https://guide.distributedgov.org/en/latest/)
