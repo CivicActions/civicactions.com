@@ -43,7 +43,7 @@ John served in the U.S. Digital Service in the Obama White House and has provide
 
 
 ### Request training
-To learn more or request training, contact [john.oduinn@civicactions.com](mailto:john.oduinn@civicactions.com)
+To learn more or request training, contact us at [distributedgov@civicactions.com](mailto:distributedgov@civicactions.com)
 
 
 ### Resources
