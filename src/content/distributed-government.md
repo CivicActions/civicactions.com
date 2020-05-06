@@ -14,6 +14,9 @@ As civic leaders seek to address the issues of our times — disasters, pandemic
 
 Distributed Teams Training provides government leaders and teams with strategies, tools, and best practices for working effectively in a distributed (remote/telework) model.  The offering is customizable to your agency and will help you improve team performance, streamline communications, save on operational costs, and boost workforce diversity and retention.
 
+[**Request training**](#Request training)
+
+
 #### How does it work?
 * Discovery to get aligned on your agency's needs and expected outcomes
 * Preparation to get your teams ready for virtual training
