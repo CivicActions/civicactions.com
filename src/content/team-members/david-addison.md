@@ -6,14 +6,14 @@ name: David Addison
 personal_pronouns: 'he/him'
 image: 'images/david-addison.jpg'
 role: Project Management
-location: Ormond Beach , Florida
+location: Ormond Beach, Florida
 quote: What is meant to be will be -- life works itself out.
 social: 
 - {
   name: LinkedIn,
   url: http://linkedin.com/in/david-addison-ob/
   }
-specialties: [ "Lean/Agile",
+specialties: ["Lean/Agile",
 Servant Leadership,
 Running & Road Racing,
 Not Giving Up
