@@ -40,8 +40,8 @@ const Hero = ({
   }
 
   function getPronoun(personal_pronouns, pronunciation, audioFile) {
-    if (personal_pronouns && pronunciation && audioFile) {
-      const mp3 = audioFile ? (
+    if (audioFile) {
+      var mp3 = audioFile ? (
         <div class="audio-wrapper">
           <audio
             src={audioFile["publicURL"]}
@@ -75,11 +75,22 @@ const Hero = ({
           </div>
         </div>
       ) : null
+    }
 
+    if (personal_pronouns && pronunciation && audioFile) {
       return (
         <div className="hero__personal_pronouns">
           <span class="text">
             {personal_pronouns}, [{pronunciation}]
+          </span>{" "}
+          {mp3}
+        </div>
+      )
+    } else if (pronunciation && audioFile) {
+      return (
+        <div className="hero__personal_pronouns">
+          <span class="text">
+            [{pronunciation}]
           </span>{" "}
           {mp3}
         </div>
