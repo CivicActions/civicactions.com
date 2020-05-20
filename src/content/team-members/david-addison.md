@@ -7,7 +7,7 @@ personal_pronouns: 'he/him'
 audio: 'audio/david-addison.mp3'
 image: 'images/david-addison.jpg'
 role: Project Management
-location: Ormond Beach , Florida
+location: Ormond Beach, Florida
 quote: What is meant to be will be -- life works itself out.
 social: 
 - {
