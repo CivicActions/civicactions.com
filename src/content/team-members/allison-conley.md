@@ -8,7 +8,7 @@ audio: 'audio/allison-conley.mp3'
 pronunciation: 'al-i-son con-lee'
 image: 'images/allison-conley.jpg'
 role: Legal & Compliance
-location: West Hartford , Connecticut
+location: West Hartford, Connecticut
 quote: I’m kind of famous for my chocolate chip cookies.
 social: 
   - {
