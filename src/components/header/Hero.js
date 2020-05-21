@@ -89,10 +89,7 @@ const Hero = ({
     } else if (pronunciation && audioFile) {
       return (
         <div className="hero__personal_pronouns">
-          <span class="text">
-            [{pronunciation}]
-          </span>{" "}
-          {mp3}
+          <span class="text">[{pronunciation}]</span> {mp3}
         </div>
       )
     } else if (personal_pronouns && pronunciation) {
