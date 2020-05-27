@@ -4,7 +4,8 @@ type: team
 published: 1
 name: David Addison
 personal_pronouns: 'he/him'
-audio: 'audio/david-addison.mp3' 
+audio: 'audio/david-addison.mp3'
+pronunciation: 'da-vid a-di-son'
 image: 'images/david-addison.jpg'
 role: Project Management
 location: Ormond Beach, Florida
