@@ -12,7 +12,7 @@ As civic leaders seek to address the issues of our times — disasters, pandemic
 
 ### Personalized training for your team
 
-Distributed Teams Training provides government leaders and teams with strategies, tools, and best practices for working effectively in a distributed (remote/telework) model.  The offering is customizable to your agency and will help you improve team performance, streamline communications, save on operational costs, and boost workforce diversity and retention.  
+Distributed Teams Training provides government leaders and teams with strategies, tools, and best practices for working effectively in a distributed (remote/telework) model.  The offerings are customizable to your agency and will help you improve team performance, streamline communications, save on operational costs, and boost workforce diversity and retention.  
 
 
 [**Request training now**](#request-training)  
@@ -22,15 +22,18 @@ Distributed Teams Training provides government leaders and teams with strategies
 #### How does it work?
 * Discovery to get aligned on your agency's needs and expected outcomes
 * Preparation to get your teams ready for virtual training
-* Three interactive, virtual classroom sessions
-* Workbook to support learning and for future reference
+* Interactive, virtual classroom sessions
+* Hands-on approach to practice what you've learned
 * Options for 1:1 personalized coaching
 * Options for telework policy development / improvement
 
-#### Curriculum
+#### Curriculum options
 * Setting up and getting started with remote work
 * Communications and collaboration
 * Security and operations
+* Remote project management
+* Running secure and effective online meetings
+* Recruiting and hiring while teleworking
 * Team cohesion, trust, and accountability
 * Growing and sustaining distributed teams
 * Improving team performance and resilience
@@ -50,7 +53,7 @@ To learn more or request training, contact us at [distributedgov@civicactions.co
  
  **Guide to Distributed Government**  
 A free resource on how to establish and run effective distributed teams in government, and why it's important.  
-[Read the Guide](https://guide.distributedgov.org/en/latest/)
+[Read the Guide](https://distributedgov.com/guide/)
  
 **Community Support**  
 Connect with government peers who are adopting telework practices and get support from remote / distributed teams experts.  
