@@ -3,6 +3,8 @@ path: /team/dustin-boeger
 type: team
 published: 1
 name: Dustin Boeger
+audio: 'audio/dustin-boeger.mp3'
+pronunciation: 'dus-tin boe-ger'
 image: 'images/dustin-boeger.jpg'
 role: Engineering
 location: Davis, California

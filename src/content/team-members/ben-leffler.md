@@ -3,6 +3,9 @@ path: /team/ben-leffler
 type: team
 published: 1
 name: Ben Leffler
+personal_pronouns: 'he/him'
+audio: 'audio/ben-leffler.mp3'
+pronunciation: 'ben lef-ler'
 image: 'images/ben-leffler.jpg'
 role: User Experience
 location: Austin, Texas

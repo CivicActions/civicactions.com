@@ -3,6 +3,8 @@ path: /team/kat-bevington
 type: team
 published: 1
 name: Kat Bevington
+audio: 'audio/kat-bevington.mp3'
+pronunciation: 'kat bev-ing-ton'
 image: 'images/kat-bevington.jpg'
 role: User Experience
 location: Boulder, Colorado

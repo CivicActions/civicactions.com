@@ -3,6 +3,8 @@ path: /team/jay-darnell
 type: team
 published: 1
 name: Jay Darnell
+audio: 'audio/jay-darnell.mp3'
+pronunciation: 'jay dar-nell'
 image: 'images/jay-darnell.jpg'
 role: Engineering
 location: Guelph, Ontario

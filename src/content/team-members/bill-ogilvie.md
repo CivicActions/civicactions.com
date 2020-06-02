@@ -3,6 +3,8 @@ path: /team/bill-ogilvie
 type: team
 published: 1
 name: Bill Ogilvie
+audio: 'audio/bill-ogilvie.mp3'
+pronunciation: 'bill oh-gull-vee'
 image: 'images/bill-ogilvie.jpg'
 manager: 1
 role: Business Development

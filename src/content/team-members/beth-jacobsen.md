@@ -3,6 +3,8 @@ path: /team/beth-jacobsen
 type: team
 published: 1
 name: Beth Jacobsen
+audio: 'audio/beth-jacobsen.mp3'
+pronunciation: 'beth jay-cob-sen'
 image: 'images/beth-jacobsen.jpg'
 role: Engineering
 location: New York, New York

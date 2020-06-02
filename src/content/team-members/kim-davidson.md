@@ -4,6 +4,8 @@ type: team
 published: 1
 name: Kim Davidson
 personal_pronouns: she/her
+audio: 'audio/kim-davidson.mp3'
+pronunciation: 'kim day-vid-son'
 image: 'images/kim-davidson.jpg'
 role: Open Data
 location: Brooklyn, New York

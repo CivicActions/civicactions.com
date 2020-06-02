@@ -3,6 +3,8 @@ path: /team/dan-gurin
 type: team
 published: 1
 name: Dan Gurin
+audio: 'audio/dan-gurin.mp3'
+pronunciation: 'dan gur-in'
 image: 'images/dan-gurin.jpg'
 role: Engineering
 location: Asheville, North Carolina

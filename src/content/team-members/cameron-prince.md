@@ -3,6 +3,8 @@ path: /team/cameron-prince
 type: team
 published: 1
 name: Cameron Prince
+audio: 'audio/cameron-prince.mp3'
+pronunciation: 'cam-run prince'
 image: 'images/cameron-prince.jpg'
 role: Engineering
 location: Huntsville, Alabama

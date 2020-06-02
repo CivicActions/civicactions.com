@@ -3,6 +3,8 @@ path: /team/kaise-lafrai
 type: team
 published: 1
 name: Kaise Lafrai
+audio: 'audio/kaise-lafrai.mp3'
+pronunciation: 'kice luh-fray'
 image: 'images/kaise-lafrai.jpg'
 role: Engineering
 location: Bristow, Virginia

@@ -4,6 +4,8 @@ type: team
 published: 1
 name: Kevin Walsh
 personal_pronouns: he/him
+audio: 'audio/kevin-walsh.mp3'
+pronunciation: 'kev-in walsh'
 image: 'images/kev-walsh.jpg'
 role: User Experience
 location: The Blue Mountains, Ontario

@@ -3,6 +3,8 @@ path: /team/ethan-teague
 type: team
 published: 1
 name: Ethan Teague
+audio: 'audio/ethan-teague.mp3'
+pronunciation: 'ee-than teeg'
 image: 'images/ethan-teague.jpg'
 role: Engineering
 location: Sarasota, Florida

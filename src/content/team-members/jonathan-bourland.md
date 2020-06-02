@@ -3,6 +3,8 @@ path: /team/jonathan-bourland
 type: team
 published: 1
 name: Jonathan Bourland
+audio: 'audio/jonathan-bourland.mp3'
+pronunciation: 'jon-uh-thin bore-land'
 image: 'images/jonathan-bourland.jpg'
 role: Engineering
 location: Ferndale, MI

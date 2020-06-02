@@ -3,6 +3,8 @@ path: /team/kristian-ducharme
 type: team
 published: 1
 name: Kristian Ducharme
+audio: 'audio/kristian-ducharme.mp3'
+pronunciation: 'kris-chin due-sharm'
 image: 'images/kristian-ducharme.jpg'
 role: Engineering
 location: Paso Robles, California

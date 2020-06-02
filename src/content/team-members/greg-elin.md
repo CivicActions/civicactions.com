@@ -3,6 +3,8 @@ path: /team/greg-elin
 type: team
 published: 1
 name: Greg Elin
+audio: 'audio/greg-elin.mp3'
+pronunciation: 'greg el-in'
 image: 'images/greg-elin.jpg'
 role: Security & Compliance
 location: Washington D.C. Metro Area

@@ -3,6 +3,8 @@ path: /team/david-numan
 type: team
 published: 1
 name: David Numan
+audio: 'audio/david-numan.mp3'
+pronunciation: 'day-vid noo-man'
 image: 'images/david-numan.jpg'
 role: DevOps
 location: Hamilton, Ontario, Canada

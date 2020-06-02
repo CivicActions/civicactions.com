@@ -4,6 +4,8 @@ type: team
 published: 1
 name: Karen Johnson
 personal_pronouns: she/her
+audio: 'audio/karen-johnson.mp3'
+pronunciation: 'kair-in john-son'
 image: 'images/karen-johnson.jpg'
 role: DevOps
 location: Media, Pennsylvania

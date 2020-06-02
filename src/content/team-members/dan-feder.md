@@ -3,6 +3,8 @@ path: /team/dan-feder
 type: team
 published: 1
 name: Dan Feder
+audio: 'audio/dan-feder.mp3'
+pronunciation: 'dan fay-der'
 image: 'images/dan-feder.jpg'
 role: Open Data
 location: Philadelphia, Pennsylvania

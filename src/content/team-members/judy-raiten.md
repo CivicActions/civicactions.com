@@ -3,6 +3,8 @@ path: /team/judy-raiten
 type: team
 published: 1
 name: Judy Raiten
+audio: 'audio/judy-raiten.mp3'
+pronunciation: 'joo-dee ray-tin'
 image: 'images/judy-raiten.jpg'
 role: In Memoriam
 quote: Feed the light.

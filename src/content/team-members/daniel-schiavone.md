@@ -3,6 +3,8 @@ path: /team/daniel-schiavone
 type: team
 published: 1
 name: Daniel Schiavone
+audio: 'audio/daniel-schiavone.mp3'
+pronunciation: 'dan-yul skya-vo-nay'
 image: 'images/daniel-schiavone.jpg'
 role: Engineering
 location: Baltimore, Maryland

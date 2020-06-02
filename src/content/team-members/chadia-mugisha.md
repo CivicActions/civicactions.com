@@ -4,6 +4,8 @@ type: team
 published: 1
 name: Chadia Mugisha
 personal_pronouns: she/her
+audio: 'audio/chadia-mugisha.mp3'
+pronunciation: 'shah-dee-a moo-gee-shuh'
 image: 'images/chadia-mugisha.jpg'
 role: Project Management
 location: Boise, ID

@@ -3,6 +3,8 @@ path: /team/john-erhardt
 type: team
 published: 1
 name: John Erhardt
+audio: 'audio/john-erhardt.mp3'
+pronunciation: 'john air-heart'
 image: 'images/john-erhardt.jpg'
 role: Engineering
 location: Denver, Colorado

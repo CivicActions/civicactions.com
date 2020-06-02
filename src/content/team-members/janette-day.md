@@ -3,6 +3,8 @@ path: /team/janette-day
 type: team
 published: 1
 name: Janette Day
+audio: 'audio/janette-day.mp3'
+pronunciation: 'juh-net day'
 image: 'images/janette-day.jpg'
 role: Open Data
 location: Cottage Grove, Wisconsin

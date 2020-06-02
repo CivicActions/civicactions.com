@@ -3,6 +3,8 @@ path: /team/jeff-garrett
 type: team
 published: 1
 name: Jeff Garrett
+audio: 'audio/jeff-garrett.mp3'
+pronunciation: 'jeff gair-et'
 image: 'images/jeff-garrett.jpg'
 role: DevOps
 location: Placerville, California

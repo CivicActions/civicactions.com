@@ -3,6 +3,8 @@ path: /team/luke-fretwell
 type: team
 published: 1
 name: Luke Fretwell
+audio: 'audio/luke-fretwell.mp3'
+pronunciation: 'luke fret-well'
 image: 'images/luke-fretwell.jpg'
 role: Business Development
 location: Bay Area, California
