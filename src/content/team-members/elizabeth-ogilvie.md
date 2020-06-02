@@ -15,7 +15,7 @@ social:
   name: LinkedIn,
   url: https://www.linkedin.com/in/elizabeth-o-597b50113/
   }
-specialties: [ "Hiring,
+specialties: [ "Hiring",
 Process Management,
 Meditation,
 Bringing Out Potential
