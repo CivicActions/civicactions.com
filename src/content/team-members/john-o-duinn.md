@@ -3,7 +3,7 @@ path: /team/john-o-duinn
 type: team
 published: 1
 name: John O'Duinn
-audio: 'audio/john-o-duinn.mp3'
+audio: 'audio/john-oduinn.mp3'
 pronunciation: 'john oh-din'
 image: 'images/john-oduinn.jpg'
 role: DevOps
