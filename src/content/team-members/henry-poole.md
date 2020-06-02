@@ -3,6 +3,8 @@ path: /team/henry-poole
 type: team
 published: 1
 name: Henry Poole
+audio: 'audio/henry-poole.mp3'
+pronunciation: 'hen-ree pool'
 image: 'images/henry-poole.jpg'
 manager: 1
 role: Management & Operations
