@@ -4,6 +4,8 @@ type: team
 published: 1
 name: Julie Kramer
 personal_pronouns: she/her
+audio: 'audio/julie-kramer.mp3'
+pronunciation: 'joo-lee kray-mer'
 image: 'images/julie-kramer.jpg'
 role: Engineering
 location: Miami, Florida
