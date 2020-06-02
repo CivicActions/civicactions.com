@@ -4,6 +4,8 @@ type: team
 published: 1
 name: Jen Harris
 personal_pronouns: she/her
+audio: 'audio/jen-harris.mp3'
+pronunciation: 'jen hair-is'
 image: 'images/jen-harris.jpg'
 role: User Experience
 location: Los Angeles, California
