@@ -3,6 +3,8 @@ path: /team/fen-labalme
 type: team
 published: 1
 name: Fen Labalme
+audio: 'audio/fen-labalme.mp3'
+pronunciation: 'fen luh-balm'
 image: 'images/fen-labalme.jpg'
 role: Security & Compliance
 location: Pittsburgh, Pennsylvania
