@@ -3,6 +3,8 @@ path: /team/jim-bader
 type: team
 published: 1
 name: Jim Bader
+audio: 'audio/jim-bader.mp3'
+pronunciation: 'jim bay-der'
 image: 'images/jim-bader.jpg'
 role: DevOps
 location: Sacramento, California
