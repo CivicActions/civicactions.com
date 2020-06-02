@@ -5,7 +5,7 @@ published: 1
 name: May Lyn Medina
 first_name: May Lyn
 last_name: Medina
-audio: 'audio/may-lyn-medina.mp3'
+audio: 'audio/maylyn-medina.mp3'
 pronunciation: 'may-lin muh-deen-uh'
 image: 'images/may-lyn-medina.jpg'
 role: Administrative Support
