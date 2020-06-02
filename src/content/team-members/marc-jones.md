@@ -4,6 +4,8 @@ type: team
 published: 1
 name: Marc Jones
 personal_pronouns: he/him
+audio: 'audio/marc-jones.mp3'
+pronunciation: 'marc jones'
 image: 'images/marc-jones.jpg'
 role: Legal & Compliance 
 location: Bloomfield, Connecticut
