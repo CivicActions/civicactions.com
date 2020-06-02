@@ -3,6 +3,8 @@ path: /team/dj-green
 type: team
 published: 1
 name: DJ Green
+audio: 'audio/dj-green.mp3'
+pronunciation: 'dee-jay green'
 image: 'images/dj-green.jpg'
 role: User Experience
 location: San Antonio, Texas
