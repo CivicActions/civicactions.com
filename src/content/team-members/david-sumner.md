@@ -3,6 +3,8 @@ path: /team/david-sumner
 type: team
 published: 1
 name: David Sumner
+audio: 'audio/david-sumner.mp3'
+pronunciation: 'day-vid sum-ner'
 image: 'images/david-sumner.jpg'
 role: DevOps
 location: Houston, TX
