@@ -4,6 +4,8 @@ type: team
 published: 1
 name: Elizabeth Raley
 personal_pronouns: she/her
+audio: 'audio/elizabeth-raley.mp3'
+pronunciation: 'e-liz-a-beth ray-lee'
 image: 'images/elizabeth-raley.jpg'
 manager: 1
 role: Management & Operations
