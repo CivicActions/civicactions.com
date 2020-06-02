@@ -3,6 +3,8 @@ path: /team/dan-mayol
 type: team
 published: 1
 name: Dan Mayol
+audio: 'audio/dan-mayol.mp3'
+pronunciation: 'dan may-ol'
 image: 'images/dan-mayol.jpg'
 role: DevOps
 location: Etowah, North Carolina
