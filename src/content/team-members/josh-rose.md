@@ -3,6 +3,8 @@ path: /team/josh-rose
 type: team
 published: 1
 name: Josh Rose
+audio: 'audio/josh-rose.mp3'
+pronunciation: 'josh roze'
 image: 'images/josh-rose.jpg'
 role: Engineering
 location: Springfield, Oregon
