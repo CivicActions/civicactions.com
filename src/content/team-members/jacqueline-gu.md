@@ -4,6 +4,8 @@ type: team
 published: 1
 name: Jacqueline Gu
 personal_pronouns: she/her
+audio: 'audio/jacqueline-gu.mp3'
+pronunciation: 'jack-uh-lin goo'
 image: 'images/jacqueline-gu.jpg'
 role: User Experience
 location: Chicago, Illinois
