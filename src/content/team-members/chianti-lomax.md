@@ -4,6 +4,8 @@ type: team
 published: 1
 name: Chianti Lomax
 personal_pronouns: she/her
+audio: 'audio/chianti-lomax.mp3'
+pronunciation: 'kee-ahn-tee low-max'
 image: 'images/chianti-lomax.jpg'
 role: Education Services
 location: Bowie, Maryland
