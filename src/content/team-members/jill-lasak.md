@@ -4,6 +4,8 @@ type: team
 published: 1
 name: Jill Lasak
 personal_pronouns: 'she/her'
+audio: 'audio/jill-lasak.mp3'
+pronunciation: 'jill lay-sack'
 image: 'images/jill-lasak.jpg'
 role: Engineering
 location: Los Angeles, California
