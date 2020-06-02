@@ -3,6 +3,8 @@ path: /team/di-hussey
 type: team
 published: 1
 name: Di Hussey
+audio: 'audio/di-hussey.mp3'
+pronunciation: 'dai hue-see'
 image: 'images/di-hussey.jpg'
 role: Business Development
 location: Sacramento, California
