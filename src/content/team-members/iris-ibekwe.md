@@ -3,6 +3,8 @@ path: /team/iris-ibekwe
 type: team
 published: 1
 name: Iris Ibekwe
+audio: 'audio/iris-ibekwe.mp3'
+pronunciation: 'eye-ris ee-bay-kway'
 image: 'images/iris-ibekwe.jpg'
 role: Engineering
 location: Manassas, Virginia
