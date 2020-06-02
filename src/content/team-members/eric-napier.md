@@ -3,6 +3,8 @@ path: /team/eric-napier
 type: team
 published: 1
 name: Eric Napier
+audio: 'audio/eric-napier.mp3'
+pronunciation: 'air-ic nay-peer'
 image: 'images/eric-napier.jpg'
 role: Engineering
 location: Cape Elizabeth, Maine
