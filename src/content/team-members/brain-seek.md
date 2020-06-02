@@ -4,6 +4,8 @@ type: team
 published: 1
 name: Brian Seek
 personal_pronouns: he/him
+audio: 'audio/brian-seek.mp3'
+pronunciation: 'bri-an seek'
 image: 'images/brian-seek.jpg'
 role: Engineering
 location: Tempe, Arizona
