@@ -4,6 +4,8 @@ type: team
 published: 1
 name: Grace McKinney
 personal_pronouns: she/her
+audio: 'audio/grace-mckinney.mp3'
+pronunciation: 'grace mac-kinny'
 image: 'images/grace-mckinney.jpg'
 role: Hiring
 location: Washington, DC
