@@ -3,6 +3,8 @@ path: /team/gerardo-gonzalez
 type: team
 published: 1
 name: Gerardo Gonzalez
+audio: 'audio/gerardo-gonzalez.mp3'
+pronunciation: 'hee-rar-doe gun-zole-ez'
 image: 'images/gerardo-gonzalez.jpg'
 role: Open Data
 location: Oklahoma City, Oklahoma
