@@ -3,6 +3,8 @@ path: /team/jason-heaster
 type: team
 published: 1
 name: Jason Heaster
+audio: 'audio/jason-heaster.mp3'
+pronunciation: 'jay-son hees-ter'
 image: 'images/jason-heaster.jpg'
 role: Project Management
 location: Amherst, Massachusetts
