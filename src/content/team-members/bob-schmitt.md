@@ -3,6 +3,8 @@ path: /team/bob-schmitt
 type: team
 published: 1
 name: Bob Schmitt
+audio: 'audio/bob-schmitt.mp3'
+pronunciation: 'bob shmit'
 image: 'images/bob-schmitt.jpg'
 role: Engineering
 location: Helena, Montana
