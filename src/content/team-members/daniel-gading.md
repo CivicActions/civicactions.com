@@ -3,6 +3,8 @@ path: /team/daniel-gading
 type: team
 published: 1
 name: Daniel Gading
+audio: 'audio/daniel-gading.mp3'
+pronunciation: 'dan-yul gaid-ing'
 image: 'images/daniel-gading.jpg'
 role: Open Data
 location: Silver Spring, Maryland
