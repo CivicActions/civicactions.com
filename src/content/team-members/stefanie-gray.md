@@ -4,6 +4,8 @@ type: team
 published: 1
 name: Stefanie Gray
 personal_pronouns: she/they
+audio: 'audio/stefanie-gray.mp3'
+pronunciation: 'stef-uh-nee gray'
 image: 'images/stefanie-gray.jpg'
 role: Help Desk Support
 location: Denver, Colorado
