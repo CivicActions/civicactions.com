@@ -4,6 +4,8 @@ type: team
 published: 1
 name: Owen Barton
 personal_pronouns: he/him
+audio: 'audio/owen-barton.mp3'
+pronunciation: 'o-win bar-tun'
 image: 'images/owen-barton.jpg'
 manager: 1
 role: Management & Operations
