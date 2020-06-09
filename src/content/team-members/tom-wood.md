@@ -3,6 +3,8 @@ path: /team/tom-wood
 type: team
 published: 1
 name: Tom Wood
+audio: 'audio/tom-wood.mp3'
+pronunciation: 'tom wood'
 image: 'images/tom-wood.jpg'
 role: DevOps
 location: Storrs, Connecticut
