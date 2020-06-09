@@ -4,6 +4,8 @@ type: team
 published: 1
 name: Shira Kates
 personal_pronouns: she/her
+audio: 'audio/shira-kates.mp3'
+pronunciation: 'sheer-uh kates'
 image: 'images/shira-kates.jpg'
 manager: 1
 role: Management & Operations

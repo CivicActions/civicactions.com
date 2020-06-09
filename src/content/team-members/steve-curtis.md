@@ -4,6 +4,8 @@ type: team
 published: 1
 name: Steve Curtis
 personal_pronouns: he/him
+audio: 'audio/steve-curtis.mp3'
+pronunciation: 'steve cur-tis'
 image: 'images/steve-curtis.jpg'
 role: Project Management
 location: Hamden, Connecticut 

@@ -1,8 +1,10 @@
 ---
 path: /team/tony-cooper
 type: team
-published: 1
+published: 1 
 name: Tony Cooper
+audio: 'audio/tony-cooper.mp3'
+pronunciation: 'toe-nee coo-per'
 image: 'images/tony-cooper.jpg'
 role: Board Member
 location: Sacramento, California

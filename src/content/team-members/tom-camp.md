@@ -3,6 +3,8 @@ path: /team/tom-camp
 type: team
 published: 1
 name: Tom Camp
+audio: 'audio/tom-camp.mp3'
+pronunciation: 'tom camp'
 image: 'images/tom-camp.jpg'
 role: Engineering
 location: Paonia, Colorado

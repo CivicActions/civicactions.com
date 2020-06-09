@@ -4,6 +4,8 @@ type: team
 published: 1
 name: Victor Udoewa
 personal_pronouns: he/him
+audio: 'audio/victor-udoewa.mp3'
+pronunciation: 'vick-ter u-doh-ay-wah'
 image: 'images/victor-udoewa.jpg'
 role: Strategy, Education, Design
 location: Washington, DC

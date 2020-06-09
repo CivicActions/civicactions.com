@@ -4,6 +4,8 @@ type: team
 published: 1
 name: Rachel Kroft
 personal_pronouns: she/her/they
+audio: 'audio/rachel-kroft.mp3'
+pronunciation: 'ray-chul kroft'
 image: 'images/rachel-kroft.jpg'
 role: User Experience
 location: San Francisco, California
