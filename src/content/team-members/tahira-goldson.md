@@ -29,7 +29,7 @@ Compassion
 ### Fun facts about Tahira
 * Founded a nonprofit to coach and mentor youth spoken word artists
 * Started a business to help seniors live independently and age in place
-* Made Internet waves by writing a poem examining black history in the context of her alma mater
+* Made Internet waves by writing a poem examining Black history in the context of her alma mater
 * Loves to get out in nature and on trails with her family … especially after it rains
 
 -----------------------------------
