@@ -3,6 +3,8 @@ path: /team/sam-lerner
 type: team
 published: 1
 name: Sam Lerner
+audio: 'audio/sam-lerner.mp3'
+pronunciation: 'sam ler-ner'
 image: 'images/sam-lerner.jpg'
 role: Engineering
 location: Honeoye Falls, New York
