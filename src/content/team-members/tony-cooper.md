@@ -1,7 +1,7 @@
 ---
 path: /team/tony-cooper
 type: team
-published: 1
+published: 1 
 name: Tony Cooper
 audio: 'audio/tony-cooper.mp3'
 pronunciation: 'toe-nee coo-per'
