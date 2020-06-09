@@ -4,6 +4,8 @@ type: team
 published: 1
 name: Steve Wirt
 personal_pronouns: he/him
+audio: 'audio/steve-wirt.mp3'
+pronunciation: 'steve wirt'
 image: 'images/steve-wirt.jpg'
 role: Engineering
 location: Nokomis, Florida
