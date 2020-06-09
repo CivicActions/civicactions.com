@@ -3,6 +3,8 @@ path: /team/nathan-durbin
 type: team
 published: 1
 name: Nathan Durbin
+audio: 'audio/nathan-durbin.mp3'
+pronunciation: 'nay-thin dur-bin'
 image: 'images/nathan-durbin.jpg'
 role: DevOps
 location: Oakland, California
