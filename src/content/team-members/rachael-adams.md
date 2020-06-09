@@ -3,6 +3,8 @@ path: /team/rachael-adams
 type: team
 published: 1
 name: Rachael Adams
+audio: 'audio/rachael-adams.mp3'
+pronunciation: 'ray-chul ad-ums'
 image: 'images/rachael-adams-1.jpg'
 role: Office Manager
 location: Sawyer, Michigan <> Chicago, Illinois
