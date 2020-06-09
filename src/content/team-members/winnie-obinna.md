@@ -4,6 +4,8 @@ type: team
 published: 1
 name: Winnie Obinna
 personal_pronouns: 'she/her'
+audio: 'audio/winnie-obinna.mp3'
+pronunciation: 'win-nee o-binn-uh'
 image: 'images/winnie-obinna.jpg'
 role: Project Management
 location: Dallas / Ft. Worth, Texas
