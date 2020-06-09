@@ -3,6 +3,8 @@ path: /team/susie-bird
 type: team
 published: 1
 name: Susie Bird
+audio: 'audio/susie-bird.mp3'
+pronunciation: 'sue-zee bird'
 image: 'images/susie-bird.jpg'
 role: Business Development
 location: Antelope, California
