@@ -3,6 +3,8 @@ path: /team/rob-read
 type: team
 published: 1
 name: Rob Read
+audio: 'audio/rob-read.mp3'
+pronunciation: 'rob reed'
 image: 'images/robert-read.jpg'
 role: Advisor
 location: Austin, Texas
