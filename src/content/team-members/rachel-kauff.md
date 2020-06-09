@@ -4,6 +4,8 @@ type: team
 published: 1
 name: Rachel Kauff
 personal_pronouns: she/her
+audio: 'audio/rachel-kauff.mp3'
+pronunciation: 'ray-chul koff'
 image: 'images/rachel-kauff.jpg'
 role: Content Strategy
 location: Los Angeles, California
