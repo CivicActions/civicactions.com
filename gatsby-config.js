@@ -16,6 +16,7 @@ module.exports = {
     `gatsby-plugin-sass`,
     `gatsby-source-jazz`,
     `gatsby-plugin-node-fields`,
+    `gatsby-plugin-client-side-redirect`,
     {
       resolve: `gatsby-source-filesystem`,
       options: {
