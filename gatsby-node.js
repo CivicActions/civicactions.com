@@ -10,6 +10,14 @@ const createPaginatedPages = require(`gatsby-paginate`)
 exports.createPages = ({ actions, graphql }) => {
   const { createPage } = actions
 
+  const { createRedirect } = actions
+  createRedirect({
+    fromPath: "/distributed-government",
+    toPath: "https://distributedgov.com/",
+    isPermanent: true,
+    redirectInBrowser: true,
+  })
+
   const caseStudyTemplate = path.resolve(`src/templates/caseStudyTemplate.js`)
   const teamMemberTemplate = path.resolve(`src/templates/teamMemberTemplate.js`)
   const generalTemplate = path.resolve(`src/templates/generalTemplate.js`)
