@@ -7,7 +7,7 @@ personal_pronouns: 'she/her'
 audio: 'audio/elizabeth-ogilvie.mp3'
 pronunciation: 'e-liz-a-beth oh-gull-vee'
 image: 'images/elizabeth-ogilvie.jpg'
-role: Talent Acquisition Manager
+role: Hiring
 location: Washington, DC Metro
 quote: It’s important for young girls to have role models who encourage them in understanding their inner strength and potential.
 social: 
