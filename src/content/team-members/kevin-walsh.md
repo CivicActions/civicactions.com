@@ -7,7 +7,7 @@ personal_pronouns: he/him
 audio: 'audio/kevin-walsh.mp3'
 pronunciation: 'kev-in walsh'
 image: 'images/kev-walsh.jpg'
-role: User Experience
+role: Product Management
 location: The Blue Mountains, Ontario
 quote: Simple is usually better — for code, writing, design, and life in general.
 social: 
