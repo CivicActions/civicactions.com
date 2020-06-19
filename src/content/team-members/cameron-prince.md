@@ -30,7 +30,7 @@ Cameron loves all things innovation.
 
 He got an early start in the IT field as a system administrator for the first internet service provider in North Alabama, and taught himself just about everything he knows along the way. Now he’s a Drupal old-timer and skilled back-end engineer who has worked with a wide range of clients, including design firms, hosting companies, and government contractors.
 
-Cameron is an Acquia certified Drupal engineer and devoted Nikola Tesla historian who makes occasional appearances on TV to elevate the accomplishments and memory of the scientist-inventor. He enjoys building his own Tesla-powered inventions in his workshop in Alabama, where he lives with his cat, 2 dogs, and 7 children.
+Cameron is an Acquia certified Drupal engineer and devoted Nikola Tesla historian who makes occasional appearances on TV to elevate the accomplishments and memory of the scientist-inventor. He enjoys building his own Tesla-powered inventions in his workshop in Alabama, where he lives with his 5 children.
 
 
 
