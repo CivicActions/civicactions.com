@@ -66,6 +66,12 @@ export default function Template({ data, location }) {
         <p> {frontmatter.background_section_second} </p>
       </div>
       <ImageSlider images={images} />
+      <div className="text-container section">
+        <div
+          className="case-study-text"
+          dangerouslySetInnerHTML={{ __html: html }}
+        />
+      </div>
       {related_titles ? (
         <RelatedByTitle posts={edges} titles={related_titles} />
       ) : null}
