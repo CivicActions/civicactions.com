@@ -71,7 +71,6 @@ export default function Template({ data, location }) {
           className="case-study-text"
           dangerouslySetInnerHTML={{ __html: html }}
         />
-        {tagsList}
       </div>
       {related_titles ? (
         <RelatedByTitle posts={edges} titles={related_titles} />

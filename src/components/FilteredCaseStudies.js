@@ -83,12 +83,6 @@ class FilteredCaseStudies extends Component {
 
     return (
       <div>
-        <div className="section__tag-filters__wrapper">
-          <section className="section usa-grid section__tag-filters">
-            <h4>Filter by: </h4>
-            {filterTags}
-          </section>
-        </div>
         <section className="section usa-grid section__case-studies">
           {renderStudies}
         </section>
