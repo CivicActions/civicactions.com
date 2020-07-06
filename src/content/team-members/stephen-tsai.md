@@ -40,7 +40,7 @@ Service Design
 ### Fun facts about Stephen
 * Loves to read books, eat pizza, and play Ultimate Frisbee on weekends
 * Has a BS in Political Science from MIT and a MFA in Creative Writing from Mills College
-* Wants to know about any unusual clothing or cute animal pictures you’ve seen recently
+* Wants to know about any unusual clothing or cute animal pictures you’ve seen
 * Aspires to one day be a backup dancer for Lady Gaga or Beyoncé (and also to learn how to dance)
 
 -----------------------------------
