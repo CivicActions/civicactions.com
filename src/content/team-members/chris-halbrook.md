@@ -5,7 +5,7 @@ published: 1
 name: Chris Halbrook
 personal_pronouns: 'he/him'
 audio: 'audio/chris-halbrook.mp3'
-pronunciation: 'kris hal-bruk'
+pronunciation: 'kris hahl-brook'
 image: 'images/chris-halbrook.jpg'
 role: Product Management
 location: Charleston, South Carolina
