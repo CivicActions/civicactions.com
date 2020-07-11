@@ -60,8 +60,8 @@ Our partnership with HHS helps the agency share information about the quality of
 ##### See the data
 [Healthdata.gov](http://www.healthdata.gov)
 
-##### Health data in action
-[2018 Health Datapalooza](http://www.academyhealth.org/events/site/2018-health-datapalooza)
+##### Note from the Chief Data Officer at U.S. HHS
+[The Data Imperative: Why Sharing Data Matters to Your Organization](https://healthdata.gov/blog/data-imperative-why-data-sharing-matters-your-organization)
 
 
 <figure>
