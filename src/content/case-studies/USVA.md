@@ -73,9 +73,9 @@ The USVA data portal houses thousands of datasets. We trained agency staff to us
 [Visit getDKAN.org](https://getdkan.org/)
 
 ##### How data can help veterans
-[Data to combat the opioid epidemic](https://www.data.va.gov/story/department-veterans-affairs-opioid-prescribing-data)  
-[Final resting places that honor veterans](https://www.data.va.gov/story/national-cemetery-administration)  
-[Health equity report to protect vulnerable veterans](https://www.data.va.gov/story/national-veteran-health-equity-report)  
+[Data to combat the opioid epidemic](https://www.data.va.gov/stories/s/4tx7-hu2d)  
+[Final resting places that honor veterans](https://www.data.va.gov/stories/s/6yaj-dzgn)  
+[Measuring Veteran satisfaction with health care](https://www.data.va.gov/stories/s/3vge-s486)  
 
  
 <figure>
