@@ -60,7 +60,7 @@ Our partnership with HHS helps the agency share information about the quality of
 ##### See the data
 [Healthdata.gov](http://www.healthdata.gov)
 
-##### Note from the Chief Data Officer at U.S. HHS
+##### Note from the Chief Data Officer at HHS
 [The Data Imperative: Why Sharing Data Matters to Your Organization](https://healthdata.gov/blog/data-imperative-why-data-sharing-matters-your-organization)
 
 
