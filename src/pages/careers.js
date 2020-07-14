@@ -9,45 +9,43 @@ import ImageBand from "./../components/organisms/ImageBand"
 import GlobalQuoteSlider from "./../components/organisms/GlobalQuoteSlider"
 import Link from "./../components/scripts/Link"
 
-const axios = require('axios')
+const axios = require("axios")
 
 class Careers extends React.Component {
-
   constructor(props) {
-    super(props);
+    super(props)
     this.state = {
       error: null,
       isLoaded: false,
-      items: []
+      items: [],
     }
   }
 
   componentDidMount() {
-    axios.get(process.env.GATSBY_JAZZ_URL)
-      .then(
-        (result) => {
-          this.setState({
-            isLoaded: true,
-            items: result.items
-          });
-        },
-        (error) => {
-          this.setState({
-            isLoaded: true,
-            error
-          });
-        }
-      )
+    axios.get(process.env.GATSBY_JAZZ_URL).then(
+      result => {
+        this.setState({
+          isLoaded: true,
+          items: result.items,
+        })
+      },
+      error => {
+        this.setState({
+          isLoaded: true,
+          error,
+        })
+      }
+    )
   }
 
   render() {
-    const { error, isLoaded, items } = this.state;
+    const { error, isLoaded, items } = this.state
     if (error) {
-        console.log('error')
+      console.log("error")
     } else if (!isLoaded) {
-        console.log('loading...')
+      console.log("loading...")
     } else {
-        console.log(items)
+      console.log(items)
     }
 
     const { allJob, markdownRemark } = this.props.data
