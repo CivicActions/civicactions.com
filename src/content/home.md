@@ -25,6 +25,11 @@ quotes:
   }
 medium_teasers: 
 - {
+  title: 'What "fierce openness" can do for government',
+  link: 'https://medium.com/civicactions/what-fierce-openness-can-do-for-government-b67749bfb328',
+ date: 'July 20, 2020'
+}
+- {
   title: 'Quickly shifting to distributed teams in government',
   link: 'https://medium.com/civicactions/quickly-shifting-to-distributed-teams-in-government-54bd79b912c3',
  date: 'April 6, 2020'
@@ -33,11 +38,6 @@ medium_teasers:
   title: 'The role of UX in an agile team',
   link: 'https://medium.com/civicactions/the-role-of-ux-in-an-agile-team-1f376d478cfd',
   date: 'January 21, 2020'
-}
-- {
-  title: 'How our distributed team makes up for a year apart',
-  link: 'https://medium.com/civicactions/how-our-distributed-team-makes-up-for-a-year-apart-c68503192d26',
-  date: 'October 17, 2019'
 }
 government_services_title: Modernizing government services
 government_services:
