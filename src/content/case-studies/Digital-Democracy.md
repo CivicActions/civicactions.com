@@ -79,18 +79,16 @@ Digital Democracy empowers every Californian with unprecedented access to their 
 
 
 ### Explore
-##### See our work
-[Digital Democracy](https://www.digitaldemocracy.org/about-digital-democracy)
 
-##### Learn More
+##### Site demo
 [Video: Introducing Digital Democracy](https://www.youtube.com/watch?v=PDCfDJL0VSY)
 
 ##### Hear from a project engineer
 [Drupal Case Study: Digital Democracy Redesign](https://www.drupal.org/case-study/digital-democracy-redesign-drupal-8)
 
-##### Related Reading
+##### Related reading
 [Participedia: ‘The Digital Democracy Project’](https://participedia.net/en/cases/digital-democracy-project)
-[Press and endorsements for Digital Democracy](https://ca.digitaldemocracy.org/about)
+[Case study from CalPoly Institute for Advanced Technology and Public Policy](https://iatpp.calpoly.edu/digital-democracy)
 
 <figure>
   <div>
