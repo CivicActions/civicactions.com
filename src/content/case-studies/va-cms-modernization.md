@@ -87,7 +87,8 @@ VA is finally pivoting from focusing on its organizational structure to helping 
 [VA’s announcement and feature list for new medical center sites](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/facilities/medical-centers/comms/New-VAMC-website-flyer-2020-01-WEB.pdf)
 [NextGov: More Vets are taking advantage of digital services through new VA.gov](https://www.nextgov.com/it-modernization/2019/11/more-vets-are-taking-advantage-digital-services-through-new-vagov/161190/)
 [USDS Impact Report featuring VA.gov](https://www.usds.gov/resources/USDS-Impact-Report-2020.pdf)
-[VA Secretary Robert Wilkie introduces the new VA.gov](https://www.blogs.va.gov/VAntage/53898/secretary-wilkie-announces-redesigned-va-gov-built-input-veterans-better-meet-needs/)
+[VA Secretary Robert Wilkie introduces the new VA.gov](https://www.blogs.va.gov/VAntage/53898/secretary-wilkie-announces-redesigned-va-gov-built-input-veterans-better-meet-needs/)  
+[VA.gov performance dashboard](https://www.va.gov/performance-dashboard/)
 
 ##### View the source code
 VA.gov [front-end](https://github.com/department-of-veterans-affairs/vets-website) and [back-end](https://github.com/department-of-veterans-affairs/va.gov-cms) repositories in GitHub
