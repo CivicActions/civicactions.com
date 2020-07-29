@@ -1,5 +1,5 @@
 ---
-weight: 1
+weight: 2
 path: "/case-study/digital-democracy"
 type:  "case-study"
 title: "Improving transparency in state government"
