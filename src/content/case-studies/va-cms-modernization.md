@@ -12,7 +12,7 @@ website: "https://www.va.gov/pittsburgh-health-care/"
 background_section_title: "Veterans need a better online experience"
 background_section: "The U.S. Department of Veterans Affairs (VA) is working to improve the confusing experience many Veterans have when navigating multiple VA sites built on a mix of legacy technologies. Having [launched a reinvigorated VA.gov](https://fcw.com/articles/2018/10/02/redesigned-va-site-sammie.aspx) in 2018 as an important step to a unified Veteran-first digital platform, the agency still needed to build out a common content management system (CMS), establish consistent descriptions for services, and organize the information in an accessible way for Veterans in need of health care."
 background_section_second: "We joined the large-scale pilot effort which focused on using one of the regional VA Medical Centers as a model for all future VA.gov content. We integrated the new CMS with the existing site architecture and helped create standards for content and design that make it easier for VA staff to do their jobs -- while directly improving quality of life for millions of Veterans seeking health care and benefits."
-
+tags: []
 specs: [
 "Decoupled Drupal 8",
 "GraphQL",
@@ -23,22 +23,16 @@ specs: [
 "Lando",
 "AWS"
 ]
-images:
-  - {
-  url: 'DD_1.jpg',
-  caption: '',
-  alt: 'Digital Democracy designs on web and mobile'
-  }
-  - {
-  url: 'DD_2.jpg',
-  caption: 'Mapping the database schema helped us improve the organization of the site.',
-  alt: 'Database schema for Digital Democracy'
-  }
 related_titles:
 - Sharing data to support veterans
 - Bringing free and open source software to government
 - Promoting public health with open data
 ---
+
+<p style="text-align:center;font-size:1.5rem">
+<iframe width="560" height="315" src="https://www.youtube.com/embed/H8hndge4wLc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+Veterans can easily find the information they need on VA's improved website
+</p>
 
 ### Approach
 
