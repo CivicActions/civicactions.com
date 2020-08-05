@@ -74,8 +74,8 @@ const Layout = ({ children, urlObject }) => (
               content: `Open and Agile Digital Government Services`,
             },
             {
-                property: `og:image`,
-                content: data.site.siteMetadata.siteUrl + logo
+              property: `og:image`,
+              content: data.site.siteMetadata.siteUrl + logo,
             },
             { name: `twitter:card`, content: config.seo.twitterCard },
             { name: `twitter:site`, content: config.seo.twitterSite },
