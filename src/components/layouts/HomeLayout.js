@@ -25,6 +25,7 @@ const Layout = ({ children, urlObject }) => (
             address
             address_line_2
             city
+            siteUrl
           }
         }
 
@@ -72,10 +73,16 @@ const Layout = ({ children, urlObject }) => (
               property: `og:description`,
               content: `Open and Agile Digital Government Services`,
             },
-            { property: `og:image`, content: `${urlObject.origin}${logo}` },
+            {
+                property: `og:image`,
+                content: data.site.siteMetadata.siteUrl + logo
+            },
             { name: `twitter:card`, content: config.seo.twitterCard },
             { name: `twitter:site`, content: config.seo.twitterSite },
-            { name: `twitter:image`, content: `${urlObject.origin}${logo}` },
+            {
+              name: `twitter:image`,
+              content: data.site.siteMetadata.siteUrl + logo,
+            },
             { property: `fb:app_id`, content: config.seo.fbAppId },
 
             // Contact
