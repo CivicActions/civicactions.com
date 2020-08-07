@@ -41,6 +41,7 @@ Steve graduated from the State University of New York with a B.S. (Physics Teach
 
 
 ### Things Steve has been doing
+* Building a modern platform to help Veterans [access health care](https://civicactions.com/case-study/va-cms-modernization) and benefits online
 * Empowering [adult education practitioners](https://civicactions.com/case-study/lincs/) to learn and collaborate
 * Making information centrally accessible for the [Department of Justice](https://www.justice.gov/)
 * Helping [FCC](https://civicactions.com/case-study/fcc/) migrate loads of content to a better platform
