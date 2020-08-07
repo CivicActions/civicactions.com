@@ -38,7 +38,7 @@ Cycling
 
 Kev is the bridge between design and engineering.
 
-He breaks down silos between practice areas, helping teams merge their skills to build human-centered solutions with solid infrastructure. Kev’s passion for solving social problems has led him to study geography and sociology, build Drupal sites for nonprofits, and immerse himself in user experience design. Now leading CivicActions’ UX practice area, he advocates for the integration of smart design into all aspects of the company and helps establish best practices for service delivery.
+He breaks down silos between practice areas, helping teams merge their skills to build human-centered solutions with solid infrastructure. Kev’s passion for solving social problems has led him to study geography and sociology, build Drupal sites for nonprofits, and immerse himself in user experience design. Now working in product management, he advocates for the integration of smart design into all aspects of the company and helps establish best practices for service delivery.
 
 Kev studied Rural Sociology at the University of Wisconsin-Madison, has a B.A. in Geography from Concordia University, and is a certified Scrum Master. Kev’s skills come in handy for his own projects in the boonies — homesteading with a couple of small kids and having fun outdoors. Between mountain biking, cross-country skiing, and bicycling, he’s got all four seasons covered.
 
@@ -46,7 +46,7 @@ Kev studied Rural Sociology at the University of Wisconsin-Madison, has a B.A. i
 
 
 ### Things Kev has been doing
-* Designing content strategy to help the [VA](https://www.va.gov/) deliver benefits for veterans
+* Designing content strategy to help the [VA](https://civicactions.com/case-study/va-cms-modernization) deliver benefits for veterans
 * Helping [Doctors Without Borders](https://civicactions.com/case-study/msf) share its work to raise support for global aid 
 * Developing a CivicActions [handbook of best practices](https://handbook.civicactions.com/en/latest/10-ux/services/README/) for putting the user first
 * Helping adult literacy instructors [access instructional resources](https://lincs.ed.gov/programs/studentachievementinreading)
