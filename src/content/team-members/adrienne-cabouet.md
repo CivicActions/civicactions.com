@@ -37,6 +37,7 @@ Adrienne has a B.S. in Health Sciences from Northeastern University. She’s a l
 
 
 ### Things Adrienne has been doing
+* Helping Veterans [access health care](https://civicactions.com/case-study/va-cms-modernization) and benefits online
 * Empowering [adult education practitioners](https://civicactions.com/case-study/lincs) to learn and collaborate
 * Keeping up with [cutting edge front-end tools](https://events.drupal.org/baltimore2017/sessions/decoupled-drupal-and-angular-2)
 * Helping small businesses with [smooth transaction](https://www.lavu.com/) software

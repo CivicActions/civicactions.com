@@ -34,7 +34,7 @@ Jonathan has a B.A. in English and Spanish from Rice University and an M.F.A. in
 
 
 ### Things Jonathan has been doing
-* Helping the [VA](https://www.va.gov/) modernize its site to improve services for Veterans
+* Helping the VA [modernize its site](https://civicactions.com/case-study/va-cms-modernization) to improve services for Veterans
 * Working on a platform to empower [international collaboration](https://civicactions.com/case-study/globalnet/) on global security
 * Building interactive fun into [children’s museum exhibits](https://majorrobot.com/work/kidtropolis-childrens-museum-houston) with a junior digital banking system
 * Wearing all the hats to keep his [small business](https://majorrobot.com/) going

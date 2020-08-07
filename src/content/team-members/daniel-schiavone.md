@@ -40,7 +40,7 @@ Daniel has an M.F.A. in Art from the University of Arizona, and has been a leade
 
 
 ### Things Daniel has been doing
-* Helping [USVA](http://va.gov/) modernize its platform for veteran benefits 
+* Helping Veterans [access health care](https://civicactions.com/case-study/va-cms-modernization) and benefits online through a modernized platform
 * Maintaining [a Drupal module](https://github.com/schiavo/digitalgovsearch) that helps the public search government sites
 * Organizing a convening of Drupal-enthusiasts in [Baltimore](https://www.bmoredrupal.com/)
 * [Talking](https://events.drupal.org/seattle2019/medium-massage-20) about how to “speak the language of the web”

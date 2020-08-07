@@ -40,6 +40,7 @@ Melinda seeks variety and diversity in all things. After a few years of “digit
 
 ### Things Melinda has been doing
 * Helping government agencies build [effective distributed teams](https://distributedgov.com/)
+* Contributing to a content strategy that helps Veterans [access health care](https://civicactions.com/case-study/va-cms-modernization) and benefits online
 * [Demonstrating the impact](https://civicactions.com/case-study) of the work we do
 * Building a network to support and connect [government innovators](https://www.agilegovleaders.org/)
 * Planning [magical annual gatherings](https://medium.com/civicactions/how-our-distributed-team-makes-up-for-a-year-apart-c68503192d26) for our distributed team

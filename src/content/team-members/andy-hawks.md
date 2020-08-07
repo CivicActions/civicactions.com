@@ -40,9 +40,10 @@ Andy has also served as CTO and VP of Technology at leading interactive agencies
 
 
 ### Things Andy has been doing
+* Helping Veterans [access health care](https://civicactions.com/case-study/va-cms-modernization) and benefits online
 * Moving the [U.S. House of Representatives](https://house.gov/) to a modern, secure online platform 
 * Re-architecting the [Treasury Department](http://treasury.gov/) to align with U.S. Web Design Standards
-* Using Drupal and Internet of Things to help NYC subway riders [get there on time](https://dev.acquia.com/blog/using-drupal-8-and-aws-iot-to-power-digital-signage-for-new-yorks-subway-system/01/10/2018/20051)
+* Using Drupal and Internet of Things to help NYC subway riders [get there on time](https://civicactions.com/case-study/mta)
 * Helping the [Drug Enforcement Administration](https://www.dea.gov/) protect and serve the public
 * Architecting large-scale enterprise Drupal sites at [Acquia](https://www.acquia.com/)
 * Teaching folks to climb and explore at the [Colorado Mountain Club](https://www.cmc.org/)

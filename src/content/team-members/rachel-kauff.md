@@ -37,7 +37,7 @@ Rachel has an M.F.A. in printmaking and sculpture from University of Iowa. She l
 
 
 ### Things Rachel has been doing
-* Working with the [VA](https://www.va.gov/) to create useful content for Veterans 
+* Working with the [VA](https://civicactions.com/case-study/va-cms-modernization) to create useful content for Veterans 
 * Serving on a team that promotes diversity, equity, and inclusion at CivicActions
 * Helping the [CivicActions team](https://civicactions.com/team/) shine
 * Telling the stories of CivicActions’ [partnerships and successes](https://civicactions.com/case-study/)

@@ -41,6 +41,7 @@ Ethan has a B.A. in English Literature from the University of Tennessee-Knoxvill
 
 
 ### Things Ethan has been doing
+* Helping Veterans [access health care](https://civicactions.com/case-study/va-cms-modernization) and benefits online
 * [Empowering international collaboration](https://civicactions.com/case-study/globalnet/) through a modernized platform
 * Empowering [adult education practitioners](https://civicactions.com/case-study/lincs/) to learn and collaborate
 * Helping the [City of Los Angeles](https://www.lacity.org/) do better business online
