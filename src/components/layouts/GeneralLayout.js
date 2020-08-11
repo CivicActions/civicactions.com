@@ -46,6 +46,7 @@ const GeneralLayout = ({
             address
             address_line_2
             city
+            siteUrl
           }
         }
 
@@ -75,10 +76,16 @@ const GeneralLayout = ({
             { property: `og:url`, content: urlObject.href },
             { property: `og:title`, content: heroTitle },
             { property: `og:description`, content: heroSubtitle },
-            { property: `og:image`, content: `${urlObject.origin}${logo}` },
+            {
+              property: `og:image`,
+              content: data.site.siteMetadata.siteUrl + logo,
+            },
             { name: `twitter:card`, content: config.seo.twitterCard },
             { name: `twitter:site`, content: config.seo.twitterSite },
-            { name: `twitter:image`, content: `${urlObject.origin}${logo}` },
+            {
+              name: `twitter:image`,
+              content: data.site.siteMetadata.siteUrl + logo,
+            },
             { property: `fb:app_id`, content: config.seo.fbAppId },
 
             // Contact
