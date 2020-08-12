@@ -27,10 +27,13 @@ export default function Template({ data, location }) {
         <div className="section__supplemental section">
           <section className="usa-grid supplemental__grid">
             {supplemental.map(column => (
-             <div key={column.label} className="supplemental supplemental--col">
+              <div
+                key={column.label}
+                className="supplemental supplemental--col"
+              >
                 <h4>{column.label}</h4>
                 <p>{column.content}</p>
-             </div>
+              </div>
             ))}
           </section>
         </div>
