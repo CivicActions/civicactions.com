@@ -50,7 +50,7 @@
     }
   }
   //-------------------------------------
-  // WHAT WE'VE BEEN TALKING ABOUT 
+  // WHAT WE'VE BEEN TALKING ABOUT
   //-------------------------------------
 
   &__what-weve-been-talking-about {
@@ -127,6 +127,15 @@
         padding-top: 3.4rem;
       }
     }
+  }
+
+  //-------------------------------------
+  // SUPPPLEMENTAL SECTION ON SPECIAL PAGES
+  //-------------------------------------
+
+  &__supplemental {
+    padding: $section-margin 0;
+    background-color: $neutral;
   }
 
   //-------------------------------------
@@ -457,6 +466,15 @@
   .section__triple-quotes-careers {
     .blockquotes__list {
       padding-top: $site-margins * 2;
+    }
+  }
+}
+
+.supplemental {
+  &--col {
+    margin-bottom: $lead-font-size;
+    @include media($medium-screen) {
+      @include span-columns(1 of 3);
     }
   }
 }
