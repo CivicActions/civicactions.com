@@ -26,7 +26,7 @@ social:
 specialties: [ "Drupal",
 Problem Solving,
 Data Wrangling,
-Fixing What’s Broken (Code, Things, People)
+Fixing What’s Broken (Code/Things/People)
 ]
   
 ---
