@@ -32,7 +32,7 @@ Fixing What’s Broken (Code/Things/People)
 ---
 
 ### Things Matt has been doing
-* Building modern tech systems to promote [scientific progress](https://www.nsf.gov/) for the public good
+* Building modern tech systems to promote [scientific progress](https://www.nsf.gov/) for public good
 * Supporting the advancement of human-focused [communications technology](https://www.comsoc.org/about)
 * Using Drupal to replace paper-based processes at [academic conferences](https://www.comsoc.org/conferences-events/portfolio-conferences-events)
 * Volunteering as an EMT and EMS building manager for his [civic-minded community](http://www.metuchennj.org/metnj/)
