@@ -3,7 +3,7 @@
   color: $white;
   font-size: $lead-font-size;
 
-  &.case-study-hero {
+  &.case-study-hero, &.has-supplement-hero {
     margin-bottom: 0;
   }
 
