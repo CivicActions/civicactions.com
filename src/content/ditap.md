@@ -26,30 +26,31 @@ Traditional procurement practices make it hard for government to effectively buy
 Our part-time DITAP training course helps you acquire the knowledge and skills needed for modern procurement in about 6 months.
 
 ### What you'll learn
-**Digital services in 21st century government**  
+#### Digital services in 21st century government
 The basics of modern digital services such as agile software delivery, human centered design, cloud computing, and X-as-a-service
 
-**Understand what you are buying**  
+#### Understand what you are buying 
 Skills to assess your customer’s needs, conduct market research, and figure out what digital solutions are the best fit
 
-**How to buy**  
+#### How to buy  
 Developing an acquisition strategy that accounts for customer needs, your agency’s digital maturity, and what services are available on the market
 
-**Awarding digital service contracts**  
+#### Awarding digital service contracts 
 Developing an acquisition strategy that accounts for customer needs, your agency’s digital maturity, and what services are available on the market
 
-**Leading change**  
+#### Leading change
 Leadership and communication skills to help you be an ambassador for digital transformation and get stakeholder buy-in
 
 ### How you'll learn
-**Blended learning experience**  
+#### Blended learning experience
 The DITAP curriculum includes a variety of learning mechanisms such as group discussions, interviewing and shadowing assignments, live virtual classes and case studies, and other dynamic elements to help you master concepts and practice techniques.
 
-**Community focus**  
+#### Community focus
 Our approach to DITAP is founded on the ethos of open sharing and collaboration essential to the success of digital service delivery. Learn alongside colleagues (from your own agency or with a blended group) who will become your future support network through participation in the DITAP alumni open learning community.
 
-**Expert, invested coaches**  
+#### Expert, invested coaches
 Our instructors bring years of training and change management experience in government to help you become a champion for modern procurement practices. 
+
 
 <blockquote>
 "My attendance in this class has exposed me to new material and resources to assist me in my day to day job. Thank you for this opportunity!"
