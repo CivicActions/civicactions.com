@@ -2,7 +2,7 @@
 path: /press/2020-08-14-civicactions-certified-to-deliver-ditap
 type: press-sub-page
 published: 1
-title: CivicActions Certified to Deliver DITAP Procurement Training to Federal Acquisition Professionals
+title: CivicActions Certified to Deliver DITAP Training to Federal Acquisition Professionals
  
 ---
 
