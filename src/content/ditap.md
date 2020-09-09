@@ -1,8 +1,12 @@
 ---
 path: /ditap
+redirect_from: 
+- /education-services/
 type: page
 title: "DITAP Training"
 subtitle: 'We support the Digital IT Acquisition Professional (DITAP) program to train federal contracting officers in the skills needed for successful modern digital service procurements.'
+cta_text: "Request Training"
+cta_link: "mailto:education-services@civicactions.com"
 supplemental: [
   {
     label: "Certification",
