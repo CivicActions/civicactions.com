@@ -42,12 +42,12 @@ export default function Template({ data, location }) {
       <div className="text-container section">
         <div dangerouslySetInnerHTML={{ __html: html }} />
         {cta_link ? (
-          <div style={{textAlign: 'center', marginTop: '2em'}}>
-          <Link
-            to={frontmatter.cta_link}
-            children={frontmatter.cta_text}
-            className="link-button usa-button-navy"
-          />
+          <div style={{ textAlign: "center", marginTop: "2em" }}>
+            <Link
+              to={frontmatter.cta_link}
+              children={frontmatter.cta_text}
+              className="link-button usa-button-navy"
+            />
           </div>
         ) : null}
       </div>
