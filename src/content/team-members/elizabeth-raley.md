@@ -9,7 +9,7 @@ pronunciation: 'e-liz-a-beth ray-lee'
 image: 'images/elizabeth-raley.jpg'
 manager: 1
 role: Management & Operations
-location: San Francisco Bay Area, California
+location: Austin, TX
 quote: I choose the bright side. 
 social: 
   - {
