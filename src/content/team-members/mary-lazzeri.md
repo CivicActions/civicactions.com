@@ -9,7 +9,7 @@ pronunciation: 'mair-ee la-zair-ee'
 image: 'images/mary-lazzeri.jpg'
 role: Business Development
 location: Chicago, Illinois
-quote: Healthy skepticism is a form of human empathy. We owe it to each other to question what we are taught and told.
+quote: Healthy skepticism is a form of human empathy. We owe it to each other to question what we are taught and told
 social: 
   - {
   name: LinkedIn,
