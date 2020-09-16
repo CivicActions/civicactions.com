@@ -91,7 +91,7 @@ class Contact extends React.Component {
               className="text-container"
             >
               <div className="form__field">
-                <label htmlFor="name">
+                <label htmlFor="name" class="form__label">
                   Name<abbr title="This field is mandatory">*</abbr>
                 </label>
                 <input
@@ -105,10 +105,11 @@ class Contact extends React.Component {
                   onBlur={this.handleBlur(`name`)}
                   className={shouldMarkError(`name`) ? `error` : ``}
                 />
+                <span class="form__error-text">{shouldMarkError(`name`) ? `This field is mandatory` : ``}</span>
               </div>
 
               <div className="form__field">
-                <label htmlFor="organization">
+                <label htmlFor="organization" class="form__label">
                   Organization<abbr title="This field is mandatory">*</abbr>
                   {` `}
                 </label>
@@ -123,10 +124,11 @@ class Contact extends React.Component {
                   onBlur={this.handleBlur(`org`)}
                   className={shouldMarkError(`org`) ? `error` : ``}
                 />
+                <span class="form__error-text">{shouldMarkError(`org`) ? `This field is mandatory` : ``}</span>
               </div>
 
               <div className="form__field">
-                <label htmlFor="email">
+                <label htmlFor="email" class="form__label">
                   Email<abbr title="This field is mandatory">*</abbr>
                   {` `}
                 </label>
@@ -141,10 +143,11 @@ class Contact extends React.Component {
                   onBlur={this.handleBlur(`email`)}
                   className={shouldMarkError(`email`) ? `error` : ``}
                 />
+                <span class="form__error-text">{shouldMarkError(`email`) ? `This field is mandatory` : ``}</span>
               </div>
 
               <div className="form__field">
-                <label htmlFor="phone">
+                <label htmlFor="phone" class="form__label">
                   Phone<abbr title="This field is mandatory">*</abbr>
                   {` `}
                 </label>
@@ -156,22 +159,24 @@ class Contact extends React.Component {
                   aria-required="true"
                   value={this.state.phone}
                   onChange={this.handlePhoneChange}
+                  onBlur={this.handleBlur(`phone`)}
                   className={shouldMarkError(`phone`) ? `error` : ``}
                 />
+                <span class="form__error-text">{shouldMarkError(`phone`) ? `This field is mandatory` : ``}</span>
               </div>
 
               <div className="form__field">
-                <label htmlFor="url">Website </label>
+                <label htmlFor="url" class="form__label">Website </label>
                 <input type="url" id="url" name="User Website" />
               </div>
 
               <div className="form__field">
-                <label htmlFor="purpose">How can we help you? </label>
+                <label htmlFor="purpose" class="form__label">How can we help you? </label>
                 <textarea id="purpose" name="How Can We help You" />
               </div>
 
               <div className="form__field">
-                <label htmlFor="url">How did you hear about us? </label>
+                <label htmlFor="url" class="form__label">How did you hear about us? </label>
                 <input type="text" id="url" name="How did you hear about us" />
               </div>
               <input type="text" name="_gotcha" className="form__gotcha" />
