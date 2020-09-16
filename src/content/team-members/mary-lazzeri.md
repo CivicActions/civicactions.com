@@ -15,7 +15,7 @@ social:
   name: LinkedIn,
   url: https://www.linkedin.com/in/marylazzeri/
   }
- - {
+  - {
   name: Github,
   url: https://github.com/mlazzeri
   }
