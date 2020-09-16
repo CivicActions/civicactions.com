@@ -1,3 +1,5 @@
+$error-size: 1.3rem;
+
 .form {
   &__field {
     max-width: 46rem;
@@ -17,6 +19,16 @@
 
   &__gotcha {
     display: none;
+  }
+
+  &__label {
+    margin-top: 3rem - $error-size;
+  }
+
+  &__error-text {
+    font-size: $error-size;
+    color: $color-secondary;
+    display: inline-block;
   }
 }
 
