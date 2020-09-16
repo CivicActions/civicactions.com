@@ -17,7 +17,7 @@ social:
   }
  - {
   name: Github,
-  url: https://medium.com/@marylazzeri
+  url: https://github.com/mlazzeri
   }
   - {
   name: Medium,
