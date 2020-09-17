@@ -1,7 +1,7 @@
 ---
 path: /press-item/telework-metrics-can-shape-government-strategy
 type: press
-title: 'Distributed Teams Expert At CivicActions Shows How Telework Metrics Can Shape Government Strategy'
+title: 'How Telework Metrics Can Shape Government Strategy'
 date: "2020-09-15"
 link_text: "Using telework metrics to shape strategy"
 website: "https://www.techwire.net/sponsored/Using_telework_metrics_to_shape_strategy.html"
