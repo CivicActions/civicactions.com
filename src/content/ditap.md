@@ -6,7 +6,7 @@ type: page
 title: "DITAP Training"
 subtitle: 'We support the Digital IT Acquisition Professional (DITAP) program to train federal contracting officers in the skills needed for successful modern digital service procurements.'
 cta_text: "Request Training"
-cta_link: "mailto:education-services@civicactions.com"
+cta_link: "https://forms.gle/xsMmrwcBxtbCfLRa8"
 supplemental: [
   {
     label: "Certification",
@@ -62,7 +62,7 @@ Our instructors bring years of training and change management experience in gove
 </blockquote>
 
 ### Upcoming courses
-The next available dates for DITAP training will be announced soon. [Contact us](https://civicactions.com/) to be informed about upcoming classes and tuition pricing.
+The next available dates for DITAP training will be announced soon. [Apply now](https://forms.gle/xsMmrwcBxtbCfLRa8) to be informed about upcoming classes and tuition pricing.
 
 ### FAQ
 **How is classroom training delivered during COVID-19?**  
