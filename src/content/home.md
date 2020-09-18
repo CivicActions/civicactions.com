@@ -25,6 +25,11 @@ quotes:
   }
 medium_teasers: 
 - {
+  title: 'What we learned from training procurement officers to buy modern government IT',
+  link: 'https://medium.com/civicactions/what-we-learned-from-training-procurement-officers-to-buy-modern-government-it-cc6309df4103',
+ date: 'August 25, 2020'
+}
+- {
   title: 'What "fierce openness" can do for government',
   link: 'https://medium.com/civicactions/what-fierce-openness-can-do-for-government-b67749bfb328',
  date: 'July 20, 2020'
@@ -33,11 +38,6 @@ medium_teasers:
   title: 'Quickly shifting to distributed teams in government',
   link: 'https://medium.com/civicactions/quickly-shifting-to-distributed-teams-in-government-54bd79b912c3',
  date: 'April 6, 2020'
-}
-- {
-  title: 'The role of UX in an agile team',
-  link: 'https://medium.com/civicactions/the-role-of-ux-in-an-agile-team-1f376d478cfd',
-  date: 'January 21, 2020'
 }
 government_services_title: Modernizing government services
 government_services:
