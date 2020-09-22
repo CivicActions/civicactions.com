@@ -16,7 +16,8 @@ CivicActions specializes in services that are central to the DITAP curriculum su
 
 Over the past 18 months, CivicActions has trained three cohorts of acquisition professionals, encompassing more than 70 learners from 20 different federal agencies. 100% of participants reported “clear takeaways from the course” and 92% would recommend the training to a colleague.  DITAP alumni will continue to be supported by others in the acquisition community as leaders for change within their organizations.
 
-* [Learn more](https://techfarhub.cio.gov/initiatives/ditap/) about the DITAP initiative by USDS
-* [Request DITAP training](https://techfarhub.cio.gov/initiatives/ditap/)
+* [Request DITAP training](https://civicactions.com/ditap)
+* Reflections on DITAP: [What we learned from training procurement officers to buy modern government IT](https://medium.com/civicactions/what-we-learned-from-training-procurement-officers-to-buy-modern-government-it-cc6309df4103)
+* Learn more about DITAP at the [TechFAR Hub](https://techfarhub.cio.gov/initiatives/ditap/)
 
 -----------------------------------
