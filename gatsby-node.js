@@ -19,7 +19,8 @@ exports.createPages = ({ actions, graphql }) => {
   })
   createRedirect({
     fromPath: "/a11y-iaaf",
-    toPath: "https://medium.com/civicactions/4-ways-to-improve-government-accessibility-through-open-source-8e20fabc7281",
+    toPath:
+      "https://medium.com/civicactions/4-ways-to-improve-government-accessibility-through-open-source-8e20fabc7281",
     isPermanent: true,
     redirectInBrowser: true,
   })
