@@ -17,6 +17,12 @@ exports.createPages = ({ actions, graphql }) => {
     isPermanent: true,
     redirectInBrowser: true,
   })
+  createRedirect({
+    fromPath: "/a11y-iaaf",
+    toPath: "https://medium.com/civicactions/4-ways-to-improve-government-accessibility-through-open-source-8e20fabc7281",
+    isPermanent: true,
+    redirectInBrowser: true,
+  })
 
   const caseStudyTemplate = path.resolve(`src/templates/caseStudyTemplate.js`)
   const teamMemberTemplate = path.resolve(`src/templates/teamMemberTemplate.js`)
