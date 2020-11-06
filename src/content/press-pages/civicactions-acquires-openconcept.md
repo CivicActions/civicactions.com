@@ -1,5 +1,5 @@
 ---
-path: /press-item/civicactions-acquires-openconcept
+path: /press-item/2020-11-05-civicactions-acquires-openconcept
 type: press
 title: 'CivicActions Expands Accessibility Capabilities With OpenConcept'
 date: "2020-11-06"
