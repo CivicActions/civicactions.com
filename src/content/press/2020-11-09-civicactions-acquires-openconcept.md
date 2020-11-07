@@ -5,7 +5,7 @@ published: 1
 title: CivicActions Expands Accessibility Capabilities With OpenConcept
  
 ---
-Date: Friday, November 6, 2020
+Date: Monday, November 9, 2020
 
 **Lafayette, Calif.** – [CivicActions](https://civicactions.com/), a professional services firm modernizing government technologies and services, today announced it has acquired [OpenConcept](https://openconcept.ca/drupal), a development firm specializing in web accessibility through open source tools and community. 
 
@@ -21,7 +21,7 @@ Visit the company blog to read more about how CivicActions is [improving governm
 
 ###
 
-Contact: Marlena Medford, Marketing & Content Strategist
+Contact: Marlena Medford, Marketing & Content Strategist  
 214.697.3123, marlena.medford@civicactions.com
 
 -----------------------------------
