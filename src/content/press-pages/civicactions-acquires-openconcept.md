@@ -9,4 +9,4 @@ publication: "Press Release"
 
 ---
 
-With the acquisition of OpenConcept, an industry leader in web accessibility through open source, we are increasing our commitment and ability to create government digital services that are accessible to people of all abilities.
+With the acquisition of OpenConcept, an industry leader in web accessibility through open source, we are increasing our commitment and capacity to create government digital services that are accessible to people of all abilities.
