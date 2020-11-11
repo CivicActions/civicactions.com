@@ -8,7 +8,7 @@ audio: 'audio/marlena-medford.mp3'
 pronunciation: 'mar-lee-na med-ford'
 image: 'images/marlena-medford.jpg'
 role: Marketing & Content Strategy 
-location: Encinitas, CA
+location: Encinitas, California
 quote: Stories transcend time, bridge gaps, and shape reality. I’m convinced there’s nothing more powerful than a well-told story.
 social: 
   - {
