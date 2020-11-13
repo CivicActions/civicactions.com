@@ -6,7 +6,7 @@ import USWDS from "./../scripts/USWDS"
 import FooterNav from "./../navigation/FooterNav"
 
 const Footer = ({ email, phone, address, address_line_2, city }) => {
-  const email_link = `/mailto:${email}`
+  const email_link = `mailto:${email}`
 
   return (
     <div className="footer__wrapper  footer">
@@ -16,7 +16,9 @@ const Footer = ({ email, phone, address, address_line_2, city }) => {
             <div className="usa-footer-contact-links usa-width-one-third">
               <Logo />
               <div className="footer__address">
-                <Link to={email_link}> {email} </Link>
+                <a href={email_link} target="_blank" rel="noopener noreferrer">
+                  {email}
+                </a>
                 <div className="footer__phone">{phone}</div>
                 <div>{address}</div>
                 <div> {address_line_2}</div>
