@@ -32,6 +32,16 @@
     margin-top: $cite-margin;
     font-size: $lead-font-size;
   }
+
+  blockquote {
+    p {
+      margin-bottom: 0;
+    }
+
+    cite {
+      margin-top: 0;
+    }
+  }
 }
 
 .case-study-text {
