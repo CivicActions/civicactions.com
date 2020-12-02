@@ -32,24 +32,52 @@ figures:
 }
 
 challenge_text: "The Department of Education wanted help consolidating and updating the collection of websites for the Literacy and Information Communication System (LINCS), which supports adult education practitioners."
-client_goal_text: "Help adult learners transition to post-secondary education and 21st-century jobs through:"
 
+client_goal_text: "Help adult learners transition to post-secondary education and 21st-century jobs through:"
 client_goal_bullets:
 - A secure, streamlined platform
 - Reliable, friendly support for users
 - Help resolving technical issues
 
+expertise:
+- Discovery Workshops
+- User and Stakeholder Interviews
+- Persona Creation
+- Iterative Testing
+- Discovery Workshops
+- User and Stakeholder Interviews
+- Persona Creation
+- Iterative Testing
+
+client_technologies:
+- Figma
+- Whimsical
+- Mural
+
+image_full:
+  - {
+  url: 'LINCS_1.jpg', 
+  caption: '', 
+  alt: 'Redesigned LINCS website on laptop and mobile'
+  }
+  - {
+  url: 'LINCS_2.jpg', 
+  caption: 'Educators participate in discussions using the LINCS community portal.', 
+  alt: 'LINCS community portal'
+  }
+  - {
+  url: 'LINCS_3.jpg', 
+  caption: 'Talking to the LINCS team about user needs during discovery.', 
+  alt: 'CivicActions meets with LINCS team and partners'
+  }
+  - {
+  url: 'LINCS_4.jpg', 
+  caption: 'We provide friendly helpdesk support to the LINCS community.', 
+  alt: 'Types of support provided by CivicActions'
+  }
+
 tags: []
-specs: [
-"Decoupled Drupal 8",
-"GraphQL",
-"React",
-"Metalsmith",
-"U.S. Web Design System",
-"Jenkins",
-"Lando",
-"AWS"
-]
+
 related_titles:
 - Sharing data to support veterans
 - Bringing free and open source software to government

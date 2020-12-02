@@ -478,3 +478,24 @@
     }
   }
 }
+
+.two-col {
+  @include media($medium-screen) {
+      @include span-columns(1 of 2);
+  }
+}
+
+.off-color {
+  background-color: $neutral;
+}
+
+.list-box {
+  padding: 1rem;
+}
+
+.checkmark-list {
+  list-style: none;
+  li:before {
+    content: '✓';
+  }
+}

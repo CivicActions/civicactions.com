@@ -12,7 +12,7 @@ import Blockquote from "./../components/atoms/Blockquote"
 export default function Template({ data, location }) {
   const { markdownRemark, allMarkdownRemark } = data
   const { frontmatter, html } = markdownRemark
-  const { figures, client_goal_bullets, related_titles, specs, tags, images } = frontmatter
+  const { figures, client_goal_bullets, expertise, client_technologies, related_titles, specs, tags, image_full } = frontmatter
   const { edges } = allMarkdownRemark
 
   const specsList = _.map(specs, (spec, index) => (
@@ -35,7 +35,15 @@ export default function Template({ data, location }) {
     </div>
   ))
 
+  const technologiesList = client_technologies.map((technology) => (
+    <li>{technology}</li>
+  ))
+
   const clientGoalBullets = client_goal_bullets.map((bullet) => (
+    <li>{bullet}</li>
+  ))
+
+  const expertiseBullets = expertise.map((bullet) => (
     <li>{bullet}</li>
   ))
 
@@ -62,14 +70,38 @@ export default function Template({ data, location }) {
       </div>
 
       <div className="text-container section">
+
         <h3>The Challenge</h3>
         <p>{frontmatter.challenge_text}</p>
         <h5>Client Goal</h5>
         <p>{frontmatter.client_goal_text}</p>
         <ul>{clientGoalBullets}</ul>
-      </div>
 
-      <ImageSlider images={images} />
+        <h3>Expertise</h3>
+      
+        <section className="usa-grid">
+  
+          <div className="two-col">
+            <ul>{expertiseBullets}</ul>
+          </div>
+  
+          <div className="two-col off-color list-box">
+            <h5>Technologies Used</h5>
+            <ul className="checkmark-list">
+              <li>&ensp;Figma</li>
+              <li>&ensp;Whimsical</li>
+              <li>&ensp;Mural</li>
+            </ul>
+          </div>
+  
+        </section>
+
+        <h3>Our Approach</h3>
+
+      </div>
+        
+      <ImageSlider images={image_full} />
+
       <div className="text-container section">
         <div
           className="case-study-text"
@@ -102,10 +134,12 @@ export const newStudyQuery = graphql`
         challenge_text
         client_goal_text
         client_goal_bullets
+        expertise
+        client_technologies
         related_titles
         tags
         specs
-        images {
+        image_full {
           caption
           alt
           url {
