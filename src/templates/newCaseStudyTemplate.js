@@ -91,9 +91,7 @@ export default function Template({ data, location }) {
           <div className="two-col off-color list-box">
             <h5>Technologies Used</h5>
             <ul className="checkmark-list">
-              <li>&ensp;Figma</li>
-              <li>&ensp;Whimsical</li>
-              <li>&ensp;Mural</li>
+              {technologiesList}
             </ul>
           </div>
         </section>
