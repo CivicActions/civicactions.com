@@ -12,7 +12,7 @@ import Blockquote from "./../components/atoms/Blockquote"
 export default function Template({ data, location }) {
   const { markdownRemark, allMarkdownRemark } = data
   const { frontmatter, html } = markdownRemark
-  const { related_titles, specs, tags, images } = frontmatter
+  const { figures, client_goal_bullets, related_titles, specs, tags, images } = frontmatter
   const { edges } = allMarkdownRemark
 
   const specsList = _.map(specs, (spec, index) => (
@@ -28,6 +28,17 @@ export default function Template({ data, location }) {
     </button>
   ))
 
+  const figuresList = figures.map((figure) => (
+    <div>
+      <header>{figure.header}</header>
+      <p>{figure.text}</p>
+    </div>
+  ))
+
+  const clientGoalBullets = client_goal_bullets.map((bullet) => (
+    <li>{bullet}</li>
+  ))
+
   return (
     <GeneralLayout
       heroTitle={frontmatter.title}
@@ -40,19 +51,24 @@ export default function Template({ data, location }) {
       path={frontmatter.path}
       urlObject={location}
     >
-      <div className="section__specs section">
 
+      <div className="section__specs section">
         <section className="usa-grid study text-container">
           <Blockquote quote={frontmatter.quote} quote_source={frontmatter.quote_source}/>
+          <figure>
+            {figuresList}
+          </figure>
         </section>
+      </div>
 
-      </div>
       <div className="text-container section">
-        <h3>Background</h3>
-        <h4> {frontmatter.background_section_title} </h4>
-        <p>{frontmatter.background_section} </p>
-        <p> {frontmatter.background_section_second} </p>
+        <h3>The Challenge</h3>
+        <p>{frontmatter.challenge_text}</p>
+        <h5>Client Goal</h5>
+        <p>{frontmatter.client_goal_text}</p>
+        <ul>{clientGoalBullets}</ul>
       </div>
+
       <ImageSlider images={images} />
       <div className="text-container section">
         <div
@@ -77,13 +93,15 @@ export const newStudyQuery = graphql`
         title
         quote
         quote_source
+        figures {
+          header
+          text
+        }
         client_name
-        partner
-        project
         website
-        background_section_title
-        background_section
-        background_section_second
+        challenge_text
+        client_goal_text
+        client_goal_bullets
         related_titles
         tags
         specs
