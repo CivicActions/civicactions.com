@@ -54,12 +54,11 @@ client_technologies:
 - Whimsical
 - Mural
 
-image_full:
-  - {
+image_full: {
   url: 'LINCS_1.jpg', 
   caption: '', 
   alt: 'Redesigned LINCS website on laptop and mobile'
-  }
+}
 
 tags: []
 

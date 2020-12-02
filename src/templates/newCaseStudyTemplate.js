@@ -3,6 +3,7 @@
 import React from "react"
 import _ from "lodash"
 import { graphql } from "gatsby"
+import Img from "gatsby-image"
 
 import GeneralLayout from "./../components/layouts/GeneralLayout"
 import ImageSlider from "./../components/organisms/ImageSlider"
@@ -90,14 +91,15 @@ export default function Template({ data, location }) {
 
           <div className="two-col off-color list-box">
             <h5>Technologies Used</h5>
-            <ul className="checkmark-list">
-              {technologiesList}
-            </ul>
+            <ul className="checkmark-list">{technologiesList}</ul>
           </div>
         </section>
 
         <h3>Our Approach</h3>
-        <img src={image_full[0].url} />
+        <Img
+          sizes={image_full.url.childImageSharp.fixed}
+          alt={image_full.alt}
+        />
       </div>
 
       <div className="text-container section">
