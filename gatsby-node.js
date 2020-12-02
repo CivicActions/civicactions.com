@@ -26,7 +26,9 @@ exports.createPages = ({ actions, graphql }) => {
   })
 
   const caseStudyTemplate = path.resolve(`src/templates/caseStudyTemplate.js`)
-  const newCaseStudyTemplate = path.resolve(`src/templates/newCaseStudyTemplate.js`)
+  const newCaseStudyTemplate = path.resolve(
+    `src/templates/newCaseStudyTemplate.js`
+  )
   const teamMemberTemplate = path.resolve(`src/templates/teamMemberTemplate.js`)
   const generalTemplate = path.resolve(`src/templates/generalTemplate.js`)
   const pressSubPageTemplate = path.resolve(

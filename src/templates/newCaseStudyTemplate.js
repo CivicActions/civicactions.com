@@ -12,7 +12,16 @@ import Blockquote from "./../components/atoms/Blockquote"
 export default function Template({ data, location }) {
   const { markdownRemark, allMarkdownRemark } = data
   const { frontmatter, html } = markdownRemark
-  const { figures, client_goal_bullets, expertise, client_technologies, related_titles, specs, tags, image_full } = frontmatter
+  const {
+    figures,
+    client_goal_bullets,
+    expertise,
+    client_technologies,
+    related_titles,
+    specs,
+    tags,
+    image_full,
+  } = frontmatter
   const { edges } = allMarkdownRemark
 
   const specsList = _.map(specs, (spec, index) => (
@@ -28,24 +37,20 @@ export default function Template({ data, location }) {
     </button>
   ))
 
-  const figuresList = figures.map((figure) => (
+  const figuresList = figures.map(figure => (
     <div>
       <header>{figure.header}</header>
       <p>{figure.text}</p>
     </div>
   ))
 
-  const technologiesList = client_technologies.map((technology) => (
+  const technologiesList = client_technologies.map(technology => (
     <li>{technology}</li>
   ))
 
-  const clientGoalBullets = client_goal_bullets.map((bullet) => (
-    <li>{bullet}</li>
-  ))
+  const clientGoalBullets = client_goal_bullets.map(bullet => <li>{bullet}</li>)
 
-  const expertiseBullets = expertise.map((bullet) => (
-    <li>{bullet}</li>
-  ))
+  const expertiseBullets = expertise.map(bullet => <li>{bullet}</li>)
 
   return (
     <GeneralLayout
@@ -59,18 +64,17 @@ export default function Template({ data, location }) {
       path={frontmatter.path}
       urlObject={location}
     >
-
       <div className="section__specs section">
         <section className="usa-grid study text-container">
-          <Blockquote quote={frontmatter.quote} quote_source={frontmatter.quote_source}/>
-          <figure>
-            {figuresList}
-          </figure>
+          <Blockquote
+            quote={frontmatter.quote}
+            quote_source={frontmatter.quote_source}
+          />
+          <figure>{figuresList}</figure>
         </section>
       </div>
 
       <div className="text-container section">
-
         <h3>The Challenge</h3>
         <p>{frontmatter.challenge_text}</p>
         <h5>Client Goal</h5>
@@ -78,13 +82,12 @@ export default function Template({ data, location }) {
         <ul>{clientGoalBullets}</ul>
 
         <h3>Expertise</h3>
-      
+
         <section className="usa-grid">
-  
           <div className="two-col">
             <ul>{expertiseBullets}</ul>
           </div>
-  
+
           <div className="two-col off-color list-box">
             <h5>Technologies Used</h5>
             <ul className="checkmark-list">
@@ -93,14 +96,11 @@ export default function Template({ data, location }) {
               <li>&ensp;Mural</li>
             </ul>
           </div>
-  
         </section>
 
         <h3>Our Approach</h3>
-
+        <img src={image_full[0].url} />
       </div>
-        
-      <ImageSlider images={image_full} />
 
       <div className="text-container section">
         <div

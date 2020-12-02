@@ -60,21 +60,6 @@ image_full:
   caption: '', 
   alt: 'Redesigned LINCS website on laptop and mobile'
   }
-  - {
-  url: 'LINCS_2.jpg', 
-  caption: 'Educators participate in discussions using the LINCS community portal.', 
-  alt: 'LINCS community portal'
-  }
-  - {
-  url: 'LINCS_3.jpg', 
-  caption: 'Talking to the LINCS team about user needs during discovery.', 
-  alt: 'CivicActions meets with LINCS team and partners'
-  }
-  - {
-  url: 'LINCS_4.jpg', 
-  caption: 'We provide friendly helpdesk support to the LINCS community.', 
-  alt: 'Types of support provided by CivicActions'
-  }
 
 tags: []
 
