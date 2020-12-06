@@ -18,6 +18,7 @@ export default function Template({ data, location }) {
     client_goal_bullets,
     expertise,
     client_technologies,
+    approach_text,
     related_titles,
     specs,
     tags,
@@ -46,7 +47,7 @@ export default function Template({ data, location }) {
   ))
 
   const technologiesList = client_technologies.map(technology => (
-    <li>{technology}</li>
+    <li>&ensp;{technology}</li>
   ))
 
   const clientGoalBullets = client_goal_bullets.map(bullet => <li>{bullet}</li>)
@@ -96,10 +97,26 @@ export default function Template({ data, location }) {
         </section>
 
         <h3>Our Approach</h3>
-        <Img
-          sizes={image_full.url.childImageSharp.fixed}
-          alt={image_full.alt}
-        />
+        <div className="hero__image">
+          <Img
+            sizes={image_full.url.childImageSharp.fluid}
+            alt={image_full.alt}
+          />
+        </div>
+        <p>{approach_text}</p>
+
+        <section className="usa-grid">
+        
+          <div className="two-thirds">
+            foo
+          </div>
+
+          <div className="one-third">
+            bar
+          </div>
+
+        </section>
+
       </div>
 
       <div className="text-container section">
@@ -139,13 +156,14 @@ export const newStudyQuery = graphql`
         related_titles
         tags
         specs
+        approach_text
         image_full {
           caption
           alt
           url {
             childImageSharp {
-              fixed(width: 1400, height: 788) {
-                ...GatsbyImageSharpFixed_withWebp_noBase64
+              fluid(maxHeight: 1400) {
+                ...GatsbyImageSharpFluid_withWebp_noBase64
               }
             }
           }

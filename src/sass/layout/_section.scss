@@ -485,6 +485,18 @@
   }
 }
 
+.two-thirds {
+  @include media($medium-screen) {
+      @include span-columns(2 of 3);
+  }
+}
+
+.one-third {
+  @include media($medium-screen) {
+      @include span-columns(1 of 3);
+  }
+}
+
 .off-color {
   background-color: $neutral;
 }

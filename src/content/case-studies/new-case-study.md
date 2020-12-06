@@ -60,6 +60,8 @@ image_full: {
   alt: 'Redesigned LINCS website on laptop and mobile'
 }
 
+approach_text: "Rationale behind the process goes here. The Department of Education needed help consolidating and updating the collection of websites for the Literacy and Information Communication System (LINCS), which supports adult education practitioners in their goal of helping adult learners transition secondary education and 21st-century jobs."
+
 tags: []
 
 related_titles:
