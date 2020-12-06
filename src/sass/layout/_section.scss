@@ -479,21 +479,21 @@
   }
 }
 
-.two-col {
+.one-half {
   @include media($medium-screen) {
       @include span-columns(1 of 2);
   }
 }
 
-.two-thirds {
+.seven-twelfths {
   @include media($medium-screen) {
-      @include span-columns(2 of 3);
+      @include span-columns(7);
   }
 }
 
-.one-third {
+.five-twelfths {
   @include media($medium-screen) {
-      @include span-columns(1 of 3);
+      @include span-columns(5);
   }
 }
 
@@ -510,4 +510,17 @@
   li:before {
     content: '✓';
   }
+}
+
+.fluid {
+  padding: 0;
+  margin: 0;
+}
+
+.approach-section {
+  
+  h3 {
+    margin-bottom: 0;
+  }
+
 }

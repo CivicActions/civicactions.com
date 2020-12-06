@@ -9,6 +9,7 @@ import GeneralLayout from "./../components/layouts/GeneralLayout"
 import ImageSlider from "./../components/organisms/ImageSlider"
 import RelatedByTitle from "./../components/RelatedByTitle"
 import Blockquote from "./../components/atoms/Blockquote"
+import IconParagraphsGroup from "./../components/organisms/IconParagraphsGroup"
 
 export default function Template({ data, location }) {
   const { markdownRemark, allMarkdownRemark } = data
@@ -22,7 +23,10 @@ export default function Template({ data, location }) {
     related_titles,
     specs,
     tags,
-    image_full,
+    approach_image,
+    approach_sections,
+    outcome_text,
+    outcomes
   } = frontmatter
   const { edges } = allMarkdownRemark
 
@@ -53,6 +57,26 @@ export default function Template({ data, location }) {
   const clientGoalBullets = client_goal_bullets.map(bullet => <li>{bullet}</li>)
 
   const expertiseBullets = expertise.map(bullet => <li>{bullet}</li>)
+
+  const approachSection = approach_sections.map((section, index) => (
+
+    <div>
+      <div className="seven-twelfths">
+        <h3>0{index + 1}</h3>
+        <h5>{section.title}</h5>
+        <p>
+          {section.text}
+        </p>
+      </div>
+
+      <div className="five-twelfths">
+        <Img
+          sizes={section.image.childImageSharp.fluid}
+        />
+      </div>
+    </div>
+  ))
+
 
   return (
     <GeneralLayout
@@ -86,11 +110,11 @@ export default function Template({ data, location }) {
         <h3>Expertise</h3>
 
         <section className="usa-grid">
-          <div className="two-col">
+          <div className="one-half">
             <ul>{expertiseBullets}</ul>
           </div>
 
-          <div className="two-col off-color list-box">
+          <div className="one-half off-color list-box">
             <h5>Technologies Used</h5>
             <ul className="checkmark-list">{technologiesList}</ul>
           </div>
@@ -99,25 +123,26 @@ export default function Template({ data, location }) {
         <h3>Our Approach</h3>
         <div className="hero__image">
           <Img
-            sizes={image_full.url.childImageSharp.fluid}
-            alt={image_full.alt}
+            sizes={approach_image.url.childImageSharp.fluid}
+            alt={approach_image.alt}
           />
         </div>
         <p>{approach_text}</p>
 
-        <section className="usa-grid">
-        
-          <div className="two-thirds">
-            foo
-          </div>
-
-          <div className="one-third">
-            bar
-          </div>
-
+        <section className="usa-grid fluid approach-section">
+          {approachSection}
         </section>
 
       </div>
+
+      <div className="text-container section">
+        <h3>Key Outcomes</h3>
+        <p>{outcome_text}</p>
+      </div>
+
+      <section className="usa-grid">
+        <IconParagraphsGroup icons={outcomes}/>
+      </section>
 
       <div className="text-container section">
         <div
@@ -157,7 +182,7 @@ export const newStudyQuery = graphql`
         tags
         specs
         approach_text
-        image_full {
+        approach_image {
           caption
           alt
           url {
@@ -166,6 +191,25 @@ export const newStudyQuery = graphql`
                 ...GatsbyImageSharpFluid_withWebp_noBase64
               }
             }
+          }
+        }
+        approach_sections {
+          title
+          text
+          image {
+            childImageSharp {
+              fluid(maxHeight: 1400) {
+                ...GatsbyImageSharpFluid_withWebp_noBase64
+              }
+            }
+          }
+        }
+        outcome_text
+        outcomes {
+          title
+          caption
+          icon {
+            publicURL
           }
         }
       }

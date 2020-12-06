@@ -54,13 +54,64 @@ client_technologies:
 - Whimsical
 - Mural
 
-image_full: {
+approach_image: {
   url: 'LINCS_1.jpg', 
   caption: '', 
   alt: 'Redesigned LINCS website on laptop and mobile'
 }
 
 approach_text: "Rationale behind the process goes here. The Department of Education needed help consolidating and updating the collection of websites for the Literacy and Information Communication System (LINCS), which supports adult education practitioners in their goal of helping adult learners transition secondary education and 21st-century jobs."
+
+approach_sections:
+- {
+    title: "Discovery",
+    text: "The Department of Education needed help consolidating and updating the collection of websites for the Literacy and Information Communication System (LINCS), which supports adult education practitioners in their goal of helping adult learners transition to post-secondary education and 21st-century jobs.",
+    image: "LINCS_2.jpg"
+}
+- {
+    title: "Research",
+    text: "The Department of Education needed help consolidating and updating the collection of websites for the Literacy and Information Communication System (LINCS), which supports adult education practitioners in their goal of helping adult learners transition to post-secondary education and 21st-century jobs.",
+    image: "LINCS_3.jpg"
+}
+- {
+    title: "Build",
+    text: "The Department of Education needed help consolidating and updating the collection of websites for the Literacy and Information Communication System (LINCS), which supports adult education practitioners in their goal of helping adult learners transition to post-secondary education and 21st-century jobs.",
+    image: "LINCS_4.jpg"
+}
+
+outcome_text: "The Department of Education needed help consolidating and updating the collection of websites for the Literacy and Information Communication System (LINCS)."
+
+outcomes:
+  - {
+  icon: ../icons/training.svg,
+  title: Modernized and consolidated systems,
+  caption: 'We used U.S. Web Design Standards to make the new LINCS sites easy to navigate and mobile friendly. The streamlined design allows educators to quickly find the courses and resources they need.', 
+  }
+  - {
+  icon: ../icons/training.svg,
+  title: Modernized and consolidated systems,
+  caption: 'We used U.S. Web Design Standards to make the new LINCS sites easy to navigate and mobile friendly. The streamlined design allows educators to quickly find the courses and resources they need.', 
+  }
+  - {
+  icon: ../icons/training.svg,
+  title: Modernized and consolidated systems,
+  caption: 'We used U.S. Web Design Standards to make the new LINCS sites easy to navigate and mobile friendly. The streamlined design allows educators to quickly find the courses and resources they need.', 
+  }
+  - {
+  icon: ../icons/training.svg,
+  title: Modernized and consolidated systems,
+  caption: 'We used U.S. Web Design Standards to make the new LINCS sites easy to navigate and mobile friendly. The streamlined design allows educators to quickly find the courses and resources they need.', 
+  }
+  - {
+  icon: ../icons/training.svg,
+  title: Modernized and consolidated systems,
+  caption: 'We used U.S. Web Design Standards to make the new LINCS sites easy to navigate and mobile friendly. The streamlined design allows educators to quickly find the courses and resources they need.', 
+  }
+  - {
+  icon: ../icons/training.svg,
+  title: Modernized and consolidated systems,
+  caption: 'We used U.S. Web Design Standards to make the new LINCS sites easy to navigate and mobile friendly. The streamlined design allows educators to quickly find the courses and resources they need.', 
+  }
 
 tags: []
 
