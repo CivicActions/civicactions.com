@@ -26,7 +26,7 @@ export default function Template({ data, location }) {
     approach_image,
     approach_sections,
     outcome_text,
-    outcomes
+    outcomes,
   } = frontmatter
   const { edges } = allMarkdownRemark
 
@@ -59,24 +59,18 @@ export default function Template({ data, location }) {
   const expertiseBullets = expertise.map(bullet => <li>{bullet}</li>)
 
   const approachSection = approach_sections.map((section, index) => (
-
     <div>
       <div className="seven-twelfths">
         <h3>0{index + 1}</h3>
         <h5>{section.title}</h5>
-        <p>
-          {section.text}
-        </p>
+        <p>{section.text}</p>
       </div>
 
       <div className="five-twelfths">
-        <Img
-          sizes={section.image.childImageSharp.fluid}
-        />
+        <Img sizes={section.image.childImageSharp.fluid} />
       </div>
     </div>
   ))
-
 
   return (
     <GeneralLayout
@@ -132,7 +126,6 @@ export default function Template({ data, location }) {
         <section className="usa-grid fluid approach-section">
           {approachSection}
         </section>
-
       </div>
 
       <div className="text-container section">
@@ -141,7 +134,7 @@ export default function Template({ data, location }) {
       </div>
 
       <section className="usa-grid">
-        <IconParagraphsGroup icons={outcomes}/>
+        <IconParagraphsGroup icons={outcomes} />
       </section>
 
       <div className="text-container section">
