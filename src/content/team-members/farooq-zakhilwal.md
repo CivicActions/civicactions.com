@@ -15,6 +15,7 @@ social:
   name: LinkedIn,
   url: https://www.linkedin.com/in/farooq-zakhilwal-31b13150/
   }
+
 specialties: [ "People Empowerment",
 Business Development,
 Content Creation,
