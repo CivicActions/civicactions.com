@@ -19,6 +19,7 @@ social:
   name: Portfolio,
   url: https://dribbble.com/mikang
   }
+
 specialties: [ "Product Definition",
 Prototyping,
 Navigating Ambiguity,
