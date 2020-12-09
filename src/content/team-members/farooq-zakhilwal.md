@@ -21,7 +21,7 @@ Business Development,
 Content Creation,
 Coffee Snobbery
 ]
-  
+ 
 ---
 
 ### More about Farooq
