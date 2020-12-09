@@ -15,6 +15,7 @@ social:
   name: LinkedIn,
   url: https://www.linkedin.com/in/keith-kawasaki-137b8828/
   }
+
 specialties: [ "Government Contracting",
 Creating Connections,
 Cutting Clutter ,
