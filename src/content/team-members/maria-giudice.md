@@ -23,6 +23,7 @@ social:
   name: Medium,
   url: https://medium.com/rise-of-the-deo
   }
+
 specialties: [ "Design & Business Leadership",
 Identifying Passions,
 Captivating Audiences,
