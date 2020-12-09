@@ -27,6 +27,7 @@ social:
   name: Website,
   url: http://www.jenniferaube.com/
   }
+
 specialties: [ "Drupal 8",
 Full-Stack,
 Accessibility,
