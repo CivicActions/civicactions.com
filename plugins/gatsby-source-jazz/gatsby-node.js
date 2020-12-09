@@ -2,6 +2,27 @@ const axios = require('axios');
 const crypto = require('crypto');
 const _ = require(`lodash`);
 
+exports.createSchemaCustomization = ({ actions }) => {
+  const { createTypes } = actions
+
+  createTypes(`
+    type Job implements Node {
+      id: String
+      title: String
+      country: Int
+      city: String
+      state: String
+      zip: Int
+      department: String
+      description: String
+      open_date: String
+      type: String
+      status: String
+      board_code: String
+    }
+  `)
+}
+
 exports.sourceNodes = async({ actions }) => {
   const {createNode} = actions;
 
