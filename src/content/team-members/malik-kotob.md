@@ -23,6 +23,7 @@ social:
   name: Drupal,
   url: https://www.drupal.org/u/malikkotob
   }
+
 specialties: [ "Drupal Architecture",
 Curiosity,
 Mentoring & Listening,
