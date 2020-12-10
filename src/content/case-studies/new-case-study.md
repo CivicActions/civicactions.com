@@ -79,6 +79,8 @@ approach_sections:
     image: "LINCS_4.jpg"
 }
 
+approach_index: false
+
 outcome_text: "The Department of Education needed help consolidating and updating the collection of websites for the Literacy and Information Communication System (LINCS)."
 
 outcomes:

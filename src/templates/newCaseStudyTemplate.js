@@ -25,6 +25,7 @@ export default function Template({ data, location }) {
     tags,
     approach_image,
     approach_sections,
+    approach_index,
     outcome_text,
     outcomes,
   } = frontmatter
@@ -59,14 +60,14 @@ export default function Template({ data, location }) {
   const expertiseBullets = expertise.map(bullet => <li>{bullet}</li>)
 
   const approachSection = approach_sections.map((section, index) => (
-    <div>
+    <div className="approach-row">
       <div className="seven-twelfths">
-        <h3>0{index + 1}</h3>
+        {approach_index && <h3>0{index + 1}</h3>}
         <h5>{section.title}</h5>
         <p>{section.text}</p>
       </div>
 
-      <div className="five-twelfths">
+      <div className="five-twelfths hero__image">
         <Img sizes={section.image.childImageSharp.fluid} />
       </div>
     </div>
@@ -85,26 +86,26 @@ export default function Template({ data, location }) {
       urlObject={location}
     >
       <div className="section__specs section">
-        <section className="usa-grid study text-container">
+        <section className="usa-grid study wide-container">
           <Blockquote
             quote={frontmatter.quote}
             quote_source={frontmatter.quote_source}
+            quote_class="new-blockquote"
           />
           <figure>{figuresList}</figure>
         </section>
       </div>
 
-      <div className="text-container section">
+      <div className="wide-container section">
         <h3>The Challenge</h3>
         <p>{frontmatter.challenge_text}</p>
         <h5>Client Goal</h5>
         <p>{frontmatter.client_goal_text}</p>
         <ul>{clientGoalBullets}</ul>
 
-        <h3>Expertise</h3>
-
-        <section className="usa-grid">
-          <div className="one-half">
+        <section className="usa-grid grid-section">
+          <div className="one-half off-color list-box">
+            <h5>Expertise</h5>
             <ul>{expertiseBullets}</ul>
           </div>
 
@@ -115,7 +116,7 @@ export default function Template({ data, location }) {
         </section>
 
         <h3>Our Approach</h3>
-        <div className="hero__image">
+        <div className="hero__image study-hero">
           <Img
             sizes={approach_image.url.childImageSharp.fluid}
             alt={approach_image.alt}
@@ -128,16 +129,18 @@ export default function Template({ data, location }) {
         </section>
       </div>
 
-      <div className="text-container section">
-        <h3>Key Outcomes</h3>
-        <p>{outcome_text}</p>
+      <div class="off-color outcomes-section">
+        <div className="wide-container section">
+          <h3>Key Outcomes</h3>
+          <p>{outcome_text}</p>
+        </div>
+
+        <section className="wide-container usa-grid">
+          <IconParagraphsGroup icons={outcomes} />
+        </section>
       </div>
 
-      <section className="usa-grid">
-        <IconParagraphsGroup icons={outcomes} />
-      </section>
-
-      <div className="text-container section">
+      <div className="wide-container section">
         <div
           className="case-study-text"
           dangerouslySetInnerHTML={{ __html: html }}
@@ -197,6 +200,7 @@ export const newStudyQuery = graphql`
             }
           }
         }
+        approach_index
         outcome_text
         outcomes {
           title

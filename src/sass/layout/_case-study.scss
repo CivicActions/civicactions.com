@@ -44,6 +44,13 @@
     }
   }
 
+  .new-blockquote > blockquote {
+
+    cite {
+      margin-top: 1rem;
+    }
+  }
+
   figure {
     padding: 0;
     margin: 0;
@@ -56,6 +63,14 @@
       font-size: $small-font-size;
     }
   }
+}
+
+.grid-section {
+  margin-top: $section-margin
+}  
+
+.study-hero {
+  margin-bottom: 3rem;
 }
 
 .case-study-text {
