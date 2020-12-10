@@ -88,7 +88,9 @@ class Careers extends React.Component {
               <ul className="teaser--wrapper">{jobs}</ul>
             ) : (
               <div className="teaser--wrapper">
-                <h4>No positions are currently open. Please check back again soon!</h4>
+                <h4>
+                  No positions are currently open. Please check back again soon!
+                </h4>
               </div>
             )}
           </div>
