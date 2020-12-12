@@ -71,6 +71,10 @@
 
 .study-hero {
   margin-bottom: 3rem;
+
+  .slide__caption {
+    width: 100%;
+  }
 }
 
 .case-study-text {
@@ -80,4 +84,8 @@
       margin-top: $cite-margin;
     }
   }
+}
+
+.outcomes-section > .section {
+  margin-bottom: 0px;
 }

@@ -56,7 +56,7 @@ client_technologies:
 
 approach_image: {
   url: 'LINCS_1.jpg', 
-  caption: '', 
+  caption: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec eros eros, efficitur ac libero in, venenatis efficitur libero. Vivamus ullamcorper non nisl eget faucibus.', 
   alt: 'Redesigned LINCS website on laptop and mobile'
 }
 
@@ -66,17 +66,29 @@ approach_sections:
 - {
     title: "Discovery",
     text: "The Department of Education needed help consolidating and updating the collection of websites for the Literacy and Information Communication System (LINCS), which supports adult education practitioners in their goal of helping adult learners transition to post-secondary education and 21st-century jobs.",
-    image: "LINCS_2.jpg"
+    image: {
+      url: "LINCS_2.jpg",
+      alt: "placeholder alt text",
+      caption: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec eros eros, efficitur ac libero in, venenatis efficitur libero."
+    }
 }
 - {
     title: "Research",
     text: "The Department of Education needed help consolidating and updating the collection of websites for the Literacy and Information Communication System (LINCS), which supports adult education practitioners in their goal of helping adult learners transition to post-secondary education and 21st-century jobs.",
-    image: "LINCS_3.jpg"
+    image: {
+      url: "LINCS_3.jpg",
+      alt: "placeholder alt text",
+      caption: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec eros eros, efficitur ac libero in, venenatis efficitur libero."
+    }
 }
 - {
     title: "Build",
     text: "The Department of Education needed help consolidating and updating the collection of websites for the Literacy and Information Communication System (LINCS), which supports adult education practitioners in their goal of helping adult learners transition to post-secondary education and 21st-century jobs.",
-    image: "LINCS_4.jpg"
+    image: {
+      url: "LINCS_4.jpg",
+      alt: "placeholder alt text",
+      caption: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec eros eros, efficitur ac libero in, venenatis efficitur libero."
+    }
 }
 
 approach_index: false

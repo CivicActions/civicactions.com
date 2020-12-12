@@ -6,7 +6,7 @@ import { graphql } from "gatsby"
 import Img from "gatsby-image"
 
 import GeneralLayout from "./../components/layouts/GeneralLayout"
-import ImageSlider from "./../components/organisms/ImageSlider"
+import SlideImage from "./../components/SlideImage"
 import RelatedByTitle from "./../components/RelatedByTitle"
 import Blockquote from "./../components/atoms/Blockquote"
 import IconParagraphsGroup from "./../components/organisms/IconParagraphsGroup"
@@ -68,7 +68,8 @@ export default function Template({ data, location }) {
       </div>
 
       <div className="five-twelfths hero__image">
-        <Img sizes={section.image.childImageSharp.fluid} />
+        <Img sizes={section.image.url.childImageSharp.fluid} />
+        <div className="slide__caption">{section.image.caption}</div>
       </div>
     </div>
   ))
@@ -117,10 +118,8 @@ export default function Template({ data, location }) {
 
         <h3>Our Approach</h3>
         <div className="hero__image study-hero">
-          <Img
-            sizes={approach_image.url.childImageSharp.fluid}
-            alt={approach_image.alt}
-          />
+          <Img sizes={approach_image.url.childImageSharp.fluid} alt={approach_image.alt} />
+          <div className="slide__caption">{approach_image.caption}</div>
         </div>
         <p>{approach_text}</p>
 
@@ -193,9 +192,13 @@ export const newStudyQuery = graphql`
           title
           text
           image {
-            childImageSharp {
-              fluid(maxHeight: 1400) {
-                ...GatsbyImageSharpFluid_withWebp_noBase64
+            caption
+            alt
+            url {
+              childImageSharp {
+                fluid(maxHeight: 1400) {
+                  ...GatsbyImageSharpFluid_withWebp_noBase64
+                }
               }
             }
           }
