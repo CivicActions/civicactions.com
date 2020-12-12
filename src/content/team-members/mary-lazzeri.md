@@ -32,7 +32,7 @@ Feminist Mom
 ---
 
 ### More about Mary
-* Believes ["fierce openness"](https://medium.com/civicactions/what-fierce-openness-can-do-for-government-b67749bfb328) will help all of us get more good work done
+* Believes ["fierce openness"](https://medium.com/civicactions/what-fierce-openness-can-do-for-government-dd1d3ed518af) will help all of us get more good work done
 * Has [opinions](https://squeeze.isobar.com/2020/01/29/acronymization-and-inclusion-and-robin-williams/) about the overuse of acronyms by public sector entities
 * Proud U.S. Digital Service and Federal gov alumnus
 * Advocate of [HTTPS Everywhere](https://https.cio.gov/), [open data](https://medium.com/defense-digital-service/data-mil-an-experiment-in-defense-open-data-259f58bcaafb), and [bug bounties](https://techcrunch.com/2016/04/10/uncle-sam-wants-you-to-hack-the-pentagon/) in government

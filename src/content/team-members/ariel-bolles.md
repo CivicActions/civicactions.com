@@ -24,7 +24,7 @@ Jam Sessions
 ---
 
 ### More about Ariel
-* Helping government staff love their CMS
+* Helps government staff love their CMS
 * Built flexible content systems for insurance, finance, and mobility data industries (until landing heart-first in mission driven work)
 * Makes sense out of ambiguity through “ruthless pragmatism”
 * Unreasonably in love with her [‘85 Toyota Tercel wagon](https://jalopnik.com/1985-toyota-tercel-4wd-wagon-340958)
