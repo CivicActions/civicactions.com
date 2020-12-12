@@ -118,7 +118,10 @@ export default function Template({ data, location }) {
 
         <h3>Our Approach</h3>
         <div className="hero__image study-hero">
-          <Img sizes={approach_image.url.childImageSharp.fluid} alt={approach_image.alt} />
+          <Img
+            sizes={approach_image.url.childImageSharp.fluid}
+            alt={approach_image.alt}
+          />
           <div className="slide__caption">{approach_image.caption}</div>
         </div>
         <p>{approach_text}</p>
