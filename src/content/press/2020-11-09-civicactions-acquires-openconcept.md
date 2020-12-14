@@ -21,7 +21,7 @@ Visit the company blog to read more about how CivicActions is [improving governm
 
 ###
 
-**Contact** 
+**Contact**  
 Marlena Medford, Marketing & Content Strategist  
 214.697.3123, marlena.medford@civicactions.com
 
