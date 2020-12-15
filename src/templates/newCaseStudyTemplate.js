@@ -87,23 +87,27 @@ export default function Template({ data, location }) {
       urlObject={location}
     >
       <div className="section__specs section">
-        <section className="usa-grid study wide-container">
+        <section className="usa-grid study text-container">
           <Blockquote
             quote={frontmatter.quote}
             quote_source={frontmatter.quote_source}
             quote_class="new-blockquote"
           />
+        </section>
+        <section className="usa-grid wide-container">
           <figure>{figuresList}</figure>
         </section>
       </div>
 
-      <div className="wide-container section">
+      <div className="text-container section">
         <h3>The Challenge</h3>
         <p>{frontmatter.challenge_text}</p>
         <h5>Client Goal</h5>
         <p>{frontmatter.client_goal_text}</p>
         <ul>{clientGoalBullets}</ul>
+      </div>
 
+      <div className="wide-container">
         <section className="usa-grid grid-section">
           <div className="one-half off-color list-box">
             <h5>Expertise</h5>
@@ -111,11 +115,13 @@ export default function Template({ data, location }) {
           </div>
 
           <div className="one-half off-color list-box">
-            <h5>Technologies Used</h5>
-            <ul className="checkmark-list">{technologiesList}</ul>
+            <h5>Tools & Technologies</h5>
+            <ul>{technologiesList}</ul>
           </div>
         </section>
+      </div>
 
+      <div className="text-container">
         <h3>Our Approach</h3>
         <div className="hero__image study-hero">
           <Img
@@ -125,24 +131,22 @@ export default function Template({ data, location }) {
           <div className="slide__caption">{approach_image.caption}</div>
         </div>
         <p>{approach_text}</p>
+      </div>
 
+      <div className="wide-container">
         <section className="usa-grid fluid approach-section">
           {approachSection}
         </section>
       </div>
 
-      <div class="off-color outcomes-section">
-        <div className="wide-container section">
-          <h3>Key Outcomes</h3>
-          <p>{outcome_text}</p>
-        </div>
-
+      <div class="off-color outcomes-section wide-container">
+        <h3>Key Outcomes</h3>
         <section className="wide-container usa-grid">
           <IconParagraphsGroup icons={outcomes} />
         </section>
       </div>
 
-      <div className="wide-container section">
+      <div className="text-container section">
         <div
           className="case-study-text"
           dangerouslySetInnerHTML={{ __html: html }}
@@ -220,7 +224,10 @@ export const newStudyQuery = graphql`
 
     allMarkdownRemark(
       filter: {
-        frontmatter: { type: { eq: "new-case-study" }, path: { ne: $path } }
+        frontmatter: {
+          type: { in: ["case-study", "new-case-study"] }
+          path: { ne: $path }
+        }
       }
     ) {
       totalCount

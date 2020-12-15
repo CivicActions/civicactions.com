@@ -26,10 +26,6 @@ figures:
     header: "12,800",
     text: "members in the LINCS community of practice"
 }
-- {
-    header: "12",
-    text: "minutes average helpdesk ticket resolution time"
-}
 
 challenge_text: "The Department of Education wanted help consolidating and updating the collection of websites for the Literacy and Information Communication System (LINCS), which supports adult education practitioners."
 
@@ -134,3 +130,23 @@ related_titles:
 - Bringing free and open source software to government
 - Promoting public health with open data
 ---
+
+### Explore
+
+##### See the work  
+[VA Pittsburgh health care](https://www.va.gov/pittsburgh-health-care/) (the model for all future VA.gov content)
+
+##### Explore the impact  
+[VA’s announcement and feature list](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/facilities/medical-centers/comms/New-VAMC-website-flyer-2020-01-WEB.pdf)
+[NextGov: More Vets are taking advantage of digital services](https://www.nextgov.com/it-modernization/2019/11/more-vets-are-taking-advantage-digital-services-through-new-vagov/161190/)
+[VA Secretary Robert Wilkie introduces the new VA.gov](https://www.blogs.va.gov/VAntage/53898/secretary-wilkie-announces-redesigned-va-gov-built-input-veterans-better-meet-needs/)  
+[VA.gov performance dashboard](https://www.va.gov/performance-dashboard/)
+
+##### View the source code
+VA.gov [front-end](https://github.com/department-of-veterans-affairs/vets-website) and [back-end](https://github.com/department-of-veterans-affairs/va.gov-cms) repositories in GitHub
+
+##### Learn about VA’s modern procurement strategy
+[Comparative analysis case study](https://techfarhub.cio.gov/learning-center/case-studies/VA-gov-modernization-comparative-analysis)
+
+##### See how we improved the VA staff experience
+[Video: User research findings from CivicActions UX strategists](https://drive.google.com/file/d/1oV_FuBArq4gYlSJz0ZXf4WWJf3Z6iStu/view?usp=sharing)
