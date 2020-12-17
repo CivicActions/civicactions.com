@@ -6,49 +6,65 @@ type:  "new-case-study"
 preview_image: va-cms-preview.jpg
 promoted_to_front_page: yes
 
-client_name: "U.S. Department of Education"
-title: "Supporting and expanding adult Education"
+client_name: "Centers for Medicare and Medicaid Services"
+title: "Building an MVP for Medicare.gov with human centered design"
 website: ""
 
-quote: "CivicActions reduced the average helpdesk ticket resolution by 15 minutes per student and equipped adult education staff with the design principles and support to cut waste further."
-quote_source: "Happy Stakeholder"
+quote: "The Offeror’s Solutioning Exercise exceeded several requirements … This gives the Government confidence the Offeror will exceed most contract objectives as well. The overall rating for this factor is Excellent."
+quote_source: "CMS Design Challenge Selection Committee"
 
 figures:
 - {
-    header: "12,800",
-    text: "members in the LINCS community of practice"
+    header: "140 M",
+    text: "Americans relying on CMS programs"
 }
 - {
-    header: "12",
-    text: "minutes average helpdesk ticket resolution time"
+    header: "8",
+    text: "days to complete MVP design"
 }
 - {
-    header: "12,800",
-    text: "members in the LINCS community of practice"
+    header: "X",
+    text: "interesting thing to show impact"
 }
 
-challenge_text: "The Department of Education wanted help consolidating and updating the collection of websites for the Literacy and Information Communication System (LINCS), which supports adult education practitioners."
+challenge_text: !md |
+  The Centers for Medicare & Medicaid Services (CMS) help millions of people every year find and enroll in health care programs. Planning a large-scale web and content management project to improve the customer experience of their multiple websites, the agency launched a design challenge for the vendors that were finalists for the contract.
 
-client_goal_text: "Help adult learners transition to post-secondary education and 21st-century jobs through:"
+  We did a fast-paced collaboration with our partners [Fearless](https://fearless.tech/) and [KPMG](https://www.kpmg.us/) to submit deliverables in just 8 business days (including page designs, content recommendations, an API, and a clickable prototype with a smart chatbot). Our team won the challenge because the agency saw we could help them achieve their goal to better serve Medicare beneficiaries.
+
+client_goal_text: !md |
+  The task was to redesign the [Medicare Part D](https://www.medicare.gov/drug-coverage-part-d) section of the medicare.gov website, which helps people understand insurance options for their medication needs. For all their digital platforms, CMS needs to: 
+
 client_goal_bullets:
-- A secure, streamlined platform
-- Reliable, friendly support for users
-- Help resolving technical issues
+- Meet public expectation for easily navigable online services
+- Securely manage personal information and transactions for millions of beneficiaries
+- Provide friendly online experience for people facing stressful health situations
+- Serve diverse groups of users with competing wants and priorities
+- Support agency staff in publishing clear and accurate public-facing content
 
 expertise:
-- Discovery Workshops
-- User and Stakeholder Interviews
-- Persona Creation
-- Iterative Testing
-- Discovery Workshops
-- User and Stakeholder Interviews
-- Persona Creation
-- Iterative Testing
+- Agile Methodologies
+- User Research
+- Heuristic Evaluation
+- Persona & Scenario Design
+- Information Architecture
+- Content Strategy
+- Workflow & Interaction Design
+- Prototype Development & Testing
+- Visual Design
+- Mobile Optimization
+- API Design & Deployment
 
 client_technologies:
-- Figma
-- Whimsical
+- Sketch
+- Invision
 - Mural
+- Chatbot AI
+- Gitlab
+- Drupal
+- Pa11y
+- Solr
+- AWS Kubernetes
 
 approach_image: {
   url: 'LINCS_1.jpg', 
@@ -56,32 +72,19 @@ approach_image: {
   alt: 'Redesigned LINCS website on laptop and mobile'
 }
 
-approach_text: "Rationale behind the process goes here. The Department of Education needed help consolidating and updating the collection of websites for the Literacy and Information Communication System (LINCS), which supports adult education practitioners in their goal of helping adult learners transition secondary education and 21st-century jobs."
+approach_text: !md | 
+  Within the time constraint for this compressed agile design sprint, we conducted lean versions of the activities we would normally do to make sure the site was effective for Medicare recipients. Daily collaboration among all team members, from Design to DevOps to Developers, allowed us to quickly test and iterate on every step. 
+
+  We used [Drupal](https://www.drupal.org/industries/government) as our preferred open source platform and the [CMS design system](https://design.cms.gov/), which builds on the U.S. Web Design System. Together, these tools provide a solid foundation for accessible [government websites](https://medium.com/civicactions/4-ways-to-improve-government-accessibility-through-open-source-8e20fabc7281) — a key goal for agencies like CMS that serve diverse and aging populations.
+
+  Human Centered Design played a critical role in our process of building a site that would be intuitive and useful to older Americans seeking information about their drug coverage options.
 
 approach_sections:
 - {
     title: "Discovery",
-    text: "The Department of Education needed help consolidating and updating the collection of websites for the Literacy and Information Communication System (LINCS), which supports adult education practitioners in their goal of helping adult learners transition to post-secondary education and 21st-century jobs.",
+    text: "The Department of Education needed help consolidating and updating the collection of websites for the Literacy and Information Communication System (LINCS), which supports adult education practitioners in their goal of helping adult learners transition to post-secondary education and 21st-century jobs",
     image: {
       url: "LINCS_2.jpg",
-      alt: "placeholder alt text",
-      caption: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec eros eros, efficitur ac libero in, venenatis efficitur libero."
-    }
-}
-- {
-    title: "Research",
-    text: "The Department of Education needed help consolidating and updating the collection of websites for the Literacy and Information Communication System (LINCS), which supports adult education practitioners in their goal of helping adult learners transition to post-secondary education and 21st-century jobs.",
-    image: {
-      url: "LINCS_3.jpg",
-      alt: "placeholder alt text",
-      caption: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec eros eros, efficitur ac libero in, venenatis efficitur libero."
-    }
-}
-- {
-    title: "Build",
-    text: "The Department of Education needed help consolidating and updating the collection of websites for the Literacy and Information Communication System (LINCS), which supports adult education practitioners in their goal of helping adult learners transition to post-secondary education and 21st-century jobs.",
-    image: {
-      url: "LINCS_4.jpg",
       alt: "placeholder alt text",
       caption: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec eros eros, efficitur ac libero in, venenatis efficitur libero."
     }

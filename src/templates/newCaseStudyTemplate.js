@@ -52,7 +52,7 @@ export default function Template({ data, location }) {
   ))
 
   const technologiesList = client_technologies.map(technology => (
-    <li>&ensp;{technology}</li>
+    <li>{technology}</li>
   ))
 
   const clientGoalBullets = client_goal_bullets.map(bullet => <li>{bullet}</li>)
@@ -101,9 +101,9 @@ export default function Template({ data, location }) {
 
       <div className="text-container section">
         <h3>The Challenge</h3>
-        <p>{frontmatter.challenge_text}</p>
+        <div dangerouslySetInnerHTML={{ __html: frontmatter.challenge_text }} />
         <h5>Client Goal</h5>
-        <p>{frontmatter.client_goal_text}</p>
+        <div dangerouslySetInnerHTML={{ __html: frontmatter.client_goal_text }} />
         <ul>{clientGoalBullets}</ul>
       </div>
 
@@ -130,7 +130,7 @@ export default function Template({ data, location }) {
           />
           <div className="slide__caption">{approach_image.caption}</div>
         </div>
-        <p>{approach_text}</p>
+        <div dangerouslySetInnerHTML={{ __html: approach_text }} />
       </div>
 
       <div className="wide-container">
