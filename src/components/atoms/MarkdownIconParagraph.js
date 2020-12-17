@@ -22,7 +22,10 @@ const MarkdownIconParagraph = ({
     <div className={iconClass}>
       {image}
       <p className="iconparagraph__heading"> {icon_heading} </p>
-      <div className="iconparagraph__text" dangerouslySetInnerHTML={{ __html: icon_text }} />
+      <div
+        className="iconparagraph__text"
+        dangerouslySetInnerHTML={{ __html: icon_text }}
+      />
     </div>
   )
 }

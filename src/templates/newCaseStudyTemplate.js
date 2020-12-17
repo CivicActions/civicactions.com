@@ -103,7 +103,9 @@ export default function Template({ data, location }) {
         <h3>The Challenge</h3>
         <div dangerouslySetInnerHTML={{ __html: frontmatter.challenge_text }} />
         <h5>Client Goal</h5>
-        <div dangerouslySetInnerHTML={{ __html: frontmatter.client_goal_text }} />
+        <div
+          dangerouslySetInnerHTML={{ __html: frontmatter.client_goal_text }}
+        />
         <ul>{clientGoalBullets}</ul>
       </div>
 

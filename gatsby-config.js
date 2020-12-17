@@ -34,8 +34,8 @@ module.exports = {
     {
       resolve: `gatsby-transformer-remark`,
       options: {
-        engines: { yaml: require("./custom-yaml.js") }
-      }
+        engines: { yaml: require("./custom-yaml.js") },
+      },
     },
     `gatsby-remark-copy-linked-files`,
     `gatsby-transformer-sharp`,
