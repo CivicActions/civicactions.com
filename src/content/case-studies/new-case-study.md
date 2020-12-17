@@ -14,18 +14,12 @@ quote: "The Offeror’s Solutioning Exercise exceeded several requirements … T
 quote_source: "CMS Design Challenge Selection Committee"
 
 figures:
-- {
-    header: "140 M",
+  - header: "140 M"
     text: "Americans relying on CMS programs"
-}
-- {
-    header: "8",
+  - header: "8"
     text: "days to complete MVP design"
-}
-- {
-    header: "X",
+  - header: "X"
     text: "interesting thing to show impact"
-}
 
 challenge_text: !md |
   The Centers for Medicare & Medicaid Services (CMS) help millions of people every year find and enroll in health care programs. Planning a large-scale web and content management project to improve the customer experience of their multiple websites, the agency launched a design challenge for the vendors that were finalists for the contract.
@@ -66,65 +60,76 @@ client_technologies:
 - Solr
 - AWS Kubernetes
 
-approach_image: {
-  url: 'LINCS_1.jpg', 
-  caption: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec eros eros, efficitur ac libero in, venenatis efficitur libero. Vivamus ullamcorper non nisl eget faucibus.', 
-  alt: 'Redesigned LINCS website on laptop and mobile'
-}
+approach_image:
+  url: 'WECMS_DESIGN_featured.jpg' 
+  alt: 'Design mock-up for Medicare Part D'
+  caption: 'Our proposed design included a guidance wizard for personalized exploration of medical benefits.' 
 
 approach_text: !md | 
-  Within the time constraint for this compressed agile design sprint, we conducted lean versions of the activities we would normally do to make sure the site was effective for Medicare recipients. Daily collaboration among all team members, from Design to DevOps to Developers, allowed us to quickly test and iterate on every step. 
-
-  We used [Drupal](https://www.drupal.org/industries/government) as our preferred open source platform and the [CMS design system](https://design.cms.gov/), which builds on the U.S. Web Design System. Together, these tools provide a solid foundation for accessible [government websites](https://medium.com/civicactions/4-ways-to-improve-government-accessibility-through-open-source-8e20fabc7281) — a key goal for agencies like CMS that serve diverse and aging populations.
-
-  Human Centered Design played a critical role in our process of building a site that would be intuitive and useful to older Americans seeking information about their drug coverage options.
+  Within the time constraint for this compressed agile design sprint, we conducted lean versions of the activities we would normally do to make sure the site was effective for Medicare recipients. Daily collaboration among all team members, from Design to DevOps to Developers, allowed us to quickly test and iterate on every step.  We used [Drupal](https://www.drupal.org/industries/government) as our preferred open source platform and the [CMS design system](https://design.cms.gov/), which builds on the U.S. Web Design System. Together, these tools provide a solid foundation for accessible [government websites](https://medium.com/civicactions/4-ways-to-improve-government-accessibility-through-open-source-8e20fabc7281) — a key goal for agencies like CMS that serve diverse and aging populations.  Human Centered Design played a critical role in our process of building a site that would be intuitive and useful to older Americans seeking information about their drug coverage options.
 
 approach_sections:
-- {
-    title: "Discovery",
-    text: "The Department of Education needed help consolidating and updating the collection of websites for the Literacy and Information Communication System (LINCS), which supports adult education practitioners in their goal of helping adult learners transition to post-secondary education and 21st-century jobs",
-    image: {
-      url: "LINCS_2.jpg",
-      alt: "placeholder alt text",
-      caption: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec eros eros, efficitur ac libero in, venenatis efficitur libero."
-    }
-}
+
+  - title: "Understand the needs"
+    text: !md |
+      We talked to real Medicare beneficiaries to understand the challenges they faced in navigating the site. Based on what they said, we created a [key persona](https://drive.google.com/file/d/19f_pUBSrIRxDJdnvNa4uROiP_QwQKWoh/view?usp=sharing) to drive our scenario-based approach —  ensuring that our work solved real problems and created value for users. We also evaluated the existing site to see how well it met [standards for usability](https://www.nngroup.com/articles/ten-usability-heuristics/).
+    image: 
+      url: "WECMS_DESIGN_1.jpg"
+      alt: "Key persona example"
+      caption: 'Our key persona "Sam" reflected what real Medicare users think and feel as they use the site.'
+
+  - title: "Offer customized guidance"
+    text: !md |
+      To help visitors feel comfortable navigating complex information about benefits coverage, we created several experience options for them to choose from. They could explore the site on their own, use the guidance wizard, or ask questions of the interactive chat bot. We also improved the Search function to deliver more relevant results. 
+    image: 
+      url: "WECMS_DESIGN_2.jpg"
+      alt: "Graphic of user research results"
+      caption: "User research revealed what was working well and what could be improved."
+
+  - title: "Clear the path to success"
+    text: !md |
+      We focused on removing obstacles to help more people successfully find the information they needed. This was done through intuitive navigation and labels, scannable and actionable content, and a refreshed, accessible design. We tested our solutions with users and iterated based on their feedback.
+    image: 
+      url: "WECMS_DESIGN_3.jpg"
+      alt: "Diagram of the user journey through the website"
+      caption: "We focused on removing obstacles so beneficiaries could easily find impotant and relevant information."
 
 approach_index: false
 
 outcome_text: "The Department of Education needed help consolidating and updating the collection of websites for the Literacy and Information Communication System (LINCS)."
 
 outcomes:
-  - {
-  icon: ../icons/training.svg,
-  title: Modernized and consolidated systems,
-  caption: 'We used U.S. Web Design Standards to make the new LINCS sites easy to navigate and mobile friendly. The streamlined design allows educators to quickly find the courses and resources they need.', 
-  }
-  - {
-  icon: ../icons/training.svg,
-  title: Modernized and consolidated systems,
-  caption: 'We used U.S. Web Design Standards to make the new LINCS sites easy to navigate and mobile friendly. The streamlined design allows educators to quickly find the courses and resources they need.', 
-  }
-  - {
-  icon: ../icons/training.svg,
-  title: Modernized and consolidated systems,
-  caption: 'We used U.S. Web Design Standards to make the new LINCS sites easy to navigate and mobile friendly. The streamlined design allows educators to quickly find the courses and resources they need.', 
-  }
-  - {
-  icon: ../icons/training.svg,
-  title: Modernized and consolidated systems,
-  caption: 'We used U.S. Web Design Standards to make the new LINCS sites easy to navigate and mobile friendly. The streamlined design allows educators to quickly find the courses and resources they need.', 
-  }
-  - {
-  icon: ../icons/training.svg,
-  title: Modernized and consolidated systems,
-  caption: 'We used U.S. Web Design Standards to make the new LINCS sites easy to navigate and mobile friendly. The streamlined design allows educators to quickly find the courses and resources they need.', 
-  }
-  - {
-  icon: ../icons/training.svg,
-  title: Modernized and consolidated systems,
-  caption: 'We used U.S. Web Design Standards to make the new LINCS sites easy to navigate and mobile friendly. The streamlined design allows educators to quickly find the courses and resources they need.', 
-  }
+
+  - title: Research-based solution
+    icon: ../icons/training.svg
+    caption: !md |
+      Because we spoke to Medicare recipients and validated our proposed solutions with them, CMS knows that real user needs will be met with the redesigned site, helping people access benefits more easily. 
+
+  - title: Consistent online experience
+    icon: ../icons/training.svg
+    caption: !md |
+      Medicare.gov visitors deserve a consistent experience across all parts of the site, on any device. Our design uses a mobile-first approach and a color palette that provides smooth transitions between pages. 
+
+  - title: Accessible healthcare services
+    icon: ../icons/training.svg
+    caption: !md |
+      The prototype is compliant with [Section 508](https://www.section508.gov/blog/accessibility-news-the-section-508-Update), using intuitive design and clear language to make complex medical insurance information easily accessible by the broadest possible representation of the public. 
+
+  - title: Data to help others
+    icon: ../icons/training.svg
+    caption: !md |
+      Doctors, app developers, health information curators, and others can pull valuable Medicare data for their own use through the API integration we created using the JSON:API that is part of Drupal core.
+
+  - title: Simplified content management
+    icon: ../icons/training.svg
+    caption: !md |
+      The prototype showed how CMS staff can more easily get the right information to the right people using templates and workflows in Drupal, customized for the agency’s various departments and content needs. 
+
+  - title: Efficient and reliable technology
+    icon: ../icons/training.svg
+    caption: !md |
+      We built the prototype using the same Agile and DevOps practices that we would on a larger scale — with streamlined workflows that allow us to build, test, and deploy new code quickly and securely. 
+
 
 tags: []
 
@@ -136,20 +141,16 @@ related_titles:
 
 ### Explore
 
+Go behind-the-scenes with these resources and supplemental artifacts.
+
 ##### See the work  
 [VA Pittsburgh health care](https://www.va.gov/pittsburgh-health-care/) (the model for all future VA.gov content)
 
-##### Explore the impact  
-[VA’s announcement and feature list](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/facilities/medical-centers/comms/New-VAMC-website-flyer-2020-01-WEB.pdf)
-[NextGov: More Vets are taking advantage of digital services](https://www.nextgov.com/it-modernization/2019/11/more-vets-are-taking-advantage-digital-services-through-new-vagov/161190/)
-[VA Secretary Robert Wilkie introduces the new VA.gov](https://www.blogs.va.gov/VAntage/53898/secretary-wilkie-announces-redesigned-va-gov-built-input-veterans-better-meet-needs/)  
-[VA.gov performance dashboard](https://www.va.gov/performance-dashboard/)
+##### See the prioritization of work
+[List of epics and user stories](https://drive.google.com/file/d/1vsnHz0AwXDr5PFeugboi-DwcOS62AGlF/view?usp=sharing) defining architectural, technical, and business needs for CMS
 
-##### View the source code
-VA.gov [front-end](https://github.com/department-of-veterans-affairs/vets-website) and [back-end](https://github.com/department-of-veterans-affairs/va.gov-cms) repositories in GitHub
+##### Watch a Drupal demo
+Video: How CMS staff can [manage various content types](https://drive.google.com/file/d/1U6lmMtyuzj3ip1Veh1e3_8R1epzPUA6q/view?usp=sharing) depending on their role
 
-##### Learn about VA’s modern procurement strategy
-[Comparative analysis case study](https://techfarhub.cio.gov/learning-center/case-studies/VA-gov-modernization-comparative-analysis)
-
-##### See how we improved the VA staff experience
-[Video: User research findings from CivicActions UX strategists](https://drive.google.com/file/d/1oV_FuBArq4gYlSJz0ZXf4WWJf3Z6iStu/view?usp=sharing)
+##### Peek into the agile process
+Video: [Demo and retrospective](https://drive.google.com/file/d/1sabKhbf89t50hsEX8pl63u_9fG6lzOjz/view?usp=sharing) on a sprint of work

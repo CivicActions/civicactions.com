@@ -9,7 +9,7 @@ import GeneralLayout from "./../components/layouts/GeneralLayout"
 import SlideImage from "./../components/SlideImage"
 import RelatedByTitle from "./../components/RelatedByTitle"
 import Blockquote from "./../components/atoms/Blockquote"
-import IconParagraphsGroup from "./../components/organisms/IconParagraphsGroup"
+import MarkdownIconParagraphsGroup from "./../components/organisms/MarkdownIconParagraphsGroup"
 
 export default function Template({ data, location }) {
   const { markdownRemark, allMarkdownRemark } = data
@@ -64,7 +64,7 @@ export default function Template({ data, location }) {
       <div className="seven-twelfths">
         {approach_index && <h3>0{index + 1}</h3>}
         <h5>{section.title}</h5>
-        <p>{section.text}</p>
+        <div dangerouslySetInnerHTML={{ __html: section.text }} />
       </div>
 
       <div className="five-twelfths hero__image">
@@ -142,7 +142,7 @@ export default function Template({ data, location }) {
       <div class="off-color outcomes-section wide-container">
         <h3>Key Outcomes</h3>
         <section className="wide-container usa-grid">
-          <IconParagraphsGroup icons={outcomes} />
+          <MarkdownIconParagraphsGroup icons={outcomes} />
         </section>
       </div>
 
