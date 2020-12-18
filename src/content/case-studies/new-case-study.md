@@ -3,7 +3,7 @@ weight: 1
 path: "/case-study/new-case-study"
 type:  "new-case-study"
 
-preview_image: va-cms-preview.jpg
+preview_image: WECMS_DESIGN_featured.jpg
 promoted_to_front_page: yes
 
 client_name: "Centers for Medicare and Medicaid Services"
