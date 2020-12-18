@@ -26,8 +26,8 @@ challenge_text: !md |
 
   We did a fast-paced collaboration with our partners [Fearless](https://fearless.tech/) and [KPMG](https://www.kpmg.us/) to submit deliverables in just 8 business days (including page designs, content recommendations, an API, and a clickable prototype with a smart chatbot). Our team won the challenge because the agency saw we could help them achieve their goal to better serve Medicare beneficiaries.
 
-client_goal_text: !md
-  "The task was to redesign the [Medicare Part D](https://www.medicare.gov/drug-coverage-part-d) section of the medicare.gov website, which helps people understand insurance options for their medication needs. For all their digital platforms, CMS needs to:"
+client_goal_text: !md |
+  The task was to redesign the [Medicare Part D](https://www.medicare.gov/drug-coverage-part-d) section of the medicare.gov website, which helps people understand insurance options for their medication needs. For all their digital platforms, CMS needs to
 
 client_goal_bullets:
 - Meet public expectation for easily navigable online services
