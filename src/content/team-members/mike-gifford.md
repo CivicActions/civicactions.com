@@ -27,7 +27,7 @@ social:
   name: Medium,
   url: https://medium.com/@mgifford
   }
-- {
+  - {
   name: Twitter,
   url: http://twitter.com/mgifford
   }
