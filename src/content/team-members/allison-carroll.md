@@ -9,7 +9,7 @@ pronunciation: 'al-i-son care-ull'
 image: 'images/allison-carroll.jpg'
 role: Content Strategy
 location: St. Catharines, Ontario, Canada
-quote: I believe that all words hold power: to inform, to persuade, to comfort, or to delight. It’s my goal to unleash that power with every sentence I write.
+quote: "I believe that all words hold power: to inform, to persuade, to comfort, or to delight. It’s my goal to unleash that power with every sentence I write."
 social: 
   - {
   name: LinkedIn,
