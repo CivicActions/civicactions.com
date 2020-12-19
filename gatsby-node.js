@@ -146,3 +146,20 @@ exports.onCreateWebpackConfig = ({ stage, actions }) => {
     },
   })
 }
+
+exports.createSchemaCustomization = ({ actions: { createTypes } }) => {
+  createTypes(`
+    type Mdx implements Node {
+      frontmatter: MdxFrontmatter
+    }
+
+    type MdxFrontmatter {
+      items: [ItemValues]
+      content: String @mdx
+    }
+
+    type ItemValues {
+      value: String @mdx
+    }
+  `);
+};

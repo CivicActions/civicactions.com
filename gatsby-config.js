@@ -31,12 +31,6 @@ module.exports = {
         name: `client-logos`,
       },
     },
-    {
-      resolve: `gatsby-transformer-remark`,
-      options: {
-        engines: { yaml: require("./custom-yaml.js") },
-      },
-    },
     `gatsby-remark-copy-linked-files`,
     `gatsby-transformer-sharp`,
     {
@@ -97,6 +91,9 @@ module.exports = {
           },
         ],
       },
+    },
+    {
+      resolve: `gatsby-plugin-mdx-frontmatter`
     },
   ],
 }

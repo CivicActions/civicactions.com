@@ -4,6 +4,8 @@ import React from "react"
 import _ from "lodash"
 import { graphql } from "gatsby"
 import Img from "gatsby-image"
+import { MDXProvider } from "@mdx-js/react"
+import { MDXRenderer } from "gatsby-plugin-mdx"
 
 import GeneralLayout from "./../components/layouts/GeneralLayout"
 import SlideImage from "./../components/SlideImage"
@@ -64,7 +66,7 @@ export default function Template({ data, location }) {
       <div className="seven-twelfths">
         {approach_index && <h3>0{index + 1}</h3>}
         <h5>{section.title}</h5>
-        <div dangerouslySetInnerHTML={{ __html: section.text }} />
+        <MDXRenderer>{section.text}</MDXRenderer>
       </div>
 
       <div className="five-twelfths hero__image">
@@ -75,89 +77,89 @@ export default function Template({ data, location }) {
   ))
 
   return (
-    <GeneralLayout
-      heroTitle={frontmatter.title}
-      pageTitle={`CivicActions | ${frontmatter.title}`}
-      clientName={frontmatter.client_name}
-      heroCTALink={frontmatter.website}
-      heroCTAText="Visit Website"
-      heroClass="case-study-hero"
-      heroIsExternal={true}
-      path={frontmatter.path}
-      urlObject={location}
-    >
-      <div className="section__specs section">
-        <section className="usa-grid study text-container">
-          <Blockquote
-            quote={frontmatter.quote}
-            quote_source={frontmatter.quote_source}
-            quote_class="new-blockquote"
-          />
-        </section>
-        <section className="usa-grid wide-container">
-          <figure>{figuresList}</figure>
-        </section>
-      </div>
-
-      <div className="text-container section">
-        <h3>The Challenge</h3>
-        <div dangerouslySetInnerHTML={{ __html: frontmatter.challenge_text }} />
-        <h5>Client Goal</h5>
-        <div
-          dangerouslySetInnerHTML={{ __html: frontmatter.client_goal_text }}
-        />
-        <ul>{clientGoalBullets}</ul>
-      </div>
-
-      <div className="wide-container">
-        <section className="usa-grid grid-section">
-          <div className="one-half off-color list-box">
-            <h5>Expertise</h5>
-            <ul>{expertiseBullets}</ul>
-          </div>
-
-          <div className="one-half off-color list-box">
-            <h5>Tools & Technologies</h5>
-            <ul>{technologiesList}</ul>
-          </div>
-        </section>
-      </div>
-
-      <div className="text-container">
-        <h3>Our Approach</h3>
-        <div className="hero__image study-hero">
-          <Img
-            sizes={approach_image.url.childImageSharp.fluid}
-            alt={approach_image.alt}
-          />
-          <div className="slide__caption">{approach_image.caption}</div>
+    <MDXProvider>
+      <GeneralLayout
+        heroTitle={frontmatter.title}
+        pageTitle={`CivicActions | ${frontmatter.title}`}
+        clientName={frontmatter.client_name}
+        heroCTALink={frontmatter.website}
+        heroCTAText="Visit Website"
+        heroClass="case-study-hero"
+        heroIsExternal={true}
+        path={frontmatter.path}
+        urlObject={location}
+      >
+        <div className="section__specs section">
+          <section className="usa-grid study text-container">
+            <Blockquote
+              quote={frontmatter.quote}
+              quote_source={frontmatter.quote_source}
+              quote_class="new-blockquote"
+            />
+          </section>
+          <section className="usa-grid wide-container">
+            <figure>{figuresList}</figure>
+          </section>
         </div>
-        <div dangerouslySetInnerHTML={{ __html: approach_text }} />
-      </div>
 
-      <div className="wide-container">
-        <section className="usa-grid fluid approach-section">
-          {approachSection}
-        </section>
-      </div>
+        <div className="text-container section">
+          <h3>The Challenge</h3>
+          <MDXRenderer>{frontmatter.challenge_text}</MDXRenderer>
+          <h5>Client Goal</h5>
+          <MDXRenderer>{frontmatter.client_goal_text}</MDXRenderer>
+          <ul>{clientGoalBullets}</ul>
+        </div>
 
-      <div class="off-color outcomes-section wide-container">
-        <h3>Key Outcomes</h3>
-        <section className="wide-container usa-grid">
-          <MarkdownIconParagraphsGroup icons={outcomes} />
-        </section>
-      </div>
+        <div className="wide-container">
+          <section className="usa-grid grid-section">
+            <div className="one-half off-color list-box">
+              <h5>Expertise</h5>
+              <ul>{expertiseBullets}</ul>
+            </div>
 
-      <div className="text-container section">
-        <div
-          className="case-study-text"
-          dangerouslySetInnerHTML={{ __html: html }}
-        />
-      </div>
-      {related_titles ? (
-        <RelatedByTitle posts={edges} titles={related_titles} />
-      ) : null}
-    </GeneralLayout>
+            <div className="one-half off-color list-box">
+              <h5>Tools & Technologies</h5>
+              <ul>{technologiesList}</ul>
+            </div>
+          </section>
+        </div>
+
+        <div className="text-container">
+          <h3>Our Approach</h3>
+          <div className="hero__image study-hero">
+            <Img
+              sizes={approach_image.url.childImageSharp.fluid}
+              alt={approach_image.alt}
+            />
+            <div className="slide__caption">{approach_image.caption}</div>
+          </div>
+          <MDXRenderer>{approach_text}</MDXRenderer>
+        </div>
+
+        <div className="wide-container">
+          <section className="usa-grid fluid approach-section">
+            {approachSection}
+          </section>
+        </div>
+
+        <div class="off-color outcomes-section wide-container">
+          <h3>Key Outcomes</h3>
+          <section className="wide-container usa-grid">
+            <MarkdownIconParagraphsGroup icons={outcomes} />
+          </section>
+        </div>
+
+        <div className="text-container section">
+          <div
+            className="case-study-text"
+            dangerouslySetInnerHTML={{ __html: html }}
+          />
+        </div>
+        {related_titles ? (
+          <RelatedByTitle posts={edges} titles={related_titles} />
+        ) : null}
+      </GeneralLayout>
+    </MDXProvider>
   )
 }
 
