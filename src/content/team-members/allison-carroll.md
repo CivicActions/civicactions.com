@@ -2,7 +2,7 @@
 path: /team/allison-carroll
 type: team
 published: 1
-name: Allison Carrol
+name: Allison Carroll
 personal_pronouns: 'she/her'
 audio: 'audio/allison-carroll.mp3'
 pronunciation: 'al-i-son care-ull'
