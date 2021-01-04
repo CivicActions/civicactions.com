@@ -84,7 +84,7 @@ class Careers extends React.Component {
         <section className="section section__recent-posts section__recent-posts-careers neutral-hex-bg">
           <div className="usa-grid">
             <SectionTitle title={openings_title} subtitle={openings_subtitle} />
-            {jobs.length == 0 ? (
+            {jobs.length > 0 ? (
               <ul className="teaser--wrapper">{jobs}</ul>
             ) : (
               <div className="teaser--wrapper">
