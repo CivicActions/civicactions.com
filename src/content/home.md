@@ -25,19 +25,19 @@ quotes:
   }
 medium_teasers: 
 - {
-  title: 'What we learned from training procurement officers to buy modern government IT',
-  link: 'https://medium.com/civicactions/what-we-learned-from-training-procurement-officers-to-buy-modern-government-it-cc6309df4103',
- date: 'August 25, 2020'
+  title: 'In Brief: ACT-IAC CX Summit 2020',
+  link: 'https://medium.com/civicactions/in-brief-act-iac-cx-summit-2020-2f6eb62b6f86',
+ date: 'November 30, 2020'
 }
 - {
-  title: 'What "fierce openness" can do for government',
-  link: 'https://medium.com/civicactions/what-fierce-openness-can-do-for-government-b67749bfb328',
- date: 'July 20, 2020'
+  title: 'What 20 data managers at every level of government had to say about their work',
+  link: 'https://medium.com/civicactions/what-20-data-managers-at-every-level-of-government-had-to-say-about-their-work-6bf1b13e900d',
+ date: 'October 23, 2020'
 }
 - {
-  title: 'Quickly shifting to distributed teams in government',
-  link: 'https://medium.com/civicactions/quickly-shifting-to-distributed-teams-in-government-54bd79b912c3',
- date: 'April 6, 2020'
+  title: '4 ways to improve government accessibility through open source',
+  link: 'https://medium.com/civicactions/4-ways-to-improve-government-accessibility-through-open-source-8e20fabc7281',
+ date: 'October 5, 2020'
 }
 government_services_title: Modernizing government services
 government_services:
