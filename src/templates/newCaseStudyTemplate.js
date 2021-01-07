@@ -60,13 +60,14 @@ export default function Template({ data, location }) {
 
   const approachSection = approach_sections.map((section, index) => (
     <div className="approach-row">
-      <div className="five-twelfths">
+
+      <div className="one-twelfth">
+      </div>
+
+      <div className="four-twelfths">
         {approach_index && <h3>0{index + 1}</h3>}
         <h5>{section.title}</h5>
         <div dangerouslySetInnerHTML={{ __html: section.text }} />
-      </div>
-
-      <div className="one-twelfth">
       </div>
 
       <div className="six-twelfths hero__image">
@@ -77,6 +78,10 @@ export default function Template({ data, location }) {
         />
         <div className="slide__caption">{section.image.caption}</div>
       </div>
+
+      <div className="one-twelfth">
+      </div>
+
     </div>
   ))
 
@@ -157,7 +162,6 @@ export default function Template({ data, location }) {
 
       <div className="text-container section">
         <div
-          className="case-study-text"
           dangerouslySetInnerHTML={{ __html: html }}
         />
       </div>

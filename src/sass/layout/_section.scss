@@ -503,9 +503,9 @@
   }
 }
 
-.five-twelfths {
+.four-twelfths {
   @include media($medium-screen) {
-      @include span-columns(5);
+      @include span-columns(4);
   }
 }
 
