@@ -6,7 +6,6 @@ import { graphql } from "gatsby"
 import Img from "gatsby-image"
 
 import GeneralLayout from "./../components/layouts/GeneralLayout"
-import SlideImage from "./../components/SlideImage"
 import RelatedByTitle from "./../components/RelatedByTitle"
 import Blockquote from "./../components/atoms/Blockquote"
 import MarkdownIconParagraphsGroup from "./../components/organisms/MarkdownIconParagraphsGroup"
@@ -47,7 +46,7 @@ export default function Template({ data, location }) {
   const figuresList = figures.map(figure => (
     <div>
       <header>{figure.header}</header>
-      <p>{figure.text}</p>
+      <p dangerouslySetInnerHTML={{ __html: figure.text }} />
     </div>
   ))
 
@@ -61,14 +60,21 @@ export default function Template({ data, location }) {
 
   const approachSection = approach_sections.map((section, index) => (
     <div className="approach-row">
-      <div className="seven-twelfths">
+      <div className="five-twelfths">
         {approach_index && <h3>0{index + 1}</h3>}
         <h5>{section.title}</h5>
         <div dangerouslySetInnerHTML={{ __html: section.text }} />
       </div>
 
-      <div className="five-twelfths hero__image">
-        <Img sizes={section.image.url.childImageSharp.fluid} />
+      <div className="one-twelfth">
+      </div>
+
+      <div className="six-twelfths hero__image">
+        <Img 
+          sizes={section.image.url.childImageSharp.fluid} 
+          alt={section.image.alt}
+          title={section.image.alt}
+        />
         <div className="slide__caption">{section.image.caption}</div>
       </div>
     </div>
@@ -86,7 +92,7 @@ export default function Template({ data, location }) {
       path={frontmatter.path}
       urlObject={location}
     >
-      <div className="section__specs section">
+      <div className="section__specs-small section">
         <section className="usa-grid study text-container">
           <Blockquote
             quote={frontmatter.quote}
@@ -129,6 +135,7 @@ export default function Template({ data, location }) {
           <Img
             sizes={approach_image.url.childImageSharp.fluid}
             alt={approach_image.alt}
+            title={approach_image.alt}
           />
           <div className="slide__caption">{approach_image.caption}</div>
         </div>

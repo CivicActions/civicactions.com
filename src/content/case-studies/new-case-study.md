@@ -15,11 +15,11 @@ quote_source: "CMS Design Challenge Selection Committee"
 
 figures:
   - header: "140 M"
-    text: "Americans relying on CMS programs"
+    text: "Americans relying<br> on CMS programs"
   - header: "8"
-    text: "days to complete MVP design"
+    text: "days to complete<br> MVP design"
   - header: "X"
-    text: "interesting thing to show impact"
+    text: "interesting thing<br> to show impact"
 
 challenge_text: !md |
   The Centers for Medicare & Medicaid Services (CMS) help millions of people every year find and enroll in health care programs. Planning a large-scale web and content management project to improve the customer experience of their multiple websites, the agency launched a design challenge for the vendors that were finalists for the contract.

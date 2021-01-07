@@ -147,6 +147,12 @@
     background-color: $neutral;
   }
 
+  &__specs-small {
+    padding: $section-margin 0 0 0;
+    margin-bottom: $section-margin;
+    background-color: $neutral;
+  }
+
   //---- CASE STUDY LANDING PAGE
   &__case-studies {
     display: flex;
@@ -485,9 +491,15 @@
   }
 }
 
-.seven-twelfths {
+.one-twelfth {
   @include media($medium-screen) {
-      @include span-columns(7);
+      @include span-columns(1);
+  }
+}
+
+.six-twelfths {
+  @include media($medium-screen) {
+      @include span-columns(6);
   }
 }
 
