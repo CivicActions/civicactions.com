@@ -60,9 +60,7 @@ export default function Template({ data, location }) {
 
   const approachSection = approach_sections.map((section, index) => (
     <div className="approach-row">
-
-      <div className="one-twelfth">
-      </div>
+      <div className="one-twelfth"></div>
 
       <div className="four-twelfths">
         {approach_index && <h3>0{index + 1}</h3>}
@@ -71,17 +69,15 @@ export default function Template({ data, location }) {
       </div>
 
       <div className="six-twelfths hero__image">
-        <Img 
-          sizes={section.image.url.childImageSharp.fluid} 
+        <Img
+          sizes={section.image.url.childImageSharp.fluid}
           alt={section.image.alt}
           title={section.image.alt}
         />
         <div className="slide__caption">{section.image.caption}</div>
       </div>
 
-      <div className="one-twelfth">
-      </div>
-
+      <div className="one-twelfth"></div>
     </div>
   ))
 
@@ -161,9 +157,7 @@ export default function Template({ data, location }) {
       </div>
 
       <div className="text-container section">
-        <div
-          dangerouslySetInnerHTML={{ __html: html }}
-        />
+        <div dangerouslySetInnerHTML={{ __html: html }} />
       </div>
       {related_titles ? (
         <RelatedByTitle posts={edges} titles={related_titles} />
