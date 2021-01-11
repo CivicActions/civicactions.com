@@ -1,6 +1,6 @@
 ---
 weight: 1
-path: "/case-study/new-case-study"
+path: "/case-study/cms-design-challenge-mvp"
 type:  "new-case-study"
 
 preview_image: WECMS_DESIGN_featured.jpg
@@ -14,12 +14,12 @@ quote: "The Offeror’s Solutioning Exercise exceeded several requirements … T
 quote_source: "CMS Design Challenge Selection Committee"
 
 figures:
-  - header: "140 M"
-    text: "Americans relying<br> on CMS programs"
+  - header: "45 M"
+    text: "Americans using this<br> Medicare service"
   - header: "8"
     text: "days to complete<br> MVP design"
-  - header: "X"
-    text: "interesting thing<br> to show impact"
+  - header: "4"
+    text: "steps in simplified<br> application process"
 
 challenge_text: !md |
   The Centers for Medicare & Medicaid Services (CMS) help millions of people every year find and enroll in health care programs. Planning a large-scale web and content management project to improve the customer experience of their multiple websites, the agency launched a design challenge for the vendors that were finalists for the contract.
@@ -31,7 +31,7 @@ client_goal_text: !md |
 
 client_goal_bullets:
 - Meet public expectation for easily navigable online services
-- Securely manage personal information and transactions for millions of beneficiaries
+- Securely manage personal info and transactions for millions of beneficiaries
 - Provide friendly online experience for people facing stressful health situations
 - Serve diverse groups of users with competing wants and priorities
 - Support agency staff in publishing clear and accurate public-facing content
@@ -66,7 +66,11 @@ approach_image:
   caption: 'Our proposed design included a guidance wizard for personalized exploration of medical benefits.' 
 
 approach_text: !md | 
-  Within the time constraint for this compressed agile design sprint, we conducted lean versions of the activities we would normally do to make sure the site was effective for Medicare recipients. Daily collaboration among all team members, from Design to DevOps to Developers, allowed us to quickly test and iterate on every step.  We used [Drupal](https://www.drupal.org/industries/government) as our preferred open source platform and the [CMS design system](https://design.cms.gov/), which builds on the U.S. Web Design System. Together, these tools provide a solid foundation for accessible [government websites](https://medium.com/civicactions/4-ways-to-improve-government-accessibility-through-open-source-8e20fabc7281) — a key goal for agencies like CMS that serve diverse and aging populations.  Human Centered Design played a critical role in our process of building a site that would be intuitive and useful to older Americans seeking information about their drug coverage options.
+  Within the time constraint for this compressed agile design sprint, we conducted lean versions of the activities we would normally do to make sure the site was effective for Medicare recipients. Daily collaboration among all team members, from Design to DevOps to Developers, allowed us to quickly test and iterate on every step.  
+  
+  We used [Drupal](https://www.drupal.org/industries/government) as our preferred open source platform and the [CMS design system](https://design.cms.gov/), which builds on the U.S. Web Design System. Together, these tools provide a solid foundation for accessible [government websites](https://medium.com/civicactions/4-ways-to-improve-government-accessibility-through-open-source-8e20fabc7281) — a key goal for agencies like CMS that serve diverse and aging populations.  
+  
+  Human Centered Design played a critical role in our process of building a site that would be intuitive and useful to older Americans seeking information about their drug coverage options.
 
 approach_sections:
 
@@ -134,8 +138,8 @@ outcomes:
 tags: []
 
 related_titles:
-- Sharing data to support veterans
-- Bringing free and open source software to government
+- Helping Veterans access care and benefits online
+- Helping Californians make healthy choices for life
 - Promoting public health with open data
 ---
 
@@ -143,14 +147,11 @@ related_titles:
 
 Go behind-the-scenes with these resources and supplemental artifacts.
 
-##### See the work  
-[VA Pittsburgh health care](https://www.va.gov/pittsburgh-health-care/) (the model for all future VA.gov content)
-
 ##### See the prioritization of work
 [List of epics and user stories](https://drive.google.com/file/d/1vsnHz0AwXDr5PFeugboi-DwcOS62AGlF/view?usp=sharing) defining architectural, technical, and business needs for CMS
 
 ##### Watch a Drupal demo
-Video: How CMS staff can [manage various content types](https://drive.google.com/file/d/1U6lmMtyuzj3ip1Veh1e3_8R1epzPUA6q/view?usp=sharing) depending on their role
+See how agency staff can [manage various content types](https://drive.google.com/file/d/1U6lmMtyuzj3ip1Veh1e3_8R1epzPUA6q/view?usp=sharing) depending on their role
 
 ##### Peek into the agile process
 Video: [Demo and retrospective](https://drive.google.com/file/d/1sabKhbf89t50hsEX8pl63u_9fG6lzOjz/view?usp=sharing) on a sprint of work
