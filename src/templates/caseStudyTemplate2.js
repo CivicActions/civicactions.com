@@ -232,7 +232,7 @@ export const newStudyQuery = graphql`
     allMarkdownRemark(
       filter: {
         frontmatter: {
-          type: { in: ["case-study", "new-case-study"] }
+          type: { in: ["case-study", "case-study-2"] }
           path: { ne: $path }
         }
       }

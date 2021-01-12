@@ -26,9 +26,7 @@ exports.createPages = ({ actions, graphql }) => {
   })
 
   const caseStudyTemplate = path.resolve(`src/templates/caseStudyTemplate.js`)
-  const newCaseStudyTemplate = path.resolve(
-    `src/templates/newCaseStudyTemplate.js`
-  )
+  const caseStudyTemplate2 = path.resolve(`src/templates/caseStudyTemplate2.js`)
   const teamMemberTemplate = path.resolve(`src/templates/teamMemberTemplate.js`)
   const generalTemplate = path.resolve(`src/templates/generalTemplate.js`)
   const pressSubPageTemplate = path.resolve(
@@ -96,10 +94,10 @@ exports.createPages = ({ actions, graphql }) => {
             component: caseStudyTemplate,
           })
           break
-        case `new-case-study`:
+        case `case-study-2`:
           createPage({
             path: node.frontmatter.path,
-            component: newCaseStudyTemplate,
+            component: caseStudyTemplate2,
           })
           break
         case `press-sub-page`:

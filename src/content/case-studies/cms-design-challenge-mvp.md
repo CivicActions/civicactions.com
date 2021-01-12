@@ -1,9 +1,9 @@
 ---
 weight: 1
 path: "/case-study/cms-design-challenge-mvp"
-type:  "new-case-study"
+type:  "case-study-2"
 
-preview_image: WECMS_DESIGN_featured.jpg
+preview_image: WECMS_DESIGN_cover.jpg
 promoted_to_front_page: yes
 
 client_name: "Centers for Medicare and Medicaid Services"
