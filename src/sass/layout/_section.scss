@@ -147,6 +147,12 @@
     background-color: $neutral;
   }
 
+  &__specs-small {
+    padding: $section-margin 0 0 0;
+    margin-bottom: $section-margin;
+    background-color: $neutral;
+  }
+
   //---- CASE STUDY LANDING PAGE
   &__case-studies {
     display: flex;
@@ -476,5 +482,67 @@
     @include media($medium-screen) {
       @include span-columns(1 of 3);
     }
+  }
+}
+
+.one-half {
+  @include media($medium-screen) {
+      @include span-columns(1 of 2);
+  }
+}
+
+.one-twelfth {
+  @include media($medium-screen) {
+      @include span-columns(1);
+  }
+}
+
+.six-twelfths {
+  @include media($medium-screen) {
+      @include span-columns(6);
+  }
+}
+
+.four-twelfths {
+  @include media($medium-screen) {
+      @include span-columns(4);
+  }
+}
+
+.off-color {
+  background-color: $neutral;
+}
+
+.list-box {
+  padding: 1rem;
+}
+
+.fluid {
+  padding: 0;
+  margin: 0;
+}
+
+.approach-section {
+
+  .approach-row > div {
+    margin-top: $section-margin;
+  }
+
+  .slide__caption {
+    width: 100%;
+  }
+  
+  h3 {
+    margin: 0;
+  }
+
+  img {
+    bottom: 25px;
+  }
+}
+
+.outcomes-section {
+  h3 {
+    padding-top: 2rem;
   }
 }

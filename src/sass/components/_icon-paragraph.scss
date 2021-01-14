@@ -34,3 +34,34 @@
     padding-bottom: 10px;
   }
 }
+
+.wide-container {
+  .iconparagraph__wrapper {
+    border: 1px solid lightgray;
+    background-color: white;
+
+    width: 100%;
+    margin-bottom: 12px;
+
+    @media screen and (min-width: $small-screen) {
+      width: 48%;
+      margin: 8px 1%;
+    }
+
+    @media screen and (min-width: $medium-large-screen) {
+      width: 30%;
+      margin: 16px 1.66%;
+    }
+
+    padding: 24px 18px;
+  }
+
+  .iconparagraph__text {
+    padding-bottom: 0;
+    margin-bottom: 0;
+  }
+
+  .iconparagraph__heading {
+    margin-bottom: 12px;
+  }
+}

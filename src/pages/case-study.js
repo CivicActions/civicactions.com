@@ -72,7 +72,7 @@ export const allCaseStudies = graphql`
     }
 
     allMarkdownRemark(
-      filter: { frontmatter: { type: { eq: "case-study" } } }
+      filter: { frontmatter: { type: { in: ["case-study", "case-study-2"] } } }
       sort: { fields: [frontmatter___weight], order: ASC }
     ) {
       totalCount

@@ -33,6 +33,12 @@ abbr[title] {
   @include text-container;
 }
 
+.wide-container {
+  @extend .text-container;
+
+  max-width: $site-max-width;
+}
+
 .text-container--careers {
   @extend .text-container;
 

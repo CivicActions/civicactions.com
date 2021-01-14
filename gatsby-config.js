@@ -31,7 +31,6 @@ module.exports = {
         name: `client-logos`,
       },
     },
-    `gatsby-transformer-remark`,
     `gatsby-remark-copy-linked-files`,
     `gatsby-transformer-sharp`,
     {
@@ -52,7 +51,17 @@ module.exports = {
     {
       resolve: `gatsby-transformer-remark`,
       options: {
-        plugins: [`gatsby-remark-copy-linked-files`],
+        plugins: [
+          `gatsby-remark-copy-linked-files`,
+          {
+            resolve: `gatsby-remark-autolink-headers`,
+            options: {
+              icon: false,
+              removeAccents: true,
+            },
+          },
+        ],
+        engines: { yaml: require("./custom-yaml.js") },
       },
     },
     {
@@ -77,20 +86,6 @@ module.exports = {
       resolve: `gatsby-plugin-sitemap`,
       options: {
         exclude: [`/press-item/*`],
-      },
-    },
-    {
-      resolve: `gatsby-transformer-remark`,
-      options: {
-        plugins: [
-          {
-            resolve: `gatsby-remark-autolink-headers`,
-            options: {
-              icon: false,
-              removeAccents: true,
-            },
-          },
-        ],
       },
     },
   ],

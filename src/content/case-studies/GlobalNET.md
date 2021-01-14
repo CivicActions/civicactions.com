@@ -5,7 +5,7 @@ type:  "case-study"
 title: "Empowering international collaboration"
 client_name: "Defense Security Cooperation Agency"
 preview_image: GlobalNET_preview.jpg
-promoted_to_front_page: yes
+promoted_to_front_page: no
 project: "GlobalNET"
 website: "https://globalnetplatform.org/"
 background_section_title: "Outdated technology and complex requirements"
