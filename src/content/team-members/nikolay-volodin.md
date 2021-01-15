@@ -28,7 +28,7 @@ Devoted Cat Dad
   
 ---
 
-### More about Daniel
+### More about Nikolay
 * Drupal enthusiast and contributor with a Scrum certification (almost!)
 * First got into coding from a desire to make video games
 * Born in Russia; once lived in Prague; now lives in Canada
