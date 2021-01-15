@@ -58,7 +58,8 @@ client_technologies:
 - Drupal
 - Pa11y
 - Solr
-- AWS Kubernetes
+- AWS
+- Kubernetes
 
 approach_image:
   url: 'WECMS_DESIGN_featured.jpg' 
