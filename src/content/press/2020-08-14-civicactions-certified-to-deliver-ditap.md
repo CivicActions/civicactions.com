@@ -6,7 +6,9 @@ title: CivicActions Certified to Deliver DITAP Training to Federal Acquisition P
  
 ---
 
-CivicActions has been officially certified as a FAC-C-DS Core Plus Training Provider to deliver modern digital service procurement education and training to federal contracting officers, according to the [TechFAR Hub](https://techfarhub.cio.gov/initiatives/ditap/).
+Date: Friday, August 14, 2020
+
+**Lafayette, Calif.** - CivicActions has been officially certified as a FAC-C-DS Core Plus Training Provider to deliver modern digital service procurement education and training to federal contracting officers, according to the [TechFAR Hub](https://techfarhub.cio.gov/initiatives/ditap/).
 
 The training is part of the Digital IT Acquisition Professional (DITAP) initiative, an effort by the U.S. Digital Service (USDS) and the Office of Federal Procurement Policy to equip contracting officers with the knowledge and skills to make smart IT purchasing decisions and lead innovation in government digital services acquisitions within the constraints of current federal procurement practices.
 

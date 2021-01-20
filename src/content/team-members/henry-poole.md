@@ -20,7 +20,7 @@ social:
     url: https://twitter.com/HenryPoole
    }
 specialties: [ "Servant Leadership",
-Open Source Software,
+Free & Open Source Software,
 Radical Curiosity & Transparency,
 Visioning
 ]

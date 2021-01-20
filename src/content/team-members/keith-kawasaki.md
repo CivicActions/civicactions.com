@@ -5,7 +5,7 @@ published: 1
 name: Keith Kawasaki
 personal_pronouns: 'he/him'
 audio: 'audio/keith-kawasaki.mp3'
-pronunciation: 'keeth kow-uh-sockey]'
+pronunciation: 'keeth kow-uh-sockey'
 image: 'images/keith-kawasaki.jpg'
 role: Business Development
 location: Nolensville, Tennessee

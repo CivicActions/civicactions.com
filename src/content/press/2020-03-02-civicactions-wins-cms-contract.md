@@ -6,7 +6,9 @@ title: CivicActions Wins $18M Contract to Redesign, Migrate CMS Websites
  
 ---
 
-The Centers for Medicare and Medicaid Services on Feb. 28 awarded CivicActions a $18.25 million contract for Web Experience and Content Management Services (WECMS), according to USASpending.gov.  
+Date: Monday, March 2, 2020
+
+**Lafayette, Calif.** - The Centers for Medicare and Medicaid Services on Feb. 28 awarded CivicActions a $18.25 million contract for Web Experience and Content Management Services (WECMS), according to USASpending.gov.  
 
 The contract calls for a redesign of CMS.gov and Medicare.gov, as well as migrating the agency’s open data portals to new sites using DKAN, a free and open source open data platform. 
 
