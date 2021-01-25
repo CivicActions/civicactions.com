@@ -23,7 +23,7 @@ pipeline {
                     sh "docker rm -f \"home-${env.CHANGE_ID}\" || true"
                     // Start container with the right hostname.
                     sh "docker run --detach --rm --name=\"home-${env.CHANGE_ID}\" \"civicactions-internal-it/home:${env.CHANGE_ID}\""
-                    slackSend channel: 'marketing-bots', message: "PR Review environment ready at http://home-${env.CHANGE_ID}.ci.civicactions.net/"
+                    slackSend channel: 'homesite-bots', message: "PR Review environment ready at http://home-${env.CHANGE_ID}.ci.civicactions.net/"
                 }
             }
         }
@@ -37,13 +37,13 @@ pipeline {
                         def latestImage = docker.build("civicactions-internal-it/home", "--build-arg GATSBY_JAZZ_URL=${GATSBY_JAZZ_URL} --pull .")
                         latestImage.push("latest")
                         latestImage.push("${env.GIT_COMMIT}-${env.BUILD_NUMBER}")
-                        slackSend channel: 'marketing-bots', message: "Master branch built and image pushed successfully to Docker registry"
+                        slackSend channel: 'homesite-bots', message: "Master branch built and image pushed successfully to Docker registry"
                     }
                     docker.withRegistry('https://gcr.io', 'ca-it-prod-key') {
                         def latestImage = docker.build("ca-it-prod-shared-5a2c/home", "--build-arg GATSBY_JAZZ_URL=${GATSBY_JAZZ_URL} --pull .")
                         latestImage.push("latest")
                         latestImage.push("${env.GIT_COMMIT}-${env.BUILD_NUMBER}")
-                        slackSend channel: 'marketing-bots', message: "Master branch built and image pushed successfully to Docker registry"
+                        slackSend channel: 'homesite-bots', message: "Master branch built and image pushed successfully to Docker registry"
                     }
                 }
             }
@@ -51,7 +51,7 @@ pipeline {
     }
     post {
         failure {
-            slackSend channel: 'marketing-bots', message: "Build failed, see build log for details: ${env.BUILD_URL}console"
+            slackSend channel: 'homesite-bots', message: "Build failed, see build log for details: ${env.BUILD_URL}console"
         }
     }
 }
