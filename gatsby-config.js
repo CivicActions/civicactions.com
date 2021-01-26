@@ -88,5 +88,18 @@ module.exports = {
         exclude: [`/press-item/*`],
       },
     },
+    {
+      resolve: `gatsby-source-strapi`,
+      options: {
+        apiURL: `http://localhost:1337`,
+        queryLimit: 100,
+        contentTypes: [],
+        singleTypes: [],
+        loginData: {
+          identifier: "",
+          password: "",
+        },
+      },
+    },
   ],
 }
