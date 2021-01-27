@@ -26,6 +26,11 @@ if (( $(echo $DOCKER_VERSION_CHECK | bc -l) )); then
   return
 fi
 
+if ! [ "$(command -v docker-compose)" ]; then
+  echo 'Error: docker-compose is not installed.' >&2
+  return
+fi
+  
 [ "$(alias | grep deactivate)" ] && deactivate  # In case already activated.
 GIT_ROOT=$(git rev-parse --show-toplevel)
 
@@ -47,6 +52,9 @@ fi
 echo "Building home-sandbox container image"
 docker build --tag home-sandbox --build-arg UID=$(id -u) --target env .
 
+echo "Pulling images for Strapi CMS"
+docker-compose pull
+
 echo
 echo "Adding aliases for CLI tools: ${CLI_TOOLS}"
 CONTAINER="docker run --rm -it -p 8000:8000 -v ${GIT_ROOT}:/usr/src/app -e GATSBY_JAZZ_URL='development' home-sandbox:latest"
@@ -58,6 +66,10 @@ alias fullbuild="docker build --tag home-full --build-arg GATSBY_JAZZ_URL='devel
 echo
 echo "Installing NPM packages with yarn"
 yarn install --pure-lockfile
+
+docker-compose up -d
+echo
+echo "Strapi CMS will be available momentrarily at http://localhost:1337/ ..."
 
 echo
 echo "Activated - to get started run 'yarn develop', then go to http://localhost:8000/"
