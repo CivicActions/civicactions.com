@@ -144,3 +144,23 @@ exports.onCreateWebpackConfig = ({ stage, actions }) => {
     },
   })
 }
+
+// Store list of paths for functional testing.
+const fs = require("fs").promises
+
+exports.onPostBuild = async ({ graphql }) => {
+  const { data } = await graphql(`
+    {
+      pages: allSitePage {
+        nodes {
+          path
+        }
+      }
+    }
+  `)
+
+  return fs.writeFile(
+    path.resolve(__dirname, "pages.txt"),
+    data.pages.nodes.map(node => node.path).join("\n")
+  )
+}
