@@ -9,7 +9,7 @@ pronunciation: 'zen kwang'
 image: 'images/zhen-kuang.jpg'
 role: Engineering
 location: Baltimore, M.D.
-quote: "In testing, you can break the application to make it better and better. It’s all about making the end user happy." - Zhen
+quote: "In testing, you can break the application to make it better and better. It’s all about making the end user happy."
 social: 
   - {
   name: GitHub,
