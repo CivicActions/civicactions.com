@@ -93,7 +93,7 @@ module.exports = {
       options: {
         apiURL: `http://localhost:1337`,
         queryLimit: 100,
-        contentTypes: [],
+        contentTypes: [`case-study`,`staff-profile`,`press`],
         singleTypes: [],
         loginData: {
           identifier: "",
