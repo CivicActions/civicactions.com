@@ -54,6 +54,7 @@ docker build --tag home-sandbox --build-arg UID=$(id -u) --target env .
 
 echo "Pulling images for Strapi CMS"
 docker-compose pull
+sudo chmod +rwx strapi-app strapi-postgres
 
 echo
 echo "Adding aliases for CLI tools: ${CLI_TOOLS}"
