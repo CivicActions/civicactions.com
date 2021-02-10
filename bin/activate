@@ -48,13 +48,13 @@ else
   export PS1="${PS1} (${PROJECT}) \$ "
 fi
 
-# Build to "env" stage only.
-echo "Building home-sandbox container image"
-docker build --tag home-sandbox --build-arg UID=$(id -u) --target env .
-
 echo "Pulling images for Strapi CMS"
 docker-compose pull
 sudo chmod +rwx strapi-app strapi-postgres
+
+# Build to "env" stage only.
+echo "Building home-sandbox container image"
+docker build --tag home-sandbox --build-arg UID=$(id -u) --target env .
 
 echo
 echo "Adding aliases for CLI tools: ${CLI_TOOLS}"
