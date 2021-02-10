@@ -6,8 +6,6 @@ subtitle: ""
 images: []
 ---
 
-### Contracting Vehicles
-
 ### Terms of Service
 Digital IT Acquisition Professional (DITAP) Certification Program Terms of Service  
 Revision: 2021-02-04-1  

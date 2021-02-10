@@ -5,6 +5,7 @@ import GeneralLayout from "./../components/layouts/GeneralLayout"
 
 import gsaSchedule from "./../content/docs/GSA-Schedule.pdf"
 import cmasSchedule from "./../content/docs/CMAS-Schedule.pdf"
+import ditapTOS from "./../content/docs/DITAP-TOS.pdf"
 import Link from "./../components/scripts/Link"
 
 class Contracting extends React.Component {
@@ -21,11 +22,8 @@ class Contracting extends React.Component {
       >
         <section className="section">
           <div className="usa-grid">
-            <div
-              className="text-container"
-              dangerouslySetInnerHTML={{ __html: html }}
-            />
             <div class="text-container">
+              <h3>Contracting Vehicles</h3>
               <ul>
                 <li>
                   <a href={gsaSchedule}>GSA Schedule 70 (PDF)</a>
@@ -35,6 +33,10 @@ class Contracting extends React.Component {
                 </li>
               </ul>
             </div>
+            <div
+              className="text-container"
+              dangerouslySetInnerHTML={{ __html: html }}
+            />
           </div>
         </section>
       </GeneralLayout>
