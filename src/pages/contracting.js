@@ -5,7 +5,6 @@ import GeneralLayout from "./../components/layouts/GeneralLayout"
 
 import gsaSchedule from "./../content/docs/GSA-Schedule.pdf"
 import cmasSchedule from "./../content/docs/CMAS-Schedule.pdf"
-import ditapTOS from "./../content/docs/DITAP-TOS.pdf"
 import Link from "./../components/scripts/Link"
 
 class Contracting extends React.Component {
