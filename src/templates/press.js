@@ -1,11 +1,10 @@
 import React from "react"
 import { graphql, useStaticQuery} from "gatsby"
 import Link from "gatsby-link"
-
 import GeneralLayout from "./../components/layouts/GeneralLayout"
 import PressTeaser from "./../components/PressTeaser"
 
-const Team = (props) => {
+const Press = (props) => {
   const data = useStaticQuery(query);
   console.log(data);
   return (
@@ -14,35 +13,46 @@ const Team = (props) => {
       heroSubtitle=""
       urlObject={props.location}
     >
-      {data.allStrapiPress.nodes.map((node,i)=>{
-        return <div key={i}>
-            <div>id: {node.id}</div> 
-            <div>header: {node.header}</div> 
-            <div>title: {node.title}</div> 
-            <div>link: {node.link}</div> 
-            <div>link-text: {node.link_text}</div> 
-            <br></br>
+      <section className="section">
+        <div className="usa-grid text-container">
+        <ul className="press__list">
+        {data.allStrapiPress.nodes.map((node,i)=>{
+          return <div key={i}> 
+              <PressTeaser 
+              publication={node.Publication}
+              date={node.Date}
+              title={node.Title}
+              body={node.Body}
+              link_text={node.Link_Text}
+              link={node.Link}
+              /> 
+          </div>
+        })} 
+        </ul>
         </div>
-      })} 
+      </section>
     </GeneralLayout>
   );
 };
 
-export default Team
+export default Press
 
 export const query = graphql`
   {
     allStrapiPress {
       nodes {
-        header
-        id
-        link
-        link_text
-        title
+        Body
+        Date
+        Link
+        Link_Text
+        Path
+        Publication
+        Title
       }
     }
   }
-`;
+`
+
 
 // OLD CODE TO BE USED AS REFERENCE WHILE BUILDING CURRENT
 
