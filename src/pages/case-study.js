@@ -1,6 +1,5 @@
 import React from "react"
 import { graphql, useStaticQuery } from "gatsby"
-
 import GeneralLayout from "./../components/layouts/GeneralLayout"
 import FeaturedClients from "./../components/organisms/FeaturedClients"
 import FilteredCaseStudies from "./../components/FilteredCaseStudies"
@@ -16,7 +15,8 @@ const CaseStudies = (props) => {
       heroSubtitle="We help organizations provide better outcomes for people. Our years of experience with government and nonprofit clients have taught us how to manage the complexities of big projects and create partnerships that result in lasting success."
       urlObject={props.location}
     >
-      {data.allStrapiCaseStudy.nodes.map((node,i)=>{
+      <pre>{JSON.stringify(data, null, 4)}</pre>
+      {/* {data.allStrapiCaseStudy.nodes.map((node,i)=>{
         return <div key={i}>
           <div>id: {node.id}</div>
           <div>style: {node.style}</div>
@@ -65,7 +65,7 @@ const CaseStudies = (props) => {
           })}
           <div>explore: {node.New_Style_Structure.Explore}</div>
         </div>
-      })} 
+      })}  */}
     </GeneralLayout>
   );
 };
@@ -76,58 +76,94 @@ export const query = graphql`
   {
     allStrapiCaseStudy {
       nodes {
-        style
-        New_Style_Structure {
-          Approach {
-            body
-            image {
-              absolutePath
-            }
-            image_caption
+        id
+        Path
+        Style
+        Title
+        Client_Name
+        New_Style {
+          Title
+          Path
+          Outcome_Text
+          Explore
+          Client_Name
+          Client_Goal_Text
+          Challenge_Text
+          Approach_Text
+          Approach_Image {
+            url
           }
           Approach_Section {
-            body
-            image_caption
-            title
-            image {
-              absolutePath
+            Text
+            Title
+            Image {
+              publicURL
             }
           }
-          Challenge {
-            client_goal
-            text
+          Client_Goal_Bullet {
+            Text
           }
           Expertise {
-            text
+            Text
           }
-          Explore
           Figure {
-            description
-            figure
+            Header
+            Text
           }
-          Key_Outcome {
-            description
-            id
-            title
-            icon {
+          Outcome {
+            Caption
+            Title
+            Icon {
               url
             }
           }
+          Preview_Image {
+            url
+          }
           Quote {
-            client
-            quote
+            Quote
+            Source
+          }
+          Realated_Titles {
+            Text
           }
           Technology {
-            text
+            Text
           }
-          client
-          title
         }
-        id
+        Old_Style {
+          Approach
+          Project
+          Website
+          Background {
+            Section_One
+            Section_Two
+            Title
+          }
+          Images {
+            alternativeText
+            caption
+            url
+          }
+          Preview_Image {
+            publicURL
+          }
+          Related_Titles {
+            Text
+          }
+          Specs {
+            Text
+          }
+          Tags {
+            Text
+          }
+        }
       }
     }
   }
 `
+
+
 
 // OLD CODE TO BE USED AS REFERENCE WHILE BUILDING CURRENT
 
@@ -157,7 +193,7 @@ export const query = graphql`
 //         urlObject={this.props.location}
 //       >
 
-//         <FilteredCaseStudies posts={edges} allTags={allTags} />
+        // <FilteredCaseStudies posts={edges} allTags={allTags} />
 
 //         <section className="section section__triple-quotes neutral-hex-bg">
 //           <div className="usa-grid">

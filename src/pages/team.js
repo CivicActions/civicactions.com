@@ -16,10 +16,38 @@ const Team = (props) => {
       heroSubtitle="We are a fun loving, open-hearted group of civic technology professionals committed to making life better for our clients and each other."
       urlObject={props.location}
     >
+      {/* <pre>{JSON.stringify(data, null, 4)}</pre> */}
       {data.allStrapiStaffProfile.nodes.map((node,i)=>{
         return <div key={i}>
-            <div>id: {node.id}</div> 
-            <div>name: {node.name}</div> 
+            <div><b>id: </b>id: {node.id}</div> 
+            <div><b>Name: </b>{node.Name}</div> 
+            <div><b>Pronunciation: </b>{node.Pronunciation}</div> 
+            <div><b>Personal_Pronouns: </b>{node.Personal_Pronouns}</div> 
+            <div><b>Role: </b>{node.Role}</div> 
+            <div><b>Path: </b>{node.Path}</div> 
+            <div><b>Location: </b>{node.Location}</div> 
+            <div><b>Quote: </b>{node.Quote}</div> 
+            <div><b>Social Links</b></div>
+            {node.Social.map((social,i)=>{
+              return <div key={i} style={{display: "inline-block"}}>
+                 <div><b>index: </b>{i}</div> 
+                 <div><b>Title: </b>{social.Title}</div> 
+                 <div><b>Url: </b>{social.Url}</div> 
+              </div>
+            })}
+            <div><b>Specialties</b></div>
+            {node.Specialty.map((specialty,i)=>{
+              return <div key={i} style={{display: "inline-block"}}>
+                 <div><b>index: </b>{i}</div> 
+                 <div><b>Specialty: </b>{specialty.Specialty}</div> 
+              </div>
+            })}
+            <div><b>Body: </b>{node.Body}</div> 
+            <div><b>Image: </b>{node.Image.publicURL}</div> 
+            <div><b>Audio: </b>{node.Audio?.publicURL}</div> 
+            <div><br></br></div>
+            <div><br></br></div>
+            {/* <div>name: {node.name}</div> 
             <div>pronunciation: {node.pronunciation}</div> 
             <div>personal-pronouns: {node.personal_pronouns}</div> 
             <div>role: {node.role}</div> 
@@ -40,7 +68,7 @@ const Team = (props) => {
               </div>
             })}
             <div>body: {node.body}</div> 
-            <div>quote: quote: {node.Quote.quote} - client: {node.Quote.client}</div>
+            <div>quote: quote: {node.Quote.quote} - client: {node.Quote.client}</div> */}
         </div>
       })} 
     </GeneralLayout>
@@ -53,30 +81,29 @@ export const query = graphql`
   {
     allStrapiStaffProfile {
       nodes {
-        Quote {
-          client
-          quote
-        }
-        role
-        pronunciation
-        personal_pronouns
-        name
-        location
-        image {
-          absolutePath
-        }
-        body
-        audio {
-          absolutePath
-        }
-        Specialties {
-          text
-        }
-        Social {
-          title
-          link
-        }
         id
+        Name
+        Pronunciation
+        Personal_Pronouns
+        Role
+        Path
+        Location
+        Quote
+        Social {
+          Title
+          Url
+        }
+        Specialty {
+          Specialty
+          id
+        }
+        Body
+        Image {
+          publicURL
+        }
+        Audio {
+          publicURL
+        }
       }
     }
   }

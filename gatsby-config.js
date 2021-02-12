@@ -91,9 +91,9 @@ module.exports = {
     {
       resolve: `gatsby-source-strapi`,
       options: {
-        apiURL: `http://localhost:1337`,
+        apiURL: `https://strapi.prod.civicactions.dev`,
         queryLimit: 100,
-        contentTypes: [`case-study`,`staff-profile`,`press`],
+        contentTypes: [`case-study`,`staff-profile`,`press`,`press-release`],
         singleTypes: [],
         loginData: {
           identifier: "",
