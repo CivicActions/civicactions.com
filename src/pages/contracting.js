@@ -21,11 +21,8 @@ class Contracting extends React.Component {
       >
         <section className="section">
           <div className="usa-grid">
-            <div
-              className="text-container"
-              dangerouslySetInnerHTML={{ __html: html }}
-            />
             <div class="text-container">
+              <h3>Contracting Vehicles</h3>
               <ul>
                 <li>
                   <a href={gsaSchedule}>GSA Schedule 70 (PDF)</a>
@@ -35,6 +32,10 @@ class Contracting extends React.Component {
                 </li>
               </ul>
             </div>
+            <div
+              className="text-container"
+              dangerouslySetInnerHTML={{ __html: html }}
+            />
           </div>
         </section>
       </GeneralLayout>
