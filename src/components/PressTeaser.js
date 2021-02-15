@@ -24,6 +24,7 @@ const PressTeaser = ({
         <span>Full Story: </span>
         <a href={link}>{link_text}</a>
       </div>
+      <br/>
     </div>
   </li>
 )

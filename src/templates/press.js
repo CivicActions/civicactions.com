@@ -6,7 +6,6 @@ import PressTeaser from "./../components/PressTeaser"
 
 const Press = (props) => {
   const data = useStaticQuery(query);
-  console.log(data);
   return (
     <GeneralLayout
       heroTitle="Press"
