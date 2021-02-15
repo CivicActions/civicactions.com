@@ -132,9 +132,9 @@ const Hero = ({
 
   if (social) {
     socialLinks = social.map((link, index) => (
-      <a className="hero__social--link" key={index} href={link.url}>
+      <a className="hero__social--link" key={index} href={link.Url}>
         {` `}
-        {link.name}
+        {link.Title}
         {` `}
       </a>
     ))

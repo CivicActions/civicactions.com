@@ -2,54 +2,71 @@
 
 import React from "react"
 import { graphql,useStaticQuery } from "gatsby"
-
 import GeneralLayout from "./../components/layouts/GeneralLayout"
+import Markdown from "react-markdown";
 import Teaser from "./../components/Teaser"
 import Blockquote from "./../components/atoms/Blockquote"
 import SectionTitle from "./../components/atoms/SectionTitle"
 import { existy, getFirstName } from "../helpers"
 
 export default function Template({ _, location }) {
+  
   const data = useStaticQuery(query);
-  console.log(data);
+  var playButton = document.getElementById("play-button")
+  if (playButton) {
+      playButton.onclick = function() {
+        var player = document.getElementById("audio-player")
+        if (player.paused) {
+          player.play()
+        } else {
+          player.pause()
+        }
+      }
+  }
+  let member = {};
+  data.allStrapiStaffProfile.nodes.map((node,i)=>{
+    if(node.Path == "/team/"+window.location.href.split('/')[4]){
+      member = node;
+    }
+  });
   return (
     <GeneralLayout
-      heroTitle=""
-      heroSubtitle=""
+      heroTitle={member.Name}
+      heroSubtitle={member.Role}
+      heroClass="team-member__hero"
+      pageTitle={`CivicActions | ${member.Name}`}
+      ogImage={member.Image.childImageSharp.fluid.src}
+      teamImage={member.Image}
+      location={member.Location}
+      personal_pronouns={member.Personal_Pronouns}
+      social={member.Social}
+      path={member.Path}
       urlObject={location}
+      audioFile={member.Audio}
+      pronunciation={member.Pronunciation}
     >
-       {data.allStrapiStaffProfile.nodes.map((node,i)=>{
-        if(node.Path == "/team/"+window.location.href.split('/')[4]){
-         return  <pre key={i}>{JSON.stringify(node, null, 4)}</pre>
-        }
-      })}
-      {/* {data.allStrapiStaffProfile.nodes.map((node,i)=>{
-        return <div key={i}>
-            <div>id: {node.id}</div> 
-            <div>name: {node.name}</div> 
-            <div>pronunciation: {node.pronunciation}</div> 
-            <div>personal-pronouns: {node.personal_pronouns}</div> 
-            <div>role: {node.role}</div> 
-            <div>location: {node.location}</div> 
-            <div>image: {node.image?.absolutePath}</div> 
-            <div>audio: {node.audio?.absolutePath}</div> 
-            {node.Social.map((social,i)=>{
-              return <div key={i}>
-                <div>index: {i}</div>
-                <div>link: {social.link}</div>
-                <div>title: {social.title}</div>
-              </div>
-            })}
-            {node.Specialties.map((specialty,i)=>{
-              return <div key={i}>
-                <div>index: {i}</div>
-                <div>text: {specialty.text}</div>
-              </div>
-            })}
-            <div>body: {node.body}</div> 
-            <div>quote: quote: {node.Quote.quote} - client: {node.Quote.client}</div>
+        <div className="team_member__specs--wrapper">
+          <section className=" section usa-grid team-member__specs">
+            <div className="study__tech-specs ">
+              <span className="study__tech-specs__title"> Specialties </span>
+              <ul className="hero__specs--list">
+                {member.Specialty.map((spec, index) => (
+                  <li className="hero__specialties" key={index}>
+                    {spec.Specialty}
+                  </li>
+                ))}
+              </ul>
+            </div>
+          </section>
         </div>
-      })}  */}
+        <section className="section text-container team-member__text">
+          <Markdown source={member.Body} escapeHtml={false}/>
+          {member.Quote ? (
+            <Blockquote quote={member.Quote} quote_source={member.Name.split(" ")[0]} />
+          ) : (
+            <div></div>
+          )}
+          </section>
     </GeneralLayout>
   );
 };
@@ -77,7 +94,11 @@ export const query = graphql`
         }
         Body
         Image {
-          publicURL
+          childImageSharp {
+            fluid(maxHeight: 600, maxWidth: 600){
+              ...GatsbyImageSharpFluid_withWebp_noBase64
+            }
+          }
         }
         Audio {
           publicURL
@@ -89,20 +110,20 @@ export const query = graphql`
 
 
 // class teamMemberTemplate extends React.Component {
-//   componentDidMount() {
-//     var playButton = document.getElementById("play-button")
-//     if (playButton) {
-//       playButton.onclick = function() {
-//         var player = document.getElementById("audio-player")
-//         if (player.paused) {
-//           // player.volume = .25;
-//           player.play()
-//         } else {
-//           player.pause()
-//         }
-//       }
-//     }
-//   }
+  // componentDidMount() {
+  //   var playButton = document.getElementById("play-button")
+  //   if (playButton) {
+  //     playButton.onclick = function() {
+  //       var player = document.getElementById("audio-player")
+  //       if (player.paused) {
+  //         // player.volume = .25;
+  //         player.play()
+  //       } else {
+  //         player.pause()
+  //       }
+  //     }
+  //   }
+  // }
 
 //   render() {
 //     const { markdownRemark } = this.props.data
@@ -181,15 +202,15 @@ export const query = graphql`
 //             </div>
 //           </section>
 //         </div>
-//         <section className="section text-container team-member__text">
-//           <div dangerouslySetInnerHTML={{ __html: html }} />
-//           {// Just show quote if quote exists
-//           quote && existy(quoteName) ? (
-//             <Blockquote quote={quote} quote_source={quoteName} />
-//           ) : (
-//             quote
-//           )}
-//         </section>
+        // <section className="section text-container team-member__text">
+        //   <div dangerouslySetInnerHTML={{ __html: html }} />
+        //   {// Just show quote if quote exists
+        //   quote && existy(quoteName) ? (
+        //     <Blockquote quote={quote} quote_source={quoteName} />
+        //   ) : (
+        //     quote
+        //   )}
+        // </section>
 
 //         {// Just show medium posts if medium posts exist
 //         mediumPostsList ? (

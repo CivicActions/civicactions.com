@@ -1,6 +1,6 @@
 import React from "react"
 import { graphql,useStaticQuery } from "gatsby"
-
+import Img from "gatsby-image"
 import GeneralLayout from "./../components/layouts/GeneralLayout"
 import TeaserGrid from "./../components/TeaserGrid"
 import GlobalQuotesSlider from "./../components/organisms/GlobalQuoteSlider"
@@ -9,16 +9,48 @@ import SectionTitle from "./../components/atoms/SectionTitle"
 
 const Team = (props) => {
   const data = useStaticQuery(query);
-  console.log(data);
+  const teamTeasers = data.allStrapiStaffProfile.nodes.map((node, i) => {
+    return (
+      <TeaserGrid
+      image={node.Image}
+      name={node.Name}
+      link={node.Path}
+      published={node.Path}
+      title={node.Role}
+    />
+    )
+  })
   return (
     <GeneralLayout
       heroTitle="Our Team"
       heroSubtitle="We are a fun loving, open-hearted group of civic technology professionals committed to making life better for our clients and each other."
       urlObject={props.location}
     >
-      {/* <pre>{JSON.stringify(data, null, 4)}</pre> */}
-      {data.allStrapiStaffProfile.nodes.map((node,i)=>{
+      <section className="section usa-grid section__teaser-grid">
+        {teamTeasers}
+      </section>
+      <section className="section section__triple-quotes neutral-hex-bg team">
+          <div className="usa-grid">
+            <SectionTitle title="Our Perspectives" />
+            <div className="blockquotes__list">
+              <GlobalQuotesSlider quotes={
+                []
+              }/>
+            </div>
+          </div>
+        </section>
+      {/* {data.allStrapiStaffProfile.nodes.map((node,i)=>{
+          return <div key={i}>
+            <TeaserGrid
+                  image={node.Image}
+                  name="BLAH"
+                  link="/blah"
+                  published='/blah'
+                  title="Engineering"
+                />
+           </div>
         return <div key={i}>
+            <Img sizes={node.Image.childImageSharp.fixed} />
             <div><b>id: </b>id: {node.id}</div> 
             <div><b>Name: </b>{node.Name}</div> 
             <div><b>Pronunciation: </b>{node.Pronunciation}</div> 
@@ -47,30 +79,8 @@ const Team = (props) => {
             <div><b>Audio: </b>{node.Audio?.publicURL}</div> 
             <div><br></br></div>
             <div><br></br></div>
-            {/* <div>name: {node.name}</div> 
-            <div>pronunciation: {node.pronunciation}</div> 
-            <div>personal-pronouns: {node.personal_pronouns}</div> 
-            <div>role: {node.role}</div> 
-            <div>location: {node.location}</div> 
-            <div>image: {node.image?.absolutePath}</div> 
-            <div>audio: {node.audio?.absolutePath}</div> 
-            {node.Social.map((social,i)=>{
-              return <div key={i}>
-                <div>index: {i}</div>
-                <div>link: {social.link}</div>
-                <div>title: {social.title}</div>
-              </div>
-            })}
-            {node.Specialties.map((specialty,i)=>{
-              return <div key={i}>
-                <div>index: {i}</div>
-                <div>text: {specialty.text}</div>
-              </div>
-            })}
-            <div>body: {node.body}</div> 
-            <div>quote: quote: {node.Quote.quote} - client: {node.Quote.client}</div> */}
         </div>
-      })} 
+      })}  */}
     </GeneralLayout>
   );
 };
@@ -99,7 +109,11 @@ export const query = graphql`
         }
         Body
         Image {
-          publicURL
+          childImageSharp {
+            fixed(height: 150, width: 150) {
+              ...GatsbyImageSharpFixed_withWebp_noBase64
+            }
+          }
         }
         Audio {
           publicURL
@@ -168,31 +182,31 @@ export const query = graphql`
 
 // export const t = graphql`
 //   {
-//     markdownRemark(frontmatter: { title: { eq: "Our Team" } }) {
-//       frontmatter {
-//         image_band {
-//           childImageSharp {
-//             resize(quality: 50) {
-//               src
-//             }
-//           }
-//         }
-//         subtitle
-//         title
-//         quotes_title
-//         quotes {
-//           author
-//           image {
-//             childImageSharp {
-//               fixed(width: 264, height: 264) {
-//                 ...GatsbyImageSharpFixed_withWebp_noBase64
-//               }
-//             }
-//           }
-//           text
-//         }
-//       }
-//     }
+    // markdownRemark(frontmatter: { title: { eq: "Our Team" } }) {
+    //   frontmatter {
+    //     image_band {
+    //       childImageSharp {
+    //         resize(quality: 50) {
+    //           src
+    //         }
+    //       }
+    //     }
+    //     subtitle
+    //     title
+    //     quotes_title
+    //     quotes {
+    //       author
+    //       image {
+    //         childImageSharp {
+    //           fixed(width: 264, height: 264) {
+    //             ...GatsbyImageSharpFixed_withWebp_noBase64
+    //           }
+    //         }
+    //       }
+    //       text
+    //     }
+    //   }
+    // }
 //     allMarkdownRemark(
 //       filter: { frontmatter: { type: { eq: "team" } } }
 //       sort: { fields: [frontmatter___manager, frontmatter___name], order: ASC }
