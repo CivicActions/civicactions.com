@@ -28,7 +28,7 @@ Judy has a B.A. in Physical Anthropology from the University of Colorado and com
 ### Things Judy has been doing
 * Keeping the numbers in line
 * Making payday happen
-* [Onboarding](https://civicactions-handbook.readthedocs.io/en/latest/03-policies/employment/) new talent
+* Onboarding new talent
 * Supporting and cheering for our [distributed team](https://medium.com/civicactions/how-remote-working-helps-us-live-our-dreams-and-get-more-work-done-1af24b27467)
 * [Talking](https://drive.google.com/file/d/1gID4dD9_H3O1SftTOI0V6BBKI-rEZ9EE/view?usp=sharing) about her love for numbers and for people
 * Finding ways to make everyone’s day [a little bit better](https://drive.google.com/a/civicactions.com/file/d/0B19L6s1KzDkZVWdCVUtvZjV0Wkh4VWJUM0VMOWxPQ3J1RmxN/view?usp=sharing)
