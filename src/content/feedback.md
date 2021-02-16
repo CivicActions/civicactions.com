@@ -18,4 +18,4 @@ We work in the open and appreciate contributions from everyone. Our work lives [
 <br />
 Don’t have a GitHub account? You can also send feedback or questions to
 
-[contact@civicactions.com](contact@civicactions.com).
+[contact@civicactions.com](mailto:contact@civicactions.com).
