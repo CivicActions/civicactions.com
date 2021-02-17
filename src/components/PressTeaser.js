@@ -1,15 +1,8 @@
 import React from "react"
 import PropTypes from "prop-types"
-import Markdown from "react-markdown";
+import Markdown from "react-markdown"
 
-const PressTeaser = ({
-  publication,
-  date,
-  title,
-  body,
-  link_text,
-  link,
-}) => (
+const PressTeaser = ({ publication, date, title, body, link_text, link }) => (
   <li className="press__item">
     <div className="press">
       <div className="press__meta">
@@ -18,13 +11,13 @@ const PressTeaser = ({
       </div>
       <h3 className="press__title">{title}</h3>
       <div className="press__text">
-        <Markdown source={body} escapeHtml={false}/>
+        <Markdown source={body} escapeHtml={false} />
       </div>
       <div className="press__link">
         <span>Full Story: </span>
         <a href={link}>{link_text}</a>
       </div>
-      <br/>
+      <br />
     </div>
   </li>
 )

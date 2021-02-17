@@ -1,5 +1,5 @@
 import React from "react"
-import { graphql,useStaticQuery } from "gatsby"
+import { graphql, useStaticQuery } from "gatsby"
 import Img from "gatsby-image"
 import GeneralLayout from "./../components/layouts/GeneralLayout"
 import TeaserGrid from "./../components/TeaserGrid"
@@ -7,17 +7,17 @@ import GlobalQuotesSlider from "./../components/organisms/GlobalQuoteSlider"
 import ImageBand from "./../components/organisms/ImageBand"
 import SectionTitle from "./../components/atoms/SectionTitle"
 
-const Team = (props) => {
-  const data = useStaticQuery(query);
+const Team = props => {
+  const data = useStaticQuery(query)
   const teamTeasers = data.allStrapiStaffProfile.nodes.map((node, i) => {
     return (
       <TeaserGrid
-      image={node.Image}
-      name={node.Name}
-      link={node.Path}
-      published={node.Path}
-      title={node.Role}
-    />
+        image={node.Image}
+        name={node.Name}
+        link={node.Path}
+        published={node.Path}
+        title={node.Role}
+      />
     )
   })
   return (
@@ -30,15 +30,13 @@ const Team = (props) => {
         {teamTeasers}
       </section>
       <section className="section section__triple-quotes neutral-hex-bg team">
-          <div className="usa-grid">
-            <SectionTitle title="Our Perspectives" />
-            <div className="blockquotes__list">
-              <GlobalQuotesSlider quotes={
-                []
-              }/>
-            </div>
+        <div className="usa-grid">
+          <SectionTitle title="Our Perspectives" />
+          <div className="blockquotes__list">
+            <GlobalQuotesSlider quotes={[]} />
           </div>
-        </section>
+        </div>
+      </section>
       {/* {data.allStrapiStaffProfile.nodes.map((node,i)=>{
           return <div key={i}>
             <TeaserGrid
@@ -82,8 +80,8 @@ const Team = (props) => {
         </div>
       })}  */}
     </GeneralLayout>
-  );
-};
+  )
+}
 
 export default Team
 
@@ -182,31 +180,31 @@ export const query = graphql`
 
 // export const t = graphql`
 //   {
-    // markdownRemark(frontmatter: { title: { eq: "Our Team" } }) {
-    //   frontmatter {
-    //     image_band {
-    //       childImageSharp {
-    //         resize(quality: 50) {
-    //           src
-    //         }
-    //       }
-    //     }
-    //     subtitle
-    //     title
-    //     quotes_title
-    //     quotes {
-    //       author
-    //       image {
-    //         childImageSharp {
-    //           fixed(width: 264, height: 264) {
-    //             ...GatsbyImageSharpFixed_withWebp_noBase64
-    //           }
-    //         }
-    //       }
-    //       text
-    //     }
-    //   }
-    // }
+// markdownRemark(frontmatter: { title: { eq: "Our Team" } }) {
+//   frontmatter {
+//     image_band {
+//       childImageSharp {
+//         resize(quality: 50) {
+//           src
+//         }
+//       }
+//     }
+//     subtitle
+//     title
+//     quotes_title
+//     quotes {
+//       author
+//       image {
+//         childImageSharp {
+//           fixed(width: 264, height: 264) {
+//             ...GatsbyImageSharpFixed_withWebp_noBase64
+//           }
+//         }
+//       }
+//       text
+//     }
+//   }
+// }
 //     allMarkdownRemark(
 //       filter: { frontmatter: { type: { eq: "team" } } }
 //       sort: { fields: [frontmatter___manager, frontmatter___name], order: ASC }
@@ -233,4 +231,3 @@ export const query = graphql`
 //     }
 //   }
 // `
-

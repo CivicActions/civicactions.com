@@ -6,7 +6,6 @@ import FilteredCaseStudies from "./../components/FilteredCaseStudies"
 import GlobalQuoteSlider from "./../components/organisms/GlobalQuoteSlider"
 import SectionTitle from "./../components/atoms/SectionTitle"
 
-
 class CaseStudies extends React.Component {
   render() {
     const { markdownRemark, allMarkdownRemark } = this.props.data
@@ -32,7 +31,6 @@ class CaseStudies extends React.Component {
         heroSubtitle="We help organizations provide better outcomes for people. Our years of experience with government and nonprofit clients have taught us how to manage the complexities of big projects and create partnerships that result in lasting success."
         urlObject={this.props.location}
       >
-
         <FilteredCaseStudies posts={edges} allTags={allTags} />
 
         <section className="section section__triple-quotes neutral-hex-bg">
@@ -98,8 +96,6 @@ export const allCaseStudies = graphql`
     }
   }
 `
-
-
 
 // const CaseStudies = (props) => {
 //   const data = useStaticQuery(query);
@@ -254,7 +250,3 @@ export const allCaseStudies = graphql`
 //     }
 //   }
 // `
-
-
-
-

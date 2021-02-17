@@ -93,7 +93,7 @@ module.exports = {
       options: {
         apiURL: `https://strapi.prod.civicactions.dev`,
         queryLimit: 100,
-        contentTypes: [`case-study`,`staff-profile`,`press`,`press-release`],
+        contentTypes: [`case-study`, `staff-profile`, `press`, `press-release`],
         singleTypes: [],
         loginData: {
           identifier: "",

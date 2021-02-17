@@ -2,7 +2,7 @@
 
 import React from "react"
 import _ from "lodash"
-import { graphql, useStaticQuery} from "gatsby"
+import { graphql, useStaticQuery } from "gatsby"
 import GeneralLayout from "./../components/layouts/GeneralLayout"
 import ImageSlider from "./../components/organisms/ImageSlider"
 import RelatedByTitle from "./../components/RelatedByTitle"
@@ -137,7 +137,6 @@ export const studyQuery = graphql`
   }
 `
 
-
 // export default function Template({ _, location }) {
 //   const data = useStaticQuery(query);
 //   console.log(data);
@@ -158,7 +157,7 @@ export const studyQuery = graphql`
 //          return  <pre key={i}>{JSON.stringify(node, null, 4)}</pre>
 //         }
 //       })}
-     
+
 //     </GeneralLayout>
 //   )
 // }
@@ -249,33 +248,3 @@ export const studyQuery = graphql`
 //     }
 //   }
 // `
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

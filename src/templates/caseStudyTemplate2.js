@@ -258,7 +258,6 @@ export const newStudyQuery = graphql`
   }
 `
 
-
 // export default function Template({ _, location }) {
 //   const data = useStaticQuery(query);
 //   console.log(data);
@@ -279,7 +278,7 @@ export const newStudyQuery = graphql`
 //          return  <pre key={i}>{JSON.stringify(node, null, 4)}</pre>
 //         }
 //       })}
-     
+
 //     </GeneralLayout>
 //   )
 // }
@@ -370,4 +369,3 @@ export const newStudyQuery = graphql`
 //     }
 //   }
 // `
-
