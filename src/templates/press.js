@@ -4,17 +4,21 @@ import Link from "gatsby-link"
 import GeneralLayout from "./../components/layouts/GeneralLayout"
 import PressTeaser from "./../components/PressTeaser"
 
-// TODO: Implement previous and next links to paginate the press pages
+const NavLink = props => {
+  if (props.url!=null) {
+    return <Link to={props.url}>{props.text}</Link>
+  } else {
+    return <span>{props.text}</span>
+  }
+}
 
 const Press = (props) => {
   const data = useStaticQuery(query);
-  // const NavLink = props => {
-  //   if (!props.test) {
-  //     return <Link to={props.url}>{props.text}</Link>
-  //   } else {
-  //     return <span>{props.text}</span>
-  //   }
-  // }
+  let currentPageIndex = parseInt(window.location.href.split('/press/')[1] ?? 0);
+  let nextPageIndex = (currentPageIndex + ( currentPageIndex == 0 ? 2 : 1 ))
+  let nextUrl = "/press/" + (isNaN(nextPageIndex) ? 2 : nextPageIndex)
+  let prevPageIndex = currentPageIndex == 0 ? null : (currentPageIndex - ( currentPageIndex == 2 ? 2 : 1 ))
+  let prevUrl = isNaN(prevPageIndex) || prevPageIndex == null ? null : ("/press/" + (prevPageIndex == 0 ? "" : prevPageIndex))
   return (
     <GeneralLayout
       heroTitle="Press"
@@ -25,6 +29,8 @@ const Press = (props) => {
         <div className="usa-grid text-container">
         <ul className="press__list">
         {data.allStrapiPress.nodes.map((node,i)=>{
+          let k = isNaN(currentPageIndex) || currentPageIndex == 0 ? 1 : currentPageIndex;
+          if(i > (k*2) && i < ((k*2)+5))
           return <div key={i}> 
               <PressTeaser 
               publication={node.Publication}
@@ -37,14 +43,14 @@ const Press = (props) => {
           </div>
         })} 
         </ul>
-        {/* <div className="prev-next-links">
+        <div className="prev-next-links">
           <div className="previous">
-            <NavLink test={first} url={previousUrl} text="Previous" />
+            <NavLink url={ prevUrl } text="Previous" />
           </div>
           <div className="next">
-            <NavLink test={last} url={nextUrl} text="Next" />
+          <NavLink url={ nextUrl } text="Next" />
           </div>
-        </div> */}
+        </div>
         </div>
       </section>
     </GeneralLayout>
@@ -55,7 +61,7 @@ export default Press
 
 export const query = graphql`
   {
-    allStrapiPress {
+    allStrapiPress(sort: {fields: Date, order: DESC}){
       nodes {
         Body
         Date
