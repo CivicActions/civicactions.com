@@ -9,7 +9,6 @@ import SectionTitle from "./../components/atoms/SectionTitle"
 
 const Team = props => {
   const data = useStaticQuery(query)
-  console.log(data)
   const { markdownRemark, allMarkdownRemark } = data
   const {
     image_band,
@@ -46,7 +45,6 @@ const Team = props => {
           </div>
         </div>
       </section>
-
       <section className="feed__image--wrapper">
         <ImageBand imageArray={image_band} />
       </section>
@@ -128,7 +126,7 @@ export const query = graphql`
         Body
         Image {
           childImageSharp {
-            fixed(height: 150, width: 150) {
+            fixed(height: 144, width: 144) {
               ...GatsbyImageSharpFixed_withWebp_noBase64
             }
           }
