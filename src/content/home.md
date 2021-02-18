@@ -3,8 +3,8 @@ path: /
 type: home
 title: Digital services that work for everyone
 subtitle: We help agencies improve lives through modern software and thoughtful experiences.
-cta_text: Learn How We Do It
-cta_link: /approach
+cta_text: Looking for DITAP training? Go here
+cta_link: /ditap
 quote: Our goal is to transform the way governments procure, develop, and deliver digital services.
 quotes_title: Get to know us
 quotes:
