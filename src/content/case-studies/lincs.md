@@ -12,12 +12,12 @@ background_section: "The Department of Education needed help consolidating and u
 background_section_second: "LINCS gives educators and learners access to resource libraries, discussion groups, and self-guided courses -- but these were located on various websites that were outdated and confusing to navigate. LINCS needed to be restructured with modern technical architecture into a secure, streamlined platform where education practitioners could enjoy learning and sharing. LINCS users also needed reliable, friendly support to resolve technical and login issues and get back to helping adult learners."
 tags: ["Support", "Drupal", "Quality Assurance"]
 specs: [
-"Drupal 7",
+"Drupal 8",
 "JIRA Service Desk",
 "Moodle Learning Management System", 
 "FedRAMP compliant platform", 
 "Mobile-friendly, responsive design", 
-"Shibboleth Single Sign-On", 
+"U.S. Web Design Standards", 
 "Docker",
 "Ansible"
 ]
@@ -88,11 +88,11 @@ https://github.com/lincs
  
 <figure>
   <div> 
-    <header>12,800</header>
+    <header>12,000 +</header>
     <p>members in the LINCS<br>community of practice<p>
   </div>
   <div> 
-      <header>12</header>
-      <p>minutes average helpdesk<br>ticket resolution time<p>
+      <header>15,000 +</header>
+      <p>helpdesk issues<br>resolved to date<p>
   </div>
 </figure>
