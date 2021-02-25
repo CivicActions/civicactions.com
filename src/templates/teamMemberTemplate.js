@@ -11,6 +11,7 @@ import { existy, getFirstName } from "../helpers"
 
 export default function Template({ _, location }) {
   const data = useStaticQuery(query)
+  let member = {}
   useEffect(() => {
     var playButton = document.getElementById("play-button")
     if (playButton) {
@@ -23,13 +24,13 @@ export default function Template({ _, location }) {
         }
       }
     }
+    data.allStrapiStaffProfile.nodes.map((node, i) => {
+      if (node.Path == "/team/" + location.href.split("/")[4]) {
+        member = node
+      }
+    })
   }, [])
-  let member = {}
-  data.allStrapiStaffProfile.nodes.map((node, i) => {
-    if (node.Path == "/team/" + window.location.href.split("/")[4]) {
-      member = node
-    }
-  })
+
   return (
     <GeneralLayout
       heroTitle={member.Name}

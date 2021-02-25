@@ -1,4 +1,4 @@
-import React from "react"
+import React, { useEffect } from "react"
 import { graphql, useStaticQuery } from "gatsby"
 import Link from "gatsby-link"
 import GeneralLayout from "./../components/layouts/GeneralLayout"
@@ -14,7 +14,7 @@ const NavLink = props => {
 
 const Press = props => {
   const data = useStaticQuery(query)
-  let currentPageIndex = parseInt(window.location.href.split("/press/")[1] ?? 0)
+  let currentPageIndex = parseInt(props.location.href.split("/press/")[1] ?? 0)
   let nextPageIndex = currentPageIndex + (currentPageIndex == 0 ? 2 : 1)
   let nextUrl = "/press/" + (isNaN(nextPageIndex) ? 2 : nextPageIndex)
   let prevPageIndex =
