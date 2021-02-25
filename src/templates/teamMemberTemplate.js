@@ -27,11 +27,10 @@ export default function Template({ _, location }) {
     }
   }, [])
   data.allStrapiStaffProfile.nodes.map((node, i) => {
-    if (node.Path == "/team/" + location.href.split("/")[4]) {
+    if (node.Path == "/team/" + location.pathname.split("/")[2]) {
       member = node
     }
   })
-
   return (
     <GeneralLayout
       heroTitle={member.Name}
@@ -65,10 +64,7 @@ export default function Template({ _, location }) {
       <section className="section text-container team-member__text">
         <Markdown source={member.Body} escapeHtml={false} />
         {member.Quote ? (
-          <Blockquote
-            quote={member.Quote}
-            quote_source={member.Name.split(" ")[0]}
-          />
+          <Blockquote quote={member.Quote} quote_source={member.Name} />
         ) : (
           <div></div>
         )}

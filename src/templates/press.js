@@ -14,7 +14,9 @@ const NavLink = props => {
 
 const Press = props => {
   const data = useStaticQuery(query)
-  let currentPageIndex = parseInt(props.location.href.split("/press/")[1] ?? 0)
+  let currentPageIndex = parseInt(
+    props.location.pathname.split("/press/")[1] ?? 0
+  )
   let nextPageIndex = currentPageIndex + (currentPageIndex == 0 ? 2 : 1)
   let nextUrl = "/press/" + (isNaN(nextPageIndex) ? 2 : nextPageIndex)
   let prevPageIndex =

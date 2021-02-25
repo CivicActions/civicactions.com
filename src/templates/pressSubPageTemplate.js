@@ -9,7 +9,7 @@ export default function Template({ _, location }) {
   const data = useStaticQuery(query)
   let pressRelease = {}
   data.allStrapiPressRelease.nodes.map((node, i) => {
-    if (node.Path == "/press/" + location.href.split("/")[4]) {
+    if (node.Path == "/press/" + location.pathname.split("/")[2]) {
       pressRelease = node
     }
   })
