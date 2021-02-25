@@ -1,6 +1,6 @@
 // Template for displaying individual team-member content
 
-import React from "react"
+import React, { useEffect } from "react"
 import { graphql, useStaticQuery } from "gatsby"
 import GeneralLayout from "./../components/layouts/GeneralLayout"
 import Markdown from "react-markdown"
@@ -11,17 +11,19 @@ import { existy, getFirstName } from "../helpers"
 
 export default function Template({ _, location }) {
   const data = useStaticQuery(query)
-  var playButton = document.getElementById("play-button")
-  if (playButton) {
-    playButton.onclick = function() {
-      var player = document.getElementById("audio-player")
-      if (player.paused) {
-        player.play()
-      } else {
-        player.pause()
+  useEffect(() => {
+    var playButton = document.getElementById("play-button")
+    if (playButton) {
+      playButton.onclick = function() {
+        var player = document.getElementById("audio-player")
+        if (player.paused) {
+          player.play()
+        } else {
+          player.pause()
+        }
       }
     }
-  }
+  }, [])
   let member = {}
   data.allStrapiStaffProfile.nodes.map((node, i) => {
     if (node.Path == "/team/" + window.location.href.split("/")[4]) {
