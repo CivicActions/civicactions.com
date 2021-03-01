@@ -3,22 +3,24 @@ import PropTypes from "prop-types"
 
 import MarkdownIconParagraph from "./../atoms/MarkdownIconParagraph"
 
-const MarkdownIconParagraphsGroup = ({ icons }) => {
-  const iconList = icons.map((service, index) => {
-    const image = service.icon ? service.icon.publicURL : ``
-    const { title, caption } = service
+const MarkdownIconParagraphsGroup = ({ outcomes }) => {
+  const outcomesList = outcomes.map((outcome, index) => {
+    const image = outcome.Icon
+      ? "https://strapi.prod.civicactions.dev" + outcome.Icon[0].url
+      : ``
+    const { Title, Caption } = outcome
 
     return (
       <MarkdownIconParagraph
         key={index}
         icon={image}
-        icon_heading={title}
-        icon_text={caption}
+        icon_heading={Title}
+        icon_text={Caption}
       />
     )
   })
 
-  return <div className="iconparagraphs__group">{iconList}</div>
+  return <div className="iconparagraphs__group">{outcomesList}</div>
 }
 
 export default MarkdownIconParagraphsGroup

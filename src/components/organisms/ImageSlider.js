@@ -49,8 +49,8 @@ class ImageSlider extends Component {
           return (
             <SlideImage
               key={index}
-              image={image.url.childImageSharp.fixed}
-              alt={image.alt}
+              url={"https://strapi.prod.civicactions.dev" + image.url}
+              alt={image.alternativeText}
               caption={image.caption}
             />
           )

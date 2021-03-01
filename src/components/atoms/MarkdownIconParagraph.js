@@ -1,6 +1,6 @@
 import React from "react"
 import PropTypes from "prop-types"
-
+import Markdown from "react-markdown"
 const MarkdownIconParagraph = ({
   icon,
   icon_class,
@@ -22,10 +22,7 @@ const MarkdownIconParagraph = ({
     <div className={iconClass}>
       {image}
       <p className="iconparagraph__heading"> {icon_heading} </p>
-      <div
-        className="iconparagraph__text"
-        dangerouslySetInnerHTML={{ __html: icon_text }}
-      />
+      <Markdown source={icon_text} escapeHtml={false} />
     </div>
   )
 }

@@ -8,95 +8,75 @@ import GeneralLayout from "./../components/layouts/GeneralLayout"
 import RelatedByTitle from "./../components/RelatedByTitle"
 import Blockquote from "./../components/atoms/Blockquote"
 import MarkdownIconParagraphsGroup from "./../components/organisms/MarkdownIconParagraphsGroup"
+import Markdown from "react-markdown"
 
-export default function Template({ data, location }) {
-  const { markdownRemark, allMarkdownRemark } = data
-  const { frontmatter, html } = markdownRemark
-  const {
-    figures,
-    client_goal_bullets,
-    expertise,
-    client_technologies,
-    approach_text,
-    related_titles,
-    specs,
-    tags,
-    approach_image,
-    approach_sections,
-    approach_index,
-    outcome_text,
-    outcomes,
-  } = frontmatter
-  const { edges } = allMarkdownRemark
+export default function Template({ _, location }) {
+  const data = useStaticQuery(query)
+  console.log(data)
+  let caseStudy = {}
+  data.allStrapiCaseStudy.nodes.map((node, i) => {
+    if (node.Path == "/case-study/" + location.href.split("/")[4]) {
+      caseStudy = node
+    }
+  })
+  console.log(caseStudy.Related_Case_Studies)
 
-  const specsList = _.map(specs, (spec, index) => (
-    <li className="study__item" key={index}>
-      {` `}
-      {spec}
-    </li>
-  ))
-
-  const tagsList = tags.map((tag, index) => (
-    <button className="tags" key={index}>
-      {tag}
-    </button>
-  ))
-
-  const figuresList = figures.map(figure => (
-    <div>
-      <header>{figure.header}</header>
-      <p dangerouslySetInnerHTML={{ __html: figure.text }} />
+  const figuresList = caseStudy.New_Style.Impact_Stat.map((stat, i) => (
+    <div key={i}>
+      <header>{stat.Header}</header>
+      <Markdown source={stat.Text} escapeHtml={false} />
     </div>
   ))
 
-  const technologiesList = client_technologies.map(technology => (
-    <li>{technology}</li>
+  const technologiesList = caseStudy.New_Style.Technology.map(
+    (technology, i) => <li key={i}>{technology.Text}</li>
+  )
+
+  const clientGoalBullets = caseStudy.New_Style.Client_Goal_Bullet.map(
+    (bullet, i) => <li key={i}>{bullet.Text}</li>
+  )
+
+  const expertiseBullets = caseStudy.New_Style.Expertise.map((bullet, i) => (
+    <li key={i}>{bullet.Text}</li>
   ))
 
-  const clientGoalBullets = client_goal_bullets.map(bullet => <li>{bullet}</li>)
+  const approachSection = caseStudy.New_Style.Approach_Section.map(
+    (section, index) => (
+      <div className="approach-row" key={index}>
+        <div className="one-twelfth"></div>
 
-  const expertiseBullets = expertise.map(bullet => <li>{bullet}</li>)
+        <div className="four-twelfths">
+          <h5>{section.Title}</h5>
+          <Markdown source={section.Text} escapeHtml={false} />
+        </div>
 
-  const approachSection = approach_sections.map((section, index) => (
-    <div className="approach-row">
-      <div className="one-twelfth"></div>
+        <div className="six-twelfths hero__image">
+          <img src={section.Image.publicURL}></img>
+          {/* TODO: Caption not Getting Displayed */}
+          <div className="slide__caption">{""}</div>
+        </div>
 
-      <div className="four-twelfths">
-        {approach_index && <h3>0{index + 1}</h3>}
-        <h5>{section.title}</h5>
-        <div dangerouslySetInnerHTML={{ __html: section.text }} />
+        <div className="one-twelfth"></div>
       </div>
-
-      <div className="six-twelfths hero__image">
-        <Img
-          sizes={section.image.url.childImageSharp.fluid}
-          alt={section.image.alt}
-          title={section.image.alt}
-        />
-        <div className="slide__caption">{section.image.caption}</div>
-      </div>
-
-      <div className="one-twelfth"></div>
-    </div>
-  ))
-
+    )
+  )
   return (
     <GeneralLayout
-      heroTitle={frontmatter.title}
-      pageTitle={`CivicActions | ${frontmatter.title}`}
-      clientName={frontmatter.client_name}
-      heroCTALink={frontmatter.website}
+      heroTitle={caseStudy.Title}
+      pageTitle={`CivicActions | ${caseStudy.Title}`}
+      clientName={caseStudy.Client_Name}
+      heroCTALink={caseStudy.Website}
       heroCTAText="Visit Website"
       heroClass="case-study-hero"
       heroIsExternal={true}
-      path={frontmatter.path}
+      path={caseStudy.Path}
       urlObject={location}
     >
       <div className="section__specs-small section">
         <section className="usa-grid study text-container">
           <Blockquote
-            quote={frontmatter.quote}
-            quote_source={frontmatter.quote_source}
+            quote={caseStudy.New_Style.Quote.Quote}
+            quote_source={caseStudy.New_Style.Quote.Source}
             quote_class="new-blockquote"
           />
         </section>
@@ -107,10 +87,14 @@ export default function Template({ data, location }) {
 
       <div className="text-container section">
         <h3>The Challenge</h3>
-        <div dangerouslySetInnerHTML={{ __html: frontmatter.challenge_text }} />
+        <Markdown
+          source={caseStudy.New_Style.Challenge_Text}
+          escapeHtml={false}
+        />
         <h5>Client Goal</h5>
-        <div
-          dangerouslySetInnerHTML={{ __html: frontmatter.client_goal_text }}
+        <Markdown
+          source={caseStudy.New_Style.Client_Goal_Text}
+          escapeHtml={false}
         />
         <ul>{clientGoalBullets}</ul>
       </div>
@@ -132,14 +116,16 @@ export default function Template({ data, location }) {
       <div className="text-container">
         <h3>Our Approach</h3>
         <div className="hero__image study-hero">
-          <Img
-            sizes={approach_image.url.childImageSharp.fluid}
-            alt={approach_image.alt}
-            title={approach_image.alt}
-          />
-          <div className="slide__caption">{approach_image.caption}</div>
+          <img src={caseStudy.New_Style.Approach_Image.publicURL}></img>
+          {/* TODO: Caption not Getting Displayed */}
+          <div className="slide__caption">
+            {caseStudy.New_Style.Approach_Image.caption}
+          </div>
         </div>
-        <div dangerouslySetInnerHTML={{ __html: approach_text }} />
+        <Markdown
+          source={caseStudy.New_Style.Approach_Text}
+          escapeHtml={false}
+        />
       </div>
 
       <div className="wide-container">
@@ -151,221 +137,125 @@ export default function Template({ data, location }) {
       <div class="off-color outcomes-section wide-container">
         <h3>Key Outcomes</h3>
         <section className="wide-container usa-grid">
-          <MarkdownIconParagraphsGroup icons={outcomes} />
+          <MarkdownIconParagraphsGroup outcomes={caseStudy.New_Style.Outcome} />
         </section>
       </div>
 
       <div className="text-container section">
-        <div dangerouslySetInnerHTML={{ __html: html }} />
+        <Markdown source={caseStudy.New_Style.Explore} escapeHtml={false} />
       </div>
-      {related_titles ? (
-        <RelatedByTitle posts={edges} titles={related_titles} />
+      {caseStudy.Related_Case_Studies ? (
+        <RelatedByTitle posts={caseStudy.Related_Case_Studies} />
       ) : null}
     </GeneralLayout>
   )
 }
 
 // Query case study content
-export const newStudyQuery = graphql`
-  query NewStudyByPath($path: String!) {
-    markdownRemark(frontmatter: { path: { eq: $path } }) {
-      html
-      frontmatter {
-        path
-        title
-        quote
-        quote_source
-        figures {
-          header
-          text
-        }
-        client_name
-        website
-        challenge_text
-        client_goal_text
-        client_goal_bullets
-        expertise
-        client_technologies
-        related_titles
-        tags
-        specs
-        approach_text
-        approach_image {
-          caption
-          alt
-          url {
-            childImageSharp {
-              fluid(maxHeight: 1400) {
-                ...GatsbyImageSharpFluid_withWebp_noBase64
-              }
-            }
-          }
-        }
-        approach_sections {
-          title
-          text
-          image {
-            caption
-            alt
-            url {
+export const query = graphql`
+  {
+    allStrapiCaseStudy {
+      nodes {
+        id
+        Path
+        Style
+        Title
+        Client_Name
+        Related_Case_Studies {
+          Client_Name
+          Path
+          Title
+          Old_Style {
+            Preview_Image {
               childImageSharp {
-                fluid(maxHeight: 1400) {
-                  ...GatsbyImageSharpFluid_withWebp_noBase64
+                fixed(height: 150, width: 150) {
+                  ...GatsbyImageSharpFixed_withWebp_noBase64
                 }
               }
             }
           }
         }
-        approach_index
-        outcome_text
-        outcomes {
-          title
-          caption
-          icon {
+        New_Style {
+          Title
+          Path
+          Outcome_Text
+          Explore
+          Client_Name
+          Client_Goal_Text
+          Challenge_Text
+          Approach_Text
+          Approach_Image {
             publicURL
+            name
+            internal {
+              description
+            }
           }
-        }
-      }
-    }
-
-    allMarkdownRemark(
-      filter: {
-        frontmatter: {
-          type: { in: ["case-study", "case-study-2"] }
-          path: { ne: $path }
-        }
-      }
-    ) {
-      totalCount
-      edges {
-        node {
-          frontmatter {
-            client_name
-            title
-            path
-            tags
-            preview_image {
-              childImageSharp {
-                fixed(width: 600, height: 600) {
-                  src
-                }
+          Approach_Section {
+            Text
+            Title
+            Image {
+              publicURL
+            }
+          }
+          Client_Goal_Bullet {
+            Text
+          }
+          Expertise {
+            Text
+          }
+          Impact_Stat {
+            Header
+            Text
+          }
+          Outcome {
+            Caption
+            Title
+            Icon {
+              url
+            }
+          }
+          Preview_Image {
+            childImageSharp {
+              fixed(height: 150, width: 150) {
+                ...GatsbyImageSharpFixed_withWebp_noBase64
               }
             }
+          }
+          Quote {
+            Quote
+            Source
+          }
+          Technology {
+            Text
+          }
+        }
+        Old_Style {
+          Approach
+          Project
+          Website
+          Background {
+            Section_One
+            Section_Two
+            Title
+          }
+          Images {
+            alternativeText
+            caption
+            url
+          }
+          Preview_Image {
+            childImageSharp {
+              fixed(height: 300, width: 300) {
+                ...GatsbyImageSharpFixed_withWebp_noBase64
+              }
+            }
+          }
+          Specs {
+            Text
           }
         }
       }
     }
   }
 `
-
-// export default function Template({ _, location }) {
-//   const data = useStaticQuery(query);
-//   console.log(data);
-//   return (
-//     <GeneralLayout
-//       heroTitle=""
-//       pageTitle=""
-//       clientName=""
-//       heroCTALink=""
-//       heroCTAText="Visit Website"
-//       heroClass="case-study-hero"
-//       heroIsExternal={true}
-//       path={window.location.href}
-//       urlObject={location}
-//     >
-//       {data.allStrapiCaseStudy.nodes.map((node,i)=>{
-//         if(node.Path == "/case-study/"+window.location.href.split('/')[4]){
-//          return  <pre key={i}>{JSON.stringify(node, null, 4)}</pre>
-//         }
-//       })}
-
-//     </GeneralLayout>
-//   )
-// }
-// export const query = graphql`
-//   {
-//     allStrapiCaseStudy{
-//       nodes {
-//         Path
-//         Style
-//         Title
-//         Client_Name
-//         New_Style {
-//           Title
-//           Path
-//           Outcome_Text
-//           Explore
-//           Client_Name
-//           Client_Goal_Text
-//           Challenge_Text
-//           Approach_Text
-//           Approach_Image {
-//             url
-//           }
-//           Approach_Section {
-//             Text
-//             Title
-//             Image {
-//               publicURL
-//             }
-//           }
-//           Client_Goal_Bullet {
-//             Text
-//           }
-//           Expertise {
-//             Text
-//           }
-//           Impact_Stat {
-//             Header
-//             Text
-//           }
-//           Outcome {
-//             Caption
-//             Title
-//             Icon {
-//               url
-//             }
-//           }
-//           Preview_Image {
-//             url
-//           }
-//           Quote {
-//             Quote
-//             Source
-//           }
-//           Realated_Titles {
-//             Text
-//           }
-//           Technology {
-//             Text
-//           }
-//         }
-//         id
-//         Old_Style {
-//           Approach
-//           Project
-//           Website
-//           Background {
-//             Section_One
-//             Section_Two
-//             Title
-//           }
-//           Images {
-//             alternativeText
-//             caption
-//             url
-//           }
-//           Preview_Image {
-//             publicURL
-//           }
-//           Related_Titles {
-//             Text
-//           }
-//           Specs {
-//             Text
-//           }
-//         }
-//       }
-//     }
-//   }
-// `

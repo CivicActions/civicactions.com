@@ -1,9 +1,9 @@
 import React from "react"
 import Img from "gatsby-image"
 
-const SlideImage = ({ image, caption, alt }) => (
+const SlideImage = ({ url, caption, alt }) => (
   <div className="slide__item">
-    <Img sizes={image} alt={alt} />
+    <img src={url} alt={alt} />
     <div className="slide__caption"> {caption}</div>
   </div>
 )
