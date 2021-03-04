@@ -22,7 +22,7 @@ const Hero = ({
 }) => {
   const team_image = image ? (
     <div className="hero__image">
-      <Img fluid={image.childImageSharp.fluid} alt={`Image of ${title}`} />
+      <Img fluid={image.childImageSharp.fluid} alt="" />
     </div>
   ) : (
     ``
