@@ -5,21 +5,19 @@ import _ from "lodash"
 import { graphql, useStaticQuery } from "gatsby"
 import Img from "gatsby-image"
 import GeneralLayout from "./../components/layouts/GeneralLayout"
-import RelatedByTitle from "./../components/RelatedByTitle"
+import RelatedByTitle2 from "./../components/RelatedByTitle2"
 import Blockquote from "./../components/atoms/Blockquote"
 import MarkdownIconParagraphsGroup from "./../components/organisms/MarkdownIconParagraphsGroup"
 import Markdown from "react-markdown"
 
 export default function Template({ _, location }) {
   const data = useStaticQuery(query)
-  console.log(data)
   let caseStudy = {}
   data.allStrapiCaseStudy.nodes.map((node, i) => {
     if (node.Path == "/case-study/" + location.href.split("/")[4]) {
       caseStudy = node
     }
   })
-  console.log(caseStudy.Related_Case_Studies)
 
   const figuresList = caseStudy.New_Style.Impact_Stat.map((stat, i) => (
     <div key={i}>
@@ -145,7 +143,7 @@ export default function Template({ _, location }) {
         <Markdown source={caseStudy.New_Style.Explore} escapeHtml={false} />
       </div>
       {caseStudy.Related_Case_Studies ? (
-        <RelatedByTitle posts={caseStudy.Related_Case_Studies} />
+        <RelatedByTitle2 posts={caseStudy.Related_Case_Studies} />
       ) : null}
     </GeneralLayout>
   )

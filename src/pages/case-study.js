@@ -69,7 +69,7 @@ export const query = graphql`
         }
       }
     }
-    allStrapiCaseStudy {
+    allStrapiCaseStudy(filter: { Featured: { eq: "True" } }) {
       nodes {
         id
         Path

@@ -12,7 +12,6 @@ export default function Template({ data, location }) {
   const { markdownRemark, allMarkdownRemark } = data
   const { frontmatter, html } = markdownRemark
   const { supplemental, cta_text, cta_link } = frontmatter
-  console.log(frontmatter)
 
   return (
     <GeneralLayout

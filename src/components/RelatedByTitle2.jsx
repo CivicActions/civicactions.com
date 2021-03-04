@@ -5,34 +5,25 @@ import { existy, filterPostsByTitle } from "../helpers"
 import CaseStudyTeaser from "./../components/CaseStudyTeaser"
 import SectionTitle from "./../components/atoms/SectionTitle"
 
-const RelatedByTitle = ({ posts, titles, customClasses }) => {
+const RelatedByTitle2 = ({ posts, customClasses }) => {
   const classes = customClasses
     ? customClasses
     : `section__related-content neutral-hex-bg`
-  const relatedContent = filterPostsByTitle(
-    posts.map(p =>
-      existy(p) && existy(p.node) && existy(p.node.frontmatter)
-        ? p.node.frontmatter
-        : null
-    ),
-    titles
-  )
-    .splice(0, 3)
-    .map((post, index) => {
-      const { title, preview_image, client_name, path } = post
+  const relatedContent = posts.splice(0, 3).map((post, index) => {
+    const { Title, Old_Style, Client_Name, Path } = post
 
-      const image =
-        preview_image !== null ? preview_image.childImageSharp.fixed : null
-      return (
-        <CaseStudyTeaser
-          title={title}
-          image={image}
-          client_name={client_name}
-          link={path}
-          key={index}
-        />
-      )
-    })
+    const image =
+      Old_Style !== null ? Old_Style.Preview_Image.childImageSharp.fixed : null
+    return (
+      <CaseStudyTeaser
+        title={Title}
+        image={image}
+        client_name={Client_Name}
+        link={Path}
+        key={index}
+      />
+    )
+  })
 
   if (relatedContent.length > 0) {
     return (
@@ -47,10 +38,9 @@ const RelatedByTitle = ({ posts, titles, customClasses }) => {
     return null
   }
 }
+export default RelatedByTitle2
 
-export default RelatedByTitle
-
-RelatedByTitle.Proptypes = {
+RelatedByTitle2.Proptypes = {
   posts: PropTypes.object,
   titles: PropTypes.array,
 }

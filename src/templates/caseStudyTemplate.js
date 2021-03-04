@@ -6,18 +6,15 @@ import { graphql, useStaticQuery } from "gatsby"
 import GeneralLayout from "./../components/layouts/GeneralLayout"
 import Markdown from "react-markdown"
 import ImageSlider from "./../components/organisms/ImageSlider"
-import RelatedByTitle from "./../components/RelatedByTitle"
+import RelatedByTitle2 from "./../components/RelatedByTitle2"
 
 export default function Template({ _, location }) {
   const data = useStaticQuery(query)
-  console.log(data)
-  let caseStudy = {}
   data.allStrapiCaseStudy.nodes.map((node, i) => {
     if (node.Path == "/case-study/" + location.href.split("/")[4]) {
       caseStudy = node
     }
   })
-  console.log(caseStudy)
   return (
     <GeneralLayout
       heroTitle={caseStudy.Title}
@@ -66,7 +63,7 @@ export default function Template({ _, location }) {
         </div>
       </div>
       {caseStudy.Related_Case_Studies ? (
-        <RelatedByTitle posts={caseStudy.Related_Case_Studies} />
+        <RelatedByTitle2 posts={caseStudy.Related_Case_Studies} />
       ) : null}
     </GeneralLayout>
   )
