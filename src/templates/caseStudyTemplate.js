@@ -10,6 +10,7 @@ import RelatedByTitle2 from "./../components/RelatedByTitle2"
 
 export default function Template({ _, location }) {
   const data = useStaticQuery(query)
+  let caseStudy = {}
   data.allStrapiCaseStudy.nodes.map((node, i) => {
     if (node.Path == "/case-study/" + location.href.split("/")[4]) {
       caseStudy = node
