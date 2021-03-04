@@ -6,7 +6,7 @@ import MarkdownIconParagraph from "./../atoms/MarkdownIconParagraph"
 const MarkdownIconParagraphsGroup = ({ outcomes }) => {
   const outcomesList = outcomes.map((outcome, index) => {
     const image = outcome.Icon
-      ? "https://strapi.prod.civicactions.dev" + outcome.Icon[0].url
+      ? `${process.env.GATSBY_STRAPI_URL}` + outcome.Icon[0].url
       : ``
     const { Title, Caption } = outcome
 

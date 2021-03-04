@@ -49,7 +49,7 @@ class ImageSlider extends Component {
           return (
             <SlideImage
               key={index}
-              url={"https://strapi.prod.civicactions.dev" + image.url}
+              url={`${process.env.GATSBY_STRAPI_URL}` + image.url}
               alt={image.alternativeText}
               caption={image.caption}
             />

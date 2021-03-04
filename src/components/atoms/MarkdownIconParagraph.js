@@ -22,7 +22,11 @@ const MarkdownIconParagraph = ({
     <div className={iconClass}>
       {image}
       <p className="iconparagraph__heading"> {icon_heading} </p>
-      <Markdown source={icon_text} escapeHtml={false} />
+      <Markdown
+        className="iconparagraph__text"
+        source={icon_text}
+        escapeHtml={false}
+      />
     </div>
   )
 }
