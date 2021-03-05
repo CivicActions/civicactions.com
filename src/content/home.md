@@ -61,7 +61,6 @@ government_services:
   }
 
 ---
-We focus on outcomes and help organizations accomplish their missions through:
-* Agile approaches and human-centered design
-* Culture of openness, learning, and collaboration
-* Modern technologies and continuous improvement
+We focus on outcomes and help organizations accomplish their missions through modern technology, a culture of collaboration, and human centered design.
+
+Looking for the DITAP certification program? **[Start here](https://civicactions.com/ditap)**.
