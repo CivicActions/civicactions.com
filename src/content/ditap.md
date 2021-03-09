@@ -23,36 +23,54 @@ supplemental: [
 ]
 ---
 
-### Make procurement work for government
+### Key program details 
 
-Traditional procurement practices make it hard for government to effectively buy and implement modern IT services. As the tech landscape continues to evolve and public expectation of digital services increases, federal agencies must change the way they engage with industry and acquire technology. 
+**Dates**  
+* This is an approximately 6-month program. The current program starts on March 16th, 2021 and ends on the week of August 16th, 2021. 
+* These 60 to 90 minute classes are mostly held on Tuesdays and Thursdays. A detailed schedule for each cohort is available on request.
 
-Our part-time DITAP training course helps you acquire the knowledge and skills needed for modern procurement in about 6 months.
+**Certification & Continuous Learning Points (CLPs)**  
+* Earn the FAC-C-DS certification and up to 80 Continuous Learning Points (CLP) by mastering the skills needed for successful procurements in today’s digital world.
+
+**Prerequisites**  
+* You must have at least a FAC-C Level II certification, or at a minimum, be working towards your FAC-C Level II certification with a planned completion prior to the DITAP program’s conclusion.
+* If you don’t meet this prerequisite, it may be waived by your agency's Senior Procurement Executive. This decision must be documented in writing and provided to the agency Acquisition Career Manager. (See the [Establishment for DITAP Memo](https://techfarhub.cio.gov/assets/files/FAC_C_Digital_Services_5-18-18.pdf)).
+
+**Tuition Cost**  
+* $7500 per student
+* Contact us to inquire about special rates for a dedicated cohort
+
+**Apply for training**  
+* The extended deadline for registration for the upcoming DITAP program is March 12. After that date, acceptance into the program will be reviewed case-by-case.
+* To express interest in this or a future training, [contact us](https://docs.google.com/forms/d/e/1FAIpQLSemgXA14YzlPZdV1H9fOfT60DQ7lwGOQ8z8gPaCU1nysmiVWQ/viewform)!
+
 
 ### What you'll learn
-#### Digital services in 21st century government
+
+**Digital services in 21st century government**  
 The basics of modern digital services such as agile software delivery, human centered design, cloud computing, and X-as-a-service
 
-#### Understand what you are buying 
+**Understand what you are buying**  
 Skills to assess your customer’s needs, conduct market research, and figure out what digital solutions are the best fit
 
-#### How to buy  
+**How to buy**  
 Developing an acquisition strategy that accounts for customer needs, your agency’s digital maturity, and what services are available on the market
 
-#### Awarding digital service contracts 
+**Awarding digital service contracts**  
 Developing an acquisition strategy that accounts for customer needs, your agency’s digital maturity, and what services are available on the market
 
-#### Leading change
+**Leading change**  
 Leadership and communication skills to help you be an ambassador for digital transformation and get stakeholder buy-in
 
 ### How you'll learn
-#### Blended learning experience
+
+**Blended learning experience**  
 The DITAP curriculum includes a variety of learning mechanisms such as group discussions, interviewing and shadowing assignments, live virtual classes and case studies, and other dynamic elements to help you master concepts and practice techniques.
 
-#### Community focus
+**Community focus**  
 Our approach to DITAP is founded on the ethos of open sharing and collaboration essential to the success of digital service delivery. Learn alongside colleagues (from your own agency or with a blended group) who will become your future support network through participation in the DITAP alumni open learning community.
 
-#### Expert, invested coaches
+**Expert, invested coaches**  
 Our instructors bring years of training and change management experience in government to help you become a champion for modern procurement practices. 
 
 
@@ -60,9 +78,6 @@ Our instructors bring years of training and change management experience in gove
 "My attendance in this class has exposed me to new material and resources to assist me in my day to day job. Thank you for this opportunity!"
 <cite>DITAP alum, July 2020 cohort </cite>
 </blockquote>
-
-### Upcoming courses
-The next available dates for DITAP training will be announced soon. [Apply now](https://forms.gle/xsMmrwcBxtbCfLRa8) to be informed about upcoming classes and tuition pricing.
 
 ### FAQ
 **How is classroom training delivered during COVID-19?**  
@@ -81,7 +96,7 @@ The U.S. Digital Service and Office of Federal Procurement Policy created the Di
 Starting in 2022, all federal acquisition professionals managing contracts of $7M or greater will need the Federal Acquisition Certification in Contracting Core-Plus Specialization in Digital Services (FAC-C-DS) certification provided by DITAP training.
 
 **When does the next DITAP training begin?**  
-Two cohorts of DITAP students graduated in July 2020. New class opportunities will be announced in the coming months.
+The current program starts on March 16th, 2021 and ends on the week of August 16th, 2021. To apply for this or a future training, [contact us](https://docs.google.com/forms/d/e/1FAIpQLSemgXA14YzlPZdV1H9fOfT60DQ7lwGOQ8z8gPaCU1nysmiVWQ/viewform)!
 
 <blockquote>
 "This might be one of the most impactful things the USDS does over time."
