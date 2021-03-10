@@ -61,6 +61,6 @@ government_services:
   }
 
 ---
-We focus on outcomes and help organizations accomplish their missions through modern technology, a culture of collaboration, and human centered design.
+Bringing government services up to today's standards requires new ways of thinking and working.  
 
-Looking for the DITAP certification program? **[Start here](https://civicactions.com/ditap)**.
+We can help you improve how people, process, and technology work together at your agency for lasting digital transformation.
