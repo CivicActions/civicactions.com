@@ -25,19 +25,19 @@ quotes:
   }
 medium_teasers: 
 - {
-  title: 'In Brief: ACT-IAC CX Summit 2020',
-  link: 'https://medium.com/civicactions/in-brief-act-iac-cx-summit-2020-2f6eb62b6f86',
- date: 'November 30, 2020'
+  title: 'What is data science, really?',
+  link: 'https://medium.com/civicactions/what-is-data-science-really-232552fc080a',
+ date: 'March 8, 2021'
 }
 - {
-  title: 'What 20 data managers at every level of government had to say about their work',
-  link: 'https://medium.com/civicactions/what-20-data-managers-at-every-level-of-government-had-to-say-about-their-work-6bf1b13e900d',
- date: 'October 23, 2020'
+  title: 'Policy recommendations for improving the ATO process through Compliance As Code',
+  link: 'https://medium.com/civicactions/policy-recommendations-for-improving-the-ato-process-through-compliance-as-code-524e3005fceb',
+ date: 'February 16, 2021'
 }
 - {
-  title: '4 ways to improve government accessibility through open source',
-  link: 'https://medium.com/civicactions/4-ways-to-improve-government-accessibility-through-open-source-8e20fabc7281',
- date: 'October 5, 2020'
+  title: 'Whitehouse.gov: Beginning an accessibility journey',
+  link: 'https://medium.com/civicactions/whitehouse-gov-makes-an-accessibility-statement-5de37580209',
+ date: 'February 2, 2021'
 }
 government_services_title: Modernizing government services
 government_services:
