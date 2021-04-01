@@ -26,7 +26,7 @@ supplemental: [
 ### Key program details 
 
 **Dates**  
-* This is an approximately 6-month program. The current program starts on March 16th, 2021 and ends on the week of August 16th, 2021. 
+* This is an approximately 6-month program. Open enrollment dates will be announced soon. 
 * These 60 to 90 minute classes are mostly held on Tuesdays and Thursdays. A detailed schedule for each cohort is available on request.
 
 **Certification & Continuous Learning Points (CLPs)**  
@@ -41,8 +41,8 @@ supplemental: [
 * Contact us to inquire about special rates for a dedicated cohort
 
 **Apply for training**  
-* The extended deadline for registration for the upcoming DITAP program is March 12. After that date, acceptance into the program will be reviewed case-by-case.
-* To express interest in this or a future training, [contact us](https://docs.google.com/forms/d/e/1FAIpQLSemgXA14YzlPZdV1H9fOfT60DQ7lwGOQ8z8gPaCU1nysmiVWQ/viewform)!
+* Open enrollment dates will be announced soon.
+* To express interest in DITAP training, [contact us](https://docs.google.com/forms/d/e/1FAIpQLSemgXA14YzlPZdV1H9fOfT60DQ7lwGOQ8z8gPaCU1nysmiVWQ/viewform)!
 
 
 ### What you'll learn
@@ -96,7 +96,7 @@ The U.S. Digital Service and Office of Federal Procurement Policy created the Di
 Starting in 2022, all federal acquisition professionals managing contracts of $7M or greater will need the Federal Acquisition Certification in Contracting Core-Plus Specialization in Digital Services (FAC-C-DS) certification provided by DITAP training.
 
 **When does the next DITAP training begin?**  
-The current program starts on March 16th, 2021 and ends on the week of August 16th, 2021. To apply for this or a future training, [contact us](https://docs.google.com/forms/d/e/1FAIpQLSemgXA14YzlPZdV1H9fOfT60DQ7lwGOQ8z8gPaCU1nysmiVWQ/viewform)!
+Open enrollment dates will be announced soon. To apply for DITAP training, [contact us](https://docs.google.com/forms/d/e/1FAIpQLSemgXA14YzlPZdV1H9fOfT60DQ7lwGOQ8z8gPaCU1nysmiVWQ/viewform)!
 
 <blockquote>
 "This might be one of the most impactful things the USDS does over time."
