@@ -1,5 +1,5 @@
 ---
-path: /press/2020-11-09-civicactions-wins-library-of-congress-contract
+path: /press/2020-04-14-civicactions-wins-library-of-congress-contract
 type: press-sub-page
 published: 1
 title: U.S. Library of Congress awards CivicActions and Ad Hoc contract for legacy system modernization
