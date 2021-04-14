@@ -1,7 +1,7 @@
 ---
 path: /press/2021-04-12-civicactions-wins-uspto-contract
 type: press-sub-page
-published: 0
+published: 1
 title: U.S. Patent and Trademark Office awards CivicActions and Halvik contract to modernize legacy federal systems
  
 ---
