@@ -57,7 +57,7 @@ Skills to assess your customer’s needs, conduct market research, and figure ou
 Developing an acquisition strategy that accounts for customer needs, your agency’s digital maturity, and what services are available on the market
 
 **Awarding digital service contracts**  
-Developing an acquisition strategy that accounts for customer needs, your agency’s digital maturity, and what services are available on the market
+Conducting and awarding Digital Service contracts, using and applying metrics and incentives appropriately, and applying proper course correction when necessary 
 
 **Leading change**  
 Leadership and communication skills to help you be an ambassador for digital transformation and get stakeholder buy-in
