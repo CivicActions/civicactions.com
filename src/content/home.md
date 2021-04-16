@@ -42,10 +42,10 @@ medium_teasers:
 government_services_title: Modernizing government services
 government_services:
 - {
-    title: 'Contracting and Capabilities',
-    image: './government-services-images/contractingCapabilities.jpg',
-    text: 'Years of work in the public sector have taught us how to meet the needs of today’s government.',
-    link: '/capabilities',
+    title: 'Distributed Teams in Government',
+    image: './government-services-images/distributed-teams.jpg',
+    text: 'We provide consulting and training to help agencies embrace long-term telework at scale.',
+    link: 'https://distributedgov.com/',
   }
 - {
     title: 'DKAN and Open Data',
