@@ -43,8 +43,8 @@ government_services_title: Modernizing government services
 government_services:
 - {
     title: 'Distributed Teams in Government',
-    image: './government-services-images/distributed-teams.jpg',
-    text: 'We provide consulting and training to help agencies embrace long-term telework at scale.',
+    image: './government-services-images/distributed-teams.png',
+    text: 'We provide consulting and training to help agencies adopt long-term telework at scale.',
     link: 'https://distributedgov.com/',
   }
 - {
