@@ -16,9 +16,9 @@ quotes:
     author: "Ashish Kumar, Engineer"
 }
 - {
-    image: './team-members/images/kim-davidson.jpg',
-    text: "We constantly figure out how to do what needs to be done, so we automatically grow. Then we share our learnings with others.",
-    author: "Kim Davidson, Project Manager"
+    image: './team-members/images/melinda-burgess.jpg',
+    text: "This is a team that isn't afraid to tackle hard problems in order to accomplish the greatest impact.",
+    author: "Melinda Burgess, Content Strategist"
 }
 image_band:
 - './image-band/IMG_20170918_154333.jpg'
