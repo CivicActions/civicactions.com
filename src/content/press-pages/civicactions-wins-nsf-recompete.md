@@ -1,5 +1,5 @@
 ---
-path: /press-item/civicactions-wins-nsf-recompete
+path: /press-item/2021-05-03-civicactions-wins-nsf-recompete
 type: press
 title: 'NSF Awards CivicActions $44M Contract for CMS Support and Improvement of Federal Science Research Website'
 date: "2021-05-03"
