@@ -4,7 +4,7 @@ type: press
 title: 'NSF Awards CivicActions $44M Contract for CMS Support and Improvement of Federal Science Research Website'
 date: "2021-05-03"
 link_text: "NSF Awards CivicActions $44M Contract for CMS Support and Improvement of Federal Science Research Website"
-website: "https://civicactions.com/press-item/2021-05-03-civicactions-wins-nsf-recompete"
+website: "https://civicactions.com/press/2021-05-03-civicactions-wins-nsf-recompete"
 publication: "Press Release"
 
 ---
