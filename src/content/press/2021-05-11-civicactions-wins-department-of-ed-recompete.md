@@ -7,7 +7,7 @@ title: Department of Education awards CivicActions 5-year contract to advance ad
 ---
 Date: May 11, 2021
 
-[CivicActions](https://civicactions.com/) is pleased to announce that the Department of Education has awarded us a nearly $8M contract to continue supporting its Literacy and Information Communication System (LINCS), which helps adult learners prepare for 21st century jobs. 
+[CivicActions](https://civicactions.com/) is pleased to announce that the Department of Education has awarded us an $8.1M contract to continue supporting its Literacy and Information Communication System (LINCS), which helps adult learners prepare for 21st century jobs. 
 
 This 5-year contract was awarded through our General Services Administration (GSA) Multiple Award Schedule (MAS) contract. Work is slated to begin in spring 2021. Under this contract we will maintain, develop, enhance, and update the LINCS websites, web-based tools, databases, database search engines, streaming media, and content management and learning management systems. 
 
