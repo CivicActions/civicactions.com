@@ -9,4 +9,4 @@ publication: "Press Release"
 
 ---
 
-With the acquisition of OpenConcept, an industry leader in web accessibility through open source, we are increasing our commitment and capacity to create government digital services that are accessible to people of all abilities.
+We are proud to continue our work with the Department of Education to modernize the online experience of thousands of educators and learners. Under the newly awarded 5-year contract, we will apply agile and human-centered processes to improve technology systems powering the adult education community.
