@@ -39,12 +39,6 @@ pipeline {
                         latestImage.push("${env.GIT_COMMIT}-${env.BUILD_NUMBER}")
                         slackSend channel: 'homesite-bots', message: "Master branch built and image pushed successfully to Docker registry"
                     }
-                    docker.withRegistry('https://gcr.io', 'ca-it-prod-key') {
-                        def latestImage = docker.build("ca-it-prod-shared-5a2c/home", "--build-arg GATSBY_JAZZ_URL=${GATSBY_JAZZ_URL} --pull .")
-                        latestImage.push("latest")
-                        latestImage.push("${env.GIT_COMMIT}-${env.BUILD_NUMBER}")
-                        slackSend channel: 'homesite-bots', message: "Master branch built and image pushed successfully to Docker registry"
-                    }
                 }
             }
         }
