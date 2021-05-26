@@ -7,7 +7,7 @@ subtitle: We understand the complexities of helping public sector agencies procu
 
 ### Leaders in Government Innovation
 
-* Named to Government Technology “GovTech 100” list 2017 - 2019 
+* Named to Government Technology “GovTech 100” list 2017 - 2021 
 * Former U.S. Digital Service (USDS) experience
 * Founders of [AGL Association](https://www.agilegovleaders.org/ "Agile Government Leadership") to support government innovators
 * Maintainers of open source open data platform [DKAN](https://getdkan.org/ "DKAN") and members of the [Data Coalition](https://www.datacoalition.org/)
@@ -18,15 +18,15 @@ subtitle: We understand the complexities of helping public sector agencies procu
 
 ### Core Competencies 
 
-* Drupal 5, 6, 7, 8
+* Drupal 5, 6, 7, 8, 9
 * Free and Open-Source Software (FOSS) Development
 * Open Data Platform Development (including DKAN)
-* DevOps
+* DevOps & DevSecOps
 * User Support
 * User Experience (UX)
 * Agile Methodologies
 * Security and Compliance
-* Education Services
+* Workforce Development
 * Human-Centered Design
 * Quality Assurance and Testing	
 * Content and Learning Management Systems
