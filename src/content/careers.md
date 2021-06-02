@@ -12,7 +12,7 @@ quotes:
   }
   - {
     image: './team-members/images/marlena-medford.jpg',
-    text: 'It's gratifying to work with smart, compassionate people who are positively impacting millions of Americans every day.',
+    text: "It's gratifying to work with smart, compassionate people who are positively impacting millions of Americans every day.",
     author: 'Marlena Medford, Marketing Strategist'
   }
   - {
