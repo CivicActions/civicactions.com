@@ -11,9 +11,9 @@ quotes:
     author: 'Jen Harris, User Experience Designer'
   }
   - {
-    image: './team-members/images/gerardo-gonzalez.jpg',
-    text: 'You can carve a path in the company where a true sense of ownership is felt.',
-    author: 'Gerardo Gonzalez, Engineer'
+    image: './team-members/images/marlena-medford.jpg',
+    text: 'It's gratifying to work with smart, compassionate people who are positively impacting millions of Americans every day.',
+    author: 'Marlena Medford, Marketing Strategist'
   }
   - {
     image: './team-members/images/stefanie-gray.jpg',
