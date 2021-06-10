@@ -6,7 +6,7 @@ type: page
 title: "DITAP Training"
 subtitle: 'We support the Digital IT Acquisition Professional (DITAP) program to train federal contracting officers in the skills needed for successful modern digital service procurements.'
 cta_text: "Request Training"
-cta_link: "https://forms.gle/xsMmrwcBxtbCfLRa8"
+cta_link: "https://docs.google.com/forms/d/e/1FAIpQLSdKpPjmE2M1Dof9fvp6TatQxVhIaDyq33iJ6X1ucUbRIYM0LQ/viewform"
 supplemental: [
   {
     label: "Certification",
@@ -26,7 +26,7 @@ supplemental: [
 ### Key program details 
 
 **Dates**  
-* This is an approximately 6-month program. Open enrollment dates will be announced soon. 
+* This is an approximately 6-month program. The next class begins July 20.
 * These 60 to 90 minute classes are mostly held on Tuesdays and Thursdays. A detailed schedule for each cohort is available on request.
 
 **Certification & Continuous Learning Points (CLPs)**  
@@ -37,12 +37,12 @@ supplemental: [
 * If you don’t meet this prerequisite, it may be waived by your agency's Senior Procurement Executive. This decision must be documented in writing and provided to the agency Acquisition Career Manager. (See the [Establishment for DITAP Memo](https://techfarhub.cio.gov/assets/files/FAC_C_Digital_Services_5-18-18.pdf)).
 
 **Tuition Cost**  
-* $7500 per student
+* $7000 per student
 * Contact us to inquire about special rates for a dedicated cohort
 
 **Apply for training**  
-* Open enrollment dates will be announced soon.
-* To express interest in DITAP training, [contact us](https://docs.google.com/forms/d/e/1FAIpQLSemgXA14YzlPZdV1H9fOfT60DQ7lwGOQ8z8gPaCU1nysmiVWQ/viewform)!
+* Enrollment is open now for the July Cohort. (You can also request training for a later date.)
+* To request DITAP training, [apply here](https://docs.google.com/forms/d/e/1FAIpQLSdKpPjmE2M1Dof9fvp6TatQxVhIaDyq33iJ6X1ucUbRIYM0LQ/viewform)!
 
 
 ### What you'll learn
@@ -76,7 +76,7 @@ Our instructors bring years of training and change management experience in gove
 
 <blockquote>
 "My attendance in this class has exposed me to new material and resources to assist me in my day to day job. Thank you for this opportunity!"
-<cite>DITAP alum, July 2020 cohort </cite>
+<cite>DITAP graduate </cite>
 </blockquote>
 
 ### FAQ
@@ -96,9 +96,5 @@ The U.S. Digital Service and Office of Federal Procurement Policy created the Di
 Starting in 2022, all federal acquisition professionals managing contracts of $7M or greater will need the Federal Acquisition Certification in Contracting Core-Plus Specialization in Digital Services (FAC-C-DS) certification provided by DITAP training.
 
 **When does the next DITAP training begin?**  
-Open enrollment dates will be announced soon. To apply for DITAP training, [contact us](https://docs.google.com/forms/d/e/1FAIpQLSemgXA14YzlPZdV1H9fOfT60DQ7lwGOQ8z8gPaCU1nysmiVWQ/viewform)!
+Enrollment is open now for the July Cohort. You can also request training for a later date. To apply for DITAP training, [apply here](https://docs.google.com/forms/d/e/1FAIpQLSdKpPjmE2M1Dof9fvp6TatQxVhIaDyq33iJ6X1ucUbRIYM0LQ/viewform)!
 
-<blockquote>
-"This might be one of the most impactful things the USDS does over time."
-<cite>Eddie Hartwig, U.S. Digital Service Acting Deputy Director </cite>
-</blockquote>
