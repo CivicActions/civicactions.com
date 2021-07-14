@@ -1,4 +1,7 @@
-# civicactions.com
+# civicactions.com ARCHIVE
+
+### NOTE: This repo has been archived - development continues at https://github.com/CivicActions/civicactions-homesite
+
 CivicActions home site
 =======
 
